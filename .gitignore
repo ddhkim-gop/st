@@ -1,0 +1,18 @@
+# ST League — data/ IS committed (the site fetches data/{year}/*.json directly)
+venv/
+.claude/
+__pycache__/
+*.pyc
+scripts/players_cache.json
+.DS_Store
+
+# graft's local graph cache — regenerable, not committed (run `graft build`).
+graft/
+.highlights_video_cache.json
+.games_cache.csv
+
+# Session activity log — contains agent summaries naming the league. Local only.
+.agent-activity.jsonl
+
+# Local notes — explain where the league name points. Not published.
+st-notes.md
