@@ -812,10 +812,28 @@ async function loadTeamReel(teamName) {
     };
 
     body.innerHTML = tweets.map((t, i) => {
+        const isX = !!t.url && /(?:^|\/\/|\.)(?:x|twitter)\.com\//i.test(t.url);
+        // Brief description of the play for the tag line. The source text (ESPN
+        // headline or tweet) already names the player, so strip a leading name so
+        // it reads as the action ("powers in for a Ravens TD"), and trim length.
+        const briefDesc = (() => {
+            let s = (t.text || "").replace(/\s+/g, " ").trim();
+            for (const nm of String(t.player || "").split("&").map(x => x.trim())) {
+                if (nm && s.toLowerCase().startsWith(nm.toLowerCase()))
+                    s = s.slice(nm.length).replace(/^[\s:.,–-]+/, "");
+            }
+            s = s.replace(/\s+#\w+/g, "").trim();      // drop trailing hashtags
+            return s.length > 100 ? s.slice(0, 98).replace(/\s+\S*$/, "") + "…" : s;
+        })();
         const tag = `
-          <div style="display:flex;gap:7px;align-items:baseline;margin:0 2px 5px;">
-            <span style="font-size:11px;font-weight:700;color:#8b919c;">${esc(t.player || "")}</span>
-            <span style="font-size:11px;color:#5a6070;">${esc(t.meta || "")}</span>
+          <div style="margin:0 2px 5px;">
+            <div style="display:flex;gap:7px;align-items:baseline;">
+              <span style="font-size:11px;font-weight:700;color:#8b919c;">${esc(t.player || "")}</span>
+              <span style="font-size:11px;color:#5a6070;">${esc(t.meta || "")}</span>
+              ${t.game_time ? `<span style="font-size:11px;color:#4299e1;font-weight:600;">${esc(t.game_time)}</span>` : ""}
+            </div>
+            ${briefDesc ? `<div style="font-size:11.5px;color:#6b7280;line-height:1.35;
+                          margin-top:2px;">${esc(briefDesc)}</div>` : ""}
           </div>`;
         if (!t.video) {
             // No direct mp4 resolved. Rather than fall back to X's widget -
@@ -831,6 +849,16 @@ async function loadTeamReel(teamName) {
         }
         const handle = esc(t.author || "");
         const name = esc(t.author_name || t.author || "");
+        // Card chrome depends on source (isX computed above): X keeps the post
+        // chrome (@handle · Follow, X mark); others link to the source, show its
+        // host, and use a neutral "watch at source" corner mark.
+        const srcHref = esc(t.url || "");
+        const profileHref = isX ? `https://x.com/${handle}` : srcHref;
+        const host = (t.url || "").replace(/^https?:\/\//, "").split("/")[0]
+                                  .replace(/^www\./, "") || name;
+        const extMark = `<svg viewBox="0 0 24 24" width="15" height="15" aria-hidden="true"
+            fill="none" stroke="${XS.dim}" stroke-width="2" stroke-linecap="round"
+            stroke-linejoin="round"><path d="M7 17L17 7M17 7H8M17 7v9"/></svg>`;
         const avatar = t.avatar
             ? `<img src="${esc(t.avatar)}" alt="" loading="lazy"
                     style="width:38px;height:38px;border-radius:50%;flex:0 0 38px;
@@ -841,11 +869,11 @@ async function loadTeamReel(teamName) {
           <div style="border:1px solid ${XS.line};border-radius:14px;background:${XS.bg};
                       font-family:${XS.font};padding:13px 14px 11px;">
             <div style="display:flex;gap:9px;align-items:flex-start;">
-              <a href="https://x.com/${handle}" target="_blank" rel="noopener"
+              <a href="${profileHref}" target="_blank" rel="noopener"
                  style="line-height:0;">${avatar}</a>
               <div style="min-width:0;flex:1;">
                 <div style="display:flex;align-items:center;gap:4px;">
-                  <a href="https://x.com/${handle}" target="_blank" rel="noopener"
+                  <a href="${profileHref}" target="_blank" rel="noopener"
                      style="font-size:13.5px;font-weight:700;color:${XS.text};
                             text-decoration:none;white-space:nowrap;overflow:hidden;
                             text-overflow:ellipsis;">${name}</a>
@@ -853,15 +881,18 @@ async function loadTeamReel(teamName) {
                 </div>
                 <div style="font-size:12.5px;color:${XS.dim};margin-top:1px;
                             white-space:nowrap;overflow:hidden;text-overflow:ellipsis;">
-                  @${handle} ·
-                  <a href="https://x.com/${handle}" target="_blank" rel="noopener"
-                     style="color:${XS.blue};text-decoration:none;font-weight:400;">Follow</a>
+                  ${isX
+                    ? `@${handle} · <a href="https://x.com/${handle}" target="_blank"
+                         rel="noopener" style="color:${XS.blue};text-decoration:none;
+                         font-weight:400;">Follow</a>`
+                    : esc(host)}
                 </div>
               </div>
-              <a href="${esc(t.url)}" target="_blank" rel="noopener" title="View on X"
-                 style="line-height:0;flex:0 0 15px;">${xmark}</a>
+              <a href="${srcHref}" target="_blank" rel="noopener"
+                 title="${isX ? 'View on X' : 'Watch at ' + esc(name)}"
+                 style="line-height:0;flex:0 0 15px;">${isX ? xmark : extMark}</a>
             </div>
-            ${t.text ? `<div style="font-size:13px;line-height:1.45;color:${XS.text};
+            ${(t.text && isX) ? `<div style="font-size:13px;line-height:1.45;color:${XS.text};
                                     margin:10px 0 0;white-space:pre-wrap;
                                     word-break:break-word;">${esc(t.text)}</div>` : ""}
             <div style="margin-top:10px;border:1px solid ${XS.line};border-radius:12px;

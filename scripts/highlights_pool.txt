@@ -1,110 +1,295 @@
-# Candidate X post URLs for assets/highlights/*.json.
-# One per line. build_highlights.py screens these: the post must carry
-# video, must not come from an advice/podcast/news account, and its text
-# must describe a play rather than a take. Survivors are then watched;
-# verdicts land in highlights_reviewed.json.
 #
-# Pruned 2026-09-06: URLs with no video, and posts watched and rejected,
-# are recorded at the bottom so they are never re-fetched or re-added.
-
-https://x.com/ChiSportsTracks/status/2095307339750404405
-https://x.com/UnderdogNFL/status/2094869543046795763
-https://x.com/SleeperPackers/status/2091917085068706125
-https://x.com/DreareaSports/status/2091624681573146837
-https://x.com/Schultz_Report/status/2090918231456301160
+----
+2026-09-06:
+Candidate
+One
+Pruned
+Survivors
+URLs
+X
+a
+account,
+advice/podcast/news
+an
+and
+are
+assets/highlights/*.json.
+at
+bottom
+build_highlights.py
+carry
+come
+describe
+do
+for
+from
+highlights_reviewed.json.
+https://www.espn.com/video/clip/_/id/49929656/derrick-henry-powers-ravens-td
+https://www.espn.com/video/clip/_/id/49929790/josh-allen-bulldozes-21-yards-td
+https://www.espn.com/video/clip/_/id/49929847/bijan-robinson-scores-first-falcons-td
+https://www.espn.com/video/clip/_/id/49929925/caleb-williams-dimes-cole-kmet-22-yard-td
+https://www.espn.com/video/clip/_/id/49930018/bryce-young-airs-one-51-yards-td
+https://www.espn.com/video/clip/_/id/49930102/trevor-lawrence-finds-brenton-strange-jags-td
+https://www.espn.com/video/clip/_/id/49930143/zay-flowers-dances-defense-ravens-td
+https://www.espn.com/video/clip/_/id/49930253/bryce-young-motors-panthers-td
+https://www.espn.com/video/clip/_/id/49930255/derrick-henry-stiff-arms-defender-32-yard-td
+https://www.espn.com/video/clip/_/id/49930288/josh-cameron-makes-nice-snare-trevor-lawrence-pass-td
+https://www.espn.com/video/clip/_/id/49930429/jonathan-taylor-dashes-colts-td
+https://www.espn.com/video/clip/_/id/49930540/caleb-williams-escapes-pressure-scrambles-29-yard-td
+https://www.espn.com/video/clip/_/id/49930626/josh-allen-dj-moore-link-td-late-1st-half
+https://www.espn.com/video/clip/_/id/49930775/aaron-rodgers-scrambles-hits-pat-freiermuth-td
+https://www.espn.com/video/clip/_/id/49930778/breece-hall-motors-jets-td
+https://www.espn.com/video/clip/_/id/49930930/jared-goff-finds-amon-ra-st-brown-another-lions-td
+https://www.espn.com/video/clip/_/id/49930998/trevor-lawrence-evades-browns-fires-jakobi-meyers-td
+https://www.espn.com/video/clip/_/id/49931032/kendre-miller-scores-saints-1st-td-season
+https://www.espn.com/video/clip/_/id/49931174/tyler-shough-lofts-td-pass-devaughn-vele
+https://www.espn.com/video/clip/_/id/49931178/titans-rookie-wr-carnell-tate-secures-first-nfl-catch
+https://www.espn.com/video/clip/_/id/49931202/dandre-swift-punches-put-bears-front
+https://www.espn.com/video/clip/_/id/49931277/derrick-henry-runs-3rd-td-game-ravens
+https://www.espn.com/video/clip/_/id/49931282/david-montgomery-scores-3rd-td-game
+https://www.espn.com/video/clip/_/id/49931311/deshaun-watson-airs-46-yard-td-pass-denzel-boston
+https://www.espn.com/video/clip/_/id/49931375/kenyon-sadiq-scores-opening-td-jets
+https://www.espn.com/video/clip/_/id/49931376/kyle-monangai-breaks-panthers-defense-61-yard-td
+https://www.espn.com/video/clip/_/id/49931532/tyler-warren-dives-colts-td
+https://www.espn.com/video/clip/_/id/49931705/adonai-mitchell-completes-40-yard-reception-jets
+https://www.espn.com/video/clip/_/id/49931845/josh-allen-puts-bills-ahead-4th-34-yard-td-pass-joshua-palmer
+https://www.espn.com/video/clip/_/id/49932064/geno-smith-connects-garrett-wilson-31-yard-reception
+https://www.espn.com/video/clip/_/id/49932419/jordan-love-hooks-christian-watson-81-yard-packers-td
+https://www.espn.com/video/clip/_/id/49932735/jeremiyah-love-scores-first-nfl-td
+https://www.espn.com/video/clip/_/id/49932761/omarion-hampton-breaks-multiple-tackles-way-chargers-td
+https://www.espn.com/video/clip/_/id/49933338/carson-wentz-finds-justin-jefferson-deep-vikings-td
+https://www.espn.com/video/clip/_/id/49933582/jack-bech-barrels-15-yard-raiders-td
+https://www.espn.com/video/clip/_/id/49933604/jalen-hurts-hits-dallas-goedert-eagles-first-td-season
+https://www.espn.com/video/clip/_/id/49933789/jacory-croskey-merritt-reaches-goal-line-commanders-td
+https://www.espn.com/video/clip/_/id/49933790/ashton-jeanty-walks-endzone
+https://www.espn.com/video/clip/_/id/49933851/jalen-hurts-fires-dot-2nd-td-game
+https://www.espn.com/video/clip/_/id/49933880/justin-herbert-slings-ladd-mcconkey-chargers-td
+https://www.espn.com/video/clip/_/id/49933977/ashton-jeanty-flies-2nd-catch-run-td-game
+https://www.espn.com/video/clip/_/id/49934282/jacoby-brissett-tosses-trey-mcbride-cardinals-td
+https://www.espn.com/video/clip/_/id/49934508/aaron-jones-sr-scores-go-ahead-td-minnesota
+https://www.espn.com/video/clip/_/id/49934558/dallas-goedert-takes-42-yards-house-eagles
+https://www.espn.com/video/clip/_/id/49934604/jaylen-wright-takes-kick-return-78-yards-red-zone
+https://www.espn.com/video/clip/_/id/49934700/justin-jefferson-dives-pylon-pad-vikings-lead
+https://www.espn.com/video/clip/_/id/49935268/cam-skattebo-walks-end-zone-giants-td
+https://www.espn.com/video/clip/_/id/49935777/dak-prescott-finds-ceedee-lamb-cowboys-td
+https://www.espn.com/video/clip/_/id/49936112/jaxson-dart-finds-wide-open-isaiah-likely-give-giants-lead
+https://www.espn.com/video/clip/_/id/49936495/javonte-williams-powers-goal-line-cowboys-td
+https://www.espn.com/video/clip/_/id/49936650/javonte-williams-trolls-giants-defender-walks-end-zone
+https://www.espn.com/video/clip/_/id/49939719/how-heck-did-rome-odunze-make-jaw-dropping-catch
+https://www.espn.com/video/clip/_/id/49944852/pat-mahomes-fired-awesome-rushing-td
+https://www.espn.com/video/clip/_/id/49944961/bo-nix-dots-evan-engram-put-broncos-board
+https://www.espn.com/video/clip/_/id/49945388/rashee-rice-breaks-multiple-tackles-en-route-chiefs-td
+https://www.espn.com/video/clip/_/id/49945548/kenneth-walker-iii-breaks-free-electric-60-yard-chiefs-td
+https://www.espn.com/video/clip/_/id/49945880/chiefs-kingdom-taylor-swift-loving-travis-kelce-big-1st-down
+https://www.espn.com/video/clip/_/id/49946028/kenneth-walker-iii-finds-pay-dirt-2nd-td
 https://x.com/AFantasyFormula/status/2090575974840561965
-https://x.com/FFPhinest/status/2095346301269357032
-https://x.com/Patriots/status/2090450125705416940
-https://x.com/OwenGregorian/status/2096200858102813005
-https://x.com/balls_out_bets/status/2096092955010273406
-https://x.com/Jojo2008_lee/status/2096034892287221948
-https://x.com/dawhitehousepod/status/2096011194247069748
-https://x.com/LosTalksPats/status/2095882928266031584
-https://x.com/RCBTweets/status/2095858475142390244
+https://x.com/AdamSchefter/status/2095964161415196956
+https://x.com/AdamSchefter/status/2096016706699186554
+https://x.com/AdamSchefter/status/2096033493306286233
+https://x.com/AdamSchefter/status/2096056819185508526
+https://x.com/AdamSchefter/status/2096112170043863469
+https://x.com/AdamSchefter/status/2096212863450743206
+https://x.com/AdamSchefter/status/2096226172325466319
+https://x.com/AdamSchefter/status/2096244696242954731
 https://x.com/BigVeks/status/2095857678534795378
+https://x.com/BleacherReport/status/2096227598846341556
+https://x.com/ChiSportsTracks/status/2095307339750404405
+https://x.com/DreareaSports/status/2091624681573146837
+https://x.com/FFPhinest/status/2095346301269357032
+https://x.com/FantasyInjuryT/status/2099242235669708959
+https://x.com/FantasyPros/status/2095905904549867837
+https://x.com/FantasyPros/status/2095921840556319096
+https://x.com/FantasyPros/status/2095921982449516885
+https://x.com/FantasyPros/status/2095947312925233556
+https://x.com/FantasyPros/status/2095972419873673527
+https://x.com/FantasyPros/status/2095972420918100058
+https://x.com/FantasyPros/status/2095982989381358039
+https://x.com/FantasyPros/status/2095995327828627566
+https://x.com/FantasyPros/status/2095998691286958577
+https://x.com/FantasyPros/status/2096016962736320900
+https://x.com/FantasyPros/status/2096016963654860930
+https://x.com/FantasyPros/status/2096027029946724637
+https://x.com/FantasyPros/status/2096045903811424673
+https://x.com/FantasyPros/status/2096045904864145592
+https://x.com/FantasyPros/status/2096061254011867424
+https://x.com/FantasyPros/status/2096204955757518865
+https://x.com/FantasyPros/status/2096204956789346745
+https://x.com/FantasyPros/status/2096223670997831685
+https://x.com/FantasyPros/status/2096242952292929647
+https://x.com/FantasyPros/status/2096249000252887150
+https://x.com/FantasyPros/status/2096256794129494410
+https://x.com/FantasyPros/status/2096256795492630756
+https://x.com/FantasyPros/status/2096267190143963312
+https://x.com/JDurham_FBall/status/2098220723357597783
+https://x.com/JFowlerESPN/status/2096039707217953172
+https://x.com/JFowlerESPN/status/2096041783343894722
 https://x.com/JMichael_Smith/status/2095823418612457544
+https://x.com/Jack_Aylmer/status/2095950182378578007
+https://x.com/Jojo2008_lee/status/2096034892287221948
 https://x.com/Keepitonthedeck/status/2095792747437339027
-https://x.com/TristanThomasTV/status/2095748772588314625
+https://x.com/LosTalksPats/status/2095882928266031584
+https://x.com/MattHarmon_BYB/status/2087908039374352574
+https://x.com/MySportsUpdate/status/2095990222525735336
+https://x.com/NFL/status/2097878710779306133
+https://x.com/NFL/status/2098147658086912007
+https://x.com/NFL/status/2098150037343629473
+https://x.com/NFL/status/2098210866361671970
+https://x.com/NFL/status/2098224339447656814
+https://x.com/NFL/status/2098242171513999386
+https://x.com/NFL/status/2099205601394041343
+https://x.com/NFLTDsVideos/status/2098243863588540602
+https://x.com/NFLTDsVideos/status/2099189736858419294
+https://x.com/NFLTDsVideos/status/2099201418368262610
+https://x.com/NFLTDsVideos/status/2099201510022238387
+https://x.com/NFLTDsVideos/status/2099201630147158373
+https://x.com/NFLTDsVideos/status/2099201963774632420
+https://x.com/NFLTDsVideos/status/2099202050189938703
+https://x.com/NFLTDsVideos/status/2099202206729666657
+https://x.com/NFLTDsVideos/status/2099202310433812818
+https://x.com/NFLTDsVideos/status/2099202395766919661
+https://x.com/NFLTDsVideos/status/2099202668686160220
+https://x.com/NFLTDsVideos/status/2099202741268561935
+https://x.com/NFLTDsVideos/status/2099202884696957344
+https://x.com/NFLTDsVideos/status/2099228405166198841
+https://x.com/NFLTDsVideos/status/2099228585068290406
+https://x.com/NFLTDsVideos/status/2099252626701349134
+https://x.com/NFLTDsVideos/status/2099252767906742759
+https://x.com/NFLTDsVideos/status/2099252855978827907
+https://x.com/NFLTDsVideos/status/2099252945338400912
+https://x.com/NFLTDsVideos/status/2099253246476849284
+https://x.com/NFLTDsVideos/status/2099253336713183559
+https://x.com/NFLTDsVideos/status/2099253486957314321
+https://x.com/NFLTDsVideos/status/2099253577331966462
+https://x.com/NFLTDsVideos/status/2099255107447586923
+https://x.com/NFLTDsVideos/status/2099255201609748615
+https://x.com/NFLTDsVideos/status/2099255267405771235
+https://x.com/NFLTDsVideos/status/2099255350218166306
+https://x.com/NFLTDsVideos/status/2099255572461769186
+https://x.com/NFLTDsVideos/status/2099255679177379993
+https://x.com/NFLTDsVideos/status/2099255808361939281
+https://x.com/NFLTDsVideos/status/2099255935113789558
+https://x.com/NFLTDsVideos/status/2099256029565325645
+https://x.com/NFLTDsVideos/status/2099256179083841949
+https://x.com/NFLTDsVideos/status/2099556290418606255
+https://x.com/NFLTDsVideos/status/2099556401798393880
+https://x.com/NFLTDsVideos/status/2099556418319778062
+https://x.com/NFLTDsVideos/status/2099556438448201966
+https://x.com/NFLTDsVideos/status/2099556452893429878
+https://x.com/NFLTDsVideos/status/2099569267490394462
+https://x.com/NFLTDsVideos/status/2099569556561838329
+https://x.com/NFLTDsVideos/status/2099569745620083046
+https://x.com/NFLTDsVideos/status/2099570031742869734
+https://x.com/NFLTDsVideos/status/2099570112890024080
+https://x.com/NFLTDsVideos/status/2099581958590247402
+https://x.com/NFLTDsVideos/status/2099582105663553898
+https://x.com/NFLTDsVideos/status/2099582188073164925
+https://x.com/NFLTDsVideos/status/2099582292024799292
+https://x.com/NFLTDsVideos/status/2099582377865445626
+https://x.com/NFLTDsVideos/status/2099582461885722806
+https://x.com/NFLTDsVideos/status/2099582529447580016
+https://x.com/NFLTDsVideos/status/2099582637828432122
+https://x.com/NFLTDsVideos/status/2099582800961618230
+https://x.com/NFLTDsVideos/status/2099582877297971676
+https://x.com/NFLTDsVideos/status/2099582962492666322
+https://x.com/NFLTDsVideos/status/2099598814940217381
+https://x.com/NFLTDsVideos/status/2099628858014155062
+https://x.com/NFLTDsVideos/status/2099628952616681519
+https://x.com/NFL_DovKleiman/status/2095628400337818075
+https://x.com/NFL_DovKleiman/status/2095649791598371314
+https://x.com/NFL_DovKleiman/status/2096024258753462314
+https://x.com/NFL_DovKleiman/status/2096043888280535536
+https://x.com/NFL_Talk_Sports/status/2093156629013233752
+https://x.com/NFLonFOX/status/2099191585690776056
+https://x.com/NFLonFOX/status/2099242241982156970
 https://x.com/Nate_Tice/status/2095691914121265331
 https://x.com/NotJustFootball/status/2095953794605645913
-https://x.com/Jack_Aylmer/status/2095950182378578007
-https://x.com/dallascowboys/status/2095949595217932480
-https://x.com/newheightshow/status/2095920685457494043
-https://x.com/gbellseattle/status/2095753484431933695
-https://x.com/NFL_DovKleiman/status/2095649791598371314
-https://x.com/NFL_DovKleiman/status/2095628400337818075
-https://x.com/RapSheet/status/2096260488178880883
-https://x.com/FantasyPros/status/2096242952292929647
-https://x.com/FantasyPros/status/2096223670997831685
-https://x.com/RapSheet/status/2096211084453519458
-https://x.com/FantasyPros/status/2096204955757518865
-https://x.com/FantasyPros/status/2096061254011867424
-https://x.com/FantasyPros/status/2096045903811424673
-https://x.com/JFowlerESPN/status/2096041783343894722
-https://x.com/JFowlerESPN/status/2096039707217953172
-https://x.com/RapSheet/status/2096022439092207751
-https://x.com/RapSheet/status/2096017071079387349
+https://x.com/OwenGregorian/status/2096200858102813005
+https://x.com/PPRFantasyTips/status/2095984130152628571
+https://x.com/Patriots/status/2090450125705416940
+https://x.com/Philouimette_/status/2098217922950783404
+https://x.com/RCBTweets/status/2095858475142390244
+https://x.com/RapSheet/status/2095935429207867767
+https://x.com/RapSheet/status/2095957628618723773
 https://x.com/RapSheet/status/2096015690520023318
-https://x.com/FantasyPros/status/2095998691286958577
-https://x.com/FantasyPros/status/2095995327828627566
-https://x.com/FantasyPros/status/2095982989381358039
-https://x.com/FantasyPros/status/2095972419873673527
-https://x.com/FantasyPros/status/2095947312925233556
-https://x.com/FantasyPros/status/2095905904549867837
-https://x.com/burgermanders/status/2096208530218811728
+https://x.com/RapSheet/status/2096017071079387349
+https://x.com/RapSheet/status/2096022439092207751
+https://x.com/RapSheet/status/2096211084453519458
+https://x.com/RapSheet/status/2096211246072664219
+https://x.com/RapSheet/status/2096260488178880883
+https://x.com/RotoBaller/status/2095960020219310539
+https://x.com/RotoBaller/status/2096015618826801341
+https://x.com/RotoBaller/status/2096015904819613939
+https://x.com/RotoBaller/status/2096016072591786449
+https://x.com/RotoBaller/status/2096025600993468893
+https://x.com/RotoBaller/status/2096208919236354507
+https://x.com/RotoBaller/status/2096263487353651217
+https://x.com/RotoBaller/status/2096263864115507283
+https://x.com/RotoWireNFL/status/2095860588584866096
+https://x.com/SNFonNBC/status/2097877321680031876
+https://x.com/SauceStatline/status/2099202201365164367
+https://x.com/Schultz_Report/status/2090918231456301160
+https://x.com/SleeperNFL/status/2095982885870408110
+https://x.com/SleeperNFL/status/2095994367551172832
+https://x.com/SleeperNFL/status/2096049173191922038
+https://x.com/SleeperPackers/status/2091917085068706125
+https://x.com/TexansCommenter/status/2095971068963889327
+https://x.com/TristanThomasTV/status/2095748772588314625
+https://x.com/UnderdogNFL/status/2094869543046795763
+https://x.com/UnderdogNFL/status/2095628236919021595
+https://x.com/UnderdogNFL/status/2096070534328930725
+https://x.com/UnderdogNFL/status/2097880842018111540
+https://x.com/WillApplebee/status/2096228329485476093
+https://x.com/YZR_Fantasy/status/2095987364275408930
+https://x.com/Zane_Hancock21/status/2097887566355661057
+https://x.com/_JackKeating/status/2099241544368722164
 https://x.com/avicarrgloth/status/2096050183070941426
+https://x.com/balls_out_bets/status/2096092955010273406
+https://x.com/bet_105/status/2095896428786684321
+https://x.com/burgermanders/status/2096208530218811728
+https://x.com/cooterdoodle/status/2095888393615904800
+https://x.com/dallascowboys/status/2095949595217932480
+https://x.com/dawhitehousepod/status/2096011194247069748
 https://x.com/fantasyfocus/status/2095998338160108030
+https://x.com/gbellseattle/status/2095753484431933695
+https://x.com/iam_johnw/status/2097867238397051132
+https://x.com/newheightshow/status/2095920685457494043
+https://x.com/rannyxkmj/status/2097884866348216770
+https://x.com/talktoemhavin/status/2092756082384941418
 https://x.com/thescorechicago/status/2095861735408214076
-
-# ---- rejected, do not re-add ----
-# no video           https://x.com/UnderdogNFL/status/2096070534328930725
-# no video           https://x.com/UnderdogNFL/status/2095628236919021595
-# no video           https://x.com/FantasyPros/status/2096267190143963312
-# no video           https://x.com/RotoBaller/status/2096263864115507283
-# no video           https://x.com/RotoBaller/status/2096263487353651217
-# no video           https://x.com/FantasyPros/status/2096256795492630756
-# no video           https://x.com/FantasyPros/status/2096256794129494410
-# no video           https://x.com/FantasyPros/status/2096249000252887150
-# no video           https://x.com/AdamSchefter/status/2096244696242954731
-# no video           https://x.com/AdamSchefter/status/2096226172325466319
-# no video           https://x.com/AdamSchefter/status/2096212863450743206
-# no video           https://x.com/RapSheet/status/2096211246072664219
-# no video           https://x.com/RotoBaller/status/2096208919236354507
-# no video           https://x.com/FantasyPros/status/2096204956789346745
-# no video           https://x.com/AdamSchefter/status/2096112170043863469
-# no video           https://x.com/AdamSchefter/status/2096056819185508526
-# no video           https://x.com/FantasyPros/status/2096045904864145592
-# no video           https://x.com/AdamSchefter/status/2096033493306286233
-# no video           https://x.com/FantasyPros/status/2096027029946724637
-# no video           https://x.com/RotoBaller/status/2096025600993468893
-# no video           https://x.com/FantasyPros/status/2096016963654860930
-# no video           https://x.com/FantasyPros/status/2096016962736320900
-# no video           https://x.com/AdamSchefter/status/2096016706699186554
-# no video           https://x.com/RotoBaller/status/2096016072591786449
-# no video           https://x.com/RotoBaller/status/2096015904819613939
-# no video           https://x.com/RotoBaller/status/2096015618826801341
-# no video           https://x.com/FantasyPros/status/2095972420918100058
-# no video           https://x.com/AdamSchefter/status/2095964161415196956
-# no video           https://x.com/RotoBaller/status/2095960020219310539
-# no video           https://x.com/RapSheet/status/2095957628618723773
-# no video           https://x.com/RapSheet/status/2095935429207867767
-# no video           https://x.com/FantasyPros/status/2095921982449516885
-# no video           https://x.com/FantasyPros/status/2095921840556319096
-# no video           https://x.com/WillApplebee/status/2096228329485476093
-# no video           https://x.com/BleacherReport/status/2096227598846341556
-# no video           https://x.com/SleeperNFL/status/2095994367551172832
-# no video           https://x.com/YZR_Fantasy/status/2095987364275408930
-# no video           https://x.com/tomorrowsretro/status/2095987327738823036
-# no video           https://x.com/SleeperNFL/status/2095982885870408110
-# no video           https://x.com/TexansCommenter/status/2095971068963889327
-# no video           https://x.com/RotoWireNFL/status/2095860588584866096
-# no video           https://x.com/cooterdoodle/status/2095888393615904800
-# no video           https://x.com/PPRFantasyTips/status/2095984130152628571
-# no video           https://x.com/bet_105/status/2095896428786684321
-# no video           https://x.com/SleeperNFL/status/2096049173191922038
-# no video           https://x.com/NFL_DovKleiman/status/2096043888280535536
-# watched: no play   https://x.com/MySportsUpdate/status/2095990222525735336
-# watched: no play   https://x.com/NFL_Talk_Sports/status/2093156629013233752
-# watched: no play   https://x.com/talktoemhavin/status/2092756082384941418
-# watched: no play   https://x.com/MattHarmon_BYB/status/2087908039374352574
-# watched: no play   https://x.com/NFL_DovKleiman/status/2096024258753462314
+https://x.com/thomasrp93/status/2098032737227505686
+https://x.com/tomorrowsretro/status/2095987327738823036
+in
+its
+land
+line.
+must
+never
+no
+not
+or
+per
+play
+post
+posts
+rather
+re-add
+re-added.
+re-fetched
+recorded
+rejected,
+screens
+so
+take.
+text
+than
+the
+then
+these:
+they
+verdicts
+video
+video,
+watched
+watched:
+watched;
+with

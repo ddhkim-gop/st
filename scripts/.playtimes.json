@@ -1,0 +1,2340 @@
+{
+ "allen#j": [
+  {
+   "clock": "12:57",
+   "date": "2026-09-13",
+   "game": "2026_01_BUF_HOU",
+   "gsr": 2577,
+   "kind": "rush TD",
+   "q": "2",
+   "start": "9/13/26, 13:04:46",
+   "week": "1"
+  },
+  {
+   "clock": "04:02",
+   "date": "2026-09-13",
+   "game": "2026_01_BUF_HOU",
+   "gsr": 2042,
+   "kind": "rush TD",
+   "q": "2",
+   "start": "9/13/26, 13:04:46",
+   "week": "1"
+  },
+  {
+   "clock": "01:39",
+   "date": "2026-09-13",
+   "game": "2026_01_BUF_HOU",
+   "gsr": 1899,
+   "kind": "pass TD",
+   "q": "2",
+   "start": "9/13/26, 13:04:46",
+   "week": "1"
+  },
+  {
+   "clock": "01:41",
+   "date": "2026-09-13",
+   "game": "2026_01_BUF_HOU",
+   "gsr": 101,
+   "kind": "pass TD",
+   "q": "4",
+   "start": "9/13/26, 13:04:46",
+   "week": "1"
+  }
+ ],
+ "ayomanor#e": [
+  {
+   "clock": "02:45",
+   "date": "2026-09-13",
+   "game": "2026_01_NYJ_TEN",
+   "gsr": 165,
+   "kind": "rec TD",
+   "passer": "C.Ward",
+   "pos_team": "TEN",
+   "q": "4",
+   "start": "9/13/26, 13:04:39",
+   "week": "1"
+  }
+ ],
+ "bass#t": [
+  {
+   "clock": "07:32",
+   "date": "2026-09-13",
+   "game": "2026_01_BUF_HOU",
+   "gsr": 3152,
+   "kind": "FG 46yd",
+   "q": "1",
+   "start": "9/13/26, 13:04:46",
+   "week": "1"
+  },
+  {
+   "clock": "04:27",
+   "date": "2026-09-13",
+   "game": "2026_01_BUF_HOU",
+   "gsr": 1167,
+   "kind": "FG 34yd",
+   "q": "3",
+   "start": "9/13/26, 13:04:46",
+   "week": "1"
+  },
+  {
+   "clock": "10:36",
+   "date": "2026-09-13",
+   "game": "2026_01_BUF_HOU",
+   "gsr": 636,
+   "kind": "FG 33yd",
+   "q": "4",
+   "start": "9/13/26, 13:04:46",
+   "week": "1"
+  }
+ ],
+ "bates#j": [
+  {
+   "clock": "02:35",
+   "date": "2026-09-13",
+   "game": "2026_01_NO_DET",
+   "gsr": 155,
+   "kind": "FG 23yd",
+   "q": "4",
+   "start": "9/13/26, 13:05:29",
+   "week": "1"
+  }
+ ],
+ "bech#j": [
+  {
+   "clock": "01:38",
+   "date": "2026-09-13",
+   "game": "2026_01_MIA_LV",
+   "gsr": 2798,
+   "kind": "rec TD",
+   "passer": "K.Cousins",
+   "pos_team": "LV",
+   "q": "1",
+   "start": "9/13/26, 16:25:35",
+   "week": "1"
+  }
+ ],
+ "borregales#a": [
+  {
+   "clock": "11:53",
+   "date": "2026-09-09",
+   "game": "2026_01_NE_SEA",
+   "gsr": 1613,
+   "kind": "FG 50yd",
+   "q": "3",
+   "start": "9/9/26, 20:23:21",
+   "week": "1"
+  }
+ ],
+ "boston#d": [
+  {
+   "clock": "02:00",
+   "date": "2026-09-13",
+   "game": "2026_01_CLE_JAX",
+   "gsr": 120,
+   "kind": "rec TD",
+   "passer": "D.Watson",
+   "pos_team": "CLE",
+   "q": "4",
+   "start": "9/13/26, 13:03:54",
+   "week": "1"
+  }
+ ],
+ "boswell#c": [
+  {
+   "clock": "08:34",
+   "date": "2026-09-13",
+   "game": "2026_01_ATL_PIT",
+   "gsr": 3214,
+   "kind": "FG 43yd",
+   "q": "1",
+   "start": "9/13/26, 13:04:05",
+   "week": "1"
+  },
+  {
+   "clock": "12:31",
+   "date": "2026-09-13",
+   "game": "2026_01_ATL_PIT",
+   "gsr": 2551,
+   "kind": "FG 28yd",
+   "q": "2",
+   "start": "9/13/26, 13:04:05",
+   "week": "1"
+  }
+ ],
+ "brissett#j": [
+  {
+   "clock": "11:48",
+   "date": "2026-09-13",
+   "game": "2026_01_ARI_LAC",
+   "gsr": 708,
+   "kind": "pass TD",
+   "q": "4",
+   "start": "9/13/26, 16:25:43",
+   "week": "1"
+  }
+ ],
+ "brown#c": [
+  {
+   "clock": "05:35",
+   "date": "2026-09-13",
+   "game": "2026_01_TB_CIN",
+   "gsr": 2135,
+   "kind": "rush TD",
+   "q": "2",
+   "start": "9/13/26, 13:03:57",
+   "week": "1"
+  }
+ ],
+ "burrow#j": [
+  {
+   "clock": "01:51",
+   "date": "2026-09-13",
+   "game": "2026_01_TB_CIN",
+   "gsr": 2811,
+   "kind": "pass TD",
+   "q": "1",
+   "start": "9/13/26, 13:03:57",
+   "week": "1"
+  },
+  {
+   "clock": "02:24",
+   "date": "2026-09-13",
+   "game": "2026_01_TB_CIN",
+   "gsr": 1044,
+   "kind": "pass TD",
+   "q": "3",
+   "start": "9/13/26, 13:03:57",
+   "week": "1"
+  }
+ ],
+ "butker#h": [
+  {
+   "clock": "03:20",
+   "date": "2026-09-14",
+   "game": "2026_01_DEN_KC",
+   "gsr": 1100,
+   "kind": "FG 28yd",
+   "q": "3",
+   "start": "9/14/26, 20:16:12",
+   "week": "1"
+  }
+ ],
+ "cameron#j": [
+  {
+   "clock": "01:47",
+   "date": "2026-09-13",
+   "game": "2026_01_CLE_JAX",
+   "gsr": 2807,
+   "kind": "rec TD",
+   "passer": "T.Lawrence",
+   "pos_team": "JAX",
+   "q": "1",
+   "start": "9/13/26, 13:03:54",
+   "week": "1"
+  }
+ ],
+ "carlson#d": [
+  {
+   "clock": "07:45",
+   "date": "2026-09-13",
+   "game": "2026_01_NO_DET",
+   "gsr": 465,
+   "kind": "FG 28yd",
+   "q": "4",
+   "start": "9/13/26, 13:05:29",
+   "week": "1"
+  }
+ ],
+ "coker#j": [
+  {
+   "clock": "12:49",
+   "date": "2026-09-13",
+   "game": "2026_01_CHI_CAR",
+   "gsr": 2569,
+   "kind": "rec TD",
+   "passer": "B.Young",
+   "pos_team": "CAR",
+   "q": "2",
+   "start": "9/13/26, 13:04:50",
+   "week": "1"
+  },
+  {
+   "clock": "04:05",
+   "date": "2026-09-13",
+   "game": "2026_01_CHI_CAR",
+   "gsr": 245,
+   "kind": "rec TD",
+   "passer": "B.Young",
+   "pos_team": "CAR",
+   "q": "4",
+   "start": "9/13/26, 13:04:50",
+   "week": "1"
+  }
+ ],
+ "collins#n": [
+  {
+   "clock": "00:31",
+   "date": "2026-09-13",
+   "game": "2026_01_BUF_HOU",
+   "gsr": 1831,
+   "kind": "rec TD",
+   "passer": "C.Stroud",
+   "pos_team": "HOU",
+   "q": "2",
+   "start": "9/13/26, 13:04:46",
+   "week": "1"
+  }
+ ],
+ "cousins#k": [
+  {
+   "clock": "01:38",
+   "date": "2026-09-13",
+   "game": "2026_01_MIA_LV",
+   "gsr": 2798,
+   "kind": "pass TD",
+   "q": "1",
+   "start": "9/13/26, 16:25:35",
+   "week": "1"
+  },
+  {
+   "clock": "01:12",
+   "date": "2026-09-13",
+   "game": "2026_01_MIA_LV",
+   "gsr": 1872,
+   "kind": "pass TD",
+   "q": "2",
+   "start": "9/13/26, 16:25:35",
+   "week": "1"
+  },
+  {
+   "clock": "10:06",
+   "date": "2026-09-13",
+   "game": "2026_01_MIA_LV",
+   "gsr": 1506,
+   "kind": "pass TD",
+   "q": "3",
+   "start": "9/13/26, 16:25:35",
+   "week": "1"
+  }
+ ],
+ "croskeymerritt#j": [
+  {
+   "clock": "01:56",
+   "date": "2026-09-13",
+   "game": "2026_01_WAS_PHI",
+   "gsr": 1916,
+   "kind": "rush TD",
+   "q": "2",
+   "start": "9/13/26, 16:25:25",
+   "week": "1"
+  }
+ ],
+ "daniels#j": [
+  {
+   "clock": "10:04",
+   "date": "2026-09-13",
+   "game": "2026_01_WAS_PHI",
+   "gsr": 604,
+   "kind": "pass TD",
+   "q": "4",
+   "start": "9/13/26, 16:25:25",
+   "week": "1"
+  },
+  {
+   "clock": "01:05",
+   "date": "2026-09-13",
+   "game": "2026_01_WAS_PHI",
+   "gsr": 65,
+   "kind": "pass TD",
+   "q": "4",
+   "start": "9/13/26, 16:25:25",
+   "week": "1"
+  }
+ ],
+ "dart#j": [
+  {
+   "clock": "00:25",
+   "date": "2026-09-13",
+   "game": "2026_01_DAL_NYG",
+   "gsr": 1825,
+   "kind": "pass TD",
+   "q": "2",
+   "start": "9/13/26, 20:24:49",
+   "week": "1"
+  },
+  {
+   "clock": "07:04",
+   "date": "2026-09-13",
+   "game": "2026_01_DAL_NYG",
+   "gsr": 1324,
+   "kind": "pass TD",
+   "q": "3",
+   "start": "9/13/26, 20:24:49",
+   "week": "1"
+  },
+  {
+   "clock": "07:31",
+   "date": "2026-09-13",
+   "game": "2026_01_DAL_NYG",
+   "gsr": 451,
+   "kind": "pass TD",
+   "q": "4",
+   "start": "9/13/26, 20:24:49",
+   "week": "1"
+  }
+ ],
+ "diggs#s": [
+  {
+   "clock": "10:04",
+   "date": "2026-09-13",
+   "game": "2026_01_WAS_PHI",
+   "gsr": 604,
+   "kind": "rec TD",
+   "passer": "J.Daniels",
+   "pos_team": "WAS",
+   "q": "4",
+   "start": "9/13/26, 16:25:25",
+   "week": "1"
+  }
+ ],
+ "elliott#j": [
+  {
+   "clock": "00:48",
+   "date": "2026-09-13",
+   "game": "2026_01_WAS_PHI",
+   "gsr": 948,
+   "kind": "FG 35yd",
+   "q": "3",
+   "start": "9/13/26, 16:25:25",
+   "week": "1"
+  }
+ ],
+ "engram#e": [
+  {
+   "clock": "03:53",
+   "date": "2026-09-14",
+   "game": "2026_01_DEN_KC",
+   "gsr": 2933,
+   "kind": "rec TD",
+   "passer": "B.Nix",
+   "pos_team": "DEN",
+   "q": "1",
+   "start": "9/14/26, 20:16:12",
+   "week": "1"
+  }
+ ],
+ "evans#m": [
+  {
+   "clock": "11:07",
+   "date": "2026-09-10",
+   "game": "2026_01_SF_LA",
+   "gsr": 1567,
+   "kind": "rec TD",
+   "passer": "B.Purdy",
+   "pos_team": "SF",
+   "q": "3",
+   "start": "9/10/26, 20:37:25",
+   "week": "1"
+  }
+ ],
+ "fairbairn#k": [
+  {
+   "clock": "06:48",
+   "date": "2026-09-13",
+   "game": "2026_01_BUF_HOU",
+   "gsr": 408,
+   "kind": "FG 58yd",
+   "q": "4",
+   "start": "9/13/26, 13:04:46",
+   "week": "1"
+  }
+ ],
+ "fant#n": [
+  {
+   "clock": "01:38",
+   "date": "2026-09-13",
+   "game": "2026_01_NO_DET",
+   "gsr": 98,
+   "kind": "rec TD",
+   "passer": "T.Shough",
+   "pos_team": "NO",
+   "q": "5",
+   "start": "9/13/26, 13:05:29",
+   "week": "1"
+  }
+ ],
+ "fitzgerald#r": [
+  {
+   "clock": "02:39",
+   "date": "2026-09-13",
+   "game": "2026_01_CHI_CAR",
+   "gsr": 1959,
+   "kind": "FG 44yd",
+   "q": "2",
+   "start": "9/13/26, 13:04:50",
+   "week": "1"
+  }
+ ],
+ "flowers#z": [
+  {
+   "clock": "07:04",
+   "date": "2026-09-13",
+   "game": "2026_01_BAL_IND",
+   "gsr": 2224,
+   "kind": "rec TD",
+   "passer": "L.Jackson",
+   "pos_team": "BAL",
+   "q": "2",
+   "start": "9/13/26, 13:05:06",
+   "week": "1"
+  }
+ ],
+ "folk#n": [
+  {
+   "clock": "01:55",
+   "date": "2026-09-13",
+   "game": "2026_01_ATL_PIT",
+   "gsr": 1015,
+   "kind": "FG 51yd",
+   "q": "3",
+   "start": "9/13/26, 13:04:05",
+   "week": "1"
+  },
+  {
+   "clock": "10:39",
+   "date": "2026-09-13",
+   "game": "2026_01_ATL_PIT",
+   "gsr": 639,
+   "kind": "FG 43yd",
+   "q": "4",
+   "start": "9/13/26, 13:04:05",
+   "week": "1"
+  }
+ ],
+ "freiermuth#p": [
+  {
+   "clock": "10:44",
+   "date": "2026-09-13",
+   "game": "2026_01_ATL_PIT",
+   "gsr": 2444,
+   "kind": "rec TD",
+   "passer": "A.Rodgers",
+   "pos_team": "PIT",
+   "q": "2",
+   "start": "9/13/26, 13:04:05",
+   "week": "1"
+  }
+ ],
+ "gay#m": [
+  {
+   "clock": "10:26",
+   "date": "2026-09-13",
+   "game": "2026_01_MIA_LV",
+   "gsr": 2426,
+   "kind": "FG 47yd",
+   "q": "2",
+   "start": "9/13/26, 16:25:35",
+   "week": "1"
+  },
+  {
+   "clock": "02:38",
+   "date": "2026-09-13",
+   "game": "2026_01_MIA_LV",
+   "gsr": 1058,
+   "kind": "FG 30yd",
+   "q": "3",
+   "start": "9/13/26, 16:25:35",
+   "week": "1"
+  }
+ ],
+ "gesicki#m": [
+  {
+   "clock": "01:51",
+   "date": "2026-09-13",
+   "game": "2026_01_TB_CIN",
+   "gsr": 2811,
+   "kind": "rec TD",
+   "passer": "J.Burrow",
+   "pos_team": "CIN",
+   "q": "1",
+   "start": "9/13/26, 13:03:57",
+   "week": "1"
+  }
+ ],
+ "gibbs#j": [
+  {
+   "clock": "03:41",
+   "date": "2026-09-13",
+   "game": "2026_01_NO_DET",
+   "gsr": 2921,
+   "kind": "rush TD",
+   "q": "1",
+   "start": "9/13/26, 13:05:29",
+   "week": "1"
+  },
+  {
+   "clock": "11:18",
+   "date": "2026-09-13",
+   "game": "2026_01_NO_DET",
+   "gsr": 1578,
+   "kind": "rush TD",
+   "q": "3",
+   "start": "9/13/26, 13:05:29",
+   "week": "1"
+  }
+ ],
+ "goedert#d": [
+  {
+   "clock": "14:17",
+   "date": "2026-09-13",
+   "game": "2026_01_WAS_PHI",
+   "gsr": 2657,
+   "kind": "rec TD",
+   "passer": "J.Hurts",
+   "pos_team": "PHI",
+   "q": "2",
+   "start": "9/13/26, 16:25:25",
+   "week": "1"
+  },
+  {
+   "clock": "06:12",
+   "date": "2026-09-13",
+   "game": "2026_01_WAS_PHI",
+   "gsr": 372,
+   "kind": "rec TD",
+   "passer": "J.Hurts",
+   "pos_team": "PHI",
+   "q": "4",
+   "start": "9/13/26, 16:25:25",
+   "week": "1"
+  }
+ ],
+ "goff#j": [
+  {
+   "clock": "08:59",
+   "date": "2026-09-13",
+   "game": "2026_01_NO_DET",
+   "gsr": 1439,
+   "kind": "pass TD",
+   "q": "3",
+   "start": "9/13/26, 13:05:29",
+   "week": "1"
+  },
+  {
+   "clock": "05:07",
+   "date": "2026-09-13",
+   "game": "2026_01_NO_DET",
+   "gsr": 307,
+   "kind": "pass TD",
+   "q": "5",
+   "start": "9/13/26, 13:05:29",
+   "week": "1"
+  }
+ ],
+ "hall#b": [
+  {
+   "clock": "09:44",
+   "date": "2026-09-13",
+   "game": "2026_01_NYJ_TEN",
+   "gsr": 1484,
+   "kind": "rush TD",
+   "q": "3",
+   "start": "9/13/26, 13:04:39",
+   "week": "1"
+  }
+ ],
+ "hampton#o": [
+  {
+   "clock": "04:29",
+   "date": "2026-09-13",
+   "game": "2026_01_ARI_LAC",
+   "gsr": 2969,
+   "kind": "rush TD",
+   "q": "1",
+   "start": "9/13/26, 16:25:43",
+   "week": "1"
+  }
+ ],
+ "henry#d": [
+  {
+   "clock": "04:08",
+   "date": "2026-09-13",
+   "game": "2026_01_BAL_IND",
+   "gsr": 2948,
+   "kind": "rush TD",
+   "q": "1",
+   "start": "9/13/26, 13:05:06",
+   "week": "1"
+  },
+  {
+   "clock": "05:12",
+   "date": "2026-09-13",
+   "game": "2026_01_BAL_IND",
+   "gsr": 2112,
+   "kind": "rush TD",
+   "q": "2",
+   "start": "9/13/26, 13:05:06",
+   "week": "1"
+  },
+  {
+   "clock": "12:50",
+   "date": "2026-09-13",
+   "game": "2026_01_BAL_IND",
+   "gsr": 770,
+   "kind": "rush TD",
+   "q": "4",
+   "start": "9/13/26, 13:05:06",
+   "week": "1"
+  }
+ ],
+ "herbert#j": [
+  {
+   "clock": "06:07",
+   "date": "2026-09-13",
+   "game": "2026_01_ARI_LAC",
+   "gsr": 1267,
+   "kind": "pass TD",
+   "q": "3",
+   "start": "9/13/26, 16:25:43",
+   "week": "1"
+  }
+ ],
+ "hockenson#t": [
+  {
+   "clock": "02:11",
+   "date": "2026-09-13",
+   "game": "2026_01_GB_MIN",
+   "gsr": 1031,
+   "kind": "rec TD",
+   "passer": "C.Wentz",
+   "pos_team": "MIN",
+   "q": "3",
+   "start": "9/13/26, 16:25:28",
+   "week": "1"
+  }
+ ],
+ "hubbard#c": [
+  {
+   "clock": "11:40",
+   "date": "2026-09-13",
+   "game": "2026_01_CHI_CAR",
+   "gsr": 3400,
+   "kind": "rec TD",
+   "passer": "B.Young",
+   "pos_team": "CAR",
+   "q": "1",
+   "start": "9/13/26, 13:04:50",
+   "week": "1"
+  },
+  {
+   "clock": "09:06",
+   "date": "2026-09-13",
+   "game": "2026_01_CHI_CAR",
+   "gsr": 1446,
+   "kind": "rush TD",
+   "q": "3",
+   "start": "9/13/26, 13:04:50",
+   "week": "1"
+  }
+ ],
+ "hurts#j": [
+  {
+   "clock": "14:17",
+   "date": "2026-09-13",
+   "game": "2026_01_WAS_PHI",
+   "gsr": 2657,
+   "kind": "pass TD",
+   "q": "2",
+   "start": "9/13/26, 16:25:25",
+   "week": "1"
+  },
+  {
+   "clock": "06:35",
+   "date": "2026-09-13",
+   "game": "2026_01_WAS_PHI",
+   "gsr": 2195,
+   "kind": "pass TD",
+   "q": "2",
+   "start": "9/13/26, 16:25:25",
+   "week": "1"
+  },
+  {
+   "clock": "06:12",
+   "date": "2026-09-13",
+   "game": "2026_01_WAS_PHI",
+   "gsr": 372,
+   "kind": "pass TD",
+   "q": "4",
+   "start": "9/13/26, 16:25:25",
+   "week": "1"
+  }
+ ],
+ "irving#b": [
+  {
+   "clock": "01:54",
+   "date": "2026-09-13",
+   "game": "2026_01_TB_CIN",
+   "gsr": 1914,
+   "kind": "rush TD",
+   "q": "2",
+   "start": "9/13/26, 13:03:57",
+   "week": "1"
+  }
+ ],
+ "jackson#l": [
+  {
+   "clock": "08:25",
+   "date": "2026-09-13",
+   "game": "2026_01_BAL_IND",
+   "gsr": 3205,
+   "kind": "rush TD",
+   "q": "1",
+   "start": "9/13/26, 13:05:06",
+   "week": "1"
+  },
+  {
+   "clock": "07:04",
+   "date": "2026-09-13",
+   "game": "2026_01_BAL_IND",
+   "gsr": 2224,
+   "kind": "pass TD",
+   "q": "2",
+   "start": "9/13/26, 13:05:06",
+   "week": "1"
+  }
+ ],
+ "jeanty#a": [
+  {
+   "clock": "01:12",
+   "date": "2026-09-13",
+   "game": "2026_01_MIA_LV",
+   "gsr": 1872,
+   "kind": "rec TD",
+   "passer": "K.Cousins",
+   "pos_team": "LV",
+   "q": "2",
+   "start": "9/13/26, 16:25:35",
+   "week": "1"
+  },
+  {
+   "clock": "10:06",
+   "date": "2026-09-13",
+   "game": "2026_01_MIA_LV",
+   "gsr": 1506,
+   "kind": "rec TD",
+   "passer": "K.Cousins",
+   "pos_team": "LV",
+   "q": "3",
+   "start": "9/13/26, 16:25:35",
+   "week": "1"
+  }
+ ],
+ "jefferson#j": [
+  {
+   "clock": "02:02",
+   "date": "2026-09-13",
+   "game": "2026_01_GB_MIN",
+   "gsr": 1922,
+   "kind": "rec TD",
+   "passer": "C.Wentz",
+   "pos_team": "MIN",
+   "q": "2",
+   "start": "9/13/26, 16:25:28",
+   "week": "1"
+  },
+  {
+   "clock": "04:03",
+   "date": "2026-09-13",
+   "game": "2026_01_GB_MIN",
+   "gsr": 243,
+   "kind": "rec TD",
+   "passer": "C.Wentz",
+   "pos_team": "MIN",
+   "q": "4",
+   "start": "9/13/26, 16:25:28",
+   "week": "1"
+  }
+ ],
+ "johnson#j": [
+  {
+   "clock": "01:13",
+   "date": "2026-09-13",
+   "game": "2026_01_NO_DET",
+   "gsr": 73,
+   "kind": "rec TD",
+   "passer": "T.Shough",
+   "pos_team": "NO",
+   "q": "4",
+   "start": "9/13/26, 13:05:29",
+   "week": "1"
+  }
+ ],
+ "jones#a": [
+  {
+   "clock": "06:42",
+   "date": "2026-09-13",
+   "game": "2026_01_GB_MIN",
+   "gsr": 402,
+   "kind": "rush TD",
+   "q": "4",
+   "start": "9/13/26, 16:25:28",
+   "week": "1"
+  }
+ ],
+ "jones#d": [
+  {
+   "clock": "10:32",
+   "date": "2026-09-13",
+   "game": "2026_01_BAL_IND",
+   "gsr": 632,
+   "kind": "pass TD",
+   "q": "4",
+   "start": "9/13/26, 13:05:06",
+   "week": "1"
+  }
+ ],
+ "kmet#c": [
+  {
+   "clock": "14:05",
+   "date": "2026-09-13",
+   "game": "2026_01_CHI_CAR",
+   "gsr": 2645,
+   "kind": "rec TD",
+   "passer": "C.Williams",
+   "pos_team": "CHI",
+   "q": "2",
+   "start": "9/13/26, 13:04:50",
+   "week": "1"
+  }
+ ],
+ "knight#d": [
+  {
+   "clock": "06:29",
+   "date": "2026-09-13",
+   "game": "2026_01_TB_CIN",
+   "gsr": 3089,
+   "kind": "rec TD",
+   "passer": "B.Mayfield",
+   "pos_team": "TB",
+   "q": "1",
+   "start": "9/13/26, 13:03:57",
+   "week": "1"
+  }
+ ],
+ "lamb#c": [
+  {
+   "clock": "05:48",
+   "date": "2026-09-13",
+   "game": "2026_01_DAL_NYG",
+   "gsr": 2148,
+   "kind": "rec TD",
+   "passer": "D.Prescott",
+   "pos_team": "DAL",
+   "q": "2",
+   "start": "9/13/26, 20:24:49",
+   "week": "1"
+  }
+ ],
+ "lawrence#t": [
+  {
+   "clock": "08:18",
+   "date": "2026-09-13",
+   "game": "2026_01_CLE_JAX",
+   "gsr": 3198,
+   "kind": "pass TD",
+   "q": "1",
+   "start": "9/13/26, 13:03:54",
+   "week": "1"
+  },
+  {
+   "clock": "01:47",
+   "date": "2026-09-13",
+   "game": "2026_01_CLE_JAX",
+   "gsr": 2807,
+   "kind": "pass TD",
+   "q": "1",
+   "start": "9/13/26, 13:03:54",
+   "week": "1"
+  },
+  {
+   "clock": "06:24",
+   "date": "2026-09-13",
+   "game": "2026_01_CLE_JAX",
+   "gsr": 2184,
+   "kind": "pass TD",
+   "q": "2",
+   "start": "9/13/26, 13:03:54",
+   "week": "1"
+  },
+  {
+   "clock": "12:18",
+   "date": "2026-09-13",
+   "game": "2026_01_CLE_JAX",
+   "gsr": 1638,
+   "kind": "pass TD",
+   "q": "3",
+   "start": "9/13/26, 13:03:54",
+   "week": "1"
+  }
+ ],
+ "likely#i": [
+  {
+   "clock": "00:25",
+   "date": "2026-09-13",
+   "game": "2026_01_DAL_NYG",
+   "gsr": 1825,
+   "kind": "rec TD",
+   "passer": "J.Dart",
+   "pos_team": "NYG",
+   "q": "2",
+   "start": "9/13/26, 20:24:49",
+   "week": "1"
+  },
+  {
+   "clock": "07:04",
+   "date": "2026-09-13",
+   "game": "2026_01_DAL_NYG",
+   "gsr": 1324,
+   "kind": "rec TD",
+   "passer": "J.Dart",
+   "pos_team": "NYG",
+   "q": "3",
+   "start": "9/13/26, 20:24:49",
+   "week": "1"
+  }
+ ],
+ "little#c": [
+  {
+   "clock": "09:13",
+   "date": "2026-09-13",
+   "game": "2026_01_CLE_JAX",
+   "gsr": 2353,
+   "kind": "FG 47yd",
+   "q": "2",
+   "start": "9/13/26, 13:03:54",
+   "week": "1"
+  },
+  {
+   "clock": "01:52",
+   "date": "2026-09-13",
+   "game": "2026_01_CLE_JAX",
+   "gsr": 1012,
+   "kind": "FG 40yd",
+   "q": "3",
+   "start": "9/13/26, 13:03:54",
+   "week": "1"
+  }
+ ],
+ "lock#d": [
+  {
+   "clock": "11:38",
+   "date": "2026-09-09",
+   "game": "2026_01_NE_SEA",
+   "gsr": 698,
+   "kind": "pass TD",
+   "q": "4",
+   "start": "9/9/26, 20:23:21",
+   "week": "1"
+  }
+ ],
+ "loop#t": [
+  {
+   "clock": "00:05",
+   "date": "2026-09-13",
+   "game": "2026_01_BAL_IND",
+   "gsr": 1805,
+   "kind": "FG 57yd",
+   "q": "2",
+   "start": "9/13/26, 13:05:06",
+   "week": "1"
+  },
+  {
+   "clock": "04:13",
+   "date": "2026-09-13",
+   "game": "2026_01_BAL_IND",
+   "gsr": 253,
+   "kind": "FG 45yd",
+   "q": "4",
+   "start": "9/13/26, 13:05:06",
+   "week": "1"
+  }
+ ],
+ "love#j": [
+  {
+   "clock": "07:54",
+   "date": "2026-09-13",
+   "game": "2026_01_GB_MIN",
+   "gsr": 3174,
+   "kind": "pass TD",
+   "q": "1",
+   "start": "9/13/26, 16:25:28",
+   "week": "1"
+  },
+  {
+   "clock": "00:18",
+   "date": "2026-09-13",
+   "game": "2026_01_GB_MIN",
+   "gsr": 1818,
+   "kind": "pass TD",
+   "q": "2",
+   "start": "9/13/26, 16:25:28",
+   "week": "1"
+  },
+  {
+   "clock": "08:54",
+   "date": "2026-09-13",
+   "game": "2026_01_ARI_LAC",
+   "gsr": 3234,
+   "kind": "rush TD",
+   "q": "1",
+   "start": "9/13/26, 16:25:43",
+   "week": "1"
+  }
+ ],
+ "lutz#w": [
+  {
+   "clock": "07:38",
+   "date": "2026-09-14",
+   "game": "2026_01_DEN_KC",
+   "gsr": 1358,
+   "kind": "FG 31yd",
+   "q": "3",
+   "start": "9/14/26, 20:16:12",
+   "week": "1"
+  }
+ ],
+ "mahomes#p": [
+  {
+   "clock": "08:20",
+   "date": "2026-09-14",
+   "game": "2026_01_DEN_KC",
+   "gsr": 3200,
+   "kind": "rush TD",
+   "q": "1",
+   "start": "9/14/26, 20:16:12",
+   "week": "1"
+  },
+  {
+   "clock": "01:46",
+   "date": "2026-09-14",
+   "game": "2026_01_DEN_KC",
+   "gsr": 1906,
+   "kind": "pass TD",
+   "q": "2",
+   "start": "9/14/26, 20:16:12",
+   "week": "1"
+  },
+  {
+   "clock": "14:43",
+   "date": "2026-09-14",
+   "game": "2026_01_DEN_KC",
+   "gsr": 883,
+   "kind": "pass TD",
+   "q": "4",
+   "start": "9/14/26, 20:16:12",
+   "week": "1"
+  }
+ ],
+ "mason#j": [
+  {
+   "clock": "04:52",
+   "date": "2026-09-13",
+   "game": "2026_01_GB_MIN",
+   "gsr": 292,
+   "kind": "rush TD",
+   "q": "4",
+   "start": "9/13/26, 16:25:28",
+   "week": "1"
+  }
+ ],
+ "maye#d": [
+  {
+   "clock": "09:14",
+   "date": "2026-09-09",
+   "game": "2026_01_NE_SEA",
+   "gsr": 2354,
+   "kind": "pass TD",
+   "q": "2",
+   "start": "9/9/26, 20:23:21",
+   "week": "1"
+  }
+ ],
+ "mayfield#b": [
+  {
+   "clock": "06:29",
+   "date": "2026-09-13",
+   "game": "2026_01_TB_CIN",
+   "gsr": 3089,
+   "kind": "pass TD",
+   "q": "1",
+   "start": "9/13/26, 13:03:57",
+   "week": "1"
+  },
+  {
+   "clock": "03:25",
+   "date": "2026-09-13",
+   "game": "2026_01_TB_CIN",
+   "gsr": 205,
+   "kind": "rush TD",
+   "q": "4",
+   "start": "9/13/26, 13:03:57",
+   "week": "1"
+  }
+ ],
+ "mcbride#t": [
+  {
+   "clock": "11:48",
+   "date": "2026-09-13",
+   "game": "2026_01_ARI_LAC",
+   "gsr": 708,
+   "kind": "rec TD",
+   "passer": "J.Brissett",
+   "pos_team": "ARI",
+   "q": "4",
+   "start": "9/13/26, 16:25:43",
+   "week": "1"
+  }
+ ],
+ "mcconkey#l": [
+  {
+   "clock": "06:07",
+   "date": "2026-09-13",
+   "game": "2026_01_ARI_LAC",
+   "gsr": 1267,
+   "kind": "rec TD",
+   "passer": "J.Herbert",
+   "pos_team": "LAC",
+   "q": "3",
+   "start": "9/13/26, 16:25:43",
+   "week": "1"
+  }
+ ],
+ "mclaughlin#c": [
+  {
+   "clock": "09:12",
+   "date": "2026-09-13",
+   "game": "2026_01_TB_CIN",
+   "gsr": 3252,
+   "kind": "FG 34yd",
+   "q": "1",
+   "start": "9/13/26, 13:03:57",
+   "week": "1"
+  },
+  {
+   "clock": "03:46",
+   "date": "2026-09-13",
+   "game": "2026_01_TB_CIN",
+   "gsr": 1126,
+   "kind": "FG 51yd",
+   "q": "3",
+   "start": "9/13/26, 13:03:57",
+   "week": "1"
+  }
+ ],
+ "mcpherson#e": [
+  {
+   "clock": "00:10",
+   "date": "2026-09-13",
+   "game": "2026_01_TB_CIN",
+   "gsr": 1810,
+   "kind": "FG 20yd",
+   "q": "2",
+   "start": "9/13/26, 13:03:57",
+   "week": "1"
+  },
+  {
+   "clock": "10:08",
+   "date": "2026-09-13",
+   "game": "2026_01_TB_CIN",
+   "gsr": 1508,
+   "kind": "FG 55yd",
+   "q": "3",
+   "start": "9/13/26, 13:03:57",
+   "week": "1"
+  },
+  {
+   "clock": "14:09",
+   "date": "2026-09-13",
+   "game": "2026_01_TB_CIN",
+   "gsr": 849,
+   "kind": "FG 58yd",
+   "q": "4",
+   "start": "9/13/26, 13:03:57",
+   "week": "1"
+  },
+  {
+   "clock": "05:23",
+   "date": "2026-09-13",
+   "game": "2026_01_TB_CIN",
+   "gsr": 323,
+   "kind": "FG 32yd",
+   "q": "4",
+   "start": "9/13/26, 13:03:57",
+   "week": "1"
+  }
+ ],
+ "meyers#j": [
+  {
+   "clock": "12:18",
+   "date": "2026-09-13",
+   "game": "2026_01_CLE_JAX",
+   "gsr": 1638,
+   "kind": "rec TD",
+   "passer": "T.Lawrence",
+   "pos_team": "JAX",
+   "q": "3",
+   "start": "9/13/26, 13:03:54",
+   "week": "1"
+  }
+ ],
+ "miller#k": [
+  {
+   "clock": "04:32",
+   "date": "2026-09-13",
+   "game": "2026_01_NO_DET",
+   "gsr": 1172,
+   "kind": "rush TD",
+   "q": "3",
+   "start": "9/13/26, 13:05:29",
+   "week": "1"
+  }
+ ],
+ "monangai#k": [
+  {
+   "clock": "00:50",
+   "date": "2026-09-13",
+   "game": "2026_01_CHI_CAR",
+   "gsr": 950,
+   "kind": "rush TD",
+   "q": "3",
+   "start": "9/13/26, 13:04:50",
+   "week": "1"
+  }
+ ],
+ "montgomery#d": [
+  {
+   "clock": "00:37",
+   "date": "2026-09-13",
+   "game": "2026_01_BUF_HOU",
+   "gsr": 2737,
+   "kind": "rush TD",
+   "q": "1",
+   "start": "9/13/26, 13:04:46",
+   "week": "1"
+  },
+  {
+   "clock": "04:53",
+   "date": "2026-09-13",
+   "game": "2026_01_BUF_HOU",
+   "gsr": 2093,
+   "kind": "rush TD",
+   "q": "2",
+   "start": "9/13/26, 13:04:46",
+   "week": "1"
+  },
+  {
+   "clock": "13:39",
+   "date": "2026-09-13",
+   "game": "2026_01_BUF_HOU",
+   "gsr": 819,
+   "kind": "rec TD",
+   "passer": "C.Stroud",
+   "pos_team": "HOU",
+   "q": "4",
+   "start": "9/13/26, 13:04:46",
+   "week": "1"
+  }
+ ],
+ "moore#d": [
+  {
+   "clock": "01:39",
+   "date": "2026-09-13",
+   "game": "2026_01_BUF_HOU",
+   "gsr": 1899,
+   "kind": "rec TD",
+   "passer": "J.Allen",
+   "pos_team": "BUF",
+   "q": "2",
+   "start": "9/13/26, 13:04:46",
+   "week": "1"
+  }
+ ],
+ "myers#j": [
+  {
+   "clock": "03:16",
+   "date": "2026-09-09",
+   "game": "2026_01_NE_SEA",
+   "gsr": 1096,
+   "kind": "FG 30yd",
+   "q": "3",
+   "start": "9/9/26, 20:23:21",
+   "week": "1"
+  },
+  {
+   "clock": "05:53",
+   "date": "2026-09-09",
+   "game": "2026_01_NE_SEA",
+   "gsr": 353,
+   "kind": "FG 26yd",
+   "q": "4",
+   "start": "9/9/26, 20:23:21",
+   "week": "1"
+  }
+ ],
+ "nix#b": [
+  {
+   "clock": "03:53",
+   "date": "2026-09-14",
+   "game": "2026_01_DEN_KC",
+   "gsr": 2933,
+   "kind": "pass TD",
+   "q": "1",
+   "start": "9/14/26, 20:16:12",
+   "week": "1"
+  }
+ ],
+ "palmer#j": [
+  {
+   "clock": "01:41",
+   "date": "2026-09-13",
+   "game": "2026_01_BUF_HOU",
+   "gsr": 101,
+   "kind": "rec TD",
+   "passer": "J.Allen",
+   "pos_team": "BUF",
+   "q": "4",
+   "start": "9/13/26, 13:04:46",
+   "week": "1"
+  }
+ ],
+ "patterson#r": [
+  {
+   "clock": "04:12",
+   "date": "2026-09-13",
+   "game": "2026_01_MIA_LV",
+   "gsr": 2052,
+   "kind": "FG 41yd",
+   "q": "2",
+   "start": "9/13/26, 16:25:35",
+   "week": "1"
+  },
+  {
+   "clock": "00:05",
+   "date": "2026-09-13",
+   "game": "2026_01_MIA_LV",
+   "gsr": 1805,
+   "kind": "FG 37yd",
+   "q": "2",
+   "start": "9/13/26, 16:25:35",
+   "week": "1"
+  }
+ ],
+ "pineiro#e": [
+  {
+   "clock": "06:17",
+   "date": "2026-09-10",
+   "game": "2026_01_SF_LA",
+   "gsr": 3077,
+   "kind": "FG 20yd",
+   "q": "1",
+   "start": "9/10/26, 20:37:25",
+   "week": "1"
+  },
+  {
+   "clock": "09:48",
+   "date": "2026-09-10",
+   "game": "2026_01_SF_LA",
+   "gsr": 588,
+   "kind": "FG 56yd",
+   "q": "4",
+   "start": "9/10/26, 20:37:25",
+   "week": "1"
+  }
+ ],
+ "prescott#d": [
+  {
+   "clock": "05:48",
+   "date": "2026-09-13",
+   "game": "2026_01_DAL_NYG",
+   "gsr": 2148,
+   "kind": "pass TD",
+   "q": "2",
+   "start": "9/13/26, 20:24:49",
+   "week": "1"
+  },
+  {
+   "clock": "05:26",
+   "date": "2026-09-13",
+   "game": "2026_01_DAL_NYG",
+   "gsr": 326,
+   "kind": "pass TD",
+   "q": "4",
+   "start": "9/13/26, 20:24:49",
+   "week": "1"
+  }
+ ],
+ "purdy#b": [
+  {
+   "clock": "04:35",
+   "date": "2026-09-10",
+   "game": "2026_01_SF_LA",
+   "gsr": 2075,
+   "kind": "pass TD",
+   "q": "2",
+   "start": "9/10/26, 20:37:25",
+   "week": "1"
+  },
+  {
+   "clock": "11:07",
+   "date": "2026-09-10",
+   "game": "2026_01_SF_LA",
+   "gsr": 1567,
+   "kind": "pass TD",
+   "q": "3",
+   "start": "9/10/26, 20:37:25",
+   "week": "1"
+  },
+  {
+   "clock": "13:04",
+   "date": "2026-09-10",
+   "game": "2026_01_SF_LA",
+   "gsr": 784,
+   "kind": "pass TD",
+   "q": "4",
+   "start": "9/10/26, 20:37:25",
+   "week": "1"
+  }
+ ],
+ "raridon#e": [
+  {
+   "clock": "09:14",
+   "date": "2026-09-09",
+   "game": "2026_01_NE_SEA",
+   "gsr": 2354,
+   "kind": "rec TD",
+   "passer": "D.Maye",
+   "pos_team": "NE",
+   "q": "2",
+   "start": "9/9/26, 20:23:21",
+   "week": "1"
+  }
+ ],
+ "reichard#w": [
+  {
+   "clock": "01:42",
+   "date": "2026-09-13",
+   "game": "2026_01_GB_MIN",
+   "gsr": 2802,
+   "kind": "FG 38yd",
+   "q": "1",
+   "start": "9/13/26, 16:25:28",
+   "week": "1"
+  }
+ ],
+ "rice#r": [
+  {
+   "clock": "01:46",
+   "date": "2026-09-14",
+   "game": "2026_01_DEN_KC",
+   "gsr": 1906,
+   "kind": "rec TD",
+   "passer": "P.Mahomes",
+   "pos_team": "KC",
+   "q": "2",
+   "start": "9/14/26, 20:16:12",
+   "week": "1"
+  }
+ ],
+ "robinson#b": [
+  {
+   "clock": "01:19",
+   "date": "2026-09-13",
+   "game": "2026_01_ATL_PIT",
+   "gsr": 2779,
+   "kind": "rec TD",
+   "passer": "C.Rush",
+   "pos_team": "ATL",
+   "q": "1",
+   "start": "9/13/26, 13:04:05",
+   "week": "1"
+  }
+ ],
+ "robinson#d": [
+  {
+   "clock": "04:35",
+   "date": "2026-09-10",
+   "game": "2026_01_SF_LA",
+   "gsr": 2075,
+   "kind": "rec TD",
+   "passer": "B.Purdy",
+   "pos_team": "SF",
+   "q": "2",
+   "start": "9/10/26, 20:37:25",
+   "week": "1"
+  }
+ ],
+ "rodgers#a": [
+  {
+   "clock": "10:44",
+   "date": "2026-09-13",
+   "game": "2026_01_ATL_PIT",
+   "gsr": 2444,
+   "kind": "pass TD",
+   "q": "2",
+   "start": "9/13/26, 13:04:05",
+   "week": "1"
+  }
+ ],
+ "rush#c": [
+  {
+   "clock": "01:19",
+   "date": "2026-09-13",
+   "game": "2026_01_ATL_PIT",
+   "gsr": 2779,
+   "kind": "pass TD",
+   "q": "1",
+   "start": "9/13/26, 13:04:05",
+   "week": "1"
+  },
+  {
+   "clock": "14:16",
+   "date": "2026-09-13",
+   "game": "2026_01_ATL_PIT",
+   "gsr": 856,
+   "kind": "pass TD",
+   "q": "4",
+   "start": "9/13/26, 13:04:05",
+   "week": "1"
+  }
+ ],
+ "ryland#c": [
+  {
+   "clock": "06:54",
+   "date": "2026-09-13",
+   "game": "2026_01_ARI_LAC",
+   "gsr": 2214,
+   "kind": "FG 27yd",
+   "q": "2",
+   "start": "9/13/26, 16:25:43",
+   "week": "1"
+  },
+  {
+   "clock": "00:04",
+   "date": "2026-09-13",
+   "game": "2026_01_ARI_LAC",
+   "gsr": 1804,
+   "kind": "FG 44yd",
+   "q": "2",
+   "start": "9/13/26, 16:25:43",
+   "week": "1"
+  },
+  {
+   "clock": "07:29",
+   "date": "2026-09-13",
+   "game": "2026_01_ARI_LAC",
+   "gsr": 1349,
+   "kind": "FG 34yd",
+   "q": "3",
+   "start": "9/13/26, 16:25:43",
+   "week": "1"
+  },
+  {
+   "clock": "02:37",
+   "date": "2026-09-13",
+   "game": "2026_01_ARI_LAC",
+   "gsr": 157,
+   "kind": "FG 49yd",
+   "q": "4",
+   "start": "9/13/26, 16:25:43",
+   "week": "1"
+  }
+ ],
+ "sadiq#k": [
+  {
+   "clock": "10:50",
+   "date": "2026-09-13",
+   "game": "2026_01_NYJ_TEN",
+   "gsr": 3350,
+   "kind": "rush TD",
+   "q": "1",
+   "start": "9/13/26, 13:04:39",
+   "week": "1"
+  }
+ ],
+ "samuel#d": [
+  {
+   "clock": "13:04",
+   "date": "2026-09-10",
+   "game": "2026_01_SF_LA",
+   "gsr": 784,
+   "kind": "rec TD",
+   "passer": "B.Purdy",
+   "pos_team": "SF",
+   "q": "4",
+   "start": "9/10/26, 20:37:25",
+   "week": "1"
+  }
+ ],
+ "sanders#j": [
+  {
+   "clock": "05:06",
+   "date": "2026-09-13",
+   "game": "2026_01_NYJ_TEN",
+   "gsr": 2106,
+   "kind": "FG 33yd",
+   "q": "2",
+   "start": "9/13/26, 13:04:39",
+   "week": "1"
+  },
+  {
+   "clock": "04:38",
+   "date": "2026-09-13",
+   "game": "2026_01_NYJ_TEN",
+   "gsr": 1178,
+   "kind": "FG 51yd",
+   "q": "3",
+   "start": "9/13/26, 13:04:39",
+   "week": "1"
+  },
+  {
+   "clock": "05:05",
+   "date": "2026-09-13",
+   "game": "2026_01_NYJ_TEN",
+   "gsr": 305,
+   "kind": "FG 52yd",
+   "q": "4",
+   "start": "9/13/26, 13:04:39",
+   "week": "1"
+  }
+ ],
+ "santos#c": [
+  {
+   "clock": "05:24",
+   "date": "2026-09-13",
+   "game": "2026_01_CHI_CAR",
+   "gsr": 2124,
+   "kind": "FG 40yd",
+   "q": "2",
+   "start": "9/13/26, 13:04:50",
+   "week": "1"
+  }
+ ],
+ "shough#t": [
+  {
+   "clock": "00:34",
+   "date": "2026-09-13",
+   "game": "2026_01_NO_DET",
+   "gsr": 934,
+   "kind": "pass TD",
+   "q": "3",
+   "start": "9/13/26, 13:05:29",
+   "week": "1"
+  },
+  {
+   "clock": "01:38",
+   "date": "2026-09-13",
+   "game": "2026_01_NO_DET",
+   "gsr": 98,
+   "kind": "pass TD",
+   "q": "5",
+   "start": "9/13/26, 13:05:29",
+   "week": "1"
+  },
+  {
+   "clock": "01:13",
+   "date": "2026-09-13",
+   "game": "2026_01_NO_DET",
+   "gsr": 73,
+   "kind": "pass TD",
+   "q": "4",
+   "start": "9/13/26, 13:05:29",
+   "week": "1"
+  }
+ ],
+ "shrader#s": [
+  {
+   "clock": "08:00",
+   "date": "2026-09-13",
+   "game": "2026_01_BAL_IND",
+   "gsr": 1380,
+   "kind": "FG 58yd",
+   "q": "3",
+   "start": "9/13/26, 13:05:06",
+   "week": "1"
+  }
+ ],
+ "singletary#d": [
+  {
+   "clock": "07:31",
+   "date": "2026-09-13",
+   "game": "2026_01_DAL_NYG",
+   "gsr": 451,
+   "kind": "rec TD",
+   "passer": "J.Dart",
+   "pos_team": "NYG",
+   "q": "4",
+   "start": "9/13/26, 20:24:49",
+   "week": "1"
+  }
+ ],
+ "skattebo#c": [
+  {
+   "clock": "06:45",
+   "date": "2026-09-13",
+   "game": "2026_01_DAL_NYG",
+   "gsr": 3105,
+   "kind": "rush TD",
+   "q": "1",
+   "start": "9/13/26, 20:24:49",
+   "week": "1"
+  }
+ ],
+ "slye#j": [
+  {
+   "clock": "05:08",
+   "date": "2026-09-13",
+   "game": "2026_01_NYJ_TEN",
+   "gsr": 3008,
+   "kind": "FG 42yd",
+   "q": "1",
+   "start": "9/13/26, 13:04:39",
+   "week": "1"
+  }
+ ],
+ "smack#t": [
+  {
+   "clock": "12:16",
+   "date": "2026-09-13",
+   "game": "2026_01_GB_MIN",
+   "gsr": 3436,
+   "kind": "FG 59yd",
+   "q": "1",
+   "start": "9/13/26, 16:25:28",
+   "week": "1"
+  },
+  {
+   "clock": "13:56",
+   "date": "2026-09-13",
+   "game": "2026_01_GB_MIN",
+   "gsr": 2636,
+   "kind": "FG 43yd",
+   "q": "2",
+   "start": "9/13/26, 16:25:28",
+   "week": "1"
+  },
+  {
+   "clock": "05:12",
+   "date": "2026-09-13",
+   "game": "2026_01_GB_MIN",
+   "gsr": 1212,
+   "kind": "FG 26yd",
+   "q": "3",
+   "start": "9/13/26, 16:25:28",
+   "week": "1"
+  }
+ ],
+ "smithnjigba#j": [
+  {
+   "clock": "11:38",
+   "date": "2026-09-09",
+   "game": "2026_01_NE_SEA",
+   "gsr": 698,
+   "kind": "rec TD",
+   "passer": "D.Lock",
+   "pos_team": "SEA",
+   "q": "4",
+   "start": "9/9/26, 20:23:21",
+   "week": "1"
+  }
+ ],
+ "stbrown#a": [
+  {
+   "clock": "08:59",
+   "date": "2026-09-13",
+   "game": "2026_01_NO_DET",
+   "gsr": 1439,
+   "kind": "rec TD",
+   "passer": "J.Goff",
+   "pos_team": "DET",
+   "q": "3",
+   "start": "9/13/26, 13:05:29",
+   "week": "1"
+  },
+  {
+   "clock": "05:07",
+   "date": "2026-09-13",
+   "game": "2026_01_NO_DET",
+   "gsr": 307,
+   "kind": "rec TD",
+   "passer": "J.Goff",
+   "pos_team": "DET",
+   "q": "5",
+   "start": "9/13/26, 13:05:29",
+   "week": "1"
+  }
+ ],
+ "stevens#d": [
+  {
+   "clock": "11:29",
+   "date": "2026-09-13",
+   "game": "2026_01_WAS_PHI",
+   "gsr": 3389,
+   "kind": "FG 55yd",
+   "q": "1",
+   "start": "9/13/26, 16:25:25",
+   "week": "1"
+  }
+ ],
+ "strange#b": [
+  {
+   "clock": "06:24",
+   "date": "2026-09-13",
+   "game": "2026_01_CLE_JAX",
+   "gsr": 2184,
+   "kind": "rec TD",
+   "passer": "T.Lawrence",
+   "pos_team": "JAX",
+   "q": "2",
+   "start": "9/13/26, 13:03:54",
+   "week": "1"
+  }
+ ],
+ "stroud#c": [
+  {
+   "clock": "00:31",
+   "date": "2026-09-13",
+   "game": "2026_01_BUF_HOU",
+   "gsr": 1831,
+   "kind": "pass TD",
+   "q": "2",
+   "start": "9/13/26, 13:04:46",
+   "week": "1"
+  },
+  {
+   "clock": "13:39",
+   "date": "2026-09-13",
+   "game": "2026_01_BUF_HOU",
+   "gsr": 819,
+   "kind": "pass TD",
+   "q": "4",
+   "start": "9/13/26, 13:04:46",
+   "week": "1"
+  }
+ ],
+ "swift#d": [
+  {
+   "clock": "02:03",
+   "date": "2026-09-13",
+   "game": "2026_01_CHI_CAR",
+   "gsr": 2823,
+   "kind": "rush TD",
+   "q": "1",
+   "start": "9/13/26, 13:04:50",
+   "week": "1"
+  },
+  {
+   "clock": "03:08",
+   "date": "2026-09-13",
+   "game": "2026_01_CHI_CAR",
+   "gsr": 1088,
+   "kind": "rush TD",
+   "q": "3",
+   "start": "9/13/26, 13:04:50",
+   "week": "1"
+  },
+  {
+   "clock": "03:47",
+   "date": "2026-09-13",
+   "game": "2026_01_CHI_CAR",
+   "gsr": 227,
+   "kind": "rush TD",
+   "q": "4",
+   "start": "9/13/26, 13:04:50",
+   "week": "1"
+  }
+ ],
+ "szmyt#a": [
+  {
+   "clock": "08:34",
+   "date": "2026-09-13",
+   "game": "2026_01_CLE_JAX",
+   "gsr": 1414,
+   "kind": "FG 26yd",
+   "q": "3",
+   "start": "9/13/26, 13:03:54",
+   "week": "1"
+  }
+ ],
+ "taylor#j": [
+  {
+   "clock": "10:36",
+   "date": "2026-09-13",
+   "game": "2026_01_BAL_IND",
+   "gsr": 3336,
+   "kind": "rush TD",
+   "q": "1",
+   "start": "9/13/26, 13:05:06",
+   "week": "1"
+  },
+  {
+   "clock": "02:18",
+   "date": "2026-09-13",
+   "game": "2026_01_BAL_IND",
+   "gsr": 1938,
+   "kind": "rush TD",
+   "q": "2",
+   "start": "9/13/26, 13:05:06",
+   "week": "1"
+  }
+ ],
+ "trotter#j": [
+  {
+   "clock": "02:24",
+   "date": "2026-09-13",
+   "game": "2026_01_TB_CIN",
+   "gsr": 1044,
+   "kind": "rec TD",
+   "passer": "J.Burrow",
+   "pos_team": "CIN",
+   "q": "3",
+   "start": "9/13/26, 13:03:57",
+   "week": "1"
+  }
+ ],
+ "vele#d": [
+  {
+   "clock": "00:34",
+   "date": "2026-09-13",
+   "game": "2026_01_NO_DET",
+   "gsr": 934,
+   "kind": "rec TD",
+   "passer": "T.Shough",
+   "pos_team": "NO",
+   "q": "3",
+   "start": "9/13/26, 13:05:29",
+   "week": "1"
+  }
+ ],
+ "walker#j": [
+  {
+   "clock": "06:32",
+   "date": "2026-09-13",
+   "game": "2026_01_CHI_CAR",
+   "gsr": 392,
+   "kind": "rec TD",
+   "passer": "C.Williams",
+   "pos_team": "CHI",
+   "q": "4",
+   "start": "9/13/26, 13:04:50",
+   "week": "1"
+  }
+ ],
+ "walker#k": [
+  {
+   "clock": "12:53",
+   "date": "2026-09-14",
+   "game": "2026_01_DEN_KC",
+   "gsr": 1673,
+   "kind": "rush TD",
+   "q": "3",
+   "start": "9/14/26, 20:16:12",
+   "week": "1"
+  },
+  {
+   "clock": "14:43",
+   "date": "2026-09-14",
+   "game": "2026_01_DEN_KC",
+   "gsr": 883,
+   "kind": "rec TD",
+   "passer": "P.Mahomes",
+   "pos_team": "KC",
+   "q": "4",
+   "start": "9/14/26, 20:16:12",
+   "week": "1"
+  }
+ ],
+ "ward#c": [
+  {
+   "clock": "02:45",
+   "date": "2026-09-13",
+   "game": "2026_01_NYJ_TEN",
+   "gsr": 165,
+   "kind": "pass TD",
+   "q": "4",
+   "start": "9/13/26, 13:04:39",
+   "week": "1"
+  }
+ ],
+ "warren#t": [
+  {
+   "clock": "10:32",
+   "date": "2026-09-13",
+   "game": "2026_01_BAL_IND",
+   "gsr": 632,
+   "kind": "rec TD",
+   "passer": "D.Jones",
+   "pos_team": "IND",
+   "q": "4",
+   "start": "9/13/26, 13:05:06",
+   "week": "1"
+  }
+ ],
+ "washington#p": [
+  {
+   "clock": "08:18",
+   "date": "2026-09-13",
+   "game": "2026_01_CLE_JAX",
+   "gsr": 3198,
+   "kind": "rec TD",
+   "passer": "T.Lawrence",
+   "pos_team": "JAX",
+   "q": "1",
+   "start": "9/13/26, 13:03:54",
+   "week": "1"
+  }
+ ],
+ "watson#c": [
+  {
+   "clock": "07:54",
+   "date": "2026-09-13",
+   "game": "2026_01_GB_MIN",
+   "gsr": 3174,
+   "kind": "rec TD",
+   "passer": "J.Love",
+   "pos_team": "GB",
+   "q": "1",
+   "start": "9/13/26, 16:25:28",
+   "week": "1"
+  },
+  {
+   "clock": "00:18",
+   "date": "2026-09-13",
+   "game": "2026_01_GB_MIN",
+   "gsr": 1818,
+   "kind": "rec TD",
+   "passer": "J.Love",
+   "pos_team": "GB",
+   "q": "2",
+   "start": "9/13/26, 16:25:28",
+   "week": "1"
+  }
+ ],
+ "watson#d": [
+  {
+   "clock": "02:00",
+   "date": "2026-09-13",
+   "game": "2026_01_CLE_JAX",
+   "gsr": 120,
+   "kind": "pass TD",
+   "q": "4",
+   "start": "9/13/26, 13:03:54",
+   "week": "1"
+  }
+ ],
+ "watt#t": [
+  {
+   "clock": "14:16",
+   "date": "2026-09-13",
+   "game": "2026_01_ATL_PIT",
+   "gsr": 856,
+   "kind": "rec TD",
+   "passer": "C.Rush",
+   "pos_team": "ATL",
+   "q": "4",
+   "start": "9/13/26, 13:04:05",
+   "week": "1"
+  }
+ ],
+ "wentz#c": [
+  {
+   "clock": "02:02",
+   "date": "2026-09-13",
+   "game": "2026_01_GB_MIN",
+   "gsr": 1922,
+   "kind": "pass TD",
+   "q": "2",
+   "start": "9/13/26, 16:25:28",
+   "week": "1"
+  },
+  {
+   "clock": "02:11",
+   "date": "2026-09-13",
+   "game": "2026_01_GB_MIN",
+   "gsr": 1031,
+   "kind": "pass TD",
+   "q": "3",
+   "start": "9/13/26, 16:25:28",
+   "week": "1"
+  },
+  {
+   "clock": "04:03",
+   "date": "2026-09-13",
+   "game": "2026_01_GB_MIN",
+   "gsr": 243,
+   "kind": "pass TD",
+   "q": "4",
+   "start": "9/13/26, 16:25:28",
+   "week": "1"
+  }
+ ],
+ "wicks#d": [
+  {
+   "clock": "06:35",
+   "date": "2026-09-13",
+   "game": "2026_01_WAS_PHI",
+   "gsr": 2195,
+   "kind": "rec TD",
+   "passer": "J.Hurts",
+   "pos_team": "PHI",
+   "q": "2",
+   "start": "9/13/26, 16:25:25",
+   "week": "1"
+  }
+ ],
+ "williams#a": [
+  {
+   "clock": "01:05",
+   "date": "2026-09-13",
+   "game": "2026_01_WAS_PHI",
+   "gsr": 65,
+   "kind": "rec TD",
+   "passer": "J.Daniels",
+   "pos_team": "WAS",
+   "q": "4",
+   "start": "9/13/26, 16:25:25",
+   "week": "1"
+  }
+ ],
+ "williams#c": [
+  {
+   "clock": "06:03",
+   "date": "2026-09-13",
+   "game": "2026_01_CHI_CAR",
+   "gsr": 3063,
+   "kind": "rush TD",
+   "q": "1",
+   "start": "9/13/26, 13:04:50",
+   "week": "1"
+  },
+  {
+   "clock": "14:05",
+   "date": "2026-09-13",
+   "game": "2026_01_CHI_CAR",
+   "gsr": 2645,
+   "kind": "pass TD",
+   "q": "2",
+   "start": "9/13/26, 13:04:50",
+   "week": "1"
+  },
+  {
+   "clock": "00:32",
+   "date": "2026-09-13",
+   "game": "2026_01_CHI_CAR",
+   "gsr": 1832,
+   "kind": "rush TD",
+   "q": "2",
+   "start": "9/13/26, 13:04:50",
+   "week": "1"
+  },
+  {
+   "clock": "06:32",
+   "date": "2026-09-13",
+   "game": "2026_01_CHI_CAR",
+   "gsr": 392,
+   "kind": "pass TD",
+   "q": "4",
+   "start": "9/13/26, 13:04:50",
+   "week": "1"
+  }
+ ],
+ "williams#j": [
+  {
+   "clock": "00:41",
+   "date": "2026-09-13",
+   "game": "2026_01_DAL_NYG",
+   "gsr": 941,
+   "kind": "rush TD",
+   "q": "3",
+   "start": "9/13/26, 20:24:49",
+   "week": "1"
+  },
+  {
+   "clock": "05:26",
+   "date": "2026-09-13",
+   "game": "2026_01_DAL_NYG",
+   "gsr": 326,
+   "kind": "rec TD",
+   "passer": "D.Prescott",
+   "pos_team": "DAL",
+   "q": "4",
+   "start": "9/13/26, 20:24:49",
+   "week": "1"
+  }
+ ],
+ "williams#k": [
+  {
+   "clock": "15:00",
+   "date": "2026-09-10",
+   "game": "2026_01_SF_LA",
+   "gsr": 2700,
+   "kind": "rush TD",
+   "q": "2",
+   "start": "9/10/26, 20:37:25",
+   "week": "1"
+  }
+ ],
+ "willis#m": [
+  {
+   "clock": "12:52",
+   "date": "2026-09-13",
+   "game": "2026_01_MIA_LV",
+   "gsr": 1672,
+   "kind": "rush TD",
+   "q": "3",
+   "start": "9/13/26, 16:25:35",
+   "week": "1"
+  }
+ ],
+ "young#b": [
+  {
+   "clock": "11:40",
+   "date": "2026-09-13",
+   "game": "2026_01_CHI_CAR",
+   "gsr": 3400,
+   "kind": "pass TD",
+   "q": "1",
+   "start": "9/13/26, 13:04:50",
+   "week": "1"
+  },
+  {
+   "clock": "12:49",
+   "date": "2026-09-13",
+   "game": "2026_01_CHI_CAR",
+   "gsr": 2569,
+   "kind": "pass TD",
+   "q": "2",
+   "start": "9/13/26, 13:04:50",
+   "week": "1"
+  },
+  {
+   "clock": "08:51",
+   "date": "2026-09-13",
+   "game": "2026_01_CHI_CAR",
+   "gsr": 2331,
+   "kind": "rush TD",
+   "q": "2",
+   "start": "9/13/26, 13:04:50",
+   "week": "1"
+  },
+  {
+   "clock": "04:05",
+   "date": "2026-09-13",
+   "game": "2026_01_CHI_CAR",
+   "gsr": 245,
+   "kind": "pass TD",
+   "q": "4",
+   "start": "9/13/26, 13:04:50",
+   "week": "1"
+  }
+ ]
+}
