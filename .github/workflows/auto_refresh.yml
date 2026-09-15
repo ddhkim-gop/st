@@ -1,0 +1,45 @@
+name: Auto-refresh transactions
+
+on:
+  schedule:
+    - cron: '*/30 * * * *'   # every 30 minutes
+  workflow_dispatch:           # allow manual trigger from GitHub UI
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Cache Sleeper players data
+        uses: actions/cache@v4
+        with:
+          path: scripts/players_cache.json
+          key: sleeper-players-${{ hashFiles('scripts/players_cache.json') }}
+          restore-keys: |
+            sleeper-players-
+
+      - name: Refresh transactions and rosters
+        id: refresh
+        run: python3 scripts/refresh_transactions.py
+        continue-on-error: true   # exit code 1 = no changes (not an error)
+
+      - name: Commit and push if data changed
+        if: steps.refresh.outcome == 'success' && steps.refresh.conclusion == 'success'
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add data.js *.html
+          git diff --cached --quiet || git commit -m "Auto-refresh: update transactions and rosters"
+          git push

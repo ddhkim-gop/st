@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- video.twimg.com serves the highlight clips but 403s any request that
+         carries a Referer, so the in-panel players need it suppressed. Not
+         optional: over http://localhost it works without this only because an
+         http -> https request drops the header anyway; the deployed site is
+         https -> https and does send it. -->
+    <meta name="referrer" content="no-referrer">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Team</title>
+    <link rel="stylesheet" href="style.css?v=202609150609">
+</head>
+<body>
+<div id="nav"></div>
+<main>
+    <div id="team-container">Loading...</div>
+</main>
+<script src="data.js?v=202609150609"></script>
+<script type="module" src="team.js?v=202609150609"></script>
+</body>
+</html>

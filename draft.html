@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Draft</title>
+    <link rel="stylesheet" href="style.css?v=202609150609">
+    <style>
+        #draft-top-bar { display:flex; align-items:flex-start; gap:16px; margin-bottom:10px; }
+        /* Position stat boxes */
+        #position-stats > div > div {
+            padding: 8px 6px;
+        }
+        @media (max-width: 600px) {
+            #draft-top-bar { gap: 8px; align-items: center; }
+            #yearSelect { flex-shrink: 0; }
+            #position-stats > div { gap: 3px !important; }
+            #position-stats > div > div { padding: 6px 3px !important; border-radius: 6px !important; }
+            #position-stats > div > div > div:first-child { font-size: 7px !important; margin-bottom: 1px !important; }
+            #position-stats > div > div > div:nth-child(2) { font-size: 14px !important; line-height: 1 !important; }
+            #position-stats > div > div > div:nth-child(3) { font-size: 8px !important; margin-top: 2px !important; }
+        }
+    </style>
+</head>
+<body>
+<div id="nav"></div>
+<main>
+    <h1>Draft</h1>
+
+    <div id="draft-top-bar">
+        <select id="yearSelect"></select>
+        <div id="position-stats" style="flex:1;"></div>
+    </div>
+
+    <div id="draft-container">Loading...</div>
+    <div id="draft-analysis" style="margin-top:24px;"></div>
+</main>
+
+<script src="data.js?v=202609150609"></script>
+<script type="module" src="draft.js?v=202609150609"></script>
+</body>
+</html>

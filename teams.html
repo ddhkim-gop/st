@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Teams</title>
+    <link rel="stylesheet" href="style.css?v=202609150609">
+    <style>
+        .teams-tab-bar {
+            display: flex;
+            align-items: center;
+            gap: 6px;
+            margin-bottom: 12px;
+        }
+        .teams-tab {
+            background: none;
+            border: none;
+            padding: 7px 14px;
+            border-radius: 8px;
+            font-size: 13px;
+            font-weight: 600;
+            color: #8b9099;
+            cursor: pointer;
+            transition: background 0.15s, color 0.15s;
+            font-family: inherit;
+        }
+        .teams-tab:hover { color: #f0f1f3; background: #1e2027; }
+        .teams-tab.active { color: #f0f1f3; background: #1e2027; }
+    </style>
+</head>
+<body>
+
+<div id="nav"></div>
+
+<div class="teams-tab-bar">
+    <button class="teams-tab active" id="tab-rosters" onclick="teamsTab('rosters')">Rosters</button>
+    <button class="teams-tab" id="tab-picks" onclick="teamsTab('picks')">Picks</button>
+</div>
+
+<div class="filter-bar">
+    <div id="teams-dropdown-wrap"></div>
+</div>
+
+<div id="rosters-section">
+    <div id="teams-container">Loading...</div>
+</div>
+
+<div id="picks-section" style="display:none">
+    <div id="content">Loading...</div>
+</div>
+
+<script src="data.js?v=202609150609"></script>
+<script type="module" src="teams.js?v=202609150609"></script>
+<script type="module" src="assets.js?v=202609150609"></script>
+<script>
+    function teamsTab(tab) {
+        document.getElementById('tab-rosters').classList.toggle('active', tab === 'rosters');
+        document.getElementById('tab-picks').classList.toggle('active', tab === 'picks');
+        document.getElementById('rosters-section').style.display = tab === 'rosters' ? '' : 'none';
+        document.getElementById('picks-section').style.display = tab === 'picks' ? '' : 'none';
+        history.replaceState(null, '', '#' + tab);
+    }
+    // Restore tab from URL hash on load
+    (function() {
+        const hash = location.hash.replace('#', '');
+        if (hash === 'picks') teamsTab('picks');
+    })();
+</script>
+
+</body>
+</html>

@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Transactions</title>
+    <link rel="stylesheet" href="style.css?v=202609150609">
+    <style>
+        .tx-tab-bar {
+            display: flex;
+            align-items: center;
+            gap: 6px;
+            margin-bottom: 12px;
+        }
+        .tx-tab {
+            background: none;
+            border: none;
+            padding: 7px 14px;
+            border-radius: 8px;
+            font-size: 13px;
+            font-weight: 600;
+            color: #8b9099;
+            cursor: pointer;
+            transition: background 0.15s, color 0.15s;
+            font-family: inherit;
+        }
+        .tx-tab:hover { color: #f0f1f3; background: #1e2027; }
+        .tx-tab.active { color: #f0f1f3; background: #1e2027; }
+    </style>
+</head>
+<body>
+
+<div id="nav"></div>
+
+<div class="tx-tab-bar">
+    <button class="tx-tab active" id="tab-transactions" onclick="txTab('transactions')">Transactions</button>
+    <button class="tx-tab" id="tab-trade-analyzer" onclick="txTab('trade-analyzer')">Trade Analyzer</button>
+</div>
+
+<div id="transactions-section">
+    <div id="transactions-container">Loading...</div>
+</div>
+
+<div id="trade-analyzer-section" style="display:none">
+    <div id="ta-container">Loading...</div>
+</div>
+
+<script src="data.js?v=202609150609"></script>
+<script type="module" src="transactions.js?v=202609150609"></script>
+<script type="module" src="trade_analyzer.js?v=202609150609"></script>
+<script>
+    function txTab(tab) {
+        document.getElementById('tab-transactions').classList.toggle('active', tab === 'transactions');
+        document.getElementById('tab-trade-analyzer').classList.toggle('active', tab === 'trade-analyzer');
+        document.getElementById('transactions-section').style.display = tab === 'transactions' ? '' : 'none';
+        document.getElementById('trade-analyzer-section').style.display = tab === 'trade-analyzer' ? '' : 'none';
+        history.replaceState(null, '', '#' + tab);
+    }
+    // Restore tab from URL hash on load
+    (function() {
+        const hash = location.hash.replace('#', '');
+        if (hash === 'trade-analyzer') txTab('trade-analyzer');
+    })();
+</script>
+
+</body>
+</html>
