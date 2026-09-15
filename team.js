@@ -570,7 +570,7 @@ async function init() {
           @media (max-width:750px) { .team-page-wrap { grid-template-columns:1fr 1fr; } }
           @media (max-width:500px) { .team-page-wrap { grid-template-columns:1fr; } }
           /* News left, highlight reel right - equal halves on desktop, stacked on mobile */
-          .team-top-wrap { display:grid; grid-template-columns:1fr; gap:16px; margin-bottom:16px; align-items:stretch; }
+          .team-top-wrap { display:grid; grid-template-columns:1fr 1fr; gap:16px; margin-bottom:16px; align-items:stretch; }
           @media (max-width:600px) { .team-top-wrap { grid-template-columns:1fr; } }
           .team-top-wrap .top-card { background:#1e2027; border:1px solid #2d3139; border-radius:12px;
             padding:16px 20px; display:flex; flex-direction:column; min-width:0; max-height:520px; }
@@ -613,6 +613,16 @@ async function init() {
             </div>
             <div id="team-news-body" style="flex:1;overflow-y:auto;padding-right:6px;">
               <div style="color:#5a6070;font-size:12px;">Loading news…</div>
+            </div>
+          </div>
+
+          <div class="top-card">
+            <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:10px;">
+              <div style="font-size:14px;font-weight:700;color:#f0f1f3;">Latest Highlights</div>
+              <div id="team-reel-note" style="font-size:12px;color:#5a6070;">Loading…</div>
+            </div>
+            <div id="team-reel-body" style="flex:1;overflow-y:auto;padding-right:6px;min-height:0;">
+              <div style="color:#5a6070;font-size:12px;">Loading posts…</div>
             </div>
           </div>
 
@@ -690,6 +700,8 @@ async function init() {
 
         loadTeamNews(players);
 
+
+        loadTeamReel(teamName);
     } catch(err) {
         console.error(err);
         container.innerHTML = `<p style="color:#e74c82;padding:20px;">Error loading team: ${err.message}</p>`;
