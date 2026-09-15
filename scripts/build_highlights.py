@@ -33,11 +33,12 @@ from pathlib import Path
 
 REPO = Path(__file__).resolve().parent.parent
 OUT_DIR = REPO / "assets" / "highlights"
-LEAGUE_ID = "1400268451699818496"          # ST 2026
+LEAGUE_ID = "1400268451699818496"          # Game of Phones 2026
 SLEEPER = "https://api.sleeper.app/v1"
 OEMBED = "https://publish.twitter.com/oembed"
-MAX_PER_TEAM = 12
-MAX_PER_PLAYER = 2      # the same play gets posted by a dozen accounts
+MAX_PER_TEAM = 30
+MAX_PER_PLAYER = 5      # a player can make several distinct plays in a game;
+                        # reposts of one play are collapsed by video id below
 # How far back a highlight may come from. In season this is the current game
 # week only - the panel is about what just happened. Before week 1 there are no
 # games, so it opens up to the whole camp/preseason run.
@@ -65,6 +66,36 @@ VIDEO_CACHE = REPO / "scripts" / ".highlights_video_cache.json"
 # video.twimg.com, unsigned and public, so the bytes still come from X's CDN -
 # nothing is rehosted here. Resolution costs a yt-dlp call, so it is cached.
 MEDIA_CACHE = REPO / "scripts" / ".highlights_media_cache.json"
+
+# oembed (author/text/date) is cached and COMMITTED, so a clip that resolved
+# once keeps rendering even when X later 403s the oembed for it (transient
+# throttling was silently evicting already-shipped, watched clips).
+OEMBED_CACHE = REPO / "scripts" / ".highlights_oembed_cache.json"
+_OEMBED: dict | None = None
+
+# Real game timing per player (quarter + clock), built by gen_playtimes.py from
+# nflverse. Lets each clip show "Q1 8:34" and sort as it happened in real life.
+PLAYTIMES = REPO / "scripts" / ".playtimes.json"
+
+
+def _playtimes() -> dict:
+    try:
+        return json.loads(PLAYTIMES.read_text())
+    except Exception:
+        return {}
+
+
+def playtime_key(full_name: str) -> str:
+    """Roster 'First Last' -> 'last#f' to match the nflverse playtimes index."""
+    parts = [p for p in re.split(r"\s+", (full_name or "").strip()) if p]
+    if len(parts) < 2:
+        return ""
+    first = re.sub(r"[^a-z]", "", parts[0].lower())
+    last = re.sub(r"[^a-z0-9]", "", "".join(parts[1:]).lower())
+    for suf in ("jr", "sr", "ii", "iii", "iv", "v"):
+        if last.endswith(suf) and len(last) > len(suf):
+            last = last[:-len(suf)]
+    return f"{last}#{first[:1]}" if last and first else ""
 
 # Display name, avatar and verified flag per handle, so the panel can render a
 # post the way X does instead of a bare handle. Harvested from X's own timeline
@@ -376,7 +407,37 @@ def media(url: str, cache: dict) -> dict:
     return out
 
 
+def _oembed_cache() -> dict:
+    global _OEMBED
+    if _OEMBED is None:
+        try:
+            _OEMBED = json.loads(OEMBED_CACHE.read_text())
+        except Exception:
+            _OEMBED = {}
+    return _OEMBED
+
+
+def _save_oembed_cache() -> None:
+    if _OEMBED is not None:
+        OEMBED_CACHE.write_text(json.dumps(_OEMBED, indent=1, sort_keys=True) + "\n")
+
+
+def synth_info(url: str, note: str) -> dict:
+    """Minimal card for an approved clip whose oembed never resolved (X 403).
+
+    A watched-and-approved clip must ship regardless of oembed availability, so
+    fall back to the reviewed note for text and the handle parsed from the URL.
+    Dated today to stay inside the freshness window.
+    """
+    handle = url.split("/status/")[0].rstrip("/").rsplit("/", 1)[-1]
+    return {"url": url, "author": handle, "author_url": f"https://x.com/{handle}",
+            "text": note, "date": datetime.now(timezone.utc).strftime("%Y-%m-%d")}
+
+
 def oembed(url: str) -> dict | None:
+    cache = _oembed_cache()
+    if url in cache:
+        return cache[url]           # persisted -> survives a later transient 403
     q = urllib.parse.urlencode({"url": url, "dnt": "true", "omit_script": "true"})
     try:
         data = get_json(f"{OEMBED}?{q}")
@@ -406,10 +467,12 @@ def oembed(url: str) -> dict | None:
                 date = datetime.strptime(" ".join(m.groups()), "%b %d %Y").strftime("%Y-%m-%d")
             except ValueError:
                 date = ""
-    return {"url": data.get("url") or url,
+    info = {"url": data.get("url") or url,
             "author": data.get("author_name") or "",
             "author_url": data.get("author_url") or "",
             "text": text, "date": date}
+    cache[url] = info               # persist so it survives future 403s
+    return info
 
 
 def _word(term: str) -> str:
@@ -529,9 +592,17 @@ def window_start() -> str:
         wk_start = start + timedelta(days=7 * max(week - 1, 0))
         today = datetime.now(timezone.utc).replace(tzinfo=None)
         if today >= start:                     # games have been played
-            floor = wk_start.strftime("%Y-%m-%d")
+            # Sleeper can flip to the next week before that week's games are
+            # played (mid-week), pushing wk_start ahead of the football actually
+            # on the field. Floor to the earlier of the week start and 7 days
+            # ago, so a just-played game still shows instead of being hidden as
+            # "last week". Never reaches back past a week - still current, not
+            # archival.
+            floor_dt = min(wk_start, today - timedelta(days=7))
+            floor = floor_dt.strftime("%Y-%m-%d")
             _IN_SEASON = True
-            print(f"window: week {week} only, from {floor}; "
+            print(f"window: from {floor} (week {week} start "
+                  f"{wk_start:%Y-%m-%d}, 7-day floor applied); "
                   f"previous-season footage excluded")
         else:
             print(f"window: preseason, from {floor} "
@@ -550,19 +621,42 @@ def fresh(date: str) -> bool:
     return bool(date) and date >= window_start()
 
 
-def dedupe(hits: list[dict]) -> list[dict]:
-    """Collapse re-posts of the same play, then cap per player.
+def _clip_id(url: str, cache: dict) -> str:
+    """Id of the actual video behind a post, or '' if unresolved.
 
-    A notable play is posted by many accounts within minutes, often with
-    near-identical wording. Keeping all of them fills a team's panel with one
-    catch. Grouping by (player, date, rounded clip length) catches the
-    re-uploads; the most-liked copy wins, which also favours the account that
-    posted the cleanest cut.
+    Every account reposting one play embeds the *same* monetized amplify clip,
+    so X serves them all the same video id - that id is the play's true
+    fingerprint. Two different plays get different ids even when they share a
+    player, a game and a clip length, which is exactly the case the old
+    length-bucket key merged by mistake.
+    """
+    v = (media(url, cache) or {}).get("video") or ""
+    m = re.search(r"/(?:amplify_video|ext_tw_video|tweet_video)/(\d+)", v)
+    if m:
+        return m.group(1)
+    # Direct-mp4 sources (ESPN) have no amplify id; their filename is a stable
+    # per-clip id, so distinct plays by one player on one day keep distinct keys
+    # instead of collapsing under the (player, date, length) fallback below.
+    m = re.search(r"/([^/]+)\.mp4(?:[?#]|$)", v)
+    return m.group(1) if m else ""
+
+
+def dedupe(hits: list[dict], media_cache: dict) -> list[dict]:
+    """Collapse re-posts of the same play, keep distinct plays, cap per player.
+
+    Grouped on the underlying video id (see _clip_id): reposts of one play
+    share it, distinct plays don't - so a player's several highlights in a
+    game all survive, while a dozen re-uploads of one catch fold into a single
+    card. Posts whose video can't be resolved (link-out cards) fall back to the
+    older (player, date, rounded length) heuristic. Most-liked copy in a group
+    wins, favouring the cleanest cut.
     """
     best: dict[tuple, dict] = {}
     for h in sorted([x for x in hits if fresh(x["date"])],
                     key=lambda x: -x.get("faves", 0)):
-        key = (h["player"], h["date"], round((h.get("secs") or 0) / 5))
+        cid = _clip_id(h["url"], media_cache)
+        key = ((h["player"], "vid", cid) if cid
+               else (h["player"], h["date"], round((h.get("secs") or 0) / 5)))
         best.setdefault(key, h)
     kept, per_player = [], {}
     for h in sorted(best.values(), key=lambda x: (x["date"] or "0", x.get("faves", 0)),
@@ -619,6 +713,9 @@ def build(pool: list[str], only_team: str | None, dry_run: bool,
             skipped += 1
             continue
         info = oembed(url)
+        if not info and url in approved:
+            info = synth_info(url, approved[url])      # keep watched clips alive
+            print(f"  ~   approved (oembed unavailable) @{info['author']}")
         if info:
             handle = info["author_url"].rsplit("/", 1)[-1].lower()
             if highlights_only and url not in approved and handle in EXCLUDE_AUTHORS:
@@ -628,6 +725,7 @@ def build(pool: list[str], only_team: str | None, dry_run: bool,
             print(f"  ok  {info['date'] or '????-??-??'}  @{info['author_url'].rsplit('/',1)[-1]}"
                   f"  {info['text'][:58]}")
         time.sleep(0.4)          # be polite to a public endpoint
+    _save_oembed_cache()
     if video_only:
         VIDEO_CACHE.write_text(json.dumps(cache, indent=1, sort_keys=True) + "\n")
         print(f"\nskipped {skipped} posts with no video")
@@ -656,6 +754,7 @@ def build(pool: list[str], only_team: str | None, dry_run: bool,
                      if not k.startswith("_")}
         except ValueError:
             print(f"  ! {STATS.name} is not valid JSON; ignoring", file=sys.stderr)
+    playtimes = _playtimes()
     OUT_DIR.mkdir(parents=True, exist_ok=True)
     written = 0
     rejects: dict[str, str] = {}
@@ -666,14 +765,21 @@ def build(pool: list[str], only_team: str | None, dry_run: bool,
             continue
         hits = []
         for post in resolved:
+            # A watched note ("Player - what the footage shows") is authoritative
+            # for *who* is in the clip - it was assigned by watching the video,
+            # not by reading the caption. So an approved post attaches to the
+            # player it names even when the tweet text never spells that name
+            # ("THERE GOES JSN" -> Jaxon Smith-Njigba). Unreviewed posts still
+            # fall back to naming the player in their text.
+            who = reviewed_players(approved.get(post["url"], ""))
             for p in roster:
-                if not mentions(post["text"], p["name"]):
+                named_by_review = p["name"] in who      # who is empty if unreviewed
+                if not named_by_review and not mentions(post["text"], p["name"]):
                     continue
                 if verified_only and post["url"] not in approved:
                     break
-                who = reviewed_players(approved.get(post["url"], ""))
                 if who and p["name"] not in who:
-                    continue        # watched, but it shows a different player
+                    continue        # watched note names a different player
                 if in_season():
                     v, detail = dated_by_scoreboard(post["url"], boards,
                                                     season_state)
@@ -697,9 +803,28 @@ def build(pool: list[str], only_team: str | None, dry_run: bool,
                              "faves": post.get("faves", 0),
                              "secs": post.get("secs", 0)})
                 break            # one post is filed under one player
-        hits = dedupe(hits)[:MAX_PER_TEAM]
+        hits = dedupe(hits, media_cache)[:MAX_PER_TEAM]
+        pos_of = {p["name"]: p.get("position") for p in roster}
+        used_pt: dict = {}
         for h in hits:                    # only for what actually ships
+            # A shared clip ("QB to WR") credits both in its note; on a team that
+            # rosters both, label the card with both, skill player first, so the
+            # fantasy-relevant name leads instead of the QB burying the receiver.
+            who = [w for w in reviewed_players(approved.get(h["url"], ""))
+                   if w in pos_of]
+            if len(who) > 1:
+                who.sort(key=lambda n: (pos_of.get(n) == "QB", n))
+                h["player"] = " & ".join(who)
             h.update(media(h["url"], media_cache))
+            # attach the real game timestamp (Q + clock) from nflverse; consume
+            # per player so a player's multiple clips get successive plays.
+            lst = playtimes.get(playtime_key(h.get("player", "")), [])
+            i = used_pt.get(h["player"], 0)
+            if i < len(lst):
+                p = lst[i]
+                h["game_time"] = f"Q{p['q']} {p['clock']}"
+                h["kickoff"] = p.get("start", "")
+                used_pt[h["player"]] = i + 1
             st = stats.get(h["url"].rsplit("/", 1)[-1])
             if st:
                 h["stats"] = st
