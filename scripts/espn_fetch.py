@@ -109,7 +109,42 @@ def passer_maps(teams):
     return pt, roster_players
 
 
-def with_passers(who, pt, roster_players):
+# A QB belongs on a clip only when he threw the touchdown. These read the ESPN
+# headline, which titles a scoring play by the man who reached the end zone.
+RUSH_RE = re.compile(r"""
+    rush(?:ing|es|ed)?\s+(?:TD|touchdown)   | \brun(?:s|ning)?\s+(?:it\s+)?in
+  | \bbreaks?\s+free       | \bpowers?\s+(?:in|across|through|his\s+way)
+  | \bmotors?\s+in         | \bwalks?\s+in(?:to)?\b
+  | \bpunches?\s+it\s+in   | \bbarrels?\s+in
+  | \bdashes?\s+in         | \bscamper       | \bplunge
+  | \bscrambl             | \bbulldozes?    | \bstiff-arms?
+  | \bbreaks?\s+through    | \bkeeper\b
+  | reaches?\s+across\s+the\s+goal\s+line
+  | \bcarr(?:y|ies)\b      | \buntouched\b
+""", re.VERBOSE | re.IGNORECASE)
+
+REC_RE = re.compile(r"""
+    \bcatch | \breception | \bpass\b | \bhauls?\s+in | \bsnare
+  | \bgrab  | touchdown\s+(?:pass|catch|reception)
+  | \bhits?\s+\S+(?:\s+\S+){0,2}\s+for\s+(?:a|an|his|the|\d)
+  | \boff\s+\S+'s\s+pass
+""", re.VERBOSE | re.IGNORECASE)
+
+
+def clip_kind(text: str) -> str:
+    """'rush', 'rec' or '' for an ESPN headline, from its verbs alone.
+
+    A receiving cue outranks a rushing verb: "Rodgers scrambles, hits Freiermuth
+    for a TD" carries both, and the ball was thrown.
+    """
+    if REC_RE.search(text or ""):
+        return "rec"
+    if RUSH_RE.search(text or ""):
+        return "rush"
+    return ""
+
+
+def with_passers(who, pt, roster_players, text=""):
     """Expand a receiver credit list with the QB(s) who threw their TDs.
 
     ESPN titles a passing TD by the receiver, so the QB is never in the headline.
@@ -120,12 +155,27 @@ def with_passers(who, pt, roster_players):
     so filter the receiver's own entries to his team (passer and receiver are
     teammates, so the entry's pos_team is the receiver's team too), and resolve
     the passer by name+team - never by key alone.
+
+    A player's rec TDs are not the only thing he did in the game, so the whole
+    entry list cannot speak for one clip: Kenneth Walker III ran one in and
+    caught one from Mahomes in the same game, and crediting off the list put
+    Mahomes on the *run*. `text` is the clip's own headline, which names the
+    play - a rushing verb blocks the QB outright, and when a player scored both
+    ways the headline must actually read as a catch before a QB is added.
     """
+    kind = clip_kind(text)
+    if kind == "rush":
+        return list(who)
     team_of = {fn: t for (_i, _l, t, fn) in roster_players}
     out = list(who)
     for r in who:
         rteam = team_of.get(r)
-        for e in pt.get(playtime_key(r), []):
+        ents = pt.get(playtime_key(r), [])
+        # Scored both ways this game: an unworded headline cannot say which, so
+        # only an explicit receiving cue earns the QB a credit.
+        if kind != "rec" and {e.get("kind") for e in ents} >= {"rush TD", "rec TD"}:
+            continue
+        for e in ents:
             if e.get("kind") != "rec TD" or not e.get("passer"):
                 continue
             eteam = _team(e.get("pos_team"))
@@ -251,7 +301,7 @@ def main() -> int:
                 who = [n for n in roster_union if mentions(text, n)]
                 if not who:
                     continue
-                who = with_passers(who, pt, roster_players)  # QB gets his TD passes
+                who = with_passers(who, pt, roster_players, text)  # QB gets his TD passes
                 url = ((v.get("links", {}) or {}).get("web", {}) or {}).get("href")
                 mp4 = mp4_of(v)
                 if not url or not mp4:

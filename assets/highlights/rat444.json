@@ -1,8 +1,23 @@
 {
   "team": "rat444",
-  "updated": "2026-09-15",
+  "updated": "2026-09-16",
   "note": "Curated: X has no public search API, so posts are collected by hand and matched to rosters by this script.",
   "tweets": [
+    {
+      "url": "https://x.com/rannyxkmj/status/2097884866348216770",
+      "player": "Drake Maye",
+      "meta": "QB \u00b7 NE",
+      "date": "2026-09-16",
+      "author": "rannyxkmj",
+      "text": "Eli Raridon & Drake Maye - 2-yard TD catch in NFL debut, first TD of the 2026 season vs SEA (NE #82, ref signals TD, NE 0-0 1st & Goal, NBC, watched)",
+      "verified": true,
+      "faves": 0,
+      "secs": 0,
+      "poster": "https://pbs.twimg.com/amplify_video_thumb/2097854363138129920/img/OelPyqX03hZUtBIM.jpg?name=orig",
+      "video": "https://video.twimg.com/amplify_video/2097854363138129920/vid/avc1/1920x1080/-r33PWfiu9ui8OZ3.mp4?tag=29",
+      "game_time": "Q2 09:14",
+      "kickoff": "9/9/26, 20:23:21"
+    },
     {
       "url": "https://www.espn.com/video/clip/_/id/49944961/bo-nix-dots-evan-engram-put-broncos-board",
       "player": "Bo Nix",
@@ -17,21 +32,6 @@
       "video": "https://espnmedia-cdn.akamaized.net/espn/media/16x9/wsc/2026/0915/b1e3bda8-4516-4f55-96f1-6ea897a8123b/b1e3bda8-4516-4f55-96f1-6ea897a8123b.mp4",
       "game_time": "Q1 03:53",
       "kickoff": "9/14/26, 20:16:12"
-    },
-    {
-      "url": "https://x.com/rannyxkmj/status/2097884866348216770",
-      "player": "Drake Maye",
-      "meta": "QB \u00b7 NE",
-      "date": "2026-09-15",
-      "author": "rannyxkmj",
-      "text": "Eli Raridon & Drake Maye - 2-yard TD catch in NFL debut, first TD of the 2026 season vs SEA (NE #82, ref signals TD, NE 0-0 1st & Goal, NBC, watched)",
-      "verified": true,
-      "faves": 0,
-      "secs": 0,
-      "poster": "https://pbs.twimg.com/amplify_video_thumb/2097854363138129920/img/OelPyqX03hZUtBIM.jpg?name=orig",
-      "video": "https://video.twimg.com/amplify_video/2097854363138129920/vid/avc1/1920x1080/-r33PWfiu9ui8OZ3.mp4?tag=29",
-      "game_time": "Q2 09:14",
-      "kickoff": "9/9/26, 20:23:21"
     },
     {
       "url": "https://www.espn.com/video/clip/_/id/49936495/javonte-williams-powers-goal-line-cowboys-td",
