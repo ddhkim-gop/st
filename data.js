@@ -7063,6 +7063,21 @@ window.__STATIC_DATA__ = {
           "search_rank": 113
         },
         {
+          "player_id": "2020",
+          "espn_id": 17427,
+          "name": "Cairo Santos",
+          "position": "K",
+          "team": "CHI",
+          "birth_date": "1991-11-12",
+          "college": "Tulane",
+          "height": "68",
+          "weight": "173",
+          "years_exp": 12,
+          "status": "Active",
+          "injury_status": null,
+          "search_rank": 190
+        },
+        {
           "player_id": "4037",
           "espn_id": 3116165,
           "name": "Chris Godwin",
@@ -7106,21 +7121,6 @@ window.__STATIC_DATA__ = {
           "status": "Active",
           "injury_status": null,
           "search_rank": 4
-        },
-        {
-          "player_id": "5189",
-          "espn_id": 4034949,
-          "name": "Eddy Pineiro",
-          "position": "K",
-          "team": "SF",
-          "birth_date": "1995-09-13",
-          "college": "Florida",
-          "height": "71",
-          "weight": "190",
-          "years_exp": 8,
-          "status": "Active",
-          "injury_status": null,
-          "search_rank": 175
         },
         {
           "player_id": "6797",
@@ -7318,11 +7318,11 @@ window.__STATIC_DATA__ = {
           "search_rank": 103
         },
         {
-          "player_id": "DAL",
+          "player_id": "TB",
           "espn_id": null,
-          "name": "Dallas Cowboys",
+          "name": "Tampa Bay Buccaneers",
           "position": "DEF",
-          "team": "DAL",
+          "team": "TB",
           "birth_date": null,
           "college": null,
           "height": null,
@@ -10034,6 +10034,62 @@ window.__STATIC_DATA__ = {
     }
   ],
   "transactions": [
+    {
+      "season": "2026",
+      "week": 2,
+      "created": "Sep 16, 2026 • 1:59 AM PT",
+      "transaction_id": "1405889972854181888",
+      "type": "free_agent",
+      "status": "complete",
+      "teams": [
+        "ddhk"
+      ],
+      "added": [
+        {
+          "name": "Cairo Santos",
+          "position": "K",
+          "team": "CHI"
+        }
+      ],
+      "dropped": [
+        {
+          "name": "Eddy Pineiro",
+          "position": "K",
+          "team": "SF"
+        }
+      ],
+      "faab": 0,
+      "waiver_bid": 0,
+      "notes": null
+    },
+    {
+      "season": "2026",
+      "week": 2,
+      "created": "Sep 16, 2026 • 1:59 AM PT",
+      "transaction_id": "1405889798916329472",
+      "type": "free_agent",
+      "status": "complete",
+      "teams": [
+        "ddhk"
+      ],
+      "added": [
+        {
+          "name": "Tampa Bay Buccaneers",
+          "position": "DEF",
+          "team": "TB"
+        }
+      ],
+      "dropped": [
+        {
+          "name": "Dallas Cowboys",
+          "position": "DEF",
+          "team": "DAL"
+        }
+      ],
+      "faab": 0,
+      "waiver_bid": 0,
+      "notes": null
+    },
     {
       "season": "2026",
       "week": 1,
