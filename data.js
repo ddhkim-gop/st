@@ -9139,6 +9139,21 @@ window.__STATIC_DATA__ = {
           "search_rank": 35
         },
         {
+          "player_id": "11834",
+          "espn_id": null,
+          "name": "Devaughn Vele",
+          "position": "WR",
+          "team": "NO",
+          "birth_date": "1997-12-12",
+          "college": "Utah",
+          "height": "77",
+          "weight": "210",
+          "years_exp": 2,
+          "status": "Active",
+          "injury_status": null,
+          "search_rank": 209
+        },
+        {
           "player_id": "12506",
           "espn_id": null,
           "name": "Harold Fannin",
@@ -10019,6 +10034,50 @@ window.__STATIC_DATA__ = {
     }
   ],
   "transactions": [
+    {
+      "season": "2026",
+      "week": 1,
+      "created": "Sep 15, 2026 • 4:19 PM PT",
+      "transaction_id": "1405743941088788480",
+      "type": "waiver",
+      "status": "complete",
+      "teams": [
+        "justinlau3"
+      ],
+      "added": [
+        {
+          "name": "Devaughn Vele",
+          "position": "WR",
+          "team": "NO"
+        }
+      ],
+      "dropped": [],
+      "faab": 0,
+      "waiver_bid": 11,
+      "notes": "Your waiver claim was processed successfully!"
+    },
+    {
+      "season": "2026",
+      "week": 1,
+      "created": "Sep 15, 2026 • 5:28 AM PT",
+      "transaction_id": "1405580045770121216",
+      "type": "waiver",
+      "status": "failed",
+      "teams": [
+        "rat444"
+      ],
+      "added": [
+        {
+          "name": "Devaughn Vele",
+          "position": "WR",
+          "team": "NO"
+        }
+      ],
+      "dropped": [],
+      "faab": 0,
+      "waiver_bid": 0,
+      "notes": "This player was claimed by another owner."
+    },
     {
       "season": "2026",
       "week": 1,
