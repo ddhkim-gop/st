@@ -1,5 +1,5 @@
-import { api } from "./dataService.js?v=202609150609";
-import { renderNav } from "./components/nav.js?v=202609150609";
+import { api } from "./dataService.js?v=202609152103";
+import { renderNav } from "./components/nav.js?v=202609152103";
 
 const YEARS_DESC = ((window.__STATIC_DATA__ && window.__STATIC_DATA__.years) || []).slice().sort().reverse();
 const POS_COLORS = { QB:"#e74c82", RB:"#3ecf8e", WR:"#4299e1", TE:"#f6ad55", K:"#9f7aea", DEF:"#94a3b8" };
