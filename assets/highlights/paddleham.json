@@ -1,6 +1,6 @@
 {
   "team": "paddleham",
-  "updated": "2026-09-15",
+  "updated": "2026-09-16",
   "note": "Curated: X has no public search API, so posts are collected by hand and matched to rosters by this script.",
   "tweets": [
     {
@@ -32,34 +32,6 @@
       "video": "https://espnmedia-cdn.akamaized.net/espn/media/16x9/wsc/2026/0915/41443ef7-0936-47b7-8127-36357855922f/41443ef7-0936-47b7-8127-36357855922f.mp4",
       "game_time": "Q2 01:46",
       "kickoff": "9/14/26, 20:16:12"
-    },
-    {
-      "url": "https://www.espn.com/video/clip/_/id/49945548/kenneth-walker-iii-breaks-free-electric-60-yard-chiefs-td",
-      "player": "Patrick Mahomes",
-      "meta": "QB \u00b7 KC",
-      "date": "2026-09-15",
-      "author": "ESPN",
-      "text": "Kenneth Walker III breaks free for an electric 60-yard Chiefs TD",
-      "verified": true,
-      "faves": 0,
-      "secs": 0,
-      "poster": "https://espnmedia-cdn.akamaized.net/espn/media/common/2026/0914/90ba324af6d346108977296f78a215da1408/90ba324af6d346108977296f78a215da1408.jpg",
-      "video": "https://espnmedia-cdn.akamaized.net/espn/media/16x9/wsc/2026/0915/90ba324a-f6d3-4610-8977-296f78a215da/90ba324a-f6d3-4610-8977-296f78a215da.mp4",
-      "game_time": "Q4 14:43",
-      "kickoff": "9/14/26, 20:16:12"
-    },
-    {
-      "url": "https://www.espn.com/video/clip/_/id/49946028/kenneth-walker-iii-finds-pay-dirt-2nd-td",
-      "player": "Patrick Mahomes",
-      "meta": "QB \u00b7 KC",
-      "date": "2026-09-15",
-      "author": "ESPN",
-      "text": "Kenneth Walker III finds pay dirt for his 2nd TD",
-      "verified": true,
-      "faves": 0,
-      "secs": 0,
-      "poster": "https://espnmedia-cdn.akamaized.net/espn/media/common/2026/0914/d50f2074522a4026b8cc9285f380e35a1412/d50f2074522a4026b8cc9285f380e35a1412.jpg",
-      "video": "https://espnmedia-cdn.akamaized.net/espn/media/16x9/wsc/2026/0915/d50f2074-522a-4026-b8cc-9285f380e35a/d50f2074-522a-4026-b8cc-9285f380e35a.mp4"
     },
     {
       "url": "https://x.com/NFLTDsVideos/status/2099556452893429878",

@@ -1,6 +1,6 @@
 {
   "team": "justinlau3",
-  "updated": "2026-09-15",
+  "updated": "2026-09-16",
   "note": "Curated: X has no public search API, so posts are collected by hand and matched to rosters by this script.",
   "tweets": [
     {
@@ -92,6 +92,21 @@
       "video": "https://espnmedia-cdn.akamaized.net/espn/media/16x9/wsc/2026/0913/642beb35-e5f3-402c-acdd-63a344270035/642beb35-e5f3-402c-acdd-63a344270035.mp4",
       "game_time": "Q2 06:24",
       "kickoff": "9/13/26, 13:03:54"
+    },
+    {
+      "url": "https://www.espn.com/video/clip/_/id/49931174/tyler-shough-lofts-td-pass-devaughn-vele",
+      "player": "Devaughn Vele",
+      "meta": "WR \u00b7 NO",
+      "date": "2026-09-13",
+      "author": "ESPN",
+      "text": "Tyler Shough lofts a TD pass to Devaughn Vele. Tyler Shough lofts a TD pass to Devaughn Vele ",
+      "verified": true,
+      "faves": 0,
+      "secs": 0,
+      "poster": "https://espnmedia-cdn.akamaized.net/espn/media/common/wsc/2026/0913/72b957fb-570c-4b03-8207-c5df703f87dd/72b957fb-570c-4b03-8207-c5df703f87dd.jpg",
+      "video": "https://espnmedia-cdn.akamaized.net/espn/media/16x9/wsc/2026/0913/72b957fb-570c-4b03-8207-c5df703f87dd/72b957fb-570c-4b03-8207-c5df703f87dd.mp4",
+      "game_time": "Q3 00:34",
+      "kickoff": "9/13/26, 13:05:29"
     },
     {
       "url": "https://www.espn.com/video/clip/_/id/49931311/deshaun-watson-airs-46-yard-td-pass-denzel-boston",
@@ -221,6 +236,19 @@
       "video": "https://video.twimg.com/amplify_video/2099198562013712389/vid/avc1/1920x1080/Wzu4EMXIoHOoPbs4.mp4?tag=29",
       "game_time": "Q2 05:35",
       "kickoff": "9/13/26, 13:03:57"
+    },
+    {
+      "url": "https://x.com/NFLTDsVideos/status/2099253486957314321",
+      "player": "Devaughn Vele",
+      "meta": "WR \u00b7 NO",
+      "date": "2026-09-13",
+      "author": "NFL Touchdown Videos",
+      "text": "Tyler Shough (1) to Devaughn Vele (1) New Orleans Saints 1 yard pic.twitter.com/pi07e8QGeu \u2014 NFL Touchdown Videos (@NFLTDsVideos) September 13, 2026",
+      "verified": true,
+      "faves": 0,
+      "secs": 0,
+      "poster": "https://pbs.twimg.com/amplify_video_thumb/2099218882045378560/img/GmvR6Jj4zXdrHCjH.jpg?name=orig",
+      "video": "https://video.twimg.com/amplify_video/2099218882045378560/vid/avc1/1920x1080/ugDheVgyrVkWgNOC.mp4?tag=29"
     },
     {
       "url": "https://x.com/NFLTDsVideos/status/2099255201609748615",
