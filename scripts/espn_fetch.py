@@ -144,6 +144,24 @@ def clip_kind(text: str) -> str:
     return ""
 
 
+ORDINAL_RE = re.compile(r"\b(?:his\s+)?(\d+)(?:st|nd|rd|th)\s+(?:TD|touchdown)", re.I)
+
+
+def nth_td_kind(text, ents):
+    """'rush TD'/'rec TD' when the headline counts the score ("his 2nd TD").
+
+    ESPN numbers a player's touchdowns in game order, which is the order the
+    play log is already in, so the ordinal names the exact play - the one thing
+    the verbs cannot do for a headline like "finds pay dirt for his 2nd TD".
+    """
+    m = ORDINAL_RE.search(text or "")
+    if not m:
+        return ""
+    tds = [e for e in ents if e.get("kind") in ("rush TD", "rec TD")]
+    i = int(m.group(1)) - 1
+    return tds[i].get("kind") if 0 <= i < len(tds) else ""
+
+
 def with_passers(who, pt, roster_players, text=""):
     """Expand a receiver credit list with the QB(s) who threw their TDs.
 
@@ -171,10 +189,13 @@ def with_passers(who, pt, roster_players, text=""):
     for r in who:
         rteam = team_of.get(r)
         ents = pt.get(playtime_key(r), [])
-        # Scored both ways this game: an unworded headline cannot say which, so
-        # only an explicit receiving cue earns the QB a credit.
+        # Scored both ways this game: an unworded headline cannot say which.
+        # "his 2nd TD" still can - it indexes the play log directly. Failing
+        # that, only an explicit receiving cue earns the QB a credit.
         if kind != "rec" and {e.get("kind") for e in ents} >= {"rush TD", "rec TD"}:
-            continue
+            nth = nth_td_kind(text, ents)
+            if nth != "rec TD":
+                continue
         for e in ents:
             if e.get("kind") != "rec TD" or not e.get("passer"):
                 continue
