@@ -8407,6 +8407,21 @@ window.__STATIC_DATA__ = {
           "search_rank": 99
         },
         {
+          "player_id": "11370",
+          "espn_id": null,
+          "name": "Chris Brooks",
+          "position": "RB",
+          "team": "GB",
+          "birth_date": "2000-01-11",
+          "college": "BYU",
+          "height": "73",
+          "weight": "219",
+          "years_exp": 3,
+          "status": "Active",
+          "injury_status": null,
+          "search_rank": 447
+        },
+        {
           "player_id": "11533",
           "espn_id": null,
           "name": "Brandon Aubrey",
@@ -8450,21 +8465,6 @@ window.__STATIC_DATA__ = {
           "status": "Active",
           "injury_status": null,
           "search_rank": 11
-        },
-        {
-          "player_id": "11655",
-          "espn_id": null,
-          "name": "Tyrone Tracy",
-          "position": "RB",
-          "team": "NYG",
-          "birth_date": "1999-11-23",
-          "college": "Purdue",
-          "height": "71",
-          "weight": "210",
-          "years_exp": 2,
-          "status": "Active",
-          "injury_status": "Questionable",
-          "search_rank": 110
         },
         {
           "player_id": "12518",
@@ -8848,21 +8848,6 @@ window.__STATIC_DATA__ = {
           "search_rank": 198
         },
         {
-          "player_id": "13305",
-          "espn_id": null,
-          "name": "Mike Washington",
-          "position": "RB",
-          "team": "LV",
-          "birth_date": "2003-07-03",
-          "college": "Arkansas",
-          "height": "74",
-          "weight": "228",
-          "years_exp": 0,
-          "status": "Active",
-          "injury_status": null,
-          "search_rank": 122
-        },
-        {
           "player_id": "13330",
           "espn_id": null,
           "name": "Kenyon Sadiq",
@@ -8889,7 +8874,7 @@ window.__STATIC_DATA__ = {
           "weight": "208",
           "years_exp": 0,
           "status": "Active",
-          "injury_status": null,
+          "injury_status": "Questionable",
           "search_rank": 160
         },
         {
@@ -8981,6 +8966,21 @@ window.__STATIC_DATA__ = {
           "status": "Active",
           "injury_status": "Questionable",
           "search_rank": 77
+        },
+        {
+          "player_id": "6130",
+          "espn_id": 4040761,
+          "name": "Devin Singletary",
+          "position": "RB",
+          "team": "NYG",
+          "birth_date": "1997-09-03",
+          "college": "Florida Atlantic",
+          "height": "67",
+          "weight": "203",
+          "years_exp": 7,
+          "status": "Active",
+          "injury_status": null,
+          "search_rank": 660
         },
         {
           "player_id": "8110",
@@ -10019,6 +10019,62 @@ window.__STATIC_DATA__ = {
     }
   ],
   "transactions": [
+    {
+      "season": "2026",
+      "week": 2,
+      "created": "Sep 17, 2026 • 3:02 PM PT",
+      "transaction_id": "1406449281564508160",
+      "type": "free_agent",
+      "status": "complete",
+      "teams": [
+        "rat444"
+      ],
+      "added": [
+        {
+          "name": "Chris Brooks",
+          "position": "RB",
+          "team": "GB"
+        }
+      ],
+      "dropped": [
+        {
+          "name": "Tyrone Tracy",
+          "position": "RB",
+          "team": "NYG"
+        }
+      ],
+      "faab": 0,
+      "waiver_bid": 0,
+      "notes": null
+    },
+    {
+      "season": "2026",
+      "week": 2,
+      "created": "Sep 17, 2026 • 2:43 PM PT",
+      "transaction_id": "1406444550817398784",
+      "type": "free_agent",
+      "status": "complete",
+      "teams": [
+        "avocadoshake"
+      ],
+      "added": [
+        {
+          "name": "Devin Singletary",
+          "position": "RB",
+          "team": "NYG"
+        }
+      ],
+      "dropped": [
+        {
+          "name": "Mike Washington",
+          "position": "RB",
+          "team": "LV"
+        }
+      ],
+      "faab": 0,
+      "waiver_bid": 0,
+      "notes": null
+    },
     {
       "season": "2026",
       "week": 2,
