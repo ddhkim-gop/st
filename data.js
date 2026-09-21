@@ -7018,6 +7018,21 @@ window.__STATIC_DATA__ = {
           "search_rank": 132
         },
         {
+          "player_id": "12487",
+          "espn_id": null,
+          "name": "Terrance Ferguson",
+          "position": "TE",
+          "team": "LAR",
+          "birth_date": "2003-03-07",
+          "college": "Oregon",
+          "height": "77",
+          "weight": "252",
+          "years_exp": 1,
+          "status": "Active",
+          "injury_status": null,
+          "search_rank": 141
+        },
+        {
           "player_id": "12492",
           "espn_id": null,
           "name": "Pat Bryant",
@@ -7048,19 +7063,19 @@ window.__STATIC_DATA__ = {
           "search_rank": 62
         },
         {
-          "player_id": "13337",
+          "player_id": "13285",
           "espn_id": null,
-          "name": "Emmett Johnson",
-          "position": "RB",
-          "team": "KC",
-          "birth_date": "2003-10-10",
-          "college": "Nebraska",
-          "height": "71",
-          "weight": "200",
+          "name": "Malachi Fields",
+          "position": "WR",
+          "team": "NYG",
+          "birth_date": "2003-08-26",
+          "college": "Notre Dame",
+          "height": "76",
+          "weight": "222",
           "years_exp": 0,
           "status": "Active",
           "injury_status": null,
-          "search_rank": 113
+          "search_rank": 201
         },
         {
           "player_id": "2020",
@@ -7196,21 +7211,6 @@ window.__STATIC_DATA__ = {
           "status": "Active",
           "injury_status": null,
           "search_rank": 105
-        },
-        {
-          "player_id": "8132",
-          "espn_id": null,
-          "name": "Tyler Allgeier",
-          "position": "RB",
-          "team": "ARI",
-          "birth_date": "2000-04-15",
-          "college": "BYU",
-          "height": "70",
-          "weight": "225",
-          "years_exp": 4,
-          "status": "Active",
-          "injury_status": null,
-          "search_rank": 89
         },
         {
           "player_id": "8138",
@@ -10034,6 +10034,62 @@ window.__STATIC_DATA__ = {
     }
   ],
   "transactions": [
+    {
+      "season": "2026",
+      "week": 2,
+      "created": "Sep 21, 2026 • 4:51 AM PT",
+      "transaction_id": "1407745120941449216",
+      "type": "free_agent",
+      "status": "complete",
+      "teams": [
+        "ddhk"
+      ],
+      "added": [
+        {
+          "name": "Terrance Ferguson",
+          "position": "TE",
+          "team": "LAR"
+        }
+      ],
+      "dropped": [
+        {
+          "name": "Emmett Johnson",
+          "position": "RB",
+          "team": "KC"
+        }
+      ],
+      "faab": 0,
+      "waiver_bid": 0,
+      "notes": null
+    },
+    {
+      "season": "2026",
+      "week": 2,
+      "created": "Sep 21, 2026 • 4:51 AM PT",
+      "transaction_id": "1407745034731659264",
+      "type": "free_agent",
+      "status": "complete",
+      "teams": [
+        "ddhk"
+      ],
+      "added": [
+        {
+          "name": "Malachi Fields",
+          "position": "WR",
+          "team": "NYG"
+        }
+      ],
+      "dropped": [
+        {
+          "name": "Tyler Allgeier",
+          "position": "RB",
+          "team": "ARI"
+        }
+      ],
+      "faab": 0,
+      "waiver_bid": 0,
+      "notes": null
+    },
     {
       "season": "2026",
       "week": 2,
