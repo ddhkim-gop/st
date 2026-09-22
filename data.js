@@ -6985,7 +6985,7 @@ window.__STATIC_DATA__ = {
           "years_exp": 2,
           "status": "Active",
           "injury_status": null,
-          "search_rank": 101
+          "search_rank": 102
         },
         {
           "player_id": "11628",
@@ -7063,36 +7063,6 @@ window.__STATIC_DATA__ = {
           "search_rank": 62
         },
         {
-          "player_id": "13285",
-          "espn_id": null,
-          "name": "Malachi Fields",
-          "position": "WR",
-          "team": "NYG",
-          "birth_date": "2003-08-26",
-          "college": "Notre Dame",
-          "height": "76",
-          "weight": "222",
-          "years_exp": 0,
-          "status": "Active",
-          "injury_status": null,
-          "search_rank": 201
-        },
-        {
-          "player_id": "2020",
-          "espn_id": 17427,
-          "name": "Cairo Santos",
-          "position": "K",
-          "team": "CHI",
-          "birth_date": "1991-11-12",
-          "college": "Tulane",
-          "height": "68",
-          "weight": "173",
-          "years_exp": 12,
-          "status": "Active",
-          "injury_status": null,
-          "search_rank": 190
-        },
-        {
           "player_id": "4037",
           "espn_id": 3116165,
           "name": "Chris Godwin",
@@ -7105,7 +7075,7 @@ window.__STATIC_DATA__ = {
           "years_exp": 9,
           "status": "Active",
           "injury_status": null,
-          "search_rank": 88
+          "search_rank": 87
         },
         {
           "player_id": "4983",
@@ -7120,7 +7090,7 @@ window.__STATIC_DATA__ = {
           "years_exp": 8,
           "status": "Active",
           "injury_status": "Out",
-          "search_rank": 48
+          "search_rank": 50
         },
         {
           "player_id": "4984",
@@ -7273,21 +7243,6 @@ window.__STATIC_DATA__ = {
           "search_rank": 27
         },
         {
-          "player_id": "9482",
-          "espn_id": null,
-          "name": "Michael Mayer",
-          "position": "TE",
-          "team": "LV",
-          "birth_date": "2001-07-06",
-          "college": "Notre Dame",
-          "height": "76",
-          "weight": "256",
-          "years_exp": 3,
-          "status": "Active",
-          "injury_status": null,
-          "search_rank": 467
-        },
-        {
           "player_id": "9486",
           "espn_id": null,
           "name": "Dontayvion Wicks",
@@ -7316,21 +7271,6 @@ window.__STATIC_DATA__ = {
           "status": "Active",
           "injury_status": null,
           "search_rank": 103
-        },
-        {
-          "player_id": "TB",
-          "espn_id": null,
-          "name": "Tampa Bay Buccaneers",
-          "position": "DEF",
-          "team": "TB",
-          "birth_date": null,
-          "college": null,
-          "height": null,
-          "weight": null,
-          "years_exp": null,
-          "status": null,
-          "injury_status": null,
-          "search_rank": null
         }
       ]
     },
@@ -7381,7 +7321,7 @@ window.__STATIC_DATA__ = {
           "years_exp": 3,
           "status": "Active",
           "injury_status": null,
-          "search_rank": 146
+          "search_rank": 148
         },
         {
           "player_id": "11560",
@@ -7426,7 +7366,7 @@ window.__STATIC_DATA__ = {
           "years_exp": 2,
           "status": "Active",
           "injury_status": "Questionable",
-          "search_rank": 27
+          "search_rank": 28
         },
         {
           "player_id": "12474",
@@ -7516,7 +7456,7 @@ window.__STATIC_DATA__ = {
           "years_exp": 11,
           "status": "Active",
           "injury_status": null,
-          "search_rank": 105
+          "search_rank": 103
         },
         {
           "player_id": "4046",
@@ -7561,7 +7501,7 @@ window.__STATIC_DATA__ = {
           "years_exp": 8,
           "status": "Active",
           "injury_status": null,
-          "search_rank": 9
+          "search_rank": 10
         },
         {
           "player_id": "5045",
@@ -7762,7 +7702,7 @@ window.__STATIC_DATA__ = {
           "years_exp": 2,
           "status": "Active",
           "injury_status": null,
-          "search_rank": 65
+          "search_rank": 63
         },
         {
           "player_id": "11631",
@@ -7882,7 +7822,7 @@ window.__STATIC_DATA__ = {
           "years_exp": 8,
           "status": "Active",
           "injury_status": "Out",
-          "search_rank": 93
+          "search_rank": 92
         },
         {
           "player_id": "6770",
@@ -8017,7 +7957,7 @@ window.__STATIC_DATA__ = {
           "years_exp": 4,
           "status": "Active",
           "injury_status": null,
-          "search_rank": 150
+          "search_rank": 149
         },
         {
           "player_id": "DEN",
@@ -8449,7 +8389,7 @@ window.__STATIC_DATA__ = {
           "years_exp": 2,
           "status": "Active",
           "injury_status": null,
-          "search_rank": 45
+          "search_rank": 46
         },
         {
           "player_id": "11564",
@@ -8494,7 +8434,7 @@ window.__STATIC_DATA__ = {
           "years_exp": 1,
           "status": "Active",
           "injury_status": null,
-          "search_rank": 89
+          "search_rank": 90
         },
         {
           "player_id": "13286",
@@ -8719,7 +8659,7 @@ window.__STATIC_DATA__ = {
           "years_exp": 3,
           "status": "Active",
           "injury_status": null,
-          "search_rank": 65
+          "search_rank": 63
         },
         {
           "player_id": "HOU",
@@ -8860,7 +8800,7 @@ window.__STATIC_DATA__ = {
           "years_exp": 0,
           "status": "Active",
           "injury_status": "Questionable",
-          "search_rank": 200
+          "search_rank": 199
         },
         {
           "player_id": "13330",
@@ -8890,7 +8830,7 @@ window.__STATIC_DATA__ = {
           "years_exp": 0,
           "status": "Active",
           "injury_status": null,
-          "search_rank": 160
+          "search_rank": 162
         },
         {
           "player_id": "3294",
@@ -9136,7 +9076,7 @@ window.__STATIC_DATA__ = {
           "years_exp": 2,
           "status": "Active",
           "injury_status": null,
-          "search_rank": 34
+          "search_rank": 35
         },
         {
           "player_id": "11834",
@@ -9346,7 +9286,7 @@ window.__STATIC_DATA__ = {
           "years_exp": 6,
           "status": "Active",
           "injury_status": null,
-          "search_rank": 68
+          "search_rank": 69
         },
         {
           "player_id": "7523",
@@ -9406,7 +9346,7 @@ window.__STATIC_DATA__ = {
           "years_exp": 3,
           "status": "Active",
           "injury_status": null,
-          "search_rank": 13
+          "search_rank": 15
         },
         {
           "player_id": "9493",
@@ -9592,7 +9532,7 @@ window.__STATIC_DATA__ = {
           "years_exp": 1,
           "status": "Active",
           "injury_status": null,
-          "search_rank": 104
+          "search_rank": 103
         },
         {
           "player_id": "13279",
@@ -9727,7 +9667,7 @@ window.__STATIC_DATA__ = {
           "years_exp": 4,
           "status": "Active",
           "injury_status": null,
-          "search_rank": 55
+          "search_rank": 56
         },
         {
           "player_id": "8210",
@@ -10034,6 +9974,94 @@ window.__STATIC_DATA__ = {
     }
   ],
   "transactions": [
+    {
+      "season": "2026",
+      "week": 2,
+      "created": "Sep 21, 2026 • 9:15 PM PT",
+      "transaction_id": "1407992656461680640",
+      "type": "free_agent",
+      "status": "complete",
+      "teams": [
+        "ddhk"
+      ],
+      "added": [],
+      "dropped": [
+        {
+          "name": "Cairo Santos",
+          "position": "K",
+          "team": "CHI"
+        }
+      ],
+      "faab": 0,
+      "waiver_bid": 0,
+      "notes": null
+    },
+    {
+      "season": "2026",
+      "week": 2,
+      "created": "Sep 21, 2026 • 9:15 PM PT",
+      "transaction_id": "1407992636547047424",
+      "type": "free_agent",
+      "status": "complete",
+      "teams": [
+        "ddhk"
+      ],
+      "added": [],
+      "dropped": [
+        {
+          "name": "Tampa Bay Buccaneers",
+          "position": "DEF",
+          "team": "TB"
+        }
+      ],
+      "faab": 0,
+      "waiver_bid": 0,
+      "notes": null
+    },
+    {
+      "season": "2026",
+      "week": 2,
+      "created": "Sep 21, 2026 • 9:15 PM PT",
+      "transaction_id": "1407992584265023488",
+      "type": "free_agent",
+      "status": "complete",
+      "teams": [
+        "ddhk"
+      ],
+      "added": [],
+      "dropped": [
+        {
+          "name": "Michael Mayer",
+          "position": "TE",
+          "team": "LV"
+        }
+      ],
+      "faab": 0,
+      "waiver_bid": 0,
+      "notes": null
+    },
+    {
+      "season": "2026",
+      "week": 2,
+      "created": "Sep 21, 2026 • 9:14 PM PT",
+      "transaction_id": "1407992530468974592",
+      "type": "free_agent",
+      "status": "complete",
+      "teams": [
+        "ddhk"
+      ],
+      "added": [],
+      "dropped": [
+        {
+          "name": "Malachi Fields",
+          "position": "WR",
+          "team": "NYG"
+        }
+      ],
+      "faab": 0,
+      "waiver_bid": 0,
+      "notes": null
+    },
     {
       "season": "2026",
       "week": 2,
