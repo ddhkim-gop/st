@@ -7179,7 +7179,7 @@ window.__STATIC_DATA__ = {
           "weight": "170",
           "years_exp": 5,
           "status": "Active",
-          "injury_status": null,
+          "injury_status": "Questionable",
           "search_rank": 33
         },
         {
@@ -7425,7 +7425,7 @@ window.__STATIC_DATA__ = {
           "weight": "200",
           "years_exp": 2,
           "status": "Active",
-          "injury_status": "Questionable",
+          "injury_status": null,
           "search_rank": 28
         },
         {
@@ -8478,7 +8478,7 @@ window.__STATIC_DATA__ = {
           "weight": "205",
           "years_exp": 2,
           "status": "Active",
-          "injury_status": null,
+          "injury_status": "Questionable",
           "search_rank": 162
         },
         {
@@ -9435,7 +9435,7 @@ window.__STATIC_DATA__ = {
           "weight": "215",
           "years_exp": 3,
           "status": "Active",
-          "injury_status": null,
+          "injury_status": "Questionable",
           "search_rank": 147
         },
         {
@@ -9565,21 +9565,6 @@ window.__STATIC_DATA__ = {
           "search_rank": 56
         },
         {
-          "player_id": "12508",
-          "espn_id": null,
-          "name": "Jaxson Dart",
-          "position": "QB",
-          "team": "NYG",
-          "birth_date": "2003-05-13",
-          "college": "Ole Miss",
-          "height": "74",
-          "weight": "223",
-          "years_exp": 1,
-          "status": "Active",
-          "injury_status": "Out",
-          "search_rank": 42
-        },
-        {
           "player_id": "12517",
           "espn_id": null,
           "name": "Colston Loveland",
@@ -9698,6 +9683,21 @@ window.__STATIC_DATA__ = {
           "status": "Active",
           "injury_status": null,
           "search_rank": 92
+        },
+        {
+          "player_id": "5849",
+          "espn_id": 3917315,
+          "name": "Kyler Murray",
+          "position": "QB",
+          "team": "MIN",
+          "birth_date": "1997-08-07",
+          "college": "Oklahoma",
+          "height": "70",
+          "weight": "207",
+          "years_exp": 7,
+          "status": "Active",
+          "injury_status": null,
+          "search_rank": 86
         },
         {
           "player_id": "6786",
@@ -10079,6 +10079,50 @@ window.__STATIC_DATA__ = {
     }
   ],
   "transactions": [
+    {
+      "season": "2026",
+      "week": 3,
+      "created": "Sep 24, 2026 • 12:49 PM PT",
+      "transaction_id": "1408952654146584576",
+      "type": "free_agent",
+      "status": "complete",
+      "teams": [
+        "churlz98"
+      ],
+      "added": [
+        {
+          "name": "Kyler Murray",
+          "position": "QB",
+          "team": "MIN"
+        }
+      ],
+      "dropped": [],
+      "faab": 0,
+      "waiver_bid": 0,
+      "notes": null
+    },
+    {
+      "season": "2026",
+      "week": 3,
+      "created": "Sep 24, 2026 • 12:49 PM PT",
+      "transaction_id": "1408952470201221120",
+      "type": "free_agent",
+      "status": "complete",
+      "teams": [
+        "churlz98"
+      ],
+      "added": [],
+      "dropped": [
+        {
+          "name": "Jaxson Dart",
+          "position": "QB",
+          "team": "NYG"
+        }
+      ],
+      "faab": 0,
+      "waiver_bid": 0,
+      "notes": null
+    },
     {
       "season": "2026",
       "week": 3,
