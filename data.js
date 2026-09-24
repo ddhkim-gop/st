@@ -8893,6 +8893,21 @@ window.__STATIC_DATA__ = {
           "search_rank": 38
         },
         {
+          "player_id": "3634",
+          "espn_id": 2973405,
+          "name": "Kalif Raymond",
+          "position": "WR",
+          "team": "CHI",
+          "birth_date": "1994-08-08",
+          "college": "Holy Cross",
+          "height": "69",
+          "weight": "160",
+          "years_exp": 10,
+          "status": "Active",
+          "injury_status": null,
+          "search_rank": 645
+        },
+        {
           "player_id": "4227",
           "espn_id": 3055899,
           "name": "Harrison Butker",
@@ -10064,6 +10079,28 @@ window.__STATIC_DATA__ = {
     }
   ],
   "transactions": [
+    {
+      "season": "2026",
+      "week": 3,
+      "created": "Sep 24, 2026 • 10:46 AM PT",
+      "transaction_id": "1408921461954981888",
+      "type": "free_agent",
+      "status": "complete",
+      "teams": [
+        "avocadoshake"
+      ],
+      "added": [
+        {
+          "name": "Kalif Raymond",
+          "position": "WR",
+          "team": "CHI"
+        }
+      ],
+      "dropped": [],
+      "faab": 0,
+      "waiver_bid": 0,
+      "notes": null
+    },
     {
       "season": "2026",
       "week": 3,
