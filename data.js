@@ -7033,6 +7033,21 @@ window.__STATIC_DATA__ = {
           "search_rank": 132
         },
         {
+          "player_id": "12185",
+          "espn_id": null,
+          "name": "Spencer Shrader",
+          "position": "K",
+          "team": "IND",
+          "birth_date": "1999-05-19",
+          "college": "Notre Dame",
+          "height": "74",
+          "weight": "201",
+          "years_exp": 2,
+          "status": "Active",
+          "injury_status": null,
+          "search_rank": 355
+        },
+        {
           "player_id": "12487",
           "espn_id": null,
           "name": "Terrance Ferguson",
@@ -7076,21 +7091,6 @@ window.__STATIC_DATA__ = {
           "status": "Active",
           "injury_status": null,
           "search_rank": 113
-        },
-        {
-          "player_id": "13345",
-          "espn_id": null,
-          "name": "Jonah Coleman",
-          "position": "RB",
-          "team": "DEN",
-          "birth_date": "2003-08-20",
-          "college": "Washington",
-          "height": "68",
-          "weight": "220",
-          "years_exp": 0,
-          "status": "Active",
-          "injury_status": "Out",
-          "search_rank": 118
         },
         {
           "player_id": "4037",
@@ -7179,7 +7179,7 @@ window.__STATIC_DATA__ = {
           "weight": "170",
           "years_exp": 5,
           "status": "Active",
-          "injury_status": "Questionable",
+          "injury_status": null,
           "search_rank": 33
         },
         {
@@ -7395,7 +7395,7 @@ window.__STATIC_DATA__ = {
           "weight": "226",
           "years_exp": 2,
           "status": "Active",
-          "injury_status": "Doubtful",
+          "injury_status": "Out",
           "search_rank": 21
         },
         {
@@ -8157,7 +8157,7 @@ window.__STATIC_DATA__ = {
           "weight": "256",
           "years_exp": 8,
           "status": "Active",
-          "injury_status": "Doubtful",
+          "injury_status": "Out",
           "search_rank": 94
         },
         {
@@ -9435,7 +9435,7 @@ window.__STATIC_DATA__ = {
           "weight": "215",
           "years_exp": 3,
           "status": "Active",
-          "injury_status": "Questionable",
+          "injury_status": null,
           "search_rank": 147
         },
         {
@@ -10079,6 +10079,34 @@ window.__STATIC_DATA__ = {
     }
   ],
   "transactions": [
+    {
+      "season": "2026",
+      "week": 3,
+      "created": "Sep 26, 2026 • 12:56 PM PT",
+      "transaction_id": "1409679155410255872",
+      "type": "free_agent",
+      "status": "complete",
+      "teams": [
+        "ddhk"
+      ],
+      "added": [
+        {
+          "name": "Spencer Shrader",
+          "position": "K",
+          "team": "IND"
+        }
+      ],
+      "dropped": [
+        {
+          "name": "Jonah Coleman",
+          "position": "RB",
+          "team": "DEN"
+        }
+      ],
+      "faab": 0,
+      "waiver_bid": 0,
+      "notes": null
+    },
     {
       "season": "2026",
       "week": 3,
