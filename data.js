@@ -7029,7 +7029,7 @@ window.__STATIC_DATA__ = {
           "weight": "215",
           "years_exp": 2,
           "status": "Active",
-          "injury_status": "Questionable",
+          "injury_status": null,
           "search_rank": 132
         },
         {
@@ -7044,7 +7044,7 @@ window.__STATIC_DATA__ = {
           "weight": "201",
           "years_exp": 2,
           "status": "Active",
-          "injury_status": null,
+          "injury_status": "Questionable",
           "search_rank": 355
         },
         {
@@ -7119,7 +7119,7 @@ window.__STATIC_DATA__ = {
           "weight": "213",
           "years_exp": 8,
           "status": "Active",
-          "injury_status": "Questionable",
+          "injury_status": null,
           "search_rank": 50
         },
         {
@@ -8112,7 +8112,7 @@ window.__STATIC_DATA__ = {
           "weight": "231",
           "years_exp": 12,
           "status": "Active",
-          "injury_status": "Questionable",
+          "injury_status": null,
           "search_rank": 60
         },
         {
@@ -8352,7 +8352,7 @@ window.__STATIC_DATA__ = {
           "weight": "200",
           "years_exp": 3,
           "status": "Active",
-          "injury_status": "Questionable",
+          "injury_status": null,
           "search_rank": 122
         },
         {
@@ -8478,7 +8478,7 @@ window.__STATIC_DATA__ = {
           "weight": "205",
           "years_exp": 2,
           "status": "Active",
-          "injury_status": "Questionable",
+          "injury_status": "Out",
           "search_rank": 162
         },
         {
@@ -8525,21 +8525,6 @@ window.__STATIC_DATA__ = {
           "status": "Active",
           "injury_status": null,
           "search_rank": 52
-        },
-        {
-          "player_id": "1945",
-          "espn_id": 17372,
-          "name": "Chris Boswell",
-          "position": "K",
-          "team": "PIT",
-          "birth_date": "1991-03-16",
-          "college": "Rice",
-          "height": "74",
-          "weight": "185",
-          "years_exp": 12,
-          "status": "Active",
-          "injury_status": null,
-          "search_rank": 151
         },
         {
           "player_id": "3198",
@@ -8615,6 +8600,21 @@ window.__STATIC_DATA__ = {
           "status": "Active",
           "injury_status": null,
           "search_rank": 35
+        },
+        {
+          "player_id": "6819",
+          "espn_id": 4035687,
+          "name": "Michael Pittman",
+          "position": "WR",
+          "team": "PIT",
+          "birth_date": "1997-10-05",
+          "college": "USC",
+          "height": "76",
+          "weight": "223",
+          "years_exp": 6,
+          "status": "Active",
+          "injury_status": null,
+          "search_rank": 107
         },
         {
           "player_id": "7526",
@@ -9054,7 +9054,7 @@ window.__STATIC_DATA__ = {
           "weight": "195",
           "years_exp": 3,
           "status": "Active",
-          "injury_status": null,
+          "injury_status": "Out",
           "search_rank": 8
         },
         {
@@ -9405,7 +9405,7 @@ window.__STATIC_DATA__ = {
           "weight": "215",
           "years_exp": 4,
           "status": "Active",
-          "injury_status": "Questionable",
+          "injury_status": null,
           "search_rank": 52
         },
         {
@@ -10079,6 +10079,34 @@ window.__STATIC_DATA__ = {
     }
   ],
   "transactions": [
+    {
+      "season": "2026",
+      "week": 3,
+      "created": "Sep 27, 2026 • 8:02 AM PT",
+      "transaction_id": "1409967546551046144",
+      "type": "free_agent",
+      "status": "complete",
+      "teams": [
+        "rat444"
+      ],
+      "added": [
+        {
+          "name": "Michael Pittman",
+          "position": "WR",
+          "team": "PIT"
+        }
+      ],
+      "dropped": [
+        {
+          "name": "Chris Boswell",
+          "position": "K",
+          "team": "PIT"
+        }
+      ],
+      "faab": 0,
+      "waiver_bid": 0,
+      "notes": null
+    },
     {
       "season": "2026",
       "week": 3,
