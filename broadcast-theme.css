@@ -1,0 +1,534 @@
+/* ═══ BROADCAST THEME — site-wide stylesheet ═════════════════
+   Pairs with broadcast-theme.js, which remaps the hardcoded hex
+   in runtime-injected <style> blocks. This file owns the things
+   a colour swap cannot do: type, grain, the nav rail, and the
+   material treatment of panels and tables.
+   Load AFTER style.css on every page.
+   ═════════════════════════════════════════════════════════════ */
+/* fonts are loaded by a <link> in each page's <head> (with preconnect), not an
+   @import here — an @import can't start until this file has downloaded. */
+
+:root{
+  --night:#07080A; --night-2:#0C0E12; --deck:#13161B;
+  --ice:#9FB2C4; --flood:#D9DEE4;
+  --turf:#3E6B4E; --gold:#C9A961; --gold-2:#8A6F3A; --hot:#B5443A;
+
+  /* the existing tokens, restated in the broadcast palette */
+  --bg:#07080A; --card-bg:#13161B; --card-el:#1A1E24; --border:#23272E;
+  --text-1:#D9DEE4; --text-2:#B4BBC3; --text-3:#8A9098; --text-4:#5F666E;
+  --accent:#C9A961;
+
+  --font-body:'Archivo',system-ui,sans-serif;
+  --font-mono:'IBM Plex Mono',ui-monospace,monospace;
+  --disp:'Barlow Condensed',Impact,sans-serif;
+
+  --grain:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='180' height='180'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='.82' numOctaves='3' stitchTiles='stitch'/%3E%3CfeColorMatrix type='saturate' values='0'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)' opacity='.5'/%3E%3C/svg%3E");
+
+  --radius-sm:5px; --radius-md:7px; --radius-lg:9px;
+  --shadow-sm:0 1px 2px rgba(0,0,0,.6);
+  --shadow-md:0 14px 32px -20px rgba(0,0,0,.9);
+  --shadow-lg:0 30px 70px -40px rgba(0,0,0,.95);
+  --page-pad:0px;
+}
+
+/* film grain: the single cue that stops a flat dark page reading as vector */
+body{background:var(--night);color:var(--flood);font-family:var(--font-body);
+     padding:0 !important;-webkit-font-smoothing:antialiased}
+body::after{content:'';position:fixed;inset:0;z-index:99;pointer-events:none;
+  background-image:var(--grain);opacity:.05;mix-blend-mode:overlay}
+
+/* every page's own content gets the gutter the body used to provide */
+body > h1, body > h2, body > div:not(.rail):not(.deck):not(#player-popover), body > main, body > section,
+body > table, body > p{max-width:1240px;margin-left:auto;margin-right:auto;
+  padding-left:22px;padding-right:22px}
+
+/* ── Nav rail (injected by broadcast-theme.js) ────────────── */
+.rail{position:sticky;top:0;z-index:30;padding-top:env(safe-area-inset-top,0px);
+  background:linear-gradient(180deg,rgba(12,14,18,.96),rgba(8,9,12,.92));
+  backdrop-filter:blur(16px) saturate(.9);
+  border-bottom:1px solid rgba(217,222,228,.10);margin-bottom:22px;
+  max-width:none !important;padding-left:0 !important;padding-right:0 !important}
+.rail-in{max-width:1240px;margin:0 auto;padding:0 22px;display:flex;align-items:center;
+  gap:22px;height:54px}
+.rail .badge{font-family:var(--disp);font-weight:800;text-transform:uppercase;font-size:15px;
+  letter-spacing:.04em;color:var(--gold);flex:none}
+.rail nav{display:flex;gap:2px;overflow-x:auto;scrollbar-width:none;flex:1;min-width:0}
+.rail nav::-webkit-scrollbar{display:none}
+.rail a{font-family:var(--disp);font-weight:600;text-transform:uppercase;font-size:14px;
+  letter-spacing:.05em;color:rgba(217,222,228,.6);text-decoration:none;white-space:nowrap;
+  padding:8px 12px;border-bottom:2px solid transparent;transition:color .18s,border-color .18s}
+.rail a:hover{color:var(--flood)}
+.rail a.here{color:var(--flood);border-bottom-color:var(--gold)}
+
+/* ── Type: condensed caps for headings, the way the package reads ── */
+h1,h2,h3{font-family:var(--disp) !important;text-transform:uppercase;
+  letter-spacing:-.005em;font-weight:800 !important}
+h1{font-size:clamp(30px,5vw,46px) !important;line-height:.96 !important;margin:0 0 4px !important;
+   position:relative;padding-bottom:12px}
+h1::after{content:'';position:absolute;left:22px;bottom:0;width:42px;height:3px;background:var(--gold)}
+h2{font-size:clamp(20px,3vw,28px) !important;line-height:1 !important}
+h3{font-size:16px !important;letter-spacing:.02em}
+h4{font-family:var(--disp);text-transform:uppercase;letter-spacing:.04em;font-weight:700}
+
+/* ── Panels: glass with a top light, long soft shadow ─────── */
+.card,.s-table,table{
+  background:linear-gradient(180deg,#14171C,#0E1115) !important;
+  border:1px solid rgba(217,222,228,.09) !important;
+  box-shadow:var(--shadow-md), inset 0 1px 0 rgba(255,255,255,.035) !important;
+  border-radius:var(--radius-md) !important}
+
+/* A table already inside a card is not a second card. Stacking the panel
+   treatment gave it its own border and shadow, and its border-box width then
+   ran 13px past the card it sits in (measured on Season History). */
+.card table, .card .s-table, .card .sh-table{
+  background:transparent !important;border:none !important;box-shadow:none !important;
+  border-radius:0 !important;width:100% !important;max-width:100% !important}
+.card .s-table-wrap, .card .matrix-wrap{max-width:100%;margin:0}
+.card > *{max-width:100%}
+
+/* A table's minimum content width can exceed the card it sits in — Season
+   History puts a 6-column table in a 280px grid cell (measured: 272px of
+   min-content against a 245px content box), so it spilled past the border.
+   Tighten the cells first, then let the card contain whatever still does not
+   fit rather than letting it escape. */
+.card:has(table){overflow-x:auto;overflow-y:visible;
+  scrollbar-width:thin;scrollbar-color:rgba(217,222,228,.16) transparent}
+.sh-table td,.sh-table th{padding:clamp(3px,.45vw,7px) clamp(3px,.35vw,6px) !important;
+  font-size:clamp(9px,.86vw,12px) !important;white-space:nowrap}
+.sh-table td:first-child,.sh-table th:first-child{padding-left:clamp(4px,.5vw,8px) !important}
+
+/* ── Tables: numbers are the content; let them read as numbers ── */
+.s-table td,table td{font-family:var(--font-mono);font-variant-numeric:tabular-nums;
+  font-size:12.5px}
+.s-table thead th,table thead th{font-family:var(--disp) !important;text-transform:uppercase;
+  font-size:11px !important;letter-spacing:.11em !important;font-weight:600 !important;
+  color:var(--text-4) !important;background:transparent !important;
+  border-bottom:1px solid rgba(217,222,228,.14) !important}
+.s-table td.team-name,td.team-name,.player-name{font-family:var(--disp) !important;
+  font-weight:700;text-transform:uppercase;font-size:15px !important;letter-spacing:.01em}
+td.rank{font-family:var(--font-mono) !important;color:var(--text-3) !important}
+.s-table tbody tr:hover td{background:rgba(255,255,255,.028)}
+
+/* avatars sit in the surface rather than floating with a ring */
+img[class*="avatar"],.avatar,td img[src*="sleepercdn"]{
+  filter:none;
+  box-shadow:0 0 0 1px rgba(217,222,228,.14),0 3px 8px -2px rgba(0,0,0,.8)}
+
+/* ── Controls ─────────────────────────────────────────────── */
+select,#yearSelect,.tx-filters select{
+  font-family:var(--disp) !important;font-weight:600 !important;text-transform:uppercase;
+  font-size:14px !important;letter-spacing:.03em;border-radius:var(--radius-sm) !important;
+  background:var(--deck) !important;border:1px solid rgba(217,222,228,.16) !important;
+  color:var(--flood) !important}
+select:focus,#yearSelect:focus{border-color:var(--gold) !important;
+  outline:2px solid rgba(201,169,97,.35);outline-offset:1px}
+
+/* position badges: muted jersey colours, not highlighter */
+.pick-pos-badge,.player-pos-badge{font-family:var(--disp) !important;font-weight:700;
+  letter-spacing:.05em}
+
+/* the old pill nav, if any page still renders one */
+nav.card{background:transparent !important;border:none !important;box-shadow:none !important}
+
+@media (max-width:620px){
+  .rail-in{gap:12px;padding:0 16px}
+  .rail .badge{font-size:13px}
+  .rail a{font-size:13px;padding:8px 9px}
+  body > h1, body > h2, body > div:not(.rail), body > main{padding-left:16px;padding-right:16px}
+  h1::after{left:16px}
+}
+@media (prefers-reduced-motion:reduce){*{animation:none !important;transition:none !important}}
+:focus-visible{outline:3px solid var(--gold);outline-offset:2px}
+
+/* ═══ STAGE — per-page cold open + entrances (broadcast-stage.js) ═══ */
+.stage{position:relative;overflow:hidden;margin:-22px 0 26px;padding:44px 0 34px;
+  max-width:none !important;padding-left:0 !important;padding-right:0 !important;
+  background:radial-gradient(130% 120% at 50% 150%, #37573f 0%, #1b2b20 34%, var(--night) 76%)}
+.stage::before{content:'';position:absolute;inset:-30% -10% auto;height:90%;pointer-events:none;
+  background:radial-gradient(46% 62% at 20% -8%,rgba(214,226,238,.11),transparent 68%),
+             radial-gradient(50% 66% at 52% -12%,rgba(214,226,238,.15),transparent 70%),
+             radial-gradient(46% 62% at 82% -8%,rgba(214,226,238,.11),transparent 68%)}
+.stage::after{content:'';position:absolute;inset:0;pointer-events:none;z-index:1;
+  background:radial-gradient(96% 84% at 50% 52%,transparent 46%,rgba(7,8,10,.44) 100%)}
+.stage .field{position:absolute;left:50%;bottom:-30%;width:300%;height:88%;transform:translateX(-50%);
+  perspective:440px;pointer-events:none;filter:saturate(1.18) contrast(1.06);
+  mask-image:linear-gradient(to top,#000 10%,rgba(0,0,0,.5) 48%,transparent 86%)}
+.stage .turf{position:absolute;inset:0;transform:rotateX(76deg);transform-origin:bottom center;
+  background:repeating-linear-gradient(90deg,rgba(232,238,244,.34) 0 2px,transparent 2px 120px),
+             repeating-linear-gradient(90deg,rgba(255,255,255,.028) 0 120px,rgba(0,0,0,.05) 120px 240px),
+             linear-gradient(#3F7A50 0%,#2F6340 42%,#1C3F2A 100%)}
+.stage .turf::after{content:'';position:absolute;inset:0;
+  background:radial-gradient(60% 126% at 50% 104%,rgba(198,232,206,.20),transparent 56%),
+             linear-gradient(to top,transparent 44%,rgba(7,8,10,.62) 98%),var(--grain);
+  background-blend-mode:normal,normal,soft-light;opacity:.88}
+.stage .far{position:absolute;inset:0 0 44% 0;filter:blur(2.5px);opacity:.85}
+.stage-in{position:relative;z-index:2;max-width:1240px;margin:0 auto;padding:0 22px}
+
+.kick{font-family:var(--font-mono);font-size:11px;letter-spacing:.34em;text-transform:uppercase;
+  color:var(--ice);margin:0 0 12px;display:flex;align-items:center;gap:11px}
+.kick::before{content:'';width:0;height:2px;background:var(--gold);
+  animation:bwipe .85s .1s cubic-bezier(.16,1,.3,1) forwards}
+@keyframes bwipe{to{width:50px}}
+
+h1.stage-t{font-family:var(--disp) !important;font-weight:900 !important;text-transform:uppercase;
+  margin:0 !important;padding:0 !important;font-size:clamp(40px,8vw,104px) !important;
+  line-height:.84 !important;letter-spacing:-.022em}
+h1.stage-t::after{display:none}
+h1.stage-t span{display:block;overflow:hidden}
+h1.stage-t i{display:block;font-style:normal;transform:translateY(112%);
+  animation:brise .95s cubic-bezier(.16,1,.3,1) forwards;
+  background:linear-gradient(176deg,#6b5a33 0%,#a08a52 22%,#cbb684 44%,#efe3c4 50%,#b39f66 56%,#8a7442 78%,#5e4f2d 100%);
+  -webkit-background-clip:text;background-clip:text;color:transparent}
+@keyframes brise{to{transform:translateY(0)}}
+
+.stage .strip{display:flex;margin-top:22px;flex-wrap:wrap;
+  border:1px solid rgba(217,222,228,.10);border-top-color:rgba(217,222,228,.18);
+  background:linear-gradient(180deg,rgba(24,28,34,.68),rgba(10,12,15,.72));
+  backdrop-filter:blur(14px) saturate(.9);
+  box-shadow:0 22px 60px -28px rgba(0,0,0,.95),inset 0 1px 0 rgba(255,255,255,.05);
+  opacity:0;animation:bfade .7s .5s forwards}
+@keyframes bfade{to{opacity:1}}
+.stage .sc{flex:1 1 130px;padding:12px 18px;border-right:1px solid rgba(217,222,228,.07)}
+.stage .sc:last-child{border-right:none}
+.stage .sc .k{font-family:var(--font-mono);font-size:10px;letter-spacing:.2em;
+  text-transform:uppercase;color:var(--ice);opacity:.8}
+.stage .sc .v{font-family:var(--disp);font-weight:800;font-size:clamp(26px,3.4vw,40px);
+  line-height:1;margin-top:3px;font-variant-numeric:tabular-nums}
+.stage .sc .v.g{color:var(--gold)}
+
+/* section headings become lower-thirds */
+h2.lt3,h3.lt3{display:inline-flex !important;align-items:center;
+  border-left:6px solid var(--gold);
+  background:linear-gradient(90deg,var(--deck),rgba(19,22,27,.15));
+  padding:9px 26px 9px 14px !important;margin:0 0 14px !important;
+  clip-path:inset(0 100% 0 0);transition:clip-path .65s cubic-bezier(.16,1,.3,1)}
+h2.lt3.in,h3.lt3.in{clip-path:inset(0 0 0 0)}
+
+/* entrances */
+.rv{opacity:0;transform:translateY(16px);transition:opacity .6s cubic-bezier(.16,1,.3,1),transform .6s cubic-bezier(.16,1,.3,1)}
+.rv.in{opacity:1;transform:none}
+.rv-row{opacity:0;transform:translateX(-14px);
+  transition:opacity .5s cubic-bezier(.16,1,.3,1) var(--d,0ms),transform .5s cubic-bezier(.16,1,.3,1) var(--d,0ms)}
+table.in .rv-row,.s-table-wrap.in .rv-row,.in table .rv-row{opacity:1;transform:none}
+
+@media (max-width:620px){.stage{padding:30px 0 24px;margin-bottom:18px}.stage-in{padding:0 16px}}
+@media (prefers-reduced-motion:reduce){
+  .rv,.rv-row{opacity:1 !important;transform:none !important}
+  h2.lt3,h3.lt3{clip-path:none}
+  h1.stage-t i{transform:none;animation:none}
+  .stage .strip{opacity:1;animation:none}
+  .kick::before{width:50px;animation:none}
+}
+
+/* headings the pages render as divs need the block treatment too */
+.lt3{font-family:var(--disp) !important;text-transform:uppercase;font-weight:800 !important;
+  font-size:clamp(17px,2.4vw,24px) !important;letter-spacing:.01em !important;
+  color:var(--flood) !important;line-height:1 !important}
+.s-label.lt3,.sh-section-title.lt3,.tx-card-header.lt3{background:linear-gradient(90deg,var(--deck),rgba(19,22,27,.15)) !important}
+
+/* draft pick cards: jersey tints, not highlighter pastels */
+/* Sleeper's pick pastels stay at full strength — they are how the board is read */
+.pick-card{border-radius:5px}
+.pick-card .player-name{font-family:var(--disp) !important;text-transform:uppercase;font-weight:700}
+
+/* ═══ FIT — one window, no page scroll, sized to the viewport ═══
+   html.fitted is set by broadcast-stage.js once the content has been moved
+   into .deck. Body becomes a three-band column: rail, stage, deck. Only the
+   deck scrolls, and only when the data genuinely exceeds it. Every size below
+   carries a vh or vmin term, so the layout tracks the window instead of
+   needing a breakpoint per size. */
+/* The window constrains WIDTH, not length: nothing may overflow sideways,
+   and the page scrolls down normally. */
+html.fitted, html.fitted body{overflow-x:hidden}
+html.fitted body{margin:0}
+html.fitted .rail{position:sticky;top:0;margin-bottom:0}
+html.fitted .rail-in{height:clamp(40px,4.26vw,54px)}
+html.fitted .rail a{font-size:clamp(11px,1.11vw,14px);padding:clamp(5px,.7.38vw,8px) clamp(8px,1vw,12px)}
+html.fitted .rail .badge{font-size:clamp(12px,1.23vw,15px)}
+
+/* the cold open is the part that yields height first */
+html.fitted .stage{margin:0;padding:clamp(20px,3.2vw,44px) 0 clamp(16px,2.4vw,34px)}
+html.fitted h1.stage-t{font-size:clamp(34px,6.4vw,104px) !important}
+html.fitted .kick{font-size:clamp(9px,1.02vw,11px);margin-bottom:clamp(4px,0.82vw,12px)}
+html.fitted .stage .strip{margin-top:clamp(8px,1.48vw,22px)}
+html.fitted .stage .sc{padding:clamp(5px,0.98vw,12px) clamp(10px,1.2vw,18px)}
+html.fitted .stage .sc .v{font-size:clamp(20px,2.7vw,40px)}
+html.fitted .stage .sc .k{font-size:clamp(8px,0.86vw,10px)}
+
+/* the deck takes the rest, and is the only thing that scrolls */
+html.fitted .deck{max-width:1240px;width:100%;margin:0 auto;overflow-x:clip;
+  padding:clamp(10px,1.4vw,18px) clamp(14px,1.6vw,22px) clamp(18px,2.4vw,30px)}
+html.fitted .deck > *{max-width:none !important;padding-left:0 !important;padding-right:0 !important;
+  margin-left:0 !important;margin-right:0 !important}
+
+/* content scales with the window rather than sitting at a fixed size */
+html.fitted .lt3{font-size:clamp(13px,1.72vw,24px) !important;
+  padding:clamp(5px,0.82vw,9px) clamp(14px,1.6vw,26px) clamp(5px,0.82vw,9px) clamp(9px,1vw,14px) !important;
+  margin-bottom:clamp(6px,0.98vw,14px) !important}
+html.fitted .s-table td, html.fitted table td{font-size:clamp(10px,1.15vw,12.5px);
+  padding:clamp(4px,.69.7vw,10px) clamp(4px,.6vw,10px) !important}
+html.fitted .s-table thead th, html.fitted table thead th{
+  font-size:clamp(8px,0.9vw,11px) !important;padding:clamp(4px,.7.38vw,10px) clamp(4px,.6vw,10px) !important}
+html.fitted .s-table td.team-name, html.fitted td.team-name{font-size:clamp(11px,1.39vw,15px) !important}
+html.fitted .av, html.fitted td img[src*="sleepercdn"]{
+  width:clamp(18px,2.3vw,30px) !important;height:clamp(18px,2.3vw,30px) !important}
+html.fitted select,html.fitted #yearSelect{font-size:clamp(11px,1.15vw,14px) !important;
+  padding:clamp(4px,.69.7vw,9px) clamp(24px,2.4vw,34px) clamp(4px,.69.7vw,9px) clamp(8px,1vw,14px) !important}
+html.fitted .card{padding:clamp(8px,1.23vw,18px) !important;margin-bottom:clamp(8px,1.15vw,16px) !important}
+
+/* wide tables scroll inside their own box, never widening the window */
+html.fitted .s-table-wrap,html.fitted .matrix-wrap{max-width:100%;overflow:auto;
+  scrollbar-width:thin;scrollbar-color:rgba(217,222,228,.18) transparent}
+
+/* the home page owns its own layout; let it scroll as designed */
+html.fitted .coldopen{flex:none}
+
+/* ═══ HERO ACROSS THE TOP ════════════════════════════════════
+   The stage was a tall left-aligned block: kicker, title, then a strip
+   underneath, eating vertical space before any content. Now it is one band —
+   title on the left, stats inline to the right — so the page starts sooner. */
+html.fitted .stage{padding:clamp(18px,2.4vw,32px) 0 clamp(16px,2.2vw,28px);min-height:clamp(104px,9.5vw,150px)}
+/* Just the page title, across the top. The stat strip that used to sit here
+   was invented; the old site carries its numbers inside the page content. */
+html.fitted .stage-in{display:flex;align-items:center;min-height:0}
+html.fitted h1.stage-t{font-size:clamp(28px,4.6vw,68px) !important}
+
+/* ── The player wall ─────────────────────────────────────────
+   Real headshots from this league's rosters, laid edge to edge behind the
+   band. Heavily knocked back and desaturated: it is atmosphere, and the
+   title has to stay readable over it. */
+.wall{position:absolute;inset:0;z-index:0;display:flex;pointer-events:none;overflow:hidden;
+  mask-image:linear-gradient(to right,transparent,#000 14%,#000 86%,transparent)}
+.wall .wp{flex:1 1 0;min-width:0;position:relative;overflow:hidden}
+.wall img{width:100%;height:100%;object-fit:cover;display:block;transform:scale(1.03)}
+/* headshots: portraits, framed high on the face */
+.wall-players img{object-position:center 15%;
+  filter:grayscale(1) contrast(1.15) brightness(1.05);opacity:.92}
+/* action shots: wide scenes, so crop to the middle and push the contrast
+   further — motion reads better than faces at this scale */
+.wall-action img{object-position:center 45%;
+  filter:grayscale(1) contrast(1.05) brightness(1.5);opacity:1}
+.wall-action .wp{flex:1 1 0}
+/* the band's own darkness sits on top so type never fights the photos */
+/* Type must stay readable, so the band darkens hardest where the title sits
+   and opens up across the middle where the photos can show. */
+.wall::after{content:'';position:absolute;inset:0;
+  background:linear-gradient(90deg,rgba(7,8,10,.92) 0%,rgba(7,8,10,.74) 20%,rgba(7,8,10,.22) 44%,rgba(7,8,10,.18) 70%,rgba(7,8,10,.62) 100%),
+             linear-gradient(to bottom,rgba(7,8,10,.16),rgba(7,8,10,.55))}
+.stage .field{z-index:1}
+.stage-in{z-index:3 !important}
+
+@media (max-width:760px){
+  .wall .wp:nth-child(n+7){display:none}
+  html.fitted .stage-in{align-items:flex-start}
+  html.fitted .stage .strip{flex-basis:100%}
+}
+@media (max-width:460px){ .wall .wp:nth-child(n+5){display:none} }
+
+/* ═══ SITE BACKDROP ══════════════════════════════════════════
+   The action photo sits behind everything, fixed, so it does not scroll
+   with the content. Heavily darkened and desaturated — it is atmosphere,
+   and every table on top of it has to stay readable. */
+.site-bg{position:fixed;inset:0;z-index:-2;pointer-events:none;overflow:hidden}
+.site-bg img{width:100%;height:100%;object-fit:cover;object-position:center 30%;
+  filter:grayscale(.9) contrast(1.02) brightness(.55);transform:scale(1.03)}
+.site-bg::after{content:'';position:absolute;inset:0;
+  background:
+    radial-gradient(130% 100% at 50% -10%, rgba(7,8,10,.55), rgba(7,8,10,.86) 58%, rgba(7,8,10,.95) 100%),
+    linear-gradient(180deg, rgba(7,8,10,.58) 0%, rgba(7,8,10,.84) 42%, rgba(7,8,10,.95) 100%)}
+body{background:transparent !important}
+html{background:var(--night)}
+
+.site-bg-credit{position:fixed;right:9px;bottom:6px;z-index:-1;pointer-events:none;
+  font-family:var(--font-mono);font-size:9px;letter-spacing:.04em;
+  color:rgba(217,222,228,.24);max-width:46vw;text-align:right;
+  text-overflow:ellipsis;overflow:hidden;white-space:nowrap}
+
+/* the hero band's own photo strip is redundant now the whole page carries one */
+.wall{display:none !important}
+
+/* ═══ BACKDROP: field mode ═══════════════════════════════════
+   The CSS field, promoted from the hero band to the whole page. No photo,
+   no licence, unmistakably football, and it never fights the content. */
+.site-field{position:fixed;inset:0;z-index:-2;pointer-events:none;overflow:hidden;
+  perspective:620px;background:radial-gradient(130% 95% at 50% 118%,#2c4a36 0%,#15231a 38%,var(--night) 74%)}
+.site-field .turf{position:absolute;left:-60%;right:-60%;bottom:-16%;height:74%;
+  transform:rotateX(77deg);transform-origin:bottom center;
+  background:
+    repeating-linear-gradient(90deg,rgba(232,238,244,.30) 0 2px,transparent 2px 130px),
+    repeating-linear-gradient(90deg,rgba(255,255,255,.03) 0 130px,rgba(0,0,0,.05) 130px 260px),
+    linear-gradient(#37694a 0%,#2a5339 44%,#182f21 100%);
+  filter:saturate(1.1)}
+.site-field .turf::after{content:'';position:absolute;inset:0;
+  background:radial-gradient(58% 128% at 50% 104%,rgba(198,232,206,.16),transparent 56%),
+             linear-gradient(to top,transparent 40%,rgba(7,8,10,.78) 98%),var(--grain);
+  background-blend-mode:normal,normal,soft-light}
+.site-field::after{content:'';position:absolute;inset:0;
+  background:radial-gradient(120% 90% at 50% 20%,transparent 30%,rgba(7,8,10,.72) 100%),
+             linear-gradient(180deg,rgba(7,8,10,.55) 0%,rgba(7,8,10,.30) 30%,rgba(7,8,10,.80) 100%)}
+
+html[data-bg="none"]{background:var(--night)}
+
+.bg-switch{position:fixed;left:50%;bottom:14px;transform:translateX(-50%);z-index:60;
+  display:flex;align-items:center;gap:4px;padding:5px 6px 5px 12px;
+  background:rgba(12,14,18,.92);backdrop-filter:blur(14px);
+  border:1px solid rgba(217,222,228,.14);border-radius:999px;
+  box-shadow:0 18px 40px -20px rgba(0,0,0,.95)}
+.bg-switch span{font-family:var(--font-mono);font-size:9px;letter-spacing:.2em;
+  text-transform:uppercase;color:rgba(217,222,228,.45);margin-right:4px}
+.bg-switch button{font-family:var(--disp);font-weight:600;text-transform:uppercase;
+  font-size:12px;letter-spacing:.05em;padding:5px 12px;border-radius:999px;cursor:pointer;
+  border:1px solid transparent;background:transparent;color:rgba(217,222,228,.62)}
+.bg-switch button:hover{color:var(--flood)}
+.bg-switch button.on{background:var(--gold);border-color:var(--gold);color:#12140f}
+
+/* ═══ BAND PHOTO ═════════════════════════════════════════════
+   Measured: content panels cover 85% of the viewport, so a full-page
+   backdrop is invisible by construction. The header band is the only
+   region with room, so the photo lives there and can be seen. */
+.stage{position:relative;isolation:isolate}
+.band-bg{position:absolute;inset:0;z-index:0;overflow:hidden;pointer-events:none}
+.band-bg img{width:100%;height:100%;object-fit:cover;object-position:center 42%;
+  filter:grayscale(.55) contrast(1.06) brightness(.9);transform:scale(1.02)}
+.band-bg::after{content:'';position:absolute;inset:0;
+  background:linear-gradient(90deg,rgba(7,8,10,.94) 0%,rgba(7,8,10,.72) 26%,
+             rgba(7,8,10,.30) 52%,rgba(7,8,10,.34) 74%,rgba(7,8,10,.78) 100%),
+             linear-gradient(to bottom,rgba(7,8,10,.22),rgba(7,8,10,.62))}
+.band-credit{position:absolute;right:12px;bottom:5px;z-index:2;pointer-events:none;
+  font-family:var(--font-mono);font-size:9px;letter-spacing:.05em;
+  color:rgba(217,222,228,.3);max-width:40%;overflow:hidden;
+  white-space:nowrap;text-overflow:ellipsis}
+html.fitted .stage{min-height:clamp(120px,11.5vw,180px)}
+/* the full-page backdrop is retired */
+.site-bg,.site-bg-credit{display:none !important}
+
+/* In stadium mode the photo IS the backdrop, so the stage's own CSS field
+   must not sit on top of it (.stage .field carries z-index:1). */
+html[data-bg="stadium"] .stage .field{display:none}
+.band-bg{z-index:1}
+
+/* ═══ LOGO MARQUEE ═══════════════════════════════════════════ */
+/* The 16px offset came from the logo strip centring on the BAND while the
+   title centres on its own box inside asymmetric padding. Anchoring the
+   strip to .stage-in — the box that holds the title — makes one centre line
+   serve both, with no number to keep in sync. */
+.logos{position:absolute;top:0;bottom:0;left:0;right:0;z-index:0;
+  overflow:hidden;pointer-events:none;display:flex;align-items:center;
+  mask-image:linear-gradient(to right,transparent,#000 8%,#000 92%,transparent)}
+.lg-track{display:flex;flex-wrap:nowrap;align-items:center;flex:none;
+  gap:clamp(22px,3vw,48px);animation:lg-roll 64s linear infinite;will-change:transform}
+.lg{flex:none;display:grid;place-items:center}
+.lg img{height:clamp(22px,2.9vw,38px);width:auto;display:block;
+  filter:grayscale(1) brightness(1.7) contrast(.9);opacity:.38}
+@keyframes lg-roll{from{transform:translateX(0)}to{transform:translateX(-50%)}}
+
+/* the title sits above the marquee and must stay readable over it */
+/* no scrim needed: nothing sits behind the title any more */
+.stage::before{content:'';position:absolute;inset:0;z-index:1;pointer-events:none;
+  background:linear-gradient(90deg,rgba(7,8,10,.92) 0%,rgba(7,8,10,.55) 22%,transparent 42%)}
+.stage-in{z-index:3 !important}
+html[data-bg] .stage .field{display:block}
+.band-bg,.band-credit,.site-bg,.site-bg-credit,.site-field,.bg-switch{display:none !important}
+
+@media (prefers-reduced-motion:reduce){ .lg-track{animation:none} }
+
+/* One row: title, then the marquee filling the remaining width. Both are
+   flex children of the same line, so they share a baseline by construction
+   rather than by tuning numbers. */
+/* symmetric padding, so the title's centre IS the band's centre */
+html.fitted .stage{padding:clamp(18px,2.4vw,32px) 0}
+html.fitted .stage-in{position:relative}
+html.fitted h1.stage-t{margin:0 !important;padding:0 !important;line-height:1 !important;
+  position:relative;z-index:3;display:inline-block}
+html.fitted h1.stage-t::after{display:none}
+html.fitted h1.stage-t span{display:block;line-height:1}
+/* logos start clear of the title rather than running under it */
+.lg-track{padding-left:0}
+/* The strip's own box starts after the title, so overflow:hidden and the
+   edge fade both begin there — logos emerge beside the title instead of
+   scrolling underneath it. */
+.logos{left:var(--title-w,240px) !important;padding-left:0}
+@media (max-width:640px){ .logos{display:none} }
+
+/* The band had a fixed minimum height left over from the photo experiments.
+   On a phone the title is 28px tall, so that minimum left 18px above it and
+   74px of dead space below. With no minimum, the band is padding + title +
+   padding — equal space above and below at every width. */
+html.fitted .stage{min-height:0 !important}
+
+
+/* ═══ TAB-TO-TAB TRANSITIONS ═════════════════════════════════
+   Measured cause of the jank: every page used to paint in the old layout,
+   then JavaScript inserted the rail, the header band and the content wrapper
+   and removed the page's own title — 4-5 layout jumps per tab. Those pieces
+   are now written into each page's HTML by scripts/build_broadcast.py, so
+   the first paint is the final layout. What is left is the move itself:  */
+
+/* 1. crossfade between pages, native to the browser */
+@view-transition { navigation: auto; }
+
+/* 2. the rail and the header band are the same element on every tab, so
+      they hold still while the page underneath changes */
+.rail  { view-transition-name: gop-rail; }
+.stage { view-transition-name: gop-stage; }
+
+::view-transition-old(root){ animation: gop-vt-out .16s cubic-bezier(.4,0,1,1) both; }
+::view-transition-new(root){ animation: gop-vt-in  .26s cubic-bezier(0,0,.2,1) both; }
+::view-transition-group(gop-rail),
+::view-transition-group(gop-stage){ animation-duration: .26s; }
+@keyframes gop-vt-out { to   { opacity: 0; } }
+@keyframes gop-vt-in  { from { opacity: 0; transform: translateY(6px); } }
+
+/* 3. arriving from another tab, the page is already in place — no title
+      rise, no lower-third wipes, no card fade-ins replaying on every click.
+      First visit from outside the site keeps the full entrance. */
+html.internal h1.stage-t i{ animation: none !important; transform: none !important; }
+html.internal .rv,
+html.internal .rv-row{ opacity: 1 !important; transform: none !important; transition: none !important; }
+html.internal h2.lt3,
+html.internal h3.lt3,
+html.internal .lt3{ clip-path: none !important; transition: none !important; }
+
+/* the pages still write their old nav into #nav; it stays in the DOM so their
+   scripts keep working, but the rail replaces it visually */
+#nav{ display: none !important; }
+
+/* 4. logos sit at identical positions on every tab (the strip spans the full
+      band); the part behind the title is masked out, and they fade in just
+      right of it. Paired with the shared clock in broadcast-bg.js, the
+      marquee carries on across tabs instead of restarting. */
+.logos{ left: 0 !important;
+  -webkit-mask-image: linear-gradient(to right, transparent 0, transparent calc(var(--title-w,240px) + 14px),
+                      #000 calc(var(--title-w,240px) + 64px), #000 93%, transparent 100%);
+          mask-image: linear-gradient(to right, transparent 0, transparent calc(var(--title-w,240px) + 14px),
+                      #000 calc(var(--title-w,240px) + 64px), #000 93%, transparent 100%); }
+
+@media (prefers-reduced-motion: reduce){
+  ::view-transition-group(*), ::view-transition-old(*), ::view-transition-new(*){ animation: none !important; }
+}
+
+/* ═══ SCROLLING PANELS ═══════════════════════════════════════
+   The Team page's news and highlights are scroll boxes inside 520px cards
+   (160 stories on one team). macOS hides scrollbars until you scroll, so the
+   card simply looked cut off. A persistent thin scrollbar and a fade at the
+   bottom edge say "there is more". Only ::-webkit-scrollbar is used here: in
+   Chrome, setting the standard scrollbar-color/width would override it and
+   bring back the invisible overlay behaviour. */
+#team-news-body, #team-reel-body{
+  -webkit-mask-image: linear-gradient(to bottom, #000 calc(100% - 40px), transparent);
+          mask-image: linear-gradient(to bottom, #000 calc(100% - 40px), transparent);
+  padding-bottom: 32px}
+#team-news-body::-webkit-scrollbar, #team-reel-body::-webkit-scrollbar{ width: 8px }
+#team-news-body::-webkit-scrollbar-track, #team-reel-body::-webkit-scrollbar-track{
+  background: rgba(217,222,228,.05); border-radius: 8px }
+#team-news-body::-webkit-scrollbar-thumb, #team-reel-body::-webkit-scrollbar-thumb{
+  background: rgba(217,222,228,.28); border-radius: 8px }
+#team-news-body::-webkit-scrollbar-thumb:hover, #team-reel-body::-webkit-scrollbar-thumb:hover{
+  background: rgba(201,169,97,.7) }
+
+/* Season History's standings sit in a narrow grid cell, and the team column
+   was forced onto one line — so one long manager name ("aaaaaronoraaaaa" in
+   Darwinism) widened the table 10px past its card. The name column takes
+   whatever width is left and ellipsizes instead; the numbers never do. */
+.sh-table td:nth-child(2), .sh-table th:nth-child(2){
+  max-width: 0; width: 100%; overflow: hidden; text-overflow: ellipsis }

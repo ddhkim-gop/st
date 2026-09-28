@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en" class="fitted">
+<head>
+    <script>try{var r=document.referrer;if(r&&new URL(r).origin===location.origin)document.documentElement.classList.add("internal")}catch(e){}</script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Draft</title>
+    <link rel="stylesheet" href="style.css?v=202609281357">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@600;700;800;900&family=Archivo:wght@400;500;600;700&family=IBM+Plex+Mono:wght@400;500;600&display=swap">
+    <link rel="stylesheet" href="broadcast-theme.css?v=1790629055">
+    <script type="speculationrules">{"prerender":[{"where":{"or":[{"href_matches":"b-*"},{"href_matches":"broadcast.html"}]},"eagerness":"moderate"}]}</script>
+    <meta name="gop-pages" content="assets,draft,head_to_head,index,matchup_recap,matchups,report_card,season_history,standings,team,teams,trade_analyzer,transactions">
+    <style>
+        #draft-top-bar { display:flex; align-items:flex-start; gap:16px; margin-bottom:10px; }
+        /* Position stat boxes */
+        #position-stats > div > div {
+            padding: 8px 6px;
+        }
+        @media (max-width: 600px) {
+            #draft-top-bar { gap: 8px; align-items: center; }
+            #yearSelect { flex-shrink: 0; }
+            #position-stats > div { gap: 3px !important; }
+            #position-stats > div > div { padding: 6px 3px !important; border-radius: 6px !important; }
+            #position-stats > div > div > div:first-child { font-size: 7px !important; margin-bottom: 1px !important; }
+            #position-stats > div > div > div:nth-child(2) { font-size: 14px !important; line-height: 1 !important; }
+            #position-stats > div > div > div:nth-child(3) { font-size: 8px !important; margin-top: 2px !important; }
+        }
+    </style>
+</head>
+<body>
+<div class="rail"><div class="rail-in"><span class="badge">ST</span><nav aria-label="League sections"><a href="broadcast.html">Home</a><a href="b-draft.html" class="here" aria-current="page">Draft</a><a href="b-standings.html">Standings</a><a href="b-teams.html">Teams</a><a href="b-transactions.html">Transactions</a><a href="b-matchups.html">Matchups</a><a href="b-head_to_head.html">H2H</a><a href="b-season_history.html">History</a></nav></div></div>
+<div id="nav" hidden></div>
+<header class="stage"><div class="field"><div class="turf"></div><div class="far"><div class="turf"></div></div></div><div class="stage-in"><h1 class="stage-t"><span><i>Draft</i></span></h1></div></header>
+<div class="deck">
+
+<main>
+
+    <div id="draft-top-bar">
+        <select id="yearSelect"></select>
+        <div id="position-stats" style="flex:1;"></div>
+    </div>
+
+    <div id="draft-container">Loading...</div>
+    <div id="draft-analysis" style="margin-top:24px;"></div>
+</main>
+</div>
+
+<script src="broadcast-theme.js?v=1790629055"></script>
+<script src="broadcast-bg.js?v=1790629055" defer></script>
+<script src="broadcast-stage.js?v=1790629055" defer></script>
+<script src="data.js?v=202609281357"></script>
+<script type="module" src="draft.js?v=202609281357"></script>
+</body>
+</html>

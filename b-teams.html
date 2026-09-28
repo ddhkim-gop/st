@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html class="fitted">
+<head>
+    <script>try{var r=document.referrer;if(r&&new URL(r).origin===location.origin)document.documentElement.classList.add("internal")}catch(e){}</script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Teams</title>
+    <link rel="stylesheet" href="style.css?v=202609281357">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@600;700;800;900&family=Archivo:wght@400;500;600;700&family=IBM+Plex+Mono:wght@400;500;600&display=swap">
+    <link rel="stylesheet" href="broadcast-theme.css?v=1790629055">
+    <script type="speculationrules">{"prerender":[{"where":{"or":[{"href_matches":"b-*"},{"href_matches":"broadcast.html"}]},"eagerness":"moderate"}]}</script>
+    <meta name="gop-pages" content="assets,draft,head_to_head,index,matchup_recap,matchups,report_card,season_history,standings,team,teams,trade_analyzer,transactions">
+    <style>
+        .teams-tab-bar {
+            display: flex;
+            align-items: center;
+            gap: 6px;
+            margin-bottom: 12px;
+        }
+        .teams-tab {
+            background: none;
+            border: none;
+            padding: 7px 14px;
+            border-radius: 8px;
+            font-size: 13px;
+            font-weight: 600;
+            color: #8b9099;
+            cursor: pointer;
+            transition: background 0.15s, color 0.15s;
+            font-family: inherit;
+        }
+        .teams-tab:hover { color: #f0f1f3; background: #1e2027; }
+        .teams-tab.active { color: #f0f1f3; background: #1e2027; }
+    </style>
+</head>
+<body>
+<div class="rail"><div class="rail-in"><span class="badge">ST</span><nav aria-label="League sections"><a href="broadcast.html">Home</a><a href="b-draft.html">Draft</a><a href="b-standings.html">Standings</a><a href="b-teams.html" class="here" aria-current="page">Teams</a><a href="b-transactions.html">Transactions</a><a href="b-matchups.html">Matchups</a><a href="b-head_to_head.html">H2H</a><a href="b-season_history.html">History</a></nav></div></div>
+<div id="nav" hidden></div>
+<header class="stage"><div class="field"><div class="turf"></div><div class="far"><div class="turf"></div></div></div><div class="stage-in"><h1 class="stage-t"><span><i>Teams</i></span></h1></div></header>
+<div class="deck">
+
+
+
+<div class="teams-tab-bar">
+    <button class="teams-tab active" id="tab-rosters" onclick="teamsTab('rosters')">Rosters</button>
+    <button class="teams-tab" id="tab-picks" onclick="teamsTab('picks')">Picks</button>
+</div>
+
+<div class="filter-bar">
+    <div id="teams-dropdown-wrap"></div>
+</div>
+
+<div id="rosters-section">
+    <div id="teams-container">Loading...</div>
+</div>
+
+<div id="picks-section" style="display:none">
+    <div id="content">Loading...</div>
+</div>
+</div>
+
+<script src="broadcast-theme.js?v=1790629055"></script>
+<script src="broadcast-bg.js?v=1790629055" defer></script>
+<script src="broadcast-stage.js?v=1790629055" defer></script>
+<script src="data.js?v=202609281357"></script>
+<script type="module" src="teams.js?v=202609281357"></script>
+<script type="module" src="assets.js?v=202609281357"></script>
+<script>
+    function teamsTab(tab) {
+        document.getElementById('tab-rosters').classList.toggle('active', tab === 'rosters');
+        document.getElementById('tab-picks').classList.toggle('active', tab === 'picks');
+        document.getElementById('rosters-section').style.display = tab === 'rosters' ? '' : 'none';
+        document.getElementById('picks-section').style.display = tab === 'picks' ? '' : 'none';
+        history.replaceState(null, '', '#' + tab);
+    }
+    // Restore tab from URL hash on load
+    (function() {
+        const hash = location.hash.replace('#', '');
+        if (hash === 'picks') teamsTab('picks');
+    })();
+</script>
+
+</body>
+</html>
