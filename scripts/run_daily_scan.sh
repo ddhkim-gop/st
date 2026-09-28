@@ -39,7 +39,23 @@ if ! git diff --quiet scripts/highlights_reviewed.json assets/highlights 2>/dev/
           scripts/.playtimes.json \
           scripts/highlights_authors.json scripts/.highlights_video_cache.json >> "$LOG" 2>&1
   git commit -q -m "Highlights: nightly ESPN auto-seed (week $WEEK)" >> "$LOG" 2>&1 \
-    && echo "  committed locally; push disabled pending David's call (Skyler/CLAUDE.md allows GitHub only for gameofphones, darwinism, indigo)" >> "$LOG" 2>&1
+    && echo "  committed" >> "$LOG" 2>&1
+  # Nightly push turned on by David 2026-09-28 (this league sits outside the
+  # vault's GitHub allowlist by his explicit call). It runs unattended, so the
+  # commit first goes through the vault's own egress guard - Skyler's
+  # blocklist - and on any match (or if the guard can't run) stays local.
+  if git show --format= HEAD | python3 -c '
+import sys
+sys.path.insert(0, "/Users/david/Desktop/Skyler/personal/skyler/app/data")
+from egress_guard import guard_outbound
+guard_outbound("", [{"role": "user", "content": sys.stdin.read()}])
+' >> "$LOG" 2>&1; then
+    git pull --rebase --autostash -q origin main >> "$LOG" 2>&1 \
+      && git push -q origin main >> "$LOG" 2>&1 \
+      && echo "  pushed" >> "$LOG" 2>&1
+  else
+    echo "  PUSH SKIPPED: egress guard matched this commit (or could not run) - left local" >> "$LOG"
+  fi
 else
   echo "  no highlight changes; nothing pushed" >> "$LOG"
 fi
