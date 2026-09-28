@@ -1,5 +1,5 @@
-import { api } from "./dataService.js?v=202609281336";
-import { renderNav } from "./components/nav.js?v=202609281336";
+import { api } from "./dataService.js?v=202609281357";
+import { renderNav } from "./components/nav.js?v=202609281357";
 
 renderNav();
 
@@ -997,6 +997,7 @@ async function loadTeamNews(players){
             </div>
             <div style="font-size:13px;font-weight:600;line-height:1.4;color:#f0f1f3;">${headline}</div>
             ${m.description ? `<div style="font-size:12px;color:#8b9099;margin-top:2px;line-height:1.4;">${esc(m.description)}</div>` : ""}
+            ${m.analysis && m.analysis !== m.description ? `<div style="font-size:12px;color:#c9cdd4;margin-top:5px;line-height:1.45;padding-left:8px;border-left:2px solid #2d3139;">${esc(m.analysis)}</div>` : ""}
             <div style="font-size:11px;color:#5a6070;margin-top:3px;">${src ? `<span style="color:#4299e1;font-weight:600;">${esc(src)}</span> · ` : ""}${newsDate(it.published)}</div>
         </div>`;
     }).join("");
