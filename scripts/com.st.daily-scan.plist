@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+  Nightly highlight refresh (scripts/run_daily_scan.sh). Runs from this Mac:
+  ESPN's CDN 202-blocks datacenter IPs, so this cannot move to CI.
+  Time is staggered off the other leagues to avoid a burst ESPN answers with 202.
+
+  Install / reload after editing:
+    cp "scripts/com.st.daily-scan.plist" ~/Library/LaunchAgents/
+    launchctl unload ~/Library/LaunchAgents/com.st.daily-scan.plist 2>/dev/null
+    launchctl load   ~/Library/LaunchAgents/com.st.daily-scan.plist
+-->
+<plist version="1.0">
+<dict>
+  <key>Label</key>
+  <string>com.st.daily-scan</string>
+  <key>ProgramArguments</key>
+  <array>
+    <string>/bin/bash</string>
+    <string>/Users/david/Desktop/Skyler/personal/fantasy football/st/scripts/run_daily_scan.sh</string>
+  </array>
+  <key>StartCalendarInterval</key>
+  <dict>
+    <key>Hour</key><integer>23</integer>
+    <key>Minute</key><integer>40</integer>
+  </dict>
+  <key>EnvironmentVariables</key>
+  <dict>
+    <key>PATH</key>
+    <string>/opt/homebrew/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin</string>
+  </dict>
+  <key>StandardOutPath</key>
+  <string>/Users/david/Library/Logs/fantasy-football/st-scan.log</string>
+  <key>StandardErrorPath</key>
+  <string>/Users/david/Library/Logs/fantasy-football/st-scan.log</string>
+  <key>ProcessType</key><string>Background</string>
+</dict>
+</plist>

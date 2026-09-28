@@ -1,5 +1,5 @@
-import { api } from "./dataService.js?v=202609152103";
-import { renderNav } from "./components/nav.js?v=202609152103";
+import { api } from "./dataService.js?v=202609281336";
+import { renderNav } from "./components/nav.js?v=202609281336";
 
 renderNav();
 
@@ -731,19 +731,15 @@ async function loadTeamReel(teamName) {
         if (r.ok) feed = await r.json();
     } catch (e) { feed = null; }
 
-    // Newest on top. Feeds are written date-descending, but sort here too so a
-    // hand-edited or out-of-order file still renders most-recent-first. Within a
-    // day, game_time breaks the tie by when the play happened (later quarter, and
-    // lower clock inside a quarter, is more recent); then engagement.
-    const recency = (t) => {
-        const m = /Q(\d)\s+(\d+):(\d+)/.exec(String(t.game_time || ""));
-        if (!m) return -1;                       // no clock: sort below clocked plays
-        return (+m[1]) * 1000 - ((+m[2]) * 60 + (+m[3])) / 60;
-    };
+    // Most recent *play* on top - ordered by when it happened in the game, not
+    // when the clip was posted. played_at is the play's real-world time from
+    // ESPN's play-by-play (set by build_highlights.py); a clip it could not
+    // match sorts below every matched one, since its post date says nothing
+    // reliable about when the play happened. Duplicates are folded upstream.
+    const when = (t) => t.played_at ? `1|${t.played_at}` : `0|${t.date || ""}`;
     const tweets = ((feed && Array.isArray(feed.tweets)) ? feed.tweets.slice() : [])
         .sort((a, b) =>
-            String(b.date || "").localeCompare(String(a.date || "")) ||
-            recency(b) - recency(a) ||
+            when(b).localeCompare(when(a)) ||
             (Number(b.faves || 0) - Number(a.faves || 0)));
     if (!tweets.length) {
         if (note) note.textContent = "";

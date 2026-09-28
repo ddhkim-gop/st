@@ -33,6 +33,8 @@ from __future__ import annotations
 
 import argparse
 import json
+import pathlib
+import random
 import re
 import subprocess
 import sys
@@ -51,8 +53,12 @@ NEGATIVE_RE = re.compile(
     # studio/debate takes about a player, not footage of a play
     r"slams|blasts|rips|rants?|calls out|stephen a|first take|get up|"
     # turnovers / negative plays - not a highlight for the offensive player
-    r"picked off|intercept(ed|ion)?|rough (night|day|outing)|"
-    r"turnover|fumbles?( it| the| away)?|strip[- ]sack)\b"
+    r"picked off|picks? off|pick[- ]?six|intercept(ed|ion|s)?|"
+    r"rough (night|day|outing)|"
+    r"turnover|fumbles?( it| the| away)?|strip[- ]sack|"
+    # sacks and injuries: footage of something happening *to* the player
+    r"sacks?|sacked|carted off|injur(y|ed|ies)|leaves? (the game|with)|"
+    r"exits? (the game|with)|hurt)\b"
     # talking-head quotes: name + ": '...'" or a quoted span. Plays have neither.
     r"|:\s*['\"]|'[^']{8,}'", re.I)
 
@@ -128,6 +134,9 @@ REC_RE = re.compile(r"""
   | \bgrab  | touchdown\s+(?:pass|catch|reception)
   | \bhits?\s+\S+(?:\s+\S+){0,2}\s+for\s+(?:a|an|his|the|\d)
   | \boff\s+\S+'s\s+pass
+  | \bconnects?\s+with | \blinks?\s+up | \bhooks?\s+up | \bthrows | \btosses
+  | \bslings? | \bfloats? | \blofts? | \bdimes? | \bthreads | \bairs\b
+  | \bfinds\s+(?!pay\s*dirt|the\s+end|his\s+way|a\s+(?:hole|seam|lane))\w
 """, re.VERBOSE | re.IGNORECASE)
 
 
@@ -211,9 +220,48 @@ def with_passers(who, pt, roster_players, text=""):
     return out
 
 
-def get(url: str, timeout: int = 25, tries: int = 3):
-    """GET JSON with retries. ESPN's CDN intermittently answers a rapid burst
-    with an HTML challenge page (non-JSON); a short backoff clears it."""
+# One ESPN pull, shared by every league on this Mac.
+#
+# Each repo used to fetch the same 16 games itself: four leagues x two weeks =
+# ~128 requests a night for ~32 games of data. ESPN's 202 is a cumulative
+# per-IP budget, not a per-burst one, so the first two leagues to run got their
+# clips and the last two got nothing at all - on 2026-09-27, gameofphones and
+# indigo pulled fine and st logged 29 challenges and zero videos. The cache
+# lives outside every repo so it is shared rather than committed four times.
+ESPN_CACHE = pathlib.Path.home() / "Library" / "Caches" / "fantasy-football" / "espn"
+CACHE_TTL = 6 * 3600     # one night's runs all fall inside this
+
+
+def _cache_read(key: str, max_age: float | None = CACHE_TTL):
+    """Cached payload for `key`, or None when missing or older than max_age
+    (None = any age)."""
+    f = ESPN_CACHE / f"{key}.json"
+    try:
+        if max_age is not None and time.time() - f.stat().st_mtime > max_age:
+            return None
+        return json.loads(f.read_text())
+    except Exception:
+        return None
+
+
+def _cache_write(key: str, value) -> None:
+    """Write atomically: a half-written file read by the next league would be a
+    challenge-shaped failure that no retry clears."""
+    try:
+        ESPN_CACHE.mkdir(parents=True, exist_ok=True)
+        tmp = ESPN_CACHE / f"{key}.tmp"
+        tmp.write_text(json.dumps(value))
+        tmp.replace(ESPN_CACHE / f"{key}.json")
+    except Exception as e:
+        print(f"  ! cache write {key}: {e}", file=sys.stderr)
+
+
+def get(url: str, timeout: int = 25, tries: int = 5):
+    """GET JSON with retries. ESPN's CDN answers a burst with a 202 and an empty
+    body - a bot challenge, not an outage: the same URL returns 200 moments
+    later. The old 3 tries at 1.5s steps (~9s) were not enough, and a whole
+    night's run could lose every game to it, so back off exponentially with
+    jitter and name the 202 instead of letting it surface as a JSON error."""
     last = None
     for i in range(tries):
         try:
@@ -221,10 +269,15 @@ def get(url: str, timeout: int = 25, tries: int = 3):
                 url, headers={"User-Agent": UA, "Accept": "application/json",
                               "Referer": "https://www.espn.com/"})
             with urllib.request.urlopen(req, timeout=timeout) as r:
-                return json.loads(r.read().decode("utf-8", "replace"))
+                body = r.read()
+                if r.status == 202 or not body.strip():
+                    raise RuntimeError(f"CDN challenge (HTTP {r.status}, "
+                                       f"{len(body)} bytes)")
+                return json.loads(body.decode("utf-8", "replace"))
         except Exception as e:
             last = e
-            time.sleep(1.5 * (i + 1))
+            if i < tries - 1:
+                time.sleep(min(2 ** (i + 1), 16) + random.uniform(0, 1.5))
     raise last
 
 
@@ -260,13 +313,307 @@ def mp4_of(v: dict) -> str:
     return ""
 
 
+# Circuit breaker, shared by every league through a marker file: once the CDN
+# has challenged three games in a row, stop asking it for 30 minutes and serve
+# cached clip lists. Retrying a blocked endpoint burns ~30s a game, and four
+# leagues doing it made a 2-minute job a 30-minute one - while likely keeping
+# the IP blocked longer.
+_BLOCKED = ESPN_CACHE / "cdn-blocked"
+_BLOCK_FOR = 30 * 60
+_fails = 0
+
+
+def _cdn_blocked() -> bool:
+    try:
+        return time.time() - _BLOCKED.stat().st_mtime < _BLOCK_FOR
+    except OSError:
+        return False
+
+
 def game_videos(gid: str) -> list[dict]:
+    """This game's clips, from the shared cache when it is still warm.
+
+    A miss is only written on a real answer: caching [] after a 202 would turn
+    one challenge into six hours of empty feeds across every league.
+    """
+    global _fails
+    hit = _cache_read(f"game-{gid}")
+    if hit is not None:
+        return hit
+    if _cdn_blocked():
+        return _cache_read(f"game-{gid}", max_age=None) or []
     try:
         gp = get(f"{CORE}/game?xhr=1&gameId={gid}").get("gamepackageJSON", {})
+        _fails = 0
     except Exception as e:
-        print(f"  ! game {gid}: {e}", file=sys.stderr)
+        _fails += 1
+        if _fails >= 3:
+            try:
+                ESPN_CACHE.mkdir(parents=True, exist_ok=True)
+                _BLOCKED.touch()
+                print("  ! CDN keeps challenging - using cached clip lists for 30 min",
+                      file=sys.stderr)
+            except OSError:
+                pass
+        # A challenged night still has last night's list: ESPN clips of a
+        # finished game only ever disappear, they don't change.
+        stale = _cache_read(f"game-{gid}", max_age=None)
+        print(f"  ! game {gid}: {e}" + (f" - using {len(stale)} cached" if stale else ""),
+              file=sys.stderr)
+        return stale or []
+    vids = gp.get("videos") or []
+    _cache_write(f"game-{gid}", vids)
+    return vids
+
+
+SUMMARY = SCORE.replace("/scoreboard", "/summary")
+
+
+def game_summary(gid: str) -> dict:
+    """{date, teams, final, plays} for one game from ESPN's play-by-play.
+
+    Every play carries `wallclock`, the real-world moment it happened - the one
+    thing a clip's own publish date cannot give, since ESPN re-posts and X
+    accounts upload hours or days after the snap. Only a finished game is
+    cached; a live one would freeze its play list mid-game for six hours.
+    """
+    hit = _cache_read(f"summary-{gid}")
+    if hit is not None:
+        return hit
+    try:
+        s = get(f"{SUMMARY}?event={gid}")
+    except Exception as e:
+        print(f"  ! summary {gid}: {e}", file=sys.stderr)
+        return {}
+    comp = ((s.get("header") or {}).get("competitions") or [{}])[0]
+    final = bool((((comp.get("status") or {}).get("type")) or {}).get("completed"))
+    teams = [_team(((c.get("team") or {}).get("abbreviation")))
+             for c in comp.get("competitors") or []]
+    dr = s.get("drives") or {}
+    drives = list(dr.get("previous") or []) + ([dr["current"]] if dr.get("current") else [])
+    plays = []
+    for d in drives:
+        for pl in d.get("plays") or []:
+            if not pl.get("wallclock"):
+                continue
+            plays.append({"id": str(pl.get("id") or ""),
+                          "wall": pl["wallclock"],
+                          "q": (pl.get("period") or {}).get("number"),
+                          "clock": (pl.get("clock") or {}).get("displayValue", ""),
+                          "type": ((pl.get("type") or {}).get("text") or ""),
+                          "yards": pl.get("statYardage"),
+                          "text": pl.get("text") or ""})
+    plays.sort(key=lambda x: x["wall"])
+    out = {"id": gid, "date": comp.get("date", ""), "teams": teams,
+           "final": final, "plays": plays}
+    if final:
+        _cache_write(f"summary-{gid}", out)
+    return out
+
+
+_SUFFIX = {"jr", "jr.", "sr", "sr.", "ii", "iii", "iv", "v"}
+_ORDINAL = {"first": 1, "second": 2, "third": 3, "fourth": 4, "fifth": 5}
+
+
+def _pbp_name_re(full: str):
+    """'Kenneth Walker III' -> matches ESPN's 'K.Walker'; 'Amon-Ra St. Brown'
+    -> 'A.St. Brown'. ESPN sometimes widens the initial ('Ja.Chase')."""
+    parts = [x for x in full.split() if x.lower() not in _SUFFIX]
+    if len(parts) < 2:
+        return None
+    init = re.sub(r"[^a-z]", "", parts[0].lower())[:1]
+    last = r"\s?".join(re.escape(x) for x in " ".join(parts[1:]).split())
+    return re.compile(rf"\b{init}[a-z']{{0,2}}\.\s?{last}\b", re.I)
+
+
+def _clip_yards(text: str) -> set[int]:
+    return {int(n) for n in re.findall(r"\b(\d{1,3})[- ]?(?:yard|yd)s?\b", text, re.I)}
+
+
+def _play_yards(pl: dict) -> set[int]:
+    ys = {int(n) for n in re.findall(r"\bfor (-?\d{1,3}) yards?\b", pl["text"])}
+    ys |= {int(n) for n in re.findall(r"\b(\d{1,3}) yard field goal\b", pl["text"], re.I)}
+    if isinstance(pl.get("yards"), int):
+        ys.add(pl["yards"])
+    return ys
+
+
+def _clip_ordinal(text: str) -> int:
+    m = re.search(r"\b(\d)(?:st|nd|rd|th)\b|\b(first|second|third|fourth|fifth)\b",
+                  text, re.I)
+    if not m or not re.search(r"\b(?:td|touchdown)", text[m.start():], re.I):
+        return 0
+    return int(m.group(1)) if m.group(1) else _ORDINAL[m.group(2).lower()]
+
+
+_TD_CLIP = re.compile(r"\btd\b|touchdown|pay dirt|end ?zone|to the house|"
+                      r"\bscores?\b|walks? in|punches? it in|dives? in|"
+                      r"goal[- ]?line|pylon|six points|paydirt", re.I)
+_FG_CLIP = re.compile(r"\bfg\b|field goal", re.I)
+
+
+def _scored_plays(text: str, names: list[str], summ: dict, published: str = ""):
+    """Every play in `summ` naming a credited player, scored as (score, play, game).
+
+    Scored on what the headline actually says - scorer, TD or not, yardage,
+    run vs catch, "his 2nd TD" - against every play in the game that names a
+    credited player. `published` (ESPN's upload time) rules out plays that had
+    not happened yet and breaks ties toward the nearest earlier play. With no
+    upload time a tie is left unmatched rather than guessed: two clips wrongly
+    pinned to one play would be merged as duplicates and a real highlight lost.
+    """
+    plays = (summ or {}).get("plays") or []
+    pats = [r for r in (_pbp_name_re(n) for n in names) if r]
+    if not plays or not pats:
         return []
-    return gp.get("videos") or []
+    pub = None
+    if published:
+        try:
+            pub = datetime.fromisoformat(published.replace("Z", "+00:00"))
+        except ValueError:
+            pub = None
+    kind = clip_kind(text)
+    td_clip, fg_clip = bool(_TD_CLIP.search(text)), bool(_FG_CLIP.search(text))
+    cyards, nth = _clip_yards(text), _clip_ordinal(text)
+    td_seen: dict[int, int] = {}          # per-name running TD count, game order
+    scored = []
+    for pl in plays:
+        # Names are read from the play's own clause only. The tail after
+        # "TOUCHDOWN" names the two-point passer/receiver, the kicker, the
+        # long snapper - Garrett Wilson caught a *teammate's* conversion, and
+        # snapper N.Moore sits in every Ravens extra point, which tied Lamar's
+        # TD to Chris Moore with his TD to Hibner.
+        main = re.split(r"TOUCHDOWN", pl["text"])[0]
+        hits = [i for i, r in enumerate(pats) if r.search(main)]
+        if not hits:
+            continue
+        ptxt, ptype = pl["text"].lower(), pl["type"].lower()
+        is_td = (("touchdown" in ptxt or "touchdown" in ptype)
+                 and "nullified" not in ptxt and "no play" not in ptxt)
+        if is_td:
+            for i in hits:
+                td_seen[i] = td_seen.get(i, 0) + 1
+        wall = datetime.fromisoformat(pl["wall"].replace("Z", "+00:00"))
+        if pub and wall > pub + timedelta(minutes=2):
+            continue                       # clip was up before this play happened
+        sc = len(hits) - 1                  # QB and receiver both named
+        # The headline often names the other half of the play, rostered or
+        # not ("Lamar Jackson finds Chris Moore"): that surname in the play's
+        # text pins which of his passes it was.
+        others = {m.lower() for m in re.findall(
+            r"\b[A-Z][a-z']{0,2}\.\s?([A-Z][A-Za-z'\-]{2,})", main)}
+        others -= {n.split()[-1].lower() for n in names}
+        if any(re.search(rf"\b{re.escape(o)}\b", text, re.I) for o in others):
+            sc += 3
+        is_fg = "field goal" in ptype and "good" in ptype
+        if fg_clip:
+            sc += 4 if is_fg else -3
+        elif td_clip:
+            sc += 4 if is_td else -3
+        elif is_td:
+            sc += 1
+        py = _play_yards(pl)
+        if cyards:                          # a stated distance is a hard fact
+            sc += 4 if cyards & py else -4
+        if kind:
+            is_rush = "rush" in ptype
+            is_pass = "pass" in ptype or " pass " in ptxt
+            if (kind == "rush" and is_rush) or (kind == "rec" and is_pass):
+                sc += 2
+            elif (kind == "rush" and is_pass) or (kind == "rec" and is_rush):
+                sc -= 2
+        if nth and is_td and any(td_seen.get(i) == nth for i in hits):
+            sc += 3
+        if pub:
+            dt = (pub - wall).total_seconds()
+            sc += 2 * max(0.0, 1 - dt / 1800) if dt >= -120 else 0
+        scored.append((sc, pl, summ))
+    return scored
+
+
+def _pick(scored: list, timed: bool) -> dict:
+    """Best play from (score, play, game) triples. Below 3 is no match; with
+    no upload time, a runner-up within half a point is too close to call."""
+    if not scored:
+        return {}
+    scored = sorted(scored, key=lambda x: x[0], reverse=True)
+    best_sc, best, summ = scored[0]
+    if best_sc < 3:
+        return {}
+    if not timed and len(scored) > 1 and scored[1][0] >= best_sc - 0.5:
+        return {"ambiguous": True}          # a guess here could merge two plays
+    return {"played_at": best["wall"], "game_time": f"Q{best['q']} {best['clock']}",
+            "play_key": f"{summ['id']}:{best['id']}", "game_id": summ["id"]}
+
+
+def match_play(text: str, names: list[str], summ: dict, published: str = "") -> dict:
+    """The play a clip shows, as {played_at, game_time, play_key, game_id}, or
+    {} - see _scored_plays for the evidence weighed."""
+    return _pick(_scored_plays(text, names, summ, published), bool(published))
+
+
+def rostered_passer(text: str, summ: dict, union: list[str]) -> list[str]:
+    """[QB] for a TD clip whose headline names only an unrostered receiver.
+
+    "Jeremy Ruckert hauls in 4-yard TD for Jets" names no rostered player, so
+    the clip was dropped - yet Geno Smith, who threw it, is rostered. Find the
+    TD pass whose receiver the headline names; if its passer is rostered, the
+    clip is his. More than one candidate passer and nobody is credited.
+    """
+    qbs = set()
+    for pl in (summ or {}).get("plays") or []:
+        if "touchdown" not in pl["text"].lower() or "nullified" in pl["text"].lower():
+            continue
+        main = pl["text"].split("TOUCHDOWN")[0]
+        m = re.search(r"([A-Z][a-z']{0,2}\.\s?[A-Z][\w'\-]+) pass\b.*?\bto "
+                      r"[A-Z][a-z']{0,2}\.\s?([A-Z][\w'\-]+(?:\s[A-Z][\w'\-]+)?)", main)
+        if not m or not re.search(rf"\b{re.escape(m.group(2).split()[-1])}\b", text, re.I):
+            continue
+        for n in union:
+            r = _pbp_name_re(n)
+            if r and r.fullmatch(m.group(1).strip()):
+                qbs.add(n)
+    return sorted(qbs) if len(qbs) == 1 else []
+
+
+def locate_play(text: str, names: list[str], team: str, date_iso: str,
+                week: int, year: int = 2026) -> dict:
+    """match_play for a clip with no game attached (an X post).
+
+    Tries that team's games from the post date backwards, as far as three
+    weeks. Going back matters: a post's date can be when it was captured, not
+    when the play happened, and a week-1 touchdown found this way is dated to
+    week 1 - and dropped as stale - instead of sorting above Sunday's plays.
+    All candidate games are scored together, so an older game only wins with a
+    strictly better match.
+    """
+    team = _team(team)
+    try:
+        day = datetime.fromisoformat(date_iso).replace(tzinfo=timezone.utc)
+    except ValueError:
+        return {}
+    post = day + timedelta(hours=36)        # a Sunday-night kickoff is Monday UTC
+    games = []
+    for w in range(week, max(0, week - 3), -1):
+        for gid, label in game_ids(w, year):
+            if team not in {_team(x) for x in re.split(r"\s*(?:@|VS)\s*", label.upper())}:
+                continue
+            summ = game_summary(gid)
+            try:
+                kick = datetime.fromisoformat(summ["date"].replace("Z", "+00:00"))
+            except (KeyError, ValueError):
+                continue
+            if kick <= post:
+                games.append((kick, summ))
+    # Pick across all the games at once. The game just before the post date
+    # gets +3 - clips go up within a day or two - so an older game's play
+    # wins only on clearly stronger evidence (a matching yardage, a named
+    # receiver), and a tie anywhere stays unmatched.
+    scored = []
+    for kick, g in games:
+        bonus = 3 if (day - kick).total_seconds() <= 2.5 * 86400 else 0
+        scored += [(sc + bonus, pl, gg) for sc, pl, gg in _scored_plays(text, names, g)]
+    return _pick(scored, False)
 
 
 def _load(path: Path) -> dict:
@@ -306,6 +653,8 @@ def main() -> int:
             continue
         seen_games.add(gid)
         time.sleep(0.4)                      # be polite to ESPN's CDN
+        time.sleep(random.uniform(0.6, 1.4))   # pace the burst past the CDN
+        summ = None
         for v in game_videos(gid):
                 scanned += 1
                 cid = str(v.get("id") or "")
@@ -320,6 +669,10 @@ def main() -> int:
                 if desc and desc != text:
                     text = f"{text}. {desc}"
                 who = [n for n in roster_union if mentions(text, n)]
+                if not who:
+                    if summ is None:
+                        summ = game_summary(gid)
+                    who = rostered_passer(text, summ, roster_union)
                 if not who:
                     continue
                 who = with_passers(who, pt, roster_players, text)  # QB gets his TD passes
@@ -338,7 +691,13 @@ def main() -> int:
                 oe[url] = {"url": url, "author": "ESPN",
                            "author_url": "https://www.espn.com",
                            "text": text, "date": date_iso}
-                mc[url] = {"video": mp4, **({"poster": poster} if poster else {})}
+                if summ is None:
+                    summ = game_summary(gid)
+                pub = v.get("originalPublishDate") or ""
+                loc = match_play(text, who, summ, pub)
+                loc.pop("ambiguous", None)
+                mc[url] = {"video": mp4, **({"poster": poster} if poster else {}),
+                           "espn_game": gid, "published": pub, **loc}
                 keep[url] = note
                 pool.add(url)
 

@@ -139,6 +139,11 @@
   "name": "MustDraft",
   "verified": true
  },
+ "NFL": {
+  "avatar": "https://pbs.twimg.com/profile_images/1619895559334273028/PHKS_mjX_normal.jpg",
+  "name": "NFL",
+  "verified": true
+ },
  "NFLBrasil": {
   "avatar": "https://pbs.twimg.com/profile_images/2065531809715060737/Y8SfDzaI_x96.jpg",
   "name": "NFL Brasil",
@@ -157,6 +162,11 @@
  "PolymarketBlitz": {
   "avatar": "https://pbs.twimg.com/profile_images/1930227786804793344/C0MhZXHI_x96.jpg",
   "name": "Polymarket Football",
+  "verified": true
+ },
+ "RamsNFL": {
+  "avatar": "https://pbs.twimg.com/profile_images/2104444829946298368/wtL-vYYo_normal.jpg",
+  "name": "Los Angeles Rams",
   "verified": true
  },
  "SleeperMiami": {

@@ -669,6 +669,56 @@ def dedupe(hits: list[dict], media_cache: dict) -> list[dict]:
     return kept
 
 
+def dedupe_plays(hits: list[dict]) -> list[dict]:
+    """One card per real play.
+
+    _clip_id folds reposts of one video; this folds *different* videos of one
+    play - ESPN's cut and an X account's cut of the same touchdown, or ESPN
+    posting a play twice under two headlines. Keeps the copy that plays inline,
+    then ESPN's, then a watched one, then the most liked.
+    """
+    rank = lambda h: (bool(h.get("video")), "espn.com" in (h.get("url") or ""),
+                      bool(h.get("verified")), h.get("faves", 0))
+    best: dict[str, dict] = {}
+    rest = []
+    for h in hits:
+        k = h.get("play_key")
+        if not k:
+            rest.append(h)
+        elif k not in best or rank(h) > rank(best[k]):
+            best[k] = h
+    return rest + list(best.values())
+
+
+def play_order(h: dict) -> str:
+    """Sort key: when the play happened. A clip that could not be matched to a
+    play goes below every matched one - its post date is no guide to when the
+    play happened (a captured week-1 catch carried a week-3 date)."""
+    if h.get("played_at"):
+        return "1|" + h["played_at"]
+    return "0|" + (h.get("date") or "")
+
+
+_PBP = None
+_WEEK = None
+
+
+def _pbp():
+    """espn_fetch, imported late: it imports this module at load time."""
+    global _PBP
+    if _PBP is None:
+        import espn_fetch
+        _PBP = espn_fetch
+    return _PBP
+
+
+def _week() -> int:
+    global _WEEK
+    if _WEEK is None:
+        _WEEK = _pbp().current_week()
+    return _WEEK
+
+
 def build(pool: list[str], only_team: str | None, dry_run: bool,
           video_only: bool = True, highlights_only: bool = True,
           capture: Path | None = None, verified_only: bool = False) -> int:
@@ -754,7 +804,7 @@ def build(pool: list[str], only_team: str | None, dry_run: bool,
                      if not k.startswith("_")}
         except ValueError:
             print(f"  ! {STATS.name} is not valid JSON; ignoring", file=sys.stderr)
-    playtimes = _playtimes()
+    located: dict[str, dict] = {}       # url -> play, shared across rosters
     OUT_DIR.mkdir(parents=True, exist_ok=True)
     written = 0
     rejects: dict[str, str] = {}
@@ -803,9 +853,8 @@ def build(pool: list[str], only_team: str | None, dry_run: bool,
                              "faves": post.get("faves", 0),
                              "secs": post.get("secs", 0)})
                 break            # one post is filed under one player
-        hits = dedupe(hits, media_cache)[:MAX_PER_TEAM]
+        hits = dedupe(hits, media_cache)
         pos_of = {p["name"]: p.get("position") for p in roster}
-        used_pt: dict = {}
         for h in hits:                    # only for what actually ships
             # A shared clip ("QB to WR") credits both in its note; on a team that
             # rosters both, label the card with both, skill player first, so the
@@ -816,15 +865,31 @@ def build(pool: list[str], only_team: str | None, dry_run: bool,
                 who.sort(key=lambda n: (pos_of.get(n) == "QB", n))
                 h["player"] = " & ".join(who)
             h.update(media(h["url"], media_cache))
-            # attach the real game timestamp (Q + clock) from nflverse; consume
-            # per player so a player's multiple clips get successive plays.
-            lst = playtimes.get(playtime_key(h.get("player", "")), [])
-            i = used_pt.get(h["player"], 0)
-            if i < len(lst):
-                p = lst[i]
-                h["game_time"] = f"Q{p['q']} {p['clock']}"
-                h["kickoff"] = p.get("start", "")
-                used_pt[h["player"]] = i + 1
+            # The play this clip shows, from ESPN's play-by-play: its real-world
+            # time orders the panel and its id catches the same play posted
+            # twice. ESPN clips arrive stamped by espn_fetch (it knows the game
+            # and the upload time); X posts are located here from their text,
+            # team and date. The old rule - hand a player's Nth clip his Nth
+            # play of the week - put the wrong clock on clips whenever the two
+            # lists were in different orders (Walker's run labelled as the catch).
+            # ESPN clips are re-matched every build (game summaries are cached,
+            # so it is cheap): a fix to the matcher then reaches clips stamped
+            # by an older run instead of waiting for them to be re-seeded.
+            if h.get("espn_game") or not h.get("played_at"):
+                if h["url"] not in located:
+                    names = sorted(reviewed_players(approved.get(h["url"], ""))) \
+                        or [n.strip() for n in h["player"].split("&")]
+                    team = (h.get("meta") or "").split("\u00b7")[-1].strip()
+                    if h.get("espn_game"):      # game and upload time known
+                        ef = _pbp()
+                        located[h["url"]] = ef.match_play(
+                            h.get("text", ""), names, ef.game_summary(h["espn_game"]),
+                            h.get("published", ""))
+                    else:
+                        located[h["url"]] = _pbp().locate_play(
+                            h.get("text", ""), names, team, h.get("date", ""), _week())
+                if not located[h["url"]].get("ambiguous"):
+                    h.update(located[h["url"]])
             st = stats.get(h["url"].rsplit("/", 1)[-1])
             if st:
                 h["stats"] = st
@@ -833,6 +898,14 @@ def build(pool: list[str], only_team: str | None, dry_run: bool,
                 h["author_name"] = a.get("name") or h["author"]
                 h["avatar"] = a.get("avatar") or ""
                 h["author_verified"] = bool(a.get("verified"))
+        # A play older than the window is stale footage however recently it
+        # was posted or captured.
+        stale = [h for h in hits if h.get("played_at") and not fresh(h["played_at"][:10])]
+        for h in stale:
+            rejects[h["url"]] = f"{h['player']}: play is from {h['played_at'][:10]}"
+        hits = dedupe_plays([h for h in hits if h not in stale])
+        hits.sort(key=play_order, reverse=True)
+        hits = hits[:MAX_PER_TEAM]
         feed = {"team": owner,
                 "updated": datetime.now(timezone.utc).strftime("%Y-%m-%d"),
                 "note": "Curated: X has no public search API, so posts are "
