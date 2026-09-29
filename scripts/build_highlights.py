@@ -49,7 +49,7 @@ PRESEASON_FLOOR = "2026-07-01"
 # even while there are no games to clip from. Flip to True to let camp-season
 # panels fall back on it.
 ALLOW_PREVIOUS_SEASON = False
-MAX_AGE_DAYS = 21       # fallback if Sleeper's state endpoint is unreachable
+MAX_AGE_DAYS = 7        # fallback if Sleeper is unreachable AND no saved state
 
 # Team defences are excluded: their "name" is a city or franchise, so any post
 # mentioning the place matches. That produced 11 entries like a Vikings tweet
@@ -573,8 +573,34 @@ _WINDOW: str | None = None
 _IN_SEASON: bool = False
 
 
+# Last good /state/nfl answer. Without it a Sleeper outage (or a lid-close
+# mid-run) widened the window to weeks-old plays and dropped the in-season
+# rules - 2026-09-29 filed Sept 11-14 clips into the week 4 panel. NFL state,
+# not league state, so all four leagues share one copy.
+STATE_CACHE = Path.home() / "Library/Caches/fantasy-football/sleeper-state.json"
+
+
 def _state() -> dict:
-    return get_json(f"{SLEEPER}/state/nfl", timeout=20)
+    try:
+        st = get_json(f"{SLEEPER}/state/nfl", timeout=20)
+    except Exception as e:
+        if not STATE_CACHE.exists():
+            raise
+        st = json.loads(STATE_CACHE.read_text())
+        # the saved week may be days old - never let it lag the calendar
+        start = datetime.strptime(st["season_start_date"], "%Y-%m-%d")
+        today = datetime.now(timezone.utc).replace(tzinfo=None)
+        st["week"] = max(int(st.get("week") or 1), (today - start).days // 7 + 1)
+        print(f"  ! Sleeper state unreachable ({e}); using last known state "
+              f"(saved {st.get('_saved', '?')}, week {st['week']})", file=sys.stderr)
+        return st
+    try:
+        STATE_CACHE.parent.mkdir(parents=True, exist_ok=True)
+        STATE_CACHE.write_text(json.dumps(
+            {**st, "_saved": datetime.now().strftime("%Y-%m-%d %H:%M")}))
+    except OSError:
+        pass
+    return st
 
 
 def in_season() -> bool:
@@ -596,7 +622,7 @@ def window_start() -> str:
         return _WINDOW
     floor = PRESEASON_FLOOR
     try:
-        st = get_json(f"{SLEEPER}/state/nfl", timeout=15)
+        st = _state()
         start = datetime.strptime(st["season_start_date"], "%Y-%m-%d")
         week = int(st.get("week") or 1)
         wk_start = start + timedelta(days=7 * max(week - 1, 0))
