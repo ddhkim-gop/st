@@ -4,25 +4,23 @@
   "note": "Curated: X has no public search API, so posts are collected by hand and matched to rosters by this script.",
   "tweets": [
     {
-      "url": "https://x.com/Eagles/status/2104747673764909489",
+      "url": "https://www.espn.com/video/clip/_/id/50056067/jalen-hurts-scores-td-frantic-sequence-end-first-half",
       "player": "Jalen Hurts",
       "meta": "QB \u00b7 PHI",
       "date": "2026-09-29",
-      "author": "Eagles",
-      "text": "IN JALEN WE TRUST",
+      "author": "ESPN",
+      "text": "Jalen Hurts scores TD in frantic sequence to end first half",
       "verified": true,
-      "faves": 5183,
-      "secs": 29,
+      "faves": 0,
+      "secs": 0,
+      "espn_game": "401872963",
       "game_id": "401872963",
       "game_time": "Q2 0:00",
       "play_key": "401872963:4018729632066",
       "played_at": "2026-09-29T01:36:29Z",
-      "poster": "https://pbs.twimg.com/amplify_video_thumb/2104747319404990466/img/0olpLYrSTfhTo1mR.jpg",
-      "published": "2026-09-29T01:38:44Z",
-      "video": "https://video.twimg.com/amplify_video/2104747319404990466/vid/avc1/1920x1080/hMQEH_mB6axMZ5-p.mp4",
-      "author_name": "Philadelphia Eagles",
-      "avatar": "https://pbs.twimg.com/profile_images/2097678958909415424/CUZFsXqV_normal.jpg",
-      "author_verified": true
+      "poster": "https://espnmedia-cdn.akamaized.net/espn/media/common/2026/0928/d2ad5e12f8f541e1b2854abea03810a11325/d2ad5e12f8f541e1b2854abea03810a11325.jpg",
+      "published": "2026-09-29T01:44:01Z",
+      "video": "https://espnmedia-cdn.akamaized.net/espn/media/16x9/wsc/2026/0929/d2ad5e12-f8f5-41e1-b285-4abea03810a1/d2ad5e12-f8f5-41e1-b285-4abea03810a1.mp4"
     },
     {
       "url": "https://x.com/NFL/status/2104742992338964663",
@@ -181,6 +179,42 @@
       "poster": "https://espnmedia-cdn.akamaized.net/espn/media/common/2026/0927/33ff1ddbcab4408f9ad15c32e713c65a845/33ff1ddbcab4408f9ad15c32e713c65a845.jpg",
       "published": "2026-09-27T18:02:00Z",
       "video": "https://espnmedia-cdn.akamaized.net/espn/media/16x9/wsc/2026/0927/33ff1ddb-cab4-408f-9ad1-5c32e713c65a/33ff1ddb-cab4-408f-9ad1-5c32e713c65a.mp4"
+    },
+    {
+      "url": "https://www.youtube.com/shorts/GgM3b9b0F34",
+      "player": "Joe Burrow",
+      "meta": "QB \u00b7 CIN",
+      "date": "2026-09-27",
+      "author": "Bengals",
+      "text": "Touchdown Uno. #CINatPIT on CBS/Paramount+",
+      "verified": true,
+      "faves": 207,
+      "secs": 13,
+      "game_id": "401872950",
+      "game_time": "Q1 5:50",
+      "play_key": "401872950:401872950490",
+      "played_at": "2026-09-27T17:20:10Z",
+      "poster": "https://i.ytimg.com/vi/GgM3b9b0F34/hqdefault.jpg",
+      "published": "2026-09-27T17:34:58Z",
+      "youtube": "GgM3b9b0F34",
+      "author_name": "Cincinnati Bengals",
+      "avatar": "",
+      "author_verified": true
+    },
+    {
+      "url": "https://www.espn.com/video/clip/_/id/50056004/jalen-hurts-briefly-knocked-game-late-hit-bounds",
+      "player": "Jalen Hurts",
+      "meta": "QB \u00b7 PHI",
+      "date": "2026-09-29",
+      "author": "ESPN",
+      "text": "Jalen Hurts briefly knocked out of game by late hit out of bounds",
+      "verified": true,
+      "faves": 0,
+      "secs": 0,
+      "espn_game": "401872963",
+      "poster": "https://espnmedia-cdn.akamaized.net/espn/media/common/2026/0928/68950c69bec149fbb6af4180f4376dd61304/68950c69bec149fbb6af4180f4376dd61304.jpg",
+      "published": "2026-09-29T01:30:32Z",
+      "video": "https://espnmedia-cdn.akamaized.net/espn/media/16x9/wsc/2026/0929/68950c69-bec1-49fb-b6af-4180f4376dd6/68950c69-bec1-49fb-b6af-4180f4376dd6.mp4"
     }
   ]
 }

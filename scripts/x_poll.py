@@ -129,7 +129,11 @@ def next_account(state: dict, live: set[str]) -> str:
     state["runs"] = n + 1
     if n % 4 == 0:
         return "NFL"
-    rot = [h for h, t in TEAMS.items() if t in live] + NETWORKS if live else ROTATION
+    # Teams on the field go round twice for each network pass: on MNF the
+    # Bears gave 22 video posts from 3 polls, the networks few from 17.
+    teams = [h for h, t in TEAMS.items() if t in live]
+    rot = (teams + NETWORKS[:len(NETWORKS) // 2] + teams + NETWORKS[len(NETWORKS) // 2:]
+           if live else ROTATION)
     i = state.get("slot", 0) % len(rot)
     state["slot"] = i + 1
     return rot[i]

@@ -4,6 +4,11 @@
   "name": "1010 XL / 92.5 FM",
   "verified": true
  },
+ "49ers": {
+  "avatar": "",
+  "name": "San Francisco 49ers",
+  "verified": true
+ },
  "AFantasyFormula": {
   "avatar": "https://pbs.twimg.com/profile_images/2089755499537244161/y6FyS-6w_x96.jpg",
   "name": "TheFantasyFormula",
@@ -13,6 +18,16 @@
   "avatar": "https://pbs.twimg.com/profile_images/2073623433473089536/Xb4Y-xhK_x96.jpg",
   "name": "\ud835\ude0a\ud835\ude30\ud835\ude2e\ud835\ude2e\ud835\ude22\ud835\ude2f\ud835\ude25\ud835\ude26\ud835\ude33 \ud835\ude16\ud835\ude38\ud835\ude26\ud835\ude2f",
   "verified": false
+ },
+ "AZCardinals": {
+  "avatar": "",
+  "name": "Arizona Cardinals",
+  "verified": true
+ },
+ "AtlantaFalcons": {
+  "avatar": "",
+  "name": "Atlanta Falcons",
+  "verified": true
  },
  "B_Shousejr": {
   "avatar": "https://pbs.twimg.com/profile_images/2021302648415322113/VWGwfRq1_x96.jpg",
@@ -29,14 +44,44 @@
   "name": "Ball In Sports Net",
   "verified": true
  },
+ "BaltimoreRavens": {
+  "avatar": "",
+  "name": "Baltimore Ravens",
+  "verified": true
+ },
+ "Bengals": {
+  "avatar": "",
+  "name": "Cincinnati Bengals",
+  "verified": true
+ },
  "BennyGIFs": {
   "avatar": "https://pbs.twimg.com/profile_images/2087965139622379520/UcicKuiC_x96.jpg",
   "name": "Ben Brown \ud83c\udf3b",
   "verified": false
  },
+ "Broncos": {
+  "avatar": "",
+  "name": "Denver Broncos",
+  "verified": true
+ },
+ "Browns": {
+  "avatar": "",
+  "name": "Cleveland Browns",
+  "verified": true
+ },
  "Buccaneers": {
-  "avatar": "https://pbs.twimg.com/profile_images/2037618478622887936/e0YeskTe_x96.png",
+  "avatar": "",
   "name": "Tampa Bay Buccaneers",
+  "verified": true
+ },
+ "BuffaloBills": {
+  "avatar": "",
+  "name": "Buffalo Bills",
+  "verified": true
+ },
+ "CarolinaPanthers": {
+  "avatar": "",
+  "name": "Carolina Panthers",
   "verified": true
  },
  "Cashbinoo": {
@@ -57,6 +102,11 @@
  "Coach_Yac": {
   "avatar": "https://pbs.twimg.com/profile_images/1494334947590475794/G7PUys49_x96.jpg",
   "name": "Coach Yac \ud83d\udde3",
+  "verified": true
+ },
+ "Colts": {
+  "avatar": "",
+  "name": "Indianapolis Colts",
   "verified": true
  },
  "CommandersLead": {
@@ -85,7 +135,7 @@
   "verified": false
  },
  "Eagles": {
-  "avatar": "https://pbs.twimg.com/profile_images/2097678958909415424/CUZFsXqV_normal.jpg",
+  "avatar": "",
   "name": "Philadelphia Eagles",
   "verified": true
  },
@@ -124,6 +174,11 @@
   "name": "Brody",
   "verified": true
  },
+ "Jaguars": {
+  "avatar": "",
+  "name": "Jacksonville Jaguars",
+  "verified": true
+ },
  "JamesCookMuse": {
   "avatar": "https://pbs.twimg.com/profile_images/1865604871832899584/ekRWcsXl_x96.jpg",
   "name": "CookMuse",
@@ -134,14 +189,29 @@
   "name": "Joe Orrico",
   "verified": true
  },
+ "KansasCityChiefs": {
+  "avatar": "",
+  "name": "Kansas City Chiefs",
+  "verified": true
+ },
  "KurtBenkert": {
   "avatar": "https://pbs.twimg.com/profile_images/2021437153918570497/zi24GZFq_x96.jpg",
   "name": "Kurt Benkert",
   "verified": true
  },
+ "LARams": {
+  "avatar": "",
+  "name": "Los Angeles Rams",
+  "verified": true
+ },
  "McGruderPmac": {
   "avatar": "https://pbs.twimg.com/profile_images/2089550325363449856/XPlK1pKR_x96.jpg",
   "name": "Phillip P-Mac McGruder",
+  "verified": true
+ },
+ "MiamiDolphins": {
+  "avatar": "",
+  "name": "Miami Dolphins",
   "verified": true
  },
  "MustDraftHQ": {
@@ -169,10 +239,25 @@
   "name": "FOX Sports: NFL",
   "verified": true
  },
+ "NYGiants": {
+  "avatar": "",
+  "name": "New York Giants",
+  "verified": true
+ },
+ "NewOrleansSaints": {
+  "avatar": "",
+  "name": "New Orleans Saints",
+  "verified": true
+ },
  "NoelleBlumel": {
   "avatar": "https://pbs.twimg.com/profile_images/1978749969063358464/lF0or7GM_x96.jpg",
   "name": "Noelle Blumel",
   "verified": false
+ },
+ "Patriots": {
+  "avatar": "",
+  "name": "New England Patriots",
+  "verified": true
  },
  "PolymarketBlitz": {
   "avatar": "https://pbs.twimg.com/profile_images/1930227786804793344/C0MhZXHI_x96.jpg",
@@ -182,6 +267,11 @@
  "RamsNFL": {
   "avatar": "https://pbs.twimg.com/profile_images/2104444829946298368/wtL-vYYo_normal.jpg",
   "name": "Los Angeles Rams",
+  "verified": true
+ },
+ "Seahawks": {
+  "avatar": "",
+  "name": "Seattle Seahawks",
   "verified": true
  },
  "SleeperMiami": {
@@ -199,9 +289,24 @@
   "name": "AMONG US ST BROWN",
   "verified": true
  },
+ "Titans": {
+  "avatar": "",
+  "name": "Tennessee Titans",
+  "verified": true
+ },
+ "Vikings": {
+  "avatar": "",
+  "name": "Minnesota Vikings",
+  "verified": true
+ },
  "WUTangKids": {
   "avatar": "https://pbs.twimg.com/profile_images/1961839346757029888/cw19Lahm_x96.jpg",
   "name": "Wu Tang is for the Children",
+  "verified": true
+ },
+ "dallascowboys": {
+  "avatar": "",
+  "name": "Dallas Cowboys",
   "verified": true
  },
  "dmn_cowboys": {
@@ -217,6 +322,11 @@
  "mattblively": {
   "avatar": "https://pbs.twimg.com/profile_images/1696765700118073345/IAcnswCj_x96.jpg",
   "name": "Matt Lively",
+  "verified": true
+ },
+ "nyjets": {
+  "avatar": "",
+  "name": "New York Jets",
   "verified": true
  }
 }

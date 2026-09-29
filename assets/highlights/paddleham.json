@@ -99,6 +99,27 @@
       "video": "https://espnmedia-cdn.akamaized.net/espn/media/16x9/wsc/2026/0927/88d16dec-8a1f-466f-bd9f-e5a9a6fda881/88d16dec-8a1f-466f-bd9f-e5a9a6fda881.mp4"
     },
     {
+      "url": "https://www.youtube.com/shorts/lRXBS8QC9sQ",
+      "player": "Jaxon Smith-Njigba",
+      "meta": "WR \u00b7 SEA",
+      "date": "2026-09-27",
+      "author": "Seahawks",
+      "text": "JSN takes it to the end zone \ud83d\udcfa: @NFLonFOX",
+      "verified": true,
+      "faves": 831,
+      "secs": 31,
+      "game_id": "401872955",
+      "game_time": "Q2 13:27",
+      "play_key": "401872955:4018729551161",
+      "played_at": "2026-09-27T17:50:20Z",
+      "poster": "https://i.ytimg.com/vi/lRXBS8QC9sQ/hqdefault.jpg",
+      "published": "2026-09-27T18:02:25Z",
+      "youtube": "lRXBS8QC9sQ",
+      "author_name": "Seattle Seahawks",
+      "avatar": "",
+      "author_verified": true
+    },
+    {
       "url": "https://www.espn.com/video/clip/_/id/50043719/patrick-mahomes-shovels-kenneth-walker-iii-2nd-td-game",
       "player": "Patrick Mahomes",
       "meta": "QB \u00b7 KC",
@@ -116,6 +137,23 @@
       "poster": "https://espnmedia-cdn.akamaized.net/espn/media/common/wsc/2026/0927/686db305-f754-44c6-971b-5cba5a2fa156/686db305-f754-44c6-971b-5cba5a2fa156.jpg",
       "published": "2026-09-27T17:51:53Z",
       "video": "https://espnmedia-cdn.akamaized.net/espn/media/16x9/wsc/2026/0927/686db305-f754-44c6-971b-5cba5a2fa156/686db305-f754-44c6-971b-5cba5a2fa156.mp4"
+    },
+    {
+      "url": "https://www.youtube.com/shorts/vvYODT-DUZM",
+      "player": "Patrick Mahomes",
+      "meta": "QB \u00b7 KC",
+      "date": "2026-09-22",
+      "author": "KansasCityChiefs",
+      "text": "A 382-yard, 3 touchdown performance from Patrick Mahomes \ud83d\ude2e\u200d\ud83d\udca8",
+      "verified": false,
+      "faves": 2084,
+      "secs": 47,
+      "poster": "https://i.ytimg.com/vi/vvYODT-DUZM/hqdefault.jpg",
+      "published": "2026-09-22T21:00:14Z",
+      "youtube": "vvYODT-DUZM",
+      "author_name": "Kansas City Chiefs",
+      "avatar": "",
+      "author_verified": true
     }
   ]
 }

@@ -1,5 +1,5 @@
-import { api } from "./dataService.js?v=202609281357";
-import { renderNav } from "./components/nav.js?v=202609281357";
+import { api } from "./dataService.js?v=202609290713";
+import { renderNav } from "./components/nav.js?v=202609290713";
 
 renderNav();
 
@@ -844,7 +844,7 @@ async function loadTeamReel(teamName) {
             ${briefDesc ? `<div style="font-size:11.5px;color:#6b7280;line-height:1.35;
                           margin-top:2px;">${esc(briefDesc)}</div>` : ""}
           </div>`;
-        if (!t.video) {
+        if (!t.video && !t.youtube) {
             // No direct mp4 resolved. Rather than fall back to X's widget -
             // which will not play these clips in place anyway - keep the card
             // and link out, so the panel stays one consistent design.
@@ -906,12 +906,21 @@ async function loadTeamReel(teamName) {
                                     word-break:break-word;">${esc(t.text)}</div>` : ""}
             <div style="margin-top:10px;border:1px solid ${XS.line};border-radius:12px;
                         overflow:hidden;">
-              <video class="reel-video" data-i="${i}" controls playsinline preload="none"
+              ${t.youtube
+                // A team's YouTube Short (yt_fetch.py): YouTube's own player,
+                // privacy-enhanced domain, vertical like the Short itself.
+                ? `<iframe src="https://www.youtube-nocookie.com/embed/${esc(t.youtube)}"
+                           title="${esc(t.player || "Highlight")}" loading="lazy"
+                           referrerpolicy="strict-origin-when-cross-origin"
+                           allow="encrypted-media; picture-in-picture; fullscreen" allowfullscreen
+                           style="width:100%;display:block;border:0;background:#000;
+                                  aspect-ratio:9/16;max-height:min(70vh,560px);"></iframe>`
+                : `<video class="reel-video" data-i="${i}" controls playsinline preload="none"
                      ${t.poster ? `poster="${esc(t.poster)}"` : ""}
                      style="width:100%;display:block;background:#000;
                             aspect-ratio:16/9;max-height:min(70vh,420px);object-fit:contain;">
                 <source src="${esc(t.video)}" type="video/mp4">
-              </video>
+              </video>`}
             </div>
             <a href="${esc(t.url)}" target="_blank" rel="noopener"
                style="display:block;margin-top:10px;font-size:12px;color:${XS.dim};

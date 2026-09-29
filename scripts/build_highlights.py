@@ -630,7 +630,10 @@ def _clip_id(url: str, cache: dict) -> str:
     player, a game and a clip length, which is exactly the case the old
     length-bucket key merged by mistake.
     """
-    v = (media(url, cache) or {}).get("video") or ""
+    info = media(url, cache) or {}
+    if info.get("youtube"):                 # a Short: its video id is the clip
+        return "yt:" + info["youtube"]
+    v = info.get("video") or ""
     m = re.search(r"/(?:amplify_video|ext_tw_video|tweet_video)/(\d+)", v)
     if m:
         return m.group(1)

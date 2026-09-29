@@ -5,12 +5,14 @@
          carries a Referer, so the in-panel players need it suppressed. Not
          optional: over http://localhost it works without this only because an
          http -> https request drops the header anyway; the deployed site is
-         https -> https and does send it. -->
+         https -> https and does send it. One exception: the YouTube Short
+         player (team.js) sets its own referrerpolicy - YouTube refuses an
+         embed with no Referer ("Error 153"). -->
     <meta name="referrer" content="no-referrer">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Team</title>
-    <link rel="stylesheet" href="style.css?v=202609281357">
+    <link rel="stylesheet" href="style.css?v=202609290713">
 </head>
 <body>
 <div id="nav"></div>
