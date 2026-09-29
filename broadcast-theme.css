@@ -448,7 +448,6 @@ html.fitted h1.stage-t span{display:block;line-height:1}
    edge fade both begin there — logos emerge beside the title instead of
    scrolling underneath it. */
 .logos{left:var(--title-w,240px) !important;padding-left:0}
-@media (max-width:640px){ .logos{display:none} }
 
 /* The band had a fixed minimum height left over from the photo experiments.
    On a phone the title is 28px tall, so that minimum left 18px above it and
@@ -502,6 +501,19 @@ html.internal .lt3{ clip-path: none !important; transition: none !important; }
                       #000 calc(var(--title-w,240px) + 64px), #000 93%, transparent 100%);
           mask-image: linear-gradient(to right, transparent 0, transparent calc(var(--title-w,240px) + 14px),
                       #000 calc(var(--title-w,240px) + 64px), #000 93%, transparent 100%); }
+
+/* On a phone the longest title ("Trade Analyzer") ends at 190px of 375, so
+   the desktop's 50px fade-in would leave room for two logos. A shorter fade
+   and slightly smaller logos keep three or more in view, on the same line. */
+@media (max-width:640px){
+  .lg-track{ gap: 16px; }
+  .lg img{ height: 20px; }
+  .logos{
+    -webkit-mask-image: linear-gradient(to right, transparent 0, transparent calc(var(--title-w,240px) + 10px),
+                        #000 calc(var(--title-w,240px) + 30px), #000 95%, transparent 100%);
+            mask-image: linear-gradient(to right, transparent 0, transparent calc(var(--title-w,240px) + 10px),
+                        #000 calc(var(--title-w,240px) + 30px), #000 95%, transparent 100%); }
+}
 
 @media (prefers-reduced-motion: reduce){
   ::view-transition-group(*), ::view-transition-old(*), ::view-transition-new(*){ animation: none !important; }
