@@ -81,23 +81,34 @@ def _save(path: Path, value) -> None:
 
 
 def kickoffs(state: dict) -> list[str]:
-    """This week's kickoff times (UTC ISO), refreshed every 6 hours."""
+    """Kickoff times (UTC ISO) for ESPN's current week plus yesterday through
+    tomorrow, refreshed every 6 hours. The default scoreboard flips to the new
+    week late (still last week's games on Tuesday 2026-09-29), so the dated
+    pulls are what catch a Thursday game. ESPN rejects a date range."""
     k = state.get("kickoffs") or {}
     fresh = time.time() - k.get("at", 0) < 6 * 3600
     if fresh and all(isinstance(t, dict) for t in k.get("times", [])):
         return k.get("times", [])
+    today = datetime.now().date()
+    urls = [SCOREBOARD] + [f"{SCOREBOARD}?dates={today + timedelta(days=d):%Y%m%d}"
+                           for d in (-1, 0, 1)]
+    games = {}
     try:
-        req = urllib.request.Request(SCOREBOARD, headers={"User-Agent": UA,
-                                                          "Accept": "application/json"})
-        with urllib.request.urlopen(req, timeout=20) as r:
-            evs = json.load(r).get("events") or []
-        times = [{"at": e["date"],
-                  "teams": [(c.get("team") or {}).get("abbreviation", "")
-                            for c in (e.get("competitions") or [{}])[0].get("competitors", [])]}
-                 for e in evs if e.get("date")]
+        for url in urls:
+            req = urllib.request.Request(url, headers={"User-Agent": UA,
+                                                       "Accept": "application/json"})
+            with urllib.request.urlopen(req, timeout=20) as r:
+                evs = json.load(r).get("events") or []
+            for e in evs:
+                if e.get("date"):
+                    games[e.get("id") or e["date"]] = {
+                        "at": e["date"],
+                        "teams": [(c.get("team") or {}).get("abbreviation", "")
+                                  for c in (e.get("competitions") or [{}])[0].get("competitors", [])]}
     except Exception as e:
         log(f"! scoreboard: {e}")
         return k.get("times", [])
+    times = sorted(games.values(), key=lambda t: t["at"])
     state["kickoffs"] = {"at": time.time(), "times": times}
     return times
 
