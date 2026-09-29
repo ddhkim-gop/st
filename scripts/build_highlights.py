@@ -765,6 +765,7 @@ def build(pool: list[str], only_team: str | None, dry_run: bool,
         if video_only and url not in approved and not has_video(url, cache):
             skipped += 1
             continue
+        fetched = url not in _oembed_cache()     # cache hit -> no network call
         info = oembed(url)
         if not info and url in approved:
             info = synth_info(url, approved[url])      # keep watched clips alive
@@ -777,7 +778,8 @@ def build(pool: list[str], only_team: str | None, dry_run: bool,
             resolved.append(info)
             print(f"  ok  {info['date'] or '????-??-??'}  @{info['author_url'].rsplit('/',1)[-1]}"
                   f"  {info['text'][:58]}")
-        time.sleep(0.4)          # be polite to a public endpoint
+        if fetched:
+            time.sleep(0.4)      # be polite to a public endpoint
     _save_oembed_cache()
     if video_only:
         VIDEO_CACHE.write_text(json.dumps(cache, indent=1, sort_keys=True) + "\n")

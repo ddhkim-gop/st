@@ -97,7 +97,15 @@ def channel(account: str, team: str, posts: dict) -> int:
 def main() -> int:
     ap = argparse.ArgumentParser()
     ap.add_argument("--channel", help="one team account (x_poll.TEAMS key)")
+    ap.add_argument("--force", action="store_true", help="ignore the 60-min spacing")
     a = ap.parse_args()
+    # Game-day cycles come every 30 min; a Shorts tab gains a few clips an
+    # hour, and 32 listings every half hour invites YouTube's bot check.
+    stamp = STORE_DIR / "last_run"
+    if not a.force and stamp.exists() and \
+            datetime.now(timezone.utc).timestamp() - stamp.stat().st_mtime < 3600:
+        print("yt_fetch: ran under an hour ago; skipped")
+        return 0
     posts = _load()
     todo = {a.channel: TEAMS[a.channel]} if a.channel else TEAMS
     total = 0
@@ -110,6 +118,7 @@ def main() -> int:
     cutoff = (datetime.now(timezone.utc) - timedelta(days=KEEP_DAYS)).strftime("%Y-%m-%dT%H:%M:%SZ")
     posts = {k: v for k, v in posts.items() if v["created"] >= cutoff}
     _save(posts)
+    stamp.touch()
     print(f"yt_fetch: {total} new Shorts; store {len(posts)}")
     return 0
 
