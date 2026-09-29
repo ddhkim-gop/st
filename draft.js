@@ -1,5 +1,5 @@
-import { api } from "./dataService.js?v=202609290713";
-import { renderNav } from "./components/nav.js?v=202609290713";
+import { api } from "./dataService.js?v=202609290715";
+import { renderNav } from "./components/nav.js?v=202609290715";
 
 const YEARS_DESC = ((window.__STATIC_DATA__ && window.__STATIC_DATA__.years) || []).slice().sort().reverse();
 (function fillYearSelect() {
