@@ -44,6 +44,11 @@
   "name": "Cash \ud83e\udeac",
   "verified": true
  },
+ "ChicagoBears": {
+  "avatar": "https://pbs.twimg.com/profile_images/2095215291395665920/hTWEqaly_normal.jpg",
+  "name": "Chicago Bears",
+  "verified": true
+ },
  "ClutchPoints": {
   "avatar": "https://pbs.twimg.com/profile_images/1975965877825851392/hEOFxPXh_x96.jpg",
   "name": "ClutchPoints",
@@ -152,6 +157,11 @@
  "NFLRT": {
   "avatar": "https://pbs.twimg.com/profile_images/815641088698544128/-7i64k56_x96.jpg",
   "name": "NFL Retweet",
+  "verified": true
+ },
+ "NFLonFOX": {
+  "avatar": "https://pbs.twimg.com/profile_images/1889457774159167488/SooiqbNH_normal.jpg",
+  "name": "FOX Sports: NFL",
   "verified": true
  },
  "NoelleBlumel": {

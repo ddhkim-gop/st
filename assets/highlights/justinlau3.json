@@ -1,8 +1,29 @@
 {
   "team": "justinlau3",
-  "updated": "2026-09-28",
+  "updated": "2026-09-29",
   "note": "Curated: X has no public search API, so posts are collected by hand and matched to rosters by this script.",
   "tweets": [
+    {
+      "url": "https://x.com/ChicagoBears/status/2104764525496950879",
+      "player": "Kyle Monangai",
+      "meta": "RB \u00b7 CHI",
+      "date": "2026-09-29",
+      "author": "ChicagoBears",
+      "text": "Kyle Monangai rocks",
+      "verified": true,
+      "faves": 3094,
+      "secs": 4,
+      "game_id": "401872963",
+      "game_time": "Q4 10:31",
+      "play_key": "401872963:4018729633360",
+      "played_at": "2026-09-29T02:45:05Z",
+      "poster": "https://pbs.twimg.com/amplify_video_thumb/2104764410166116352/img/qBiIrGTOpRnMntqL.jpg",
+      "published": "2026-09-29T02:45:42Z",
+      "video": "https://video.twimg.com/amplify_video/2104764410166116352/vid/avc1/1920x1080/eWoRvnFhAlqxb2Op.mp4",
+      "author_name": "Chicago Bears",
+      "avatar": "https://pbs.twimg.com/profile_images/2095215291395665920/hTWEqaly_normal.jpg",
+      "author_verified": true
+    },
     {
       "url": "https://www.espn.com/video/clip/_/id/50045467/deshaun-watson-finds-harold-fannin-jr-late-td-give-browns-lead",
       "player": "Harold Fannin",

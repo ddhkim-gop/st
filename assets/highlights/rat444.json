@@ -1,6 +1,6 @@
 {
   "team": "rat444",
-  "updated": "2026-09-28",
+  "updated": "2026-09-29",
   "note": "Curated: X has no public search API, so posts are collected by hand and matched to rosters by this script.",
   "tweets": [
     {
@@ -135,6 +135,36 @@
       "poster": "https://espnmedia-cdn.akamaized.net/espn/media/common/2026/0927/8010e959483048e4beff99ec5d9affb6904/8010e959483048e4beff99ec5d9affb6904.jpg",
       "published": "2026-09-27T18:59:20Z",
       "video": "https://espnmedia-cdn.akamaized.net/espn/media/16x9/wsc/2026/0927/8010e959-4830-48e4-beff-99ec5d9affb6/8010e959-4830-48e4-beff-99ec5d9affb6.mp4"
+    },
+    {
+      "url": "https://x.com/rannyxkmj/status/2097884866348216770",
+      "player": "Drake Maye",
+      "meta": "QB \u00b7 NE",
+      "date": "2026-09-29",
+      "author": "rannyxkmj",
+      "text": "Eli Raridon & Drake Maye - 2-yard TD catch in NFL debut, first TD of the 2026 season vs SEA (NE #82, ref signals TD, NE 0-0 1st & Goal, NBC, watched)",
+      "verified": true,
+      "faves": 0,
+      "secs": 0,
+      "poster": "https://pbs.twimg.com/amplify_video_thumb/2097854363138129920/img/OelPyqX03hZUtBIM.jpg?name=orig",
+      "video": "https://video.twimg.com/amplify_video/2097854363138129920/vid/avc1/1920x1080/-r33PWfiu9ui8OZ3.mp4?tag=29"
+    },
+    {
+      "url": "https://x.com/NFLonFOX/status/2104578236810432750",
+      "player": "Bo Nix",
+      "meta": "QB \u00b7 DEN",
+      "date": "2026-09-28",
+      "author": "NFLonFOX",
+      "text": "Jaylen Waddle with the route, Bo Nix with the placement \ud83d\ude2e\u200d\ud83d\udca8\n\n(Via NBC)",
+      "verified": false,
+      "faves": 800,
+      "secs": 15,
+      "poster": "https://pbs.twimg.com/amplify_video_thumb/2104578168552308736/img/Yc2rFG7jTzdwrbcl.jpg",
+      "published": "2026-09-28T14:25:27Z",
+      "video": "https://video.twimg.com/amplify_video/2104578168552308736/vid/avc1/1080x1920/H0xgR65jUiVvH7_5.mp4",
+      "author_name": "FOX Sports: NFL",
+      "avatar": "https://pbs.twimg.com/profile_images/1889457774159167488/SooiqbNH_normal.jpg",
+      "author_verified": true
     }
   ]
 }
