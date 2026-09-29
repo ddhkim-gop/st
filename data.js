@@ -9043,21 +9043,6 @@ window.__STATIC_DATA__ = {
           "search_rank": 2
         },
         {
-          "player_id": "9226",
-          "espn_id": null,
-          "name": "De'Von Achane",
-          "position": "RB",
-          "team": "MIA",
-          "birth_date": "2001-10-13",
-          "college": "Texas A&M",
-          "height": "69",
-          "weight": "195",
-          "years_exp": 3,
-          "status": "Inactive",
-          "injury_status": "IR",
-          "search_rank": 8
-        },
-        {
           "player_id": "9487",
           "espn_id": null,
           "name": "Parker Washington",
@@ -10079,6 +10064,28 @@ window.__STATIC_DATA__ = {
     }
   ],
   "transactions": [
+    {
+      "season": "2026",
+      "week": 3,
+      "created": "Sep 29, 2026 • 8:44 AM PT",
+      "transaction_id": "1410702811749949440",
+      "type": "free_agent",
+      "status": "complete",
+      "teams": [
+        "avocadoshake"
+      ],
+      "added": [],
+      "dropped": [
+        {
+          "name": "De'Von Achane",
+          "position": "RB",
+          "team": "MIA"
+        }
+      ],
+      "faab": 0,
+      "waiver_bid": 0,
+      "notes": null
+    },
     {
       "season": "2026",
       "week": 3,
