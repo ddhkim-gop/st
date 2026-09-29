@@ -347,23 +347,33 @@ def _load_video_cache() -> dict:
     return {}
 
 
+# yt-dlp errors that say nothing about the post itself - the network dropped
+# (lid closed mid-run), DNS, a rate limit. Caching those as "no video" would
+# hide the clip for good, so they are left uncached and retried next build.
+_TRANSIENT = re.compile(
+    r"nodename|getaddrinfo|name resolution|failed to resolve|timed? ?out|"
+    r"network is (unreachable|down)|no route to host|"
+    r"connection (refused|reset|aborted)|HTTP Error (429|5\d\d)", re.I)
+
+
 def has_video(url: str, cache: dict) -> bool:
     if url in cache:
         return bool(cache[url])
     if not shutil.which("yt-dlp"):
         print("  ! yt-dlp not found; cannot verify video. Install it or pass "
               "--any-post.", file=sys.stderr)
-        cache[url] = False
-        return False
+        return False            # not cached: re-checked once yt-dlp is back
     try:
         r = subprocess.run(
             ["yt-dlp", "-q", "--no-warnings", "--skip-download",
              "--socket-timeout", "20", "--print", "%(duration)s", url],
             capture_output=True, text=True, timeout=90, stdin=subprocess.DEVNULL)
-        first = (r.stdout or "").strip().splitlines()
-        ok = bool(first) and re.fullmatch(r"[0-9.]+", first[0].strip()) is not None
     except Exception:
-        ok = False
+        return False            # timed out - no verdict on the post
+    first = (r.stdout or "").strip().splitlines()
+    ok = bool(first) and re.fullmatch(r"[0-9.]+", first[0].strip()) is not None
+    if not ok and _TRANSIENT.search(r.stderr or ""):
+        return False            # network / rate-limit error - no verdict either
     cache[url] = ok
     return ok
 
@@ -955,7 +965,7 @@ def main() -> int:
     urls = []
     if a.pool:
         urls = [l.strip() for l in Path(a.pool).read_text().splitlines()
-                if l.strip() and not l.startswith("#")]
+                if l.strip().startswith("http")]
     return build(urls, a.team, a.dry_run, video_only=not a.any_post,
                  highlights_only=not a.any_mention, capture=a.capture,
                  verified_only=a.verified_only)

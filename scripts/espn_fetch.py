@@ -666,7 +666,8 @@ def main() -> int:
     mc = _load(MEDIA_CACHE)
     rv = _load(REVIEWED)
     keep = rv.setdefault("keep", {})
-    pool = set(POOL.read_text().split()) if POOL.exists() else set()
+    pool = {u for u in POOL.read_text().split() if u.startswith("http")} \
+        if POOL.exists() else set()     # URLs only, never stray words
 
     seen_clip: set[str] = set()
     seen_games: set[str] = set()

@@ -225,7 +225,8 @@ def main() -> int:
     oe, mc, vc = _load(OEMBED, {}), _load(MEDIA, {}), _load(VIDEO, {})
     rv, authors = _load(REVIEWED, {}), _load(AUTHORS, {})
     keep, reject = rv.setdefault("keep", {}), rv.get("reject", {})
-    pool = set(POOL.read_text().split()) if POOL.exists() else set()
+    pool = {u for u in POOL.read_text().split() if u.startswith("http")} \
+        if POOL.exists() else set()     # URLs only, never stray words
 
     since = datetime.now(timezone.utc) - timedelta(days=DAYS)
     added = approved = 0
