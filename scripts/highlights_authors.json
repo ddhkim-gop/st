@@ -109,6 +109,11 @@
   "name": "Indianapolis Colts",
   "verified": true
  },
+ "Commanders": {
+  "avatar": "",
+  "name": "Washington Commanders",
+  "verified": true
+ },
  "CommandersLead": {
   "avatar": "https://pbs.twimg.com/profile_images/1859262984570187776/FfxbwiqH_x96.jpg",
   "name": "Commanders Lead",

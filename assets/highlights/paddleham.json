@@ -1,6 +1,6 @@
 {
   "team": "paddleham",
-  "updated": "2026-09-29",
+  "updated": "2026-09-30",
   "note": "Curated: X has no public search API, so posts are collected by hand and matched to rosters by this script.",
   "tweets": [
     {
@@ -137,23 +137,6 @@
       "poster": "https://espnmedia-cdn.akamaized.net/espn/media/common/wsc/2026/0927/686db305-f754-44c6-971b-5cba5a2fa156/686db305-f754-44c6-971b-5cba5a2fa156.jpg",
       "published": "2026-09-27T17:51:53Z",
       "video": "https://espnmedia-cdn.akamaized.net/espn/media/16x9/wsc/2026/0927/686db305-f754-44c6-971b-5cba5a2fa156/686db305-f754-44c6-971b-5cba5a2fa156.mp4"
-    },
-    {
-      "url": "https://www.youtube.com/shorts/vvYODT-DUZM",
-      "player": "Patrick Mahomes",
-      "meta": "QB \u00b7 KC",
-      "date": "2026-09-22",
-      "author": "KansasCityChiefs",
-      "text": "A 382-yard, 3 touchdown performance from Patrick Mahomes \ud83d\ude2e\u200d\ud83d\udca8",
-      "verified": false,
-      "faves": 2084,
-      "secs": 47,
-      "poster": "https://i.ytimg.com/vi/vvYODT-DUZM/hqdefault.jpg",
-      "published": "2026-09-22T21:00:14Z",
-      "youtube": "vvYODT-DUZM",
-      "author_name": "Kansas City Chiefs",
-      "avatar": "",
-      "author_verified": true
     }
   ]
 }
