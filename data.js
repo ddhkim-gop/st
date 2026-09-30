@@ -6973,19 +6973,19 @@ window.__STATIC_DATA__ = {
       "roster_id": 1,
       "players": [
         {
-          "player_id": "11577",
+          "player_id": "11576",
           "espn_id": null,
-          "name": "Will Shipley",
+          "name": "Braelon Allen",
           "position": "RB",
-          "team": "PHI",
-          "birth_date": "2002-08-29",
-          "college": "Clemson",
-          "height": "71",
-          "weight": "209",
+          "team": "NYJ",
+          "birth_date": "2004-01-20",
+          "college": "Wisconsin",
+          "height": "73",
+          "weight": "235",
           "years_exp": 2,
           "status": "Active",
           "injury_status": null,
-          "search_rank": 686
+          "search_rank": 135
         },
         {
           "player_id": "11581",
@@ -7029,7 +7029,7 @@ window.__STATIC_DATA__ = {
           "weight": "215",
           "years_exp": 2,
           "status": "Active",
-          "injury_status": "Out",
+          "injury_status": "Questionable",
           "search_rank": 132
         },
         {
@@ -7044,23 +7044,8 @@ window.__STATIC_DATA__ = {
           "weight": "201",
           "years_exp": 2,
           "status": "Active",
-          "injury_status": "Questionable",
+          "injury_status": null,
           "search_rank": 355
-        },
-        {
-          "player_id": "12487",
-          "espn_id": null,
-          "name": "Terrance Ferguson",
-          "position": "TE",
-          "team": "LAR",
-          "birth_date": "2003-03-07",
-          "college": "Oregon",
-          "height": "77",
-          "weight": "252",
-          "years_exp": 1,
-          "status": "Active",
-          "injury_status": "Questionable",
-          "search_rank": 141
         },
         {
           "player_id": "13281",
@@ -7076,6 +7061,21 @@ window.__STATIC_DATA__ = {
           "status": "Inactive",
           "injury_status": "IR",
           "search_rank": 62
+        },
+        {
+          "player_id": "13311",
+          "espn_id": null,
+          "name": "Chris Bell",
+          "position": "WR",
+          "team": "MIA",
+          "birth_date": "2004-06-07",
+          "college": "Louisville",
+          "height": "74",
+          "weight": "228",
+          "years_exp": 0,
+          "status": "Active",
+          "injury_status": null,
+          "search_rank": 198
         },
         {
           "player_id": "13337",
@@ -7105,7 +7105,7 @@ window.__STATIC_DATA__ = {
           "years_exp": 9,
           "status": "Active",
           "injury_status": null,
-          "search_rank": 88
+          "search_rank": 87
         },
         {
           "player_id": "4983",
@@ -7225,7 +7225,7 @@ window.__STATIC_DATA__ = {
           "years_exp": 4,
           "status": "Active",
           "injury_status": null,
-          "search_rank": 105
+          "search_rank": 106
         },
         {
           "player_id": "8138",
@@ -7284,7 +7284,7 @@ window.__STATIC_DATA__ = {
           "weight": "217",
           "years_exp": 4,
           "status": "Active",
-          "injury_status": "Out",
+          "injury_status": "Questionable",
           "search_rank": 27
         },
         {
@@ -7395,7 +7395,7 @@ window.__STATIC_DATA__ = {
           "weight": "226",
           "years_exp": 2,
           "status": "Active",
-          "injury_status": "Out",
+          "injury_status": "Doubtful",
           "search_rank": 21
         },
         {
@@ -7516,7 +7516,7 @@ window.__STATIC_DATA__ = {
           "years_exp": 11,
           "status": "Active",
           "injury_status": null,
-          "search_rank": 105
+          "search_rank": 103
         },
         {
           "player_id": "4046",
@@ -7747,7 +7747,7 @@ window.__STATIC_DATA__ = {
           "years_exp": 2,
           "status": "Active",
           "injury_status": null,
-          "search_rank": 177
+          "search_rank": 175
         },
         {
           "player_id": "11620",
@@ -8067,7 +8067,7 @@ window.__STATIC_DATA__ = {
           "weight": "210",
           "years_exp": 2,
           "status": "Active",
-          "injury_status": "Out",
+          "injury_status": "Questionable",
           "search_rank": 20
         },
         {
@@ -8112,7 +8112,7 @@ window.__STATIC_DATA__ = {
           "weight": "231",
           "years_exp": 12,
           "status": "Active",
-          "injury_status": "Out",
+          "injury_status": "Questionable",
           "search_rank": 60
         },
         {
@@ -8157,7 +8157,7 @@ window.__STATIC_DATA__ = {
           "weight": "256",
           "years_exp": 8,
           "status": "Active",
-          "injury_status": "Out",
+          "injury_status": "Doubtful",
           "search_rank": 94
         },
         {
@@ -8231,8 +8231,8 @@ window.__STATIC_DATA__ = {
           "height": "71",
           "weight": "218",
           "years_exp": 6,
-          "status": "Inactive",
-          "injury_status": "Out",
+          "status": "Active",
+          "injury_status": "Questionable",
           "search_rank": 65
         },
         {
@@ -8248,7 +8248,7 @@ window.__STATIC_DATA__ = {
           "years_exp": 5,
           "status": "Active",
           "injury_status": null,
-          "search_rank": 6
+          "search_rank": 7
         },
         {
           "player_id": "7594",
@@ -8292,7 +8292,7 @@ window.__STATIC_DATA__ = {
           "weight": "214",
           "years_exp": 4,
           "status": "Active",
-          "injury_status": "Questionable",
+          "injury_status": null,
           "search_rank": 125
         },
         {
@@ -8352,7 +8352,7 @@ window.__STATIC_DATA__ = {
           "weight": "200",
           "years_exp": 3,
           "status": "Active",
-          "injury_status": "Questionable",
+          "injury_status": null,
           "search_rank": 122
         },
         {
@@ -8418,8 +8418,8 @@ window.__STATIC_DATA__ = {
           "weight": "187",
           "years_exp": 3,
           "status": "Active",
-          "injury_status": "Out",
-          "search_rank": 97
+          "injury_status": "Doubtful",
+          "search_rank": 99
         },
         {
           "player_id": "11533",
@@ -8478,7 +8478,7 @@ window.__STATIC_DATA__ = {
           "weight": "205",
           "years_exp": 2,
           "status": "Active",
-          "injury_status": "Out",
+          "injury_status": "Questionable",
           "search_rank": 162
         },
         {
@@ -8494,7 +8494,7 @@ window.__STATIC_DATA__ = {
           "years_exp": 1,
           "status": "Active",
           "injury_status": null,
-          "search_rank": 48
+          "search_rank": 47
         },
         {
           "player_id": "12545",
@@ -8719,7 +8719,7 @@ window.__STATIC_DATA__ = {
           "years_exp": 3,
           "status": "Active",
           "injury_status": null,
-          "search_rank": 65
+          "search_rank": 64
         },
         {
           "player_id": "HOU",
@@ -8788,6 +8788,36 @@ window.__STATIC_DATA__ = {
           "search_rank": 22
         },
         {
+          "player_id": "1166",
+          "espn_id": 14880,
+          "name": "Kirk Cousins",
+          "position": "QB",
+          "team": "LV",
+          "birth_date": "1988-08-19",
+          "college": "Michigan State",
+          "height": "75",
+          "weight": "209",
+          "years_exp": 14,
+          "status": "Active",
+          "injury_status": null,
+          "search_rank": 273
+        },
+        {
+          "player_id": "12495",
+          "espn_id": null,
+          "name": "Ollie Gordon",
+          "position": "RB",
+          "team": "MIA",
+          "birth_date": "2004-01-15",
+          "college": "Oklahoma State",
+          "height": "74",
+          "weight": "225",
+          "years_exp": 1,
+          "status": "Active",
+          "injury_status": null,
+          "search_rank": 466
+        },
+        {
           "player_id": "12512",
           "espn_id": null,
           "name": "Quinshon Judkins",
@@ -8844,8 +8874,8 @@ window.__STATIC_DATA__ = {
           "weight": "208",
           "years_exp": 0,
           "status": "Active",
-          "injury_status": "Out",
-          "search_rank": 199
+          "injury_status": "Questionable",
+          "search_rank": 200
         },
         {
           "player_id": "13330",
@@ -8906,36 +8936,6 @@ window.__STATIC_DATA__ = {
           "status": "Active",
           "injury_status": null,
           "search_rank": 645
-        },
-        {
-          "player_id": "4227",
-          "espn_id": 3055899,
-          "name": "Harrison Butker",
-          "position": "K",
-          "team": "KC",
-          "birth_date": "1995-07-14",
-          "college": "Georgia Tech",
-          "height": "76",
-          "weight": "205",
-          "years_exp": 9,
-          "status": "Active",
-          "injury_status": null,
-          "search_rank": 155
-        },
-        {
-          "player_id": "4892",
-          "espn_id": 3052587,
-          "name": "Baker Mayfield",
-          "position": "QB",
-          "team": "TB",
-          "birth_date": "1995-04-14",
-          "college": "Oklahoma",
-          "height": "73",
-          "weight": "215",
-          "years_exp": 8,
-          "status": "Active",
-          "injury_status": "Out",
-          "search_rank": 75
         },
         {
           "player_id": "5001",
@@ -9255,7 +9255,7 @@ window.__STATIC_DATA__ = {
           "weight": "250",
           "years_exp": 8,
           "status": "Active",
-          "injury_status": "Questionable",
+          "injury_status": null,
           "search_rank": 96
         },
         {
@@ -9315,7 +9315,7 @@ window.__STATIC_DATA__ = {
           "weight": "195",
           "years_exp": 6,
           "status": "Active",
-          "injury_status": "Out",
+          "injury_status": "Questionable",
           "search_rank": 12
         },
         {
@@ -9450,7 +9450,7 @@ window.__STATIC_DATA__ = {
           "weight": "216",
           "years_exp": 3,
           "status": "Active",
-          "injury_status": "Out",
+          "injury_status": "Questionable",
           "search_rank": 4
         },
         {
@@ -9502,7 +9502,7 @@ window.__STATIC_DATA__ = {
           "years_exp": 3,
           "status": "Active",
           "injury_status": null,
-          "search_rank": 125
+          "search_rank": 127
         },
         {
           "player_id": "11786",
@@ -9546,7 +9546,7 @@ window.__STATIC_DATA__ = {
           "weight": "205",
           "years_exp": 1,
           "status": "Active",
-          "injury_status": "Questionable",
+          "injury_status": null,
           "search_rank": 56
         },
         {
@@ -9711,7 +9711,7 @@ window.__STATIC_DATA__ = {
           "weight": "222",
           "years_exp": 5,
           "status": "Active",
-          "injury_status": "Out",
+          "injury_status": "Questionable",
           "search_rank": 21
         },
         {
@@ -9771,7 +9771,7 @@ window.__STATIC_DATA__ = {
           "weight": "238",
           "years_exp": 4,
           "status": "Active",
-          "injury_status": "Out",
+          "injury_status": "Questionable",
           "search_rank": 137
         },
         {
@@ -9787,7 +9787,7 @@ window.__STATIC_DATA__ = {
           "years_exp": 4,
           "status": "Inactive",
           "injury_status": "IR",
-          "search_rank": 90
+          "search_rank": 92
         },
         {
           "player_id": "9500",
@@ -10064,6 +10064,118 @@ window.__STATIC_DATA__ = {
     }
   ],
   "transactions": [
+    {
+      "season": "2026",
+      "week": 4,
+      "created": "Sep 29, 2026 • 11:24 PM PT",
+      "transaction_id": "1410924374197841920",
+      "type": "free_agent",
+      "status": "complete",
+      "teams": [
+        "avocadoshake"
+      ],
+      "added": [
+        {
+          "name": "Kirk Cousins",
+          "position": "QB",
+          "team": "LV"
+        }
+      ],
+      "dropped": [
+        {
+          "name": "Baker Mayfield",
+          "position": "QB",
+          "team": "TB"
+        }
+      ],
+      "faab": 0,
+      "waiver_bid": 0,
+      "notes": null
+    },
+    {
+      "season": "2026",
+      "week": 4,
+      "created": "Sep 29, 2026 • 11:19 PM PT",
+      "transaction_id": "1410923002182332416",
+      "type": "free_agent",
+      "status": "complete",
+      "teams": [
+        "ddhk"
+      ],
+      "added": [
+        {
+          "name": "Chris Bell",
+          "position": "WR",
+          "team": "MIA"
+        }
+      ],
+      "dropped": [
+        {
+          "name": "Will Shipley",
+          "position": "RB",
+          "team": "PHI"
+        }
+      ],
+      "faab": 0,
+      "waiver_bid": 0,
+      "notes": null
+    },
+    {
+      "season": "2026",
+      "week": 4,
+      "created": "Sep 29, 2026 • 11:18 PM PT",
+      "transaction_id": "1410922742798204928",
+      "type": "free_agent",
+      "status": "complete",
+      "teams": [
+        "ddhk"
+      ],
+      "added": [
+        {
+          "name": "Braelon Allen",
+          "position": "RB",
+          "team": "NYJ"
+        }
+      ],
+      "dropped": [
+        {
+          "name": "Terrance Ferguson",
+          "position": "TE",
+          "team": "LAR"
+        }
+      ],
+      "faab": 0,
+      "waiver_bid": 0,
+      "notes": null
+    },
+    {
+      "season": "2026",
+      "week": 3,
+      "created": "Sep 29, 2026 • 9:34 PM PT",
+      "transaction_id": "1410896624988803072",
+      "type": "waiver",
+      "status": "complete",
+      "teams": [
+        "avocadoshake"
+      ],
+      "added": [
+        {
+          "name": "Ollie Gordon",
+          "position": "RB",
+          "team": "MIA"
+        }
+      ],
+      "dropped": [
+        {
+          "name": "Harrison Butker",
+          "position": "K",
+          "team": "KC"
+        }
+      ],
+      "faab": 0,
+      "waiver_bid": 0,
+      "notes": "Your waiver claim was processed successfully!"
+    },
     {
       "season": "2026",
       "week": 3,
