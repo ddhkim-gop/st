@@ -1,6 +1,6 @@
 {
   "team": "churlz98",
-  "updated": "2026-09-30",
+  "updated": "2026-10-01",
   "note": "Curated: X has no public search API, so posts are collected by hand and matched to rosters by this script.",
   "tweets": [
     {
@@ -97,6 +97,40 @@
       "published": "2026-09-25T02:41:37Z",
       "youtube": "SrpzZCDD0Qk",
       "author_name": "Atlanta Falcons",
+      "avatar": "",
+      "author_verified": true
+    },
+    {
+      "url": "https://www.youtube.com/shorts/1X1a1EBiPFg",
+      "player": "Nico Collins",
+      "meta": "WR \u00b7 HOU",
+      "date": "2026-09-30",
+      "author": "HoustonTexans",
+      "text": "Nico Collins Just WALTZES In For Six \ud83d\udd7a",
+      "verified": false,
+      "faves": 88,
+      "secs": 25,
+      "poster": "https://i.ytimg.com/vi/1X1a1EBiPFg/hqdefault.jpg",
+      "published": "2026-09-30T22:31:44Z",
+      "youtube": "1X1a1EBiPFg",
+      "author_name": "Houston Texans",
+      "avatar": "",
+      "author_verified": true
+    },
+    {
+      "url": "https://www.youtube.com/shorts/d6Mq1cdDthI",
+      "player": "Nico Collins",
+      "meta": "WR \u00b7 HOU",
+      "date": "2026-09-30",
+      "author": "HoustonTexans",
+      "text": "\"FLIPS IT ON THE RUN, NICO COLLINS HAS IT!\" \ud83d\udd25",
+      "verified": false,
+      "faves": 81,
+      "secs": 31,
+      "poster": "https://i.ytimg.com/vi/d6Mq1cdDthI/hqdefault.jpg",
+      "published": "2026-09-30T22:32:32Z",
+      "youtube": "d6Mq1cdDthI",
+      "author_name": "Houston Texans",
       "avatar": "",
       "author_verified": true
     },

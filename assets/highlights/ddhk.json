@@ -1,6 +1,6 @@
 {
   "team": "ddhk",
-  "updated": "2026-09-30",
+  "updated": "2026-10-01",
   "note": "Curated: X has no public search API, so posts are collected by hand and matched to rosters by this script.",
   "tweets": [
     {
@@ -118,23 +118,6 @@
       "poster": "https://espnmedia-cdn.akamaized.net/espn/media/common/wsc/2026/0927/6591ce43-f47e-4065-99d6-354c4e9ed090/6591ce43-f47e-4065-99d6-354c4e9ed090.jpg",
       "published": "2026-09-27T17:14:42Z",
       "video": "https://espnmedia-cdn.akamaized.net/espn/media/16x9/wsc/2026/0927/6591ce43-f47e-4065-99d6-354c4e9ed090/6591ce43-f47e-4065-99d6-354c4e9ed090.mp4"
-    },
-    {
-      "url": "https://www.youtube.com/shorts/a33ObyZ7bmU",
-      "player": "Josh Allen",
-      "meta": "QB \u00b7 BUF",
-      "date": "2026-09-29",
-      "author": "BuffaloBills",
-      "text": "Josh Allen completes a pass to ... Josh Allen. \ud83e\udd2f #shorts",
-      "verified": false,
-      "faves": 770,
-      "secs": 13,
-      "poster": "https://i.ytimg.com/vi/a33ObyZ7bmU/hqdefault.jpg",
-      "published": "2026-09-29T14:21:46Z",
-      "youtube": "a33ObyZ7bmU",
-      "author_name": "Buffalo Bills",
-      "avatar": "",
-      "author_verified": true
     },
     {
       "url": "https://www.espn.com/video/clip/_/id/50044851/josh-allen-qb-sneak-give-bills-lead",
