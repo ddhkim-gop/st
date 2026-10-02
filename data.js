@@ -7074,7 +7074,7 @@ window.__STATIC_DATA__ = {
           "weight": "228",
           "years_exp": 0,
           "status": "Active",
-          "injury_status": "Questionable",
+          "injury_status": null,
           "search_rank": 198
         },
         {
@@ -7665,7 +7665,7 @@ window.__STATIC_DATA__ = {
           "weight": "183",
           "years_exp": 3,
           "status": "Active",
-          "injury_status": null,
+          "injury_status": "Questionable",
           "search_rank": 40
         },
         {
@@ -8367,7 +8367,7 @@ window.__STATIC_DATA__ = {
           "weight": "191",
           "years_exp": 3,
           "status": "Active",
-          "injury_status": "Questionable",
+          "injury_status": null,
           "search_rank": 148
         },
         {
@@ -8407,19 +8407,19 @@ window.__STATIC_DATA__ = {
           "search_rank": 187
         },
         {
-          "player_id": "10222",
+          "player_id": "11435",
           "espn_id": null,
-          "name": "Jayden Reed",
-          "position": "WR",
-          "team": "GB",
-          "birth_date": "2000-04-28",
-          "college": "Michigan State",
-          "height": "71",
-          "weight": "187",
+          "name": "Emanuel Wilson",
+          "position": "RB",
+          "team": "SEA",
+          "birth_date": "1999-05-08",
+          "college": "Fort Valley State",
+          "height": "70",
+          "weight": "226",
           "years_exp": 3,
-          "status": "Inactive",
-          "injury_status": "IR",
-          "search_rank": 99
+          "status": "Active",
+          "injury_status": null,
+          "search_rank": 161
         },
         {
           "player_id": "11533",
@@ -8523,7 +8523,7 @@ window.__STATIC_DATA__ = {
           "weight": "209",
           "years_exp": 0,
           "status": "Active",
-          "injury_status": "Questionable",
+          "injury_status": "Out",
           "search_rank": 52
         },
         {
@@ -8921,6 +8921,21 @@ window.__STATIC_DATA__ = {
           "status": "Active",
           "injury_status": null,
           "search_rank": 38
+        },
+        {
+          "player_id": "3321",
+          "espn_id": 3116406,
+          "name": "Tyreek Hill",
+          "position": "WR",
+          "team": null,
+          "birth_date": "1994-03-01",
+          "college": "West Alabama",
+          "height": "70",
+          "weight": "191",
+          "years_exp": 10,
+          "status": "Active",
+          "injury_status": "",
+          "search_rank": 145
         },
         {
           "player_id": "3634",
@@ -9711,7 +9726,7 @@ window.__STATIC_DATA__ = {
           "weight": "222",
           "years_exp": 5,
           "status": "Active",
-          "injury_status": "Questionable",
+          "injury_status": null,
           "search_rank": 21
         },
         {
@@ -10064,6 +10079,56 @@ window.__STATIC_DATA__ = {
     }
   ],
   "transactions": [
+    {
+      "season": "2026",
+      "week": 4,
+      "created": "Oct 2, 2026 • 3:33 PM PT",
+      "transaction_id": "1411892887334998016",
+      "type": "free_agent",
+      "status": "complete",
+      "teams": [
+        "avocadoshake"
+      ],
+      "added": [
+        {
+          "name": "Tyreek Hill",
+          "position": "WR",
+          "team": null
+        }
+      ],
+      "dropped": [],
+      "faab": 0,
+      "waiver_bid": 0,
+      "notes": null
+    },
+    {
+      "season": "2026",
+      "week": 4,
+      "created": "Oct 2, 2026 • 3:03 PM PT",
+      "transaction_id": "1411885390087901184",
+      "type": "free_agent",
+      "status": "complete",
+      "teams": [
+        "rat444"
+      ],
+      "added": [
+        {
+          "name": "Emanuel Wilson",
+          "position": "RB",
+          "team": "SEA"
+        }
+      ],
+      "dropped": [
+        {
+          "name": "Jayden Reed",
+          "position": "WR",
+          "team": "GB"
+        }
+      ],
+      "faab": 0,
+      "waiver_bid": 0,
+      "notes": null
+    },
     {
       "season": "2026",
       "week": 4,
