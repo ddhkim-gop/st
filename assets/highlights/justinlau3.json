@@ -1,8 +1,27 @@
 {
   "team": "justinlau3",
-  "updated": "2026-10-01",
+  "updated": "2026-10-02",
   "note": "Curated: X has no public search API, so posts are collected by hand and matched to rosters by this script.",
   "tweets": [
+    {
+      "url": "https://www.espn.com/video/clip/_/id/50081188/deshaun-watson-zips-pass-harold-fannin-jr-browns-td",
+      "player": "Harold Fannin",
+      "meta": "TE \u00b7 CLE",
+      "date": "2026-10-02",
+      "author": "ESPN",
+      "text": "Deshaun Watson zips pass to Harold Fannin Jr. for Browns TD",
+      "verified": true,
+      "faves": 0,
+      "secs": 0,
+      "espn_game": "401872964",
+      "game_id": "401872964",
+      "game_time": "Q2 1:22",
+      "play_key": "401872964:4018729641986",
+      "played_at": "2026-10-02T01:38:33Z",
+      "poster": "https://espnmedia-cdn.akamaized.net/espn/media/common/2026/1001/00566164e84141c19d2c4cf8f1167ad31438/00566164e84141c19d2c4cf8f1167ad31438.jpg",
+      "published": "2026-10-02T01:49:08Z",
+      "video": "https://espnmedia-cdn.akamaized.net/espn/media/16x9/wsc/2026/1002/00566164-e841-41c1-9d2c-4cf8f1167ad3/00566164-e841-41c1-9d2c-4cf8f1167ad3.mp4"
+    },
     {
       "url": "https://x.com/ChicagoBears/status/2104764525496950879",
       "player": "Kyle Monangai",

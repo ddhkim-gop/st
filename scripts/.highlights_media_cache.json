@@ -719,6 +719,22 @@
   "published": "2026-09-29T02:25:04Z",
   "video": "https://espnmedia-cdn.akamaized.net/espn/media/16x9/wsc/2026/0929/6242f391-e361-4975-95a5-8c750f07f0ef/6242f391-e361-4975-95a5-8c750f07f0ef.mp4"
  },
+ "https://www.espn.com/video/clip/_/id/50066989/feel-idiot-doubting-mahomes-chiefs": {
+  "espn_game": "401872976",
+  "poster": "https://espnmedia-cdn.akamaized.net/espn/media/common/2026/0930/ss_20260930_091422435_3679817563/ss_20260930_091422435_3679817563.jpg",
+  "published": "2026-09-30T13:14:21Z",
+  "video": "https://espnmedia-cdn.akamaized.net/espn/media/16x9/2026/0930/ss_20260930_091422435_3679817/ss_20260930_091422435_3679817.mp4"
+ },
+ "https://www.espn.com/video/clip/_/id/50081188/deshaun-watson-zips-pass-harold-fannin-jr-browns-td": {
+  "espn_game": "401872964",
+  "game_id": "401872964",
+  "game_time": "Q2 1:22",
+  "play_key": "401872964:4018729641986",
+  "played_at": "2026-10-02T01:38:33Z",
+  "poster": "https://espnmedia-cdn.akamaized.net/espn/media/common/2026/1001/00566164e84141c19d2c4cf8f1167ad31438/00566164e84141c19d2c4cf8f1167ad31438.jpg",
+  "published": "2026-10-02T01:49:08Z",
+  "video": "https://espnmedia-cdn.akamaized.net/espn/media/16x9/wsc/2026/1002/00566164-e841-41c1-9d2c-4cf8f1167ad3/00566164-e841-41c1-9d2c-4cf8f1167ad3.mp4"
+ },
  "https://www.youtube.com/shorts/-9mLHMkLMRw": {
   "poster": "https://i.ytimg.com/vi/-9mLHMkLMRw/hqdefault.jpg",
   "published": "2026-09-21T18:33:52Z",
@@ -2059,6 +2075,26 @@
   "poster": "https://pbs.twimg.com/amplify_video_thumb/2104611007893241856/img/hC9JccpohzrsRxiV.jpg",
   "published": "2026-09-28T16:36:00Z",
   "video": "https://video.twimg.com/amplify_video/2104611007893241856/vid/avc1/1080x1920/lqvTX_oWe1e7oA1V.mp4"
+ },
+ "https://x.com/NFLonFOX/status/2105697552192664052": {
+  "poster": "https://pbs.twimg.com/amplify_video_thumb/2105697484249174016/img/YqyuMQg2IuR16ksz.jpg",
+  "published": "2026-10-01T16:33:13Z",
+  "video": "https://video.twimg.com/amplify_video/2105697484249174016/vid/avc1/1080x1920/4j8shP_Oc1JGlcZH.mp4"
+ },
+ "https://x.com/NFLonFOX/status/2105734494653223076": {
+  "poster": "https://pbs.twimg.com/amplify_video_thumb/2105463020629749760/img/zGjrb8PKGElnXoQM.jpg",
+  "published": "2026-10-01T19:00:00Z",
+  "video": "https://video.twimg.com/amplify_video/2105463020629749760/vid/avc1/1080x1920/GdRjjS8niDDMd6cY.mp4"
+ },
+ "https://x.com/NFLonFOX/status/2105741274741358923": {
+  "poster": "https://pbs.twimg.com/amplify_video_thumb/2105741254042759168/img/pJnwtViQZ5F-pepw.jpg",
+  "published": "2026-10-01T19:26:57Z",
+  "video": "https://video.twimg.com/amplify_video/2105741254042759168/vid/avc1/540x960/rYS8BjhgiwmCkGfo.mp4"
+ },
+ "https://x.com/NFLonFOX/status/2105744666243055889": {
+  "poster": "https://pbs.twimg.com/amplify_video_thumb/2105723341139070976/img/fer6huRQ9uGwhHOJ.jpg",
+  "published": "2026-10-01T19:40:25Z",
+  "video": "https://video.twimg.com/amplify_video/2105723341139070976/vid/avc1/1080x1920/-3HiZ6HBcPECP6Bq.mp4"
  },
  "https://x.com/NFLonPrime/status/2090544447800946897": {
   "poster": "https://pbs.twimg.com/amplify_video_thumb/2090544419824947200/img/IAqeOOBA6vJxNq06.jpg?name=orig",
