@@ -9300,7 +9300,7 @@ window.__STATIC_DATA__ = {
           "weight": "210",
           "years_exp": 7,
           "status": "Active",
-          "injury_status": "Questionable",
+          "injury_status": "Doubtful",
           "search_rank": 55
         },
         {
