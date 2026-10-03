@@ -1,6 +1,6 @@
 {
   "team": "churlz98",
-  "updated": "2026-10-02",
+  "updated": "2026-10-03",
   "note": "Curated: X has no public search API, so posts are collected by hand and matched to rosters by this script.",
   "tweets": [
     {
@@ -78,27 +78,6 @@
       "poster": "https://espnmedia-cdn.akamaized.net/espn/media/common/2026/0927/2d803eada4e44177aad3315c0152dcf71046/2d803eada4e44177aad3315c0152dcf71046.jpg",
       "published": "2026-09-27T21:08:18Z",
       "video": "https://espnmedia-cdn.akamaized.net/espn/media/16x9/wsc/2026/0927/2d803ead-a4e4-4177-aad3-315c0152dcf7/2d803ead-a4e4-4177-aad3-315c0152dcf7.mp4"
-    },
-    {
-      "url": "https://www.youtube.com/shorts/SrpzZCDD0Qk",
-      "player": "Brian Robinson",
-      "meta": "RB \u00b7 ATL",
-      "date": "2026-09-25",
-      "author": "AtlantaFalcons",
-      "text": "Brian Robinson gets in the end zone for the TOUCHDOWN \ud83d\ude24 TNF on PRIME | FOX 5 #nfl #atlantafalcons",
-      "verified": true,
-      "faves": 376,
-      "secs": 19,
-      "game_id": "401872948",
-      "game_time": "Q3 3:38",
-      "play_key": "401872948:4018729482895",
-      "played_at": "2026-09-25T02:20:18Z",
-      "poster": "https://i.ytimg.com/vi/SrpzZCDD0Qk/hqdefault.jpg",
-      "published": "2026-09-25T02:41:37Z",
-      "youtube": "SrpzZCDD0Qk",
-      "author_name": "Atlanta Falcons",
-      "avatar": "",
-      "author_verified": true
     },
     {
       "url": "https://www.youtube.com/shorts/1X1a1EBiPFg",
