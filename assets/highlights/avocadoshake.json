@@ -4,6 +4,27 @@
   "note": "Curated: X has no public search API, so posts are collected by hand and matched to rosters by this script.",
   "tweets": [
     {
+      "url": "https://x.com/Jaguars/status/2106796405365027291",
+      "player": "Jakobi Meyers",
+      "meta": "WR \u00b7 JAX",
+      "date": "2026-10-04",
+      "author": "Jaguars",
+      "text": "Jakobi Meyers with a big catch for a gain of 22!\n\n#JAXvsCIN",
+      "verified": true,
+      "faves": 37,
+      "secs": 8,
+      "game_id": "401872969",
+      "game_time": "Q1 5:09",
+      "play_key": "401872969:401872969549",
+      "played_at": "2026-10-04T17:19:05Z",
+      "poster": "https://pbs.twimg.com/amplify_video_thumb/2088684091155591168/img/wt_BgvG5omwUGbMT.jpg",
+      "published": "2026-10-04T17:19:40Z",
+      "video": "https://video.twimg.com/amplify_video/2088684091155591168/vid/avc1/1080x1080/feQJ5bpeGs2D0nKv.mp4",
+      "author_name": "Jacksonville Jaguars",
+      "avatar": "https://pbs.twimg.com/profile_images/2105350006693593088/29Lj7GDb_normal.jpg",
+      "author_verified": true
+    },
+    {
       "url": "https://www.espn.com/video/clip/_/id/50056228/case-keenum-connects-kalif-raymond-41-yard-bears-td",
       "player": "Kalif Raymond",
       "meta": "WR \u00b7 CHI",
