@@ -4,6 +4,25 @@
   "note": "Curated: X has no public search API, so posts are collected by hand and matched to rosters by this script.",
   "tweets": [
     {
+      "url": "https://www.espn.com/video/clip/_/id/50100103/jonathan-taylor-runs-2nd-td-game",
+      "player": "Jonathan Taylor",
+      "meta": "RB \u00b7 IND",
+      "date": "2026-10-04",
+      "author": "ESPN",
+      "text": "Jonathan Taylor runs in his 2nd TD of the game",
+      "verified": true,
+      "faves": 0,
+      "secs": 0,
+      "espn_game": "401872965",
+      "game_id": "401872965",
+      "game_time": "Q3 12:45",
+      "play_key": "401872965:4018729652381",
+      "played_at": "2026-10-04T15:20:24Z",
+      "poster": "https://espnmedia-cdn.akamaized.net/espn/media/common/wsc/2026/1004/cea6b6fa-37af-4621-b020-08fc24e2954e/cea6b6fa-37af-4621-b020-08fc24e2954e.jpg",
+      "published": "2026-10-04T15:27:39Z",
+      "video": "https://espnmedia-cdn.akamaized.net/espn/media/16x9/wsc/2026/1004/cea6b6fa-37af-4621-b020-08fc24e2954e/cea6b6fa-37af-4621-b020-08fc24e2954e.mp4"
+    },
+    {
       "url": "https://www.espn.com/video/clip/_/id/50099905/jonathan-taylor-td-run-puts-colts-board",
       "player": "Jonathan Taylor",
       "meta": "RB \u00b7 IND",

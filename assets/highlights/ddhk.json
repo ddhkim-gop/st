@@ -4,6 +4,25 @@
   "note": "Curated: X has no public search API, so posts are collected by hand and matched to rosters by this script.",
   "tweets": [
     {
+      "url": "https://www.espn.com/video/clip/_/id/50100016/spencer-shrader-pads-colts-lead-48-yard-fg-half",
+      "player": "Spencer Shrader",
+      "meta": "K \u00b7 IND",
+      "date": "2026-10-04",
+      "author": "ESPN",
+      "text": "Spencer Shrader pads Colts lead with 48-yard FG before half",
+      "verified": true,
+      "faves": 0,
+      "secs": 0,
+      "espn_game": "401872965",
+      "game_id": "401872965",
+      "game_time": "Q2 0:00",
+      "play_key": "401872965:4018729652107",
+      "played_at": "2026-10-04T14:58:20Z",
+      "poster": "https://espnmedia-cdn.akamaized.net/espn/media/common/wsc/2026/1004/b35844e7-28a0-4fd7-9c2b-ed8fdc601ee5/b35844e7-28a0-4fd7-9c2b-ed8fdc601ee5.jpg",
+      "published": "2026-10-04T15:10:27Z",
+      "video": "https://espnmedia-cdn.akamaized.net/espn/media/16x9/wsc/2026/1004/b35844e7-28a0-4fd7-9c2b-ed8fdc601ee5/b35844e7-28a0-4fd7-9c2b-ed8fdc601ee5.mp4"
+    },
+    {
       "url": "https://www.espn.com/video/clip/_/id/50045402/spencer-shrader-53-yard-fg-lifts-colts-texans",
       "player": "Spencer Shrader",
       "meta": "K \u00b7 IND",
