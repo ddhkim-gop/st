@@ -6973,6 +6973,21 @@ window.__STATIC_DATA__ = {
       "roster_id": 1,
       "players": [
         {
+          "player_id": "11157",
+          "espn_id": null,
+          "name": "Brycen Tremayne",
+          "position": "WR",
+          "team": "CAR",
+          "birth_date": "1999-11-18",
+          "college": "Stanford",
+          "height": "76",
+          "weight": "212",
+          "years_exp": 3,
+          "status": "Active",
+          "injury_status": null,
+          "search_rank": 542
+        },
+        {
           "player_id": "11576",
           "espn_id": null,
           "name": "Braelon Allen",
@@ -7029,7 +7044,7 @@ window.__STATIC_DATA__ = {
           "weight": "215",
           "years_exp": 2,
           "status": "Active",
-          "injury_status": "Questionable",
+          "injury_status": "Out",
           "search_rank": 132
         },
         {
@@ -7076,21 +7091,6 @@ window.__STATIC_DATA__ = {
           "status": "Active",
           "injury_status": null,
           "search_rank": 198
-        },
-        {
-          "player_id": "13337",
-          "espn_id": null,
-          "name": "Emmett Johnson",
-          "position": "RB",
-          "team": "KC",
-          "birth_date": "2003-10-10",
-          "college": "Nebraska",
-          "height": "71",
-          "weight": "200",
-          "years_exp": 0,
-          "status": "Active",
-          "injury_status": null,
-          "search_rank": 113
         },
         {
           "player_id": "4037",
@@ -7986,7 +7986,7 @@ window.__STATIC_DATA__ = {
           "weight": "190",
           "years_exp": 4,
           "status": "Active",
-          "injury_status": null,
+          "injury_status": "Questionable",
           "search_rank": 171
         },
         {
@@ -8052,7 +8052,7 @@ window.__STATIC_DATA__ = {
           "weight": "204",
           "years_exp": 3,
           "status": "Active",
-          "injury_status": null,
+          "injury_status": "Questionable",
           "search_rank": 29
         },
         {
@@ -8598,7 +8598,7 @@ window.__STATIC_DATA__ = {
           "weight": "220",
           "years_exp": 6,
           "status": "Active",
-          "injury_status": null,
+          "injury_status": "Questionable",
           "search_rank": 36
         },
         {
@@ -9150,7 +9150,7 @@ window.__STATIC_DATA__ = {
           "weight": "185",
           "years_exp": 2,
           "status": "Active",
-          "injury_status": null,
+          "injury_status": "Out",
           "search_rank": 35
         },
         {
@@ -9195,7 +9195,7 @@ window.__STATIC_DATA__ = {
           "weight": "207",
           "years_exp": 1,
           "status": "Active",
-          "injury_status": null,
+          "injury_status": "Questionable",
           "search_rank": 61
         },
         {
@@ -10079,6 +10079,34 @@ window.__STATIC_DATA__ = {
     }
   ],
   "transactions": [
+    {
+      "season": "2026",
+      "week": 4,
+      "created": "Oct 4, 2026 • 3:23 PM PT",
+      "transaction_id": "1412615058894172160",
+      "type": "free_agent",
+      "status": "complete",
+      "teams": [
+        "ddhk"
+      ],
+      "added": [
+        {
+          "name": "Brycen Tremayne",
+          "position": "WR",
+          "team": "CAR"
+        }
+      ],
+      "dropped": [
+        {
+          "name": "Emmett Johnson",
+          "position": "RB",
+          "team": "KC"
+        }
+      ],
+      "faab": 0,
+      "waiver_bid": 0,
+      "notes": null
+    },
     {
       "season": "2026",
       "week": 4,
