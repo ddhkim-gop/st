@@ -25,6 +25,25 @@
       "author_verified": true
     },
     {
+      "url": "https://www.espn.com/video/clip/_/id/50102207/tucker-kraft-catch-ruled-td-review",
+      "player": "Tucker Kraft",
+      "meta": "TE \u00b7 GB",
+      "date": "2026-10-04",
+      "author": "ESPN",
+      "text": "Tucker Kraft catch ruled TD after review. Tucker Kraft catch ruled TD after review ",
+      "verified": true,
+      "faves": 0,
+      "secs": 0,
+      "espn_game": "401872968",
+      "game_id": "401872968",
+      "game_time": "Q3 10:32",
+      "play_key": "401872968:4018729682302",
+      "played_at": "2026-10-04T18:41:07Z",
+      "poster": "https://espnmedia-cdn.akamaized.net/espn/media/common/wsc/2026/1004/d79c9dfb-4d1e-4083-a7af-97f28ecff382/d79c9dfb-4d1e-4083-a7af-97f28ecff382.jpg",
+      "published": "2026-10-04T19:09:59Z",
+      "video": "https://espnmedia-cdn.akamaized.net/espn/media/16x9/wsc/2026/1004/d79c9dfb-4d1e-4083-a7af-97f28ecff382/d79c9dfb-4d1e-4083-a7af-97f28ecff382.mp4"
+    },
+    {
       "url": "https://x.com/Patriots/status/2106805217492619497",
       "player": "Drake Maye",
       "meta": "QB \u00b7 NE",
@@ -88,25 +107,23 @@
       "author_verified": true
     },
     {
-      "url": "https://x.com/Ravens/status/2106793972064465325",
+      "url": "https://www.espn.com/video/clip/_/id/50100881/derrick-henry-barrels-ravens-td",
       "player": "Derrick Henry",
       "meta": "RB \u00b7 BAL",
       "date": "2026-10-04",
-      "author": "Ravens",
-      "text": "HE WON'T BE DENIED!!! TOUCHDOWN @KingHenry_2!!!\n\nTune in on @NFLonCBS and @ParamountPlus.",
+      "author": "ESPN",
+      "text": "Live on CBS: Derrick Henry barrels in for a Ravens TD",
       "verified": true,
-      "faves": 1503,
-      "secs": 38,
+      "faves": 0,
+      "secs": 0,
+      "espn_game": "401872973",
       "game_id": "401872973",
       "game_time": "Q1 12:09",
       "play_key": "401872973:401872973224",
       "played_at": "2026-10-04T17:08:28Z",
-      "poster": "https://pbs.twimg.com/amplify_video_thumb/2106793808973148161/img/IU6SAVQOUuRxiC5M.jpg",
-      "published": "2026-10-04T17:09:59Z",
-      "video": "https://video.twimg.com/amplify_video/2106793808973148161/vid/avc1/1920x1080/IXoBs6NizQkHEjQd.mp4",
-      "author_name": "Baltimore Ravens",
-      "avatar": "https://pbs.twimg.com/profile_images/1994466436266225664/05ma1sy0_normal.jpg",
-      "author_verified": true
+      "poster": "https://espnmedia-cdn.akamaized.net/espn/media/common/wsc/2026/1004/2ecfae28-1265-4627-9e39-2ad36f3cf251/2ecfae28-1265-4627-9e39-2ad36f3cf251.jpg",
+      "published": "2026-10-04T17:36:01Z",
+      "video": "https://espnmedia-cdn.akamaized.net/espn/media/16x9/wsc/2026/1004/2ecfae28-1265-4627-9e39-2ad36f3cf251/2ecfae28-1265-4627-9e39-2ad36f3cf251.mp4"
     },
     {
       "url": "https://x.com/Colts/status/2106755417246441646",
@@ -385,7 +402,7 @@
       "published": "2026-09-27T17:34:58Z",
       "youtube": "GgM3b9b0F34",
       "author_name": "Cincinnati Bengals",
-      "avatar": "",
+      "avatar": "https://pbs.twimg.com/profile_images/2079568103231348736/HbQk9Ucp_normal.jpg",
       "author_verified": true
     },
     {

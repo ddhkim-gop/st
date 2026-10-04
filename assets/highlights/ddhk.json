@@ -4,6 +4,27 @@
   "note": "Curated: X has no public search API, so posts are collected by hand and matched to rosters by this script.",
   "tweets": [
     {
+      "url": "https://x.com/BuffaloBills/status/2106834704028635476",
+      "player": "Josh Allen",
+      "meta": "QB \u00b7 BUF",
+      "date": "2026-10-04",
+      "author": "BuffaloBills",
+      "text": "AGENT 0\u203c\ufe0f\n\n\ud83d\udcfa: CBS",
+      "verified": true,
+      "faves": 1161,
+      "secs": 15,
+      "game_id": "401872971",
+      "game_time": "Q4 4:27",
+      "play_key": "401872971:4018729714030",
+      "played_at": "2026-10-04T19:50:29Z",
+      "poster": "https://pbs.twimg.com/amplify_video_thumb/2106834504186748928/img/m3L5BtGgvnKHenI3.jpg",
+      "published": "2026-10-04T19:51:51Z",
+      "video": "https://video.twimg.com/amplify_video/2106834504186748928/vid/avc1/1920x1080/Z5wDvqVNBCFW0P12.mp4",
+      "author_name": "Buffalo Bills",
+      "avatar": "https://pbs.twimg.com/profile_images/2104615660366016512/ngGoCmLH_normal.jpg",
+      "author_verified": true
+    },
+    {
       "url": "https://x.com/NFL/status/2106809709629931782",
       "player": "Josh Allen",
       "meta": "QB \u00b7 BUF",
@@ -143,7 +164,7 @@
       "published": "2026-09-27T19:51:56Z",
       "youtube": "SRGeWqofPc4",
       "author_name": "Buffalo Bills",
-      "avatar": "",
+      "avatar": "https://pbs.twimg.com/profile_images/2104615660366016512/ngGoCmLH_normal.jpg",
       "author_verified": true
     },
     {
@@ -221,21 +242,6 @@
       "poster": "https://espnmedia-cdn.akamaized.net/espn/media/common/wsc/2026/0927/6591ce43-f47e-4065-99d6-354c4e9ed090/6591ce43-f47e-4065-99d6-354c4e9ed090.jpg",
       "published": "2026-09-27T17:14:42Z",
       "video": "https://espnmedia-cdn.akamaized.net/espn/media/16x9/wsc/2026/0927/6591ce43-f47e-4065-99d6-354c4e9ed090/6591ce43-f47e-4065-99d6-354c4e9ed090.mp4"
-    },
-    {
-      "url": "https://www.espn.com/video/clip/_/id/50044851/josh-allen-qb-sneak-give-bills-lead",
-      "player": "Josh Allen",
-      "meta": "QB \u00b7 BUF",
-      "date": "2026-09-27",
-      "author": "ESPN",
-      "text": "Josh Allen's QB sneak give the Bills the lead",
-      "verified": true,
-      "faves": 0,
-      "secs": 0,
-      "espn_game": "401872953",
-      "poster": "https://espnmedia-cdn.akamaized.net/espn/media/common/wsc/2026/0927/c51eab2d-1f28-404e-8b16-18b4553daf35/c51eab2d-1f28-404e-8b16-18b4553daf35.jpg",
-      "published": "2026-09-27T19:56:45Z",
-      "video": "https://espnmedia-cdn.akamaized.net/espn/media/16x9/wsc/2026/0927/c51eab2d-1f28-404e-8b16-18b4553daf35/c51eab2d-1f28-404e-8b16-18b4553daf35.mp4"
     }
   ]
 }
