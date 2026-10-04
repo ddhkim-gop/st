@@ -4,6 +4,27 @@
   "note": "Curated: X has no public search API, so posts are collected by hand and matched to rosters by this script.",
   "tweets": [
     {
+      "url": "https://x.com/Colts/status/2106755417246441646",
+      "player": "Tyler Warren",
+      "meta": "TE \u00b7 IND",
+      "date": "2026-10-04",
+      "author": "Colts",
+      "text": "Tyler. Warren.",
+      "verified": true,
+      "faves": 145,
+      "secs": 0,
+      "game_id": "401872965",
+      "game_time": "Q2 7:08",
+      "play_key": "401872965:4018729651551",
+      "played_at": "2026-10-04T14:35:56Z",
+      "poster": "https://pbs.twimg.com/tweet_video_thumb/HTyy2dFXcAAROxz.jpg",
+      "published": "2026-10-04T14:36:47Z",
+      "video": "https://video.twimg.com/tweet_video/HTyy2dFXcAAROxz.mp4",
+      "author_name": "Indianapolis Colts",
+      "avatar": "https://pbs.twimg.com/profile_images/2104936252252307456/2VUJb3Ba_normal.jpg",
+      "author_verified": true
+    },
+    {
       "url": "https://www.espn.com/video/clip/_/id/50049746/bo-nix-reaches-goal-line-go-ahead-td",
       "player": "Bo Nix",
       "meta": "QB \u00b7 DEN",
