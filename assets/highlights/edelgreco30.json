@@ -4,6 +4,25 @@
   "note": "Curated: X has no public search API, so posts are collected by hand and matched to rosters by this script.",
   "tweets": [
     {
+      "url": "https://www.espn.com/video/clip/_/id/50099905/jonathan-taylor-td-run-puts-colts-board",
+      "player": "Jonathan Taylor",
+      "meta": "RB \u00b7 IND",
+      "date": "2026-10-04",
+      "author": "ESPN",
+      "text": "Jonathan Taylor's TD run puts Colts on the board",
+      "verified": true,
+      "faves": 0,
+      "secs": 0,
+      "espn_game": "401872965",
+      "game_id": "401872965",
+      "game_time": "Q2 3:23",
+      "play_key": "401872965:4018729651698",
+      "played_at": "2026-10-04T14:41:13Z",
+      "poster": "https://espnmedia-cdn.akamaized.net/espn/media/common/wsc/2026/1004/158f25b1-fa11-4658-9007-ff799aa58c14/158f25b1-fa11-4658-9007-ff799aa58c14.jpg",
+      "published": "2026-10-04T14:50:23Z",
+      "video": "https://espnmedia-cdn.akamaized.net/espn/media/16x9/wsc/2026/1004/158f25b1-fa11-4658-9007-ff799aa58c14/158f25b1-fa11-4658-9007-ff799aa58c14.mp4"
+    },
+    {
       "url": "https://www.espn.com/video/clip/_/id/50047485/juwan-johnson-2nd-td-puts-saints-ahead",
       "player": "Juwan Johnson",
       "meta": "TE \u00b7 NO",

@@ -735,6 +735,16 @@
   "published": "2026-10-02T01:49:08Z",
   "video": "https://espnmedia-cdn.akamaized.net/espn/media/16x9/wsc/2026/1002/00566164-e841-41c1-9d2c-4cf8f1167ad3/00566164-e841-41c1-9d2c-4cf8f1167ad3.mp4"
  },
+ "https://www.espn.com/video/clip/_/id/50099905/jonathan-taylor-td-run-puts-colts-board": {
+  "espn_game": "401872965",
+  "game_id": "401872965",
+  "game_time": "Q2 3:23",
+  "play_key": "401872965:4018729651698",
+  "played_at": "2026-10-04T14:41:13Z",
+  "poster": "https://espnmedia-cdn.akamaized.net/espn/media/common/wsc/2026/1004/158f25b1-fa11-4658-9007-ff799aa58c14/158f25b1-fa11-4658-9007-ff799aa58c14.jpg",
+  "published": "2026-10-04T14:50:23Z",
+  "video": "https://espnmedia-cdn.akamaized.net/espn/media/16x9/wsc/2026/1004/158f25b1-fa11-4658-9007-ff799aa58c14/158f25b1-fa11-4658-9007-ff799aa58c14.mp4"
+ },
  "https://www.youtube.com/shorts/-9mLHMkLMRw": {
   "poster": "https://i.ytimg.com/vi/-9mLHMkLMRw/hqdefault.jpg",
   "published": "2026-09-21T18:33:52Z",
@@ -1811,6 +1821,16 @@
   "poster": "https://pbs.twimg.com/amplify_video_thumb/2104748402441691136/img/oSGAKFG1Lh2q_S18.jpg",
   "published": "2026-09-29T01:43:19Z",
   "video": "https://video.twimg.com/amplify_video/2104748402441691136/vid/avc1/1080x1920/NmHhO-nKEDutoUr5.mp4"
+ },
+ "https://x.com/NFL/status/2106738075237749012": {
+  "poster": "https://pbs.twimg.com/amplify_video_thumb/2106737948456550402/img/c8zvMOhygplENDCp.jpg",
+  "published": "2026-10-04T13:27:53Z",
+  "video": "https://video.twimg.com/amplify_video/2106737948456550402/vid/avc1/1920x1080/tHwhMJFb64Gz3g6Q.mp4"
+ },
+ "https://x.com/NFL/status/2106743230813388981": {
+  "poster": "https://pbs.twimg.com/amplify_video_thumb/2106743116493447169/img/iHsDNCXc_tRvNj-V.jpg",
+  "published": "2026-10-04T13:48:22Z",
+  "video": "https://video.twimg.com/amplify_video/2106743116493447169/vid/avc1/1920x1080/oSeXcLxNEHNoTlit.mp4"
  },
  "https://x.com/NFLBrasil/status/2093514185812431184": {
   "poster": "https://pbs.twimg.com/amplify_video_thumb/2093514163834269696/img/j7GWyppCmf8GOls3.jpg?name=orig",
