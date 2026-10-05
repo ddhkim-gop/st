@@ -80,23 +80,25 @@
       "video": "https://espnmedia-cdn.akamaized.net/espn/media/16x9/wsc/2026/1004/b1b8bda8-5b9e-4790-a3b5-a9273477295d/b1b8bda8-5b9e-4790-a3b5-a9273477295d.mp4"
     },
     {
-      "url": "https://www.espn.com/video/clip/_/id/50102430/kyle-monangai-extends-bears-lead-rushing-td",
+      "url": "https://www.youtube.com/shorts/_fdjmL6rMnw",
       "player": "Kyle Monangai",
       "meta": "RB \u00b7 CHI",
       "date": "2026-10-04",
-      "author": "ESPN",
-      "text": "Kyle Monangai extends Bears lead with a rushing TD",
+      "author": "ChicagoBears",
+      "text": "You know he had to double it \u203c\ufe0f #touchdown",
       "verified": true,
-      "faves": 0,
-      "secs": 0,
-      "espn_game": "401872972",
+      "faves": 834,
+      "secs": 26,
       "game_id": "401872972",
       "game_time": "Q3 2:26",
       "play_key": "401872972:4018729722969",
       "played_at": "2026-10-04T19:08:35Z",
-      "poster": "https://espnmedia-cdn.akamaized.net/espn/media/common/2026/1004/d080dbe276f74116b712c808caa4d2e81025/d080dbe276f74116b712c808caa4d2e81025.jpg",
-      "published": "2026-10-04T19:31:30Z",
-      "video": "https://espnmedia-cdn.akamaized.net/espn/media/16x9/wsc/2026/1004/d080dbe2-76f7-4116-b712-c808caa4d2e8/d080dbe2-76f7-4116-b712-c808caa4d2e8.mp4"
+      "poster": "https://i.ytimg.com/vi/_fdjmL6rMnw/hqdefault.jpg",
+      "published": "2026-10-04T19:33:41Z",
+      "youtube": "_fdjmL6rMnw",
+      "author_name": "Chicago Bears",
+      "avatar": "",
+      "author_verified": true
     },
     {
       "url": "https://x.com/NFL/status/2106811111043670073",
@@ -217,6 +219,27 @@
       "video": "https://espnmedia-cdn.akamaized.net/espn/media/16x9/wsc/2026/1004/41df2cf3-d1e7-4f67-86e8-02cd73537425/41df2cf3-d1e7-4f67-86e8-02cd73537425.mp4"
     },
     {
+      "url": "https://x.com/Titans/status/2106795220092281013",
+      "player": "Tony Pollard",
+      "meta": "RB \u00b7 TEN",
+      "date": "2026-10-04",
+      "author": "Titans",
+      "text": "Tough run by Tony for the 1st down\n\n\ud83d\udcfa: @NFLonCBS",
+      "verified": true,
+      "faves": 111,
+      "secs": 16,
+      "game_id": "401872973",
+      "game_time": "Q1 9:31",
+      "play_key": "401872973:401872973393",
+      "played_at": "2026-10-04T17:15:31Z",
+      "poster": "https://pbs.twimg.com/amplify_video_thumb/2106795017427693568/img/7jgKigXC0zAqI3fE.jpg",
+      "published": "2026-10-04T17:14:57Z",
+      "video": "https://video.twimg.com/amplify_video/2106795017427693568/vid/avc1/1920x1080/wqsfSiGXYOLndcDV.mp4",
+      "author_name": "Tennessee Titans",
+      "avatar": "",
+      "author_verified": true
+    },
+    {
       "url": "https://www.espn.com/video/clip/_/id/50081188/deshaun-watson-zips-pass-harold-fannin-jr-browns-td",
       "player": "Harold Fannin",
       "meta": "TE \u00b7 CLE",
@@ -234,27 +257,6 @@
       "poster": "https://espnmedia-cdn.akamaized.net/espn/media/common/2026/1001/00566164e84141c19d2c4cf8f1167ad31438/00566164e84141c19d2c4cf8f1167ad31438.jpg",
       "published": "2026-10-02T01:49:08Z",
       "video": "https://espnmedia-cdn.akamaized.net/espn/media/16x9/wsc/2026/1002/00566164-e841-41c1-9d2c-4cf8f1167ad3/00566164-e841-41c1-9d2c-4cf8f1167ad3.mp4"
-    },
-    {
-      "url": "https://x.com/ChicagoBears/status/2104764525496950879",
-      "player": "Kyle Monangai",
-      "meta": "RB \u00b7 CHI",
-      "date": "2026-09-29",
-      "author": "ChicagoBears",
-      "text": "Kyle Monangai rocks",
-      "verified": true,
-      "faves": 3094,
-      "secs": 4,
-      "game_id": "401872963",
-      "game_time": "Q4 10:31",
-      "play_key": "401872963:4018729633360",
-      "played_at": "2026-09-29T02:45:05Z",
-      "poster": "https://pbs.twimg.com/amplify_video_thumb/2104764410166116352/img/qBiIrGTOpRnMntqL.jpg",
-      "published": "2026-09-29T02:45:42Z",
-      "video": "https://video.twimg.com/amplify_video/2104764410166116352/vid/avc1/1920x1080/eWoRvnFhAlqxb2Op.mp4",
-      "author_name": "Chicago Bears",
-      "avatar": "https://pbs.twimg.com/profile_images/2095215291395665920/hTWEqaly_normal.jpg",
-      "author_verified": true
     }
   ]
 }

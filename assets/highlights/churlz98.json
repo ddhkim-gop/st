@@ -4,6 +4,27 @@
   "note": "Curated: X has no public search API, so posts are collected by hand and matched to rosters by this script.",
   "tweets": [
     {
+      "url": "https://www.youtube.com/shorts/aVMbI1MTOmM",
+      "player": "Brock Purdy",
+      "meta": "QB \u00b7 SF",
+      "date": "2026-10-04",
+      "author": "49ers",
+      "text": "NO ONE WAS STOPPING KITTLE",
+      "verified": true,
+      "faves": 4444,
+      "secs": 22,
+      "game_id": "401872975",
+      "game_time": "Q4 2:15",
+      "play_key": "401872975:4018729754020",
+      "played_at": "2026-10-04T23:18:50Z",
+      "poster": "https://i.ytimg.com/vi/aVMbI1MTOmM/hqdefault.jpg",
+      "published": "2026-10-04T23:25:09Z",
+      "youtube": "aVMbI1MTOmM",
+      "author_name": "San Francisco 49ers",
+      "avatar": "",
+      "author_verified": true
+    },
+    {
       "url": "https://www.espn.com/video/clip/_/id/50104830/brock-purdy-finds-open-deebo-samuel-49ers-td",
       "player": "Brock Purdy",
       "meta": "QB \u00b7 SF",
@@ -101,23 +122,25 @@
       "author_verified": true
     },
     {
-      "url": "https://www.espn.com/video/clip/_/id/50102193/cj-stroud-finds-nico-collins-again-texans-td",
+      "url": "https://x.com/HoustonTexans/status/2106819840832868434",
       "player": "Nico Collins",
       "meta": "WR \u00b7 HOU",
       "date": "2026-10-04",
-      "author": "ESPN",
-      "text": "C.J. Stroud finds Nico Collins again for a Texans TD",
+      "author": "HoustonTexans",
+      "text": "1 and 2 gotta equal 6 somewhere\n\n\ud83d\udcfa: @nflonfox",
       "verified": true,
-      "faves": 0,
-      "secs": 0,
-      "espn_game": "401872967",
+      "faves": 341,
+      "secs": 15,
       "game_id": "401872967",
       "game_time": "Q3 10:50",
       "play_key": "401872967:4018729672421",
       "played_at": "2026-10-04T18:51:27Z",
-      "poster": "https://espnmedia-cdn.akamaized.net/espn/media/common/wsc/2026/1004/5fe8a836-cb62-4d25-9733-86f8cbfa011a/5fe8a836-cb62-4d25-9733-86f8cbfa011a.jpg",
-      "published": "2026-10-04T19:06:54Z",
-      "video": "https://espnmedia-cdn.akamaized.net/espn/media/16x9/wsc/2026/1004/5fe8a836-cb62-4d25-9733-86f8cbfa011a/5fe8a836-cb62-4d25-9733-86f8cbfa011a.mp4"
+      "poster": "https://pbs.twimg.com/amplify_video_thumb/2106819682464350208/img/JAw4v6CbXob2IWC6.jpg",
+      "published": "2026-10-04T18:52:47Z",
+      "video": "https://video.twimg.com/amplify_video/2106819682464350208/vid/avc1/1920x1080/peMnjdjZl9vv3gIk.mp4",
+      "author_name": "Houston Texans",
+      "avatar": "",
+      "author_verified": true
     },
     {
       "url": "https://x.com/NFL/status/2106794041161527653",
@@ -138,23 +161,6 @@
       "video": "https://video.twimg.com/amplify_video/2106793899486265344/vid/avc1/1920x1080/bnZ87ISoHDdcSPSK.mp4",
       "author_name": "NFL",
       "avatar": "https://pbs.twimg.com/profile_images/1619895559334273028/PHKS_mjX_normal.jpg",
-      "author_verified": true
-    },
-    {
-      "url": "https://www.youtube.com/shorts/1X1a1EBiPFg",
-      "player": "Nico Collins",
-      "meta": "WR \u00b7 HOU",
-      "date": "2026-09-30",
-      "author": "HoustonTexans",
-      "text": "Nico Collins Just WALTZES In For Six \ud83d\udd7a",
-      "verified": false,
-      "faves": 88,
-      "secs": 25,
-      "poster": "https://i.ytimg.com/vi/1X1a1EBiPFg/hqdefault.jpg",
-      "published": "2026-09-30T22:31:44Z",
-      "youtube": "1X1a1EBiPFg",
-      "author_name": "Houston Texans",
-      "avatar": "https://pbs.twimg.com/profile_images/2099498945441677312/sTVLN3iG_normal.jpg",
       "author_verified": true
     }
   ]

@@ -156,27 +156,6 @@
       "video": "https://espnmedia-cdn.akamaized.net/espn/media/16x9/wsc/2026/1004/d79c9dfb-4d1e-4083-a7af-97f28ecff382/d79c9dfb-4d1e-4083-a7af-97f28ecff382.mp4"
     },
     {
-      "url": "https://x.com/Patriots/status/2106805217492619497",
-      "player": "Drake Maye",
-      "meta": "QB \u00b7 NE",
-      "date": "2026-10-04",
-      "author": "Patriots",
-      "text": "Big gain by @DrakeMaye2 \n\n\ud83d\udcfa CBS",
-      "verified": true,
-      "faves": 798,
-      "secs": 14,
-      "game_id": "401872971",
-      "game_time": "Q2 8:21",
-      "play_key": "401872971:4018729711405",
-      "played_at": "2026-10-04T17:50:35Z",
-      "poster": "https://pbs.twimg.com/amplify_video_thumb/2106805153022029824/img/lM4Vu42KEX3rPKdH.jpg",
-      "published": "2026-10-04T17:54:41Z",
-      "video": "https://video.twimg.com/amplify_video/2106805153022029824/vid/avc1/1920x1080/wx3eFM0u4MI5RAl5.mp4",
-      "author_name": "New England Patriots",
-      "avatar": "https://pbs.twimg.com/profile_images/1996611183541932032/lhq26XX7_normal.jpg",
-      "author_verified": true
-    },
-    {
       "url": "https://x.com/NFL/status/2106801789333037552",
       "player": "Ja'Marr Chase",
       "meta": "WR \u00b7 CIN",
@@ -215,7 +194,7 @@
       "published": "2026-10-04T17:15:05Z",
       "video": "https://video.twimg.com/amplify_video/2106795154271035393/vid/avc1/1920x1080/eFhxqU9hrOwYmy-k.mp4",
       "author_name": "New England Patriots",
-      "avatar": "https://pbs.twimg.com/profile_images/1996611183541932032/lhq26XX7_normal.jpg",
+      "avatar": "",
       "author_verified": true
     },
     {
@@ -236,27 +215,6 @@
       "poster": "https://espnmedia-cdn.akamaized.net/espn/media/common/wsc/2026/1004/2ecfae28-1265-4627-9e39-2ad36f3cf251/2ecfae28-1265-4627-9e39-2ad36f3cf251.jpg",
       "published": "2026-10-04T17:36:01Z",
       "video": "https://espnmedia-cdn.akamaized.net/espn/media/16x9/wsc/2026/1004/2ecfae28-1265-4627-9e39-2ad36f3cf251/2ecfae28-1265-4627-9e39-2ad36f3cf251.mp4"
-    },
-    {
-      "url": "https://x.com/Colts/status/2106755417246441646",
-      "player": "Tyler Warren",
-      "meta": "TE \u00b7 IND",
-      "date": "2026-10-04",
-      "author": "Colts",
-      "text": "Tyler. Warren.",
-      "verified": true,
-      "faves": 154,
-      "secs": 0,
-      "game_id": "401872965",
-      "game_time": "Q2 7:08",
-      "play_key": "401872965:4018729651551",
-      "played_at": "2026-10-04T14:35:56Z",
-      "poster": "https://pbs.twimg.com/tweet_video_thumb/HTyy2dFXcAAROxz.jpg",
-      "published": "2026-10-04T14:36:47Z",
-      "video": "https://video.twimg.com/tweet_video/HTyy2dFXcAAROxz.mp4",
-      "author_name": "Indianapolis Colts",
-      "avatar": "https://pbs.twimg.com/profile_images/2104936252252307456/2VUJb3Ba_normal.jpg",
-      "author_verified": true
     },
     {
       "url": "https://www.espn.com/video/clip/_/id/50049746/bo-nix-reaches-goal-line-go-ahead-td",

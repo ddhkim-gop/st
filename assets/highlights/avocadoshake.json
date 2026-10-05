@@ -23,6 +23,48 @@
       "video": "https://espnmedia-cdn.akamaized.net/espn/media/16x9/wsc/2026/1005/2bc63f89-850b-43b9-9c6b-6807609f70b1/2bc63f89-850b-43b9-9c6b-6807609f70b1.mp4"
     },
     {
+      "url": "https://www.youtube.com/shorts/oWLJRu40mM8",
+      "player": "Brock Bowers & Kirk Cousins",
+      "meta": "TE \u00b7 LV",
+      "date": "2026-10-04",
+      "author": "Raiders",
+      "text": "Kirko avoids the rush + dots Brock for TD!",
+      "verified": true,
+      "faves": 1522,
+      "secs": 17,
+      "game_id": "401872976",
+      "game_time": "Q4 1:46",
+      "play_key": "401872976:4018729764092",
+      "played_at": "2026-10-04T23:27:33Z",
+      "poster": "https://i.ytimg.com/vi/oWLJRu40mM8/hqdefault.jpg",
+      "published": "2026-10-04T23:41:55Z",
+      "youtube": "oWLJRu40mM8",
+      "author_name": "Raiders",
+      "avatar": "",
+      "author_verified": true
+    },
+    {
+      "url": "https://www.youtube.com/shorts/bY3hSbjueho",
+      "player": "Jordan Addison",
+      "meta": "WR \u00b7 MIN",
+      "date": "2026-10-04",
+      "author": "Vikings",
+      "text": "Jordan Addison makes the play for 27-yard gain \ud83d\udcaa | \ud83d\udcfa: NFL on FOX",
+      "verified": true,
+      "faves": 268,
+      "secs": 12,
+      "game_id": "401872974",
+      "game_time": "Q4 4:22",
+      "play_key": "401872974:4018729743792",
+      "played_at": "2026-10-04T22:47:56Z",
+      "poster": "https://i.ytimg.com/vi/bY3hSbjueho/hqdefault.jpg",
+      "published": "2026-10-04T22:56:43Z",
+      "youtube": "bY3hSbjueho",
+      "author_name": "Minnesota Vikings",
+      "avatar": "",
+      "author_verified": true
+    },
+    {
       "url": "https://www.espn.com/video/clip/_/id/50104750/ollie-gordon-ii-maneuvers-vikings-defense-dolphins-td",
       "player": "Ollie Gordon",
       "meta": "RB \u00b7 MIA",
@@ -156,6 +198,23 @@
       "poster": "https://espnmedia-cdn.akamaized.net/espn/media/common/2026/0928/6b4fe8cb4db747e4ba680086e36a75591243/6b4fe8cb4db747e4ba680086e36a75591243.jpg",
       "published": "2026-09-29T00:36:48Z",
       "video": "https://espnmedia-cdn.akamaized.net/espn/media/16x9/wsc/2026/0929/6b4fe8cb-4db7-47e4-ba68-0086e36a7559/6b4fe8cb-4db7-47e4-ba68-0086e36a7559.mp4"
+    },
+    {
+      "url": "https://x.com/NFL/status/2106858382653317557",
+      "player": "Jordan Addison",
+      "meta": "WR \u00b7 MIN",
+      "date": "2026-10-04",
+      "author": "NFL",
+      "text": "Jordan Addison makes it look easy down the sideline \ud83d\udc40\n\nMIAvsMIN on FOX/FOX One\nStream on @NFLPlus",
+      "verified": false,
+      "faves": 118,
+      "secs": 11,
+      "poster": "https://pbs.twimg.com/amplify_video_thumb/2106858260418732032/img/gRUXMDgWZnhsC-5r.jpg",
+      "published": "2026-10-04T21:25:56Z",
+      "video": "https://video.twimg.com/amplify_video/2106858260418732032/vid/avc1/1920x1080/_zdkZ9R8Orwg7ewU.mp4",
+      "author_name": "NFL",
+      "avatar": "https://pbs.twimg.com/profile_images/1619895559334273028/PHKS_mjX_normal.jpg",
+      "author_verified": true
     }
   ]
 }

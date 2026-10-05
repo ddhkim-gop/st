@@ -70,7 +70,7 @@
   "verified": true
  },
  "Buccaneers": {
-  "avatar": "https://pbs.twimg.com/profile_images/2037618478622887936/e0YeskTe_normal.png",
+  "avatar": "",
   "name": "Tampa Bay Buccaneers",
   "verified": true
  },
@@ -90,8 +90,13 @@
   "verified": true
  },
  "ChicagoBears": {
-  "avatar": "https://pbs.twimg.com/profile_images/2095215291395665920/hTWEqaly_normal.jpg",
+  "avatar": "",
   "name": "Chicago Bears",
+  "verified": true
+ },
+ "Chiefs": {
+  "avatar": "https://pbs.twimg.com/profile_images/2007106813859184640/FWg8XWsT_normal.jpg",
+  "name": "Kansas City Chiefs",
   "verified": true
  },
  "ClutchPoints": {
@@ -175,7 +180,7 @@
   "verified": true
  },
  "HoustonTexans": {
-  "avatar": "https://pbs.twimg.com/profile_images/2099498945441677312/sTVLN3iG_normal.jpg",
+  "avatar": "",
   "name": "Houston Texans",
   "verified": true
  },
@@ -265,7 +270,7 @@
   "verified": false
  },
  "Patriots": {
-  "avatar": "https://pbs.twimg.com/profile_images/1996611183541932032/lhq26XX7_normal.jpg",
+  "avatar": "",
   "name": "New England Patriots",
   "verified": true
  },
@@ -310,7 +315,7 @@
   "verified": true
  },
  "Titans": {
-  "avatar": "https://pbs.twimg.com/profile_images/2093190077832654850/UOW9XTq4_normal.jpg",
+  "avatar": "",
   "name": "Tennessee Titans",
   "verified": true
  },
@@ -322,6 +327,11 @@
  "WUTangKids": {
   "avatar": "https://pbs.twimg.com/profile_images/1961839346757029888/cw19Lahm_x96.jpg",
   "name": "Wu Tang is for the Children",
+  "verified": true
+ },
+ "chargers": {
+  "avatar": "",
+  "name": "Los Angeles Chargers",
   "verified": true
  },
  "dallascowboys": {
@@ -347,6 +357,11 @@
  "nyjets": {
   "avatar": "",
   "name": "New York Jets",
+  "verified": true
+ },
+ "packers": {
+  "avatar": "",
+  "name": "Green Bay Packers",
   "verified": true
  }
 }
