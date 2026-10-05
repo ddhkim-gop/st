@@ -271,6 +271,57 @@ def inject_section(content, key, new_json):
     return new_content, changed
 
 # ── Main ──────────────────────────────────────────────────────────────────────
+# ── This season's matchups ────────────────────────────────────────────────────
+def refresh_matchups(league_id, rid_to_name, players):
+    """Write data/<CURRENT_YEAR>/matchups.json - week -> [{matchup_id, teams:
+    [{owner, roster_id, points, starters}]}], the same shape as earlier seasons'
+    files - for every week that has started (any points scored), so the
+    matchups pages show this season as it's played. Returns True if it changed.
+    A failed fetch leaves the file alone rather than writing a partial season."""
+    import os
+    out = {}
+    for wk in range(1, 19):
+        ms = fetch(f"https://api.sleeper.app/v1/league/{league_id}/matchups/{wk}")
+        if ms is None:
+            print(f"  matchups: week {wk} fetch failed; file left as is")
+            return False
+        if not any((m.get("points") or 0) > 0 for m in ms):
+            break                               # weeks run in order: not started yet
+        by_mid = {}
+        for m in ms:
+            ids = m.get("starters") or []
+            pts = m.get("starters_points") or []
+            starters = []
+            for i, pid in enumerate(ids):
+                if not pid or pid == "0":
+                    continue
+                p = players.get(str(pid), {})
+                starters.append({
+                    "player_id": str(pid),
+                    "name": p.get("full_name") or (p.get("first_name", "") + " " + p.get("last_name", "")).strip(),
+                    "position": p.get("position"), "nfl_team": p.get("team"),
+                    "points": pts[i] if i < len(pts) else None,
+                })
+            by_mid.setdefault(m.get("matchup_id"), []).append({
+                "owner": rid_to_name.get(m["roster_id"], "Unknown"),
+                "roster_id": m["roster_id"], "points": m.get("points"), "starters": starters,
+            })
+        out[str(wk)] = [{"matchup_id": mid, "teams": teams} for mid, teams in
+                        sorted(by_mid.items(), key=lambda kv: (kv[0] is None, kv[0] or 0))]
+    path = f"data/{CURRENT_YEAR}/matchups.json"
+    new = json.dumps(out)
+    try:
+        with open(path) as f:
+            if f.read() == new:
+                return False
+    except FileNotFoundError:
+        pass
+    os.makedirs(os.path.dirname(path), exist_ok=True)
+    with open(path, "w") as f:
+        f.write(new)
+    print(f"  matchups: wrote weeks {', '.join(out) or 'none'}")
+    return True
+
 def main():
     print("Loading players...")
     players = load_players()
@@ -301,6 +352,9 @@ def main():
     print("Building enriched rosters...")
     rosters = build_rosters(rosters_raw, rid_to_name, players)
 
+    print("Refreshing this season's matchups...")
+    mu_changed = refresh_matchups(CURRENT_LEAGUE, rid_to_name, players)
+
     print("Fetching traded picks...")
     traded_picks_raw = fetch(f"https://api.sleeper.app/v1/league/{CURRENT_LEAGUE}/traded_picks") or []
     traded_picks = []
@@ -327,6 +381,9 @@ def main():
     new_content = "window.__STATIC_DATA__ = " + json.dumps(data, indent=2, ensure_ascii=False) + ";\n"
 
     if new_content == content:
+        if mu_changed:
+            print("Updated: matchups")
+            sys.exit(0)   # signal to workflow: commit needed
         print("No changes detected.")
         sys.exit(1)   # signal to workflow: nothing to commit
 

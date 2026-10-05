@@ -10,6 +10,8 @@ jobs:
     runs-on: ubuntu-latest
     permissions:
       contents: write
+    outputs:
+      changed: ${{ steps.commit.outputs.changed }}
 
     steps:
       - name: Checkout repo
@@ -36,10 +38,43 @@ jobs:
         continue-on-error: true   # exit code 1 = no changes (not an error)
 
       - name: Commit and push if data changed
+        id: commit
         if: steps.refresh.outcome == 'success' && steps.refresh.conclusion == 'success'
         run: |
           git config user.name  "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add data.js *.html
-          git diff --cached --quiet || git commit -m "Auto-refresh: update transactions and rosters"
-          git push
+          git add data.js *.html data
+          if git diff --cached --quiet; then
+            echo "changed=false" >> "$GITHUB_OUTPUT"
+          else
+            git commit -m "Auto-refresh: update transactions and rosters"
+            git push
+            echo "changed=true" >> "$GITHUB_OUTPUT"
+          fi
+
+  # Deploy in-run: a push made with GITHUB_TOKEN can't trigger deploy.yml, so
+  # without this the refreshed data waited for the next push from the Mac.
+  deploy:
+    needs: refresh
+    if: needs.refresh.outputs.changed == 'true'
+    runs-on: ubuntu-latest
+    permissions:
+      pages: write
+      id-token: write
+    concurrency:
+      group: pages
+      cancel-in-progress: false
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      # ref: main, not the triggering SHA - that predates the refresh job's push.
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+      - uses: actions/configure-pages@v4
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: '.'
+      - uses: actions/deploy-pages@v4
+        id: deployment
