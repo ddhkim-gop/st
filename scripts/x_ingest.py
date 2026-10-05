@@ -198,6 +198,35 @@ def other_first_name(text: str, name: str) -> bool:
     return False
 
 
+# What team accounts call a player instead of his name ("CMC finds his way 💪").
+NICKNAMES = {"cmc": "Christian McCaffrey", "arsb": "Amon-Ra St. Brown",
+             "jsn": "Jaxon Smith-Njigba", "ajb": "A.J. Brown"}
+
+
+# First names that are everyday words ("this WILL be fun", "the CHASE is on").
+_WORD_NAMES = {"will", "mark", "chase", "grant", "hunter", "miles", "frank", "drew",
+               "rich", "king", "sage", "chance", "major", "price", "trey"}
+
+
+def team_short_names(text: str, union: list[str], team_of: dict, team: str) -> list[str]:
+    """Rostered players a team account names by nickname, or by a first name
+    ("TYQUAN TD!!!", "TD THEOOO") that no other rostered player on that team
+    shares. Only a play that player actually made can then be matched."""
+    t = text.lower()
+    out = [n for k, n in NICKNAMES.items() if n in union and re.search(rf"\b{k}\b", t)]
+    mine = [n for n in union if E._team(team_of.get(n)) == E._team(team)]
+    firsts: dict[str, list[str]] = {}
+    for n in mine:
+        f = n.split()[0].lower().rstrip(".")
+        if len(f) >= 4:
+            firsts.setdefault(f, []).append(n)
+    for f, ns in firsts.items():
+        if len(ns) == 1 and f not in _WORD_NAMES and \
+                re.search(rf"\b{re.escape(f)}{re.escape(f[-1])}*\b", t):   # THEOOO
+            out.append(ns[0])
+    return out
+
+
 def name_only(text: str, names: list[str]) -> bool:
     """A post that is the player's name and little else ("LUTHER BURDEN
     😤😤"): once the names, tags and emoji are gone, two words or fewer."""
@@ -207,6 +236,55 @@ def name_only(text: str, names: list[str]) -> bool:
             t = re.sub(rf"\b{re.escape(part)}\b", " ", t, flags=re.I)
     return len(t.split()) <= 2
 
+
+FOOTAGE = Path.home() / "Library" / "Caches" / "fantasy-football" / "footage.json"
+
+
+def field_share(src: str) -> list[float] | None:
+    """Share of each sampled frame (one a second) that looks like a football
+    field. None if the video couldn't be read."""
+    import colorsys
+    import subprocess
+    try:
+        r = subprocess.run(["ffmpeg", "-loglevel", "error", "-i", src, "-vf", "fps=1,scale=48:48",
+                            "-f", "rawvideo", "-pix_fmt", "rgb24", "-"],
+                           capture_output=True, timeout=180, stdin=subprocess.DEVNULL)
+    except Exception:
+        return None
+    b, fs = r.stdout, 48 * 48 * 3
+    if r.returncode or len(b) < fs:
+        return None
+    out = []
+    for i in range(0, len(b) - fs + 1, fs):
+        g = 0
+        for j in range(i, i + fs, 3):
+            h, s, v = colorsys.rgb_to_hsv(b[j] / 255, b[j + 1] / 255, b[j + 2] / 255)
+            # Any turf green, washed-out included (MetLife's reads gray-green).
+            # A green team graphic (Jets "FG") can pass; a dropped play is worse.
+            g += 0.15 <= h <= 0.5 and s >= 0.12 and 0.15 <= v <= 0.9
+        out.append(g / (48 * 48))
+    return out
+
+
+def has_footage(p: dict, cache: dict) -> bool:
+    """False for a team's graphic - "TOUCHDOWN / THORNTON" title cards, a
+    "FIRST DOWN" bumper, a posted fit pic - which shows no field in any frame.
+    A play shows the field for seconds. X posts only: their mp4s download
+    directly, while reading a Short's frames takes a YouTube request per video
+    (300 in a row got this Mac bot-checked, 2026-10-04) and a vertical crop
+    hides most of the field. Verdicts are cached per post; one that can't be
+    read is let through and tried again next run."""
+    key = p["url"]
+    if p.get("youtube") or not p.get("video"):
+        return True
+    if key in cache:
+        return cache[key]
+    shares = field_share(p["video"])
+    if shares is None:
+        return True
+    cache[key] = sum(s >= 0.08 for s in shares) >= 2
+    FOOTAGE.write_text(json.dumps(cache))     # saved as it goes: a first pass is slow
+    return cache[key]
 
 def main() -> int:
     ap = argparse.ArgumentParser()
@@ -224,6 +302,7 @@ def main() -> int:
 
     oe, mc, vc = _load(OEMBED, {}), _load(MEDIA, {}), _load(VIDEO, {})
     rv, authors = _load(REVIEWED, {}), _load(AUTHORS, {})
+    footage = _load(FOOTAGE, {})
     keep, reject = rv.setdefault("keep", {}), rv.get("reject", {})
     pool = {u for u in POOL.read_text().split() if u.startswith("http")} \
         if POOL.exists() else set()     # URLs only, never stray words
@@ -235,7 +314,8 @@ def main() -> int:
         url, text, at = p["url"], p["text"], _ts(p["created"])
         if at < since or url in reject or E.NEGATIVE_RE.search(text):
             continue
-        who = sorted(set(n for n in union if mentions(text, n)) | set(handle_names(text, union)))
+        who = sorted(set(n for n in union if mentions(text, n)) | set(handle_names(text, union))
+                     | (set(team_short_names(text, union, team_of, p["team"])) if p.get("team") else set()))
         if p.get("team"):                   # a team account posts its own players
             who = [n for n in who if E._team(team_of.get(n)) == E._team(p["team"])]
         who = [n for n in who if not other_first_name(text, n)]
@@ -252,8 +332,11 @@ def main() -> int:
                 # player's TD is safe to pin that far back, not "his last snap".
                 # ...and only when the Short says TD or is little but his name
                 # ("Aaron Jones Sr. 🤝 Antoine Winfield Jr." is not a play).
+                # Otherwise a Short of him within 20 min of his own TD is that TD
+                # (49ers "CMC finds his way 💪", 11 min after his score).
                 pl = ((named_td_before(summ, who, at, minutes=45)
-                       if (TD_CUE.search(text) or name_only(text, who)) else None) if yt else
+                       if (TD_CUE.search(text) or name_only(text, who))
+                       else named_td_before(summ, who, at, minutes=20)) if yt else
                       named_td_before(summ, who, at) or latest_play_naming(summ, who, at))
                 if pl:
                     loc = {"played_at": pl["wall"], "game_time": f"Q{pl['q']} {pl['clock']}",
@@ -282,7 +365,7 @@ def main() -> int:
                      # teammate the post did not name is not added.
                      if n in who or n.split()[-1].lower() not in named_last]
             who = sorted(set(who) | set(extra))
-        if not who:
+        if not who or not has_footage(p, footage):
             continue
         accepted.add(url)
         added += url not in pool
@@ -325,6 +408,7 @@ def main() -> int:
     # A stale auto-approval whose credit changed is rewritten, not kept.
     print(f"x_ingest: {len(posts)} collected, {added} new to this league, "
           f"{approved} tied to a play and approved, {dropped} withdrawn")
+    FOOTAGE.write_text(json.dumps(footage))      # shared by all leagues
     if a.dry_run:
         return 0
     for path, val in ((OEMBED, oe), (MEDIA, mc), (VIDEO, vc), (AUTHORS, authors)):
