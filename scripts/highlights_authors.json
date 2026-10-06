@@ -25,7 +25,7 @@
   "verified": true
  },
  "AtlantaFalcons": {
-  "avatar": "",
+  "avatar": "https://pbs.twimg.com/profile_images/2039704474856591360/3n5HH7xI_normal.jpg",
   "name": "Atlanta Falcons",
   "verified": true
  },
@@ -292,6 +292,11 @@
  "Ravens": {
   "avatar": "https://pbs.twimg.com/profile_images/1994466436266225664/05ma1sy0_normal.jpg",
   "name": "Baltimore Ravens",
+  "verified": true
+ },
+ "Saints": {
+  "avatar": "https://pbs.twimg.com/profile_images/2056742674477035520/4azt0iTz_normal.jpg",
+  "name": "New Orleans Saints",
   "verified": true
  },
  "Seahawks": {

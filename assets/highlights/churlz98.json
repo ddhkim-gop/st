@@ -4,6 +4,25 @@
   "note": "Curated: X has no public search API, so posts are collected by hand and matched to rosters by this script.",
   "tweets": [
     {
+      "url": "https://www.espn.com/video/clip/_/id/50113625/bijan-robinson-powers-goal-line-2nd-td",
+      "player": "Bijan Robinson",
+      "meta": "RB \u00b7 ATL",
+      "date": "2026-10-06",
+      "author": "ESPN",
+      "text": "Bijan Robinson powers across the goal line for his 2nd TD",
+      "verified": true,
+      "faves": 0,
+      "secs": 0,
+      "espn_game": "401872979",
+      "game_id": "401872979",
+      "game_time": "Q1 0:48",
+      "play_key": "401872979:4018729791144",
+      "played_at": "2026-10-06T01:04:40Z",
+      "poster": "https://espnmedia-cdn.akamaized.net/espn/media/common/2026/1005/f4d9234656cd48a798567746bc868fc51287/f4d9234656cd48a798567746bc868fc51287.jpg",
+      "published": "2026-10-06T01:14:04Z",
+      "video": "https://espnmedia-cdn.akamaized.net/espn/media/16x9/wsc/2026/1006/f4d92346-56cd-48a7-9856-7746bc868fc5/f4d92346-56cd-48a7-9856-7746bc868fc5.mp4"
+    },
+    {
       "url": "https://www.espn.com/video/clip/_/id/50113279/bijan-robinson-breaks-free-opening-drive-59-yard-falcons-td",
       "player": "Bijan Robinson",
       "meta": "RB \u00b7 ATL",

@@ -4,6 +4,27 @@
   "note": "Curated: X has no public search API, so posts are collected by hand and matched to rosters by this script.",
   "tweets": [
     {
+      "url": "https://x.com/NFL/status/2107271235738673308",
+      "player": "Juwan Johnson",
+      "meta": "TE \u00b7 NO",
+      "date": "2026-10-06",
+      "author": "NFL",
+      "text": "Tyler Shough absorbs the pressure and finds Juwan Johnson for 23!\n\n@ATLvsNO on ESPN\u2028Stream on @NFLPlus",
+      "verified": true,
+      "faves": 352,
+      "secs": 10,
+      "game_id": "401872979",
+      "game_time": "Q1 9:19",
+      "play_key": "401872979:401872979599",
+      "played_at": "2026-10-06T00:45:13Z",
+      "poster": "https://pbs.twimg.com/amplify_video_thumb/2107271085972680704/img/X3Iw_A3RU3gOxC9u.jpg",
+      "published": "2026-10-06T00:46:28Z",
+      "video": "https://video.twimg.com/amplify_video/2107271085972680704/vid/avc1/1920x1080/lx1UbTxubl-HPuzp.mp4",
+      "author_name": "NFL",
+      "avatar": "https://pbs.twimg.com/profile_images/1619895559334273028/PHKS_mjX_normal.jpg",
+      "author_verified": true
+    },
+    {
       "url": "https://www.espn.com/video/clip/_/id/50107212/tetairoa-mcmillan-tightropes-sideline-spectacular-grab",
       "player": "Tetairoa McMillan",
       "meta": "WR \u00b7 CAR",
