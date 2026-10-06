@@ -1,6 +1,6 @@
 {
   "team": "ochen07",
-  "updated": "2026-10-05",
+  "updated": "2026-10-06",
   "note": "Curated: X has no public search API, so posts are collected by hand and matched to rosters by this script.",
   "tweets": [
     {
@@ -306,27 +306,6 @@
       "video": "https://video.twimg.com/amplify_video/2104742681528455168/vid/avc1/1920x1080/WW7tIPzVFXaHWVqT.mp4",
       "author_name": "NFL",
       "avatar": "https://pbs.twimg.com/profile_images/1619895559334273028/PHKS_mjX_normal.jpg",
-      "author_verified": true
-    },
-    {
-      "url": "https://x.com/RamsNFL/status/2104409615807234538",
-      "player": "Davante Adams",
-      "meta": "WR \u00b7 LAR",
-      "date": "2026-09-28",
-      "author": "RamsNFL",
-      "text": "THERE HE GOES! Davante Adams with the YAC!\n\n\ud83d\udcfa @SNFonNBC | #RamsHouse",
-      "verified": true,
-      "faves": 334,
-      "secs": 12,
-      "game_id": "401872962",
-      "game_time": "Q4 7:03",
-      "play_key": "401872962:4018729624029",
-      "played_at": "2026-09-28T03:14:00Z",
-      "poster": "https://pbs.twimg.com/amplify_video_thumb/2104409477755850753/img/3NxtDe2WcHUEUR_g.jpg",
-      "published": "2026-09-28T03:15:25Z",
-      "video": "https://video.twimg.com/amplify_video/2104409477755850753/vid/avc1/1920x1080/8gNUHFLSt7g3VFus.mp4",
-      "author_name": "Los Angeles Rams",
-      "avatar": "https://pbs.twimg.com/profile_images/2104444829946298368/wtL-vYYo_normal.jpg",
       "author_verified": true
     },
     {

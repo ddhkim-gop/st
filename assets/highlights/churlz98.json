@@ -1,8 +1,27 @@
 {
   "team": "churlz98",
-  "updated": "2026-10-05",
+  "updated": "2026-10-06",
   "note": "Curated: X has no public search API, so posts are collected by hand and matched to rosters by this script.",
   "tweets": [
+    {
+      "url": "https://www.espn.com/video/clip/_/id/50113279/bijan-robinson-breaks-free-opening-drive-59-yard-falcons-td",
+      "player": "Bijan Robinson",
+      "meta": "RB \u00b7 ATL",
+      "date": "2026-10-06",
+      "author": "ESPN",
+      "text": "Bijan Robinson breaks free for an opening drive 59-yard Falcons TD",
+      "verified": true,
+      "faves": 0,
+      "secs": 0,
+      "espn_game": "401872979",
+      "game_id": "401872979",
+      "game_time": "Q1 13:34",
+      "play_key": "401872979:401872979110",
+      "played_at": "2026-10-06T00:19:22Z",
+      "poster": "https://espnmedia-cdn.akamaized.net/espn/media/common/2026/1005/1c5ae591391b472f802a912543ef9bb71239/1c5ae591391b472f802a912543ef9bb71239.jpg",
+      "published": "2026-10-06T00:27:20Z",
+      "video": "https://espnmedia-cdn.akamaized.net/espn/media/16x9/wsc/2026/1006/1c5ae591-391b-472f-802a-912543ef9bb7/1c5ae591-391b-472f-802a-912543ef9bb7.mp4"
+    },
     {
       "url": "https://www.youtube.com/shorts/aVMbI1MTOmM",
       "player": "Brock Purdy",
