@@ -220,8 +220,6 @@
   "https://www.espn.com/video/clip/_/id/50049686/matthew-stafford-airs-konata-mumpfield-48-yard-td": "Matthew Stafford - Matthew Stafford airs it out to Konata Mumpfield for a 48-yard TD (auto: ESPN)",
   "https://www.espn.com/video/clip/_/id/50049746/bo-nix-reaches-goal-line-go-ahead-td": "Bo Nix - Bo Nix reaches across the goal line for the go-ahead TD (auto: ESPN)",
   "https://www.espn.com/video/clip/_/id/50045971/evans-pulls-some-sweet-trickery-lateral-samuel-80-yard-td": "Brock Purdy - Evans pulls off some sweet trickery with a lateral to Samuel for an 80-yard TD (auto: ESPN)",
-  "https://x.com/RamsNFL/status/2104409615807234538": "Davante Adams - THERE HE GOES! Davante Adams with the YAC!\n\n📺 @SNFonNBC | #RamsHouse (auto: X)",
-  "https://x.com/RamsNFL/status/2104411790633492636": "Matthew Stafford - MATTHEW STAFFORD TO KONATA FOR THE TOUCHDOWN! 🙌\n\n📺 @SNFonNBC | #RamsHouse (auto: X)",
   "https://x.com/NFL/status/2104729493122498971": "Luther Burden - LUTHER BURDEN III TOUCHDOWN ON THE OPENING DRIVE!\n\n@PHIvsCHI on ESPN\nStream on @NFLPlus (auto: X)",
   "https://x.com/NFL/status/2104742992338964663": "Rome Odunze - Case Keenum throws a DIME to Odunze 🎯\n\n@PHIvsCHI on ESPN\nStream on @NFLPlus (auto: X)",
   "https://x.com/NFL/status/2104747537014137267": "Jalen Hurts - Hurts sneaks it in for the TD to end the half!\n\n@PHIvsCHI on ESPN\nStream on @NFLPlus (auto: X)",
@@ -335,7 +333,6 @@
   "https://www.espn.com/video/clip/_/id/50106791/bryce-young-throws-dart-tetairoa-mcmillan-their-second-td": "Bryce Young & Tetairoa McMillan - Bryce Young throws a dart to Tetairoa McMillan for their second TD (auto: ESPN)",
   "https://www.espn.com/video/clip/_/id/50106882/chuba-hubbard-plows-carolina-td": "Chuba Hubbard - Chuba Hubbard plows in for a Carolina TD (auto: ESPN)",
   "https://www.espn.com/video/clip/_/id/50107212/tetairoa-mcmillan-tightropes-sideline-spectacular-grab": "Tetairoa McMillan - Tetairoa McMillan tightropes the sideline for a spectacular grab (auto: ESPN)",
-  "https://www.youtube.com/shorts/q1VKLDIysy4": "Bo Nix & Jaylen Waddle - Nix ➡️ Waddle #broncos #nix #waddle #nfl #snf 📺: SNF on NBC (auto: YouTube)",
   "https://www.youtube.com/shorts/WDIS7Dv2lFc": "Matthew Stafford - MATTHEW TO KONATA!! TOUCHDOWN!!! #rams #nfl #shorts (auto: YouTube)",
   "https://www.youtube.com/shorts/R-njEU-1CMM": "Jalen Hurts - Jalen Hurts is a super human #shorts (auto: YouTube)",
   "https://www.youtube.com/shorts/xafut2NyiaY": "Harold Fannin - Fannin scores! (auto: YouTube)",
@@ -396,7 +393,10 @@
   "https://x.com/NFL/status/2107280417565094205": "Brian Robinson - Brian Robinson Jr.'s turn for a touchdown 💪\n\n@ATLvsNO on ESPN Stream on @NFLPlus (auto: X)",
   "https://www.youtube.com/shorts/zwORWFkvqJM": "Alvin Kamara - Alvin Kamara UP THE GUT vs. Falcons #saints #nfl #shorts (auto: YouTube)",
   "https://www.youtube.com/shorts/FiMISdgyayA": "Brian Robinson - Brian Robinson Jr. wills his way into the end zone for the TD ‼️ ESPN | ANF #nfl #atlantafalcons (auto: YouTube)",
-  "https://x.com/Saints/status/2107293636941537683": "Chris Olave - What a catch by Olave\n\n#Saints | 📺: ESPN (auto: X)"
+  "https://x.com/Saints/status/2107293636941537683": "Chris Olave - What a catch by Olave\n\n#Saints | 📺: ESPN (auto: X)",
+  "https://www.espn.com/video/clip/_/id/50114312/chris-olave-makes-wild-catch-saints-first-down": "Chris Olave - Chris Olave makes a wild catch for a Saints first down (auto: ESPN)",
+  "https://www.espn.com/video/clip/_/id/50114368/brian-robinson-jr-quiets-saints-fans-2nd-td": "Brian Robinson - Brian Robinson Jr. quiets Saints fans with his 2nd TD (auto: ESPN)",
+  "https://www.espn.com/video/clip/_/id/50114454/alvin-kamara-2nd-rushing-td-pulls-saints-closer": "Alvin Kamara - Alvin Kamara's 2nd rushing TD pulls the Saints closer (auto: ESPN)"
  },
  "reject": {
   "https://x.com/MySportsUpdate/status/2095990222525735336": "analyst talking head over stills, and about Courtland Sutton not Waddle",

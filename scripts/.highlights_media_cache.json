@@ -1269,6 +1269,36 @@
   "published": "2026-10-06T01:20:00Z",
   "video": "https://espnmedia-cdn.akamaized.net/espn/media/16x9/wsc/2026/1006/0ada92ea-9242-4b04-9b26-03aae5f7713f/0ada92ea-9242-4b04-9b26-03aae5f7713f.mp4"
  },
+ "https://www.espn.com/video/clip/_/id/50114312/chris-olave-makes-wild-catch-saints-first-down": {
+  "espn_game": "401872979",
+  "game_id": "401872979",
+  "game_time": "Q3 1:41",
+  "play_key": "401872979:4018729793171",
+  "played_at": "2026-10-06T02:39:26Z",
+  "poster": "https://espnmedia-cdn.akamaized.net/espn/media/common/2026/1005/c585a6f063c64a49812077a808a316021368/c585a6f063c64a49812077a808a316021368.jpg",
+  "published": "2026-10-06T02:39:38Z",
+  "video": "https://espnmedia-cdn.akamaized.net/espn/media/16x9/wsc/2026/1006/c585a6f0-63c6-4a49-8120-77a808a31602/c585a6f0-63c6-4a49-8120-77a808a31602.mp4"
+ },
+ "https://www.espn.com/video/clip/_/id/50114368/brian-robinson-jr-quiets-saints-fans-2nd-td": {
+  "espn_game": "401872979",
+  "game_id": "401872979",
+  "game_time": "Q1 0:48",
+  "play_key": "401872979:4018729791144",
+  "played_at": "2026-10-06T01:04:40Z",
+  "poster": "https://espnmedia-cdn.akamaized.net/espn/media/common/wsc/2026/1006/08c4ed8e-f957-4601-8551-e4f08f781018/08c4ed8e-f957-4601-8551-e4f08f781018.jpg",
+  "published": "2026-10-06T02:45:30Z",
+  "video": "https://espnmedia-cdn.akamaized.net/espn/media/16x9/wsc/2026/1006/08c4ed8e-f957-4601-8551-e4f08f781018/08c4ed8e-f957-4601-8551-e4f08f781018.mp4"
+ },
+ "https://www.espn.com/video/clip/_/id/50114454/alvin-kamara-2nd-rushing-td-pulls-saints-closer": {
+  "espn_game": "401872979",
+  "game_id": "401872979",
+  "game_time": "Q4 13:00",
+  "play_key": "401872979:4018729793482",
+  "played_at": "2026-10-06T02:49:29Z",
+  "poster": "https://espnmedia-cdn.akamaized.net/espn/media/common/wsc/2026/1006/a29190d5-8604-4f15-961a-ec05118cc8b2/a29190d5-8604-4f15-961a-ec05118cc8b2.jpg",
+  "published": "2026-10-06T03:13:25Z",
+  "video": "https://espnmedia-cdn.akamaized.net/espn/media/16x9/wsc/2026/1006/a29190d5-8604-4f15-961a-ec05118cc8b2/a29190d5-8604-4f15-961a-ec05118cc8b2.mp4"
+ },
  "https://www.youtube.com/shorts/-9mLHMkLMRw": {
   "poster": "https://i.ytimg.com/vi/-9mLHMkLMRw/hqdefault.jpg",
   "published": "2026-09-21T18:33:52Z",
