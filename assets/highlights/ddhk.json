@@ -4,6 +4,27 @@
   "note": "Curated: X has no public search API, so posts are collected by hand and matched to rosters by this script.",
   "tweets": [
     {
+      "url": "https://x.com/NFL/status/2107304246018556261",
+      "player": "Kyle Pitts",
+      "meta": "TE \u00b7 ATL",
+      "date": "2026-10-06",
+      "author": "NFL",
+      "text": "A broken tackle for Kyle Pitts on his way to a 28-yard gain \ud83d\ude24\n\n@ATLvsNO on ESPN\u2028Stream on @NFLPlus",
+      "verified": true,
+      "faves": 467,
+      "secs": 11,
+      "game_id": "401872979",
+      "game_time": "Q4 12:55",
+      "play_key": "401872979:4018729793550",
+      "played_at": "2026-10-06T02:56:36Z",
+      "poster": "https://pbs.twimg.com/amplify_video_thumb/2107304136379351040/img/hsyXyK77DiQ6oUFi.jpg",
+      "published": "2026-10-06T02:57:38Z",
+      "video": "https://video.twimg.com/amplify_video/2107304136379351040/vid/avc1/1920x1080/7NeBht2zObGkxK7R.mp4",
+      "author_name": "NFL",
+      "avatar": "https://pbs.twimg.com/profile_images/1619895559334273028/PHKS_mjX_normal.jpg",
+      "author_verified": true
+    },
+    {
       "url": "https://www.espn.com/video/clip/_/id/50105123/kenneth-walker-muscles-end-zone-give-chiefs-lead",
       "player": "Kenneth Walker",
       "meta": "RB \u00b7 KC",
