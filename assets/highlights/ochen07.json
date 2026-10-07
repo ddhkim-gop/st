@@ -1,6 +1,6 @@
 {
   "team": "ochen07",
-  "updated": "2026-10-06",
+  "updated": "2026-10-07",
   "note": "Curated: X has no public search API, so posts are collected by hand and matched to rosters by this script.",
   "tweets": [
     {
@@ -393,27 +393,6 @@
       "author_verified": true
     },
     {
-      "url": "https://x.com/NFL/status/2104747537014137267",
-      "player": "Jalen Hurts",
-      "meta": "QB \u00b7 PHI",
-      "date": "2026-09-29",
-      "author": "NFL",
-      "text": "Hurts sneaks it in for the TD to end the half!\n\n@PHIvsCHI on ESPN\nStream on @NFLPlus",
-      "verified": false,
-      "faves": 973,
-      "secs": 8,
-      "poster": "https://pbs.twimg.com/amplify_video_thumb/2104747286341488640/img/ENLYFWXq9LuN_u16.jpg",
-      "published": "2026-09-29T01:38:11Z",
-      "video": "https://video.twimg.com/amplify_video/2104747286341488640/vid/avc1/1920x1080/7LsrnzYKxdvojjoZ.mp4",
-      "played_at": "2026-09-29T01:36:29Z",
-      "game_time": "Q2 0:00",
-      "play_key": "401872963:4018729632066",
-      "game_id": "401872963",
-      "author_name": "NFL",
-      "avatar": "https://pbs.twimg.com/profile_images/1619895559334273028/PHKS_mjX_normal.jpg",
-      "author_verified": true
-    },
-    {
       "url": "https://x.com/NFL/status/2107276973307519322",
       "player": "Chris Olave",
       "meta": "WR \u00b7 NO",
@@ -478,23 +457,6 @@
       "poster": "https://espnmedia-cdn.akamaized.net/espn/media/common/wsc/2026/1004/6cc86be7-dd98-459c-a7e3-f6034b42dfb6/6cc86be7-dd98-459c-a7e3-f6034b42dfb6.jpg",
       "published": "2026-10-04T20:57:14Z",
       "video": "https://espnmedia-cdn.akamaized.net/espn/media/16x9/wsc/2026/1004/6cc86be7-dd98-459c-a7e3-f6034b42dfb6/6cc86be7-dd98-459c-a7e3-f6034b42dfb6.mp4"
-    },
-    {
-      "url": "https://x.com/NFL/status/2104742992338964663",
-      "player": "Rome Odunze",
-      "meta": "WR \u00b7 CHI",
-      "date": "2026-09-29",
-      "author": "NFL",
-      "text": "Case Keenum throws a DIME to Odunze \ud83c\udfaf\n\n@PHIvsCHI on ESPN\nStream on @NFLPlus",
-      "verified": false,
-      "faves": 981,
-      "secs": 9,
-      "poster": "https://pbs.twimg.com/amplify_video_thumb/2104742681528455168/img/kNaVADTEgaDtghK0.jpg",
-      "published": "2026-09-29T01:20:08Z",
-      "video": "https://video.twimg.com/amplify_video/2104742681528455168/vid/avc1/1920x1080/WW7tIPzVFXaHWVqT.mp4",
-      "author_name": "NFL",
-      "avatar": "https://pbs.twimg.com/profile_images/1619895559334273028/PHKS_mjX_normal.jpg",
-      "author_verified": true
     }
   ]
 }

@@ -1,6 +1,6 @@
 {
   "team": "avocadoshake",
-  "updated": "2026-10-06",
+  "updated": "2026-10-07",
   "note": "Curated: X has no public search API, so posts are collected by hand and matched to rosters by this script.",
   "tweets": [
     {
@@ -160,44 +160,6 @@
       "author_name": "Jacksonville Jaguars",
       "avatar": "https://pbs.twimg.com/profile_images/2105350006693593088/29Lj7GDb_normal.jpg",
       "author_verified": true
-    },
-    {
-      "url": "https://www.espn.com/video/clip/_/id/50056228/case-keenum-connects-kalif-raymond-41-yard-bears-td",
-      "player": "Kalif Raymond",
-      "meta": "WR \u00b7 CHI",
-      "date": "2026-09-29",
-      "author": "ESPN",
-      "text": "Case Keenum connects with Kalif Raymond for 41-yard Bears TD",
-      "verified": true,
-      "faves": 0,
-      "secs": 0,
-      "espn_game": "401872963",
-      "game_id": "401872963",
-      "game_time": "Q3 5:47",
-      "play_key": "401872963:4018729632662",
-      "played_at": "2026-09-29T02:15:02Z",
-      "poster": "https://espnmedia-cdn.akamaized.net/espn/media/common/2026/0928/6242f391e361497595a58c750f07f0ef1354/6242f391e361497595a58c750f07f0ef1354.jpg",
-      "published": "2026-09-29T02:25:04Z",
-      "video": "https://espnmedia-cdn.akamaized.net/espn/media/16x9/wsc/2026/0929/6242f391-e361-4975-95a5-8c750f07f0ef/6242f391-e361-4975-95a5-8c750f07f0ef.mp4"
-    },
-    {
-      "url": "https://www.espn.com/video/clip/_/id/50055667/bears-strike-first-luther-burden-iii-pushes-pile-end-zone",
-      "player": "Luther Burden",
-      "meta": "WR \u00b7 CHI",
-      "date": "2026-09-29",
-      "author": "ESPN",
-      "text": "Bears strike first as Luther Burden III pushes pile into end zone",
-      "verified": true,
-      "faves": 0,
-      "secs": 0,
-      "espn_game": "401872963",
-      "game_id": "401872963",
-      "game_time": "Q1 8:47",
-      "play_key": "401872963:401872963315",
-      "played_at": "2026-09-29T00:23:47Z",
-      "poster": "https://espnmedia-cdn.akamaized.net/espn/media/common/2026/0928/6b4fe8cb4db747e4ba680086e36a75591243/6b4fe8cb4db747e4ba680086e36a75591243.jpg",
-      "published": "2026-09-29T00:36:48Z",
-      "video": "https://espnmedia-cdn.akamaized.net/espn/media/16x9/wsc/2026/0929/6b4fe8cb-4db7-47e4-ba68-0086e36a7559/6b4fe8cb-4db7-47e4-ba68-0086e36a7559.mp4"
     },
     {
       "url": "https://x.com/NFL/status/2106858382653317557",
