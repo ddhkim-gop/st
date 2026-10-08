@@ -1,6 +1,6 @@
 {
   "team": "ochen07",
-  "updated": "2026-10-07",
+  "updated": "2026-10-08",
   "note": "Curated: X has no public search API, so posts are collected by hand and matched to rosters by this script.",
   "tweets": [
     {
@@ -271,25 +271,23 @@
       "video": "https://espnmedia-cdn.akamaized.net/espn/media/16x9/wsc/2026/1004/35bb4d33-4b71-481f-8f35-da4d0791f220/35bb4d33-4b71-481f-8f35-da4d0791f220.mp4"
     },
     {
-      "url": "https://x.com/Bengals/status/2106819603229786421",
+      "url": "https://www.espn.com/video/clip/_/id/50102268/joe-burrow-finds-mike-gesicki-15-yard-td",
       "player": "Joe Burrow",
       "meta": "QB \u00b7 CIN",
       "date": "2026-10-04",
-      "author": "Bengals",
-      "text": "88 in the end zone.\n\n#JAXvsCIN at 1:00 PM on CBS/Paramount+",
+      "author": "ESPN",
+      "text": "Joe Burrow finds Mike Gesicki for 15-yard TD",
       "verified": true,
-      "faves": 817,
-      "secs": 3,
+      "faves": 0,
+      "secs": 0,
+      "espn_game": "401872969",
       "game_id": "401872969",
       "game_time": "Q3 8:44",
       "play_key": "401872969:4018729692544",
       "played_at": "2026-10-04T18:51:17Z",
-      "poster": "https://pbs.twimg.com/amplify_video_thumb/2106819551610449921/img/NZqUon63KmsYuZS8.jpg",
-      "published": "2026-10-04T18:51:50Z",
-      "video": "https://video.twimg.com/amplify_video/2106819551610449921/vid/avc1/1920x1080/avG_NAKyHXXCEweP.mp4",
-      "author_name": "Cincinnati Bengals",
-      "avatar": "https://pbs.twimg.com/profile_images/2079568103231348736/HbQk9Ucp_normal.jpg",
-      "author_verified": true
+      "poster": "https://espnmedia-cdn.akamaized.net/espn/media/common/wsc/2026/1004/1f9b7147-a7f9-4467-9834-f11557a3bc28/1f9b7147-a7f9-4467-9834-f11557a3bc28.jpg",
+      "published": "2026-10-04T19:18:13Z",
+      "video": "https://espnmedia-cdn.akamaized.net/espn/media/16x9/wsc/2026/1004/1f9b7147-a7f9-4467-9834-f11557a3bc28/1f9b7147-a7f9-4467-9834-f11557a3bc28.mp4"
     },
     {
       "url": "https://x.com/Eagles/status/2106814970218324450",
@@ -309,7 +307,7 @@
       "published": "2026-10-04T18:33:26Z",
       "video": "https://video.twimg.com/amplify_video/2106814797031305216/vid/avc1/1920x1080/vI-oltN99EYp2rlz.mp4",
       "author_name": "Philadelphia Eagles",
-      "avatar": "https://pbs.twimg.com/profile_images/2097678958909415424/CUZFsXqV_normal.jpg",
+      "avatar": "",
       "author_verified": true
     },
     {

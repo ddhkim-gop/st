@@ -1,6 +1,6 @@
 {
   "team": "paddleham",
-  "updated": "2026-10-07",
+  "updated": "2026-10-08",
   "note": "Curated: X has no public search API, so posts are collected by hand and matched to rosters by this script.",
   "tweets": [
     {
@@ -276,21 +276,6 @@
       "author_name": "Cleveland Browns",
       "avatar": "",
       "author_verified": true
-    },
-    {
-      "url": "https://www.espn.com/video/clip/_/id/50066989/feel-idiot-doubting-mahomes-chiefs",
-      "player": "Patrick Mahomes",
-      "meta": "QB \u00b7 KC",
-      "date": "2026-09-30",
-      "author": "ESPN",
-      "text": "McCourty: I feel like an idiot for doubting Mahomes, Chiefs",
-      "verified": true,
-      "faves": 0,
-      "secs": 0,
-      "espn_game": "401872976",
-      "poster": "https://espnmedia-cdn.akamaized.net/espn/media/common/2026/0930/ss_20260930_091422435_3679817563/ss_20260930_091422435_3679817563.jpg",
-      "published": "2026-09-30T13:14:21Z",
-      "video": "https://espnmedia-cdn.akamaized.net/espn/media/16x9/2026/0930/ss_20260930_091422435_3679817/ss_20260930_091422435_3679817.mp4"
     }
   ]
 }
