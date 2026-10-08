@@ -1,5 +1,5 @@
-import { api } from "./dataService.js?v=202609290715";
-import { renderNav } from "./components/nav.js?v=202609290715";
+import { api } from "./dataService.js?v=202610071804";
+import { renderNav } from "./components/nav.js?v=202610071804";
 
 let standings = null;
 let transactions = null;
@@ -659,32 +659,36 @@ function renderTable(rows, txStats, year, playoffRecords, isAllTime) {
     });
 
     const faabByTeam = (!isAllTime) ? computeFaabRemaining(year) : {};
+    const anyInactive = enriched.some(r => INACTIVE.has(r.name));
 
-    const allTimeExtraCols = isAllTime ? `
-        <th>Avg PF</th>
-        <th>Best PF</th>
-        <th>Playoff W-L</th>
-        <th>Seasons</th>
-    ` : `<th>Playoff W-L</th><th>FAAB Left</th>`;
+    // Column groups: regular season | playoffs | activity. The # and Team
+    // columns get no group label — they are the row's identity, pinned on phones.
+    const groups = [["Regular Season", isAllTime ? 7 : 5], ["Playoffs", 1], ["Activity", 5]];
+    const extraHeads = isAllTime
+        ? `<th>Avg PF</th><th>Best PF</th><th>W-L</th><th class="act">Seasons</th>`
+        : `<th>W-L</th><th class="act">FAAB Left</th>`;
 
     let html = `
         <div class="s-table-wrap">
         <table class="s-table">
             <thead>
+                <tr class="s-groups">
+                    <th colspan="2" class="pin-g"></th>
+                    ${groups.map(([g, n]) => `<th colspan="${n}" class="grp"><span>${g}</span></th>`).join("")}
+                </tr>
                 <tr>
-                    <th>#</th>
-                    <th class="left">Team</th>
-                    <th>RS W</th>
-                    <th>RS L</th>
-                    <th>Win%</th>
+                    <th class="pin pin-rank">#</th>
+                    <th class="left pin pin-team">Team</th>
+                    <th>Record</th>
+                    <th class="left">Win%</th>
                     <th>PF</th>
                     <th>PA</th>
                     <th>+/-</th>
-                    ${allTimeExtraCols}
-                    <th>Transactions</th>
-                    <th>Trades</th>
-                    <th>Waivers</th>
-                    <th>FA</th>
+                    ${extraHeads}
+                    <th class="act">Moves</th>
+                    <th class="act">Trades</th>
+                    <th class="act">Waivers</th>
+                    <th class="act">FA</th>
                 </tr>
             </thead>
             <tbody>
@@ -696,39 +700,42 @@ function renderTable(rows, txStats, year, playoffRecords, isAllTime) {
         const playoffStr = r.playoff ? `${r.playoff.wins}-${r.playoff.losses}` : "—";
         const faabLeft = faabByTeam[r.name];
         const faabStyle = faabLeft != null && faabLeft < 20 ? "color:#f87171;font-weight:700;" : "";
+        const games = r.wins + r.losses;
+        const pct = games > 0 ? (r.wins / games) * 100 : null;
+        const record = `${r.wins}-${r.losses}${r.ties ? `-${r.ties}` : ""}`;
 
         const extraCols = isAllTime ? `
             <td class="num">${r.avgPF != null ? r.avgPF.toFixed(1) : "—"}</td>
             <td class="num">${r.highestPF != null ? r.highestPF.toFixed(1) : "—"}</td>
-            <td class="num">${playoffStr}</td>
-            <td class="num">${r.seasons ?? "—"}</td>
-        ` : `<td class="num">${playoffStr}</td><td class="num" style="${faabStyle}">${faabLeft != null ? `$${faabLeft}` : "—"}</td>`;
+            <td class="num po">${playoffStr}</td>
+            <td class="num act">${r.seasons ?? "—"}</td>
+        ` : `<td class="num po">${playoffStr}</td><td class="num act" style="${faabStyle}">${faabLeft != null ? `$${faabLeft}` : "—"}</td>`;
 
         html += `
-            <tr>
-                <td class="rank">${r.rank}</td>
-                <td class="team-name">
+            <tr class="${INACTIVE.has(r.name) ? "inactive" : ""}">
+                <td class="rank pin pin-rank${r.rank <= 3 ? " top" : ""}">${r.rank}</td>
+                <td class="team-name pin pin-team">
                     <div style="display:flex;align-items:center;gap:8px;">
                         ${avatarEl(r.name, 26)}
                         <span>${r.name}</span>
                     </div>
                 </td>
-                <td class="num wins">${r.wins}</td>
-                <td class="num losses">${r.losses}</td>
-                <td class="num">${(r.wins + r.losses) > 0 ? ((r.wins / (r.wins + r.losses)) * 100).toFixed(1) + "%" : "—"}</td>
+                <td class="num rec">${record}</td>
+                <td class="num winpct">${pct != null ? `<span class="wbar"><i style="width:${pct.toFixed(1)}%;background:#5a5be6;opacity:${pct >= 50 ? 1 : 0.45};"></i></span>${pct.toFixed(1)}%` : "—"}</td>
                 <td class="num">${r.pf.toFixed(1)}</td>
-                <td class="num">${r.pa.toFixed(1)}</td>
+                <td class="num pa">${r.pa.toFixed(1)}</td>
                 <td class="num" style="color:${diffColor};font-weight:700;">${diff > 0 ? "+" : ""}${diff}</td>
                 ${extraCols}
-                <td class="num">${r.total}</td>
-                <td class="num">${r.trades}</td>
-                <td class="num">${r.waivers}</td>
-                <td class="num">${r.fa}</td>
+                <td class="num act">${r.total}</td>
+                <td class="num act">${r.trades}</td>
+                <td class="num act">${r.waivers}</td>
+                <td class="num act">${r.fa}</td>
             </tr>
         `;
     });
 
     html += `</tbody></table></div>`;
+    if (anyInactive) html += `<div class="s-note">Faded rows = managers no longer in the league</div>`;
     return html;
 }
 
@@ -901,6 +908,37 @@ async function init() {
         }
         .page-tab:hover { color: #f0f1f3; background: #1e2027; }
         .page-tab.active { color: #f0f1f3; background: #1e2027; }
+
+        /* grouped headers, record + win% bar, quiet activity columns */
+        .s-table thead tr.s-groups th { padding: 10px 10px 0; border-bottom: none !important; background: transparent; }
+        .s-table thead th.grp { color: #5a5be6 !important; text-align: left; font-size: 10px; letter-spacing: .12em; }
+        .s-table thead th.grp span { display: block; padding-bottom: 5px; border-bottom: 1px solid color-mix(in srgb, #5a5be6 40%, transparent); }
+        .s-table thead th.left, .s-table td.winpct { text-align: left; }
+        td.rank.top { color: #5a5be6; }
+        td.rec { color: #f0f1f3; font-weight: 700; white-space: nowrap; }
+        td.po  { color: #f0f1f3; font-weight: 700; }
+        td.pa  { color: #8b9099; }
+        .s-table td.act { color: #5a6070; font-size: 12px; }
+        .s-table th.act { color: #5a6070; }
+        td.winpct { white-space: nowrap; }
+        .wbar { display: inline-block; width: 44px; height: 4px; border-radius: 2px; background: #252830; vertical-align: middle; margin-right: 8px; overflow: hidden; }
+        .wbar i { display: block; height: 100%; border-radius: 2px; }
+        .s-table tr.inactive td { opacity: .45; }
+        /* pinned cells keep a solid background so scrolled numbers can't show through */
+        .s-table tr.inactive td.pin { opacity: 1; color: #5a6070; }
+        .s-table tr.inactive td.pin > * { opacity: .45; }
+        .s-note { font-size: 10px; letter-spacing: .18em; text-transform: uppercase; color: #5a6070; margin-top: 10px; }
+        .s-table .pin-team { border-right: 1px solid #2d3139; }
+
+        /* phones: # and Team stay put while the numbers scroll sideways */
+        @media (max-width: 900px) {
+            .s-table { overflow: visible !important; }
+            .s-table .pin { position: sticky; z-index: 2; background: #1e2027; }
+            .s-table thead th.pin { background: #1e2027 !important; }
+            .s-table .pin-rank { left: 0; min-width: 32px; }
+            .s-table .pin-team { left: 32px; }
+            .s-table thead tr.s-groups th.pin-g { position: sticky; left: 0; z-index: 2; background: #1e2027 !important; }
+        }
     </style>
 
     <div class="s-controls" id="s-controls"></div>
