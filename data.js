@@ -8467,21 +8467,6 @@ window.__STATIC_DATA__ = {
           "search_rank": 11
         },
         {
-          "player_id": "11625",
-          "espn_id": null,
-          "name": "Adonai Mitchell",
-          "position": "WR",
-          "team": "NYJ",
-          "birth_date": "2002-10-08",
-          "college": "Texas",
-          "height": "74",
-          "weight": "205",
-          "years_exp": 2,
-          "status": "Active",
-          "injury_status": "Doubtful",
-          "search_rank": 162
-        },
-        {
           "player_id": "12518",
           "espn_id": null,
           "name": "Tyler Warren",
@@ -8525,6 +8510,21 @@ window.__STATIC_DATA__ = {
           "status": "Inactive",
           "injury_status": "IR",
           "search_rank": 52
+        },
+        {
+          "player_id": "1479",
+          "espn_id": 15818,
+          "name": "Keenan Allen",
+          "position": "WR",
+          "team": "IND",
+          "birth_date": "1992-04-27",
+          "college": "California",
+          "height": "74",
+          "weight": "211",
+          "years_exp": 13,
+          "status": "Active",
+          "injury_status": "Questionable",
+          "search_rank": 182
         },
         {
           "player_id": "3198",
@@ -10079,6 +10079,34 @@ window.__STATIC_DATA__ = {
     }
   ],
   "transactions": [
+    {
+      "season": "2026",
+      "week": 5,
+      "created": "Oct 8, 2026 • 4:06 PM PT",
+      "transaction_id": "1414075562955124736",
+      "type": "free_agent",
+      "status": "complete",
+      "teams": [
+        "rat444"
+      ],
+      "added": [
+        {
+          "name": "Keenan Allen",
+          "position": "WR",
+          "team": "IND"
+        }
+      ],
+      "dropped": [
+        {
+          "name": "Adonai Mitchell",
+          "position": "WR",
+          "team": "NYJ"
+        }
+      ],
+      "faab": 0,
+      "waiver_bid": 0,
+      "notes": null
+    },
     {
       "season": "2026",
       "week": 5,
