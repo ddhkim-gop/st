@@ -1,6 +1,6 @@
 {
   "team": "ddhk",
-  "updated": "2026-10-08",
+  "updated": "2026-10-09",
   "note": "Curated: X has no public search API, so posts are collected by hand and matched to rosters by this script.",
   "tweets": [
     {
@@ -181,6 +181,23 @@
       "poster": "https://espnmedia-cdn.akamaized.net/espn/media/common/wsc/2026/1004/a7e9ee52-bc6d-4157-aae5-f842a2c52e76/a7e9ee52-bc6d-4157-aae5-f842a2c52e76.jpg",
       "published": "2026-10-04T17:19:28Z",
       "video": "https://espnmedia-cdn.akamaized.net/espn/media/16x9/wsc/2026/1004/a7e9ee52-bc6d-4157-aae5-f842a2c52e76/a7e9ee52-bc6d-4157-aae5-f842a2c52e76.mp4"
+    },
+    {
+      "url": "https://www.youtube.com/shorts/d4v5DF_Ht-c",
+      "player": "Will Reichard",
+      "meta": "K \u00b7 MIN",
+      "date": "2026-10-08",
+      "author": "Vikings",
+      "text": "Will Reichard is \"so nasty\" \ud83e\udd23 | Mic'd Up",
+      "verified": false,
+      "faves": 295,
+      "secs": 8,
+      "poster": "https://i.ytimg.com/vi/d4v5DF_Ht-c/hqdefault.jpg",
+      "published": "2026-10-08T22:00:14Z",
+      "youtube": "d4v5DF_Ht-c",
+      "author_name": "Minnesota Vikings",
+      "avatar": "",
+      "author_verified": true
     }
   ]
 }
