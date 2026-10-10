@@ -7014,7 +7014,7 @@ window.__STATIC_DATA__ = {
           "weight": "220",
           "years_exp": 2,
           "status": "Active",
-          "injury_status": null,
+          "injury_status": "Out",
           "search_rank": 73
         },
         {
@@ -7474,6 +7474,21 @@ window.__STATIC_DATA__ = {
           "search_rank": 12
         },
         {
+          "player_id": "12509",
+          "espn_id": null,
+          "name": "Tre' Harris",
+          "position": "WR",
+          "team": "LAC",
+          "birth_date": "2002-02-28",
+          "college": "Ole Miss",
+          "height": "75",
+          "weight": "210",
+          "years_exp": 1,
+          "status": "Active",
+          "injury_status": null,
+          "search_rank": 179
+        },
+        {
           "player_id": "13298",
           "espn_id": null,
           "name": "KC Concepcion",
@@ -7592,21 +7607,6 @@ window.__STATIC_DATA__ = {
           "status": "Active",
           "injury_status": null,
           "search_rank": 42
-        },
-        {
-          "player_id": "7543",
-          "espn_id": null,
-          "name": "Travis Etienne",
-          "position": "RB",
-          "team": "NO",
-          "birth_date": "1999-01-26",
-          "college": "Clemson",
-          "height": "70",
-          "weight": "215",
-          "years_exp": 5,
-          "status": "Inactive",
-          "injury_status": "IR",
-          "search_rank": 34
         },
         {
           "player_id": "8126",
@@ -10094,6 +10094,34 @@ window.__STATIC_DATA__ = {
     }
   ],
   "transactions": [
+    {
+      "season": "2026",
+      "week": 5,
+      "created": "Oct 10, 2026 • 9:32 AM PT",
+      "transaction_id": "1414701170940780544",
+      "type": "free_agent",
+      "status": "complete",
+      "teams": [
+        "paddleham"
+      ],
+      "added": [
+        {
+          "name": "Tre' Harris",
+          "position": "WR",
+          "team": "LAC"
+        }
+      ],
+      "dropped": [
+        {
+          "name": "Travis Etienne",
+          "position": "RB",
+          "team": "NO"
+        }
+      ],
+      "faab": 0,
+      "waiver_bid": 0,
+      "notes": null
+    },
     {
       "season": "2026",
       "week": 5,
