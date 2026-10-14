@@ -7014,7 +7014,7 @@ window.__STATIC_DATA__ = {
           "weight": "215",
           "years_exp": 2,
           "status": "Active",
-          "injury_status": "Questionable",
+          "injury_status": null,
           "search_rank": 132
         },
         {
@@ -7284,7 +7284,7 @@ window.__STATIC_DATA__ = {
           "weight": "206",
           "years_exp": 3,
           "status": "Active",
-          "injury_status": null,
+          "injury_status": "Questionable",
           "search_rank": 203
         },
         {
@@ -7635,7 +7635,7 @@ window.__STATIC_DATA__ = {
           "weight": "197",
           "years_exp": 3,
           "status": "Active",
-          "injury_status": "Questionable",
+          "injury_status": null,
           "search_rank": 6
         },
         {
@@ -7881,7 +7881,7 @@ window.__STATIC_DATA__ = {
           "weight": "215",
           "years_exp": 9,
           "status": "Active",
-          "injury_status": null,
+          "injury_status": "Questionable",
           "search_rank": 119
         },
         {
@@ -8001,7 +8001,7 @@ window.__STATIC_DATA__ = {
           "weight": "187",
           "years_exp": 4,
           "status": "Active",
-          "injury_status": null,
+          "injury_status": "Questionable",
           "search_rank": 29
         },
         {
@@ -8367,7 +8367,7 @@ window.__STATIC_DATA__ = {
           "weight": "200",
           "years_exp": 3,
           "status": "Active",
-          "injury_status": null,
+          "injury_status": "Questionable",
           "search_rank": 122
         },
         {
@@ -8553,7 +8553,7 @@ window.__STATIC_DATA__ = {
           "weight": "211",
           "years_exp": 13,
           "status": "Active",
-          "injury_status": "Questionable",
+          "injury_status": null,
           "search_rank": 180
         },
         {
@@ -8673,7 +8673,7 @@ window.__STATIC_DATA__ = {
           "weight": "193",
           "years_exp": 5,
           "status": "Active",
-          "injury_status": null,
+          "injury_status": "Questionable",
           "search_rank": 203
         },
         {
@@ -8934,7 +8934,7 @@ window.__STATIC_DATA__ = {
           "weight": "212",
           "years_exp": 0,
           "status": "Active",
-          "injury_status": null,
+          "injury_status": "Questionable",
           "search_rank": 15
         },
         {
@@ -8979,7 +8979,7 @@ window.__STATIC_DATA__ = {
           "weight": "238",
           "years_exp": 11,
           "status": "Active",
-          "injury_status": null,
+          "injury_status": "Questionable",
           "search_rank": 358
         },
         {
@@ -9139,21 +9139,6 @@ window.__STATIC_DATA__ = {
       "roster_id": 7,
       "players": [
         {
-          "player_id": "11630",
-          "espn_id": null,
-          "name": "Roman Wilson",
-          "position": "WR",
-          "team": "PIT",
-          "birth_date": "2001-06-19",
-          "college": "Michigan",
-          "height": "72",
-          "weight": "192",
-          "years_exp": 2,
-          "status": "Active",
-          "injury_status": "Out",
-          "search_rank": 688
-        },
-        {
           "player_id": "11635",
           "espn_id": null,
           "name": "Ladd McConkey",
@@ -9182,6 +9167,21 @@ window.__STATIC_DATA__ = {
           "status": "Active",
           "injury_status": null,
           "search_rank": 206
+        },
+        {
+          "player_id": "11783",
+          "espn_id": null,
+          "name": "Ryan Flournoy",
+          "position": "WR",
+          "team": "DAL",
+          "birth_date": "1999-10-27",
+          "college": "Southeast Missouri State",
+          "height": "73",
+          "weight": "205",
+          "years_exp": 2,
+          "status": "Active",
+          "injury_status": null,
+          "search_rank": 199
         },
         {
           "player_id": "11834",
@@ -9255,7 +9255,7 @@ window.__STATIC_DATA__ = {
           "weight": "215",
           "years_exp": 0,
           "status": "Active",
-          "injury_status": null,
+          "injury_status": "Questionable",
           "search_rank": 153
         },
         {
@@ -9360,7 +9360,7 @@ window.__STATIC_DATA__ = {
           "weight": "209",
           "years_exp": 7,
           "status": "Active",
-          "injury_status": "Questionable",
+          "injury_status": null,
           "search_rank": 63
         },
         {
@@ -9621,7 +9621,7 @@ window.__STATIC_DATA__ = {
           "weight": "202",
           "years_exp": 1,
           "status": "Active",
-          "injury_status": "Doubtful",
+          "injury_status": "Questionable",
           "search_rank": 39
         },
         {
@@ -9726,7 +9726,7 @@ window.__STATIC_DATA__ = {
           "weight": "198",
           "years_exp": 6,
           "status": "Active",
-          "injury_status": "Questionable",
+          "injury_status": null,
           "search_rank": 10
         },
         {
@@ -9831,7 +9831,7 @@ window.__STATIC_DATA__ = {
           "weight": "171",
           "years_exp": 3,
           "status": "Active",
-          "injury_status": null,
+          "injury_status": "Questionable",
           "search_rank": 111
         },
         {
@@ -10094,6 +10094,34 @@ window.__STATIC_DATA__ = {
     }
   ],
   "transactions": [
+    {
+      "season": "2026",
+      "week": 6,
+      "created": "Oct 14, 2026 • 12:12 PM PT",
+      "transaction_id": "1416190904984686592",
+      "type": "free_agent",
+      "status": "complete",
+      "teams": [
+        "justinlau3"
+      ],
+      "added": [
+        {
+          "name": "Ryan Flournoy",
+          "position": "WR",
+          "team": "DAL"
+        }
+      ],
+      "dropped": [
+        {
+          "name": "Roman Wilson",
+          "position": "WR",
+          "team": "PIT"
+        }
+      ],
+      "faab": 0,
+      "waiver_bid": 0,
+      "notes": null
+    },
     {
       "season": "2026",
       "week": 6,
