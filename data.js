@@ -7269,7 +7269,7 @@ window.__STATIC_DATA__ = {
           "weight": "217",
           "years_exp": 4,
           "status": "Active",
-          "injury_status": "Questionable",
+          "injury_status": "Doubtful",
           "search_rank": 27
         },
         {
@@ -8553,7 +8553,7 @@ window.__STATIC_DATA__ = {
           "weight": "211",
           "years_exp": 13,
           "status": "Active",
-          "injury_status": null,
+          "injury_status": "Questionable",
           "search_rank": 180
         },
         {
@@ -9360,7 +9360,7 @@ window.__STATIC_DATA__ = {
           "weight": "209",
           "years_exp": 7,
           "status": "Active",
-          "injury_status": null,
+          "injury_status": "Questionable",
           "search_rank": 63
         },
         {
@@ -11973,7 +11973,7 @@ window.__STATIC_DATA__ = {
         {
           "name": "Harrison Mevis",
           "position": "K",
-          "team": "LAR"
+          "team": null
         }
       ],
       "faab": 0,
