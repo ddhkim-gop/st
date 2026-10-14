@@ -7135,7 +7135,7 @@ window.__STATIC_DATA__ = {
           "years_exp": 8,
           "status": "Active",
           "injury_status": "Out",
-          "search_rank": 48
+          "search_rank": 50
         },
         {
           "player_id": "4984",
@@ -7270,7 +7270,7 @@ window.__STATIC_DATA__ = {
           "years_exp": 4,
           "status": "Active",
           "injury_status": null,
-          "search_rank": 18
+          "search_rank": 19
         },
         {
           "player_id": "8155",
@@ -7366,7 +7366,7 @@ window.__STATIC_DATA__ = {
           "years_exp": 3,
           "status": "Active",
           "injury_status": null,
-          "search_rank": 148
+          "search_rank": 149
         },
         {
           "player_id": "11560",
@@ -7501,7 +7501,7 @@ window.__STATIC_DATA__ = {
           "years_exp": 0,
           "status": "Active",
           "injury_status": "Out",
-          "search_rank": 111
+          "search_rank": 110
         },
         {
           "player_id": "2449",
@@ -7516,7 +7516,7 @@ window.__STATIC_DATA__ = {
           "years_exp": 11,
           "status": "Active",
           "injury_status": "Out",
-          "search_rank": 105
+          "search_rank": 103
         },
         {
           "player_id": "4046",
@@ -7606,7 +7606,7 @@ window.__STATIC_DATA__ = {
           "years_exp": 7,
           "status": "Active",
           "injury_status": "Out",
-          "search_rank": 41
+          "search_rank": 43
         },
         {
           "player_id": "8126",
@@ -7777,7 +7777,7 @@ window.__STATIC_DATA__ = {
           "years_exp": 2,
           "status": "Active",
           "injury_status": null,
-          "search_rank": 65
+          "search_rank": 64
         },
         {
           "player_id": "11631",
@@ -8017,7 +8017,7 @@ window.__STATIC_DATA__ = {
           "years_exp": 4,
           "status": "Active",
           "injury_status": null,
-          "search_rank": 119
+          "search_rank": 118
         },
         {
           "player_id": "8676",
@@ -8878,21 +8878,6 @@ window.__STATIC_DATA__ = {
           "search_rank": 40
         },
         {
-          "player_id": "13264",
-          "espn_id": null,
-          "name": "Dohnte Meyers",
-          "position": "WR",
-          "team": "CIN",
-          "birth_date": "2000-07-06",
-          "college": "Delta State",
-          "height": "71",
-          "weight": "186",
-          "years_exp": 0,
-          "status": "Active",
-          "injury_status": null,
-          "search_rank": 628
-        },
-        {
           "player_id": "13287",
           "espn_id": null,
           "name": "Jeremiyah Love",
@@ -8968,36 +8953,6 @@ window.__STATIC_DATA__ = {
           "search_rank": 38
         },
         {
-          "player_id": "3321",
-          "espn_id": 3116406,
-          "name": "Tyreek Hill",
-          "position": "WR",
-          "team": null,
-          "birth_date": "1994-03-01",
-          "college": "West Alabama",
-          "height": "70",
-          "weight": "191",
-          "years_exp": 10,
-          "status": "Active",
-          "injury_status": "",
-          "search_rank": 145
-        },
-        {
-          "player_id": "5001",
-          "espn_id": 3117256,
-          "name": "Dalton Schultz",
-          "position": "TE",
-          "team": "HOU",
-          "birth_date": "1996-07-11",
-          "college": "Stanford",
-          "height": "77",
-          "weight": "242",
-          "years_exp": 8,
-          "status": "Active",
-          "injury_status": null,
-          "search_rank": 98
-        },
-        {
           "player_id": "5846",
           "espn_id": 4047650,
           "name": "DK Metcalf",
@@ -9026,21 +8981,6 @@ window.__STATIC_DATA__ = {
           "status": "Active",
           "injury_status": null,
           "search_rank": 77
-        },
-        {
-          "player_id": "6650",
-          "espn_id": 3150744,
-          "name": "Chase McLaughlin",
-          "position": "K",
-          "team": "TB",
-          "birth_date": "1996-04-09",
-          "college": "Illinois",
-          "height": "72",
-          "weight": "190",
-          "years_exp": 7,
-          "status": "Active",
-          "injury_status": null,
-          "search_rank": 199
         },
         {
           "player_id": "8110",
@@ -9181,7 +9121,7 @@ window.__STATIC_DATA__ = {
           "years_exp": 2,
           "status": "Active",
           "injury_status": "Questionable",
-          "search_rank": 34
+          "search_rank": 35
         },
         {
           "player_id": "11637",
@@ -9406,7 +9346,7 @@ window.__STATIC_DATA__ = {
           "years_exp": 5,
           "status": "Active",
           "injury_status": null,
-          "search_rank": 153
+          "search_rank": 155
         },
         {
           "player_id": "8137",
@@ -9532,7 +9472,7 @@ window.__STATIC_DATA__ = {
           "years_exp": 3,
           "status": "Active",
           "injury_status": null,
-          "search_rank": 125
+          "search_rank": 127
         },
         {
           "player_id": "11786",
@@ -9547,7 +9487,7 @@ window.__STATIC_DATA__ = {
           "years_exp": 2,
           "status": "Active",
           "injury_status": null,
-          "search_rank": 132
+          "search_rank": 133
         },
         {
           "player_id": "12481",
@@ -10094,6 +10034,94 @@ window.__STATIC_DATA__ = {
     }
   ],
   "transactions": [
+    {
+      "season": "2026",
+      "week": 5,
+      "created": "Oct 13, 2026 • 8:41 PM PT",
+      "transaction_id": "1415956596739092480",
+      "type": "free_agent",
+      "status": "complete",
+      "teams": [
+        "avocadoshake"
+      ],
+      "added": [],
+      "dropped": [
+        {
+          "name": "Tyreek Hill",
+          "position": "WR",
+          "team": null
+        }
+      ],
+      "faab": 0,
+      "waiver_bid": 0,
+      "notes": null
+    },
+    {
+      "season": "2026",
+      "week": 5,
+      "created": "Oct 13, 2026 • 8:36 PM PT",
+      "transaction_id": "1415955329925046272",
+      "type": "free_agent",
+      "status": "complete",
+      "teams": [
+        "avocadoshake"
+      ],
+      "added": [],
+      "dropped": [
+        {
+          "name": "Chase McLaughlin",
+          "position": "K",
+          "team": "TB"
+        }
+      ],
+      "faab": 0,
+      "waiver_bid": 0,
+      "notes": null
+    },
+    {
+      "season": "2026",
+      "week": 5,
+      "created": "Oct 13, 2026 • 8:24 PM PT",
+      "transaction_id": "1415952479522205696",
+      "type": "free_agent",
+      "status": "complete",
+      "teams": [
+        "avocadoshake"
+      ],
+      "added": [],
+      "dropped": [
+        {
+          "name": "Dohnte Meyers",
+          "position": "WR",
+          "team": "CIN"
+        }
+      ],
+      "faab": 0,
+      "waiver_bid": 0,
+      "notes": null
+    },
+    {
+      "season": "2026",
+      "week": 5,
+      "created": "Oct 13, 2026 • 8:24 PM PT",
+      "transaction_id": "1415952386266062848",
+      "type": "free_agent",
+      "status": "complete",
+      "teams": [
+        "avocadoshake"
+      ],
+      "added": [],
+      "dropped": [
+        {
+          "name": "Dalton Schultz",
+          "position": "TE",
+          "team": "HOU"
+        }
+      ],
+      "faab": 0,
+      "waiver_bid": 0,
+      "notes": null
+    },
     {
       "season": "2026",
       "week": 5,
