@@ -7680,7 +7680,7 @@ window.__STATIC_DATA__ = {
           "weight": "183",
           "years_exp": 3,
           "status": "Active",
-          "injury_status": null,
+          "injury_status": "Questionable",
           "search_rank": 40
         },
         {
@@ -7733,6 +7733,21 @@ window.__STATIC_DATA__ = {
           "status": "Active",
           "injury_status": null,
           "search_rank": 58
+        },
+        {
+          "player_id": "11559",
+          "espn_id": null,
+          "name": "Michael Penix",
+          "position": "QB",
+          "team": "ATL",
+          "birth_date": "2000-05-08",
+          "college": "Washington",
+          "height": "75",
+          "weight": "220",
+          "years_exp": 2,
+          "status": "Active",
+          "injury_status": null,
+          "search_rank": 228
         },
         {
           "player_id": "11586",
@@ -8127,7 +8142,7 @@ window.__STATIC_DATA__ = {
           "weight": "231",
           "years_exp": 12,
           "status": "Active",
-          "injury_status": null,
+          "injury_status": "Questionable",
           "search_rank": 60
         },
         {
@@ -8247,7 +8262,7 @@ window.__STATIC_DATA__ = {
           "weight": "218",
           "years_exp": 6,
           "status": "Active",
-          "injury_status": "Questionable",
+          "injury_status": null,
           "search_rank": 65
         },
         {
@@ -9831,7 +9846,7 @@ window.__STATIC_DATA__ = {
           "weight": "171",
           "years_exp": 3,
           "status": "Active",
-          "injury_status": "Questionable",
+          "injury_status": null,
           "search_rank": 111
         },
         {
@@ -10094,6 +10109,28 @@ window.__STATIC_DATA__ = {
     }
   ],
   "transactions": [
+    {
+      "season": "2026",
+      "week": 6,
+      "created": "Oct 15, 2026 • 9:39 AM PT",
+      "transaction_id": "1416514810224414720",
+      "type": "free_agent",
+      "status": "complete",
+      "teams": [
+        "ochen07"
+      ],
+      "added": [
+        {
+          "name": "Michael Penix",
+          "position": "QB",
+          "team": "ATL"
+        }
+      ],
+      "dropped": [],
+      "faab": 0,
+      "waiver_bid": 0,
+      "notes": null
+    },
     {
       "season": "2026",
       "week": 6,
