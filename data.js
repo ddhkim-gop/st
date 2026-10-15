@@ -7414,6 +7414,21 @@ window.__STATIC_DATA__ = {
           "search_rank": 26
         },
         {
+          "player_id": "11647",
+          "espn_id": null,
+          "name": "Kimani Vidal",
+          "position": "RB",
+          "team": "LAC",
+          "birth_date": "2001-08-28",
+          "college": "Troy",
+          "height": "68",
+          "weight": "215",
+          "years_exp": 2,
+          "status": "Active",
+          "injury_status": null,
+          "search_rank": 141
+        },
+        {
           "player_id": "12474",
           "espn_id": null,
           "name": "Woody Marks",
@@ -7427,21 +7442,6 @@ window.__STATIC_DATA__ = {
           "status": "Active",
           "injury_status": null,
           "search_rank": 105
-        },
-        {
-          "player_id": "12493",
-          "espn_id": null,
-          "name": "Oronde Gadsden",
-          "position": "TE",
-          "team": "LAC",
-          "birth_date": "2003-06-25",
-          "college": "Syracuse",
-          "height": "77",
-          "weight": "236",
-          "years_exp": 1,
-          "status": "Active",
-          "injury_status": null,
-          "search_rank": 83
         },
         {
           "player_id": "12501",
@@ -7472,21 +7472,6 @@ window.__STATIC_DATA__ = {
           "status": "Active",
           "injury_status": null,
           "search_rank": 12
-        },
-        {
-          "player_id": "12509",
-          "espn_id": null,
-          "name": "Tre' Harris",
-          "position": "WR",
-          "team": "LAC",
-          "birth_date": "2002-02-28",
-          "college": "Ole Miss",
-          "height": "75",
-          "weight": "210",
-          "years_exp": 1,
-          "status": "Active",
-          "injury_status": "Doubtful",
-          "search_rank": 179
         },
         {
           "player_id": "13298",
@@ -7605,8 +7590,23 @@ window.__STATIC_DATA__ = {
           "weight": "230",
           "years_exp": 7,
           "status": "Active",
-          "injury_status": "Doubtful",
+          "injury_status": "Out",
           "search_rank": 43
+        },
+        {
+          "player_id": "650",
+          "espn_id": 10621,
+          "name": "Nick Folk",
+          "position": "K",
+          "team": "ATL",
+          "birth_date": "1984-11-05",
+          "college": "Arizona",
+          "height": "73",
+          "weight": "225",
+          "years_exp": 19,
+          "status": "Active",
+          "injury_status": null,
+          "search_rank": 249
         },
         {
           "player_id": "8126",
@@ -7624,6 +7624,21 @@ window.__STATIC_DATA__ = {
           "search_rank": 105
         },
         {
+          "player_id": "8132",
+          "espn_id": null,
+          "name": "Tyler Allgeier",
+          "position": "RB",
+          "team": "ARI",
+          "birth_date": "2000-04-15",
+          "college": "BYU",
+          "height": "70",
+          "weight": "225",
+          "years_exp": 4,
+          "status": "Active",
+          "injury_status": null,
+          "search_rank": 89
+        },
+        {
           "player_id": "9488",
           "espn_id": null,
           "name": "Jaxon Smith-Njigba",
@@ -7637,21 +7652,6 @@ window.__STATIC_DATA__ = {
           "status": "Active",
           "injury_status": null,
           "search_rank": 6
-        },
-        {
-          "player_id": "96",
-          "espn_id": 8439,
-          "name": "Aaron Rodgers",
-          "position": "QB",
-          "team": "PIT",
-          "birth_date": "1983-12-02",
-          "college": "California",
-          "height": "74",
-          "weight": "223",
-          "years_exp": 21,
-          "status": "Active",
-          "injury_status": null,
-          "search_rank": 188
         },
         {
           "player_id": "9758",
@@ -7836,7 +7836,7 @@ window.__STATIC_DATA__ = {
           "weight": "208",
           "years_exp": 1,
           "status": "Active",
-          "injury_status": null,
+          "injury_status": "Questionable",
           "search_rank": 95
         },
         {
@@ -9360,7 +9360,7 @@ window.__STATIC_DATA__ = {
           "weight": "210",
           "years_exp": 7,
           "status": "Active",
-          "injury_status": null,
+          "injury_status": "Questionable",
           "search_rank": 55
         },
         {
@@ -10109,6 +10109,90 @@ window.__STATIC_DATA__ = {
     }
   ],
   "transactions": [
+    {
+      "season": "2026",
+      "week": 6,
+      "created": "Oct 15, 2026 • 3:38 PM PT",
+      "transaction_id": "1416605200025673728",
+      "type": "free_agent",
+      "status": "complete",
+      "teams": [
+        "paddleham"
+      ],
+      "added": [
+        {
+          "name": "Nick Folk",
+          "position": "K",
+          "team": "ATL"
+        }
+      ],
+      "dropped": [
+        {
+          "name": "Oronde Gadsden",
+          "position": "TE",
+          "team": "LAC"
+        }
+      ],
+      "faab": 0,
+      "waiver_bid": 0,
+      "notes": null
+    },
+    {
+      "season": "2026",
+      "week": 6,
+      "created": "Oct 15, 2026 • 3:37 PM PT",
+      "transaction_id": "1416605031012057088",
+      "type": "free_agent",
+      "status": "complete",
+      "teams": [
+        "paddleham"
+      ],
+      "added": [
+        {
+          "name": "Tyler Allgeier",
+          "position": "RB",
+          "team": "ARI"
+        }
+      ],
+      "dropped": [
+        {
+          "name": "Tre' Harris",
+          "position": "WR",
+          "team": "LAC"
+        }
+      ],
+      "faab": 0,
+      "waiver_bid": 0,
+      "notes": null
+    },
+    {
+      "season": "2026",
+      "week": 6,
+      "created": "Oct 15, 2026 • 3:37 PM PT",
+      "transaction_id": "1416604906458013696",
+      "type": "free_agent",
+      "status": "complete",
+      "teams": [
+        "paddleham"
+      ],
+      "added": [
+        {
+          "name": "Kimani Vidal",
+          "position": "RB",
+          "team": "LAC"
+        }
+      ],
+      "dropped": [
+        {
+          "name": "Aaron Rodgers",
+          "position": "QB",
+          "team": "PIT"
+        }
+      ],
+      "faab": 0,
+      "waiver_bid": 0,
+      "notes": null
+    },
     {
       "season": "2026",
       "week": 6,
