@@ -8467,21 +8467,6 @@ window.__STATIC_DATA__ = {
           "search_rank": 90
         },
         {
-          "player_id": "11563",
-          "espn_id": null,
-          "name": "Bo Nix",
-          "position": "QB",
-          "team": "DEN",
-          "birth_date": "2000-02-25",
-          "college": "Oregon",
-          "height": "74",
-          "weight": "217",
-          "years_exp": 2,
-          "status": "Active",
-          "injury_status": null,
-          "search_rank": 45
-        },
-        {
           "player_id": "11564",
           "espn_id": null,
           "name": "Drake Maye",
@@ -8555,6 +8540,21 @@ window.__STATIC_DATA__ = {
           "status": "Active",
           "injury_status": null,
           "search_rank": 194
+        },
+        {
+          "player_id": "13414",
+          "espn_id": null,
+          "name": "Kaelon Black",
+          "position": "RB",
+          "team": "SF",
+          "birth_date": "2001-10-17",
+          "college": "Indiana",
+          "height": "70",
+          "weight": "208",
+          "years_exp": 0,
+          "status": "Active",
+          "injury_status": null,
+          "search_rank": 161
         },
         {
           "player_id": "1479",
@@ -8658,7 +8658,7 @@ window.__STATIC_DATA__ = {
           "weight": "185",
           "years_exp": 5,
           "status": "Active",
-          "injury_status": null,
+          "injury_status": "Questionable",
           "search_rank": 42
         },
         {
@@ -8844,7 +8844,7 @@ window.__STATIC_DATA__ = {
           "weight": "235",
           "years_exp": 2,
           "status": "Active",
-          "injury_status": "Questionable",
+          "injury_status": null,
           "search_rank": 20
         },
         {
@@ -10109,6 +10109,34 @@ window.__STATIC_DATA__ = {
     }
   ],
   "transactions": [
+    {
+      "season": "2026",
+      "week": 6,
+      "created": "Oct 15, 2026 • 3:49 PM PT",
+      "transaction_id": "1416607860766306304",
+      "type": "free_agent",
+      "status": "complete",
+      "teams": [
+        "rat444"
+      ],
+      "added": [
+        {
+          "name": "Kaelon Black",
+          "position": "RB",
+          "team": "SF"
+        }
+      ],
+      "dropped": [
+        {
+          "name": "Bo Nix",
+          "position": "QB",
+          "team": "DEN"
+        }
+      ],
+      "faab": 0,
+      "waiver_bid": 0,
+      "notes": null
+    },
     {
       "season": "2026",
       "week": 6,
