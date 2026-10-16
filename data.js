@@ -7284,7 +7284,7 @@ window.__STATIC_DATA__ = {
           "weight": "206",
           "years_exp": 3,
           "status": "Active",
-          "injury_status": "Questionable",
+          "injury_status": null,
           "search_rank": 203
         },
         {
@@ -8322,7 +8322,7 @@ window.__STATIC_DATA__ = {
           "weight": "214",
           "years_exp": 4,
           "status": "Active",
-          "injury_status": null,
+          "injury_status": "Questionable",
           "search_rank": 125
         },
         {
@@ -8688,7 +8688,7 @@ window.__STATIC_DATA__ = {
           "weight": "193",
           "years_exp": 5,
           "status": "Active",
-          "injury_status": "Questionable",
+          "injury_status": null,
           "search_rank": 203
         },
         {
@@ -9685,21 +9685,6 @@ window.__STATIC_DATA__ = {
           "search_rank": 89
         },
         {
-          "player_id": "13413",
-          "espn_id": null,
-          "name": "Cyrus Allen",
-          "position": "WR",
-          "team": "KC",
-          "birth_date": "2003-02-11",
-          "college": "Cincinnati",
-          "height": "71",
-          "weight": "180",
-          "years_exp": 0,
-          "status": "Active",
-          "injury_status": null,
-          "search_rank": 179
-        },
-        {
           "player_id": "3214",
           "espn_id": 3046439,
           "name": "Hunter Henry",
@@ -9863,6 +9848,21 @@ window.__STATIC_DATA__ = {
           "status": "Active",
           "injury_status": null,
           "search_rank": 1
+        },
+        {
+          "player_id": "96",
+          "espn_id": 8439,
+          "name": "Aaron Rodgers",
+          "position": "QB",
+          "team": "PIT",
+          "birth_date": "1983-12-02",
+          "college": "California",
+          "height": "74",
+          "weight": "223",
+          "years_exp": 21,
+          "status": "Active",
+          "injury_status": null,
+          "search_rank": 188
         },
         {
           "player_id": "PHI",
@@ -10136,6 +10136,34 @@ window.__STATIC_DATA__ = {
       "faab": 0,
       "waiver_bid": 0,
       "notes": null
+    },
+    {
+      "season": "2026",
+      "week": 6,
+      "created": "Oct 15, 2026 • 6:55 PM PT",
+      "transaction_id": "1416654718637248512",
+      "type": "waiver",
+      "status": "complete",
+      "teams": [
+        "churlz98"
+      ],
+      "added": [
+        {
+          "name": "Aaron Rodgers",
+          "position": "QB",
+          "team": "PIT"
+        }
+      ],
+      "dropped": [
+        {
+          "name": "Cyrus Allen",
+          "position": "WR",
+          "team": "KC"
+        }
+      ],
+      "faab": 0,
+      "waiver_bid": 1,
+      "notes": "Your waiver claim was processed successfully!"
     },
     {
       "season": "2026",
