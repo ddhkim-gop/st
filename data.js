@@ -7381,7 +7381,7 @@ window.__STATIC_DATA__ = {
           "years_exp": 2,
           "status": "Active",
           "injury_status": "Questionable",
-          "search_rank": 22
+          "search_rank": 21
         },
         {
           "player_id": "11624",
@@ -7912,7 +7912,7 @@ window.__STATIC_DATA__ = {
           "years_exp": 8,
           "status": "Active",
           "injury_status": null,
-          "search_rank": 93
+          "search_rank": 92
         },
         {
           "player_id": "4993",
@@ -7927,7 +7927,7 @@ window.__STATIC_DATA__ = {
           "years_exp": 8,
           "status": "Active",
           "injury_status": null,
-          "search_rank": 449
+          "search_rank": 447
         },
         {
           "player_id": "6770",
@@ -8158,7 +8158,7 @@ window.__STATIC_DATA__ = {
           "years_exp": 10,
           "status": "Active",
           "injury_status": null,
-          "search_rank": 61
+          "search_rank": 62
         },
         {
           "player_id": "3451",
@@ -8524,7 +8524,7 @@ window.__STATIC_DATA__ = {
           "years_exp": 1,
           "status": "Active",
           "injury_status": null,
-          "search_rank": 88
+          "search_rank": 89
         },
         {
           "player_id": "13274",
@@ -8860,7 +8860,7 @@ window.__STATIC_DATA__ = {
           "years_exp": 14,
           "status": "Active",
           "injury_status": null,
-          "search_rank": 266
+          "search_rank": 265
         },
         {
           "player_id": "12185",
@@ -8890,7 +8890,7 @@ window.__STATIC_DATA__ = {
           "years_exp": 1,
           "status": "Active",
           "injury_status": "Questionable",
-          "search_rank": 461
+          "search_rank": 462
         },
         {
           "player_id": "12512",
@@ -9154,6 +9154,21 @@ window.__STATIC_DATA__ = {
       "roster_id": 7,
       "players": [
         {
+          "player_id": "10235",
+          "espn_id": null,
+          "name": "Roschon Johnson",
+          "position": "RB",
+          "team": "CHI",
+          "birth_date": "2001-01-31",
+          "college": "Texas",
+          "height": "72",
+          "weight": "227",
+          "years_exp": 3,
+          "status": "Active",
+          "injury_status": null,
+          "search_rank": 681
+        },
+        {
           "player_id": "11635",
           "espn_id": null,
           "name": "Ladd McConkey",
@@ -9274,21 +9289,6 @@ window.__STATIC_DATA__ = {
           "search_rank": 153
         },
         {
-          "player_id": "13417",
-          "espn_id": null,
-          "name": "De'Zhaun Stribling",
-          "position": "WR",
-          "team": "SF",
-          "birth_date": "2002-12-18",
-          "college": "Ole Miss",
-          "height": "74",
-          "weight": "207",
-          "years_exp": 0,
-          "status": "Inactive",
-          "injury_status": "IR",
-          "search_rank": 111
-        },
-        {
           "player_id": "3271",
           "espn_id": 2573401,
           "name": "Tyler Higbee",
@@ -9301,7 +9301,7 @@ window.__STATIC_DATA__ = {
           "years_exp": 10,
           "status": "Active",
           "injury_status": null,
-          "search_rank": 645
+          "search_rank": 647
         },
         {
           "player_id": "4866",
@@ -9481,7 +9481,7 @@ window.__STATIC_DATA__ = {
           "years_exp": 3,
           "status": "Active",
           "injury_status": null,
-          "search_rank": 134
+          "search_rank": 133
         },
         {
           "player_id": "9493",
@@ -9862,7 +9862,7 @@ window.__STATIC_DATA__ = {
           "years_exp": 21,
           "status": "Active",
           "injury_status": null,
-          "search_rank": 188
+          "search_rank": 187
         },
         {
           "player_id": "PHI",
@@ -10109,6 +10109,34 @@ window.__STATIC_DATA__ = {
     }
   ],
   "transactions": [
+    {
+      "season": "2026",
+      "week": 6,
+      "created": "Oct 17, 2026 • 12:12 AM PT",
+      "transaction_id": "1417096979883753472",
+      "type": "free_agent",
+      "status": "complete",
+      "teams": [
+        "justinlau3"
+      ],
+      "added": [
+        {
+          "name": "Roschon Johnson",
+          "position": "RB",
+          "team": "CHI"
+        }
+      ],
+      "dropped": [
+        {
+          "name": "De'Zhaun Stribling",
+          "position": "WR",
+          "team": "SF"
+        }
+      ],
+      "faab": 0,
+      "waiver_bid": 0,
+      "notes": null
+    },
     {
       "season": "2026",
       "week": 6,
