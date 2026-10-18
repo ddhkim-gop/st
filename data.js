@@ -7044,7 +7044,7 @@ window.__STATIC_DATA__ = {
           "weight": "205",
           "years_exp": 0,
           "status": "Active",
-          "injury_status": "Questionable",
+          "injury_status": null,
           "search_rank": 147
         },
         {
@@ -7380,7 +7380,7 @@ window.__STATIC_DATA__ = {
           "weight": "226",
           "years_exp": 2,
           "status": "Active",
-          "injury_status": "Questionable",
+          "injury_status": null,
           "search_rank": 21
         },
         {
@@ -7896,7 +7896,7 @@ window.__STATIC_DATA__ = {
           "weight": "215",
           "years_exp": 9,
           "status": "Active",
-          "injury_status": "Questionable",
+          "injury_status": null,
           "search_rank": 119
         },
         {
@@ -7986,7 +7986,7 @@ window.__STATIC_DATA__ = {
           "weight": "258",
           "years_exp": 5,
           "status": "Active",
-          "injury_status": "Questionable",
+          "injury_status": null,
           "search_rank": 230
         },
         {
@@ -8016,7 +8016,7 @@ window.__STATIC_DATA__ = {
           "weight": "187",
           "years_exp": 4,
           "status": "Active",
-          "injury_status": "Questionable",
+          "injury_status": null,
           "search_rank": 29
         },
         {
@@ -8262,7 +8262,7 @@ window.__STATIC_DATA__ = {
           "weight": "218",
           "years_exp": 6,
           "status": "Active",
-          "injury_status": "Questionable",
+          "injury_status": null,
           "search_rank": 65
         },
         {
@@ -8493,38 +8493,8 @@ window.__STATIC_DATA__ = {
           "weight": "256",
           "years_exp": 1,
           "status": "Active",
-          "injury_status": "Questionable",
+          "injury_status": "Out",
           "search_rank": 48
-        },
-        {
-          "player_id": "12542",
-          "espn_id": null,
-          "name": "Efton Chism",
-          "position": "WR",
-          "team": "NE",
-          "birth_date": "2001-10-26",
-          "college": "Eastern Washington",
-          "height": "70",
-          "weight": "198",
-          "years_exp": 1,
-          "status": "Active",
-          "injury_status": null,
-          "search_rank": 572
-        },
-        {
-          "player_id": "12545",
-          "espn_id": null,
-          "name": "Tyler Shough",
-          "position": "QB",
-          "team": "NO",
-          "birth_date": "1999-09-28",
-          "college": "Louisville",
-          "height": "77",
-          "weight": "219",
-          "years_exp": 1,
-          "status": "Active",
-          "injury_status": null,
-          "search_rank": 87
         },
         {
           "player_id": "13274",
@@ -8628,7 +8598,7 @@ window.__STATIC_DATA__ = {
           "weight": "226",
           "years_exp": 7,
           "status": "Active",
-          "injury_status": "Questionable",
+          "injury_status": null,
           "search_rank": 18
         },
         {
@@ -8735,6 +8705,21 @@ window.__STATIC_DATA__ = {
           "status": "Active",
           "injury_status": null,
           "search_rank": 120
+        },
+        {
+          "player_id": "9479",
+          "espn_id": null,
+          "name": "Darnell Washington",
+          "position": "TE",
+          "team": "PIT",
+          "birth_date": "2001-08-17",
+          "college": "Georgia",
+          "height": "79",
+          "weight": "264",
+          "years_exp": 3,
+          "status": "Active",
+          "injury_status": null,
+          "search_rank": 474
         },
         {
           "player_id": "9484",
@@ -8904,7 +8889,7 @@ window.__STATIC_DATA__ = {
           "weight": "221",
           "years_exp": 1,
           "status": "Active",
-          "injury_status": "Questionable",
+          "injury_status": "Out",
           "search_rank": 45
         },
         {
@@ -8979,7 +8964,7 @@ window.__STATIC_DATA__ = {
           "weight": "241",
           "years_exp": 0,
           "status": "Active",
-          "injury_status": "Questionable",
+          "injury_status": null,
           "search_rank": 109
         },
         {
@@ -9636,7 +9621,7 @@ window.__STATIC_DATA__ = {
           "weight": "202",
           "years_exp": 1,
           "status": "Active",
-          "injury_status": "Questionable",
+          "injury_status": null,
           "search_rank": 39
         },
         {
@@ -10109,6 +10094,56 @@ window.__STATIC_DATA__ = {
     }
   ],
   "transactions": [
+    {
+      "season": "2026",
+      "week": 6,
+      "created": "Oct 18, 2026 • 7:55 AM PT",
+      "transaction_id": "1417575797295685633",
+      "type": "free_agent",
+      "status": "complete",
+      "teams": [
+        "rat444"
+      ],
+      "added": [
+        {
+          "name": "Darnell Washington",
+          "position": "TE",
+          "team": "PIT"
+        }
+      ],
+      "dropped": [
+        {
+          "name": "Tyler Shough",
+          "position": "QB",
+          "team": "NO"
+        }
+      ],
+      "faab": 0,
+      "waiver_bid": 0,
+      "notes": null
+    },
+    {
+      "season": "2026",
+      "week": 6,
+      "created": "Oct 18, 2026 • 7:54 AM PT",
+      "transaction_id": "1417575614604419072",
+      "type": "free_agent",
+      "status": "complete",
+      "teams": [
+        "rat444"
+      ],
+      "added": [],
+      "dropped": [
+        {
+          "name": "Efton Chism",
+          "position": "WR",
+          "team": "NE"
+        }
+      ],
+      "faab": 0,
+      "waiver_bid": 0,
+      "notes": null
+    },
     {
       "season": "2026",
       "week": 6,
