@@ -7033,6 +7033,21 @@ window.__STATIC_DATA__ = {
           "search_rank": 62
         },
         {
+          "player_id": "13301",
+          "espn_id": null,
+          "name": "Antonio Williams",
+          "position": "WR",
+          "team": "WAS",
+          "birth_date": "2004-07-14",
+          "college": "Clemson",
+          "height": "71",
+          "weight": "195",
+          "years_exp": 0,
+          "status": "Active",
+          "injury_status": null,
+          "search_rank": 156
+        },
+        {
           "player_id": "13337",
           "espn_id": null,
           "name": "Emmett Johnson",
@@ -7060,7 +7075,7 @@ window.__STATIC_DATA__ = {
           "years_exp": 11,
           "status": "Active",
           "injury_status": null,
-          "search_rank": 471
+          "search_rank": 468
         },
         {
           "player_id": "2747",
@@ -7240,7 +7255,7 @@ window.__STATIC_DATA__ = {
           "years_exp": 4,
           "status": "Active",
           "injury_status": null,
-          "search_rank": 19
+          "search_rank": 17
         },
         {
           "player_id": "8155",
@@ -7256,21 +7271,6 @@ window.__STATIC_DATA__ = {
           "status": "Active",
           "injury_status": "Out",
           "search_rank": 27
-        },
-        {
-          "player_id": "9486",
-          "espn_id": null,
-          "name": "Dontayvion Wicks",
-          "position": "WR",
-          "team": "PHI",
-          "birth_date": "2001-06-16",
-          "college": "Virginia",
-          "height": "73",
-          "weight": "206",
-          "years_exp": 3,
-          "status": "Active",
-          "injury_status": "Questionable",
-          "search_rank": 204
         },
         {
           "player_id": "9754",
@@ -7354,21 +7354,6 @@ window.__STATIC_DATA__ = {
           "search_rank": 81
         },
         {
-          "player_id": "11539",
-          "espn_id": null,
-          "name": "Jake Bates",
-          "position": "K",
-          "team": "DET",
-          "birth_date": "1999-03-03",
-          "college": "Arkansas",
-          "height": "70",
-          "weight": "205",
-          "years_exp": 3,
-          "status": "Active",
-          "injury_status": null,
-          "search_rank": 149
-        },
-        {
           "player_id": "11560",
           "espn_id": null,
           "name": "Caleb Williams",
@@ -7411,7 +7396,7 @@ window.__STATIC_DATA__ = {
           "years_exp": 2,
           "status": "Active",
           "injury_status": null,
-          "search_rank": 28
+          "search_rank": 26
         },
         {
           "player_id": "11647",
@@ -7489,6 +7474,21 @@ window.__STATIC_DATA__ = {
           "search_rank": 110
         },
         {
+          "player_id": "2197",
+          "espn_id": 16731,
+          "name": "Brandin Cooks",
+          "position": "WR",
+          "team": "SF",
+          "birth_date": "1993-09-25",
+          "college": "Oregon State",
+          "height": "70",
+          "weight": "189",
+          "years_exp": 12,
+          "status": "Active",
+          "injury_status": null,
+          "search_rank": 529
+        },
+        {
           "player_id": "2449",
           "espn_id": 2976212,
           "name": "Stefon Diggs",
@@ -7546,7 +7546,7 @@ window.__STATIC_DATA__ = {
           "years_exp": 8,
           "status": "Inactive",
           "injury_status": "Out",
-          "search_rank": 10
+          "search_rank": 9
         },
         {
           "player_id": "5045",
@@ -7912,7 +7912,7 @@ window.__STATIC_DATA__ = {
           "years_exp": 8,
           "status": "Active",
           "injury_status": null,
-          "search_rank": 92
+          "search_rank": 93
         },
         {
           "player_id": "4993",
@@ -7927,7 +7927,7 @@ window.__STATIC_DATA__ = {
           "years_exp": 8,
           "status": "Active",
           "injury_status": null,
-          "search_rank": 447
+          "search_rank": 448
         },
         {
           "player_id": "6770",
@@ -7957,7 +7957,7 @@ window.__STATIC_DATA__ = {
           "years_exp": 6,
           "status": "Inactive",
           "injury_status": "IR",
-          "search_rank": 27
+          "search_rank": 26
         },
         {
           "player_id": "7567",
@@ -8203,7 +8203,7 @@ window.__STATIC_DATA__ = {
           "years_exp": 6,
           "status": "Active",
           "injury_status": null,
-          "search_rank": 46
+          "search_rank": 44
         },
         {
           "player_id": "6806",
@@ -8875,7 +8875,7 @@ window.__STATIC_DATA__ = {
           "years_exp": 1,
           "status": "Active",
           "injury_status": "Questionable",
-          "search_rank": 460
+          "search_rank": 458
         },
         {
           "player_id": "12512",
@@ -8980,7 +8980,7 @@ window.__STATIC_DATA__ = {
           "years_exp": 11,
           "status": "Active",
           "injury_status": null,
-          "search_rank": 359
+          "search_rank": 357
         },
         {
           "player_id": "3294",
@@ -9055,7 +9055,7 @@ window.__STATIC_DATA__ = {
           "years_exp": 4,
           "status": "Active",
           "injury_status": null,
-          "search_rank": 318
+          "search_rank": 320
         },
         {
           "player_id": "8142",
@@ -9391,7 +9391,7 @@ window.__STATIC_DATA__ = {
           "years_exp": 6,
           "status": "Active",
           "injury_status": null,
-          "search_rank": 68
+          "search_rank": 69
         },
         {
           "player_id": "7523",
@@ -9466,7 +9466,7 @@ window.__STATIC_DATA__ = {
           "years_exp": 3,
           "status": "Active",
           "injury_status": null,
-          "search_rank": 134
+          "search_rank": 133
         },
         {
           "player_id": "9493",
@@ -9532,7 +9532,7 @@ window.__STATIC_DATA__ = {
           "years_exp": 3,
           "status": "Active",
           "injury_status": null,
-          "search_rank": 127
+          "search_rank": 126
         },
         {
           "player_id": "11786",
@@ -9637,7 +9637,7 @@ window.__STATIC_DATA__ = {
           "years_exp": 1,
           "status": "Active",
           "injury_status": null,
-          "search_rank": 103
+          "search_rank": 104
         },
         {
           "player_id": "13279",
@@ -9667,7 +9667,7 @@ window.__STATIC_DATA__ = {
           "years_exp": 0,
           "status": "Active",
           "injury_status": "Questionable",
-          "search_rank": 91
+          "search_rank": 89
         },
         {
           "player_id": "3214",
@@ -10094,6 +10094,62 @@ window.__STATIC_DATA__ = {
     }
   ],
   "transactions": [
+    {
+      "season": "2026",
+      "week": 6,
+      "created": "Oct 18, 2026 • 10:51 PM PT",
+      "transaction_id": "1417801448850231296",
+      "type": "free_agent",
+      "status": "complete",
+      "teams": [
+        "ddhk"
+      ],
+      "added": [
+        {
+          "name": "Antonio Williams",
+          "position": "WR",
+          "team": "WAS"
+        }
+      ],
+      "dropped": [
+        {
+          "name": "Dontayvion Wicks",
+          "position": "WR",
+          "team": "PHI"
+        }
+      ],
+      "faab": 0,
+      "waiver_bid": 0,
+      "notes": null
+    },
+    {
+      "season": "2026",
+      "week": 6,
+      "created": "Oct 18, 2026 • 7:37 PM PT",
+      "transaction_id": "1417752629861203968",
+      "type": "free_agent",
+      "status": "complete",
+      "teams": [
+        "paddleham"
+      ],
+      "added": [
+        {
+          "name": "Brandin Cooks",
+          "position": "WR",
+          "team": "SF"
+        }
+      ],
+      "dropped": [
+        {
+          "name": "Jake Bates",
+          "position": "K",
+          "team": "DET"
+        }
+      ],
+      "faab": 0,
+      "waiver_bid": 0,
+      "notes": null
+    },
     {
       "season": "2026",
       "week": 6,
