@@ -6990,7 +6990,7 @@ window.__STATIC_DATA__ = {
         {
           "player_id": "11628",
           "espn_id": null,
-          "name": "Marvin Harrison",
+          "name": "Marvin Harrison Jr.",
           "position": "WR",
           "team": "HOU",
           "birth_date": "2002-08-11",
@@ -7020,7 +7020,7 @@ window.__STATIC_DATA__ = {
         {
           "player_id": "13276",
           "espn_id": null,
-          "name": "Omar Cooper",
+          "name": "Omar Cooper Jr.",
           "position": "WR",
           "team": "NYJ",
           "birth_date": "2003-12-14",
@@ -7095,7 +7095,7 @@ window.__STATIC_DATA__ = {
         {
           "player_id": "4037",
           "espn_id": 3116165,
-          "name": "Chris Godwin",
+          "name": "Chris Godwin Jr.",
           "position": "WR",
           "team": "TB",
           "birth_date": "1996-02-27",
@@ -7170,7 +7170,7 @@ window.__STATIC_DATA__ = {
         {
           "player_id": "7553",
           "espn_id": null,
-          "name": "Kyle Pitts",
+          "name": "Kyle Pitts Sr.",
           "position": "TE",
           "team": "ATL",
           "birth_date": "2000-10-06",
@@ -7215,7 +7215,7 @@ window.__STATIC_DATA__ = {
         {
           "player_id": "8138",
           "espn_id": null,
-          "name": "James Cook",
+          "name": "James Cook III",
           "position": "RB",
           "team": "BUF",
           "birth_date": "1999-09-25",
@@ -7245,7 +7245,7 @@ window.__STATIC_DATA__ = {
         {
           "player_id": "8151",
           "espn_id": null,
-          "name": "Kenneth Walker",
+          "name": "Kenneth Walker III",
           "position": "RB",
           "team": "KC",
           "birth_date": "2000-10-20",
@@ -7425,7 +7425,7 @@ window.__STATIC_DATA__ = {
           "weight": "191",
           "years_exp": 1,
           "status": "Active",
-          "injury_status": null,
+          "injury_status": "Questionable",
           "search_rank": 118
         },
         {
@@ -7446,7 +7446,7 @@ window.__STATIC_DATA__ = {
         {
           "player_id": "13298",
           "espn_id": null,
-          "name": "KC Concepcion",
+          "name": "KC Concepcion Jr.",
           "position": "WR",
           "team": "CLE",
           "birth_date": "2004-09-23",
@@ -7455,7 +7455,7 @@ window.__STATIC_DATA__ = {
           "weight": "190",
           "years_exp": 0,
           "status": "Active",
-          "injury_status": null,
+          "injury_status": "Questionable",
           "search_rank": 110
         },
         {
@@ -7737,7 +7737,7 @@ window.__STATIC_DATA__ = {
         {
           "player_id": "11559",
           "espn_id": null,
-          "name": "Michael Penix",
+          "name": "Michael Penix Jr.",
           "position": "QB",
           "team": "ATL",
           "birth_date": "2000-05-08",
@@ -7797,7 +7797,7 @@ window.__STATIC_DATA__ = {
         {
           "player_id": "11631",
           "espn_id": null,
-          "name": "Brian Thomas",
+          "name": "Brian Thomas Jr.",
           "position": "WR",
           "team": "JAX",
           "birth_date": "2002-10-08",
@@ -8112,7 +8112,7 @@ window.__STATIC_DATA__ = {
           "weight": "205",
           "years_exp": 1,
           "status": "Active",
-          "injury_status": null,
+          "injury_status": "Questionable",
           "search_rank": 39
         },
         {
@@ -8337,7 +8337,7 @@ window.__STATIC_DATA__ = {
           "weight": "215",
           "years_exp": 4,
           "status": "Active",
-          "injury_status": null,
+          "injury_status": "Questionable",
           "search_rank": 64
         },
         {
@@ -8382,7 +8382,7 @@ window.__STATIC_DATA__ = {
           "weight": "200",
           "years_exp": 3,
           "status": "Active",
-          "injury_status": "Questionable",
+          "injury_status": null,
           "search_rank": 122
         },
         {
@@ -8559,7 +8559,7 @@ window.__STATIC_DATA__ = {
         {
           "player_id": "4199",
           "espn_id": 3042519,
-          "name": "Aaron Jones",
+          "name": "Aaron Jones Sr.",
           "position": "RB",
           "team": "MIN",
           "birth_date": "1994-12-02",
@@ -8598,7 +8598,7 @@ window.__STATIC_DATA__ = {
           "weight": "226",
           "years_exp": 7,
           "status": "Active",
-          "injury_status": "Questionable",
+          "injury_status": null,
           "search_rank": 18
         },
         {
@@ -8814,7 +8814,7 @@ window.__STATIC_DATA__ = {
           "weight": "195",
           "years_exp": 2,
           "status": "Active",
-          "injury_status": null,
+          "injury_status": "Questionable",
           "search_rank": 32
         },
         {
@@ -8865,7 +8865,7 @@ window.__STATIC_DATA__ = {
         {
           "player_id": "12495",
           "espn_id": null,
-          "name": "Ollie Gordon",
+          "name": "Ollie Gordon II",
           "position": "RB",
           "team": "MIA",
           "birth_date": "2004-01-15",
@@ -8895,7 +8895,7 @@ window.__STATIC_DATA__ = {
         {
           "player_id": "12519",
           "espn_id": null,
-          "name": "Luther Burden",
+          "name": "Luther Burden III",
           "position": "WR",
           "team": "CHI",
           "birth_date": "2003-12-12",
@@ -9216,7 +9216,7 @@ window.__STATIC_DATA__ = {
         {
           "player_id": "12506",
           "espn_id": null,
-          "name": "Harold Fannin",
+          "name": "Harold Fannin Jr.",
           "position": "TE",
           "team": "CLE",
           "birth_date": "2004-07-20",
@@ -9240,7 +9240,7 @@ window.__STATIC_DATA__ = {
           "weight": "207",
           "years_exp": 1,
           "status": "Active",
-          "injury_status": "Questionable",
+          "injury_status": "Out",
           "search_rank": 61
         },
         {
@@ -9270,7 +9270,7 @@ window.__STATIC_DATA__ = {
           "weight": "215",
           "years_exp": 0,
           "status": "Active",
-          "injury_status": null,
+          "injury_status": "Questionable",
           "search_rank": 153
         },
         {
@@ -9321,7 +9321,7 @@ window.__STATIC_DATA__ = {
         {
           "player_id": "5872",
           "espn_id": 3126486,
-          "name": "Deebo Samuel",
+          "name": "Deebo Samuel Sr.",
           "position": "WR",
           "team": "SF",
           "birth_date": "1996-01-15",
@@ -9390,7 +9390,7 @@ window.__STATIC_DATA__ = {
           "weight": "219",
           "years_exp": 6,
           "status": "Active",
-          "injury_status": null,
+          "injury_status": "Questionable",
           "search_rank": 69
         },
         {
@@ -9522,7 +9522,7 @@ window.__STATIC_DATA__ = {
         {
           "player_id": "10219",
           "espn_id": null,
-          "name": "Chris Rodriguez",
+          "name": "Chris Rodriguez Jr.",
           "position": "RB",
           "team": "JAX",
           "birth_date": "1999-09-26",
@@ -9747,7 +9747,7 @@ window.__STATIC_DATA__ = {
         {
           "player_id": "8154",
           "espn_id": null,
-          "name": "Brian Robinson",
+          "name": "Brian Robinson Jr.",
           "position": "RB",
           "team": "ATL",
           "birth_date": "1999-03-22",
@@ -10134,7 +10134,7 @@ window.__STATIC_DATA__ = {
       ],
       "added": [
         {
-          "name": "Omar Cooper",
+          "name": "Omar Cooper Jr.",
           "position": "WR",
           "team": "NYJ"
         }
@@ -10409,7 +10409,7 @@ window.__STATIC_DATA__ = {
       "added": [],
       "dropped": [
         {
-          "name": "Efton Chism",
+          "name": "Efton Chism III",
           "position": "WR",
           "team": "NE"
         }
@@ -10626,7 +10626,7 @@ window.__STATIC_DATA__ = {
       ],
       "added": [
         {
-          "name": "Michael Penix",
+          "name": "Michael Penix Jr.",
           "position": "QB",
           "team": "ATL"
         }
@@ -11204,14 +11204,14 @@ window.__STATIC_DATA__ = {
       ],
       "added": [
         {
-          "name": "Efton Chism",
+          "name": "Efton Chism III",
           "position": "WR",
           "team": "NE"
         }
       ],
       "dropped": [
         {
-          "name": "Michael Pittman",
+          "name": "Michael Pittman Jr.",
           "position": "WR",
           "team": "PIT"
         }
@@ -11267,7 +11267,7 @@ window.__STATIC_DATA__ = {
       ],
       "dropped": [
         {
-          "name": "Travis Etienne",
+          "name": "Travis Etienne Jr.",
           "position": "RB",
           "team": "NO"
         }
@@ -11835,7 +11835,7 @@ window.__STATIC_DATA__ = {
       ],
       "dropped": [
         {
-          "name": "Omar Cooper",
+          "name": "Omar Cooper Jr.",
           "position": "WR",
           "team": "NYJ"
         }
@@ -12102,7 +12102,7 @@ window.__STATIC_DATA__ = {
       ],
       "added": [
         {
-          "name": "Ollie Gordon",
+          "name": "Ollie Gordon II",
           "position": "RB",
           "team": "MIA"
         }
@@ -12208,7 +12208,7 @@ window.__STATIC_DATA__ = {
       ],
       "added": [
         {
-          "name": "Michael Pittman",
+          "name": "Michael Pittman Jr.",
           "position": "WR",
           "team": "PIT"
         }
@@ -12641,7 +12641,7 @@ window.__STATIC_DATA__ = {
       ],
       "dropped": [
         {
-          "name": "Michael Pittman",
+          "name": "Michael Pittman Jr.",
           "position": "WR",
           "team": "PIT"
         }
@@ -13029,7 +13029,7 @@ window.__STATIC_DATA__ = {
       ],
       "dropped": [
         {
-          "name": "Tyrone Tracy",
+          "name": "Tyrone Tracy Jr.",
           "position": "RB",
           "team": "NYG"
         }
@@ -13057,7 +13057,7 @@ window.__STATIC_DATA__ = {
       ],
       "dropped": [
         {
-          "name": "Mike Washington",
+          "name": "Mike Washington Jr.",
           "position": "RB",
           "team": "LV"
         }
