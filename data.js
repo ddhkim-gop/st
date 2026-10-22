@@ -7851,7 +7851,7 @@ window.__STATIC_DATA__ = {
           "weight": "250",
           "years_exp": 13,
           "status": "Active",
-          "injury_status": null,
+          "injury_status": "Questionable",
           "search_rank": 90
         },
         {
@@ -7881,7 +7881,7 @@ window.__STATIC_DATA__ = {
           "weight": "215",
           "years_exp": 9,
           "status": "Active",
-          "injury_status": null,
+          "injury_status": "Questionable",
           "search_rank": 119
         },
         {
@@ -8262,7 +8262,7 @@ window.__STATIC_DATA__ = {
           "weight": "218",
           "years_exp": 6,
           "status": "Active",
-          "injury_status": null,
+          "injury_status": "Questionable",
           "search_rank": 65
         },
         {
@@ -8628,7 +8628,7 @@ window.__STATIC_DATA__ = {
           "weight": "185",
           "years_exp": 5,
           "status": "Active",
-          "injury_status": null,
+          "injury_status": "Questionable",
           "search_rank": 42
         },
         {
@@ -8829,7 +8829,7 @@ window.__STATIC_DATA__ = {
           "weight": "235",
           "years_exp": 2,
           "status": "Active",
-          "injury_status": null,
+          "injury_status": "Questionable",
           "search_rank": 21
         },
         {
@@ -8908,19 +8908,19 @@ window.__STATIC_DATA__ = {
           "search_rank": 40
         },
         {
-          "player_id": "13150",
+          "player_id": "12536",
           "espn_id": null,
-          "name": "Darius Cooper",
+          "name": "Jaylin Noel",
           "position": "WR",
-          "team": "PHI",
-          "birth_date": "2001-11-22",
-          "college": "Tarleton State",
+          "team": "HOU",
+          "birth_date": "2002-09-04",
+          "college": "Iowa State",
           "height": "71",
-          "weight": "210",
+          "weight": "201",
           "years_exp": 1,
           "status": "Active",
           "injury_status": null,
-          "search_rank": 658
+          "search_rank": 190
         },
         {
           "player_id": "13287",
@@ -9114,15 +9114,15 @@ window.__STATIC_DATA__ = {
           "weight": "179",
           "years_exp": 3,
           "status": "Active",
-          "injury_status": "Questionable",
+          "injury_status": null,
           "search_rank": 99
         },
         {
-          "player_id": "JAX",
+          "player_id": "SF",
           "espn_id": null,
-          "name": "Jacksonville Jaguars",
+          "name": "San Francisco 49ers",
           "position": "DEF",
-          "team": "JAX",
+          "team": "SF",
           "birth_date": null,
           "college": null,
           "height": null,
@@ -9375,7 +9375,7 @@ window.__STATIC_DATA__ = {
           "weight": "195",
           "years_exp": 6,
           "status": "Active",
-          "injury_status": null,
+          "injury_status": "Questionable",
           "search_rank": 12
         },
         {
@@ -9535,21 +9535,6 @@ window.__STATIC_DATA__ = {
           "search_rank": 125
         },
         {
-          "player_id": "11786",
-          "espn_id": null,
-          "name": "Cam Little",
-          "position": "K",
-          "team": "JAX",
-          "birth_date": "2003-08-17",
-          "college": "Arkansas",
-          "height": "73",
-          "weight": "172",
-          "years_exp": 2,
-          "status": "Active",
-          "injury_status": null,
-          "search_rank": 133
-        },
-        {
           "player_id": "12481",
           "espn_id": null,
           "name": "Cam Skattebo",
@@ -9700,6 +9685,21 @@ window.__STATIC_DATA__ = {
           "search_rank": 87
         },
         {
+          "player_id": "6650",
+          "espn_id": 3150744,
+          "name": "Chase McLaughlin",
+          "position": "K",
+          "team": "TB",
+          "birth_date": "1996-04-09",
+          "college": "Illinois",
+          "height": "72",
+          "weight": "190",
+          "years_exp": 7,
+          "status": "Active",
+          "injury_status": null,
+          "search_rank": 199
+        },
+        {
           "player_id": "6786",
           "espn_id": 4241389,
           "name": "CeeDee Lamb",
@@ -9756,7 +9756,7 @@ window.__STATIC_DATA__ = {
           "weight": "225",
           "years_exp": 4,
           "status": "Active",
-          "injury_status": null,
+          "injury_status": "Questionable",
           "search_rank": 80
         },
         {
@@ -10094,6 +10094,90 @@ window.__STATIC_DATA__ = {
     }
   ],
   "transactions": [
+    {
+      "season": "2026",
+      "week": 7,
+      "created": "Oct 21, 2026 • 3:03 PM PT",
+      "transaction_id": "1418770819009519616",
+      "type": "free_agent",
+      "status": "complete",
+      "teams": [
+        "churlz98"
+      ],
+      "added": [
+        {
+          "name": "Chase McLaughlin",
+          "position": "K",
+          "team": "TB"
+        }
+      ],
+      "dropped": [
+        {
+          "name": "Cam Little",
+          "position": "K",
+          "team": "JAX"
+        }
+      ],
+      "faab": 0,
+      "waiver_bid": 0,
+      "notes": null
+    },
+    {
+      "season": "2026",
+      "week": 7,
+      "created": "Oct 21, 2026 • 3:00 PM PT",
+      "transaction_id": "1418769875110756352",
+      "type": "free_agent",
+      "status": "complete",
+      "teams": [
+        "avocadoshake"
+      ],
+      "added": [
+        {
+          "name": "Jaylin Noel",
+          "position": "WR",
+          "team": "HOU"
+        }
+      ],
+      "dropped": [
+        {
+          "name": "Jacksonville Jaguars",
+          "position": "DEF",
+          "team": "JAX"
+        }
+      ],
+      "faab": 0,
+      "waiver_bid": 0,
+      "notes": null
+    },
+    {
+      "season": "2026",
+      "week": 7,
+      "created": "Oct 21, 2026 • 2:55 PM PT",
+      "transaction_id": "1418768686558216192",
+      "type": "free_agent",
+      "status": "complete",
+      "teams": [
+        "avocadoshake"
+      ],
+      "added": [
+        {
+          "name": "San Francisco 49ers",
+          "position": "DEF",
+          "team": "SF"
+        }
+      ],
+      "dropped": [
+        {
+          "name": "Darius Cooper",
+          "position": "WR",
+          "team": "PHI"
+        }
+      ],
+      "faab": 0,
+      "waiver_bid": 0,
+      "notes": null
+    },
     {
       "season": "2026",
       "week": 7,
