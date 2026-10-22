@@ -7164,7 +7164,7 @@ window.__STATIC_DATA__ = {
           "weight": "170",
           "years_exp": 5,
           "status": "Active",
-          "injury_status": null,
+          "injury_status": "Questionable",
           "search_rank": 34
         },
         {
@@ -7519,19 +7519,19 @@ window.__STATIC_DATA__ = {
           "search_rank": 10
         },
         {
-          "player_id": "5045",
-          "espn_id": 3128429,
-          "name": "Courtland Sutton",
-          "position": "WR",
-          "team": "DEN",
-          "birth_date": "1995-10-10",
-          "college": "SMU",
-          "height": "76",
-          "weight": "216",
+          "player_id": "5001",
+          "espn_id": 3117256,
+          "name": "Dalton Schultz",
+          "position": "TE",
+          "team": "HOU",
+          "birth_date": "1996-07-11",
+          "college": "Stanford",
+          "height": "77",
+          "weight": "242",
           "years_exp": 8,
           "status": "Active",
-          "injury_status": null,
-          "search_rank": 72
+          "injury_status": "Questionable",
+          "search_rank": 98
         },
         {
           "player_id": "5844",
@@ -7577,21 +7577,6 @@ window.__STATIC_DATA__ = {
           "status": "Active",
           "injury_status": "Doubtful",
           "search_rank": 43
-        },
-        {
-          "player_id": "650",
-          "espn_id": 10621,
-          "name": "Nick Folk",
-          "position": "K",
-          "team": "ATL",
-          "birth_date": "1984-11-05",
-          "college": "Arizona",
-          "height": "73",
-          "weight": "225",
-          "years_exp": 19,
-          "status": "Active",
-          "injury_status": null,
-          "search_rank": 249
         },
         {
           "player_id": "8126",
@@ -8187,7 +8172,7 @@ window.__STATIC_DATA__ = {
           "weight": "256",
           "years_exp": 8,
           "status": "Active",
-          "injury_status": null,
+          "injury_status": "Questionable",
           "search_rank": 94
         },
         {
@@ -8658,7 +8643,7 @@ window.__STATIC_DATA__ = {
           "weight": "193",
           "years_exp": 5,
           "status": "Active",
-          "injury_status": "Questionable",
+          "injury_status": null,
           "search_rank": 203
         },
         {
@@ -9375,7 +9360,7 @@ window.__STATIC_DATA__ = {
           "weight": "195",
           "years_exp": 6,
           "status": "Active",
-          "injury_status": "Questionable",
+          "injury_status": null,
           "search_rank": 12
         },
         {
@@ -9390,7 +9375,7 @@ window.__STATIC_DATA__ = {
           "weight": "219",
           "years_exp": 6,
           "status": "Active",
-          "injury_status": "Questionable",
+          "injury_status": null,
           "search_rank": 69
         },
         {
@@ -9420,7 +9405,7 @@ window.__STATIC_DATA__ = {
           "weight": "205",
           "years_exp": 4,
           "status": "Active",
-          "injury_status": null,
+          "injury_status": "Questionable",
           "search_rank": 22
         },
         {
@@ -9480,7 +9465,7 @@ window.__STATIC_DATA__ = {
           "weight": "216",
           "years_exp": 3,
           "status": "Active",
-          "injury_status": null,
+          "injury_status": "Questionable",
           "search_rank": 5
         },
         {
@@ -10094,6 +10079,56 @@ window.__STATIC_DATA__ = {
     }
   ],
   "transactions": [
+    {
+      "season": "2026",
+      "week": 7,
+      "created": "Oct 22, 2026 • 11:48 AM PT",
+      "transaction_id": "1419083935756865536",
+      "type": "free_agent",
+      "status": "complete",
+      "teams": [
+        "paddleham"
+      ],
+      "added": [
+        {
+          "name": "Dalton Schultz",
+          "position": "TE",
+          "team": "HOU"
+        }
+      ],
+      "dropped": [
+        {
+          "name": "Nick Folk",
+          "position": "K",
+          "team": "ATL"
+        }
+      ],
+      "faab": 0,
+      "waiver_bid": 0,
+      "notes": null
+    },
+    {
+      "season": "2026",
+      "week": 7,
+      "created": "Oct 22, 2026 • 11:47 AM PT",
+      "transaction_id": "1419083730793791488",
+      "type": "free_agent",
+      "status": "complete",
+      "teams": [
+        "paddleham"
+      ],
+      "added": [],
+      "dropped": [
+        {
+          "name": "Courtland Sutton",
+          "position": "WR",
+          "team": "DEN"
+        }
+      ],
+      "faab": 0,
+      "waiver_bid": 0,
+      "notes": null
+    },
     {
       "season": "2026",
       "week": 7,
