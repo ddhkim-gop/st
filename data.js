@@ -7810,21 +7810,6 @@ window.__STATIC_DATA__ = {
           "search_rank": 44
         },
         {
-          "player_id": "12533",
-          "espn_id": null,
-          "name": "Jacory Croskey-Merritt",
-          "position": "RB",
-          "team": "WAS",
-          "birth_date": "2001-04-12",
-          "college": "Arizona",
-          "height": "71",
-          "weight": "208",
-          "years_exp": 1,
-          "status": "Inactive",
-          "injury_status": "IR",
-          "search_rank": 95
-        },
-        {
           "player_id": "1466",
           "espn_id": 15847,
           "name": "Travis Kelce",
@@ -8033,6 +8018,21 @@ window.__STATIC_DATA__ = {
           "status": "Active",
           "injury_status": null,
           "search_rank": 118
+        },
+        {
+          "player_id": "9753",
+          "espn_id": null,
+          "name": "Zach Charbonnet",
+          "position": "RB",
+          "team": "SEA",
+          "birth_date": "2001-01-08",
+          "college": "UCLA",
+          "height": "73",
+          "weight": "220",
+          "years_exp": 3,
+          "status": "Active",
+          "injury_status": "Questionable",
+          "search_rank": 101
         },
         {
           "player_id": "DEN",
@@ -8814,7 +8814,7 @@ window.__STATIC_DATA__ = {
           "weight": "235",
           "years_exp": 2,
           "status": "Active",
-          "injury_status": "Questionable",
+          "injury_status": null,
           "search_rank": 21
         },
         {
@@ -10079,6 +10079,34 @@ window.__STATIC_DATA__ = {
     }
   ],
   "transactions": [
+    {
+      "season": "2026",
+      "week": 7,
+      "created": "Oct 22, 2026 • 3:48 PM PT",
+      "transaction_id": "1419144481470464000",
+      "type": "free_agent",
+      "status": "complete",
+      "teams": [
+        "ochen07"
+      ],
+      "added": [
+        {
+          "name": "Zach Charbonnet",
+          "position": "RB",
+          "team": "SEA"
+        }
+      ],
+      "dropped": [
+        {
+          "name": "Jacory Croskey-Merritt",
+          "position": "RB",
+          "team": "WAS"
+        }
+      ],
+      "faab": 0,
+      "waiver_bid": 0,
+      "notes": null
+    },
     {
       "season": "2026",
       "week": 7,
