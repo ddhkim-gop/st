@@ -7425,7 +7425,7 @@ window.__STATIC_DATA__ = {
           "weight": "191",
           "years_exp": 1,
           "status": "Active",
-          "injury_status": "Questionable",
+          "injury_status": null,
           "search_rank": 118
         },
         {
@@ -7530,7 +7530,7 @@ window.__STATIC_DATA__ = {
           "weight": "242",
           "years_exp": 8,
           "status": "Active",
-          "injury_status": "Questionable",
+          "injury_status": null,
           "search_rank": 98
         },
         {
@@ -7575,7 +7575,7 @@ window.__STATIC_DATA__ = {
           "weight": "230",
           "years_exp": 7,
           "status": "Active",
-          "injury_status": "Doubtful",
+          "injury_status": "Out",
           "search_rank": 43
         },
         {
@@ -8031,7 +8031,7 @@ window.__STATIC_DATA__ = {
           "weight": "220",
           "years_exp": 3,
           "status": "Active",
-          "injury_status": "Questionable",
+          "injury_status": "Out",
           "search_rank": 101
         },
         {
@@ -8127,7 +8127,7 @@ window.__STATIC_DATA__ = {
           "weight": "231",
           "years_exp": 12,
           "status": "Active",
-          "injury_status": "Questionable",
+          "injury_status": "Out",
           "search_rank": 60
         },
         {
@@ -8322,7 +8322,7 @@ window.__STATIC_DATA__ = {
           "weight": "215",
           "years_exp": 4,
           "status": "Active",
-          "injury_status": "Questionable",
+          "injury_status": null,
           "search_rank": 64
         },
         {
@@ -8613,7 +8613,7 @@ window.__STATIC_DATA__ = {
           "weight": "185",
           "years_exp": 5,
           "status": "Active",
-          "injury_status": "Questionable",
+          "injury_status": null,
           "search_rank": 42
         },
         {
@@ -8757,21 +8757,6 @@ window.__STATIC_DATA__ = {
       "owner": "avocadoshake",
       "roster_id": 6,
       "players": [
-        {
-          "player_id": "11439",
-          "espn_id": null,
-          "name": "Jaleel McLaughlin",
-          "position": "RB",
-          "team": "CLE",
-          "birth_date": "2000-09-13",
-          "college": "Youngstown State",
-          "height": "67",
-          "weight": "187",
-          "years_exp": 3,
-          "status": "Active",
-          "injury_status": null,
-          "search_rank": 698
-        },
         {
           "player_id": "11581",
           "espn_id": null,
@@ -8934,7 +8919,7 @@ window.__STATIC_DATA__ = {
           "weight": "208",
           "years_exp": 0,
           "status": "Active",
-          "injury_status": "Questionable",
+          "injury_status": null,
           "search_rank": 197
         },
         {
@@ -8981,6 +8966,21 @@ window.__STATIC_DATA__ = {
           "status": "Active",
           "injury_status": null,
           "search_rank": 73
+        },
+        {
+          "player_id": "5872",
+          "espn_id": 3126486,
+          "name": "Deebo Samuel Sr.",
+          "position": "WR",
+          "team": "SF",
+          "birth_date": "1996-01-15",
+          "college": "South Carolina",
+          "height": "72",
+          "weight": "215",
+          "years_exp": 7,
+          "status": "Active",
+          "injury_status": "Out",
+          "search_rank": 131
         },
         {
           "player_id": "5947",
@@ -9405,7 +9405,7 @@ window.__STATIC_DATA__ = {
           "weight": "205",
           "years_exp": 4,
           "status": "Active",
-          "injury_status": "Questionable",
+          "injury_status": null,
           "search_rank": 22
         },
         {
@@ -10079,6 +10079,34 @@ window.__STATIC_DATA__ = {
     }
   ],
   "transactions": [
+    {
+      "season": "2026",
+      "week": 7,
+      "created": "Oct 23, 2026 • 12:25 PM PT",
+      "transaction_id": "1419455667378429952",
+      "type": "free_agent",
+      "status": "complete",
+      "teams": [
+        "avocadoshake"
+      ],
+      "added": [
+        {
+          "name": "Deebo Samuel Sr.",
+          "position": "WR",
+          "team": "SF"
+        }
+      ],
+      "dropped": [
+        {
+          "name": "Jaleel McLaughlin",
+          "position": "RB",
+          "team": "CLE"
+        }
+      ],
+      "faab": 0,
+      "waiver_bid": 0,
+      "notes": null
+    },
     {
       "season": "2026",
       "week": 7,
