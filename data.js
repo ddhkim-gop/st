@@ -9229,21 +9229,6 @@ window.__STATIC_DATA__ = {
           "search_rank": 61
         },
         {
-          "player_id": "12711",
-          "espn_id": null,
-          "name": "Tyler Loop",
-          "position": "K",
-          "team": "BAL",
-          "birth_date": "2001-08-04",
-          "college": "Arizona",
-          "height": "71",
-          "weight": "191",
-          "years_exp": 1,
-          "status": "Active",
-          "injury_status": null,
-          "search_rank": 150
-        },
-        {
           "player_id": "13346",
           "espn_id": null,
           "name": "Denzel Boston",
@@ -9347,6 +9332,21 @@ window.__STATIC_DATA__ = {
           "status": "Active",
           "injury_status": null,
           "search_rank": 63
+        },
+        {
+          "player_id": "6083",
+          "espn_id": 4249087,
+          "name": "Matt Gay",
+          "position": "K",
+          "team": "LV",
+          "birth_date": "1994-03-15",
+          "college": "Utah",
+          "height": "72",
+          "weight": "232",
+          "years_exp": 7,
+          "status": "Active",
+          "injury_status": null,
+          "search_rank": 239
         },
         {
           "player_id": "6794",
@@ -10079,6 +10079,34 @@ window.__STATIC_DATA__ = {
     }
   ],
   "transactions": [
+    {
+      "season": "2026",
+      "week": 7,
+      "created": "Oct 22, 2026 • 11:10 PM PT",
+      "transaction_id": "1419255597328584704",
+      "type": "free_agent",
+      "status": "complete",
+      "teams": [
+        "justinlau3"
+      ],
+      "added": [
+        {
+          "name": "Matt Gay",
+          "position": "K",
+          "team": "LV"
+        }
+      ],
+      "dropped": [
+        {
+          "name": "Tyler Loop",
+          "position": "K",
+          "team": "BAL"
+        }
+      ],
+      "faab": 0,
+      "waiver_bid": 0,
+      "notes": null
+    },
     {
       "season": "2026",
       "week": 7,
