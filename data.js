@@ -6973,21 +6973,6 @@ window.__STATIC_DATA__ = {
       "roster_id": 1,
       "players": [
         {
-          "player_id": "11563",
-          "espn_id": null,
-          "name": "Bo Nix",
-          "position": "QB",
-          "team": "DEN",
-          "birth_date": "2000-02-25",
-          "college": "Oregon",
-          "height": "74",
-          "weight": "217",
-          "years_exp": 2,
-          "status": "Active",
-          "injury_status": null,
-          "search_rank": 44
-        },
-        {
           "player_id": "11576",
           "espn_id": null,
           "name": "Braelon Allen",
@@ -7031,6 +7016,21 @@ window.__STATIC_DATA__ = {
           "status": "Active",
           "injury_status": null,
           "search_rank": 132
+        },
+        {
+          "player_id": "12545",
+          "espn_id": null,
+          "name": "Tyler Shough",
+          "position": "QB",
+          "team": "NO",
+          "birth_date": "1999-09-28",
+          "college": "Louisville",
+          "height": "77",
+          "weight": "219",
+          "years_exp": 1,
+          "status": "Active",
+          "injury_status": null,
+          "search_rank": 88
         },
         {
           "player_id": "13276",
@@ -7121,6 +7121,21 @@ window.__STATIC_DATA__ = {
           "status": "Active",
           "injury_status": null,
           "search_rank": 673
+        },
+        {
+          "player_id": "4892",
+          "espn_id": 3052587,
+          "name": "Baker Mayfield",
+          "position": "QB",
+          "team": "TB",
+          "birth_date": "1995-04-14",
+          "college": "Oklahoma",
+          "height": "73",
+          "weight": "215",
+          "years_exp": 8,
+          "status": "Active",
+          "injury_status": "Questionable",
+          "search_rank": 74
         },
         {
           "player_id": "4983",
@@ -7271,21 +7286,6 @@ window.__STATIC_DATA__ = {
           "status": "Active",
           "injury_status": "Questionable",
           "search_rank": 27
-        },
-        {
-          "player_id": "9230",
-          "espn_id": null,
-          "name": "Tanner McKee",
-          "position": "QB",
-          "team": "PHI",
-          "birth_date": "2000-04-27",
-          "college": "Stanford",
-          "height": "78",
-          "weight": "231",
-          "years_exp": 3,
-          "status": "Active",
-          "injury_status": null,
-          "search_rank": 677
         },
         {
           "player_id": "9754",
@@ -7851,7 +7851,7 @@ window.__STATIC_DATA__ = {
           "weight": "215",
           "years_exp": 9,
           "status": "Active",
-          "injury_status": "Questionable",
+          "injury_status": null,
           "search_rank": 119
         },
         {
@@ -10079,6 +10079,62 @@ window.__STATIC_DATA__ = {
     }
   ],
   "transactions": [
+    {
+      "season": "2026",
+      "week": 7,
+      "created": "Oct 23, 2026 • 4:56 AM PT",
+      "transaction_id": "1419342854395891712",
+      "type": "free_agent",
+      "status": "complete",
+      "teams": [
+        "ddhk"
+      ],
+      "added": [
+        {
+          "name": "Baker Mayfield",
+          "position": "QB",
+          "team": "TB"
+        }
+      ],
+      "dropped": [
+        {
+          "name": "Bo Nix",
+          "position": "QB",
+          "team": "DEN"
+        }
+      ],
+      "faab": 0,
+      "waiver_bid": 0,
+      "notes": null
+    },
+    {
+      "season": "2026",
+      "week": 7,
+      "created": "Oct 23, 2026 • 4:53 AM PT",
+      "transaction_id": "1419342065996705792",
+      "type": "free_agent",
+      "status": "complete",
+      "teams": [
+        "ddhk"
+      ],
+      "added": [
+        {
+          "name": "Tyler Shough",
+          "position": "QB",
+          "team": "NO"
+        }
+      ],
+      "dropped": [
+        {
+          "name": "Tanner McKee",
+          "position": "QB",
+          "team": "PHI"
+        }
+      ],
+      "faab": 0,
+      "waiver_bid": 0,
+      "notes": null
+    },
     {
       "season": "2026",
       "week": 7,
