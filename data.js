@@ -7003,6 +7003,21 @@ window.__STATIC_DATA__ = {
           "search_rank": 74
         },
         {
+          "player_id": "11631",
+          "espn_id": null,
+          "name": "Brian Thomas Jr.",
+          "position": "WR",
+          "team": "JAX",
+          "birth_date": "2002-10-08",
+          "college": "LSU",
+          "height": "74",
+          "weight": "209",
+          "years_exp": 2,
+          "status": "Active",
+          "injury_status": null,
+          "search_rank": 74
+        },
+        {
           "player_id": "11646",
           "espn_id": null,
           "name": "Jalen Coker",
@@ -7286,21 +7301,6 @@ window.__STATIC_DATA__ = {
           "status": "Active",
           "injury_status": "Questionable",
           "search_rank": 27
-        },
-        {
-          "player_id": "9754",
-          "espn_id": null,
-          "name": "Quentin Johnston",
-          "position": "WR",
-          "team": "LAC",
-          "birth_date": "2001-09-06",
-          "college": "TCU",
-          "height": "74",
-          "weight": "208",
-          "years_exp": 3,
-          "status": "Active",
-          "injury_status": null,
-          "search_rank": 103
         },
         {
           "player_id": "9757",
@@ -10079,6 +10079,34 @@ window.__STATIC_DATA__ = {
     }
   ],
   "transactions": [
+    {
+      "season": "2026",
+      "week": 7,
+      "created": "Oct 24, 2026 • 8:16 AM PT",
+      "transaction_id": "1419755354719297536",
+      "type": "free_agent",
+      "status": "complete",
+      "teams": [
+        "ddhk"
+      ],
+      "added": [
+        {
+          "name": "Brian Thomas Jr.",
+          "position": "WR",
+          "team": "JAX"
+        }
+      ],
+      "dropped": [
+        {
+          "name": "Quentin Johnston",
+          "position": "WR",
+          "team": "LAC"
+        }
+      ],
+      "faab": 0,
+      "waiver_bid": 0,
+      "notes": null
+    },
     {
       "season": "2026",
       "week": 7,
