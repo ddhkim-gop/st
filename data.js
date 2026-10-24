@@ -9800,7 +9800,7 @@ window.__STATIC_DATA__ = {
           "height": "71",
           "weight": "230",
           "years_exp": 4,
-          "status": "Inactive",
+          "status": "Active",
           "injury_status": null,
           "search_rank": 91
         },
