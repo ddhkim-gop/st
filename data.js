@@ -7194,7 +7194,7 @@ window.__STATIC_DATA__ = {
           "weight": "170",
           "years_exp": 5,
           "status": "Active",
-          "injury_status": "Questionable",
+          "injury_status": "Out",
           "search_rank": 34
         },
         {
@@ -7352,6 +7352,21 @@ window.__STATIC_DATA__ = {
           "status": "Active",
           "injury_status": "Questionable",
           "search_rank": 81
+        },
+        {
+          "player_id": "11539",
+          "espn_id": null,
+          "name": "Jake Bates",
+          "position": "K",
+          "team": "DET",
+          "birth_date": "1999-03-03",
+          "college": "Arkansas",
+          "height": "70",
+          "weight": "205",
+          "years_exp": 3,
+          "status": "Active",
+          "injury_status": null,
+          "search_rank": 149
         },
         {
           "player_id": "11560",
@@ -7515,7 +7530,7 @@ window.__STATIC_DATA__ = {
           "weight": "205",
           "years_exp": 8,
           "status": "Active",
-          "injury_status": "Questionable",
+          "injury_status": "Out",
           "search_rank": 9
         },
         {
@@ -8172,7 +8187,7 @@ window.__STATIC_DATA__ = {
           "weight": "256",
           "years_exp": 8,
           "status": "Active",
-          "injury_status": "Questionable",
+          "injury_status": null,
           "search_rank": 94
         },
         {
@@ -9786,7 +9801,7 @@ window.__STATIC_DATA__ = {
           "weight": "230",
           "years_exp": 4,
           "status": "Inactive",
-          "injury_status": "IR",
+          "injury_status": null,
           "search_rank": 91
         },
         {
@@ -10079,6 +10094,28 @@ window.__STATIC_DATA__ = {
     }
   ],
   "transactions": [
+    {
+      "season": "2026",
+      "week": 7,
+      "created": "Oct 24, 2026 • 11:34 AM PT",
+      "transaction_id": "1419805273626836992",
+      "type": "free_agent",
+      "status": "complete",
+      "teams": [
+        "paddleham"
+      ],
+      "added": [
+        {
+          "name": "Jake Bates",
+          "position": "K",
+          "team": "DET"
+        }
+      ],
+      "dropped": [],
+      "faab": 0,
+      "waiver_bid": 0,
+      "notes": null
+    },
     {
       "season": "2026",
       "week": 7,
