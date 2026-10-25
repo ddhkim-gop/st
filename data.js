@@ -7048,6 +7048,21 @@ window.__STATIC_DATA__ = {
           "search_rank": 88
         },
         {
+          "player_id": "12718",
+          "espn_id": null,
+          "name": "Konata Mumpfield",
+          "position": "WR",
+          "team": "LAR",
+          "birth_date": "2002-10-24",
+          "college": "Pittsburgh",
+          "height": "73",
+          "weight": "188",
+          "years_exp": 1,
+          "status": "Active",
+          "injury_status": null,
+          "search_rank": 678
+        },
+        {
           "player_id": "13276",
           "espn_id": null,
           "name": "Omar Cooper Jr.",
@@ -7061,21 +7076,6 @@ window.__STATIC_DATA__ = {
           "status": "Active",
           "injury_status": null,
           "search_rank": 151
-        },
-        {
-          "player_id": "13281",
-          "espn_id": null,
-          "name": "Jordyn Tyson",
-          "position": "WR",
-          "team": "NO",
-          "birth_date": "2004-08-12",
-          "college": "Arizona State",
-          "height": "74",
-          "weight": "203",
-          "years_exp": 0,
-          "status": "Inactive",
-          "injury_status": "IR",
-          "search_rank": 62
         },
         {
           "player_id": "13293",
@@ -7149,7 +7149,7 @@ window.__STATIC_DATA__ = {
           "weight": "215",
           "years_exp": 8,
           "status": "Active",
-          "injury_status": "Questionable",
+          "injury_status": null,
           "search_rank": 75
         },
         {
@@ -7299,7 +7299,7 @@ window.__STATIC_DATA__ = {
           "weight": "217",
           "years_exp": 4,
           "status": "Active",
-          "injury_status": "Questionable",
+          "injury_status": "Out",
           "search_rank": 27
         },
         {
@@ -8382,7 +8382,7 @@ window.__STATIC_DATA__ = {
           "weight": "200",
           "years_exp": 3,
           "status": "Active",
-          "injury_status": "Questionable",
+          "injury_status": "Out",
           "search_rank": 122
         },
         {
@@ -8677,6 +8677,21 @@ window.__STATIC_DATA__ = {
           "search_rank": 31
         },
         {
+          "player_id": "8111",
+          "espn_id": null,
+          "name": "Cade Otton",
+          "position": "TE",
+          "team": "TB",
+          "birth_date": "1999-04-15",
+          "college": "Washington",
+          "height": "77",
+          "weight": "247",
+          "years_exp": 4,
+          "status": "Active",
+          "injury_status": null,
+          "search_rank": 148
+        },
+        {
           "player_id": "8121",
           "espn_id": null,
           "name": "Romeo Doubs",
@@ -8705,21 +8720,6 @@ window.__STATIC_DATA__ = {
           "status": "Active",
           "injury_status": null,
           "search_rank": 120
-        },
-        {
-          "player_id": "9479",
-          "espn_id": null,
-          "name": "Darnell Washington",
-          "position": "TE",
-          "team": "PIT",
-          "birth_date": "2001-08-17",
-          "college": "Georgia",
-          "height": "79",
-          "weight": "264",
-          "years_exp": 3,
-          "status": "Active",
-          "injury_status": null,
-          "search_rank": 474
         },
         {
           "player_id": "9484",
@@ -10094,6 +10094,62 @@ window.__STATIC_DATA__ = {
     }
   ],
   "transactions": [
+    {
+      "season": "2026",
+      "week": 7,
+      "created": "Oct 25, 2026 • 8:17 AM PT",
+      "transaction_id": "1420118046307020800",
+      "type": "free_agent",
+      "status": "complete",
+      "teams": [
+        "rat444"
+      ],
+      "added": [
+        {
+          "name": "Cade Otton",
+          "position": "TE",
+          "team": "TB"
+        }
+      ],
+      "dropped": [
+        {
+          "name": "Darnell Washington",
+          "position": "TE",
+          "team": "PIT"
+        }
+      ],
+      "faab": 0,
+      "waiver_bid": 0,
+      "notes": null
+    },
+    {
+      "season": "2026",
+      "week": 7,
+      "created": "Oct 25, 2026 • 7:38 AM PT",
+      "transaction_id": "1420108254217773056",
+      "type": "free_agent",
+      "status": "complete",
+      "teams": [
+        "ddhk"
+      ],
+      "added": [
+        {
+          "name": "Konata Mumpfield",
+          "position": "WR",
+          "team": "LAR"
+        }
+      ],
+      "dropped": [
+        {
+          "name": "Jordyn Tyson",
+          "position": "WR",
+          "team": "NO"
+        }
+      ],
+      "faab": 0,
+      "waiver_bid": 0,
+      "notes": null
+    },
     {
       "season": "2026",
       "week": 7,
