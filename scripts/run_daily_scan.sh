@@ -29,6 +29,16 @@ if [ -z "${FF_LOCK_HELD:-}" ]; then
   trap 'rmdir "$LOCK" 2>/dev/null' EXIT
 fi
 
+# A pull --rebase that dies midway (files changed underneath it, or the run was
+# killed) leaves a detached HEAD, and the check below then blocked every run -
+# all four leagues, 2026-10-08..10-26. Undo it first: --abort puts main and the
+# autostash back. Only rebases idle over an hour, so a hand-run one is left alone.
+for d in .git/rebase-merge .git/rebase-apply; do
+  if [ -d "$d" ] && [ $(( $(date +%s) - $(stat -f %m "$d") )) -gt 3600 ]; then
+    echo "  heal: aborting a rebase stuck since $(stat -f %Sm "$d")" >> "$LOG"
+    git rebase --abort >> "$LOG" 2>&1
+  fi
+done
 # A detached HEAD silently swallowed five nights of commits in gameofphones:
 # they were committed onto no branch and never pushed. Refuse to run instead.
 if ! git symbolic-ref -q HEAD >/dev/null; then
@@ -61,13 +71,17 @@ if ! git diff --quiet scripts/highlights_reviewed.json assets/highlights 2>/dev/
   # blocklist - and on any match (or if the guard can't run) stays local.
   if git show --format= HEAD | python3 -c '
 import sys
-sys.path.insert(0, "/Users/david/Desktop/Skyler/personal/skyler/app/data")
+sys.path.insert(0, "/Users/david/Desktop/Skyler/projects/skyler/app/data")
 from egress_guard import guard_outbound
 guard_outbound("", [{"role": "user", "content": sys.stdin.read()}])
 ' >> "$LOG" 2>&1; then
-    git pull --rebase --autostash -q origin main >> "$LOG" 2>&1 \
-      && git push -q origin main >> "$LOG" 2>&1 \
-      && echo "  pushed" >> "$LOG" 2>&1
+    if git pull --rebase --autostash -q origin main >> "$LOG" 2>&1; then
+      git push -q origin main >> "$LOG" 2>&1 && echo "  pushed" >> "$LOG" 2>&1
+    else
+      # Never leave the repo mid-rebase: the commit stays on main for the next run.
+      { [ -d .git/rebase-merge ] || [ -d .git/rebase-apply ]; } && git rebase --abort >> "$LOG" 2>&1
+      echo "  PUSH SKIPPED: pull --rebase failed; rebase undone, next run retries" >> "$LOG"
+    fi
   else
     echo "  PUSH SKIPPED: egress guard matched this commit (or could not run) - left local" >> "$LOG"
   fi
