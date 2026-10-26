@@ -50,6 +50,11 @@ PRESEASON_FLOOR = "2026-07-01"
 # panels fall back on it.
 ALLOW_PREVIOUS_SEASON = False
 MAX_AGE_DAYS = 7        # fallback if Sleeper is unreachable AND no saved state
+# Temporary (David, 2026-10-26): the 10-08..10-26 stuck-rebase outage meant week 6
+# never showed, so its plays stay in the window alongside week 7 until week 8
+# kicks off. Inert after BACKFILL_UNTIL (UTC); delete these two and their use then.
+BACKFILL_FLOOR = "2026-10-15"
+BACKFILL_UNTIL = datetime(2026, 10, 29)
 
 # Team defences are excluded: their "name" is a city or franchise, so any post
 # mentioning the place matches. That produced 11 entries like a Vikings tweet
@@ -636,6 +641,9 @@ def window_start() -> str:
             # archival.
             floor_dt = min(wk_start, today - timedelta(days=7))
             floor = floor_dt.strftime("%Y-%m-%d")
+            if today < BACKFILL_UNTIL and BACKFILL_FLOOR < floor:
+                floor = BACKFILL_FLOOR
+                print(f"window: week 6 backfill on until {BACKFILL_UNTIL:%Y-%m-%d} UTC")
             _IN_SEASON = True
             print(f"window: from {floor} (week {week} start "
                   f"{wk_start:%Y-%m-%d}, 7-day floor applied); "
