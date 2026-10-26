@@ -20,7 +20,7 @@
   "verified": false
  },
  "AZCardinals": {
-  "avatar": "https://pbs.twimg.com/profile_images/2102075156814565376/cJ_gXOLr_normal.png",
+  "avatar": "",
   "name": "Arizona Cardinals",
   "verified": true
  },
@@ -50,7 +50,7 @@
   "verified": true
  },
  "Bengals": {
-  "avatar": "https://pbs.twimg.com/profile_images/2079568103231348736/HbQk9Ucp_normal.jpg",
+  "avatar": "",
   "name": "Cincinnati Bengals",
   "verified": true
  },
@@ -75,7 +75,7 @@
   "verified": true
  },
  "BuffaloBills": {
-  "avatar": "https://pbs.twimg.com/profile_images/2104615660366016512/ngGoCmLH_normal.jpg",
+  "avatar": "",
   "name": "Buffalo Bills",
   "verified": true
  },
@@ -115,7 +115,7 @@
   "verified": true
  },
  "Commanders": {
-  "avatar": "",
+  "avatar": "https://pbs.twimg.com/profile_images/2043720907617632256/ceXYRByJ_normal.jpg",
   "name": "Washington Commanders",
   "verified": true
  },
@@ -174,6 +174,11 @@
   "name": "Football Is Life",
   "verified": true
  },
+ "Giants": {
+  "avatar": "https://pbs.twimg.com/profile_images/1948024945973272577/q2A09qic_normal.jpg",
+  "name": "New York Giants",
+  "verified": true
+ },
  "GlennMariniWANE": {
   "avatar": "https://pbs.twimg.com/profile_images/1152341298638204929/kE2ZfefY_x96.png",
   "name": "Glenn Marini",
@@ -190,7 +195,7 @@
   "verified": true
  },
  "Jaguars": {
-  "avatar": "https://pbs.twimg.com/profile_images/2105350006693593088/29Lj7GDb_normal.jpg",
+  "avatar": "",
   "name": "Jacksonville Jaguars",
   "verified": true
  },
@@ -219,13 +224,18 @@
   "name": "Los Angeles Rams",
   "verified": true
  },
+ "Lions": {
+  "avatar": "https://pbs.twimg.com/profile_images/2111253267879497728/EgJd5luG_normal.jpg",
+  "name": "Detroit Lions",
+  "verified": true
+ },
  "McGruderPmac": {
   "avatar": "https://pbs.twimg.com/profile_images/2089550325363449856/XPlK1pKR_x96.jpg",
   "name": "Phillip P-Mac McGruder",
   "verified": true
  },
  "MiamiDolphins": {
-  "avatar": "",
+  "avatar": "https://pbs.twimg.com/profile_images/2003476192737857536/3trK5_DF_normal.jpg",
   "name": "Miami Dolphins",
   "verified": true
  },
@@ -269,6 +279,11 @@
   "name": "Noelle Blumel",
   "verified": false
  },
+ "Panthers": {
+  "avatar": "https://pbs.twimg.com/profile_images/2092340007943999488/x1DqQr26_normal.jpg",
+  "name": "Carolina Panthers",
+  "verified": true
+ },
  "Patriots": {
   "avatar": "",
   "name": "New England Patriots",
@@ -280,8 +295,8 @@
   "verified": true
  },
  "Raiders": {
-  "avatar": "",
-  "name": "Raiders",
+  "avatar": "https://pbs.twimg.com/profile_images/1846312316486537220/UXydCG21_normal.jpg",
+  "name": "Las Vegas Raiders",
   "verified": true
  },
  "RamsNFL": {
@@ -320,7 +335,7 @@
   "verified": true
  },
  "Titans": {
-  "avatar": "",
+  "avatar": "https://pbs.twimg.com/profile_images/2093190077832654850/UOW9XTq4_normal.jpg",
   "name": "Tennessee Titans",
   "verified": true
  },
@@ -335,7 +350,7 @@
   "verified": true
  },
  "chargers": {
-  "avatar": "",
+  "avatar": "https://pbs.twimg.com/profile_images/2110146872325369856/tFzwBOOs_normal.jpg",
   "name": "Los Angeles Chargers",
   "verified": true
  },
@@ -367,6 +382,11 @@
  "packers": {
   "avatar": "",
   "name": "Green Bay Packers",
+  "verified": true
+ },
+ "steelers": {
+  "avatar": "https://pbs.twimg.com/profile_images/1982652036136030208/ptD9zAsL_normal.jpg",
+  "name": "Pittsburgh Steelers",
   "verified": true
  }
 }
