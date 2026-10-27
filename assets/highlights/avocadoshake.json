@@ -4,6 +4,27 @@
   "note": "Curated: X has no public search API, so posts are collected by hand and matched to rosters by this script.",
   "tweets": [
     {
+      "url": "https://x.com/dallascowboys/status/2114906789313421336",
+      "player": "Dak Prescott",
+      "meta": "QB \u00b7 DAL",
+      "date": "2026-10-27",
+      "author": "dallascowboys",
+      "text": "ANOTHER ONE FOR @_CeeDeeThree \u2b50\ufe0f\n\n\ud83d\udcfa:\u00a0#DALvsPHI on ESPN\n\ud83d\udcf2: Stream on NFL+",
+      "verified": true,
+      "faves": 572,
+      "secs": 14,
+      "game_id": "401873009",
+      "game_time": "Q3 1:30",
+      "play_key": "401873009:4018730093048",
+      "played_at": "2026-10-27T02:25:10Z",
+      "poster": "https://pbs.twimg.com/amplify_video_thumb/2114906380637204481/img/uSuc71jfP1yeh74_.jpg",
+      "published": "2026-10-27T02:27:26Z",
+      "video": "https://video.twimg.com/amplify_video/2114906380637204481/vid/avc1/1920x1080/ptt5bmkrVenBMiRt.mp4",
+      "author_name": "Dallas Cowboys",
+      "avatar": "https://pbs.twimg.com/profile_images/2047411798953857024/QaW_Sgph_normal.jpg",
+      "author_verified": true
+    },
+    {
       "url": "https://x.com/dallascowboys/status/2114888292881592733",
       "player": "Dak Prescott",
       "meta": "QB \u00b7 DAL",
@@ -11,7 +32,7 @@
       "author": "dallascowboys",
       "text": "TOE TAPPIN' GEORGE \ud83d\ude33\n\n\ud83d\udcfa:\u00a0#DALvsPHI on ESPN\n\ud83d\udcf2: Stream on NFL+",
       "verified": true,
-      "faves": 694,
+      "faves": 763,
       "secs": 28,
       "game_id": "401873009",
       "game_time": "Q2 5:37",
@@ -21,7 +42,7 @@
       "published": "2026-10-27T01:13:56Z",
       "video": "https://video.twimg.com/amplify_video/2114887986911313920/vid/avc1/1920x1080/xEX3EjjD4wMtm_1E.mp4",
       "author_name": "Dallas Cowboys",
-      "avatar": "",
+      "avatar": "https://pbs.twimg.com/profile_images/2047411798953857024/QaW_Sgph_normal.jpg",
       "author_verified": true
     },
     {
@@ -51,7 +72,7 @@
       "author": "dallascowboys",
       "text": ".@dak finds @_CeeDeeThree for 6\u203c\ufe0f\n\n\ud83d\udcfa:\u00a0#DALvsPHI on ESPN\n\ud83d\udcf2: Stream on NFL+",
       "verified": true,
-      "faves": 506,
+      "faves": 527,
       "secs": 12,
       "game_id": "401873009",
       "game_time": "Q1 5:32",
@@ -61,7 +82,7 @@
       "published": "2026-10-27T00:40:13Z",
       "video": "https://video.twimg.com/amplify_video/2114879414076952576/vid/avc1/1920x1080/5kWNqphCaxIcO9y_.mp4",
       "author_name": "Dallas Cowboys",
-      "avatar": "",
+      "avatar": "https://pbs.twimg.com/profile_images/2047411798953857024/QaW_Sgph_normal.jpg",
       "author_verified": true
     },
     {

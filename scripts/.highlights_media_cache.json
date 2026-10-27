@@ -1839,6 +1839,46 @@
   "published": "2026-10-27T01:56:45Z",
   "video": "https://espnmedia-cdn.akamaized.net/espn/media/16x9/wsc/2026/1027/6603634a-12a4-4ae4-baf2-25c55a507d2a/6603634a-12a4-4ae4-baf2-25c55a507d2a.mp4"
  },
+ "https://www.espn.com/video/clip/_/id/50293376/makai-lemon-pinballs-eagles-td": {
+  "espn_game": "401873009",
+  "game_id": "401873009",
+  "game_time": "Q3 5:44",
+  "play_key": "401873009:4018730092717",
+  "played_at": "2026-10-27T02:13:24Z",
+  "poster": "https://espnmedia-cdn.akamaized.net/espn/media/common/2026/1026/89d41412f684440db080b347ee5043df1364/89d41412f684440db080b347ee5043df1364.jpg",
+  "published": "2026-10-27T02:22:22Z",
+  "video": "https://espnmedia-cdn.akamaized.net/espn/media/16x9/wsc/2026/1027/89d41412-f684-440d-b080-b347ee5043df/89d41412-f684-440d-b080-b347ee5043df.mp4"
+ },
+ "https://www.espn.com/video/clip/_/id/50293440/dak-prescott-throws-wide-open-ceedee-lamb-of-bounds": {
+  "espn_game": "401873009",
+  "game_id": "401873009",
+  "game_time": "Q3 1:30",
+  "play_key": "401873009:4018730093048",
+  "played_at": "2026-10-27T02:25:10Z",
+  "poster": "https://espnmedia-cdn.akamaized.net/espn/media/common/2026/1026/9a60bdbd0ca043928018a0dd001017f71376/9a60bdbd0ca043928018a0dd001017f71376.jpg",
+  "published": "2026-10-27T02:30:25Z",
+  "video": "https://espnmedia-cdn.akamaized.net/espn/media/16x9/wsc/2026/1027/9a60bdbd-0ca0-4392-8018-a0dd001017f7/9a60bdbd-0ca0-4392-8018-a0dd001017f7.mp4"
+ },
+ "https://www.espn.com/video/clip/_/id/50293578/dak-prescott-throws-money-ceedee-lamb-cowboys-td": {
+  "espn_game": "401873009",
+  "game_id": "401873009",
+  "game_time": "Q3 1:30",
+  "play_key": "401873009:4018730093048",
+  "played_at": "2026-10-27T02:25:10Z",
+  "poster": "https://espnmedia-cdn.akamaized.net/espn/media/common/2026/1026/e32a9d348a03400b856af1d392ec94221369/e32a9d348a03400b856af1d392ec94221369.jpg",
+  "published": "2026-10-27T02:37:51Z",
+  "video": "https://espnmedia-cdn.akamaized.net/espn/media/16x9/wsc/2026/1027/e32a9d34-8a03-400b-856a-f1d392ec9422/e32a9d34-8a03-400b-856a-f1d392ec9422.mp4"
+ },
+ "https://www.espn.com/video/clip/_/id/50293962/javonte-williams-waves-bye-scoring-td-dallas": {
+  "espn_game": "401873009",
+  "game_id": "401873009",
+  "game_time": "Q4 2:21",
+  "play_key": "401873009:4018730094082",
+  "played_at": "2026-10-27T03:09:41Z",
+  "poster": "https://espnmedia-cdn.akamaized.net/espn/media/common/2026/1026/55729124aaf54d38b1edddbed237f9a51405/55729124aaf54d38b1edddbed237f9a51405.jpg",
+  "published": "2026-10-27T03:20:16Z",
+  "video": "https://espnmedia-cdn.akamaized.net/espn/media/16x9/wsc/2026/1027/55729124-aaf5-4d38-b1ed-ddbed237f9a5/55729124-aaf5-4d38-b1ed-ddbed237f9a5.mp4"
+ },
  "https://www.youtube.com/shorts/-9mLHMkLMRw": {
   "poster": "https://i.ytimg.com/vi/-9mLHMkLMRw/hqdefault.jpg",
   "published": "2026-09-21T18:33:52Z",
@@ -4836,6 +4876,15 @@
   "published": "2026-10-27T00:57:58Z",
   "video": "https://video.twimg.com/amplify_video/2114884114725670912/vid/avc1/1920x1080/JSnwtHdFbjtWEdTI.mp4"
  },
+ "https://x.com/Eagles/status/2114903551575011375": {
+  "game_id": "401873009",
+  "game_time": "Q3 5:44",
+  "play_key": "401873009:4018730092717",
+  "played_at": "2026-10-27T02:13:24Z",
+  "poster": "https://pbs.twimg.com/amplify_video_thumb/2114903377293291520/img/slqEMWHPm0isCPCo.jpg",
+  "published": "2026-10-27T02:14:34Z",
+  "video": "https://video.twimg.com/amplify_video/2114903377293291520/vid/avc1/1920x1080/m3J9S0nR4MHNsu9M.mp4"
+ },
  "https://x.com/Elliott_snz/status/2096750334043435107": {
   "poster": "https://pbs.twimg.com/ext_tw_video_thumb/1858214115535134720/pu/img/iQaVD4MLOIaspg16.jpg?name=orig",
   "video": "https://video.twimg.com/ext_tw_video/1858214115535134720/pu/vid/avc1/1280x720/KhvdCU9YTUhM8TXw.mp4?tag=12"
@@ -7167,6 +7216,24 @@
   "published": "2026-10-27T02:15:05Z",
   "video": "https://video.twimg.com/amplify_video/2114903472403558400/vid/avc1/1920x1080/P9bsrENa-2eoxSVy.mp4"
  },
+ "https://x.com/NFL/status/2114910732173341177": {
+  "game_id": "401873009",
+  "game_time": "Q4 13:28",
+  "play_key": "401873009:4018730093403",
+  "played_at": "2026-10-27T02:42:08Z",
+  "poster": "https://pbs.twimg.com/amplify_video_thumb/2114910646571855872/img/a1f0_6uy7Fs07Mgy.jpg",
+  "published": "2026-10-27T02:43:06Z",
+  "video": "https://video.twimg.com/amplify_video/2114910646571855872/vid/avc1/1920x1080/Xl-ArhbVik-M8FaK.mp4"
+ },
+ "https://x.com/NFL/status/2114917676921548897": {
+  "game_id": "401873009",
+  "game_time": "Q4 2:21",
+  "play_key": "401873009:4018730094082",
+  "played_at": "2026-10-27T03:09:41Z",
+  "poster": "https://pbs.twimg.com/amplify_video_thumb/2114917585179582464/img/JUmX9ucNobyLaOYe.jpg",
+  "published": "2026-10-27T03:10:42Z",
+  "video": "https://video.twimg.com/amplify_video/2114917585179582464/vid/avc1/1920x1080/SWkjBpYUiRmE85Hr.mp4"
+ },
  "https://x.com/NFLBrasil/status/2093514185812431184": {
   "poster": "https://pbs.twimg.com/amplify_video_thumb/2093514163834269696/img/j7GWyppCmf8GOls3.jpg?name=orig",
   "video": "https://video.twimg.com/amplify_video/2093514163834269696/vid/avc1/1280x720/y5dLJwg1_3YNaVlG.mp4?tag=16"
@@ -8373,6 +8440,24 @@
   "poster": "https://pbs.twimg.com/amplify_video_thumb/2114887986911313920/img/usf-_XOW2M2HgBTo.jpg",
   "published": "2026-10-27T01:13:56Z",
   "video": "https://video.twimg.com/amplify_video/2114887986911313920/vid/avc1/1920x1080/xEX3EjjD4wMtm_1E.mp4"
+ },
+ "https://x.com/dallascowboys/status/2114906789313421336": {
+  "game_id": "401873009",
+  "game_time": "Q3 1:30",
+  "play_key": "401873009:4018730093048",
+  "played_at": "2026-10-27T02:25:10Z",
+  "poster": "https://pbs.twimg.com/amplify_video_thumb/2114906380637204481/img/uSuc71jfP1yeh74_.jpg",
+  "published": "2026-10-27T02:27:26Z",
+  "video": "https://video.twimg.com/amplify_video/2114906380637204481/vid/avc1/1920x1080/ptt5bmkrVenBMiRt.mp4"
+ },
+ "https://x.com/dallascowboys/status/2114917956597465376": {
+  "game_id": "401873009",
+  "game_time": "Q4 2:21",
+  "play_key": "401873009:4018730094082",
+  "played_at": "2026-10-27T03:09:41Z",
+  "poster": "https://pbs.twimg.com/amplify_video_thumb/2114917552056934400/img/akKYoqhlAW-zLl0t.jpg",
+  "published": "2026-10-27T03:11:48Z",
+  "video": "https://video.twimg.com/amplify_video/2114917552056934400/vid/avc1/1920x1080/N56N6Ve9GgRA7RSS.mp4"
  },
  "https://x.com/dan_labbe/status/2091961254659117349": {
   "poster": "https://pbs.twimg.com/amplify_video_thumb/2091961158026637312/img/RF7OJjdmv2-taO0O.jpg?name=orig",
