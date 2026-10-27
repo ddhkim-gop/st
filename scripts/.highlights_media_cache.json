@@ -2669,10 +2669,6 @@
   "youtube": "KsZu1DXVEQk"
  },
  "https://www.youtube.com/shorts/L-ACgbBe8p8": {
-  "game_id": "401873008",
-  "game_time": "Q1 10:53",
-  "play_key": "401873008:401873008253",
-  "played_at": "2026-10-20T00:21:41Z",
   "poster": "https://i.ytimg.com/vi/L-ACgbBe8p8/hqdefault.jpg",
   "published": "2026-10-20T00:35:26Z",
   "youtube": "L-ACgbBe8p8"
@@ -2934,6 +2930,11 @@
   "poster": "https://i.ytimg.com/vi/S-Qq30wtpww/hqdefault.jpg",
   "published": "2026-09-25T01:02:38Z",
   "youtube": "S-Qq30wtpww"
+ },
+ "https://www.youtube.com/shorts/SBaMPqIee2Y": {
+  "poster": "https://i.ytimg.com/vi/SBaMPqIee2Y/hqdefault.jpg",
+  "published": "2026-10-27T02:45:50Z",
+  "youtube": "SBaMPqIee2Y"
  },
  "https://www.youtube.com/shorts/SRGeWqofPc4": {
   "game_id": "401872953",
@@ -4271,19 +4272,11 @@
   "video": "https://video.twimg.com/amplify_video/2090812877724667904/vid/avc1/720x1280/AainVAzPy4L-acbS.mp4?tag=14"
  },
  "https://x.com/49ers/status/2112339189840879923": {
-  "game_id": "401873008",
-  "game_time": "Q1 10:53",
-  "play_key": "401873008:401873008253",
-  "played_at": "2026-10-20T00:21:41Z",
   "poster": "https://pbs.twimg.com/amplify_video_thumb/2112338616093642752/img/stqHpQcO1CygxJzU.jpg",
   "published": "2026-10-20T00:24:42Z",
   "video": "https://video.twimg.com/amplify_video/2112338616093642752/vid/avc1/1920x1080/RxrPngCtxklTYFGw.mp4"
  },
  "https://x.com/49ers/status/2112357139260051748": {
-  "game_id": "401873008",
-  "game_time": "Q2 0:13",
-  "play_key": "401873008:4018730081908",
-  "played_at": "2026-10-20T01:33:56Z",
   "poster": "https://pbs.twimg.com/amplify_video_thumb/2112356771318874112/img/bazC1VeKt6gQehr6.jpg",
   "published": "2026-10-20T01:36:02Z",
   "video": "https://video.twimg.com/amplify_video/2112356771318874112/vid/avc1/1920x1080/hUzdNNbIO-bYjKED.mp4"
@@ -6480,19 +6473,11 @@
   "video": "https://video.twimg.com/amplify_video/2112333232608051200/vid/avc1/1080x1920/drgIEhDIMdOQNwUN.mp4"
  },
  "https://x.com/NFL/status/2112338066006495344": {
-  "game_id": "401873008",
-  "game_time": "Q1 10:53",
-  "play_key": "401873008:401873008253",
-  "played_at": "2026-10-20T00:21:41Z",
   "poster": "https://pbs.twimg.com/amplify_video_thumb/2112337709658460160/img/qXWypgUmXw-rnKLR.jpg",
   "published": "2026-10-20T00:20:14Z",
   "video": "https://video.twimg.com/amplify_video/2112337709658460160/vid/avc1/1920x1080/1vJCk-I4Yz33TP9m.mp4"
  },
  "https://x.com/NFL/status/2112339130483151117": {
-  "game_id": "401873008",
-  "game_time": "Q1 10:53",
-  "play_key": "401873008:401873008253",
-  "played_at": "2026-10-20T00:21:41Z",
   "poster": "https://pbs.twimg.com/amplify_video_thumb/2112338634808725504/img/Z-yxjL-pnZNxLvMu.jpg",
   "published": "2026-10-20T00:24:28Z",
   "video": "https://video.twimg.com/amplify_video/2112338634808725504/vid/avc1/1920x1080/ljYaDMRCmHpmF-Ve.mp4"
@@ -6503,37 +6488,21 @@
   "video": "https://video.twimg.com/amplify_video/2112342725467222016/vid/avc1/1920x1080/h549woCuWih-CvIF.mp4"
  },
  "https://x.com/NFL/status/2112373881273204831": {
-  "game_id": "401873008",
-  "game_time": "Q4 11:15",
-  "play_key": "401873008:4018730083218",
-  "played_at": "2026-10-20T02:40:55Z",
   "poster": "https://pbs.twimg.com/amplify_video_thumb/2112373679271333889/img/p60GR_Zj4acEyKGh.jpg",
   "published": "2026-10-20T02:42:33Z",
   "video": "https://video.twimg.com/amplify_video/2112373679271333889/vid/avc1/1920x1080/rKEcb99XbVb63lKq.mp4"
  },
  "https://x.com/NFL/status/2112374945892495474": {
-  "game_id": "401873008",
-  "game_time": "Q4 9:22",
-  "play_key": "401873008:4018730083327",
-  "played_at": "2026-10-20T02:44:12Z",
   "poster": "https://pbs.twimg.com/amplify_video_thumb/2112374646993739776/img/9ijcK4WatBqXpNE5.jpg",
   "published": "2026-10-20T02:46:47Z",
   "video": "https://video.twimg.com/amplify_video/2112374646993739776/vid/avc1/1920x1080/A5vFG8e2GgfZ95gB.mp4"
  },
  "https://x.com/NFL/status/2112377702053474557": {
-  "game_id": "401873008",
-  "game_time": "Q4 6:25",
-  "play_key": "401873008:4018730083557",
-  "played_at": "2026-10-20T02:55:59Z",
   "poster": "https://pbs.twimg.com/amplify_video_thumb/2112377398893400064/img/NAGW2KTgwvVheYAX.jpg",
   "published": "2026-10-20T02:57:44Z",
   "video": "https://video.twimg.com/amplify_video/2112377398893400064/vid/avc1/1920x1080/WO7mvMnG-yYwd3hl.mp4"
  },
  "https://x.com/NFL/status/2112383120020574230": {
-  "game_id": "401873008",
-  "game_time": "Q4 0:37",
-  "play_key": "401873008:4018730084110",
-  "played_at": "2026-10-20T03:17:47Z",
   "poster": "https://pbs.twimg.com/amplify_video_thumb/2112383032120504320/img/TMlhZQ5ddYMrZnFI.jpg",
   "published": "2026-10-20T03:19:16Z",
   "video": "https://video.twimg.com/amplify_video/2112383032120504320/vid/avc1/1920x1080/rsNfvte6H1_Tt2pz.mp4"
