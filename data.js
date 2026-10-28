@@ -7335,7 +7335,7 @@ window.__STATIC_DATA__ = {
           "weight": "246",
           "years_exp": 3,
           "status": "Active",
-          "injury_status": null,
+          "injury_status": "Questionable",
           "search_rank": 81
         },
         {
@@ -7519,21 +7519,6 @@ window.__STATIC_DATA__ = {
           "search_rank": 9
         },
         {
-          "player_id": "5001",
-          "espn_id": 3117256,
-          "name": "Dalton Schultz",
-          "position": "TE",
-          "team": "HOU",
-          "birth_date": "1996-07-11",
-          "college": "Stanford",
-          "height": "77",
-          "weight": "242",
-          "years_exp": 8,
-          "status": "Active",
-          "injury_status": null,
-          "search_rank": 98
-        },
-        {
           "player_id": "5844",
           "espn_id": 4036133,
           "name": "T.J. Hockenson",
@@ -7577,6 +7562,21 @@ window.__STATIC_DATA__ = {
           "status": "Active",
           "injury_status": "Out",
           "search_rank": 41
+        },
+        {
+          "player_id": "8110",
+          "espn_id": null,
+          "name": "Jake Ferguson",
+          "position": "TE",
+          "team": "DAL",
+          "birth_date": "1999-01-18",
+          "college": "Wisconsin",
+          "height": "77",
+          "weight": "250",
+          "years_exp": 4,
+          "status": "Active",
+          "injury_status": null,
+          "search_rank": 97
         },
         {
           "player_id": "8126",
@@ -7761,7 +7761,7 @@ window.__STATIC_DATA__ = {
           "weight": "192",
           "years_exp": 2,
           "status": "Active",
-          "injury_status": null,
+          "injury_status": "Questionable",
           "search_rank": 176
         },
         {
@@ -7941,7 +7941,7 @@ window.__STATIC_DATA__ = {
           "weight": "200",
           "years_exp": 5,
           "status": "Active",
-          "injury_status": null,
+          "injury_status": "Questionable",
           "search_rank": 86
         },
         {
@@ -8583,7 +8583,7 @@ window.__STATIC_DATA__ = {
           "weight": "226",
           "years_exp": 7,
           "status": "Active",
-          "injury_status": null,
+          "injury_status": "Questionable",
           "search_rank": 17
         },
         {
@@ -8628,7 +8628,7 @@ window.__STATIC_DATA__ = {
           "weight": "205",
           "years_exp": 5,
           "status": "Active",
-          "injury_status": null,
+          "injury_status": "Questionable",
           "search_rank": 3
         },
         {
@@ -8799,7 +8799,7 @@ window.__STATIC_DATA__ = {
           "weight": "235",
           "years_exp": 2,
           "status": "Active",
-          "injury_status": null,
+          "injury_status": "Questionable",
           "search_rank": 21
         },
         {
@@ -8878,21 +8878,6 @@ window.__STATIC_DATA__ = {
           "search_rank": 40
         },
         {
-          "player_id": "12536",
-          "espn_id": null,
-          "name": "Jaylin Noel",
-          "position": "WR",
-          "team": "HOU",
-          "birth_date": "2002-09-04",
-          "college": "Iowa State",
-          "height": "71",
-          "weight": "201",
-          "years_exp": 1,
-          "status": "Active",
-          "injury_status": "Questionable",
-          "search_rank": 190
-        },
-        {
           "player_id": "13287",
           "espn_id": null,
           "name": "Jeremiyah Love",
@@ -8921,6 +8906,21 @@ window.__STATIC_DATA__ = {
           "status": "Active",
           "injury_status": null,
           "search_rank": 197
+        },
+        {
+          "player_id": "13424",
+          "espn_id": null,
+          "name": "Seth McGowan",
+          "position": "RB",
+          "team": "IND",
+          "birth_date": "2001-10-23",
+          "college": "Kentucky",
+          "height": "72",
+          "weight": "223",
+          "years_exp": 0,
+          "status": "Active",
+          "injury_status": null,
+          "search_rank": 384
         },
         {
           "player_id": "2505",
@@ -8994,7 +8994,7 @@ window.__STATIC_DATA__ = {
           "weight": "200",
           "years_exp": 7,
           "status": "Active",
-          "injury_status": null,
+          "injury_status": "Questionable",
           "search_rank": 77
         },
         {
@@ -9008,9 +9008,24 @@ window.__STATIC_DATA__ = {
           "height": "70",
           "weight": "218",
           "years_exp": 4,
-          "status": "Active",
-          "injury_status": "Questionable",
+          "status": "Inactive",
+          "injury_status": "IR",
           "search_rank": 627
+        },
+        {
+          "player_id": "8135",
+          "espn_id": null,
+          "name": "Treylon Burks",
+          "position": "WR",
+          "team": "WAS",
+          "birth_date": "2000-03-23",
+          "college": "Arkansas",
+          "height": "74",
+          "weight": "225",
+          "years_exp": 4,
+          "status": "Active",
+          "injury_status": null,
+          "search_rank": 679
         },
         {
           "player_id": "8142",
@@ -9039,7 +9054,7 @@ window.__STATIC_DATA__ = {
           "weight": "202",
           "years_exp": 3,
           "status": "Active",
-          "injury_status": null,
+          "injury_status": "Questionable",
           "search_rank": 1
         },
         {
@@ -9606,7 +9621,7 @@ window.__STATIC_DATA__ = {
           "weight": "192",
           "years_exp": 0,
           "status": "Active",
-          "injury_status": null,
+          "injury_status": "Questionable",
           "search_rank": 61
         },
         {
@@ -10064,6 +10079,100 @@ window.__STATIC_DATA__ = {
     }
   ],
   "transactions": [
+    {
+      "season": "2026",
+      "week": 8,
+      "created": "Oct 28, 2026 • 1:17 PM PT",
+      "transaction_id": "1421280797788225536",
+      "type": "free_agent",
+      "status": "complete",
+      "teams": [
+        "avocadoshake"
+      ],
+      "added": [
+        {
+          "name": "Treylon Burks",
+          "position": "WR",
+          "team": "WAS"
+        }
+      ],
+      "dropped": [],
+      "faab": 0,
+      "waiver_bid": 0,
+      "notes": null
+    },
+    {
+      "season": "2026",
+      "week": 8,
+      "created": "Oct 28, 2026 • 1:11 PM PT",
+      "transaction_id": "1421279236898967552",
+      "type": "free_agent",
+      "status": "complete",
+      "teams": [
+        "avocadoshake"
+      ],
+      "added": [
+        {
+          "name": "Seth McGowan",
+          "position": "RB",
+          "team": "IND"
+        }
+      ],
+      "dropped": [],
+      "faab": 0,
+      "waiver_bid": 0,
+      "notes": null
+    },
+    {
+      "season": "2026",
+      "week": 8,
+      "created": "Oct 28, 2026 • 1:10 PM PT",
+      "transaction_id": "1421278961207394304",
+      "type": "free_agent",
+      "status": "complete",
+      "teams": [
+        "avocadoshake"
+      ],
+      "added": [],
+      "dropped": [
+        {
+          "name": "Jaylin Noel",
+          "position": "WR",
+          "team": "HOU"
+        }
+      ],
+      "faab": 0,
+      "waiver_bid": 0,
+      "notes": null
+    },
+    {
+      "season": "2026",
+      "week": 8,
+      "created": "Oct 28, 2026 • 10:07 AM PT",
+      "transaction_id": "1421233024778924032",
+      "type": "free_agent",
+      "status": "complete",
+      "teams": [
+        "paddleham"
+      ],
+      "added": [
+        {
+          "name": "Jake Ferguson",
+          "position": "TE",
+          "team": "DAL"
+        }
+      ],
+      "dropped": [
+        {
+          "name": "Dalton Schultz",
+          "position": "TE",
+          "team": "HOU"
+        }
+      ],
+      "faab": 0,
+      "waiver_bid": 0,
+      "notes": null
+    },
     {
       "season": "2026",
       "week": 8,
