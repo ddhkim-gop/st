@@ -1,6 +1,6 @@
 {
   "team": "churlz98",
-  "updated": "2026-10-27",
+  "updated": "2026-10-28",
   "note": "Curated: X has no public search API, so posts are collected by hand and matched to rosters by this script.",
   "tweets": [
     {
@@ -219,23 +219,25 @@
       "author_verified": true
     },
     {
-      "url": "https://www.espn.com/video/clip/_/id/50279492/cam-skattebo-celebrates-go-ahead-td-backflip",
+      "url": "https://x.com/Giants/status/2114442310893113578",
       "player": "Cam Skattebo",
       "meta": "RB \u00b7 NYG",
       "date": "2026-10-25",
-      "author": "ESPN",
-      "text": "Cam Skattebo celebrates go-ahead TD with a backflip",
+      "author": "Giants",
+      "text": "HE WILL NOT BE DENIED \ud83d\ude24\n\n\ud83d\udcfa: FOX",
       "verified": true,
-      "faves": 0,
-      "secs": 0,
-      "espn_game": "401873016",
+      "faves": 900,
+      "secs": 28,
       "game_id": "401873016",
       "game_time": "Q4 8:55",
       "play_key": "401873016:4018730163379",
       "played_at": "2026-10-25T19:39:49Z",
-      "poster": "https://espnmedia-cdn.akamaized.net/espn/media/common/2026/1025/43b37c46b91449c79005d1814cdf5937985/43b37c46b91449c79005d1814cdf5937985.jpg",
-      "published": "2026-10-25T19:50:51Z",
-      "video": "https://espnmedia-cdn.akamaized.net/espn/media/16x9/wsc/2026/1025/43b37c46-b914-49c7-9005-d1814cdf5937/43b37c46-b914-49c7-9005-d1814cdf5937.mp4"
+      "poster": "https://pbs.twimg.com/amplify_video_thumb/2114442116101246976/img/ikwx9ajJN_8sjT_f.jpg",
+      "published": "2026-10-25T19:41:46Z",
+      "video": "https://video.twimg.com/amplify_video/2114442116101246976/vid/avc1/1920x1080/S_UomxZIYSxJO4d5.mp4",
+      "author_name": "New York Giants",
+      "avatar": "https://pbs.twimg.com/profile_images/1948024945973272577/q2A09qic_normal.jpg",
+      "author_verified": true
     },
     {
       "url": "https://x.com/NFL/status/2114433961275629893",
@@ -382,27 +384,6 @@
       "video": "https://video.twimg.com/amplify_video/2113452131042631680/vid/avc1/1920x1080/5HgB24SS6UJKO8rm.mp4",
       "author_name": "Chicago Bears",
       "avatar": "",
-      "author_verified": true
-    },
-    {
-      "url": "https://x.com/NFL/status/2112339130483151117",
-      "player": "Brock Purdy",
-      "meta": "QB \u00b7 SF",
-      "date": "2026-10-20",
-      "author": "NFL",
-      "text": "Brock Purdy and George Kittle connect for the first TD of the game \ud83d\udde3\ufe0f\n\nWASvsSF on ESPN\nStream on @NFLPlus",
-      "verified": false,
-      "faves": 1434,
-      "secs": 12,
-      "poster": "https://pbs.twimg.com/amplify_video_thumb/2112338634808725504/img/Z-yxjL-pnZNxLvMu.jpg",
-      "published": "2026-10-20T00:24:28Z",
-      "video": "https://video.twimg.com/amplify_video/2112338634808725504/vid/avc1/1920x1080/ljYaDMRCmHpmF-Ve.mp4",
-      "played_at": "2026-10-20T00:21:41Z",
-      "game_time": "Q1 10:53",
-      "play_key": "401873008:401873008253",
-      "game_id": "401873008",
-      "author_name": "NFL",
-      "avatar": "https://pbs.twimg.com/profile_images/1619895559334273028/PHKS_mjX_normal.jpg",
       "author_verified": true
     }
   ]
