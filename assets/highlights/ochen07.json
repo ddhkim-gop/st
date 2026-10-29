@@ -1,6 +1,6 @@
 {
   "team": "ochen07",
-  "updated": "2026-10-28",
+  "updated": "2026-10-29",
   "note": "Curated: X has no public search API, so posts are collected by hand and matched to rosters by this script.",
   "tweets": [
     {
@@ -200,7 +200,7 @@
       "published": "2026-10-25T18:20:10Z",
       "video": "https://video.twimg.com/amplify_video/2114420983712944129/vid/avc1/1920x1080/3PXZuYAfqn9llUhr.mp4",
       "author_name": "Miami Dolphins",
-      "avatar": "https://pbs.twimg.com/profile_images/2003476192737857536/3trK5_DF_normal.jpg",
+      "avatar": "",
       "author_verified": true
     },
     {

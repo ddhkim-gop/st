@@ -1,6 +1,6 @@
 {
   "team": "ddhk",
-  "updated": "2026-10-28",
+  "updated": "2026-10-29",
   "note": "Curated: X has no public search API, so posts are collected by hand and matched to rosters by this script.",
   "tweets": [
     {
@@ -41,27 +41,6 @@
       "poster": "https://pbs.twimg.com/media/HVhCwovbgAAnMqg.jpg",
       "published": "2026-10-26T00:24:28Z",
       "video": "https://video.twimg.com/amplify_video/2114513138829959168/vid/avc1/1080x1920/B3Q6kX0gg0-gjQJ8.mp4",
-      "author_name": "NFL",
-      "avatar": "https://pbs.twimg.com/profile_images/1619895559334273028/PHKS_mjX_normal.jpg",
-      "author_verified": true
-    },
-    {
-      "url": "https://x.com/NFL/status/2114465191178158509",
-      "player": "Konata Mumpfield",
-      "meta": "WR \u00b7 LAR",
-      "date": "2026-10-25",
-      "author": "NFL",
-      "text": "This catch by Konata Mumpfield \ud83d\ude2e\u200d\ud83d\udca8\n\nLARvsLV on FOX/FOX One\nStream on @NFLPlus",
-      "verified": true,
-      "faves": 253,
-      "secs": 13,
-      "game_id": "401873021",
-      "game_time": "Q2 12:19",
-      "play_key": "401873021:4018730211181",
-      "played_at": "2026-10-25T21:10:48Z",
-      "poster": "https://pbs.twimg.com/amplify_video_thumb/2114464998584135680/img/noocoxwjFjyxu_hw.jpg",
-      "published": "2026-10-25T21:12:41Z",
-      "video": "https://video.twimg.com/amplify_video/2114464998584135680/vid/avc1/1920x1080/tOF8cHgp2xlPeV4t.mp4",
       "author_name": "NFL",
       "avatar": "https://pbs.twimg.com/profile_images/1619895559334273028/PHKS_mjX_normal.jpg",
       "author_verified": true
@@ -271,6 +250,23 @@
       "author_verified": true
     },
     {
+      "url": "https://www.youtube.com/shorts/9i95tBPcg4w",
+      "player": "Isaiah Likely",
+      "meta": "TE \u00b7 NYG",
+      "date": "2026-10-28",
+      "author": "NYGiants",
+      "text": "Catches? Likely. #giants #shorts #nfl #football #isaiahlikely #newyorkgiants",
+      "verified": false,
+      "faves": 545,
+      "secs": 98,
+      "poster": "https://i.ytimg.com/vi/9i95tBPcg4w/hqdefault.jpg",
+      "published": "2026-10-28T17:00:25Z",
+      "youtube": "9i95tBPcg4w",
+      "author_name": "New York Giants",
+      "avatar": "",
+      "author_verified": true
+    },
+    {
       "url": "https://www.espn.com/video/clip/_/id/50282905/garrett-wilson-frustrated-jets-sidelines",
       "player": "Garrett Wilson",
       "meta": "WR \u00b7 NYJ",
@@ -281,9 +277,24 @@
       "faves": 0,
       "secs": 0,
       "espn_game": "401873015",
-      "poster": "https://espnmedia-cdn.akamaized.net/espn/media/common/2026/1025/ss_20261025_201955396_3711587/ss_20261025_201955396_3711587.jpg",
+      "poster": "https://espnmedia-cdn.akamaized.net/espn/media/common/2026/1026/ss_20261025_201955396_371158716/ss_20261025_201955396_371158716.jpg",
       "published": "2026-10-26T00:19:54Z",
       "video": "https://espnmedia-cdn.akamaized.net/espn/media/16x9/2026/1025/ss_20261025_201955396_3711587/ss_20261025_201955396_3711587.mp4"
+    },
+    {
+      "url": "https://www.espn.com/video/clip/_/id/50284231/jonah-coleman-difference-maker-broncos-win",
+      "player": "Jonah Coleman",
+      "meta": "RB \u00b7 DEN",
+      "date": "2026-10-26",
+      "author": "ESPN",
+      "text": "Jonah Coleman a difference maker for Broncos in win. Jeff Legwold breaks down how big Jonah Coleman was for the Broncos in their win over the Cardinals.",
+      "verified": true,
+      "faves": 0,
+      "secs": 0,
+      "espn_game": "401873019",
+      "poster": "https://espnmedia-cdn.akamaized.net/espn/media/common/2026/1025/dm_261025_Broncos_Jonah_Coleman_IA/dm_261025_Broncos_Jonah_Coleman_IA.jpg",
+      "published": "2026-10-26T02:55:32Z",
+      "video": "https://espnmedia-cdn.akamaized.net/espn/media/16x9/2026/1025/dm_261025_Broncos_Jonah_Coleman_IA/dm_261025_Broncos_Jonah_Coleman_IA.mp4"
     }
   ]
 }

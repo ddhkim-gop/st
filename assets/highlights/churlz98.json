@@ -1,6 +1,6 @@
 {
   "team": "churlz98",
-  "updated": "2026-10-28",
+  "updated": "2026-10-29",
   "note": "Curated: X has no public search API, so posts are collected by hand and matched to rosters by this script.",
   "tweets": [
     {
@@ -240,24 +240,24 @@
       "author_verified": true
     },
     {
-      "url": "https://x.com/NFL/status/2114433961275629893",
+      "url": "https://www.youtube.com/shorts/vvRgfkoD0WA",
       "player": "Kyler Murray",
       "meta": "QB \u00b7 MIN",
       "date": "2026-10-25",
-      "author": "NFL",
-      "text": "A TD for T.J. Hockenson on National Tight Ends Day \ud83d\ude0c\n\nINDvsMIN on CBS/Paramount+\nStream on @NFLPlus",
+      "author": "Vikings",
+      "text": "Score A Touchdown & Hit The Griddy \ud83d\udd7a",
       "verified": true,
-      "faves": 448,
-      "secs": 15,
+      "faves": 462,
+      "secs": 19,
       "game_id": "401873014",
       "game_time": "Q4 14:36",
       "play_key": "401873014:4018730142783",
       "played_at": "2026-10-25T19:06:26Z",
-      "poster": "https://pbs.twimg.com/amplify_video_thumb/2114433660766277632/img/Vr6a3jK66R410CSQ.jpg",
-      "published": "2026-10-25T19:08:35Z",
-      "video": "https://video.twimg.com/amplify_video/2114433660766277632/vid/avc1/1920x1080/jupgBIbN0kdcZkb6.mp4",
-      "author_name": "NFL",
-      "avatar": "https://pbs.twimg.com/profile_images/1619895559334273028/PHKS_mjX_normal.jpg",
+      "poster": "https://i.ytimg.com/vi/vvRgfkoD0WA/hqdefault.jpg",
+      "published": "2026-10-25T19:33:48Z",
+      "youtube": "vvRgfkoD0WA",
+      "author_name": "Minnesota Vikings",
+      "avatar": "",
       "author_verified": true
     },
     {
@@ -385,6 +385,36 @@
       "author_name": "Chicago Bears",
       "avatar": "",
       "author_verified": true
+    },
+    {
+      "url": "https://www.espn.com/video/clip/_/id/50307797/how-far-kyler-murray-take-vikings-season",
+      "player": "Kyler Murray",
+      "meta": "QB \u00b7 MIN",
+      "date": "2026-10-28",
+      "author": "ESPN",
+      "text": "How far can Kyler Murray take the Vikings this season?",
+      "verified": true,
+      "faves": 0,
+      "secs": 0,
+      "espn_game": "401873030",
+      "poster": "https://espnmedia-cdn.akamaized.net/espn/media/common/2026/1028/ss_20261028_094210569_3714091600/ss_20261028_094210569_3714091600.jpg",
+      "published": "2026-10-28T13:42:09Z",
+      "video": "https://espnmedia-cdn.akamaized.net/espn/media/16x9/2026/1028/ss_20261028_094210569_3714091/ss_20261028_094210569_3714091.mp4"
+    },
+    {
+      "url": "https://www.espn.com/video/clip/_/id/50308704/what-jordan-rodgers-wants-see-kyler-murray",
+      "player": "Kyler Murray",
+      "meta": "QB \u00b7 MIN",
+      "date": "2026-10-28",
+      "author": "ESPN",
+      "text": "What Jordan Rodgers wants to see from Kyler Murray",
+      "verified": true,
+      "faves": 0,
+      "secs": 0,
+      "espn_game": "401873030",
+      "poster": "https://espnmedia-cdn.akamaized.net/espn/media/common/2026/1028/ss_20261028_114410540_3714157709/ss_20261028_114410540_3714157709.jpg",
+      "published": "2026-10-28T15:44:09Z",
+      "video": "https://espnmedia-cdn.akamaized.net/espn/media/16x9/2026/1028/ss_20261028_114410540_3714157/ss_20261028_114410540_3714157.mp4"
     }
   ]
 }

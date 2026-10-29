@@ -1,6 +1,6 @@
 {
   "team": "avocadoshake",
-  "updated": "2026-10-28",
+  "updated": "2026-10-29",
   "note": "Curated: X has no public search API, so posts are collected by hand and matched to rosters by this script.",
   "tweets": [
     {
@@ -143,7 +143,7 @@
       "published": "2026-10-25T19:41:23Z",
       "video": "https://video.twimg.com/amplify_video/2114441231853821952/vid/avc1/1920x1080/gr5noVd01ZUc4k1L.mp4",
       "author_name": "Miami Dolphins",
-      "avatar": "https://pbs.twimg.com/profile_images/2003476192737857536/3trK5_DF_normal.jpg",
+      "avatar": "",
       "author_verified": true
     },
     {
