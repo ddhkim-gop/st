@@ -11,7 +11,7 @@
       "author": "NFL",
       "text": "Jordan Love \u27a1\ufe0f Christian Watson for a 53-yard gain!\n\nCARvsGB on Prime Video\nStream on @NFLPlus",
       "verified": true,
-      "faves": 251,
+      "faves": 1411,
       "secs": 8,
       "game_id": "401873023",
       "game_time": "Q2 9:19",
@@ -32,7 +32,7 @@
       "author": "NFL",
       "text": "Chuba Hubbard runs it in for 6\ufe0f\u20e3\n\nCARvsGB on Prime Video\nStream on @NFLPlus",
       "verified": true,
-      "faves": 394,
+      "faves": 542,
       "secs": 5,
       "game_id": "401873023",
       "game_time": "Q2 14:57",
@@ -53,7 +53,7 @@
       "author": "NFL",
       "text": "Jordan Love finds Christian Watson for the first down!\n\nCARvsGB on Prime Video\nStream on @NFLPlus",
       "verified": true,
-      "faves": 451,
+      "faves": 594,
       "secs": 10,
       "game_id": "401873023",
       "game_time": "Q1 5:08",
@@ -206,6 +206,21 @@
       "author_name": "Chicago Bears",
       "avatar": "",
       "author_verified": true
+    },
+    {
+      "url": "https://www.espn.com/video/clip/_/id/50324867/christian-watson-heads-hospital-reenters-game-third-quarter",
+      "player": "Christian Watson",
+      "meta": "WR \u00b7 GB",
+      "date": "2026-10-30",
+      "author": "ESPN",
+      "text": "Christian Watson heads to hospital, then reenters game in third quarter",
+      "verified": true,
+      "faves": 0,
+      "secs": 0,
+      "espn_game": "401873023",
+      "poster": "https://espnmedia-cdn.akamaized.net/espn/media/common/wsc/2026/1030/fbf96e11-5de6-4de5-affd-82843308faed/fbf96e11-5de6-4de5-affd-82843308faed.jpg",
+      "published": "2026-10-30T03:21:21Z",
+      "video": "https://espnmedia-cdn.akamaized.net/espn/media/16x9/wsc/2026/1030/fbf96e11-5de6-4de5-affd-82843308faed/fbf96e11-5de6-4de5-affd-82843308faed.mp4"
     }
   ]
 }
