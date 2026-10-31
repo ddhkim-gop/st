@@ -1,6 +1,6 @@
 {
   "team": "paddleham",
-  "updated": "2026-10-30",
+  "updated": "2026-10-31",
   "note": "Curated: X has no public search API, so posts are collected by hand and matched to rosters by this script.",
   "tweets": [
     {
@@ -21,7 +21,7 @@
       "published": "2026-10-30T02:15:08Z",
       "video": "https://video.twimg.com/amplify_video/2115990744368582656/vid/avc1/1920x1080/E2-j3-WtKrMQIAk2.mp4",
       "author_name": "Green Bay Packers",
-      "avatar": "https://pbs.twimg.com/profile_images/2110091159766802432/OF5urpIt_normal.jpg",
+      "avatar": "",
       "author_verified": true
     },
     {
@@ -42,7 +42,7 @@
       "published": "2026-10-30T01:32:45Z",
       "video": "https://video.twimg.com/amplify_video/2115980100864798720/vid/avc1/1920x1080/mUSKo_34sMYSElSf.mp4",
       "author_name": "Green Bay Packers",
-      "avatar": "https://pbs.twimg.com/profile_images/2110091159766802432/OF5urpIt_normal.jpg",
+      "avatar": "",
       "author_verified": true
     },
     {
@@ -307,48 +307,6 @@
       "poster": "https://espnmedia-cdn.akamaized.net/espn/media/common/wsc/2026/1025/7b1dd445-e79b-47ef-bcdd-e04da8cc2e57/7b1dd445-e79b-47ef-bcdd-e04da8cc2e57.jpg",
       "published": "2026-10-25T17:16:24Z",
       "video": "https://espnmedia-cdn.akamaized.net/espn/media/16x9/wsc/2026/1025/7b1dd445-e79b-47ef-bcdd-e04da8cc2e57/7b1dd445-e79b-47ef-bcdd-e04da8cc2e57.mp4"
-    },
-    {
-      "url": "https://x.com/ChicagoBears/status/2113452325624750363",
-      "player": "Caleb Williams",
-      "meta": "QB \u00b7 CHI",
-      "date": "2026-10-23",
-      "author": "ChicagoBears",
-      "text": "Colston Loveland's a tough man to bring down \ud83d\ude2e\u200d\ud83d\udca8\n\n\ud83d\udcfa: Prime Video",
-      "verified": true,
-      "faves": 1634,
-      "secs": 31,
-      "game_id": "401873010",
-      "game_time": "Q3 9:41",
-      "play_key": "401873010:4018730102412",
-      "played_at": "2026-10-23T02:06:04Z",
-      "poster": "https://pbs.twimg.com/amplify_video_thumb/2113452131042631680/img/y3Z-iOIhgdcBFO4R.jpg",
-      "published": "2026-10-23T02:07:55Z",
-      "video": "https://video.twimg.com/amplify_video/2113452131042631680/vid/avc1/1920x1080/5HgB24SS6UJKO8rm.mp4",
-      "author_name": "Chicago Bears",
-      "avatar": "",
-      "author_verified": true
-    },
-    {
-      "url": "https://x.com/ChicagoBears/status/2113445840383869318",
-      "player": "Caleb Williams",
-      "meta": "QB \u00b7 CHI",
-      "date": "2026-10-23",
-      "author": "ChicagoBears",
-      "text": "PROBLEM CHILD \ud83d\ude08\n\n\ud83d\udcfa: Prime Video",
-      "verified": true,
-      "faves": 1238,
-      "secs": 38,
-      "game_id": "401873010",
-      "game_time": "Q2 0:14",
-      "play_key": "401873010:4018730101983",
-      "played_at": "2026-10-23T01:40:39Z",
-      "poster": "https://pbs.twimg.com/amplify_video_thumb/2113445764521414656/img/ravDGwsK6DB_oei1.jpg",
-      "published": "2026-10-23T01:42:08Z",
-      "video": "https://video.twimg.com/amplify_video/2113445764521414656/vid/avc1/1920x1080/T7i9pz1YEyCy_oL9.mp4",
-      "author_name": "Chicago Bears",
-      "avatar": "",
-      "author_verified": true
     },
     {
       "url": "https://www.youtube.com/shorts/fbLyKclLw_A",

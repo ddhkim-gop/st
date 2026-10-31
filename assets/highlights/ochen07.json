@@ -1,6 +1,6 @@
 {
   "team": "ochen07",
-  "updated": "2026-10-30",
+  "updated": "2026-10-31",
   "note": "Curated: X has no public search API, so posts are collected by hand and matched to rosters by this script.",
   "tweets": [
     {
@@ -243,27 +243,6 @@
       "video": "https://video.twimg.com/amplify_video/2114388920565628930/vid/avc1/1920x1080/lsuNdjoJMge5_n4p.mp4",
       "author_name": "NFL",
       "avatar": "https://pbs.twimg.com/profile_images/1619895559334273028/PHKS_mjX_normal.jpg",
-      "author_verified": true
-    },
-    {
-      "url": "https://x.com/ChicagoBears/status/2113461129376649651",
-      "player": "Rome Odunze",
-      "meta": "WR \u00b7 CHI",
-      "date": "2026-10-23",
-      "author": "ChicagoBears",
-      "text": ".@CALEBcsw with a laser to @RomeOdunze \ud83c\udfaf\n\n\ud83d\udcfa: Prime Video",
-      "verified": true,
-      "faves": 747,
-      "secs": 18,
-      "game_id": "401873010",
-      "game_time": "Q4 13:14",
-      "play_key": "401873010:4018730103247",
-      "played_at": "2026-10-23T02:41:45Z",
-      "poster": "https://pbs.twimg.com/amplify_video_thumb/2113461015203446784/img/TxCwwSaVEgwKXzax.jpg",
-      "published": "2026-10-23T02:42:54Z",
-      "video": "https://video.twimg.com/amplify_video/2113461015203446784/vid/avc1/1920x1080/gk-AVAINerP09Sam.mp4",
-      "author_name": "Chicago Bears",
-      "avatar": "",
       "author_verified": true
     },
     {

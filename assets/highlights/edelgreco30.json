@@ -1,6 +1,6 @@
 {
   "team": "edelgreco30",
-  "updated": "2026-10-30",
+  "updated": "2026-10-31",
   "note": "Curated: X has no public search API, so posts are collected by hand and matched to rosters by this script.",
   "tweets": [
     {
@@ -187,27 +187,6 @@
       "video": "https://espnmedia-cdn.akamaized.net/espn/media/16x9/wsc/2026/1025/1888c8d1-df8b-442a-a2df-7d7bc89e2381/1888c8d1-df8b-442a-a2df-7d7bc89e2381.mp4"
     },
     {
-      "url": "https://www.youtube.com/shorts/CAtd8Zt3G70",
-      "player": "D'Andre Swift",
-      "meta": "RB \u00b7 CHI",
-      "date": "2026-10-23",
-      "author": "ChicagoBears",
-      "text": "Swift gets the scoring started \ud83d\ude24 #TNF",
-      "verified": true,
-      "faves": 759,
-      "secs": 25,
-      "game_id": "401873010",
-      "game_time": "Q1 1:38",
-      "play_key": "401873010:401873010832",
-      "played_at": "2026-10-23T00:48:49Z",
-      "poster": "https://i.ytimg.com/vi/CAtd8Zt3G70/hqdefault.jpg",
-      "published": "2026-10-23T01:08:15Z",
-      "youtube": "CAtd8Zt3G70",
-      "author_name": "Chicago Bears",
-      "avatar": "",
-      "author_verified": true
-    },
-    {
       "url": "https://www.espn.com/video/clip/_/id/50324867/christian-watson-heads-hospital-reenters-game-third-quarter",
       "player": "Christian Watson",
       "meta": "WR \u00b7 GB",
@@ -218,7 +197,7 @@
       "faves": 0,
       "secs": 0,
       "espn_game": "401873023",
-      "poster": "https://espnmedia-cdn.akamaized.net/espn/media/common/wsc/2026/1030/fbf96e11-5de6-4de5-affd-82843308faed/fbf96e11-5de6-4de5-affd-82843308faed.jpg",
+      "poster": "https://espnmedia-cdn.akamaized.net/espn/media/common/2026/1029/fbf96e115de64de5affd82843308faed1419/fbf96e115de64de5affd82843308faed1419.jpg",
       "published": "2026-10-30T03:21:21Z",
       "video": "https://espnmedia-cdn.akamaized.net/espn/media/16x9/wsc/2026/1030/fbf96e11-5de6-4de5-affd-82843308faed/fbf96e11-5de6-4de5-affd-82843308faed.mp4"
     }

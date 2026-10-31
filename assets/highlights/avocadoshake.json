@@ -1,6 +1,6 @@
 {
   "team": "avocadoshake",
-  "updated": "2026-10-30",
+  "updated": "2026-10-31",
   "note": "Curated: X has no public search API, so posts are collected by hand and matched to rosters by this script.",
   "tweets": [
     {
@@ -261,48 +261,6 @@
       "poster": "https://espnmedia-cdn.akamaized.net/espn/media/common/2026/1025/8bf25adfa05a4042b1cae1be3085d4f8760/8bf25adfa05a4042b1cae1be3085d4f8760.jpg",
       "published": "2026-10-25T14:38:28Z",
       "video": "https://espnmedia-cdn.akamaized.net/espn/media/16x9/wsc/2026/1025/8bf25adf-a05a-4042-b1ca-e1be3085d4f8/8bf25adf-a05a-4042-b1ca-e1be3085d4f8.mp4"
-    },
-    {
-      "url": "https://x.com/ChicagoBears/status/2113445840383869318",
-      "player": "Luther Burden III",
-      "meta": "WR \u00b7 CHI",
-      "date": "2026-10-23",
-      "author": "ChicagoBears",
-      "text": "PROBLEM CHILD \ud83d\ude08\n\n\ud83d\udcfa: Prime Video",
-      "verified": true,
-      "faves": 1238,
-      "secs": 38,
-      "game_id": "401873010",
-      "game_time": "Q2 0:14",
-      "play_key": "401873010:4018730101983",
-      "played_at": "2026-10-23T01:40:39Z",
-      "poster": "https://pbs.twimg.com/amplify_video_thumb/2113445764521414656/img/ravDGwsK6DB_oei1.jpg",
-      "published": "2026-10-23T01:42:08Z",
-      "video": "https://video.twimg.com/amplify_video/2113445764521414656/vid/avc1/1920x1080/T7i9pz1YEyCy_oL9.mp4",
-      "author_name": "Chicago Bears",
-      "avatar": "",
-      "author_verified": true
-    },
-    {
-      "url": "https://x.com/NFL/status/2113432185546187221",
-      "player": "Luther Burden III",
-      "meta": "WR \u00b7 CHI",
-      "date": "2026-10-23",
-      "author": "NFL",
-      "text": "LUTHER BURDEN INSIDE THE 5\n\nNEvsCHI on Prime Video\nStream on @NFLPlus",
-      "verified": true,
-      "faves": 1445,
-      "secs": 11,
-      "game_id": "401873010",
-      "game_time": "Q1 2:32",
-      "play_key": "401873010:401873010807",
-      "played_at": "2026-10-23T00:46:54Z",
-      "poster": "https://pbs.twimg.com/amplify_video_thumb/2113432060450754560/img/Nbip-Xh8U6W9zlQ9.jpg",
-      "published": "2026-10-23T00:47:53Z",
-      "video": "https://video.twimg.com/amplify_video/2113432060450754560/vid/avc1/1920x1080/8WWjHgTlNKb2NGkg.mp4",
-      "author_name": "NFL",
-      "avatar": "https://pbs.twimg.com/profile_images/1619895559334273028/PHKS_mjX_normal.jpg",
-      "author_verified": true
     },
     {
       "url": "https://x.com/NFL/status/2114499491575279795",
