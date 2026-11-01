@@ -1935,6 +1935,126 @@
   "published": "2026-10-31T06:22:25Z",
   "video": "https://espnmedia-cdn.akamaized.net/espn/media/16x9/2026/1031/dm_261031_Cardinals_Love_IA/dm_261031_Cardinals_Love_IA.mp4"
  },
+ "https://www.espn.com/video/clip/_/id/50349347/josh-allen-punches-a-bills-td": {
+  "espn_game": "401873026",
+  "game_id": "401873026",
+  "game_time": "Q1 10:10",
+  "play_key": "401873026:401873026366",
+  "played_at": "2026-11-01T18:11:02Z",
+  "poster": "https://espnmedia-cdn.akamaized.net/espn/media/common/2026/1101/69d2ab832d0c44618b731d66003a3af6949/69d2ab832d0c44618b731d66003a3af6949.jpg",
+  "published": "2026-11-01T18:18:52Z",
+  "video": "https://espnmedia-cdn.akamaized.net/espn/media/16x9/wsc/2026/1101/69d2ab83-2d0c-4461-8b73-1d66003a3af6/69d2ab83-2d0c-4461-8b73-1d66003a3af6.mp4"
+ },
+ "https://www.espn.com/video/clip/_/id/50349428/brian-thomas-jr-puts-jacksonville-board-td-catch": {
+  "espn_game": "401873028",
+  "game_id": "401873028",
+  "game_time": "Q1 5:30",
+  "play_key": "401873028:401873028475",
+  "played_at": "2026-11-01T18:17:31Z",
+  "poster": "https://espnmedia-cdn.akamaized.net/espn/media/common/wsc/2026/1101/8e539039-b250-4648-8655-87e4810256b2/8e539039-b250-4648-8655-87e4810256b2.jpg",
+  "published": "2026-11-01T18:26:55Z",
+  "video": "https://espnmedia-cdn.akamaized.net/espn/media/16x9/wsc/2026/1101/8e539039-b250-4648-8655-87e4810256b2/8e539039-b250-4648-8655-87e4810256b2.mp4"
+ },
+ "https://www.espn.com/video/clip/_/id/50349508/brock-bowers-makes-spectacular-one-handed-snag-raiders-td": {
+  "espn_game": "401873029",
+  "game_id": "401873029",
+  "game_time": "Q1 7:23",
+  "play_key": "401873029:401873029545",
+  "played_at": "2026-11-01T18:19:29Z",
+  "poster": "https://espnmedia-cdn.akamaized.net/espn/media/common/wsc/2026/1101/6eccc442-e341-409a-b69d-0dd8cf1c3f1e/6eccc442-e341-409a-b69d-0dd8cf1c3f1e.jpg",
+  "published": "2026-11-01T18:35:43Z",
+  "video": "https://espnmedia-cdn.akamaized.net/espn/media/16x9/wsc/2026/1101/6eccc442-e341-409a-b69d-0dd8cf1c3f1e/6eccc442-e341-409a-b69d-0dd8cf1c3f1e.mp4"
+ },
+ "https://www.espn.com/video/clip/_/id/50349584/tony-pollard-stiff-arms-way-40-yard-td": {
+  "espn_game": "401873031",
+  "game_id": "401873031",
+  "game_time": "Q1 7:55",
+  "play_key": "401873031:401873031517",
+  "played_at": "2026-11-01T18:19:52Z",
+  "poster": "https://espnmedia-cdn.akamaized.net/espn/media/common/wsc/2026/1101/43e506e0-9820-4dff-81bd-a44a415972d2/43e506e0-9820-4dff-81bd-a44a415972d2.jpg",
+  "published": "2026-11-01T18:45:46Z",
+  "video": "https://espnmedia-cdn.akamaized.net/espn/media/16x9/wsc/2026/1101/43e506e0-9820-4dff-81bd-a44a415972d2/43e506e0-9820-4dff-81bd-a44a415972d2.mp4"
+ },
+ "https://www.espn.com/video/clip/_/id/50349585/steelers-strike-first-rico-dowdle-9-yard-td": {
+  "espn_game": "401873027",
+  "game_id": "401873027",
+  "game_time": "Q1 7:57",
+  "play_key": "401873027:401873027627",
+  "played_at": "2026-11-01T18:23:22Z",
+  "poster": "https://espnmedia-cdn.akamaized.net/espn/media/common/wsc/2026/1101/64c1987d-bb37-44e9-87fb-c5854cc384f8/64c1987d-bb37-44e9-87fb-c5854cc384f8.jpg",
+  "published": "2026-11-01T18:46:05Z",
+  "video": "https://espnmedia-cdn.akamaized.net/espn/media/16x9/wsc/2026/1101/64c1987d-bb37-44e9-87fb-c5854cc384f8/64c1987d-bb37-44e9-87fb-c5854cc384f8.mp4"
+ },
+ "https://www.espn.com/video/clip/_/id/50349657/derrick-henry-td-helps-ravens-capitalize-josh-allen-int": {
+  "espn_game": "401873026",
+  "game_id": "401873026",
+  "game_time": "Q1 3:18",
+  "play_key": "401873026:401873026947",
+  "played_at": "2026-11-01T18:37:35Z",
+  "poster": "https://espnmedia-cdn.akamaized.net/espn/media/common/2026/1101/694bc9f8d9f84664a0768555931788d1959/694bc9f8d9f84664a0768555931788d1959.jpg",
+  "published": "2026-11-01T18:53:41Z",
+  "video": "https://espnmedia-cdn.akamaized.net/espn/media/16x9/wsc/2026/1101/694bc9f8-d9f8-4664-a076-8555931788d1/694bc9f8-d9f8-4664-a076-8555931788d1.mp4"
+ },
+ "https://www.espn.com/video/clip/_/id/50349706/justin-jefferson-makes-jaw-dropping-acrobatic-td-catch-vikings": {
+  "espn_game": "401873030",
+  "game_id": "401873030",
+  "game_time": "Q2 14:25",
+  "play_key": "401873030:4018730301086",
+  "played_at": "2026-11-01T18:47:33Z",
+  "poster": "https://espnmedia-cdn.akamaized.net/espn/media/common/2026/1101/64a6afe975954be6a035330df4fa3d0e937/64a6afe975954be6a035330df4fa3d0e937.jpg",
+  "published": "2026-11-01T19:01:56Z",
+  "video": "https://espnmedia-cdn.akamaized.net/espn/media/16x9/wsc/2026/1101/64a6afe9-7595-4be6-a035-330df4fa3d0e/64a6afe9-7595-4be6-a035-330df4fa3d0e.mp4"
+ },
+ "https://www.espn.com/video/clip/_/id/50349714/joe-burrow-links-jamarr-chase-30-yard-td": {
+  "espn_game": "401873031",
+  "game_id": "401873031",
+  "game_time": "Q2 13:20",
+  "play_key": "401873031:4018730311223",
+  "played_at": "2026-11-01T18:49:24Z",
+  "poster": "https://espnmedia-cdn.akamaized.net/espn/media/common/wsc/2026/1101/e5b411c8-7ea7-4764-95c2-c7d966d4a25d/e5b411c8-7ea7-4764-95c2-c7d966d4a25d.jpg",
+  "published": "2026-11-01T19:06:18Z",
+  "video": "https://espnmedia-cdn.akamaized.net/espn/media/16x9/wsc/2026/1101/e5b411c8-7ea7-4764-95c2-c7d966d4a25d/e5b411c8-7ea7-4764-95c2-c7d966d4a25d.mp4"
+ },
+ "https://www.espn.com/video/clip/_/id/50349774/trevor-lawrence-finds-nate-boerkircher-jags-td": {
+  "espn_game": "401873028",
+  "game_id": "401873028",
+  "game_time": "Q2 7:14",
+  "play_key": "401873028:4018730281428",
+  "played_at": "2026-11-01T18:59:53Z",
+  "poster": "https://espnmedia-cdn.akamaized.net/espn/media/common/wsc/2026/1101/34ce44ed-86d2-48d7-a70b-5646ae0dc435/34ce44ed-86d2-48d7-a70b-5646ae0dc435.jpg",
+  "published": "2026-11-01T19:14:27Z",
+  "video": "https://espnmedia-cdn.akamaized.net/espn/media/16x9/wsc/2026/1101/34ce44ed-86d2-48d7-a70b-5646ae0dc435/34ce44ed-86d2-48d7-a70b-5646ae0dc435.mp4"
+ },
+ "https://www.espn.com/video/clip/_/id/50349879/dak-prescott-finds-ryan-flournoy-extend-cowboys-lead": {
+  "espn_game": "401873024",
+  "game_id": "401873024",
+  "game_time": "Q2 5:16",
+  "play_key": "401873024:4018730241516",
+  "played_at": "2026-11-01T18:59:14Z",
+  "poster": "https://espnmedia-cdn.akamaized.net/espn/media/common/2026/1101/17019aae008c4cabb95404cc44ab4359986/17019aae008c4cabb95404cc44ab4359986.jpg",
+  "published": "2026-11-01T19:25:58Z",
+  "video": "https://espnmedia-cdn.akamaized.net/espn/media/16x9/wsc/2026/1101/17019aae-008c-4cab-b954-04cc44ab4359/17019aae-008c-4cab-b954-04cc44ab4359.mp4"
+ },
+ "https://www.espn.com/video/clip/_/id/50349911/jared-goff-throws-first-int-season": {
+  "espn_game": "401873030",
+  "game_id": "401873030",
+  "game_time": "Q2 0:18",
+  "play_key": "401873030:4018730302179",
+  "played_at": "2026-11-01T19:31:58Z",
+  "poster": "https://espnmedia-cdn.akamaized.net/espn/media/common/2026/1101/73fd397ca26f4d8db5e2f049dd51bc67939/73fd397ca26f4d8db5e2f049dd51bc67939.jpg",
+  "published": "2026-11-01T19:32:36Z",
+  "video": "https://espnmedia-cdn.akamaized.net/espn/media/16x9/wsc/2026/1101/73fd397c-a26f-4d8d-b5e2-f049dd51bc67/73fd397c-a26f-4d8d-b5e2-f049dd51bc67.mp4"
+ },
+ "https://www.espn.com/video/clip/_/id/50349912/bhayshul-tuten-shakes-multiple-colts-39-yard-td": {
+  "espn_game": "401873028",
+  "game_id": "401873028",
+  "game_time": "Q2 1:51",
+  "play_key": "401873028:4018730281838",
+  "played_at": "2026-11-01T19:20:36Z",
+  "poster": "https://espnmedia-cdn.akamaized.net/espn/media/common/wsc/2026/1101/88a7654d-d2e5-4a9b-b040-78de3ad543f4/88a7654d-d2e5-4a9b-b040-78de3ad543f4.jpg",
+  "published": "2026-11-01T19:32:39Z",
+  "video": "https://espnmedia-cdn.akamaized.net/espn/media/16x9/wsc/2026/1101/88a7654d-d2e5-4a9b-b040-78de3ad543f4/88a7654d-d2e5-4a9b-b040-78de3ad543f4.mp4"
+ },
  "https://www.espn.com/video/clip/_/id/50349926/michael-penix-jr-throws-3rd-int-1st-half": {
   "espn_game": "401873025",
   "game_id": "401873025",
@@ -1945,6 +2065,76 @@
   "published": "2026-11-01T19:36:40Z",
   "video": "https://espnmedia-cdn.akamaized.net/espn/media/16x9/wsc/2026/1101/a66a3cfd-6324-408b-b2ac-fff66265e9ed/a66a3cfd-6324-408b-b2ac-fff66265e9ed.mp4"
  },
+ "https://www.espn.com/video/clip/_/id/50349965/joe-burrow-finds-jack-endries-1-yard-td": {
+  "espn_game": "401873031",
+  "game_id": "401873031",
+  "game_time": "Q2 0:20",
+  "play_key": "401873031:4018730312203",
+  "played_at": "2026-11-01T19:30:07Z",
+  "poster": "https://espnmedia-cdn.akamaized.net/espn/media/common/wsc/2026/1101/0e248401-c5e1-4a73-91a7-d57d9ea92a5e/0e248401-c5e1-4a73-91a7-d57d9ea92a5e.jpg",
+  "published": "2026-11-01T19:40:18Z",
+  "video": "https://espnmedia-cdn.akamaized.net/espn/media/16x9/wsc/2026/1101/0e248401-c5e1-4a73-91a7-d57d9ea92a5e/0e248401-c5e1-4a73-91a7-d57d9ea92a5e.mp4"
+ },
+ "https://www.espn.com/video/clip/_/id/50349967/steelers-tush-push-pat-freiermuth-td-right-half": {
+  "espn_game": "401873027",
+  "game_id": "401873027",
+  "game_time": "Q2 0:01",
+  "play_key": "401873027:4018730272170",
+  "played_at": "2026-11-01T19:31:10Z",
+  "poster": "https://espnmedia-cdn.akamaized.net/espn/media/common/wsc/2026/1101/3bf124c1-8252-446e-83b8-2c67876e7fb9/3bf124c1-8252-446e-83b8-2c67876e7fb9.jpg",
+  "published": "2026-11-01T19:41:36Z",
+  "video": "https://espnmedia-cdn.akamaized.net/espn/media/16x9/wsc/2026/1101/3bf124c1-8252-446e-83b8-2c67876e7fb9/3bf124c1-8252-446e-83b8-2c67876e7fb9.mp4"
+ },
+ "https://www.espn.com/video/clip/_/id/50349985/dj-reed-makes-impressive-diving-int-kyler-murray": {
+  "espn_game": "401873030",
+  "game_id": "401873030",
+  "game_time": "Q2 1:51",
+  "play_key": "401873030:4018730301919",
+  "played_at": "2026-11-01T19:24:25Z",
+  "poster": "https://espnmedia-cdn.akamaized.net/espn/media/common/2026/1101/942d90ad28fd40668384efa031310c7f940/942d90ad28fd40668384efa031310c7f940.jpg",
+  "published": "2026-11-01T19:46:07Z",
+  "video": "https://espnmedia-cdn.akamaized.net/espn/media/16x9/wsc/2026/1101/942d90ad-28fd-4066-8384-efa031310c7f/942d90ad-28fd-4066-8384-efa031310c7f.mp4"
+ },
+ "https://www.espn.com/video/clip/_/id/50350078/brock-bowers-scores-2nd-td-game": {
+  "espn_game": "401873029",
+  "game_id": "401873029",
+  "game_time": "Q3 9:59",
+  "play_key": "401873029:4018730292415",
+  "played_at": "2026-11-01T19:45:08Z",
+  "poster": "https://espnmedia-cdn.akamaized.net/espn/media/common/wsc/2026/1101/ee63ee6d-1eda-4389-9b9b-648e20487817/ee63ee6d-1eda-4389-9b9b-648e20487817.jpg",
+  "published": "2026-11-01T19:55:09Z",
+  "video": "https://espnmedia-cdn.akamaized.net/espn/media/16x9/wsc/2026/1101/ee63ee6d-1eda-4389-9b9b-648e20487817/ee63ee6d-1eda-4389-9b9b-648e20487817.mp4"
+ },
+ "https://www.espn.com/video/clip/_/id/50350108/joe-burrow-extend-bengals-lead-td-pass-tee-higgins": {
+  "espn_game": "401873031",
+  "game_id": "401873031",
+  "game_time": "Q3 12:25",
+  "play_key": "401873031:4018730312562",
+  "played_at": "2026-11-01T19:55:09Z",
+  "poster": "https://espnmedia-cdn.akamaized.net/espn/media/common/wsc/2026/1101/475e96c1-73ae-41de-b673-cd01662efa3a/475e96c1-73ae-41de-b673-cd01662efa3a.jpg",
+  "published": "2026-11-01T20:04:40Z",
+  "video": "https://espnmedia-cdn.akamaized.net/espn/media/16x9/wsc/2026/1101/475e96c1-73ae-41de-b673-cd01662efa3a/475e96c1-73ae-41de-b673-cd01662efa3a.mp4"
+ },
+ "https://www.espn.com/video/clip/_/id/50350118/braelon-allen-goes-untouched-jets-td": {
+  "espn_game": "401873029",
+  "game_id": "401873029",
+  "game_time": "Q3 8:20",
+  "play_key": "401873029:4018730292536",
+  "played_at": "2026-11-01T19:51:10Z",
+  "poster": "https://espnmedia-cdn.akamaized.net/espn/media/common/wsc/2026/1101/5cb351d5-fd24-48cf-ab7b-0d07cab0bb6d/5cb351d5-fd24-48cf-ab7b-0d07cab0bb6d.jpg",
+  "published": "2026-11-01T20:06:44Z",
+  "video": "https://espnmedia-cdn.akamaized.net/espn/media/16x9/wsc/2026/1101/5cb351d5-fd24-48cf-ab7b-0d07cab0bb6d/5cb351d5-fd24-48cf-ab7b-0d07cab0bb6d.mp4"
+ },
+ "https://www.espn.com/video/clip/_/id/50350161/jaylen-warren-runs-td-pad-steelers-lead": {
+  "espn_game": "401873027",
+  "game_id": "401873027",
+  "game_time": "Q3 9:39",
+  "play_key": "401873027:4018730272588",
+  "played_at": "2026-11-01T20:01:36Z",
+  "poster": "https://espnmedia-cdn.akamaized.net/espn/media/common/wsc/2026/1101/877ac5d8-8fee-40b8-874e-02e6982f0925/877ac5d8-8fee-40b8-874e-02e6982f0925.jpg",
+  "published": "2026-11-01T20:13:44Z",
+  "video": "https://espnmedia-cdn.akamaized.net/espn/media/16x9/wsc/2026/1101/877ac5d8-8fee-40b8-874e-02e6982f0925/877ac5d8-8fee-40b8-874e-02e6982f0925.mp4"
+ },
  "https://www.espn.com/video/clip/_/id/50350165/bucky-irving-barrels-bucs-td": {
   "espn_game": "401873025",
   "game_id": "401873025",
@@ -1954,6 +2144,106 @@
   "poster": "https://espnmedia-cdn.akamaized.net/espn/media/common/wsc/2026/1101/aa98da62-10da-47ac-a9ef-3f7cdc28d99c/aa98da62-10da-47ac-a9ef-3f7cdc28d99c.jpg",
   "published": "2026-11-01T20:14:36Z",
   "video": "https://espnmedia-cdn.akamaized.net/espn/media/16x9/wsc/2026/1101/aa98da62-10da-47ac-a9ef-3f7cdc28d99c/aa98da62-10da-47ac-a9ef-3f7cdc28d99c.mp4"
+ },
+ "https://www.espn.com/video/clip/_/id/50350260/tony-pollard-breaks-tackle-2nd-td-game": {
+  "espn_game": "401873031",
+  "game_id": "401873031",
+  "game_time": "Q3 7:47",
+  "play_key": "401873031:4018730312943",
+  "played_at": "2026-11-01T20:08:01Z",
+  "poster": "https://espnmedia-cdn.akamaized.net/espn/media/common/wsc/2026/1101/7b0b505a-3e8c-482d-8e94-7dfbab2e2ab2/7b0b505a-3e8c-482d-8e94-7dfbab2e2ab2.jpg",
+  "published": "2026-11-01T20:22:07Z",
+  "video": "https://espnmedia-cdn.akamaized.net/espn/media/16x9/wsc/2026/1101/7b0b505a-3e8c-482d-8e94-7dfbab2e2ab2/7b0b505a-3e8c-482d-8e94-7dfbab2e2ab2.mp4"
+ },
+ "https://www.espn.com/video/clip/_/id/50350262/jahmyr-gibbs-denied-30-yard-td-run": {
+  "espn_game": "401873030",
+  "game_id": "401873030",
+  "game_time": "Q3 4:40",
+  "play_key": "401873030:4018730302812",
+  "played_at": "2026-11-01T20:08:54Z",
+  "poster": "https://espnmedia-cdn.akamaized.net/espn/media/common/2026/1101/92a84bb0d7a44c26805286c79b10c561942/92a84bb0d7a44c26805286c79b10c561942.jpg",
+  "published": "2026-11-01T20:22:50Z",
+  "video": "https://espnmedia-cdn.akamaized.net/espn/media/16x9/wsc/2026/1101/92a84bb0-d7a4-4c26-8052-86c79b10c561/92a84bb0-d7a4-4c26-8052-86c79b10c561.mp4"
+ },
+ "https://www.espn.com/video/clip/_/id/50350791/dak-prescott-rushes-td-late-game": {
+  "espn_game": "401873024",
+  "game_id": "401873024",
+  "game_time": "Q4 14:20",
+  "play_key": "401873024:4018730243294",
+  "played_at": "2026-11-01T20:24:26Z",
+  "poster": "https://espnmedia-cdn.akamaized.net/espn/media/common/wsc/2026/1101/7ea7d6f6-e9ee-4130-b2e2-80ad94a471ef/7ea7d6f6-e9ee-4130-b2e2-80ad94a471ef.jpg",
+  "published": "2026-11-01T20:49:41Z",
+  "video": "https://espnmedia-cdn.akamaized.net/espn/media/16x9/wsc/2026/1101/7ea7d6f6-e9ee-4130-b2e2-80ad94a471ef/7ea7d6f6-e9ee-4130-b2e2-80ad94a471ef.mp4"
+ },
+ "https://www.espn.com/video/clip/_/id/50350825/kirk-cousins-puts-raiders-ahead-td-pass-jalen-nailor": {
+  "espn_game": "401873029",
+  "game_id": "401873029",
+  "game_time": "Q4 11:33",
+  "play_key": "401873029:4018730293258",
+  "played_at": "2026-11-01T20:20:50Z",
+  "poster": "https://espnmedia-cdn.akamaized.net/espn/media/common/wsc/2026/1101/39448174-e340-40a2-afd5-300eb9e14e7b/39448174-e340-40a2-afd5-300eb9e14e7b.jpg",
+  "published": "2026-11-01T20:54:21Z",
+  "video": "https://espnmedia-cdn.akamaized.net/espn/media/16x9/wsc/2026/1101/39448174-e340-40a2-afd5-300eb9e14e7b/39448174-e340-40a2-afd5-300eb9e14e7b.mp4"
+ },
+ "https://www.espn.com/video/clip/_/id/50350933/tj-hockenson-td-gives-vikings-lead": {
+  "espn_game": "401873030",
+  "game_id": "401873030",
+  "game_time": "Q4 8:44",
+  "play_key": "401873030:4018730303536",
+  "played_at": "2026-11-01T20:44:07Z",
+  "poster": "https://espnmedia-cdn.akamaized.net/espn/media/common/2026/1101/c1f25c81a081473a8d2c69fc611d1da5971/c1f25c81a081473a8d2c69fc611d1da5971.jpg",
+  "published": "2026-11-01T21:01:17Z",
+  "video": "https://espnmedia-cdn.akamaized.net/espn/media/16x9/wsc/2026/1101/c1f25c81-a081-473a-8d2c-69fc611d1da5/c1f25c81-a081-473a-8d2c-69fc611d1da5.mp4"
+ },
+ "https://www.espn.com/video/clip/_/id/50350976/tyler-allgeier-breaks-multiple-tackles-63-yard-rushing-td": {
+  "espn_game": "401873024",
+  "game_id": "401873024",
+  "game_time": "Q3 0:57",
+  "play_key": "401873024:4018730243050",
+  "played_at": "2026-11-01T20:12:42Z",
+  "poster": "https://espnmedia-cdn.akamaized.net/espn/media/common/wsc/2026/1101/cd8142a4-27d0-4c15-af85-eb7bd10d8bec/cd8142a4-27d0-4c15-af85-eb7bd10d8bec.jpg",
+  "published": "2026-11-01T21:03:04Z",
+  "video": "https://espnmedia-cdn.akamaized.net/espn/media/16x9/wsc/2026/1101/cd8142a4-27d0-4c15-af85-eb7bd10d8bec/cd8142a4-27d0-4c15-af85-eb7bd10d8bec.mp4"
+ },
+ "https://www.espn.com/video/clip/_/id/50351230/trey-mcbride-keeps-cardinals-alive-late-td": {
+  "espn_game": "401873024",
+  "game_id": "401873024",
+  "game_time": "Q4 2:11",
+  "play_key": "401873024:4018730244256",
+  "played_at": "2026-11-01T21:01:31Z",
+  "poster": "https://espnmedia-cdn.akamaized.net/espn/media/common/2026/1101/d537dee1d1884d6a9f461b4ca423977f1010/d537dee1d1884d6a9f461b4ca423977f1010.jpg",
+  "published": "2026-11-01T21:23:30Z",
+  "video": "https://espnmedia-cdn.akamaized.net/espn/media/16x9/wsc/2026/1101/d537dee1-d188-4d6a-9f46-1b4ca423977f/d537dee1-d188-4d6a-9f46-1b4ca423977f.mp4"
+ },
+ "https://www.espn.com/video/clip/_/id/50351246/josh-allen-becomes-bills-all-leader-passing-touchdowns": {
+  "espn_game": "401873026",
+  "game_id": "401873026",
+  "game_time": "Q4 5:58",
+  "play_key": "401873026:4018730264251",
+  "played_at": "2026-11-01T21:08:47Z",
+  "poster": "https://espnmedia-cdn.akamaized.net/espn/media/common/wsc/2026/1101/9d23e83a-ae3f-4007-98b4-586ce9556a24/9d23e83a-ae3f-4007-98b4-586ce9556a24.jpg",
+  "published": "2026-11-01T21:23:58Z",
+  "video": "https://espnmedia-cdn.akamaized.net/espn/media/16x9/wsc/2026/1101/9d23e83a-ae3f-4007-98b4-586ce9556a24/9d23e83a-ae3f-4007-98b4-586ce9556a24.mp4"
+ },
+ "https://www.espn.com/video/clip/_/id/50351308/joe-burrow-comes-clutch-late-4th-td-pass-tee-higgins": {
+  "espn_game": "401873031",
+  "game_id": "401873031",
+  "game_time": "Q4 7:13",
+  "play_key": "401873031:4018730314047",
+  "played_at": "2026-11-01T20:57:25Z",
+  "poster": "https://espnmedia-cdn.akamaized.net/espn/media/common/2026/1101/a0150f016fab42c3b002b2310a0812df1017/a0150f016fab42c3b002b2310a0812df1017.jpg",
+  "published": "2026-11-01T21:27:35Z",
+  "video": "https://espnmedia-cdn.akamaized.net/espn/media/16x9/wsc/2026/1101/a0150f01-6fab-42c3-b002-b2310a0812df/a0150f01-6fab-42c3-b002-b2310a0812df.mp4"
+ },
+ "https://www.espn.com/video/clip/_/id/50351361/josh-allen-links-dalton-kincaid-extend-bills-lead": {
+  "espn_game": "401873026",
+  "game_id": "401873026",
+  "game_time": "Q4 5:58",
+  "play_key": "401873026:4018730264251",
+  "played_at": "2026-11-01T21:08:47Z",
+  "poster": "https://espnmedia-cdn.akamaized.net/espn/media/common/wsc/2026/1101/21aff665-9d05-4ae3-bbd1-e94ce1416ca6/21aff665-9d05-4ae3-bbd1-e94ce1416ca6.jpg",
+  "published": "2026-11-01T21:29:38Z",
+  "video": "https://espnmedia-cdn.akamaized.net/espn/media/16x9/wsc/2026/1101/21aff665-9d05-4ae3-bbd1-e94ce1416ca6/21aff665-9d05-4ae3-bbd1-e94ce1416ca6.mp4"
  },
  "https://www.youtube.com/shorts/-9mLHMkLMRw": {
   "poster": "https://i.ytimg.com/vi/-9mLHMkLMRw/hqdefault.jpg",
@@ -1978,6 +2268,11 @@
   "poster": "https://i.ytimg.com/vi/-Prt969WqGo/hqdefault.jpg",
   "published": "2026-10-04T20:36:12Z",
   "youtube": "-Prt969WqGo"
+ },
+ "https://www.youtube.com/shorts/-aXN1B6dMcU": {
+  "poster": "https://i.ytimg.com/vi/-aXN1B6dMcU/hqdefault.jpg",
+  "published": "2026-11-01T21:09:04Z",
+  "youtube": "-aXN1B6dMcU"
  },
  "https://www.youtube.com/shorts/-be0pcvmRRs": {
   "poster": "https://i.ytimg.com/vi/-be0pcvmRRs/hqdefault.jpg",
@@ -2016,6 +2311,11 @@
   "poster": "https://i.ytimg.com/vi/0QY1U2YT62Y/hqdefault.jpg",
   "published": "2026-10-23T02:29:05Z",
   "youtube": "0QY1U2YT62Y"
+ },
+ "https://www.youtube.com/shorts/0atvpn8OL10": {
+  "poster": "https://i.ytimg.com/vi/0atvpn8OL10/hqdefault.jpg",
+  "published": "2026-11-01T21:23:27Z",
+  "youtube": "0atvpn8OL10"
  },
  "https://www.youtube.com/shorts/0hfBQYqOP50": {
   "poster": "https://i.ytimg.com/vi/0hfBQYqOP50/hqdefault.jpg",
@@ -2096,6 +2396,15 @@
   "poster": "https://i.ytimg.com/vi/2RbGXSoSLGQ/hqdefault.jpg",
   "published": "2026-10-28T19:58:55Z",
   "youtube": "2RbGXSoSLGQ"
+ },
+ "https://www.youtube.com/shorts/2jJxWxiQEeM": {
+  "game_id": "401873031",
+  "game_time": "Q5 7:00",
+  "play_key": "401873031:4018730314927",
+  "played_at": "2026-11-01T21:33:25Z",
+  "poster": "https://i.ytimg.com/vi/2jJxWxiQEeM/hqdefault.jpg",
+  "published": "2026-11-01T21:43:53Z",
+  "youtube": "2jJxWxiQEeM"
  },
  "https://www.youtube.com/shorts/2wA0CWNraGk": {
   "poster": "https://i.ytimg.com/vi/2wA0CWNraGk/hqdefault.jpg",
@@ -2351,6 +2660,15 @@
   "poster": "https://i.ytimg.com/vi/8D8g7RpiCQY/hqdefault.jpg",
   "published": "2026-10-21T19:18:29Z",
   "youtube": "8D8g7RpiCQY"
+ },
+ "https://www.youtube.com/shorts/8D_K5cHdVfQ": {
+  "game_id": "401873025",
+  "game_time": "Q3 3:47",
+  "play_key": "401873025:4018730252455",
+  "played_at": "2026-11-01T20:03:42Z",
+  "poster": "https://i.ytimg.com/vi/8D_K5cHdVfQ/hqdefault.jpg",
+  "published": "2026-11-01T20:28:50Z",
+  "youtube": "8D_K5cHdVfQ"
  },
  "https://www.youtube.com/shorts/8EYESSgrlmk": {
   "poster": "https://i.ytimg.com/vi/8EYESSgrlmk/hqdefault.jpg",
@@ -2845,6 +3163,15 @@
   "poster": "https://i.ytimg.com/vi/Iuqeeg2fIKw/hqdefault.jpg",
   "published": "2026-10-08T23:00:18Z",
   "youtube": "Iuqeeg2fIKw"
+ },
+ "https://www.youtube.com/shorts/J1IQPbmllk0": {
+  "game_id": "401873029",
+  "game_time": "Q3 8:20",
+  "play_key": "401873029:4018730292536",
+  "played_at": "2026-11-01T19:51:10Z",
+  "poster": "https://i.ytimg.com/vi/J1IQPbmllk0/hqdefault.jpg",
+  "published": "2026-11-01T20:14:31Z",
+  "youtube": "J1IQPbmllk0"
  },
  "https://www.youtube.com/shorts/J35lpjRH-bM": {
   "poster": "https://i.ytimg.com/vi/J35lpjRH-bM/hqdefault.jpg",
@@ -3454,6 +3781,15 @@
   "published": "2026-09-25T19:42:27Z",
   "youtube": "Wewc_aQ88FE"
  },
+ "https://www.youtube.com/shorts/WrWLqc9rhEs": {
+  "game_id": "401873033",
+  "game_time": "Q1 6:04",
+  "play_key": "401873033:401873033599",
+  "played_at": "2026-11-01T21:43:04Z",
+  "poster": "https://i.ytimg.com/vi/WrWLqc9rhEs/hqdefault.jpg",
+  "published": "2026-11-01T21:53:29Z",
+  "youtube": "WrWLqc9rhEs"
+ },
  "https://www.youtube.com/shorts/X0pR1DAX4Oc": {
   "poster": "https://i.ytimg.com/vi/X0pR1DAX4Oc/hqdefault.jpg",
   "published": "2026-09-29T17:00:29Z",
@@ -3671,6 +4007,15 @@
   "published": "2026-09-28T00:08:14Z",
   "youtube": "b11FKthJ230"
  },
+ "https://www.youtube.com/shorts/b3JtuoFdc3c": {
+  "game_id": "401873026",
+  "game_time": "Q4 5:58",
+  "play_key": "401873026:4018730264251",
+  "played_at": "2026-11-01T21:08:47Z",
+  "poster": "https://i.ytimg.com/vi/b3JtuoFdc3c/hqdefault.jpg",
+  "published": "2026-11-01T21:23:00Z",
+  "youtube": "b3JtuoFdc3c"
+ },
  "https://www.youtube.com/shorts/b7IocOsY_40": {
   "poster": "https://i.ytimg.com/vi/b7IocOsY_40/hqdefault.jpg",
   "published": "2026-10-23T18:08:22Z",
@@ -3734,6 +4079,15 @@
   "poster": "https://i.ytimg.com/vi/csmdgIJLu64/hqdefault.jpg",
   "published": "2026-09-30T18:16:53Z",
   "youtube": "csmdgIJLu64"
+ },
+ "https://www.youtube.com/shorts/cxIsGRCvAhs": {
+  "game_id": "401873031",
+  "game_time": "Q2 0:20",
+  "play_key": "401873031:4018730312203",
+  "played_at": "2026-11-01T19:30:07Z",
+  "poster": "https://i.ytimg.com/vi/cxIsGRCvAhs/hqdefault.jpg",
+  "published": "2026-11-01T19:44:27Z",
+  "youtube": "cxIsGRCvAhs"
  },
  "https://www.youtube.com/shorts/d4v5DF_Ht-c": {
   "poster": "https://i.ytimg.com/vi/d4v5DF_Ht-c/hqdefault.jpg",
@@ -3947,6 +4301,11 @@
   "poster": "https://i.ytimg.com/vi/ge99cte5zaM/hqdefault.jpg",
   "published": "2026-10-30T17:41:03Z",
   "youtube": "ge99cte5zaM"
+ },
+ "https://www.youtube.com/shorts/gjt_elw2OU8": {
+  "poster": "https://i.ytimg.com/vi/gjt_elw2OU8/hqdefault.jpg",
+  "published": "2026-11-01T21:09:42Z",
+  "youtube": "gjt_elw2OU8"
  },
  "https://www.youtube.com/shorts/go1pGQ-xkBY": {
   "poster": "https://i.ytimg.com/vi/go1pGQ-xkBY/hqdefault.jpg",
@@ -8109,6 +8468,52 @@
   "poster": "https://pbs.twimg.com/amplify_video_thumb/2117000648441081856/img/3jh1TvPwQukVi8IB.jpg",
   "published": "2026-11-01T21:08:05Z",
   "video": "https://video.twimg.com/amplify_video/2117000648441081856/vid/avc1/1920x1080/7XF_ugdQzlAgcMjb.mp4"
+ },
+ "https://x.com/NFL/status/2117001414652182887": {
+  "game_id": "401873026",
+  "game_time": "Q4 5:58",
+  "play_key": "401873026:4018730264251",
+  "played_at": "2026-11-01T21:08:47Z",
+  "poster": "https://pbs.twimg.com/amplify_video_thumb/2117001172858929152/img/u2afs7XDt2-_D9i8.jpg",
+  "published": "2026-11-01T21:10:43Z",
+  "video": "https://video.twimg.com/amplify_video/2117001172858929152/vid/avc1/1920x1080/1N3j_BzoDi_J96d6.mp4"
+ },
+ "https://x.com/NFL/status/2117001646240825810": {
+  "poster": "https://pbs.twimg.com/amplify_video_thumb/2117001492284710912/img/EioyGb9aNIHIieth.jpg",
+  "published": "2026-11-01T21:11:39Z",
+  "video": "https://video.twimg.com/amplify_video/2117001492284710912/vid/avc1/1920x1080/eL5_cYNBp2sxQPmo.mp4"
+ },
+ "https://x.com/NFL/status/2117003104726196263": {
+  "game_id": "401873031",
+  "game_time": "Q4 1:17",
+  "play_key": "401873031:4018730314539",
+  "played_at": "2026-11-01T21:16:18Z",
+  "poster": "https://pbs.twimg.com/amplify_video_thumb/2117002988439080960/img/OIPAlYrREep5pd1L.jpg",
+  "published": "2026-11-01T21:17:26Z",
+  "video": "https://video.twimg.com/amplify_video/2117002988439080960/vid/avc1/1920x1080/AB_8el4byXhZYnzF.mp4"
+ },
+ "https://x.com/NFL/status/2117007498645500237": {
+  "poster": "https://pbs.twimg.com/amplify_video_thumb/2117007307716636672/img/RmKCPQxWIxZX9e5O.jpg",
+  "published": "2026-11-01T21:34:54Z",
+  "video": "https://video.twimg.com/amplify_video/2117007307716636672/vid/avc1/1920x1080/AkrngypsE5_ml6df.mp4"
+ },
+ "https://x.com/NFL/status/2117014295816929651": {
+  "game_id": "401873033",
+  "game_time": "Q1 0:05",
+  "play_key": "401873033:4018730331017",
+  "played_at": "2026-11-01T22:00:56Z",
+  "poster": "https://pbs.twimg.com/amplify_video_thumb/2117014189269274624/img/t7uLVHUWXryYnPvO.jpg",
+  "published": "2026-11-01T22:01:55Z",
+  "video": "https://video.twimg.com/amplify_video/2117014189269274624/vid/avc1/1920x1080/HlP9C198yHYh40GU.mp4"
+ },
+ "https://x.com/NFL/status/2117015322838372640": {
+  "game_id": "401873034",
+  "game_time": "Q2 13:04",
+  "play_key": "401873034:4018730341052",
+  "played_at": "2026-11-01T22:06:12Z",
+  "poster": "https://pbs.twimg.com/amplify_video_thumb/2117015189170372608/img/zFDozMmB5vHSXhyD.jpg",
+  "published": "2026-11-01T22:05:59Z",
+  "video": "https://video.twimg.com/amplify_video/2117015189170372608/vid/avc1/1920x1080/gldE37oxXU_Nsp5O.mp4"
  },
  "https://x.com/NFLBrasil/status/2093514185812431184": {
   "poster": "https://pbs.twimg.com/amplify_video_thumb/2093514163834269696/img/j7GWyppCmf8GOls3.jpg?name=orig",
