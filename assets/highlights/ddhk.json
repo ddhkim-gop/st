@@ -4,6 +4,27 @@
   "note": "Curated: X has no public search API, so posts are collected by hand and matched to rosters by this script.",
   "tweets": [
     {
+      "url": "https://x.com/nyjets/status/2116955184744313211",
+      "player": "Garrett Wilson",
+      "meta": "WR \u00b7 NYJ",
+      "date": "2026-11-01",
+      "author": "nyjets",
+      "text": "smooth @GarrettWilson_V \n\n\ud83d\udcfa: #LVvsNYJ on FOX",
+      "verified": true,
+      "faves": 131,
+      "secs": 10,
+      "game_id": "401873029",
+      "game_time": "Q1 13:00",
+      "play_key": "401873029:401873029167",
+      "played_at": "2026-11-01T18:07:03Z",
+      "poster": "https://pbs.twimg.com/amplify_video_thumb/2116955090074365952/img/oDo5rC8I0NJTIVIR.jpg",
+      "published": "2026-11-01T18:07:01Z",
+      "video": "https://video.twimg.com/amplify_video/2116955090074365952/vid/avc1/1920x1080/-0JY-Kjcik3284AT.mp4",
+      "author_name": "New York Jets",
+      "avatar": "https://pbs.twimg.com/profile_images/2114726710214103040/pVXiph6H_normal.jpg",
+      "author_verified": true
+    },
+    {
       "url": "https://x.com/NFL/status/2114525041945968995",
       "player": "Kenneth Walker III",
       "meta": "RB \u00b7 KC",
@@ -46,6 +67,27 @@
       "author_verified": true
     },
     {
+      "url": "https://x.com/NFL/status/2114481877688177137",
+      "player": "Jacoby Brissett",
+      "meta": "QB \u00b7 ARI",
+      "date": "2026-10-25",
+      "author": "NFL",
+      "text": "Trey McBride!\n\nAnother tight end TD on their holiday \ud83d\ude4c\n\nDENvsAZ on CBS/Paramount+\nStream on @NFLPlus",
+      "verified": true,
+      "faves": 310,
+      "secs": 9,
+      "game_id": "401873019",
+      "game_time": "Q3 3:50",
+      "play_key": "401873019:4018730193014",
+      "played_at": "2026-10-25T22:18:08Z",
+      "poster": "https://pbs.twimg.com/amplify_video_thumb/2114481779201773568/img/2aW3dGcX0ZFyXykq.jpg",
+      "published": "2026-10-25T22:18:59Z",
+      "video": "https://video.twimg.com/amplify_video/2114481779201773568/vid/avc1/1920x1080/Zo622Wb0Cj4hvrNr.mp4",
+      "author_name": "NFL",
+      "avatar": "https://pbs.twimg.com/profile_images/1619895559334273028/PHKS_mjX_normal.jpg",
+      "author_verified": true
+    },
+    {
       "url": "https://x.com/nyjets/status/2114443139310063673",
       "player": "Mason Taylor",
       "meta": "TE \u00b7 NYJ",
@@ -63,7 +105,7 @@
       "published": "2026-10-25T19:45:03Z",
       "video": "https://video.twimg.com/amplify_video/2114442936049942528/vid/avc1/1920x1080/5D-Tu0ZRF8jcgruA.mp4",
       "author_name": "New York Jets",
-      "avatar": "",
+      "avatar": "https://pbs.twimg.com/profile_images/2114726710214103040/pVXiph6H_normal.jpg",
       "author_verified": true
     },
     {
@@ -84,7 +126,7 @@
       "published": "2026-10-25T18:56:57Z",
       "video": "https://video.twimg.com/amplify_video/2114430856467042304/vid/avc1/1920x1080/tViNz2lOPxVnlnRV.mp4",
       "author_name": "New York Jets",
-      "avatar": "",
+      "avatar": "https://pbs.twimg.com/profile_images/2114726710214103040/pVXiph6H_normal.jpg",
       "author_verified": true
     },
     {
@@ -147,25 +189,6 @@
       "video": "https://espnmedia-cdn.akamaized.net/espn/media/16x9/wsc/2026/1025/72b9cf6f-c853-4d38-9b71-ac51f6c11a26/72b9cf6f-c853-4d38-9b71-ac51f6c11a26.mp4"
     },
     {
-      "url": "https://www.espn.com/video/clip/_/id/50278754/baker-mayfield-caps-bucs-monster-half-td-pass-tez-johnson",
-      "player": "Baker Mayfield",
-      "meta": "QB \u00b7 TB",
-      "date": "2026-10-25",
-      "author": "ESPN",
-      "text": "Baker Mayfield caps Bucs monster half with TD pass to Tez Johnson. Baker Mayfield caps Bucs monster half with TD pass to Tez Johnson ",
-      "verified": true,
-      "faves": 0,
-      "secs": 0,
-      "espn_game": "401873018",
-      "game_id": "401873018",
-      "game_time": "Q2 0:04",
-      "play_key": "401873018:4018730181929",
-      "played_at": "2026-10-25T18:20:00Z",
-      "poster": "https://espnmedia-cdn.akamaized.net/espn/media/common/wsc/2026/1025/ae1f8e35-256f-4871-a3d7-fcaf1b84c309/ae1f8e35-256f-4871-a3d7-fcaf1b84c309.jpg",
-      "published": "2026-10-25T18:44:06Z",
-      "video": "https://espnmedia-cdn.akamaized.net/espn/media/16x9/wsc/2026/1025/ae1f8e35-256f-4871-a3d7-fcaf1b84c309/ae1f8e35-256f-4871-a3d7-fcaf1b84c309.mp4"
-    },
-    {
       "url": "https://x.com/nyjets/status/2114411312855867551",
       "player": "Braelon Allen",
       "meta": "RB \u00b7 NYJ",
@@ -183,7 +206,7 @@
       "published": "2026-10-25T17:38:35Z",
       "video": "https://video.twimg.com/amplify_video/2114411182530375680/vid/avc1/1100x1080/JDkqQK1SRvlEDswY.mp4",
       "author_name": "New York Jets",
-      "avatar": "",
+      "avatar": "https://pbs.twimg.com/profile_images/2114726710214103040/pVXiph6H_normal.jpg",
       "author_verified": true
     },
     {
@@ -204,7 +227,7 @@
       "published": "2026-10-25T17:15:30Z",
       "video": "https://video.twimg.com/amplify_video/2114405467032047616/vid/avc1/1080x1080/EVN5GQw6bKFYYn0m.mp4",
       "author_name": "New York Jets",
-      "avatar": "",
+      "avatar": "https://pbs.twimg.com/profile_images/2114726710214103040/pVXiph6H_normal.jpg",
       "author_verified": true
     },
     {
@@ -225,24 +248,7 @@
       "published": "2026-10-25T17:14:24Z",
       "video": "https://video.twimg.com/amplify_video/2114404990387105792/vid/avc1/1920x1080/1FUmdE111zqxapu3.mp4",
       "author_name": "New York Jets",
-      "avatar": "",
-      "author_verified": true
-    },
-    {
-      "url": "https://www.youtube.com/shorts/w2MxMoV0VAc",
-      "player": "Baker Mayfield",
-      "meta": "QB \u00b7 TB",
-      "date": "2026-10-31",
-      "author": "Buccaneers",
-      "text": "Tampa Terrence & Baker Mayfield would run the pong table \ud83d\ude2e\u200d\ud83d\udca8\ud83c\udfd3\ud83c\udf89: Bud Light #bakermayfield",
-      "verified": false,
-      "faves": 217,
-      "secs": 45,
-      "poster": "https://i.ytimg.com/vi/w2MxMoV0VAc/hqdefault.jpg",
-      "published": "2026-10-31T19:00:17Z",
-      "youtube": "w2MxMoV0VAc",
-      "author_name": "Tampa Bay Buccaneers",
-      "avatar": "",
+      "avatar": "https://pbs.twimg.com/profile_images/2114726710214103040/pVXiph6H_normal.jpg",
       "author_verified": true
     },
     {
@@ -260,23 +266,6 @@
       "video": "https://video.twimg.com/amplify_video/2116002250791505920/vid/avc1/1920x1080/XuSPlWw1n4Oby7vt.mp4",
       "author_name": "NFL",
       "avatar": "https://pbs.twimg.com/profile_images/1619895559334273028/PHKS_mjX_normal.jpg",
-      "author_verified": true
-    },
-    {
-      "url": "https://x.com/NFLonFOX/status/2115894908271894922",
-      "player": "Baker Mayfield",
-      "meta": "QB \u00b7 TB",
-      "date": "2026-10-29",
-      "author": "NFLonFOX",
-      "text": "What's Baker Mayfield keeping in that briefcase on the sideline?\n\n@GronkandJules @Edelman11 @VitaVea",
-      "verified": false,
-      "faves": 56,
-      "secs": 30,
-      "poster": "https://pbs.twimg.com/amplify_video_thumb/2115888988515168256/img/UN05nQJ3B8V2lrJA.jpg",
-      "published": "2026-10-29T19:53:52Z",
-      "video": "https://video.twimg.com/amplify_video/2115888988515168256/vid/avc1/1080x1920/MoMOxPbwghgAaGvC.mp4",
-      "author_name": "FOX Sports: NFL",
-      "avatar": "https://pbs.twimg.com/profile_images/1889457774159167488/SooiqbNH_normal.jpg",
       "author_verified": true
     },
     {

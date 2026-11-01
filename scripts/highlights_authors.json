@@ -295,8 +295,8 @@
   "verified": true
  },
  "Raiders": {
-  "avatar": "https://pbs.twimg.com/profile_images/1846312316486537220/UXydCG21_normal.jpg",
-  "name": "Las Vegas Raiders",
+  "avatar": "",
+  "name": "Raiders",
   "verified": true
  },
  "RamsNFL": {
@@ -375,7 +375,7 @@
   "verified": true
  },
  "nyjets": {
-  "avatar": "",
+  "avatar": "https://pbs.twimg.com/profile_images/2114726710214103040/pVXiph6H_normal.jpg",
   "name": "New York Jets",
   "verified": true
  },
