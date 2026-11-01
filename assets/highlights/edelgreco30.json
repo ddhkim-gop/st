@@ -4,6 +4,27 @@
   "note": "Curated: X has no public search API, so posts are collected by hand and matched to rosters by this script.",
   "tweets": [
     {
+      "url": "https://www.youtube.com/shorts/HBwR1cTsk-c",
+      "player": "Rico Dowdle",
+      "meta": "RB \u00b7 PIT",
+      "date": "2026-11-01",
+      "author": "steelers",
+      "text": "RICO IN FOR 6\u203c\ufe0f \ud83d\udcfa: CBS",
+      "verified": true,
+      "faves": 293,
+      "secs": 11,
+      "game_id": "401873027",
+      "game_time": "Q1 7:57",
+      "play_key": "401873027:401873027627",
+      "played_at": "2026-11-01T18:23:22Z",
+      "poster": "https://i.ytimg.com/vi/HBwR1cTsk-c/hqdefault.jpg",
+      "published": "2026-11-01T18:33:52Z",
+      "youtube": "HBwR1cTsk-c",
+      "author_name": "Pittsburgh Steelers",
+      "avatar": "",
+      "author_verified": true
+    },
+    {
       "url": "https://x.com/NFL/status/2115974949026640067",
       "player": "Christian Watson",
       "meta": "WR \u00b7 GB",

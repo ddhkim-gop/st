@@ -4,6 +4,27 @@
   "note": "Curated: X has no public search API, so posts are collected by hand and matched to rosters by this script.",
   "tweets": [
     {
+      "url": "https://www.youtube.com/shorts/LbYRXIhoGtM",
+      "player": "Kyler Murray",
+      "meta": "QB \u00b7 MIN",
+      "date": "2026-11-01",
+      "author": "Vikings",
+      "text": "HOW DID JUSTIN JEFFERSON CATCH THAT? \ud83e\udd2f | \ud83d\udcfa: NFL on FOX",
+      "verified": true,
+      "faves": 209,
+      "secs": 27,
+      "game_id": "401873030",
+      "game_time": "Q2 14:25",
+      "play_key": "401873030:4018730301086",
+      "played_at": "2026-11-01T18:47:33Z",
+      "poster": "https://i.ytimg.com/vi/LbYRXIhoGtM/hqdefault.jpg",
+      "published": "2026-11-01T18:54:56Z",
+      "youtube": "LbYRXIhoGtM",
+      "author_name": "Minnesota Vikings",
+      "avatar": "",
+      "author_verified": true
+    },
+    {
       "url": "https://x.com/dallascowboys/status/2114906789313421336",
       "player": "CeeDee Lamb",
       "meta": "WR \u00b7 DAL",
@@ -261,27 +282,6 @@
       "author_verified": true
     },
     {
-      "url": "https://x.com/NFL/status/2114433110687522928",
-      "player": "Kyler Murray",
-      "meta": "QB \u00b7 MIN",
-      "date": "2026-10-25",
-      "author": "NFL",
-      "text": "Kyler Murray with a 35-yard run to pick up the first down \ud83c\udfc3\n\nINDvsMIN on CBS/Paramount+\nStream on @NFLPlus",
-      "verified": true,
-      "faves": 458,
-      "secs": 24,
-      "game_id": "401873014",
-      "game_time": "Q4 15:00",
-      "play_key": "401873014:4018730142743",
-      "played_at": "2026-10-25T19:03:15Z",
-      "poster": "https://pbs.twimg.com/amplify_video_thumb/2114432818495602688/img/raYt5_lPcZuQklGp.jpg",
-      "published": "2026-10-25T19:05:12Z",
-      "video": "https://video.twimg.com/amplify_video/2114432818495602688/vid/avc1/1920x1080/8VxMqlB4ar96NWl4.mp4",
-      "author_name": "NFL",
-      "avatar": "https://pbs.twimg.com/profile_images/1619895559334273028/PHKS_mjX_normal.jpg",
-      "author_verified": true
-    },
-    {
       "url": "https://x.com/NFL/status/2114403753868906758",
       "player": "Carnell Tate",
       "meta": "WR \u00b7 TEN",
@@ -320,7 +320,7 @@
       "published": "2026-10-25T16:24:34Z",
       "video": "https://video.twimg.com/amplify_video/2114392596181393408/vid/avc1/1920x1080/56motyuXX8B1nMXT.mp4",
       "author_name": "Pittsburgh Steelers",
-      "avatar": "https://pbs.twimg.com/profile_images/1982652036136030208/ptD9zAsL_normal.jpg",
+      "avatar": "",
       "author_verified": true
     },
     {
@@ -341,7 +341,7 @@
       "published": "2026-10-25T15:42:29Z",
       "video": "https://video.twimg.com/amplify_video/2114381968381018112/vid/avc1/1920x1080/QB0rymXFf8Xa6KLl.mp4",
       "author_name": "Pittsburgh Steelers",
-      "avatar": "https://pbs.twimg.com/profile_images/1982652036136030208/ptD9zAsL_normal.jpg",
+      "avatar": "",
       "author_verified": true
     },
     {

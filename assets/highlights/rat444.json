@@ -4,6 +4,27 @@
   "note": "Curated: X has no public search API, so posts are collected by hand and matched to rosters by this script.",
   "tweets": [
     {
+      "url": "https://www.youtube.com/shorts/L1vN-3TiNyY",
+      "player": "Ja'Marr Chase",
+      "meta": "WR \u00b7 CIN",
+      "date": "2026-11-01",
+      "author": "Bengals",
+      "text": "Ja\u2019Marr Chase in the end zone \ud83d\ude2e\u200d\ud83d\udca8#TENvsCIN on CBS/Paramount+",
+      "verified": true,
+      "faves": 31,
+      "secs": 18,
+      "game_id": "401873031",
+      "game_time": "Q2 13:20",
+      "play_key": "401873031:4018730311223",
+      "played_at": "2026-11-01T18:49:24Z",
+      "poster": "https://i.ytimg.com/vi/L1vN-3TiNyY/hqdefault.jpg",
+      "published": "2026-11-01T19:06:11Z",
+      "youtube": "L1vN-3TiNyY",
+      "author_name": "Cincinnati Bengals",
+      "avatar": "",
+      "author_verified": true
+    },
+    {
       "url": "https://www.espn.com/video/clip/_/id/50323486/jordan-love-zips-tucker-kraft-packers-td",
       "player": "Tucker Kraft",
       "meta": "TE \u00b7 GB",
