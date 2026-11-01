@@ -1,6 +1,6 @@
 {
   "team": "avocadoshake",
-  "updated": "2026-10-31",
+  "updated": "2026-11-01",
   "note": "Curated: X has no public search API, so posts are collected by hand and matched to rosters by this script.",
   "tweets": [
     {
@@ -261,6 +261,21 @@
       "poster": "https://espnmedia-cdn.akamaized.net/espn/media/common/2026/1025/8bf25adfa05a4042b1cae1be3085d4f8760/8bf25adfa05a4042b1cae1be3085d4f8760.jpg",
       "published": "2026-10-25T14:38:28Z",
       "video": "https://espnmedia-cdn.akamaized.net/espn/media/16x9/wsc/2026/1025/8bf25adf-a05a-4042-b1ca-e1be3085d4f8/8bf25adf-a05a-4042-b1ca-e1be3085d4f8.mp4"
+    },
+    {
+      "url": "https://www.espn.com/video/clip/_/id/50333705/jeremiyah-love-expected-back-cardinals-vs-cowboys",
+      "player": "Jeremiyah Love",
+      "meta": "RB \u00b7 ARI",
+      "date": "2026-10-31",
+      "author": "ESPN",
+      "text": "Jeremiyah Love expected back for Cardinals vs. Cowboys. Josh Weinfuss breaks down Jeremiyah Love's expected return to the field for Arizona vs. Dallas in Week 8.",
+      "verified": true,
+      "faves": 0,
+      "secs": 0,
+      "espn_game": "401873024",
+      "poster": "https://espnmedia-cdn.akamaized.net/espn/media/common/2026/1031/dm_261031_Cardinals_Love_IA/dm_261031_Cardinals_Love_IA.jpg",
+      "published": "2026-10-31T06:22:25Z",
+      "video": "https://espnmedia-cdn.akamaized.net/espn/media/16x9/2026/1031/dm_261031_Cardinals_Love_IA/dm_261031_Cardinals_Love_IA.mp4"
     },
     {
       "url": "https://x.com/NFL/status/2114499491575279795",

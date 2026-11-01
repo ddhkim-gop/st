@@ -1,6 +1,6 @@
 {
   "team": "ddhk",
-  "updated": "2026-10-31",
+  "updated": "2026-11-01",
   "note": "Curated: X has no public search API, so posts are collected by hand and matched to rosters by this script.",
   "tweets": [
     {
@@ -225,6 +225,23 @@
       "published": "2026-10-25T17:14:24Z",
       "video": "https://video.twimg.com/amplify_video/2114404990387105792/vid/avc1/1920x1080/1FUmdE111zqxapu3.mp4",
       "author_name": "New York Jets",
+      "avatar": "",
+      "author_verified": true
+    },
+    {
+      "url": "https://www.youtube.com/shorts/w2MxMoV0VAc",
+      "player": "Baker Mayfield",
+      "meta": "QB \u00b7 TB",
+      "date": "2026-10-31",
+      "author": "Buccaneers",
+      "text": "Tampa Terrence & Baker Mayfield would run the pong table \ud83d\ude2e\u200d\ud83d\udca8\ud83c\udfd3\ud83c\udf89: Bud Light #bakermayfield",
+      "verified": false,
+      "faves": 217,
+      "secs": 45,
+      "poster": "https://i.ytimg.com/vi/w2MxMoV0VAc/hqdefault.jpg",
+      "published": "2026-10-31T19:00:17Z",
+      "youtube": "w2MxMoV0VAc",
+      "author_name": "Tampa Bay Buccaneers",
       "avatar": "",
       "author_verified": true
     },
