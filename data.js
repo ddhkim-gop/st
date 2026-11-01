@@ -7063,6 +7063,21 @@ window.__STATIC_DATA__ = {
           "search_rank": 151
         },
         {
+          "player_id": "13286",
+          "espn_id": null,
+          "name": "Jadarian Price",
+          "position": "RB",
+          "team": "SEA",
+          "birth_date": "2003-10-09",
+          "college": "Notre Dame",
+          "height": "71",
+          "weight": "209",
+          "years_exp": 0,
+          "status": "Inactive",
+          "injury_status": "IR",
+          "search_rank": 52
+        },
+        {
           "player_id": "13293",
           "espn_id": null,
           "name": "Ja'Kobi Lane",
@@ -7108,6 +7123,21 @@ window.__STATIC_DATA__ = {
           "search_rank": 125
         },
         {
+          "player_id": "3257",
+          "espn_id": 2578570,
+          "name": "Jacoby Brissett",
+          "position": "QB",
+          "team": "ARI",
+          "birth_date": "1992-12-11",
+          "college": "North Carolina State",
+          "height": "76",
+          "weight": "235",
+          "years_exp": 10,
+          "status": "Active",
+          "injury_status": null,
+          "search_rank": 203
+        },
+        {
           "player_id": "4037",
           "espn_id": 3116165,
           "name": "Chris Godwin Jr.",
@@ -7134,23 +7164,8 @@ window.__STATIC_DATA__ = {
           "weight": "205",
           "years_exp": 9,
           "status": "Active",
-          "injury_status": null,
+          "injury_status": "Out",
           "search_rank": 673
-        },
-        {
-          "player_id": "4892",
-          "espn_id": 3052587,
-          "name": "Baker Mayfield",
-          "position": "QB",
-          "team": "TB",
-          "birth_date": "1995-04-14",
-          "college": "Oklahoma",
-          "height": "73",
-          "weight": "215",
-          "years_exp": 8,
-          "status": "Active",
-          "injury_status": null,
-          "search_rank": 75
         },
         {
           "player_id": "4983",
@@ -7164,7 +7179,7 @@ window.__STATIC_DATA__ = {
           "weight": "213",
           "years_exp": 8,
           "status": "Active",
-          "injury_status": "Questionable",
+          "injury_status": null,
           "search_rank": 48
         },
         {
@@ -7299,7 +7314,7 @@ window.__STATIC_DATA__ = {
           "weight": "217",
           "years_exp": 4,
           "status": "Active",
-          "injury_status": "Questionable",
+          "injury_status": "Out",
           "search_rank": 27
         },
         {
@@ -7335,7 +7350,7 @@ window.__STATIC_DATA__ = {
           "weight": "246",
           "years_exp": 3,
           "status": "Active",
-          "injury_status": "Questionable",
+          "injury_status": null,
           "search_rank": 81
         },
         {
@@ -7515,7 +7530,7 @@ window.__STATIC_DATA__ = {
           "weight": "205",
           "years_exp": 8,
           "status": "Active",
-          "injury_status": null,
+          "injury_status": "Out",
           "search_rank": 9
         },
         {
@@ -7575,7 +7590,7 @@ window.__STATIC_DATA__ = {
           "weight": "250",
           "years_exp": 4,
           "status": "Active",
-          "injury_status": null,
+          "injury_status": "Out",
           "search_rank": 97
         },
         {
@@ -7941,7 +7956,7 @@ window.__STATIC_DATA__ = {
           "weight": "200",
           "years_exp": 5,
           "status": "Active",
-          "injury_status": "Questionable",
+          "injury_status": null,
           "search_rank": 86
         },
         {
@@ -7971,7 +7986,7 @@ window.__STATIC_DATA__ = {
           "weight": "215",
           "years_exp": 4,
           "status": "Active",
-          "injury_status": null,
+          "injury_status": "Questionable",
           "search_rank": 19
         },
         {
@@ -8262,7 +8277,7 @@ window.__STATIC_DATA__ = {
           "weight": "202",
           "years_exp": 5,
           "status": "Active",
-          "injury_status": null,
+          "injury_status": "Questionable",
           "search_rank": 7
         },
         {
@@ -8613,7 +8628,7 @@ window.__STATIC_DATA__ = {
           "weight": "185",
           "years_exp": 5,
           "status": "Active",
-          "injury_status": "Questionable",
+          "injury_status": null,
           "search_rank": 42
         },
         {
@@ -8889,7 +8904,7 @@ window.__STATIC_DATA__ = {
           "weight": "212",
           "years_exp": 0,
           "status": "Active",
-          "injury_status": null,
+          "injury_status": "Questionable",
           "search_rank": 15
         },
         {
@@ -8994,7 +9009,7 @@ window.__STATIC_DATA__ = {
           "weight": "200",
           "years_exp": 7,
           "status": "Active",
-          "injury_status": "Questionable",
+          "injury_status": null,
           "search_rank": 77
         },
         {
@@ -9405,7 +9420,7 @@ window.__STATIC_DATA__ = {
           "weight": "205",
           "years_exp": 4,
           "status": "Active",
-          "injury_status": "Questionable",
+          "injury_status": null,
           "search_rank": 23
         },
         {
@@ -10079,6 +10094,56 @@ window.__STATIC_DATA__ = {
     }
   ],
   "transactions": [
+    {
+      "season": "2026",
+      "week": 8,
+      "created": "Nov 1, 2026 • 8:21 AM PT",
+      "transaction_id": "1422655809615065095",
+      "type": "free_agent",
+      "status": "complete",
+      "teams": [
+        "ddhk"
+      ],
+      "added": [
+        {
+          "name": "Jacoby Brissett",
+          "position": "QB",
+          "team": "ARI"
+        }
+      ],
+      "dropped": [
+        {
+          "name": "Baker Mayfield",
+          "position": "QB",
+          "team": "TB"
+        }
+      ],
+      "faab": 0,
+      "waiver_bid": 0,
+      "notes": null
+    },
+    {
+      "season": "2026",
+      "week": 8,
+      "created": "Nov 1, 2026 • 8:21 AM PT",
+      "transaction_id": "1422655748378222592",
+      "type": "free_agent",
+      "status": "complete",
+      "teams": [
+        "ddhk"
+      ],
+      "added": [
+        {
+          "name": "Jadarian Price",
+          "position": "RB",
+          "team": "SEA"
+        }
+      ],
+      "dropped": [],
+      "faab": 0,
+      "waiver_bid": 0,
+      "notes": null
+    },
     {
       "season": "2026",
       "week": 8,
