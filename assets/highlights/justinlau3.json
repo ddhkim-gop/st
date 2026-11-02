@@ -4,6 +4,27 @@
   "note": "Curated: X has no public search API, so posts are collected by hand and matched to rosters by this script.",
   "tweets": [
     {
+      "url": "https://x.com/Eagles/status/2117073707659133203",
+      "player": "Saquon Barkley",
+      "meta": "RB \u00b7 PHI",
+      "date": "2026-11-02",
+      "author": "Eagles",
+      "text": "Alllll Saquon \ud83d\ude4c",
+      "verified": true,
+      "faves": 1190,
+      "secs": 7,
+      "game_id": "401873035",
+      "game_time": "Q1 4:27",
+      "play_key": "401873035:401873035906",
+      "played_at": "2026-11-02T01:55:13Z",
+      "poster": "https://pbs.twimg.com/amplify_video_thumb/2117073183287197696/img/0eTqyhkeOvZUQcqK.jpg",
+      "published": "2026-11-02T01:57:59Z",
+      "video": "https://video.twimg.com/amplify_video/2117073183287197696/vid/avc1/1920x1080/DEjh9ATdvj8HAIz2.mp4",
+      "author_name": "Philadelphia Eagles",
+      "avatar": "https://pbs.twimg.com/profile_images/2097678958909415424/CUZFsXqV_normal.jpg",
+      "author_verified": true
+    },
+    {
       "url": "https://www.espn.com/video/clip/_/id/50352646/puka-nacua-adds-rams-lead-td",
       "player": "Puka Nacua",
       "meta": "WR \u00b7 LAR",
