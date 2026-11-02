@@ -4,6 +4,25 @@
   "note": "Curated: X has no public search API, so posts are collected by hand and matched to rosters by this script.",
   "tweets": [
     {
+      "url": "https://www.espn.com/video/clip/_/id/50353615/jonah-coleman-punches-go-ahead-td-put-broncos-top",
+      "player": "Jonah Coleman",
+      "meta": "RB \u00b7 DEN",
+      "date": "2026-11-02",
+      "author": "ESPN",
+      "text": "Jonah Coleman punches in go-ahead TD to put Broncos on top",
+      "verified": true,
+      "faves": 0,
+      "secs": 0,
+      "espn_game": "401873033",
+      "game_id": "401873033",
+      "game_time": "Q4 1:56",
+      "play_key": "401873033:4018730334260",
+      "played_at": "2026-11-02T00:24:46Z",
+      "poster": "https://espnmedia-cdn.akamaized.net/espn/media/common/2026/1101/0473bc20fda44862a94a7a974d599b2d1202/0473bc20fda44862a94a7a974d599b2d1202.jpg",
+      "published": "2026-11-02T00:36:14Z",
+      "video": "https://espnmedia-cdn.akamaized.net/espn/media/16x9/wsc/2026/1102/0473bc20-fda4-4862-a94a-7a974d599b2d/0473bc20-fda4-4862-a94a-7a974d599b2d.mp4"
+    },
+    {
       "url": "https://www.espn.com/video/clip/_/id/50351246/josh-allen-becomes-bills-all-leader-passing-touchdowns",
       "player": "Josh Allen",
       "meta": "QB \u00b7 BUF",
