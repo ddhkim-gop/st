@@ -1951,7 +1951,7 @@
   "game_time": "Q1 5:30",
   "play_key": "401873028:401873028475",
   "played_at": "2026-11-01T18:17:31Z",
-  "poster": "https://espnmedia-cdn.akamaized.net/espn/media/common/wsc/2026/1101/8e539039-b250-4648-8655-87e4810256b2/8e539039-b250-4648-8655-87e4810256b2.jpg",
+  "poster": "https://espnmedia-cdn.akamaized.net/espn/media/common/2026/1101/8e539039b2504648865587e4810256b2986/8e539039b2504648865587e4810256b2986.jpg",
   "published": "2026-11-01T18:26:55Z",
   "video": "https://espnmedia-cdn.akamaized.net/espn/media/16x9/wsc/2026/1101/8e539039-b250-4648-8655-87e4810256b2/8e539039-b250-4648-8655-87e4810256b2.mp4"
  },
@@ -1961,7 +1961,7 @@
   "game_time": "Q1 7:23",
   "play_key": "401873029:401873029545",
   "played_at": "2026-11-01T18:19:29Z",
-  "poster": "https://espnmedia-cdn.akamaized.net/espn/media/common/wsc/2026/1101/6eccc442-e341-409a-b69d-0dd8cf1c3f1e/6eccc442-e341-409a-b69d-0dd8cf1c3f1e.jpg",
+  "poster": "https://espnmedia-cdn.akamaized.net/espn/media/common/2026/1101/6eccc442e341409ab69d0dd8cf1c3f1e978/6eccc442e341409ab69d0dd8cf1c3f1e978.jpg",
   "published": "2026-11-01T18:35:43Z",
   "video": "https://espnmedia-cdn.akamaized.net/espn/media/16x9/wsc/2026/1101/6eccc442-e341-409a-b69d-0dd8cf1c3f1e/6eccc442-e341-409a-b69d-0dd8cf1c3f1e.mp4"
  },
@@ -2184,6 +2184,16 @@
   "poster": "https://espnmedia-cdn.akamaized.net/espn/media/common/wsc/2026/1101/39448174-e340-40a2-afd5-300eb9e14e7b/39448174-e340-40a2-afd5-300eb9e14e7b.jpg",
   "published": "2026-11-01T20:54:21Z",
   "video": "https://espnmedia-cdn.akamaized.net/espn/media/16x9/wsc/2026/1101/39448174-e340-40a2-afd5-300eb9e14e7b/39448174-e340-40a2-afd5-300eb9e14e7b.mp4"
+ },
+ "https://www.espn.com/video/clip/_/id/50350880/michael-penix-jr-throws-fourth-int-game": {
+  "espn_game": "401873025",
+  "game_id": "401873025",
+  "game_time": "Q4 3:15",
+  "play_key": "401873025:4018730253339",
+  "played_at": "2026-11-01T20:39:39Z",
+  "poster": "https://espnmedia-cdn.akamaized.net/espn/media/common/wsc/2026/1101/6b93b501-caab-4e67-9799-e54dd2986fef/6b93b501-caab-4e67-9799-e54dd2986fef.jpg",
+  "published": "2026-11-01T20:57:59Z",
+  "video": "https://espnmedia-cdn.akamaized.net/espn/media/16x9/wsc/2026/1101/6b93b501-caab-4e67-9799-e54dd2986fef/6b93b501-caab-4e67-9799-e54dd2986fef.mp4"
  },
  "https://www.espn.com/video/clip/_/id/50350933/tj-hockenson-td-gives-vikings-lead": {
   "espn_game": "401873030",
@@ -4876,6 +4886,11 @@
   "published": "2026-10-26T00:16:47Z",
   "youtube": "p0IjQ3GmjW0"
  },
+ "https://www.youtube.com/shorts/p40G_HrAxWg": {
+  "poster": "https://i.ytimg.com/vi/p40G_HrAxWg/hqdefault.jpg",
+  "published": "2026-11-02T02:16:49Z",
+  "youtube": "p40G_HrAxWg"
+ },
  "https://www.youtube.com/shorts/p8Ix14UFFfI": {
   "poster": "https://i.ytimg.com/vi/p8Ix14UFFfI/hqdefault.jpg",
   "published": "2026-10-05T22:30:04Z",
@@ -5936,6 +5951,24 @@
   "poster": "https://pbs.twimg.com/amplify_video_thumb/2112374443158732800/img/4EecJ7IN11EwHOy-.jpg",
   "published": "2026-10-20T02:46:02Z",
   "video": "https://video.twimg.com/amplify_video/2112374443158732800/vid/avc1/1920x1080/5ktIyuzmEEE8wtwR.mp4"
+ },
+ "https://x.com/Commanders/status/2117080989688033669": {
+  "game_id": "401873035",
+  "game_time": "Q2 4:56",
+  "play_key": "401873035:4018730351699",
+  "played_at": "2026-11-02T02:25:18Z",
+  "poster": "https://pbs.twimg.com/amplify_video_thumb/2117080741183913984/img/gosqmYrV72arn17l.jpg",
+  "published": "2026-11-02T02:26:56Z",
+  "video": "https://video.twimg.com/amplify_video/2117080741183913984/vid/avc1/1920x1080/eD0IIedRCbziFFAR.mp4"
+ },
+ "https://x.com/Commanders/status/2117095160169271658": {
+  "game_id": "401873035",
+  "game_time": "Q3 9:20",
+  "play_key": "401873035:4018730352714",
+  "played_at": "2026-11-02T03:21:04Z",
+  "poster": "https://pbs.twimg.com/amplify_video_thumb/2117094815988928513/img/yzjvplU8-t0Sn5Xt.jpg",
+  "published": "2026-11-02T03:23:14Z",
+  "video": "https://video.twimg.com/amplify_video/2117094815988928513/vid/avc1/1920x1080/Akmv9JUXUpj6vOIL.mp4"
  },
  "https://x.com/CommandersLead/status/2095582297110012226": {
   "poster": "https://pbs.twimg.com/amplify_video_thumb/2095582113433366528/img/hBAN3cgSmR2C0nCS.jpg?name=orig",
@@ -8888,6 +8921,25 @@
   "poster": "https://pbs.twimg.com/amplify_video_thumb/2117087367320469504/img/TwXIwDp-wt9CbouF.jpg",
   "published": "2026-11-02T02:53:00Z",
   "video": "https://video.twimg.com/amplify_video/2117087367320469504/vid/avc1/1920x1080/vFj1YL-fGDWE8qHh.mp4"
+ },
+ "https://x.com/NFL/status/2117095139223146873": {
+  "poster": "https://pbs.twimg.com/amplify_video_thumb/2117094859102429185/img/6AX0iU2CFkm85PHY.jpg",
+  "published": "2026-11-02T03:23:09Z",
+  "video": "https://video.twimg.com/amplify_video/2117094859102429185/vid/avc1/1920x1080/7BoJMSBrrFUTJtKc.mp4"
+ },
+ "https://x.com/NFL/status/2117097127012860320": {
+  "game_id": "401873035",
+  "game_time": "Q3 3:40",
+  "play_key": "401873035:4018730352971",
+  "played_at": "2026-11-02T03:30:38Z",
+  "poster": "https://pbs.twimg.com/amplify_video_thumb/2117096904421154816/img/_fp8lODaBZdLi375.jpg",
+  "published": "2026-11-02T03:31:03Z",
+  "video": "https://video.twimg.com/amplify_video/2117096904421154816/vid/avc1/1920x1080/DPBhbdxlSB1-GFJ1.mp4"
+ },
+ "https://x.com/NFL/status/2117098667442332097": {
+  "poster": "https://pbs.twimg.com/amplify_video_thumb/2117098328383229952/img/Tqk67mdnV9d65ovu.jpg",
+  "published": "2026-11-02T03:37:10Z",
+  "video": "https://video.twimg.com/amplify_video/2117098328383229952/vid/avc1/1920x1080/Wwy3gGRk9MGtQi_g.mp4"
  },
  "https://x.com/NFLBrasil/status/2093514185812431184": {
   "poster": "https://pbs.twimg.com/amplify_video_thumb/2093514163834269696/img/j7GWyppCmf8GOls3.jpg?name=orig",
