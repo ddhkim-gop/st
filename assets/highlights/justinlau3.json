@@ -21,7 +21,7 @@
       "published": "2026-11-02T01:57:59Z",
       "video": "https://video.twimg.com/amplify_video/2117073183287197696/vid/avc1/1920x1080/DEjh9ATdvj8HAIz2.mp4",
       "author_name": "Philadelphia Eagles",
-      "avatar": "https://pbs.twimg.com/profile_images/2097678958909415424/CUZFsXqV_normal.jpg",
+      "avatar": "",
       "author_verified": true
     },
     {
@@ -347,23 +347,25 @@
       "author_verified": true
     },
     {
-      "url": "https://www.espn.com/video/clip/_/id/50292362/saquon-barkley-rushes-defender-end-zone",
+      "url": "https://x.com/Eagles/status/2114877003849781587",
       "player": "Saquon Barkley",
       "meta": "RB \u00b7 PHI",
       "date": "2026-10-27",
-      "author": "ESPN",
-      "text": "Saquon Barkley rushes past a defender to the end zone",
+      "author": "Eagles",
+      "text": "WELCOME BACK, 26",
       "verified": true,
-      "faves": 0,
-      "secs": 0,
-      "espn_game": "401873009",
+      "faves": 4390,
+      "secs": 15,
       "game_id": "401873009",
       "game_time": "Q1 10:25",
       "play_key": "401873009:401873009385",
       "played_at": "2026-10-27T00:28:02Z",
-      "poster": "https://espnmedia-cdn.akamaized.net/espn/media/common/2026/1026/c1c104c8f80a457cb841929b64062b041253/c1c104c8f80a457cb841929b64062b041253.jpg",
-      "published": "2026-10-27T00:36:06Z",
-      "video": "https://espnmedia-cdn.akamaized.net/espn/media/16x9/wsc/2026/1027/c1c104c8-f80a-457c-b841-929b64062b04/c1c104c8-f80a-457c-b841-929b64062b04.mp4"
+      "poster": "https://pbs.twimg.com/amplify_video_thumb/2114876892855799808/img/DaiF3VeF2bel7ViX.jpg",
+      "published": "2026-10-27T00:29:04Z",
+      "video": "https://video.twimg.com/amplify_video/2114876892855799808/vid/avc1/1920x1080/PhsFNqRpGrsWrOlj.mp4",
+      "author_name": "Philadelphia Eagles",
+      "avatar": "",
+      "author_verified": true
     },
     {
       "url": "https://www.espn.com/video/clip/_/id/50352234/justin-herbert-hail-mary-ladd-mcconkey-just-short-chargers-td",
