@@ -4,6 +4,27 @@
   "note": "Curated: X has no public search API, so posts are collected by hand and matched to rosters by this script.",
   "tweets": [
     {
+      "url": "https://x.com/NFL/status/2117070258662154620",
+      "player": "Makai Lemon",
+      "meta": "WR \u00b7 PHI",
+      "date": "2026-11-02",
+      "author": "NFL",
+      "text": "Tanner McKee floats it to Makai Lemon for the first down!\n\nPHIvsWAS on NBC/Peacock\nStream on @NFLPlus",
+      "verified": true,
+      "faves": 254,
+      "secs": 11,
+      "game_id": "401873035",
+      "game_time": "Q1 9:40",
+      "play_key": "401873035:401873035554",
+      "played_at": "2026-11-02T01:42:40Z",
+      "poster": "https://pbs.twimg.com/amplify_video_thumb/2117070037181960192/img/Dwl-2McAQ5Unzg-1.jpg",
+      "published": "2026-11-02T01:44:17Z",
+      "video": "https://video.twimg.com/amplify_video/2117070037181960192/vid/avc1/1920x1080/JC7j9tJ0uVQ0F7ls.mp4",
+      "author_name": "NFL",
+      "avatar": "https://pbs.twimg.com/profile_images/1619895559334273028/PHKS_mjX_normal.jpg",
+      "author_verified": true
+    },
+    {
       "url": "https://x.com/NFL/status/2116996877820510600",
       "player": "Jameson Williams",
       "meta": "WR \u00b7 DET",

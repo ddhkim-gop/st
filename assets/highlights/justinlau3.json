@@ -4,25 +4,23 @@
   "note": "Curated: X has no public search API, so posts are collected by hand and matched to rosters by this script.",
   "tweets": [
     {
-      "url": "https://x.com/RamsNFL/status/2117031390453870608",
+      "url": "https://www.espn.com/video/clip/_/id/50352646/puka-nacua-adds-rams-lead-td",
       "player": "Puka Nacua",
       "meta": "WR \u00b7 LAR",
       "date": "2026-11-01",
-      "author": "RamsNFL",
-      "text": "TRENT! MC! DUFFIE!!!!\n\n\ud83d\udcfa @NFLonFOX | #RamsHouse",
+      "author": "ESPN",
+      "text": "Puka Nacua adds to the Rams lead with a TD. Puka Nacua adds to the Rams lead with a TD ",
       "verified": true,
-      "faves": 570,
-      "secs": 19,
+      "faves": 0,
+      "secs": 0,
+      "espn_game": "401873032",
       "game_id": "401873032",
       "game_time": "Q3 3:41",
       "play_key": "401873032:4018730322855",
       "played_at": "2026-11-01T23:09:21Z",
-      "poster": "https://pbs.twimg.com/amplify_video_thumb/2117031242092933120/img/ibnbcI9BltaEIbUf.jpg",
-      "published": "2026-11-01T23:09:50Z",
-      "video": "https://video.twimg.com/amplify_video/2117031242092933120/vid/avc1/1920x1080/jGrZUAkiY_yD-B7d.mp4",
-      "author_name": "Los Angeles Rams",
-      "avatar": "https://pbs.twimg.com/profile_images/2104444829946298368/wtL-vYYo_normal.jpg",
-      "author_verified": true
+      "poster": "https://espnmedia-cdn.akamaized.net/espn/media/common/wsc/2026/1101/90d7e7aa-ec8e-4392-9b22-7c3c37eeef88/90d7e7aa-ec8e-4392-9b22-7c3c37eeef88.jpg",
+      "published": "2026-11-01T23:28:52Z",
+      "video": "https://espnmedia-cdn.akamaized.net/espn/media/16x9/wsc/2026/1101/90d7e7aa-ec8e-4392-9b22-7c3c37eeef88/90d7e7aa-ec8e-4392-9b22-7c3c37eeef88.mp4"
     },
     {
       "url": "https://x.com/NFL/status/2117014295816929651",
@@ -345,6 +343,21 @@
       "poster": "https://espnmedia-cdn.akamaized.net/espn/media/common/2026/1026/c1c104c8f80a457cb841929b64062b041253/c1c104c8f80a457cb841929b64062b041253.jpg",
       "published": "2026-10-27T00:36:06Z",
       "video": "https://espnmedia-cdn.akamaized.net/espn/media/16x9/wsc/2026/1027/c1c104c8-f80a-457c-b841-929b64062b04/c1c104c8-f80a-457c-b841-929b64062b04.mp4"
+    },
+    {
+      "url": "https://www.espn.com/video/clip/_/id/50352234/justin-herbert-hail-mary-ladd-mcconkey-just-short-chargers-td",
+      "player": "Ladd McConkey",
+      "meta": "WR \u00b7 LAC",
+      "date": "2026-11-01",
+      "author": "ESPN",
+      "text": "Justin Herbert's Hail Mary to Ladd McConkey is just short of Chargers TD",
+      "verified": true,
+      "faves": 0,
+      "secs": 0,
+      "espn_game": "401873032",
+      "poster": "https://espnmedia-cdn.akamaized.net/espn/media/common/wsc/2026/1101/469b875e-11ee-4bb3-a5eb-8de6ff1b8d70/469b875e-11ee-4bb3-a5eb-8de6ff1b8d70.jpg",
+      "published": "2026-11-01T22:58:10Z",
+      "video": "https://espnmedia-cdn.akamaized.net/espn/media/16x9/wsc/2026/1101/469b875e-11ee-4bb3-a5eb-8de6ff1b8d70/469b875e-11ee-4bb3-a5eb-8de6ff1b8d70.mp4"
     },
     {
       "url": "https://x.com/NFL/status/2114878647882633495",
