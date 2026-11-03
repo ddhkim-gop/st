@@ -1,28 +1,26 @@
 {
   "team": "edelgreco30",
-  "updated": "2026-11-02",
+  "updated": "2026-11-03",
   "note": "Curated: X has no public search API, so posts are collected by hand and matched to rosters by this script.",
   "tweets": [
     {
-      "url": "https://x.com/Commanders/status/2117109214531174856",
+      "url": "https://www.espn.com/video/clip/_/id/50355457/commanders-int-sets-rachaad-white-game-sealing-td",
       "player": "Rachaad White",
       "meta": "RB \u00b7 WAS",
       "date": "2026-11-02",
-      "author": "Commanders",
-      "text": "Rachaad with the exclamation point \u2757\ufe0f\n\n\ud83d\udcfa #PHIvsWAS NBC",
+      "author": "ESPN",
+      "text": "Commanders INT sets up a Rachaad White game sealing TD",
       "verified": true,
-      "faves": 486,
-      "secs": 18,
+      "faves": 0,
+      "secs": 0,
+      "espn_game": "401873035",
       "game_id": "401873035",
       "game_time": "Q4 1:52",
       "play_key": "401873035:4018730354036",
       "played_at": "2026-11-02T04:17:17Z",
-      "poster": "https://pbs.twimg.com/amplify_video_thumb/2117108937333895168/img/Q4chYV7a2audW0ru.jpg",
-      "published": "2026-11-02T04:19:05Z",
-      "video": "https://video.twimg.com/amplify_video/2117108937333895168/vid/avc1/1920x1080/VQzIeJ8t6cj3S6qE.mp4",
-      "author_name": "Washington Commanders",
-      "avatar": "https://pbs.twimg.com/profile_images/2043720907617632256/ceXYRByJ_normal.jpg",
-      "author_verified": true
+      "poster": "https://espnmedia-cdn.akamaized.net/espn/media/common/2026/1101/0b35f30613e3454285188d0a1cdc1a621416/0b35f30613e3454285188d0a1cdc1a621416.jpg",
+      "published": "2026-11-02T04:25:08Z",
+      "video": "https://espnmedia-cdn.akamaized.net/espn/media/16x9/wsc/2026/1102/0b35f306-13e3-4542-8518-8d0a1cdc1a62/0b35f306-13e3-4542-8518-8d0a1cdc1a62.mp4"
     },
     {
       "url": "https://x.com/Commanders/status/2117108338693378265",
