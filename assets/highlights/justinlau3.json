@@ -1,6 +1,6 @@
 {
   "team": "justinlau3",
-  "updated": "2026-11-03",
+  "updated": "2026-11-04",
   "note": "Curated: X has no public search API, so posts are collected by hand and matched to rosters by this script.",
   "tweets": [
     {
@@ -326,44 +326,6 @@
       "author_verified": true
     },
     {
-      "url": "https://www.espn.com/video/clip/_/id/50292883/george-pickens-makes-excellent-use-fingertips-td-grab",
-      "player": "George Pickens",
-      "meta": "WR \u00b7 DAL",
-      "date": "2026-10-27",
-      "author": "ESPN",
-      "text": "George Pickens makes excellent use of his fingertips with TD grab",
-      "verified": true,
-      "faves": 0,
-      "secs": 0,
-      "espn_game": "401873009",
-      "game_id": "401873009",
-      "game_time": "Q2 5:37",
-      "play_key": "401873009:4018730091551",
-      "played_at": "2026-10-27T01:11:59Z",
-      "poster": "https://espnmedia-cdn.akamaized.net/espn/media/common/2026/1026/41e5a42c7d4148c2ad41baf3945267631322/41e5a42c7d4148c2ad41baf3945267631322.jpg",
-      "published": "2026-10-27T01:21:52Z",
-      "video": "https://espnmedia-cdn.akamaized.net/espn/media/16x9/wsc/2026/1027/41e5a42c-7d41-48c2-ad41-baf394526763/41e5a42c-7d41-48c2-ad41-baf394526763.mp4"
-    },
-    {
-      "url": "https://www.espn.com/video/clip/_/id/50292362/saquon-barkley-rushes-defender-end-zone",
-      "player": "Saquon Barkley",
-      "meta": "RB \u00b7 PHI",
-      "date": "2026-10-27",
-      "author": "ESPN",
-      "text": "Saquon Barkley rushes past a defender to the end zone",
-      "verified": true,
-      "faves": 0,
-      "secs": 0,
-      "espn_game": "401873009",
-      "game_id": "401873009",
-      "game_time": "Q1 10:25",
-      "play_key": "401873009:401873009385",
-      "played_at": "2026-10-27T00:28:02Z",
-      "poster": "https://espnmedia-cdn.akamaized.net/espn/media/common/2026/1026/c1c104c8f80a457cb841929b64062b041253/c1c104c8f80a457cb841929b64062b041253.jpg",
-      "published": "2026-10-27T00:36:06Z",
-      "video": "https://espnmedia-cdn.akamaized.net/espn/media/16x9/wsc/2026/1027/c1c104c8-f80a-457c-b841-929b64062b04/c1c104c8-f80a-457c-b841-929b64062b04.mp4"
-    },
-    {
       "url": "https://www.espn.com/video/clip/_/id/50352234/justin-herbert-hail-mary-ladd-mcconkey-just-short-chargers-td",
       "player": "Ladd McConkey",
       "meta": "WR \u00b7 LAC",
@@ -377,23 +339,6 @@
       "poster": "https://espnmedia-cdn.akamaized.net/espn/media/common/wsc/2026/1101/469b875e-11ee-4bb3-a5eb-8de6ff1b8d70/469b875e-11ee-4bb3-a5eb-8de6ff1b8d70.jpg",
       "published": "2026-11-01T22:58:10Z",
       "video": "https://espnmedia-cdn.akamaized.net/espn/media/16x9/wsc/2026/1101/469b875e-11ee-4bb3-a5eb-8de6ff1b8d70/469b875e-11ee-4bb3-a5eb-8de6ff1b8d70.mp4"
-    },
-    {
-      "url": "https://x.com/NFL/status/2114878647882633495",
-      "player": "Ryan Flournoy",
-      "meta": "WR \u00b7 DAL",
-      "date": "2026-10-27",
-      "author": "NFL",
-      "text": "Big pickup down the sideline for Ryan Flournoy \n\nDALvsPHI on ESPN\u2028Stream on @NFLPlus",
-      "verified": false,
-      "faves": 337,
-      "secs": 11,
-      "poster": "https://pbs.twimg.com/amplify_video_thumb/2114878525035646976/img/pZCPDMb5gNApjVw8.jpg",
-      "published": "2026-10-27T00:35:36Z",
-      "video": "https://video.twimg.com/amplify_video/2114878525035646976/vid/avc1/1920x1080/5ePO_bd7ygSdY6rb.mp4",
-      "author_name": "NFL",
-      "avatar": "https://pbs.twimg.com/profile_images/1619895559334273028/PHKS_mjX_normal.jpg",
-      "author_verified": true
     }
   ]
 }

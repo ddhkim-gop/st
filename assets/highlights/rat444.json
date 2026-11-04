@@ -1,6 +1,6 @@
 {
   "team": "rat444",
-  "updated": "2026-11-03",
+  "updated": "2026-11-04",
   "note": "Curated: X has no public search API, so posts are collected by hand and matched to rosters by this script.",
   "tweets": [
     {
@@ -261,25 +261,6 @@
       "poster": "https://espnmedia-cdn.akamaized.net/espn/media/common/2026/1029/76b4fe001dc04897b3a773bdc0eed4221254/76b4fe001dc04897b3a773bdc0eed4221254.jpg",
       "published": "2026-10-30T00:47:11Z",
       "video": "https://espnmedia-cdn.akamaized.net/espn/media/16x9/wsc/2026/1030/76b4fe00-1dc0-4897-b3a7-73bdc0eed422/76b4fe00-1dc0-4897-b3a7-73bdc0eed422.mp4"
-    },
-    {
-      "url": "https://www.espn.com/video/clip/_/id/50293962/javonte-williams-waves-bye-scoring-td-dallas",
-      "player": "Javonte Williams",
-      "meta": "RB \u00b7 DAL",
-      "date": "2026-10-27",
-      "author": "ESPN",
-      "text": "Javonte Williams waves bye after scoring a TD for Dallas",
-      "verified": true,
-      "faves": 0,
-      "secs": 0,
-      "espn_game": "401873009",
-      "game_id": "401873009",
-      "game_time": "Q4 2:21",
-      "play_key": "401873009:4018730094082",
-      "played_at": "2026-10-27T03:09:41Z",
-      "poster": "https://espnmedia-cdn.akamaized.net/espn/media/common/2026/1026/55729124aaf54d38b1edddbed237f9a51405/55729124aaf54d38b1edddbed237f9a51405.jpg",
-      "published": "2026-10-27T03:20:16Z",
-      "video": "https://espnmedia-cdn.akamaized.net/espn/media/16x9/wsc/2026/1027/55729124-aaf5-4d38-b1ed-ddbed237f9a5/55729124-aaf5-4d38-b1ed-ddbed237f9a5.mp4"
     },
     {
       "url": "https://www.espn.com/video/clip/_/id/50353754/drake-maye-powers-patriots-win-miami",
