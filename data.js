@@ -28058,60 +28058,68 @@ window.__STATIC_DATA__ = {
     ],
     "2026": [
       {
-        "name": "edelgreco30",
-        "wins": 1,
-        "losses": 0,
-        "pf": 311.6,
-        "pa": 187.84
-      },
-      {
-        "name": "ddhk",
-        "wins": 1,
-        "losses": 0,
-        "pf": 270.02,
-        "pa": 215.18
-      },
-      {
         "name": "paddleham",
-        "wins": 1,
-        "losses": 0,
-        "pf": 258.52,
-        "pa": 232.6
+        "wins": 6,
+        "losses": 2,
+        "ties": 0,
+        "pf": 1844.06,
+        "pa": 1710.28
       },
       {
         "name": "ochen07",
-        "wins": 1,
-        "losses": 0,
-        "pf": 184.78,
-        "pa": 158.06
-      },
-      {
-        "name": "churlz98",
-        "wins": 0,
-        "losses": 1,
-        "pf": 232.6,
-        "pa": 258.52
-      },
-      {
-        "name": "justinlau3",
-        "wins": 0,
-        "losses": 1,
-        "pf": 215.18,
-        "pa": 270.02
+        "wins": 5,
+        "losses": 3,
+        "ties": 0,
+        "pf": 1852.72,
+        "pa": 1721.06
       },
       {
         "name": "avocadoshake",
-        "wins": 0,
-        "losses": 1,
-        "pf": 187.84,
-        "pa": 311.6
+        "wins": 5,
+        "losses": 3,
+        "ties": 0,
+        "pf": 1676.16,
+        "pa": 1704.26
+      },
+      {
+        "name": "edelgreco30",
+        "wins": 4,
+        "losses": 4,
+        "ties": 0,
+        "pf": 1784.5,
+        "pa": 1660.88
+      },
+      {
+        "name": "churlz98",
+        "wins": 4,
+        "losses": 4,
+        "ties": 0,
+        "pf": 1626.56,
+        "pa": 1780.04
       },
       {
         "name": "rat444",
-        "wins": 0,
-        "losses": 1,
-        "pf": 158.06,
-        "pa": 184.78
+        "wins": 3,
+        "losses": 5,
+        "ties": 0,
+        "pf": 1741.5,
+        "pa": 1758.56
+      },
+      {
+        "name": "ddhk",
+        "wins": 3,
+        "losses": 5,
+        "ties": 0,
+        "pf": 1704.16,
+        "pa": 1752.0
+      },
+      {
+        "name": "justinlau3",
+        "wins": 2,
+        "losses": 6,
+        "ties": 0,
+        "pf": 1718.6,
+        "pa": 1861.18
       }
     ]
   },

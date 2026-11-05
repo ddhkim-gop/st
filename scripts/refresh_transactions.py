@@ -323,6 +323,24 @@ def refresh_matchups(league_id, rid_to_name, players):
     print(f"  matchups: wrote weeks {', '.join(out) or 'none'}")
     return True
 
+def update_current_standings(data, rosters_raw, rid_to_name):
+    """Refresh only the active season from Sleeper's completed-game records."""
+    if not rosters_raw or any(r.get('roster_id') not in rid_to_name for r in rosters_raw):
+        raise ValueError('Incomplete roster identity data; standings left unchanged')
+    rows = []
+    for r in rosters_raw:
+        s = r.get('settings') or {}
+        required = ('wins', 'losses', 'fpts', 'fpts_against')
+        if any(k not in s for k in required):
+            raise ValueError('Incomplete standings record; standings left unchanged')
+        rows.append({'name': rid_to_name[r['roster_id']],
+                     'wins': s['wins'], 'losses': s['losses'], 'ties': s.get('ties', 0),
+                     'pf': round(s['fpts'] + s.get('fpts_decimal', 0) / 100, 2),
+                     'pa': round(s['fpts_against'] + s.get('fpts_against_decimal', 0) / 100, 2)})
+    rows.sort(key=lambda r: (-r['wins'], -r['pf']))
+    data.setdefault('standings', {})[CURRENT_YEAR] = rows
+    return rows
+
 def main():
     print("Loading players...")
     players = load_players()
@@ -376,6 +394,7 @@ def main():
     print(f"  {len(traded_picks)} traded picks")
 
     # Update only the live sections, preserving key order, then re-dump the whole file.
+    update_current_standings(data, rosters_raw, rid_to_name)
     data["transactions"] = all_txns
     data["rosters"]      = rosters
     data["traded_picks"] = traded_picks
