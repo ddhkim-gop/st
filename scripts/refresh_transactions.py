@@ -8,6 +8,7 @@ Exit code 0 = changes written; exit code 1 = no changes.
 
 import json, re, sys, time
 from datetime import datetime, timezone, timedelta
+from zoneinfo import ZoneInfo
 from urllib.request import urlopen, Request
 from urllib.error import URLError
 
@@ -23,7 +24,7 @@ CURRENT_LEAGUE = LEAGUES[CURRENT_YEAR]
 DATA_JS = "data.js"          # relative to repo root (script runs from there)
 PLAYERS_CACHE = "scripts/players_cache.json"
 
-PT = timezone(timedelta(hours=-8))   # Pacific Standard; close enough for display
+PT = ZoneInfo("America/Los_Angeles")  # DST-aware Pacific time
 
 # ── Helpers ───────────────────────────────────────────────────────────────────
 def fetch(url, retries=3):

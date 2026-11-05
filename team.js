@@ -1,5 +1,5 @@
-import { api } from "./dataService.js?v=202610071804";
-import { renderNav } from "./components/nav.js?v=202610071804";
+import { api } from "./dataService.js?v=202611051442";
+import { renderNav } from "./components/nav.js?v=202611051442";
 
 renderNav();
 
@@ -813,11 +813,21 @@ async function loadTeamReel(teamName) {
             ${cell("likes", st.likes)}${cell("views", st.views)}
         </div>`;
     };
-    const longDate = (iso) => {
-        if (!iso) return "";
-        const d = new Date(iso + "T12:00:00Z");
-        return isNaN(d) ? iso
-            : d.toLocaleDateString("en-US", { month: "long", day: "numeric", year: "numeric" });
+    const longDate = (clip) => {
+        // Prefer the verified play instant. A date-only fallback cannot be
+        // timezone-converted without inventing a time of day.
+        const instant = clip.played_at;
+        if (instant) {
+            const d = new Date(instant);
+            if (!isNaN(d)) return d.toLocaleDateString("en-US", {
+                timeZone: "America/Los_Angeles", month: "long", day: "numeric", year: "numeric"
+            }) + " PT";
+        }
+        if (!clip.date) return "";
+        const d = new Date(clip.date + "T12:00:00Z");
+        return isNaN(d) ? clip.date : d.toLocaleDateString("en-US", {
+            timeZone: "UTC", month: "long", day: "numeric", year: "numeric"
+        });
     };
 
     body.innerHTML = tweets.map((t, i) => {
@@ -924,7 +934,7 @@ async function loadTeamReel(teamName) {
             </div>
             <a href="${esc(t.url)}" target="_blank" rel="noopener"
                style="display:block;margin-top:10px;font-size:12px;color:${XS.dim};
-                      text-decoration:none;">${esc(longDate(t.date))}</a>
+                      text-decoration:none;">${esc(longDate(t))}</a>
             ${statRow(t.stats)}
           </div></div>`;
     }).join("");

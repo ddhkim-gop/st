@@ -11,6 +11,7 @@ Run from the repo root:  python3 scripts/build_data.py
 
 import json, os, sys, time
 from datetime import datetime, timezone, timedelta
+from zoneinfo import ZoneInfo
 from urllib.request import urlopen, Request
 
 # ── League IDs (year -> Sleeper league id) ───────────────────────────────────
@@ -28,7 +29,7 @@ DATA_JS = os.path.join(ROOT, "data.js")
 DATA_DIR = os.path.join(ROOT, "data")
 PLAYERS_CACHE = os.path.join(ROOT, "scripts", "players_cache.json")
 
-PT = timezone(timedelta(hours=-8))
+PT = ZoneInfo("America/Los_Angeles")  # DST-aware Pacific time
 
 # ── HTTP ─────────────────────────────────────────────────────────────────────
 def fetch(url, retries=3):
