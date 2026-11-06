@@ -1,6 +1,6 @@
 {
   "team": "ddhk",
-  "updated": "2026-11-04",
+  "updated": "2026-11-06",
   "note": "Curated: X has no public search API, so posts are collected by hand and matched to rosters by this script.",
   "tweets": [
     {
@@ -40,25 +40,6 @@
       "poster": "https://espnmedia-cdn.akamaized.net/espn/media/common/wsc/2026/1101/9d23e83a-ae3f-4007-98b4-586ce9556a24/9d23e83a-ae3f-4007-98b4-586ce9556a24.jpg",
       "published": "2026-11-01T21:23:58Z",
       "video": "https://espnmedia-cdn.akamaized.net/espn/media/16x9/wsc/2026/1101/9d23e83a-ae3f-4007-98b4-586ce9556a24/9d23e83a-ae3f-4007-98b4-586ce9556a24.mp4"
-    },
-    {
-      "url": "https://www.espn.com/video/clip/_/id/50351230/trey-mcbride-keeps-cardinals-alive-late-td",
-      "player": "Jacoby Brissett",
-      "meta": "QB \u00b7 ARI",
-      "date": "2026-11-01",
-      "author": "ESPN",
-      "text": "Trey McBride keeps Cardinals alive with late TD.  Trey McBride keeps Cardinals alive with late TD",
-      "verified": true,
-      "faves": 0,
-      "secs": 0,
-      "espn_game": "401873024",
-      "game_id": "401873024",
-      "game_time": "Q4 2:11",
-      "play_key": "401873024:4018730244256",
-      "played_at": "2026-11-01T21:01:31Z",
-      "poster": "https://espnmedia-cdn.akamaized.net/espn/media/common/2026/1101/d537dee1d1884d6a9f461b4ca423977f1010/d537dee1d1884d6a9f461b4ca423977f1010.jpg",
-      "published": "2026-11-01T21:23:30Z",
-      "video": "https://espnmedia-cdn.akamaized.net/espn/media/16x9/wsc/2026/1101/d537dee1-d188-4d6a-9f46-1b4ca423977f/d537dee1-d188-4d6a-9f46-1b4ca423977f.mp4"
     },
     {
       "url": "https://x.com/NFL/status/2116996772501565462",
@@ -235,23 +216,6 @@
       "video": "https://video.twimg.com/amplify_video/2116002250791505920/vid/avc1/1920x1080/XuSPlWw1n4Oby7vt.mp4",
       "author_name": "NFL",
       "avatar": "https://pbs.twimg.com/profile_images/1619895559334273028/PHKS_mjX_normal.jpg",
-      "author_verified": true
-    },
-    {
-      "url": "https://www.youtube.com/shorts/9i95tBPcg4w",
-      "player": "Isaiah Likely",
-      "meta": "TE \u00b7 NYG",
-      "date": "2026-10-28",
-      "author": "NYGiants",
-      "text": "Catches? Likely. #giants #shorts #nfl #football #isaiahlikely #newyorkgiants",
-      "verified": false,
-      "faves": 545,
-      "secs": 98,
-      "poster": "https://i.ytimg.com/vi/9i95tBPcg4w/hqdefault.jpg",
-      "published": "2026-10-28T17:00:25Z",
-      "youtube": "9i95tBPcg4w",
-      "author_name": "New York Giants",
-      "avatar": "",
       "author_verified": true
     }
   ]
