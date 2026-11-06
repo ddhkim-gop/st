@@ -7254,7 +7254,7 @@ window.__STATIC_DATA__ = {
           "weight": "183",
           "years_exp": 4,
           "status": "Active",
-          "injury_status": "Questionable",
+          "injury_status": "Out",
           "search_rank": 38
         },
         {
@@ -8112,7 +8112,7 @@ window.__STATIC_DATA__ = {
           "weight": "205",
           "years_exp": 1,
           "status": "Active",
-          "injury_status": null,
+          "injury_status": "Questionable",
           "search_rank": 39
         },
         {
@@ -8598,7 +8598,7 @@ window.__STATIC_DATA__ = {
           "weight": "226",
           "years_exp": 7,
           "status": "Active",
-          "injury_status": "Questionable",
+          "injury_status": "Out",
           "search_rank": 17
         },
         {
@@ -9606,7 +9606,7 @@ window.__STATIC_DATA__ = {
           "weight": "202",
           "years_exp": 1,
           "status": "Active",
-          "injury_status": "Questionable",
+          "injury_status": "Out",
           "search_rank": 39
         },
         {
@@ -9756,7 +9756,7 @@ window.__STATIC_DATA__ = {
           "weight": "225",
           "years_exp": 4,
           "status": "Active",
-          "injury_status": "Questionable",
+          "injury_status": "Out",
           "search_rank": 80
         },
         {
@@ -10193,7 +10193,7 @@ window.__STATIC_DATA__ = {
         {
           "name": "Jacoby Brissett",
           "position": "QB",
-          "team": "ARI"
+          "team": "BAL"
         }
       ],
       "faab": 0,
@@ -10398,7 +10398,7 @@ window.__STATIC_DATA__ = {
         {
           "name": "Jacoby Brissett",
           "position": "QB",
-          "team": "ARI"
+          "team": "BAL"
         }
       ],
       "dropped": [
@@ -11827,7 +11827,7 @@ window.__STATIC_DATA__ = {
         {
           "name": "Jacoby Brissett",
           "position": "QB",
-          "team": "ARI"
+          "team": "BAL"
         }
       ],
       "faab": 0,
@@ -12694,7 +12694,7 @@ window.__STATIC_DATA__ = {
         {
           "name": "Jacoby Brissett",
           "position": "QB",
-          "team": "ARI"
+          "team": "BAL"
         }
       ],
       "dropped": [
