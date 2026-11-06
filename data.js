@@ -7179,7 +7179,7 @@ window.__STATIC_DATA__ = {
           "weight": "170",
           "years_exp": 5,
           "status": "Active",
-          "injury_status": "Questionable",
+          "injury_status": "Out",
           "search_rank": 33
         },
         {
@@ -7350,7 +7350,7 @@ window.__STATIC_DATA__ = {
           "weight": "246",
           "years_exp": 3,
           "status": "Active",
-          "injury_status": "Questionable",
+          "injury_status": null,
           "search_rank": 81
         },
         {
@@ -7410,7 +7410,7 @@ window.__STATIC_DATA__ = {
           "weight": "200",
           "years_exp": 2,
           "status": "Active",
-          "injury_status": "Questionable",
+          "injury_status": null,
           "search_rank": 28
         },
         {
@@ -7716,7 +7716,7 @@ window.__STATIC_DATA__ = {
           "weight": "213",
           "years_exp": 3,
           "status": "Active",
-          "injury_status": "Questionable",
+          "injury_status": null,
           "search_rank": 75
         },
         {
@@ -7851,7 +7851,7 @@ window.__STATIC_DATA__ = {
           "weight": "210",
           "years_exp": 9,
           "status": "Active",
-          "injury_status": "Questionable",
+          "injury_status": null,
           "search_rank": 4
         },
         {
@@ -7866,7 +7866,7 @@ window.__STATIC_DATA__ = {
           "weight": "215",
           "years_exp": 9,
           "status": "Active",
-          "injury_status": "Questionable",
+          "injury_status": null,
           "search_rank": 119
         },
         {
@@ -8142,7 +8142,7 @@ window.__STATIC_DATA__ = {
           "weight": "231",
           "years_exp": 12,
           "status": "Active",
-          "injury_status": "Questionable",
+          "injury_status": "Out",
           "search_rank": 60
         },
         {
@@ -8337,7 +8337,7 @@ window.__STATIC_DATA__ = {
           "weight": "215",
           "years_exp": 4,
           "status": "Active",
-          "injury_status": "Questionable",
+          "injury_status": null,
           "search_rank": 64
         },
         {
@@ -8908,6 +8908,21 @@ window.__STATIC_DATA__ = {
           "search_rank": 199
         },
         {
+          "player_id": "13301",
+          "espn_id": null,
+          "name": "Antonio Williams",
+          "position": "WR",
+          "team": "WAS",
+          "birth_date": "2004-07-14",
+          "college": "Clemson",
+          "height": "71",
+          "weight": "195",
+          "years_exp": 0,
+          "status": "Active",
+          "injury_status": null,
+          "search_rank": 156
+        },
+        {
           "player_id": "13424",
           "espn_id": null,
           "name": "Seth McGowan",
@@ -8979,7 +8994,7 @@ window.__STATIC_DATA__ = {
           "weight": "215",
           "years_exp": 7,
           "status": "Active",
-          "injury_status": "Questionable",
+          "injury_status": "Out",
           "search_rank": 130
         },
         {
@@ -8998,21 +9013,6 @@ window.__STATIC_DATA__ = {
           "search_rank": 77
         },
         {
-          "player_id": "8129",
-          "espn_id": null,
-          "name": "Dameon Pierce",
-          "position": "RB",
-          "team": "PHI",
-          "birth_date": "2000-02-19",
-          "college": "Florida",
-          "height": "70",
-          "weight": "218",
-          "years_exp": 4,
-          "status": "Inactive",
-          "injury_status": "IR",
-          "search_rank": 627
-        },
-        {
           "player_id": "8135",
           "espn_id": null,
           "name": "Treylon Burks",
@@ -9024,7 +9024,7 @@ window.__STATIC_DATA__ = {
           "weight": "225",
           "years_exp": 4,
           "status": "Active",
-          "injury_status": "Questionable",
+          "injury_status": "Out",
           "search_rank": 679
         },
         {
@@ -9210,7 +9210,7 @@ window.__STATIC_DATA__ = {
           "weight": "241",
           "years_exp": 1,
           "status": "Active",
-          "injury_status": "Questionable",
+          "injury_status": null,
           "search_rank": 63
         },
         {
@@ -9240,7 +9240,7 @@ window.__STATIC_DATA__ = {
           "weight": "215",
           "years_exp": 0,
           "status": "Active",
-          "injury_status": "Questionable",
+          "injury_status": null,
           "search_rank": 153
         },
         {
@@ -9285,7 +9285,7 @@ window.__STATIC_DATA__ = {
           "weight": "233",
           "years_exp": 8,
           "status": "Active",
-          "injury_status": "Questionable",
+          "injury_status": null,
           "search_rank": 10
         },
         {
@@ -9546,7 +9546,7 @@ window.__STATIC_DATA__ = {
           "weight": "215",
           "years_exp": 1,
           "status": "Active",
-          "injury_status": "Questionable",
+          "injury_status": "Doubtful",
           "search_rank": 36
         },
         {
@@ -10094,6 +10094,34 @@ window.__STATIC_DATA__ = {
     }
   ],
   "transactions": [
+    {
+      "season": "2026",
+      "week": 9,
+      "created": "Nov 6, 2026 • 2:07 PM PT",
+      "transaction_id": "1424554744768208896",
+      "type": "free_agent",
+      "status": "complete",
+      "teams": [
+        "avocadoshake"
+      ],
+      "added": [
+        {
+          "name": "Antonio Williams",
+          "position": "WR",
+          "team": "WAS"
+        }
+      ],
+      "dropped": [
+        {
+          "name": "Dameon Pierce",
+          "position": "RB",
+          "team": "PHI"
+        }
+      ],
+      "faab": 0,
+      "waiver_bid": 0,
+      "notes": null
+    },
     {
       "season": "2026",
       "week": 9,
