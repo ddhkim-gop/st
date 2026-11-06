@@ -4,6 +4,27 @@
   "note": "Curated: X has no public search API, so posts are collected by hand and matched to rosters by this script.",
   "tweets": [
     {
+      "url": "https://x.com/Jaguars/status/2118530098454229383",
+      "player": "Brenton Strange",
+      "meta": "TE \u00b7 JAX",
+      "date": "2026-11-06",
+      "author": "Jaguars",
+      "text": "Trevor Lawrence with an absolute LASER of a throw to Strange!\n\n#JAXvsBAL",
+      "verified": true,
+      "faves": 182,
+      "secs": 8,
+      "game_id": "401873037",
+      "game_time": "Q2 0:58",
+      "play_key": "401873037:4018730371721",
+      "played_at": "2026-11-06T02:24:58Z",
+      "poster": "https://pbs.twimg.com/amplify_video_thumb/2088684091155591168/img/wt_BgvG5omwUGbMT.jpg",
+      "published": "2026-11-06T02:25:10Z",
+      "video": "https://video.twimg.com/amplify_video/2088684091155591168/vid/avc1/1080x1080/feQJ5bpeGs2D0nKv.mp4",
+      "author_name": "Jacksonville Jaguars",
+      "avatar": "https://pbs.twimg.com/profile_images/2117679003343396864/74pm70W2_normal.jpg",
+      "author_verified": true
+    },
+    {
       "url": "https://www.espn.com/video/clip/_/id/50364968/dandre-swift-finds-corner-2nd-td-game",
       "player": "D'Andre Swift",
       "meta": "RB \u00b7 CHI",

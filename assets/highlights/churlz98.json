@@ -4,6 +4,27 @@
   "note": "Curated: X has no public search API, so posts are collected by hand and matched to rosters by this script.",
   "tweets": [
     {
+      "url": "https://x.com/Jaguars/status/2118551545964908557",
+      "player": "Chris Rodriguez Jr.",
+      "meta": "RB \u00b7 JAX",
+      "date": "2026-11-06",
+      "author": "Jaguars",
+      "text": "From the WildJag formation!\n\n#JAXvsBAL",
+      "verified": true,
+      "faves": 103,
+      "secs": 8,
+      "game_id": "401873037",
+      "game_time": "Q4 7:26",
+      "play_key": "401873037:4018730373372",
+      "played_at": "2026-11-06T03:49:30Z",
+      "poster": "https://pbs.twimg.com/amplify_video_thumb/2099159024348401671/img/clMWCyN5jpDKd2Lj.jpg",
+      "published": "2026-11-06T03:50:23Z",
+      "video": "https://video.twimg.com/amplify_video/2099159024348401671/vid/avc1/1080x1080/h8iTRts01CdJF8pH.mp4",
+      "author_name": "Jacksonville Jaguars",
+      "avatar": "https://pbs.twimg.com/profile_images/2117679003343396864/74pm70W2_normal.jpg",
+      "author_verified": true
+    },
+    {
       "url": "https://www.espn.com/video/clip/_/id/50355078/chig-okonkwo-fired-hauling-one-handed-catch",
       "player": "Chig Okonkwo",
       "meta": "TE \u00b7 WAS",
