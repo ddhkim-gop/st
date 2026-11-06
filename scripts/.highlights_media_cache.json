@@ -2509,6 +2509,36 @@
   "published": "2026-11-03T04:17:21Z",
   "video": "https://espnmedia-cdn.akamaized.net/espn/media/16x9/wsc/2026/1103/098f4ef3-008c-4883-aec1-5d49fd46f0e3/098f4ef3-008c-4883-aec1-5d49fd46f0e3.mp4"
  },
+ "https://www.espn.com/video/clip/_/id/50394637/bhayshul-tuten-punches-jags-opening-td": {
+  "espn_game": "401873037",
+  "game_id": "401873037",
+  "game_time": "Q1 11:20",
+  "play_key": "401873037:401873037218",
+  "played_at": "2026-11-06T01:21:45Z",
+  "poster": "https://espnmedia-cdn.akamaized.net/espn/media/common/2026/1105/3d249c72128447d1a4b18c6266fa87821399/3d249c72128447d1a4b18c6266fa87821399.jpg",
+  "published": "2026-11-06T01:33:57Z",
+  "video": "https://espnmedia-cdn.akamaized.net/espn/media/16x9/wsc/2026/1106/3d249c72-1284-47d1-a4b1-8c6266fa8782/3d249c72-1284-47d1-a4b1-8c6266fa8782.mp4"
+ },
+ "https://www.espn.com/video/clip/_/id/50395412/trevor-lawrence-dimes-parker-washington-50-yard-td": {
+  "espn_game": "401873037",
+  "game_id": "401873037",
+  "game_time": "Q2 0:58",
+  "play_key": "401873037:4018730371721",
+  "played_at": "2026-11-06T02:24:58Z",
+  "poster": "https://espnmedia-cdn.akamaized.net/espn/media/common/2026/1105/7b74a7e2ca70462cb41a37fcda4e6b4c1401/7b74a7e2ca70462cb41a37fcda4e6b4c1401.jpg",
+  "published": "2026-11-06T02:37:15Z",
+  "video": "https://espnmedia-cdn.akamaized.net/espn/media/16x9/wsc/2026/1106/7b74a7e2-ca70-462c-b41a-37fcda4e6b4c/7b74a7e2-ca70-462c-b41a-37fcda4e6b4c.mp4"
+ },
+ "https://www.espn.com/video/clip/_/id/50396354/chris-rodriguez-jr-sneaks-another-jags-td": {
+  "espn_game": "401873037",
+  "game_id": "401873037",
+  "game_time": "Q4 7:26",
+  "play_key": "401873037:4018730373372",
+  "played_at": "2026-11-06T03:49:30Z",
+  "poster": "https://espnmedia-cdn.akamaized.net/espn/media/common/2026/1105/59af00c24a104d4c90b81788043bc9101401/59af00c24a104d4c90b81788043bc9101401.jpg",
+  "published": "2026-11-06T04:05:14Z",
+  "video": "https://espnmedia-cdn.akamaized.net/espn/media/16x9/wsc/2026/1106/59af00c2-4a10-4d4c-90b8-1788043bc910/59af00c2-4a10-4d4c-90b8-1788043bc910.mp4"
+ },
  "https://www.youtube.com/shorts/-9mLHMkLMRw": {
   "poster": "https://i.ytimg.com/vi/-9mLHMkLMRw/hqdefault.jpg",
   "published": "2026-09-21T18:33:52Z",
@@ -9430,6 +9460,15 @@
   "poster": "https://pbs.twimg.com/amplify_video_thumb/2118530218659061760/img/dd4drubaLlhnwuqW.jpg",
   "published": "2026-11-06T02:26:24Z",
   "video": "https://video.twimg.com/amplify_video/2118530218659061760/vid/avc1/1920x1080/v9agkgLsCrMcxs3d.mp4"
+ },
+ "https://x.com/NFL/status/2118551702911816007": {
+  "game_id": "401873037",
+  "game_time": "Q4 7:26",
+  "play_key": "401873037:4018730373372",
+  "played_at": "2026-11-06T03:49:30Z",
+  "poster": "https://pbs.twimg.com/amplify_video_thumb/2118551451517714433/img/_GTsRHZMcJ_Ta29P.jpg",
+  "published": "2026-11-06T03:51:01Z",
+  "video": "https://video.twimg.com/amplify_video/2118551451517714433/vid/avc1/1920x1080/N9PEqUMUd1aDsEDc.mp4"
  },
  "https://x.com/NFLBrasil/status/2093514185812431184": {
   "poster": "https://pbs.twimg.com/amplify_video_thumb/2093514163834269696/img/j7GWyppCmf8GOls3.jpg?name=orig",
