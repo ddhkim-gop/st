@@ -1,6 +1,6 @@
 {
   "team": "rat444",
-  "updated": "2026-11-06",
+  "updated": "2026-11-07",
   "note": "Curated: X has no public search API, so posts are collected by hand and matched to rosters by this script.",
   "tweets": [
     {
@@ -244,29 +244,10 @@
       "video": "https://espnmedia-cdn.akamaized.net/espn/media/16x9/wsc/2026/1101/694bc9f8-d9f8-4664-a076-8555931788d1/694bc9f8-d9f8-4664-a076-8555931788d1.mp4"
     },
     {
-      "url": "https://www.espn.com/video/clip/_/id/50323486/jordan-love-zips-tucker-kraft-packers-td",
-      "player": "Tucker Kraft",
-      "meta": "TE \u00b7 GB",
-      "date": "2026-10-30",
-      "author": "ESPN",
-      "text": "Jordan Love zips it to Tucker Kraft for a Packers TD",
-      "verified": true,
-      "faves": 0,
-      "secs": 0,
-      "espn_game": "401873023",
-      "game_id": "401873023",
-      "game_time": "Q1 5:08",
-      "play_key": "401873023:401873023666",
-      "played_at": "2026-10-30T00:37:40Z",
-      "poster": "https://espnmedia-cdn.akamaized.net/espn/media/common/2026/1029/76b4fe001dc04897b3a773bdc0eed4221254/76b4fe001dc04897b3a773bdc0eed4221254.jpg",
-      "published": "2026-10-30T00:47:11Z",
-      "video": "https://espnmedia-cdn.akamaized.net/espn/media/16x9/wsc/2026/1030/76b4fe00-1dc0-4897-b3a7-73bdc0eed422/76b4fe00-1dc0-4897-b3a7-73bdc0eed422.mp4"
-    },
-    {
       "url": "https://x.com/rannyxkmj/status/2097884866348216770",
       "player": "Drake Maye",
       "meta": "QB \u00b7 NE",
-      "date": "2026-11-06",
+      "date": "2026-11-07",
       "author": "rannyxkmj",
       "text": "Eli Raridon & Drake Maye - 2-yard TD catch in NFL debut, first TD of the 2026 season vs SEA (NE #82, ref signals TD, NE 0-0 1st & Goal, NBC, watched)",
       "verified": true,

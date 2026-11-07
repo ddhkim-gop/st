@@ -1,6 +1,6 @@
 {
   "team": "edelgreco30",
-  "updated": "2026-11-06",
+  "updated": "2026-11-07",
   "note": "Curated: X has no public search API, so posts are collected by hand and matched to rosters by this script.",
   "tweets": [
     {
@@ -101,7 +101,7 @@
       "published": "2026-11-02T04:15:36Z",
       "video": "https://video.twimg.com/amplify_video/2117108026373001216/vid/avc1/1920x1080/vtCQ0VXkkQhYKg7K.mp4",
       "author_name": "Washington Commanders",
-      "avatar": "https://pbs.twimg.com/profile_images/2043720907617632256/ceXYRByJ_normal.jpg",
+      "avatar": "",
       "author_verified": true
     },
     {
@@ -242,69 +242,6 @@
       "video": "https://espnmedia-cdn.akamaized.net/espn/media/16x9/wsc/2026/1101/64c1987d-bb37-44e9-87fb-c5854cc384f8/64c1987d-bb37-44e9-87fb-c5854cc384f8.mp4"
     },
     {
-      "url": "https://x.com/NFL/status/2115974949026640067",
-      "player": "Christian Watson",
-      "meta": "WR \u00b7 GB",
-      "date": "2026-10-30",
-      "author": "NFL",
-      "text": "Jordan Love \u27a1\ufe0f Christian Watson for a 53-yard gain!\n\nCARvsGB on Prime Video\nStream on @NFLPlus",
-      "verified": true,
-      "faves": 1411,
-      "secs": 8,
-      "game_id": "401873023",
-      "game_time": "Q2 9:19",
-      "play_key": "401873023:4018730231436",
-      "played_at": "2026-10-30T01:08:13Z",
-      "poster": "https://pbs.twimg.com/amplify_video_thumb/2115974555034673152/img/_goHcSnd1aIFnzhp.jpg",
-      "published": "2026-10-30T01:11:55Z",
-      "video": "https://video.twimg.com/amplify_video/2115974555034673152/vid/avc1/1920x1080/biLEpVgEQWZ2SpMZ.mp4",
-      "author_name": "NFL",
-      "avatar": "https://pbs.twimg.com/profile_images/1619895559334273028/PHKS_mjX_normal.jpg",
-      "author_verified": true
-    },
-    {
-      "url": "https://x.com/NFL/status/2115971062190223735",
-      "player": "Chuba Hubbard",
-      "meta": "RB \u00b7 CAR",
-      "date": "2026-10-30",
-      "author": "NFL",
-      "text": "Chuba Hubbard runs it in for 6\ufe0f\u20e3\n\nCARvsGB on Prime Video\nStream on @NFLPlus",
-      "verified": true,
-      "faves": 542,
-      "secs": 5,
-      "game_id": "401873023",
-      "game_time": "Q2 14:57",
-      "play_key": "401873023:4018730231048",
-      "played_at": "2026-10-30T00:53:21Z",
-      "poster": "https://pbs.twimg.com/amplify_video_thumb/2115970940391796736/img/Z0ivMA7fWuagJdaU.jpg",
-      "published": "2026-10-30T00:56:28Z",
-      "video": "https://video.twimg.com/amplify_video/2115970940391796736/vid/avc1/1920x1080/j8ItXNH-GX9x3PU-.mp4",
-      "author_name": "NFL",
-      "avatar": "https://pbs.twimg.com/profile_images/1619895559334273028/PHKS_mjX_normal.jpg",
-      "author_verified": true
-    },
-    {
-      "url": "https://x.com/NFL/status/2115966333376753695",
-      "player": "Christian Watson",
-      "meta": "WR \u00b7 GB",
-      "date": "2026-10-30",
-      "author": "NFL",
-      "text": "Jordan Love finds Christian Watson for the first down!\n\nCARvsGB on Prime Video\nStream on @NFLPlus",
-      "verified": true,
-      "faves": 594,
-      "secs": 10,
-      "game_id": "401873023",
-      "game_time": "Q1 5:08",
-      "play_key": "401873023:401873023666",
-      "played_at": "2026-10-30T00:37:40Z",
-      "poster": "https://pbs.twimg.com/amplify_video_thumb/2115966090451062784/img/-bQHlV_LolcOXFH7.jpg",
-      "published": "2026-10-30T00:37:41Z",
-      "video": "https://video.twimg.com/amplify_video/2115966090451062784/vid/avc1/1920x1080/1mCiSq4iyBc1kxK-.mp4",
-      "author_name": "NFL",
-      "avatar": "https://pbs.twimg.com/profile_images/1619895559334273028/PHKS_mjX_normal.jpg",
-      "author_verified": true
-    },
-    {
       "url": "https://x.com/NFL/status/2117455429139837073",
       "player": "D'Andre Swift",
       "meta": "RB \u00b7 CHI",
@@ -320,21 +257,6 @@
       "author_name": "NFL",
       "avatar": "https://pbs.twimg.com/profile_images/1619895559334273028/PHKS_mjX_normal.jpg",
       "author_verified": true
-    },
-    {
-      "url": "https://www.espn.com/video/clip/_/id/50324867/christian-watson-heads-hospital-reenters-game-third-quarter",
-      "player": "Christian Watson",
-      "meta": "WR \u00b7 GB",
-      "date": "2026-10-30",
-      "author": "ESPN",
-      "text": "Christian Watson heads to hospital, then reenters game in third quarter",
-      "verified": true,
-      "faves": 0,
-      "secs": 0,
-      "espn_game": "401873023",
-      "poster": "https://espnmedia-cdn.akamaized.net/espn/media/common/2026/1029/fbf96e115de64de5affd82843308faed1419/fbf96e115de64de5affd82843308faed1419.jpg",
-      "published": "2026-10-30T03:21:21Z",
-      "video": "https://espnmedia-cdn.akamaized.net/espn/media/16x9/wsc/2026/1030/fbf96e11-5de6-4de5-affd-82843308faed/fbf96e11-5de6-4de5-affd-82843308faed.mp4"
     }
   ]
 }

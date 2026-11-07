@@ -2539,6 +2539,12 @@
   "published": "2026-11-06T04:05:14Z",
   "video": "https://espnmedia-cdn.akamaized.net/espn/media/16x9/wsc/2026/1106/59af00c2-4a10-4d4c-90b8-1788043bc910/59af00c2-4a10-4d4c-90b8-1788043bc910.mp4"
  },
+ "https://www.espn.com/video/clip/_/id/50399574/how-bucs-defense-create-problems-caleb-williams": {
+  "espn_game": "401873050",
+  "poster": "https://espnmedia-cdn.akamaized.net/espn/media/common/2026/1106/ss_20261106_100715530_3727572/ss_20261106_100715530_3727572.jpg",
+  "published": "2026-11-06T15:07:14Z",
+  "video": "https://espnmedia-cdn.akamaized.net/espn/media/16x9/2026/1106/ss_20261106_100715530_3727572/ss_20261106_100715530_3727572.mp4"
+ },
  "https://www.youtube.com/shorts/-9mLHMkLMRw": {
   "poster": "https://i.ytimg.com/vi/-9mLHMkLMRw/hqdefault.jpg",
   "published": "2026-09-21T18:33:52Z",
@@ -2789,6 +2795,11 @@
   "published": "2026-10-27T01:25:56Z",
   "youtube": "47oizF9bIdU"
  },
+ "https://www.youtube.com/shorts/4E0otX2KT2c": {
+  "poster": "https://i.ytimg.com/vi/4E0otX2KT2c/hqdefault.jpg",
+  "published": "2026-11-06T18:35:25Z",
+  "youtube": "4E0otX2KT2c"
+ },
  "https://www.youtube.com/shorts/4OfpJiKHkz8": {
   "poster": "https://i.ytimg.com/vi/4OfpJiKHkz8/hqdefault.jpg",
   "published": "2026-09-27T14:19:53Z",
@@ -2872,6 +2883,11 @@
   "poster": "https://i.ytimg.com/vi/6FV1-bn9kDo/hqdefault.jpg",
   "published": "2026-10-30T20:00:50Z",
   "youtube": "6FV1-bn9kDo"
+ },
+ "https://www.youtube.com/shorts/6NZFmWrAQ8s": {
+  "poster": "https://i.ytimg.com/vi/6NZFmWrAQ8s/hqdefault.jpg",
+  "published": "2026-11-06T20:31:52Z",
+  "youtube": "6NZFmWrAQ8s"
  },
  "https://www.youtube.com/shorts/6NsA4w6TXdY": {
   "poster": "https://i.ytimg.com/vi/6NsA4w6TXdY/hqdefault.jpg",
@@ -4273,6 +4289,11 @@
   "published": "2026-10-22T18:25:22Z",
   "youtube": "YVooZIlshj0"
  },
+ "https://www.youtube.com/shorts/YYL5ie7K-Yc": {
+  "poster": "https://i.ytimg.com/vi/YYL5ie7K-Yc/hqdefault.jpg",
+  "published": "2026-11-06T21:27:16Z",
+  "youtube": "YYL5ie7K-Yc"
+ },
  "https://www.youtube.com/shorts/YlaA2bjcNpc": {
   "poster": "https://i.ytimg.com/vi/YlaA2bjcNpc/hqdefault.jpg",
   "published": "2026-10-25T17:03:22Z",
@@ -4885,6 +4906,11 @@
   "published": "2026-09-30T21:00:08Z",
   "youtube": "jeMeiMfdJOo"
  },
+ "https://www.youtube.com/shorts/jl0E4f1vV5Y": {
+  "poster": "https://i.ytimg.com/vi/jl0E4f1vV5Y/hqdefault.jpg",
+  "published": "2026-11-07T00:00:36Z",
+  "youtube": "jl0E4f1vV5Y"
+ },
  "https://www.youtube.com/shorts/jofbPZpBJwg": {
   "poster": "https://i.ytimg.com/vi/jofbPZpBJwg/hqdefault.jpg",
   "published": "2026-10-25T22:57:02Z",
@@ -5185,6 +5211,11 @@
   "poster": "https://i.ytimg.com/vi/onukvS3qNAo/hqdefault.jpg",
   "published": "2026-10-29T21:08:16Z",
   "youtube": "onukvS3qNAo"
+ },
+ "https://www.youtube.com/shorts/oxpTjiLmW2U": {
+  "poster": "https://i.ytimg.com/vi/oxpTjiLmW2U/hqdefault.jpg",
+  "published": "2026-11-06T16:39:51Z",
+  "youtube": "oxpTjiLmW2U"
  },
  "https://www.youtube.com/shorts/oyo6AnMAUEQ": {
   "poster": "https://i.ytimg.com/vi/oyo6AnMAUEQ/hqdefault.jpg",
