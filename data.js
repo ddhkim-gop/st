@@ -10115,7 +10115,7 @@ window.__STATIC_DATA__ = {
         {
           "name": "Dameon Pierce",
           "position": "RB",
-          "team": "PHI"
+          "team": null
         }
       ],
       "faab": 0,
@@ -12204,7 +12204,7 @@ window.__STATIC_DATA__ = {
         {
           "name": "Dameon Pierce",
           "position": "RB",
-          "team": "PHI"
+          "team": null
         }
       ],
       "dropped": [],
