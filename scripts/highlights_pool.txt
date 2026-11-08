@@ -301,6 +301,7 @@ https://www.espn.com/video/clip/_/id/50420103/joe-burrow-goes-deep-jamarr-chase-
 https://www.espn.com/video/clip/_/id/50420313/joe-burrow-sneaks-end-zone-bengals-td
 https://www.espn.com/video/clip/_/id/50420552/joe-burrow-links-tee-higgins-bengals-td
 https://www.espn.com/video/clip/_/id/50421099/bijan-robinson-goes-untouched-falcons-td
+https://www.espn.com/video/clip/_/id/50421245/joe-burrow-throws-dart-tee-higgins-2nd-td-game
 https://www.youtube.com/shorts/-A6_wYR6KkA
 https://www.youtube.com/shorts/-Prt969WqGo
 https://www.youtube.com/shorts/-aXN1B6dMcU
@@ -319,6 +320,7 @@ https://www.youtube.com/shorts/3VCFtVG2CEo
 https://www.youtube.com/shorts/3rzj4bUKJxs
 https://www.youtube.com/shorts/4E0otX2KT2c
 https://www.youtube.com/shorts/4Qw4ySYC3-g
+https://www.youtube.com/shorts/5Wv3DSjJ4Xs
 https://www.youtube.com/shorts/6NZFmWrAQ8s
 https://www.youtube.com/shorts/6NsA4w6TXdY
 https://www.youtube.com/shorts/6uoe_12OFX4
@@ -343,6 +345,7 @@ https://www.youtube.com/shorts/CLsGai-oYRY
 https://www.youtube.com/shorts/CQL2y9kn_YM
 https://www.youtube.com/shorts/Cw-yM4u-3xc
 https://www.youtube.com/shorts/D6DSGCJBpzg
+https://www.youtube.com/shorts/DFLWeJRO7WI
 https://www.youtube.com/shorts/Do1s2bhVsjA
 https://www.youtube.com/shorts/EB3fhlYSZgA
 https://www.youtube.com/shorts/EKCv9MLV-3k
@@ -378,6 +381,7 @@ https://www.youtube.com/shorts/OHXxBSvY7pI
 https://www.youtube.com/shorts/PkvPhPCaPo4
 https://www.youtube.com/shorts/QB09mFILQ0Y
 https://www.youtube.com/shorts/QW32umpZe6Y
+https://www.youtube.com/shorts/Ql5ebIR8x7Y
 https://www.youtube.com/shorts/R-mf1jEg9Ss
 https://www.youtube.com/shorts/RTcYqGzorCY
 https://www.youtube.com/shorts/RWWz3K6MydA
@@ -385,6 +389,7 @@ https://www.youtube.com/shorts/Rcn3skq3Y0Q
 https://www.youtube.com/shorts/RfW1LX2XwNs
 https://www.youtube.com/shorts/RyXe4J5nnV8
 https://www.youtube.com/shorts/T6L-F0ugTqQ
+https://www.youtube.com/shorts/ToAXjetWsRo
 https://www.youtube.com/shorts/U1JfDC6uu6A
 https://www.youtube.com/shorts/U3r2ed6Efgc
 https://www.youtube.com/shorts/UEGb9Zum8BM
@@ -512,6 +517,7 @@ https://x.com/AdamSchefter/status/2096244696242954731
 https://x.com/AtlantaFalcons/status/2107265125799387517
 https://x.com/AtlantaFalcons/status/2107298516699623878
 https://x.com/AtlantaFalcons/status/2119441435543982441
+https://x.com/AtlantaFalcons/status/2119469568326541630
 https://x.com/Bengals/status/2106819603229786421
 https://x.com/Bengals/status/2106835298420191285
 https://x.com/Bengals/status/2119142848545362101
@@ -519,6 +525,7 @@ https://x.com/Bengals/status/2119392702794207598
 https://x.com/Bengals/status/2119442320114274712
 https://x.com/Bengals/status/2119449645113909518
 https://x.com/Bengals/status/2119454980696318451
+https://x.com/Bengals/status/2119471348602802440
 https://x.com/BigVeks/status/2095857678534795378
 https://x.com/BleacherReport/status/2096227598846341556
 https://x.com/Broncos/status/2117026946127180055
@@ -543,6 +550,7 @@ https://x.com/ChicagoBears/status/2117464999551754469
 https://x.com/Chiefs/status/2106851118496006565
 https://x.com/Chiefs/status/2116991165333397651
 https://x.com/Chiefs/status/2117012651368935518
+https://x.com/Chiefs/status/2119473339781783577
 https://x.com/Colts/status/2106756950566355249
 https://x.com/Colts/status/2106766647734292611
 https://x.com/Commanders/status/2117080989688033669
@@ -769,6 +777,7 @@ https://x.com/NFL/status/2119454853554418046
 https://x.com/NFL/status/2119459419780002262
 https://x.com/NFL/status/2119471041332293699
 https://x.com/NFL/status/2119471271754805308
+https://x.com/NFL/status/2119485559756267767
 https://x.com/NFLTDsVideos/status/2098243863588540602
 https://x.com/NFLTDsVideos/status/2099189736858419294
 https://x.com/NFLTDsVideos/status/2099201418368262610

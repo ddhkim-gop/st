@@ -2595,6 +2595,16 @@
   "published": "2026-11-08T16:42:22Z",
   "video": "https://espnmedia-cdn.akamaized.net/espn/media/16x9/wsc/2026/1108/25c2a2d6-8eae-4e8f-a857-4af72495d549/25c2a2d6-8eae-4e8f-a857-4af72495d549.mp4"
  },
+ "https://www.espn.com/video/clip/_/id/50421245/joe-burrow-throws-dart-tee-higgins-2nd-td-game": {
+  "espn_game": "401873038",
+  "game_id": "401873038",
+  "game_time": "Q3 2:05",
+  "play_key": "401873038:4018730382937",
+  "played_at": "2026-11-08T16:43:20Z",
+  "poster": "https://espnmedia-cdn.akamaized.net/espn/media/common/wsc/2026/1108/d5a5c53d-737f-48d3-9757-32165165b41f/d5a5c53d-737f-48d3-9757-32165165b41f.jpg",
+  "published": "2026-11-08T16:53:46Z",
+  "video": "https://espnmedia-cdn.akamaized.net/espn/media/16x9/wsc/2026/1108/d5a5c53d-737f-48d3-9757-32165165b41f/d5a5c53d-737f-48d3-9757-32165165b41f.mp4"
+ },
  "https://www.youtube.com/shorts/-9mLHMkLMRw": {
   "poster": "https://i.ytimg.com/vi/-9mLHMkLMRw/hqdefault.jpg",
   "published": "2026-09-21T18:33:52Z",
@@ -2908,6 +2918,11 @@
   "poster": "https://i.ytimg.com/vi/5ISIX6j85n0/hqdefault.jpg",
   "published": "2026-10-22T22:40:13Z",
   "youtube": "5ISIX6j85n0"
+ },
+ "https://www.youtube.com/shorts/5Wv3DSjJ4Xs": {
+  "poster": "https://i.ytimg.com/vi/5Wv3DSjJ4Xs/hqdefault.jpg",
+  "published": "2026-11-08T17:25:48Z",
+  "youtube": "5Wv3DSjJ4Xs"
  },
  "https://www.youtube.com/shorts/5eQxXm1HSz8": {
   "poster": "https://i.ytimg.com/vi/5eQxXm1HSz8/hqdefault.jpg",
@@ -3349,6 +3364,11 @@
   "poster": "https://i.ytimg.com/vi/D6Jav4ct7Js/hqdefault.jpg",
   "published": "2026-09-27T19:43:30Z",
   "youtube": "D6Jav4ct7Js"
+ },
+ "https://www.youtube.com/shorts/DFLWeJRO7WI": {
+  "poster": "https://i.ytimg.com/vi/DFLWeJRO7WI/hqdefault.jpg",
+  "published": "2026-11-08T16:54:53Z",
+  "youtube": "DFLWeJRO7WI"
  },
  "https://www.youtube.com/shorts/DMF3IGkFnpo": {
   "poster": "https://i.ytimg.com/vi/DMF3IGkFnpo/hqdefault.jpg",
@@ -3977,6 +3997,15 @@
   "published": "2026-10-04T17:52:09Z",
   "youtube": "QW32umpZe6Y"
  },
+ "https://www.youtube.com/shorts/Ql5ebIR8x7Y": {
+  "game_id": "401873038",
+  "game_time": "Q3 6:18",
+  "play_key": "401873038:4018730382692",
+  "played_at": "2026-11-08T16:34:06Z",
+  "poster": "https://i.ytimg.com/vi/Ql5ebIR8x7Y/hqdefault.jpg",
+  "published": "2026-11-08T16:51:52Z",
+  "youtube": "Ql5ebIR8x7Y"
+ },
  "https://www.youtube.com/shorts/R-mf1jEg9Ss": {
   "game_id": "401872975",
   "game_time": "Q4 4:05",
@@ -4157,6 +4186,15 @@
   "poster": "https://i.ytimg.com/vi/Tbze-LeO-Lw/hqdefault.jpg",
   "published": "2026-09-27T16:19:24Z",
   "youtube": "Tbze-LeO-Lw"
+ },
+ "https://www.youtube.com/shorts/ToAXjetWsRo": {
+  "game_id": "401873038",
+  "game_time": "Q1 11:12",
+  "play_key": "401873038:401873038261",
+  "played_at": "2026-11-08T14:41:11Z",
+  "poster": "https://i.ytimg.com/vi/ToAXjetWsRo/hqdefault.jpg",
+  "published": "2026-11-08T14:54:56Z",
+  "youtube": "ToAXjetWsRo"
  },
  "https://www.youtube.com/shorts/TtgKV2xtf6Q": {
   "poster": "https://i.ytimg.com/vi/TtgKV2xtf6Q/hqdefault.jpg",
@@ -6019,6 +6057,15 @@
   "published": "2026-11-08T14:46:30Z",
   "video": "https://video.twimg.com/amplify_video/2119441362734952448/vid/avc1/864x1080/ckfq-fbsHVHFAhDa.mp4"
  },
+ "https://x.com/AtlantaFalcons/status/2119469568326541630": {
+  "game_id": "401873038",
+  "game_time": "Q3 6:18",
+  "play_key": "401873038:4018730382692",
+  "played_at": "2026-11-08T16:34:06Z",
+  "poster": "https://pbs.twimg.com/amplify_video_thumb/2119469492367396864/img/4wAUDcaE5SN67PC4.jpg",
+  "published": "2026-11-08T16:38:17Z",
+  "video": "https://video.twimg.com/amplify_video/2119469492367396864/vid/avc1/864x1080/i27BtMOgs1AT798z.mp4"
+ },
  "https://x.com/B_Shousejr/status/2092704561018413417": {
   "poster": "https://pbs.twimg.com/amplify_video_thumb/2092704533352685568/img/mkTBNreKg00xKAxe.jpg?name=orig",
   "video": "https://video.twimg.com/amplify_video/2092704533352685568/vid/avc1/1126x1398/pGjaDfkCCFRIHB5U.mp4?tag=29"
@@ -6097,6 +6144,15 @@
   "poster": "https://pbs.twimg.com/amplify_video_thumb/2119454534556647424/img/OZnOgzuUSGfoqRKk.jpg",
   "published": "2026-11-08T15:40:19Z",
   "video": "https://video.twimg.com/amplify_video/2119454534556647424/vid/avc1/1920x1080/WVByD1bmQRGniagd.mp4"
+ },
+ "https://x.com/Bengals/status/2119471348602802440": {
+  "game_id": "401873038",
+  "game_time": "Q3 2:05",
+  "play_key": "401873038:4018730382937",
+  "played_at": "2026-11-08T16:43:20Z",
+  "poster": "https://pbs.twimg.com/amplify_video_thumb/2119471026639687680/img/PX9nf0OroW_NyvGZ.jpg",
+  "published": "2026-11-08T16:45:22Z",
+  "video": "https://video.twimg.com/amplify_video/2119471026639687680/vid/avc1/1920x1080/XhzVKm4mI5vaoiAc.mp4"
  },
  "https://x.com/BennyGIFs/status/2088049072712163512": {
   "poster": "https://pbs.twimg.com/amplify_video_thumb/2088048887533645824/img/kIarrtW1KyhQ-rHZ.jpg?name=orig",
@@ -6449,6 +6505,11 @@
   "poster": "https://pbs.twimg.com/amplify_video_thumb/2117012059586015232/img/9muo6ai8bt-qS2SJ.jpg",
   "published": "2026-11-01T21:55:22Z",
   "video": "https://video.twimg.com/amplify_video/2117012059586015232/vid/avc1/1080x1350/T42V6r6FnYvb1oYq.mp4"
+ },
+ "https://x.com/Chiefs/status/2119473339781783577": {
+  "poster": "https://pbs.twimg.com/amplify_video_thumb/2119473256411353088/img/B8i41PT0-qY_Idn0.jpg",
+  "published": "2026-11-08T16:53:16Z",
+  "video": "https://video.twimg.com/amplify_video/2119473256411353088/vid/avc1/1080x1350/hhzSQR4pCLoo1Bu9.mp4"
  },
  "https://x.com/CincyBengalsBR/status/2094192822639317042": {
   "poster": "https://pbs.twimg.com/amplify_video_thumb/2094185775919226880/img/Yf4bxFqaJ9jqVJb9.jpg?name=orig",
@@ -9737,6 +9798,11 @@
   "poster": "https://pbs.twimg.com/amplify_video_thumb/2119471131312680960/img/7F8nuV45Z-ceF3Gc.jpg",
   "published": "2026-11-08T16:45:03Z",
   "video": "https://video.twimg.com/amplify_video/2119471131312680960/vid/avc1/1920x1080/oebz8KZ0s0hEoRnC.mp4"
+ },
+ "https://x.com/NFL/status/2119485559756267767": {
+  "poster": "https://pbs.twimg.com/amplify_video_thumb/2119484899782508544/img/bEDEQ-xdCICvL1nN.jpg",
+  "published": "2026-11-08T17:41:50Z",
+  "video": "https://video.twimg.com/amplify_video/2119484899782508544/vid/avc1/1080x1920/NE5tI4GaslieuxIP.mp4"
  },
  "https://x.com/NFLBrasil/status/2093514185812431184": {
   "poster": "https://pbs.twimg.com/amplify_video_thumb/2093514163834269696/img/j7GWyppCmf8GOls3.jpg?name=orig",
