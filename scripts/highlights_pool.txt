@@ -298,6 +298,9 @@ https://www.espn.com/video/clip/_/id/50396354/chris-rodriguez-jr-sneaks-another-
 https://www.espn.com/video/clip/_/id/50399574/how-bucs-defense-create-problems-caleb-williams
 https://www.espn.com/video/clip/_/id/50420069/michael-penix-jr-finds-charlie-woerner-give-falcons-early-lead-madrid
 https://www.espn.com/video/clip/_/id/50420103/joe-burrow-goes-deep-jamarr-chase-47-yard-bengals-td
+https://www.espn.com/video/clip/_/id/50420313/joe-burrow-sneaks-end-zone-bengals-td
+https://www.espn.com/video/clip/_/id/50420552/joe-burrow-links-tee-higgins-bengals-td
+https://www.youtube.com/shorts/-A6_wYR6KkA
 https://www.youtube.com/shorts/-Prt969WqGo
 https://www.youtube.com/shorts/-aXN1B6dMcU
 https://www.youtube.com/shorts/01TyFCUUHwE
@@ -324,7 +327,6 @@ https://www.youtube.com/shorts/7u_fdO6zJHA
 https://www.youtube.com/shorts/8D_K5cHdVfQ
 https://www.youtube.com/shorts/9EOWZZpCrA8
 https://www.youtube.com/shorts/9G7wWz30eF4
-https://www.youtube.com/shorts/9TwGUTnOkac
 https://www.youtube.com/shorts/A_-hr6hsZeQ
 https://www.youtube.com/shorts/AbbjsXYL-WQ
 https://www.youtube.com/shorts/Aym3EdmdDZA
@@ -341,6 +343,7 @@ https://www.youtube.com/shorts/CQL2y9kn_YM
 https://www.youtube.com/shorts/Cw-yM4u-3xc
 https://www.youtube.com/shorts/D6DSGCJBpzg
 https://www.youtube.com/shorts/Do1s2bhVsjA
+https://www.youtube.com/shorts/EB3fhlYSZgA
 https://www.youtube.com/shorts/EKCv9MLV-3k
 https://www.youtube.com/shorts/EgZyZ-q0RiQ
 https://www.youtube.com/shorts/FB930gccWkM
@@ -423,6 +426,7 @@ https://www.youtube.com/shorts/eoHZRmQqm-A
 https://www.youtube.com/shorts/fWV7VOTJXyQ
 https://www.youtube.com/shorts/fWgfJ3FUUQI
 https://www.youtube.com/shorts/fm1Q2paAtLE
+https://www.youtube.com/shorts/fxIG7rIuHcE
 https://www.youtube.com/shorts/g-a_VJnJeFU
 https://www.youtube.com/shorts/gETgvpeTMjU
 https://www.youtube.com/shorts/gIdO_jNyg8s
@@ -507,14 +511,19 @@ https://x.com/AdamSchefter/status/2096226172325466319
 https://x.com/AdamSchefter/status/2096244696242954731
 https://x.com/AtlantaFalcons/status/2107265125799387517
 https://x.com/AtlantaFalcons/status/2107298516699623878
+https://x.com/AtlantaFalcons/status/2119441435543982441
 https://x.com/Bengals/status/2106819603229786421
 https://x.com/Bengals/status/2106835298420191285
 https://x.com/Bengals/status/2119142848545362101
 https://x.com/Bengals/status/2119392702794207598
 https://x.com/Bengals/status/2119442320114274712
+https://x.com/Bengals/status/2119449645113909518
+https://x.com/Bengals/status/2119454980696318451
 https://x.com/BigVeks/status/2095857678534795378
 https://x.com/BleacherReport/status/2096227598846341556
 https://x.com/Broncos/status/2117026946127180055
+https://x.com/Broncos/status/2117046185106264133
+https://x.com/Broncos/status/2117046536853180510
 https://x.com/Buccaneers/status/2106824852720021923
 https://x.com/Buccaneers/status/2106825416090570828
 https://x.com/Buccaneers/status/2108358426719916467
@@ -727,6 +736,7 @@ https://x.com/NFL/status/2117018756199469142
 https://x.com/NFL/status/2117019492425629831
 https://x.com/NFL/status/2117019603570471135
 https://x.com/NFL/status/2117019890569585024
+https://x.com/NFL/status/2117053926612856875
 https://x.com/NFL/status/2117061116442329539
 https://x.com/NFL/status/2117070258662154620
 https://x.com/NFL/status/2117073646875533705
@@ -751,6 +761,9 @@ https://x.com/NFL/status/2118516592133001356
 https://x.com/NFL/status/2118530409420206155
 https://x.com/NFL/status/2118551702911816007
 https://x.com/NFL/status/2119415453403787333
+https://x.com/NFL/status/2119442177151447295
+https://x.com/NFL/status/2119444307899813930
+https://x.com/NFL/status/2119447305036185695
 https://x.com/NFLTDsVideos/status/2098243863588540602
 https://x.com/NFLTDsVideos/status/2099189736858419294
 https://x.com/NFLTDsVideos/status/2099201418368262610
@@ -830,6 +843,7 @@ https://x.com/NFLonFOX/status/2117029740997685363
 https://x.com/NFLonFOX/status/2117031694783889612
 https://x.com/NFLonFOX/status/2117052753772171743
 https://x.com/NFLonFOX/status/2118356413953319180
+https://x.com/NFLonFOX/status/2118798831328567429
 https://x.com/Nate_Tice/status/2095691914121265331
 https://x.com/NotJustFootball/status/2095953794605645913
 https://x.com/OwenGregorian/status/2096200858102813005

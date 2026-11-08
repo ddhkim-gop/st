@@ -2565,10 +2565,35 @@
   "published": "2026-11-08T14:59:11Z",
   "video": "https://espnmedia-cdn.akamaized.net/espn/media/16x9/wsc/2026/1108/84d493c1-112d-4c21-9f4f-a621504b5a90/84d493c1-112d-4c21-9f4f-a621504b5a90.mp4"
  },
+ "https://www.espn.com/video/clip/_/id/50420313/joe-burrow-sneaks-end-zone-bengals-td": {
+  "espn_game": "401873038",
+  "game_id": "401873038",
+  "game_time": "Q2 12:56",
+  "play_key": "401873038:4018730381164",
+  "played_at": "2026-11-08T15:16:40Z",
+  "poster": "https://espnmedia-cdn.akamaized.net/espn/media/common/wsc/2026/1108/bfa623b2-679f-4e6e-b78a-52e19e2ab83c/bfa623b2-679f-4e6e-b78a-52e19e2ab83c.jpg",
+  "published": "2026-11-08T15:25:51Z",
+  "video": "https://espnmedia-cdn.akamaized.net/espn/media/16x9/wsc/2026/1108/bfa623b2-679f-4e6e-b78a-52e19e2ab83c/bfa623b2-679f-4e6e-b78a-52e19e2ab83c.mp4"
+ },
+ "https://www.espn.com/video/clip/_/id/50420552/joe-burrow-links-tee-higgins-bengals-td": {
+  "espn_game": "401873038",
+  "game_id": "401873038",
+  "game_time": "Q2 4:03",
+  "play_key": "401873038:4018730381680",
+  "played_at": "2026-11-08T15:38:12Z",
+  "poster": "https://espnmedia-cdn.akamaized.net/espn/media/common/wsc/2026/1108/be832cae-3522-482b-82ee-fd356ed91876/be832cae-3522-482b-82ee-fd356ed91876.jpg",
+  "published": "2026-11-08T15:50:28Z",
+  "video": "https://espnmedia-cdn.akamaized.net/espn/media/16x9/wsc/2026/1108/be832cae-3522-482b-82ee-fd356ed91876/be832cae-3522-482b-82ee-fd356ed91876.mp4"
+ },
  "https://www.youtube.com/shorts/-9mLHMkLMRw": {
   "poster": "https://i.ytimg.com/vi/-9mLHMkLMRw/hqdefault.jpg",
   "published": "2026-09-21T18:33:52Z",
   "youtube": "-9mLHMkLMRw"
+ },
+ "https://www.youtube.com/shorts/-A6_wYR6KkA": {
+  "poster": "https://i.ytimg.com/vi/-A6_wYR6KkA/hqdefault.jpg",
+  "published": "2026-11-08T15:08:28Z",
+  "youtube": "-A6_wYR6KkA"
  },
  "https://www.youtube.com/shorts/-FEnbaRp1WQ": {
   "game_id": "401872959",
@@ -3347,6 +3372,11 @@
   "poster": "https://i.ytimg.com/vi/Do1s2bhVsjA/hqdefault.jpg",
   "published": "2026-11-01T19:58:13Z",
   "youtube": "Do1s2bhVsjA"
+ },
+ "https://www.youtube.com/shorts/EB3fhlYSZgA": {
+  "poster": "https://i.ytimg.com/vi/EB3fhlYSZgA/hqdefault.jpg",
+  "published": "2026-11-08T15:06:44Z",
+  "youtube": "EB3fhlYSZgA"
  },
  "https://www.youtube.com/shorts/EKCv9MLV-3k": {
   "poster": "https://i.ytimg.com/vi/EKCv9MLV-3k/hqdefault.jpg",
@@ -4782,6 +4812,15 @@
   "published": "2026-11-01T20:55:01Z",
   "youtube": "fm1Q2paAtLE"
  },
+ "https://www.youtube.com/shorts/fxIG7rIuHcE": {
+  "game_id": "401873033",
+  "game_time": "Q4 8:55",
+  "play_key": "401873033:4018730333881",
+  "played_at": "2026-11-02T00:07:42Z",
+  "poster": "https://i.ytimg.com/vi/fxIG7rIuHcE/hqdefault.jpg",
+  "published": "2026-11-02T00:16:17Z",
+  "youtube": "fxIG7rIuHcE"
+ },
  "https://www.youtube.com/shorts/g-a_VJnJeFU": {
   "poster": "https://i.ytimg.com/vi/g-a_VJnJeFU/hqdefault.jpg",
   "published": "2026-10-04T12:42:14Z",
@@ -5961,6 +6000,15 @@
   "published": "2026-10-25T17:52:58Z",
   "video": "https://video.twimg.com/amplify_video/2114414768303841280/vid/avc1/1920x1080/pb6prdgPSbuXPLgZ.mp4"
  },
+ "https://x.com/AtlantaFalcons/status/2119441435543982441": {
+  "game_id": "401873038",
+  "game_time": "Q1 11:12",
+  "play_key": "401873038:401873038261",
+  "played_at": "2026-11-08T14:41:11Z",
+  "poster": "https://pbs.twimg.com/amplify_video_thumb/2119441362734952448/img/wTK8KKy3w9x_BZxJ.jpg",
+  "published": "2026-11-08T14:46:30Z",
+  "video": "https://video.twimg.com/amplify_video/2119441362734952448/vid/avc1/864x1080/ckfq-fbsHVHFAhDa.mp4"
+ },
  "https://x.com/B_Shousejr/status/2092704561018413417": {
   "poster": "https://pbs.twimg.com/amplify_video_thumb/2092704533352685568/img/mkTBNreKg00xKAxe.jpg?name=orig",
   "video": "https://video.twimg.com/amplify_video/2092704533352685568/vid/avc1/1126x1398/pGjaDfkCCFRIHB5U.mp4?tag=29"
@@ -6022,6 +6070,24 @@
   "published": "2026-11-08T14:50:01Z",
   "video": "https://video.twimg.com/amplify_video/2119442053570375680/vid/avc1/1920x1080/YOn1APKdpkv52Fo6.mp4"
  },
+ "https://x.com/Bengals/status/2119449645113909518": {
+  "game_id": "401873038",
+  "game_time": "Q2 12:56",
+  "play_key": "401873038:4018730381164",
+  "played_at": "2026-11-08T15:16:40Z",
+  "poster": "https://pbs.twimg.com/amplify_video_thumb/2119449164530475008/img/vXV4w5WA3ju7KHqG.jpg",
+  "published": "2026-11-08T15:19:07Z",
+  "video": "https://video.twimg.com/amplify_video/2119449164530475008/vid/avc1/1920x1080/CnqmukGPMqiFhKur.mp4"
+ },
+ "https://x.com/Bengals/status/2119454980696318451": {
+  "game_id": "401873038",
+  "game_time": "Q2 4:03",
+  "play_key": "401873038:4018730381680",
+  "played_at": "2026-11-08T15:38:12Z",
+  "poster": "https://pbs.twimg.com/amplify_video_thumb/2119454534556647424/img/OZnOgzuUSGfoqRKk.jpg",
+  "published": "2026-11-08T15:40:19Z",
+  "video": "https://video.twimg.com/amplify_video/2119454534556647424/vid/avc1/1920x1080/WVByD1bmQRGniagd.mp4"
+ },
  "https://x.com/BennyGIFs/status/2088049072712163512": {
   "poster": "https://pbs.twimg.com/amplify_video_thumb/2088048887533645824/img/kIarrtW1KyhQ-rHZ.jpg?name=orig",
   "video": "https://video.twimg.com/amplify_video/2088048887533645824/vid/avc1/1280x720/cDBbmcYwhQ5pSqYQ.mp4?tag=14"
@@ -6052,6 +6118,24 @@
   "poster": "https://pbs.twimg.com/amplify_video_thumb/2117026549472092160/img/pQXKKM_Nmuywd2QB.jpg",
   "published": "2026-11-01T22:52:11Z",
   "video": "https://video.twimg.com/amplify_video/2117026549472092160/vid/avc1/1920x1080/3s5kMS-7QpUiP6ll.mp4"
+ },
+ "https://x.com/Broncos/status/2117046185106264133": {
+  "game_id": "401873033",
+  "game_time": "Q4 8:55",
+  "play_key": "401873033:4018730333881",
+  "played_at": "2026-11-02T00:07:42Z",
+  "poster": "https://pbs.twimg.com/amplify_video_thumb/2117046133210173440/img/R2MS8GZw6PQ5D6jI.jpg",
+  "published": "2026-11-02T00:08:38Z",
+  "video": "https://video.twimg.com/amplify_video/2117046133210173440/vid/avc1/1920x1080/LlTerMhYa6v4M7Yb.mp4"
+ },
+ "https://x.com/Broncos/status/2117046536853180510": {
+  "game_id": "401873033",
+  "game_time": "Q4 8:55",
+  "play_key": "401873033:4018730333881",
+  "played_at": "2026-11-02T00:07:42Z",
+  "poster": "https://pbs.twimg.com/amplify_video_thumb/2117046337392803840/img/NlOq76hJFpP9eKLV.jpg",
+  "published": "2026-11-02T00:10:01Z",
+  "video": "https://video.twimg.com/amplify_video/2117046337392803840/vid/avc1/1920x1080/XPvhX3Ww1oicEkHQ.mp4"
  },
  "https://x.com/Browns/status/2114409075064582482": {
   "game_id": "401873013",
@@ -9406,6 +9490,11 @@
   "published": "2026-11-01T22:24:08Z",
   "video": "https://video.twimg.com/amplify_video/2117019372367540225/vid/avc1/810x1080/FMKLuQo_X887kG7_.mp4"
  },
+ "https://x.com/NFL/status/2117053926612856875": {
+  "poster": "https://pbs.twimg.com/amplify_video_thumb/2117053801610059776/img/LuxaQEd20oYrSwzy.jpg",
+  "published": "2026-11-02T00:39:23Z",
+  "video": "https://video.twimg.com/amplify_video/2117053801610059776/vid/avc1/1920x1080/vtJJob2fpvxyire1.mp4"
+ },
  "https://x.com/NFL/status/2117061116442329539": {
   "poster": "https://pbs.twimg.com/media/HWFPz27bwAANN8a.jpg",
   "published": "2026-11-02T01:07:57Z",
@@ -9578,6 +9667,33 @@
   "poster": "https://pbs.twimg.com/amplify_video_thumb/2119415290991611905/img/8I-wX5jVREkB4Ylx.jpg",
   "published": "2026-11-08T13:03:15Z",
   "video": "https://video.twimg.com/amplify_video/2119415290991611905/vid/avc1/1080x1920/xBh4_0Gt32GjOTPu.mp4"
+ },
+ "https://x.com/NFL/status/2119442177151447295": {
+  "game_id": "401873038",
+  "game_time": "Q1 8:49",
+  "play_key": "401873038:401873038441",
+  "played_at": "2026-11-08T14:48:32Z",
+  "poster": "https://pbs.twimg.com/amplify_video_thumb/2119442079017320448/img/ByPOyTzsCWeJP7wd.jpg",
+  "published": "2026-11-08T14:49:27Z",
+  "video": "https://video.twimg.com/amplify_video/2119442079017320448/vid/avc1/1920x1080/gDj3SLYoUBebY7O2.mp4"
+ },
+ "https://x.com/NFL/status/2119444307899813930": {
+  "game_id": "401873038",
+  "game_time": "Q1 5:21",
+  "play_key": "401873038:401873038713",
+  "played_at": "2026-11-08T14:59:38Z",
+  "poster": "https://pbs.twimg.com/amplify_video_thumb/2119444196620636160/img/I060Zrqmg5kgcJrr.jpg",
+  "published": "2026-11-08T14:57:55Z",
+  "video": "https://video.twimg.com/amplify_video/2119444196620636160/vid/avc1/1920x1080/Y4Yk5zuz54lxPVnL.mp4"
+ },
+ "https://x.com/NFL/status/2119447305036185695": {
+  "game_id": "401873038",
+  "game_time": "Q1 2:01",
+  "play_key": "401873038:401873038950",
+  "played_at": "2026-11-08T15:08:33Z",
+  "poster": "https://pbs.twimg.com/amplify_video_thumb/2119447207296249856/img/-fu1OLh3xbFTY02a.jpg",
+  "published": "2026-11-08T15:09:49Z",
+  "video": "https://video.twimg.com/amplify_video/2119447207296249856/vid/avc1/1920x1080/2pZACHp-Js6m2RmN.mp4"
  },
  "https://x.com/NFLBrasil/status/2093514185812431184": {
   "poster": "https://pbs.twimg.com/amplify_video_thumb/2093514163834269696/img/j7GWyppCmf8GOls3.jpg?name=orig",
@@ -10134,6 +10250,11 @@
   "poster": "https://pbs.twimg.com/amplify_video_thumb/2118354235129843712/img/OXfqHWls4yZq77Q8.jpg",
   "published": "2026-11-05T14:55:00Z",
   "video": "https://video.twimg.com/amplify_video/2118354235129843712/vid/avc1/1080x1920/Wgg9BxfcfWqfkGgs.mp4"
+ },
+ "https://x.com/NFLonFOX/status/2118798831328567429": {
+  "poster": "https://pbs.twimg.com/amplify_video_thumb/2118789608549036032/img/D4aWXhx9yC_rBGI-.jpg",
+  "published": "2026-11-06T20:13:01Z",
+  "video": "https://video.twimg.com/amplify_video/2118789608549036032/vid/avc1/1080x1920/4vwwvFPP6ksqDu0j.mp4"
  },
  "https://x.com/NFLonPrime/status/2090544447800946897": {
   "poster": "https://pbs.twimg.com/amplify_video_thumb/2090544419824947200/img/IAqeOOBA6vJxNq06.jpg?name=orig",
