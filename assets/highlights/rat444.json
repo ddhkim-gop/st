@@ -4,6 +4,25 @@
   "note": "Curated: X has no public search API, so posts are collected by hand and matched to rosters by this script.",
   "tweets": [
     {
+      "url": "https://www.espn.com/video/clip/_/id/50420103/joe-burrow-goes-deep-jamarr-chase-47-yard-bengals-td",
+      "player": "Ja'Marr Chase",
+      "meta": "WR \u00b7 CIN",
+      "date": "2026-11-08",
+      "author": "ESPN",
+      "text": "Joe Burrow goes deep to Ja'Marr Chase for a 47-yard Bengals TD",
+      "verified": true,
+      "faves": 0,
+      "secs": 0,
+      "espn_game": "401873038",
+      "game_id": "401873038",
+      "game_time": "Q1 8:49",
+      "play_key": "401873038:401873038441",
+      "played_at": "2026-11-08T14:48:32Z",
+      "poster": "https://espnmedia-cdn.akamaized.net/espn/media/common/wsc/2026/1108/84d493c1-112d-4c21-9f4f-a621504b5a90/84d493c1-112d-4c21-9f4f-a621504b5a90.jpg",
+      "published": "2026-11-08T14:59:11Z",
+      "video": "https://espnmedia-cdn.akamaized.net/espn/media/16x9/wsc/2026/1108/84d493c1-112d-4c21-9f4f-a621504b5a90/84d493c1-112d-4c21-9f4f-a621504b5a90.mp4"
+    },
+    {
       "url": "https://www.youtube.com/shorts/x3EiX1wUF2M",
       "player": "Drake Maye",
       "meta": "QB \u00b7 NE",
