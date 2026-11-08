@@ -7123,6 +7123,21 @@ window.__STATIC_DATA__ = {
           "search_rank": 118
         },
         {
+          "player_id": "2020",
+          "espn_id": 17427,
+          "name": "Cairo Santos",
+          "position": "K",
+          "team": "CHI",
+          "birth_date": "1991-11-12",
+          "college": "Tulane",
+          "height": "68",
+          "weight": "173",
+          "years_exp": 12,
+          "status": "Active",
+          "injury_status": null,
+          "search_rank": 190
+        },
+        {
           "player_id": "4037",
           "espn_id": 3116165,
           "name": "Chris Godwin Jr.",
@@ -7301,21 +7316,6 @@ window.__STATIC_DATA__ = {
           "status": "Active",
           "injury_status": null,
           "search_rank": 122
-        },
-        {
-          "player_id": "9757",
-          "espn_id": null,
-          "name": "Kendre Miller",
-          "position": "RB",
-          "team": "NO",
-          "birth_date": "2002-06-11",
-          "college": "TCU",
-          "height": "72",
-          "weight": "220",
-          "years_exp": 3,
-          "status": "Active",
-          "injury_status": null,
-          "search_rank": 180
         },
         {
           "player_id": "CHI",
@@ -7590,7 +7590,7 @@ window.__STATIC_DATA__ = {
           "weight": "250",
           "years_exp": 4,
           "status": "Active",
-          "injury_status": "Questionable",
+          "injury_status": null,
           "search_rank": 97
         },
         {
@@ -8277,7 +8277,7 @@ window.__STATIC_DATA__ = {
           "weight": "202",
           "years_exp": 5,
           "status": "Active",
-          "injury_status": "Questionable",
+          "injury_status": null,
           "search_rank": 7
         },
         {
@@ -8628,7 +8628,7 @@ window.__STATIC_DATA__ = {
           "weight": "185",
           "years_exp": 5,
           "status": "Active",
-          "injury_status": null,
+          "injury_status": "Questionable",
           "search_rank": 42
         },
         {
@@ -9420,7 +9420,7 @@ window.__STATIC_DATA__ = {
           "weight": "205",
           "years_exp": 4,
           "status": "Active",
-          "injury_status": "Questionable",
+          "injury_status": "Out",
           "search_rank": 23
         },
         {
@@ -9535,6 +9535,21 @@ window.__STATIC_DATA__ = {
           "search_rank": 125
         },
         {
+          "player_id": "11563",
+          "espn_id": null,
+          "name": "Bo Nix",
+          "position": "QB",
+          "team": "DEN",
+          "birth_date": "2000-02-25",
+          "college": "Oregon",
+          "height": "74",
+          "weight": "217",
+          "years_exp": 2,
+          "status": "Active",
+          "injury_status": null,
+          "search_rank": 46
+        },
+        {
           "player_id": "12481",
           "espn_id": null,
           "name": "Cam Skattebo",
@@ -9546,7 +9561,7 @@ window.__STATIC_DATA__ = {
           "weight": "215",
           "years_exp": 1,
           "status": "Active",
-          "injury_status": "Doubtful",
+          "injury_status": "Out",
           "search_rank": 36
         },
         {
@@ -9835,21 +9850,6 @@ window.__STATIC_DATA__ = {
           "search_rank": 1
         },
         {
-          "player_id": "96",
-          "espn_id": 8439,
-          "name": "Aaron Rodgers",
-          "position": "QB",
-          "team": "PIT",
-          "birth_date": "1983-12-02",
-          "college": "California",
-          "height": "74",
-          "weight": "223",
-          "years_exp": 21,
-          "status": "Active",
-          "injury_status": null,
-          "search_rank": 186
-        },
-        {
           "player_id": "PHI",
           "espn_id": null,
           "name": "Philadelphia Eagles",
@@ -10097,6 +10097,62 @@ window.__STATIC_DATA__ = {
     {
       "season": "2026",
       "week": 9,
+      "created": "Nov 8, 2026 • 9:00 AM PT",
+      "transaction_id": "1425202350133362688",
+      "type": "free_agent",
+      "status": "complete",
+      "teams": [
+        "ddhk"
+      ],
+      "added": [
+        {
+          "name": "Cairo Santos",
+          "position": "K",
+          "team": "CHI"
+        }
+      ],
+      "dropped": [
+        {
+          "name": "Kendre Miller",
+          "position": "RB",
+          "team": null
+        }
+      ],
+      "faab": 0,
+      "waiver_bid": 0,
+      "notes": null
+    },
+    {
+      "season": "2026",
+      "week": 9,
+      "created": "Nov 8, 2026 • 8:03 AM PT",
+      "transaction_id": "1425187995954184192",
+      "type": "free_agent",
+      "status": "complete",
+      "teams": [
+        "churlz98"
+      ],
+      "added": [
+        {
+          "name": "Bo Nix",
+          "position": "QB",
+          "team": "DEN"
+        }
+      ],
+      "dropped": [
+        {
+          "name": "Aaron Rodgers",
+          "position": "QB",
+          "team": "PIT"
+        }
+      ],
+      "faab": 0,
+      "waiver_bid": 0,
+      "notes": null
+    },
+    {
+      "season": "2026",
+      "week": 9,
       "created": "Nov 7, 2026 • 8:09 PM PT",
       "transaction_id": "1425008350579453952",
       "type": "free_agent",
@@ -10220,7 +10276,7 @@ window.__STATIC_DATA__ = {
         {
           "name": "Kendre Miller",
           "position": "RB",
-          "team": "NO"
+          "team": null
         }
       ],
       "dropped": [],
@@ -10649,7 +10705,7 @@ window.__STATIC_DATA__ = {
         {
           "name": "Kendre Miller",
           "position": "RB",
-          "team": "NO"
+          "team": null
         }
       ],
       "faab": 0,
@@ -12016,7 +12072,7 @@ window.__STATIC_DATA__ = {
         {
           "name": "Kendre Miller",
           "position": "RB",
-          "team": "NO"
+          "team": null
         }
       ],
       "dropped": [
