@@ -185,7 +185,7 @@
   "verified": true
  },
  "HoustonTexans": {
-  "avatar": "https://pbs.twimg.com/profile_images/2114711843369312256/McuBshxd_normal.jpg",
+  "avatar": "",
   "name": "Houston Texans",
   "verified": true
  },
@@ -285,7 +285,7 @@
   "verified": true
  },
  "Patriots": {
-  "avatar": "",
+  "avatar": "https://pbs.twimg.com/profile_images/2110415676393340928/jGZjXu_R_normal.jpg",
   "name": "New England Patriots",
   "verified": true
  },
@@ -375,7 +375,7 @@
   "verified": true
  },
  "nyjets": {
-  "avatar": "https://pbs.twimg.com/profile_images/2114726710214103040/pVXiph6H_normal.jpg",
+  "avatar": "",
   "name": "New York Jets",
   "verified": true
  },
