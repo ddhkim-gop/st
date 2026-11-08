@@ -4,6 +4,25 @@
   "note": "Curated: X has no public search API, so posts are collected by hand and matched to rosters by this script.",
   "tweets": [
     {
+      "url": "https://www.espn.com/video/clip/_/id/50421099/bijan-robinson-goes-untouched-falcons-td",
+      "player": "Bijan Robinson",
+      "meta": "RB \u00b7 ATL",
+      "date": "2026-11-08",
+      "author": "ESPN",
+      "text": "Bijan Robinson goes in untouched for Falcons TD",
+      "verified": true,
+      "faves": 0,
+      "secs": 0,
+      "espn_game": "401873038",
+      "game_id": "401873038",
+      "game_time": "Q3 6:18",
+      "play_key": "401873038:4018730382692",
+      "played_at": "2026-11-08T16:34:06Z",
+      "poster": "https://espnmedia-cdn.akamaized.net/espn/media/common/wsc/2026/1108/25c2a2d6-8eae-4e8f-a857-4af72495d549/25c2a2d6-8eae-4e8f-a857-4af72495d549.jpg",
+      "published": "2026-11-08T16:42:22Z",
+      "video": "https://espnmedia-cdn.akamaized.net/espn/media/16x9/wsc/2026/1108/25c2a2d6-8eae-4e8f-a857-4af72495d549/25c2a2d6-8eae-4e8f-a857-4af72495d549.mp4"
+    },
+    {
       "url": "https://www.espn.com/video/clip/_/id/50396354/chris-rodriguez-jr-sneaks-another-jags-td",
       "player": "Chris Rodriguez Jr.",
       "meta": "RB \u00b7 JAX",
