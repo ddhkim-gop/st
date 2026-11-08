@@ -4,6 +4,25 @@
   "note": "Curated: X has no public search API, so posts are collected by hand and matched to rosters by this script.",
   "tweets": [
     {
+      "url": "https://www.espn.com/video/clip/_/id/50423760/matthew-stafford-links-leaping-puka-nacua-td",
+      "player": "Matthew Stafford",
+      "meta": "QB \u00b7 LAR",
+      "date": "2026-11-08",
+      "author": "ESPN",
+      "text": "Matthew Stafford links up with a leaping Puka Nacua for a TD",
+      "verified": true,
+      "faves": 0,
+      "secs": 0,
+      "espn_game": "401873043",
+      "game_id": "401873043",
+      "game_time": "Q4 12:51",
+      "play_key": "401873043:4018730433542",
+      "played_at": "2026-11-08T20:25:59Z",
+      "poster": "https://espnmedia-cdn.akamaized.net/espn/media/common/wsc/2026/1108/9ec58b98-f0eb-4250-adc6-c69f0624d1f5/9ec58b98-f0eb-4250-adc6-c69f0624d1f5.jpg",
+      "published": "2026-11-08T20:35:05Z",
+      "video": "https://espnmedia-cdn.akamaized.net/espn/media/16x9/wsc/2026/1108/9ec58b98-f0eb-4250-adc6-c69f0624d1f5/9ec58b98-f0eb-4250-adc6-c69f0624d1f5.mp4"
+    },
+    {
       "url": "https://x.com/Bengals/status/2119471348602802440",
       "player": "Tee Higgins",
       "meta": "WR \u00b7 CIN",
