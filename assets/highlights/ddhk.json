@@ -4,6 +4,27 @@
   "note": "Curated: X has no public search API, so posts are collected by hand and matched to rosters by this script.",
   "tweets": [
     {
+      "url": "https://x.com/NFL/status/2119506265617379802",
+      "player": "Kenneth Walker III",
+      "meta": "RB \u00b7 KC",
+      "date": "2026-11-08",
+      "author": "NFL",
+      "text": "Mahomes to Walker again!\n\nNYJvsKC on CBS/Paramount+\nStream on @NFLPlus",
+      "verified": true,
+      "faves": 1253,
+      "secs": 11,
+      "game_id": "401873045",
+      "game_time": "Q2 5:37",
+      "play_key": "401873045:4018730451562",
+      "played_at": "2026-11-08T19:03:14Z",
+      "poster": "https://pbs.twimg.com/amplify_video_thumb/2119506160382304256/img/8yjQHWdjZOt0EuUm.jpg",
+      "published": "2026-11-08T19:04:06Z",
+      "video": "https://video.twimg.com/amplify_video/2119506160382304256/vid/avc1/1920x1080/yNTAM_oiLTBQdRzi.mp4",
+      "author_name": "NFL",
+      "avatar": "https://pbs.twimg.com/profile_images/1619895559334273028/PHKS_mjX_normal.jpg",
+      "author_verified": true
+    },
+    {
       "url": "https://www.espn.com/video/clip/_/id/50353615/jonah-coleman-punches-go-ahead-td-put-broncos-top",
       "player": "Jonah Coleman",
       "meta": "RB \u00b7 DEN",
