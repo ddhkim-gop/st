@@ -4,6 +4,48 @@
   "note": "Curated: X has no public search API, so posts are collected by hand and matched to rosters by this script.",
   "tweets": [
     {
+      "url": "https://x.com/Eagles/status/2119499702882259069",
+      "player": "Saquon Barkley",
+      "meta": "RB \u00b7 PHI",
+      "date": "2026-11-08",
+      "author": "Eagles",
+      "text": "Saquon just loves wearing Kelly Green \ud83d\ude0f",
+      "verified": true,
+      "faves": 876,
+      "secs": 18,
+      "game_id": "401873044",
+      "game_time": "Q1 2:09",
+      "play_key": "401873044:401873044955",
+      "played_at": "2026-11-08T18:36:29Z",
+      "poster": "https://pbs.twimg.com/amplify_video_thumb/2119499450762629120/img/3mNeYSK1ALctfhdD.jpg",
+      "published": "2026-11-08T18:38:02Z",
+      "video": "https://video.twimg.com/amplify_video/2119499450762629120/vid/avc1/1920x1080/fop0hdBWZc5CxLtk.mp4",
+      "author_name": "Philadelphia Eagles",
+      "avatar": "https://pbs.twimg.com/profile_images/2117663165093728256/jGzQUSAp_normal.jpg",
+      "author_verified": true
+    },
+    {
+      "url": "https://www.youtube.com/shorts/McdqD9pIOGI",
+      "player": "Courtland Sutton",
+      "meta": "WR \u00b7 DEN",
+      "date": "2026-11-08",
+      "author": "Broncos",
+      "text": "ALL RISE \ud83d\udde3\ufe0f #broncos #touchdown #courtlandsutton #bonix #nfl",
+      "verified": true,
+      "faves": 20,
+      "secs": 14,
+      "game_id": "401873041",
+      "game_time": "Q1 1:23",
+      "play_key": "401873041:401873041850",
+      "played_at": "2026-11-08T18:30:59Z",
+      "poster": "https://i.ytimg.com/vi/McdqD9pIOGI/hqdefault.jpg",
+      "published": "2026-11-08T18:43:08Z",
+      "youtube": "McdqD9pIOGI",
+      "author_name": "Denver Broncos",
+      "avatar": "",
+      "author_verified": true
+    },
+    {
       "url": "https://www.espn.com/video/clip/_/id/50395412/trevor-lawrence-dimes-parker-washington-50-yard-td",
       "player": "Trevor Lawrence",
       "meta": "QB \u00b7 JAX",
@@ -40,7 +82,7 @@
       "published": "2026-11-02T01:57:59Z",
       "video": "https://video.twimg.com/amplify_video/2117073183287197696/vid/avc1/1920x1080/DEjh9ATdvj8HAIz2.mp4",
       "author_name": "Philadelphia Eagles",
-      "avatar": "",
+      "avatar": "https://pbs.twimg.com/profile_images/2117663165093728256/jGzQUSAp_normal.jpg",
       "author_verified": true
     },
     {
@@ -181,7 +223,7 @@
       "published": "2026-11-01T19:28:53Z",
       "youtube": "C-mg6K6z2yI",
       "author_name": "New York Jets",
-      "avatar": "",
+      "avatar": "https://pbs.twimg.com/profile_images/2114726710214103040/pVXiph6H_normal.jpg",
       "author_verified": true
     },
     {
