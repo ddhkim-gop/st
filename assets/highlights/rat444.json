@@ -4,6 +4,27 @@
   "note": "Curated: X has no public search API, so posts are collected by hand and matched to rosters by this script.",
   "tweets": [
     {
+      "url": "https://x.com/Buccaneers/status/2119636572798701943",
+      "player": "Cade Otton",
+      "meta": "TE \u00b7 TB",
+      "date": "2026-11-09",
+      "author": "Buccaneers",
+      "text": "THAT\u2019S 4\ufe0f\u20e3 PICKS THIS YEAR FOR ANZALONE!!!",
+      "verified": true,
+      "faves": 139,
+      "secs": 9,
+      "game_id": "401873050",
+      "game_time": "Q3 3:39",
+      "play_key": "401873050:4018730503054",
+      "played_at": "2026-11-09T03:41:50Z",
+      "poster": "https://pbs.twimg.com/media/HSrAxgIaoAAv8R0.jpg",
+      "published": "2026-11-09T03:41:54Z",
+      "video": "https://video.twimg.com/amplify_video/2101691204832313344/vid/avc1/1080x1350/yRKswrH1BTwrSk5C.mp4",
+      "author_name": "Tampa Bay Buccaneers",
+      "avatar": "https://pbs.twimg.com/profile_images/2037618478622887936/e0YeskTe_normal.png",
+      "author_verified": true
+    },
+    {
       "url": "https://www.youtube.com/shorts/H5Cr98aSjzQ",
       "player": "Drake Maye",
       "meta": "QB \u00b7 NE",
@@ -107,6 +128,25 @@
       "author_name": "NFL",
       "avatar": "https://pbs.twimg.com/profile_images/1619895559334273028/PHKS_mjX_normal.jpg",
       "author_verified": true
+    },
+    {
+      "url": "https://www.espn.com/video/clip/_/id/50425102/javonte-williams-walks-go-ahead-td-cowboys",
+      "player": "Javonte Williams",
+      "meta": "RB \u00b7 DAL",
+      "date": "2026-11-08",
+      "author": "ESPN",
+      "text": "Javonte Williams walks in go-ahead TD for the Cowboys. Javonte Williams walks in go-ahead TD for the Cowboys   ",
+      "verified": true,
+      "faves": 0,
+      "secs": 0,
+      "espn_game": "401873040",
+      "game_id": "401873040",
+      "game_time": "Q4 1:08",
+      "play_key": "401873040:4018730404797",
+      "played_at": "2026-11-08T21:26:55Z",
+      "poster": "https://espnmedia-cdn.akamaized.net/espn/media/common/2026/1108/d54c22fd766a4130a3a3e9b649829a371008/d54c22fd766a4130a3a3e9b649829a371008.jpg",
+      "published": "2026-11-08T21:37:00Z",
+      "video": "https://espnmedia-cdn.akamaized.net/espn/media/16x9/wsc/2026/1108/d54c22fd-766a-4130-a3a3-e9b649829a37/d54c22fd-766a-4130-a3a3-e9b649829a37.mp4"
     },
     {
       "url": "https://www.espn.com/video/clip/_/id/50423760/matthew-stafford-links-leaping-puka-nacua-td",
