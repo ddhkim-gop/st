@@ -4,6 +4,27 @@
   "note": "Curated: X has no public search API, so posts are collected by hand and matched to rosters by this script.",
   "tweets": [
     {
+      "url": "https://x.com/ChicagoBears/status/2119650238877028825",
+      "player": "Colston Loveland",
+      "meta": "TE \u00b7 CHI",
+      "date": "2026-11-09",
+      "author": "ChicagoBears",
+      "text": "Caleb to Colston. Big gain. \ud83d\udcaa\n\n\ud83d\udcfa: NBC",
+      "verified": true,
+      "faves": 1337,
+      "secs": 20,
+      "game_id": "401873050",
+      "game_time": "Q4 0:36",
+      "play_key": "401873050:4018730504376",
+      "played_at": "2026-11-09T04:37:00Z",
+      "poster": "https://pbs.twimg.com/amplify_video_thumb/2119650158740746240/img/iYLwob7KwWbABIsy.jpg",
+      "published": "2026-11-09T04:36:12Z",
+      "video": "https://video.twimg.com/amplify_video/2119650158740746240/vid/avc1/1920x1080/0MDZHSsS4D9x7xrE.mp4",
+      "author_name": "Chicago Bears",
+      "avatar": "https://pbs.twimg.com/profile_images/2095215291395665920/hTWEqaly_normal.jpg",
+      "author_verified": true
+    },
+    {
       "url": "https://x.com/NFL/status/2119573152829206973",
       "player": "Brock Purdy",
       "meta": "QB \u00b7 SF",

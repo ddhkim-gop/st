@@ -4,6 +4,27 @@
   "note": "Curated: X has no public search API, so posts are collected by hand and matched to rosters by this script.",
   "tweets": [
     {
+      "url": "https://x.com/Buccaneers/status/2119648748431118821",
+      "player": "Bucky Irving",
+      "meta": "RB \u00b7 TB",
+      "date": "2026-11-09",
+      "author": "Buccaneers",
+      "text": "BUC-KY \ud83d\udde3\ufe0f BUC-KY \ud83d\udde3\ufe0f BUC-KY \ud83d\udde3\ufe0f\n\n\ud83d\udcfa: #TBvsCHI on NBC",
+      "verified": true,
+      "faves": 360,
+      "secs": 15,
+      "game_id": "401873050",
+      "game_time": "Q4 2:51",
+      "play_key": "401873050:4018730504163",
+      "played_at": "2026-11-09T04:27:59Z",
+      "poster": "https://pbs.twimg.com/amplify_video_thumb/2119648399578353664/img/D4SXGPg9LtigtTqU.jpg",
+      "published": "2026-11-09T04:30:17Z",
+      "video": "https://video.twimg.com/amplify_video/2119648399578353664/vid/avc1/1920x1080/8YiJKSagavrldcJQ.mp4",
+      "author_name": "Tampa Bay Buccaneers",
+      "avatar": "https://pbs.twimg.com/profile_images/2037618478622887936/e0YeskTe_normal.png",
+      "author_verified": true
+    },
+    {
       "url": "https://x.com/NFL/status/2119630088463331358",
       "player": "Bucky Irving",
       "meta": "RB \u00b7 TB",
