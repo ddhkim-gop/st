@@ -4,6 +4,27 @@
   "note": "Curated: X has no public search API, so posts are collected by hand and matched to rosters by this script.",
   "tweets": [
     {
+      "url": "https://x.com/NFL/status/2119607159855984803",
+      "player": "Luther Burden III",
+      "meta": "WR \u00b7 CHI",
+      "date": "2026-11-09",
+      "author": "NFL",
+      "text": "Caleb Williams to Luther Burden III for a 56-yard touchdown \ud83d\ude4c\n\nTBvsCHI on NBC/Peacock\nStream on @NFLPlus",
+      "verified": true,
+      "faves": 415,
+      "secs": 16,
+      "game_id": "401873050",
+      "game_time": "Q1 6:00",
+      "play_key": "401873050:401873050546",
+      "played_at": "2026-11-09T01:42:41Z",
+      "poster": "https://pbs.twimg.com/amplify_video_thumb/2119606780791529472/img/DMA2Lj4KNsa6UkMD.jpg",
+      "published": "2026-11-09T01:45:01Z",
+      "video": "https://video.twimg.com/amplify_video/2119606780791529472/vid/avc1/1920x1080/ugSm7DgU3TYrhGyP.mp4",
+      "author_name": "NFL",
+      "avatar": "https://pbs.twimg.com/profile_images/1619895559334273028/PHKS_mjX_normal.jpg",
+      "author_verified": true
+    },
+    {
       "url": "https://x.com/Patriots/status/2119580664383046002",
       "player": "Mack Hollins",
       "meta": "WR \u00b7 NE",
