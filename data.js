@@ -7381,7 +7381,7 @@ window.__STATIC_DATA__ = {
           "years_exp": 2,
           "status": "Active",
           "injury_status": null,
-          "search_rank": 21
+          "search_rank": 22
         },
         {
           "player_id": "11624",
@@ -7486,7 +7486,7 @@ window.__STATIC_DATA__ = {
           "years_exp": 11,
           "status": "Active",
           "injury_status": null,
-          "search_rank": 105
+          "search_rank": 104
         },
         {
           "player_id": "4046",
@@ -7651,7 +7651,7 @@ window.__STATIC_DATA__ = {
           "years_exp": 3,
           "status": "Active",
           "injury_status": null,
-          "search_rank": 489
+          "search_rank": 487
         },
         {
           "player_id": "9758",
@@ -7792,7 +7792,7 @@ window.__STATIC_DATA__ = {
           "years_exp": 2,
           "status": "Active",
           "injury_status": null,
-          "search_rank": 65
+          "search_rank": 63
         },
         {
           "player_id": "11792",
@@ -8524,7 +8524,7 @@ window.__STATIC_DATA__ = {
           "years_exp": 0,
           "status": "Active",
           "injury_status": null,
-          "search_rank": 161
+          "search_rank": 162
         },
         {
           "player_id": "1479",
@@ -8815,7 +8815,7 @@ window.__STATIC_DATA__ = {
           "years_exp": 14,
           "status": "Active",
           "injury_status": null,
-          "search_rank": 262
+          "search_rank": 263
         },
         {
           "player_id": "12185",
@@ -8845,7 +8845,7 @@ window.__STATIC_DATA__ = {
           "years_exp": 1,
           "status": "Active",
           "injury_status": null,
-          "search_rank": 450
+          "search_rank": 449
         },
         {
           "player_id": "12512",
@@ -8935,7 +8935,7 @@ window.__STATIC_DATA__ = {
           "years_exp": 0,
           "status": "Active",
           "injury_status": null,
-          "search_rank": 377
+          "search_rank": 378
         },
         {
           "player_id": "2505",
@@ -8950,7 +8950,7 @@ window.__STATIC_DATA__ = {
           "years_exp": 11,
           "status": "Active",
           "injury_status": null,
-          "search_rank": 355
+          "search_rank": 357
         },
         {
           "player_id": "3294",
@@ -9070,7 +9070,7 @@ window.__STATIC_DATA__ = {
           "years_exp": 3,
           "status": "Active",
           "injury_status": null,
-          "search_rank": 421
+          "search_rank": 423
         },
         {
           "player_id": "9487",
@@ -9532,7 +9532,7 @@ window.__STATIC_DATA__ = {
           "years_exp": 3,
           "status": "Active",
           "injury_status": null,
-          "search_rank": 125
+          "search_rank": 127
         },
         {
           "player_id": "11563",
@@ -28226,68 +28226,68 @@ window.__STATIC_DATA__ = {
     ],
     "2026": [
       {
-        "name": "paddleham",
-        "wins": 6,
-        "losses": 2,
-        "ties": 0,
-        "pf": 1844.06,
-        "pa": 1710.28
-      },
-      {
         "name": "ochen07",
-        "wins": 5,
+        "wins": 6,
         "losses": 3,
         "ties": 0,
-        "pf": 1852.72,
-        "pa": 1721.06
+        "pf": 2078.04,
+        "pa": 1903.12
+      },
+      {
+        "name": "paddleham",
+        "wins": 6,
+        "losses": 3,
+        "ties": 0,
+        "pf": 2033.5,
+        "pa": 1925.86
       },
       {
         "name": "avocadoshake",
-        "wins": 5,
+        "wins": 6,
         "losses": 3,
         "ties": 0,
-        "pf": 1676.16,
-        "pa": 1704.26
+        "pf": 1924.3,
+        "pa": 1898.22
+      },
+      {
+        "name": "churlz98",
+        "wins": 5,
+        "losses": 4,
+        "ties": 0,
+        "pf": 1850.52,
+        "pa": 1972.8
       },
       {
         "name": "edelgreco30",
         "wins": 4,
-        "losses": 4,
+        "losses": 5,
         "ties": 0,
-        "pf": 1784.5,
-        "pa": 1660.88
+        "pf": 1966.56,
+        "pa": 1886.2
       },
       {
-        "name": "churlz98",
+        "name": "ddhk",
         "wins": 4,
-        "losses": 4,
+        "losses": 5,
         "ties": 0,
-        "pf": 1626.56,
-        "pa": 1780.04
+        "pf": 1919.74,
+        "pa": 1941.44
       },
       {
         "name": "rat444",
         "wins": 3,
-        "losses": 5,
+        "losses": 6,
         "ties": 0,
-        "pf": 1741.5,
-        "pa": 1758.56
-      },
-      {
-        "name": "ddhk",
-        "wins": 3,
-        "losses": 5,
-        "ties": 0,
-        "pf": 1704.16,
-        "pa": 1752.0
+        "pf": 1934.26,
+        "pa": 1982.52
       },
       {
         "name": "justinlau3",
         "wins": 2,
-        "losses": 6,
+        "losses": 7,
         "ties": 0,
-        "pf": 1718.6,
-        "pa": 1861.18
+        "pf": 1912.56,
+        "pa": 2109.32
       }
     ]
   },
