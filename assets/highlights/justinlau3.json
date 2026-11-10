@@ -4,6 +4,27 @@
   "note": "Curated: X has no public search API, so posts are collected by hand and matched to rosters by this script.",
   "tweets": [
     {
+      "url": "https://x.com/NFL/status/2119985275384602814",
+      "player": "Justin Jefferson",
+      "meta": "WR \u00b7 MIN",
+      "date": "2026-11-10",
+      "author": "NFL",
+      "text": "Justin Jefferson dives for the catch\n\nBUFvsMIN on ESPN\u2028Stream on @NFLPlus",
+      "verified": true,
+      "faves": 367,
+      "secs": 8,
+      "game_id": "401873051",
+      "game_time": "Q2 0:27",
+      "play_key": "401873051:4018730512182",
+      "played_at": "2026-11-10T02:48:41Z",
+      "poster": "https://pbs.twimg.com/amplify_video_thumb/2119985116718276608/img/kzyqlI6bLsqsN7PQ.jpg",
+      "published": "2026-11-10T02:47:31Z",
+      "video": "https://video.twimg.com/amplify_video/2119985116718276608/vid/avc1/1920x1080/A60Y4HnM0Q52U7TY.mp4",
+      "author_name": "NFL",
+      "avatar": "https://pbs.twimg.com/profile_images/1619895559334273028/PHKS_mjX_normal.jpg",
+      "author_verified": true
+    },
+    {
       "url": "https://x.com/NFL/status/2119578109380788367",
       "player": "Jordan Love",
       "meta": "QB \u00b7 GB",
