@@ -1,6 +1,6 @@
 {
   "team": "rat444",
-  "updated": "2026-11-09",
+  "updated": "2026-11-10",
   "note": "Curated: X has no public search API, so posts are collected by hand and matched to rosters by this script.",
   "tweets": [
     {
@@ -163,7 +163,7 @@
       "game_time": "Q4 12:51",
       "play_key": "401873043:4018730433542",
       "played_at": "2026-11-08T20:25:59Z",
-      "poster": "https://espnmedia-cdn.akamaized.net/espn/media/common/wsc/2026/1108/9ec58b98-f0eb-4250-adc6-c69f0624d1f5/9ec58b98-f0eb-4250-adc6-c69f0624d1f5.jpg",
+      "poster": "https://espnmedia-cdn.akamaized.net/espn/media/common/2026/1108/9ec58b98f0eb4250adc6c69f0624d1f51062/9ec58b98f0eb4250adc6c69f0624d1f51062.jpg",
       "published": "2026-11-08T20:35:05Z",
       "video": "https://espnmedia-cdn.akamaized.net/espn/media/16x9/wsc/2026/1108/9ec58b98-f0eb-4250-adc6-c69f0624d1f5/9ec58b98-f0eb-4250-adc6-c69f0624d1f5.mp4"
     },

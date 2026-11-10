@@ -1,6 +1,6 @@
 {
   "team": "justinlau3",
-  "updated": "2026-11-09",
+  "updated": "2026-11-10",
   "note": "Curated: X has no public search API, so posts are collected by hand and matched to rosters by this script.",
   "tweets": [
     {
@@ -161,7 +161,7 @@
       "game_time": "Q4 12:51",
       "play_key": "401873043:4018730433542",
       "played_at": "2026-11-08T20:25:59Z",
-      "poster": "https://espnmedia-cdn.akamaized.net/espn/media/common/wsc/2026/1108/9ec58b98-f0eb-4250-adc6-c69f0624d1f5/9ec58b98-f0eb-4250-adc6-c69f0624d1f5.jpg",
+      "poster": "https://espnmedia-cdn.akamaized.net/espn/media/common/2026/1108/9ec58b98f0eb4250adc6c69f0624d1f51062/9ec58b98f0eb4250adc6c69f0624d1f51062.jpg",
       "published": "2026-11-08T20:35:05Z",
       "video": "https://espnmedia-cdn.akamaized.net/espn/media/16x9/wsc/2026/1108/9ec58b98-f0eb-4250-adc6-c69f0624d1f5/9ec58b98-f0eb-4250-adc6-c69f0624d1f5.mp4"
     },
@@ -261,27 +261,6 @@
       "poster": "https://espnmedia-cdn.akamaized.net/espn/media/common/2026/1105/7b74a7e2ca70462cb41a37fcda4e6b4c1401/7b74a7e2ca70462cb41a37fcda4e6b4c1401.jpg",
       "published": "2026-11-06T02:37:15Z",
       "video": "https://espnmedia-cdn.akamaized.net/espn/media/16x9/wsc/2026/1106/7b74a7e2-ca70-462c-b41a-37fcda4e6b4c/7b74a7e2-ca70-462c-b41a-37fcda4e6b4c.mp4"
-    },
-    {
-      "url": "https://x.com/Eagles/status/2117073707659133203",
-      "player": "Saquon Barkley",
-      "meta": "RB \u00b7 PHI",
-      "date": "2026-11-02",
-      "author": "Eagles",
-      "text": "Alllll Saquon \ud83d\ude4c",
-      "verified": true,
-      "faves": 1401,
-      "secs": 7,
-      "game_id": "401873035",
-      "game_time": "Q1 4:27",
-      "play_key": "401873035:401873035906",
-      "played_at": "2026-11-02T01:55:13Z",
-      "poster": "https://pbs.twimg.com/amplify_video_thumb/2117073183287197696/img/0eTqyhkeOvZUQcqK.jpg",
-      "published": "2026-11-02T01:57:59Z",
-      "video": "https://video.twimg.com/amplify_video/2117073183287197696/vid/avc1/1920x1080/DEjh9ATdvj8HAIz2.mp4",
-      "author_name": "Philadelphia Eagles",
-      "avatar": "https://pbs.twimg.com/profile_images/2117663165093728256/jGzQUSAp_normal.jpg",
-      "author_verified": true
     },
     {
       "url": "https://www.espn.com/video/clip/_/id/50425348/jordan-love-runs-put-packers-board",

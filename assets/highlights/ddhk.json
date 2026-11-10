@@ -1,8 +1,27 @@
 {
   "team": "ddhk",
-  "updated": "2026-11-09",
+  "updated": "2026-11-10",
   "note": "Curated: X has no public search API, so posts are collected by hand and matched to rosters by this script.",
   "tweets": [
+    {
+      "url": "https://www.espn.com/video/clip/_/id/50429559/cairo-santos-walk-fg-lifts-bears-bucs-snf",
+      "player": "Cairo Santos",
+      "meta": "K \u00b7 CHI",
+      "date": "2026-11-09",
+      "author": "ESPN",
+      "text": "Cairo Santos' walk-off FG lifts Bears over Bucs on SNF. Cairo Santos' walk-off FG lifts Bears over Bucs on SNF  ",
+      "verified": true,
+      "faves": 0,
+      "secs": 0,
+      "espn_game": "401873050",
+      "game_id": "401873050",
+      "game_time": "Q4 0:00",
+      "play_key": "401873050:4018730504405",
+      "played_at": "2026-11-09T04:38:28Z",
+      "poster": "https://espnmedia-cdn.akamaized.net/espn/media/common/2026/1108/46c9cd0b71e04e66a6741fa055620fe41429/46c9cd0b71e04e66a6741fa055620fe41429.jpg",
+      "published": "2026-11-09T04:47:22Z",
+      "video": "https://espnmedia-cdn.akamaized.net/espn/media/16x9/wsc/2026/1109/46c9cd0b-71e0-4e66-a674-1fa055620fe4/46c9cd0b-71e0-4e66-a674-1fa055620fe4.mp4"
+    },
     {
       "url": "https://www.espn.com/video/clip/_/id/50425847/drake-maye-slings-rhamondre-stevenson-td",
       "player": "Rhamondre Stevenson",
@@ -221,46 +240,6 @@
       "poster": "https://espnmedia-cdn.akamaized.net/espn/media/common/wsc/2026/1108/09bec870-df1b-4d51-b32f-8caa83930b89/09bec870-df1b-4d51-b32f-8caa83930b89.jpg",
       "published": "2026-11-08T18:53:36Z",
       "video": "https://espnmedia-cdn.akamaized.net/espn/media/16x9/wsc/2026/1108/09bec870-df1b-4d51-b32f-8caa83930b89/09bec870-df1b-4d51-b32f-8caa83930b89.mp4"
-    },
-    {
-      "url": "https://www.espn.com/video/clip/_/id/50353615/jonah-coleman-punches-go-ahead-td-put-broncos-top",
-      "player": "Jonah Coleman",
-      "meta": "RB \u00b7 DEN",
-      "date": "2026-11-02",
-      "author": "ESPN",
-      "text": "Jonah Coleman punches in go-ahead TD to put Broncos on top",
-      "verified": true,
-      "faves": 0,
-      "secs": 0,
-      "espn_game": "401873033",
-      "game_id": "401873033",
-      "game_time": "Q4 1:56",
-      "play_key": "401873033:4018730334260",
-      "played_at": "2026-11-02T00:24:46Z",
-      "poster": "https://espnmedia-cdn.akamaized.net/espn/media/common/2026/1101/0473bc20fda44862a94a7a974d599b2d1202/0473bc20fda44862a94a7a974d599b2d1202.jpg",
-      "published": "2026-11-02T00:36:14Z",
-      "video": "https://espnmedia-cdn.akamaized.net/espn/media/16x9/wsc/2026/1102/0473bc20-fda4-4862-a94a-7a974d599b2d/0473bc20-fda4-4862-a94a-7a974d599b2d.mp4"
-    },
-    {
-      "url": "https://x.com/MiamiDolphins/status/2117048766712754243",
-      "player": "Malik Willis",
-      "meta": "QB \u00b7 MIA",
-      "date": "2026-11-02",
-      "author": "MiamiDolphins",
-      "text": "Kevin Coleman in the end zone!",
-      "verified": true,
-      "faves": 117,
-      "secs": 6,
-      "game_id": "401873034",
-      "game_time": "Q4 2:04",
-      "play_key": "401873034:4018730344021",
-      "played_at": "2026-11-02T00:17:21Z",
-      "poster": "https://pbs.twimg.com/media/HSrWBNTagAAZ6Hj.jpg",
-      "published": "2026-11-02T00:18:53Z",
-      "video": "https://video.twimg.com/amplify_video/2101726990688768000/vid/avc1/1080x1080/FQP1lcO00kiblVxW.mp4",
-      "author_name": "Miami Dolphins",
-      "avatar": "https://pbs.twimg.com/profile_images/2003476192737857536/3trK5_DF_normal.jpg",
-      "author_verified": true
     }
   ]
 }

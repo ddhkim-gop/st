@@ -1,6 +1,6 @@
 {
   "team": "churlz98",
-  "updated": "2026-11-09",
+  "updated": "2026-11-10",
   "note": "Curated: X has no public search API, so posts are collected by hand and matched to rosters by this script.",
   "tweets": [
     {
@@ -21,7 +21,7 @@
       "published": "2026-11-09T04:36:12Z",
       "video": "https://video.twimg.com/amplify_video/2119650158740746240/vid/avc1/1920x1080/0MDZHSsS4D9x7xrE.mp4",
       "author_name": "Chicago Bears",
-      "avatar": "https://pbs.twimg.com/profile_images/2095215291395665920/hTWEqaly_normal.jpg",
+      "avatar": "",
       "author_verified": true
     },
     {
@@ -225,46 +225,6 @@
       "video": "https://espnmedia-cdn.akamaized.net/espn/media/16x9/wsc/2026/1106/59af00c2-4a10-4d4c-90b8-1788043bc910/59af00c2-4a10-4d4c-90b8-1788043bc910.mp4"
     },
     {
-      "url": "https://www.espn.com/video/clip/_/id/50355078/chig-okonkwo-fired-hauling-one-handed-catch",
-      "player": "Chig Okonkwo",
-      "meta": "TE \u00b7 WAS",
-      "date": "2026-11-02",
-      "author": "ESPN",
-      "text": "Chig Okonkwo's fired up after hauling in one-handed catch",
-      "verified": true,
-      "faves": 0,
-      "secs": 0,
-      "espn_game": "401873035",
-      "game_id": "401873035",
-      "game_time": "Q3 9:20",
-      "play_key": "401873035:4018730352714",
-      "played_at": "2026-11-02T03:21:04Z",
-      "poster": "https://espnmedia-cdn.akamaized.net/espn/media/common/wsc/2026/1102/b1f65b07-9a35-4fc1-8239-99b7938efa1d/b1f65b07-9a35-4fc1-8239-99b7938efa1d.jpg",
-      "published": "2026-11-02T03:33:25Z",
-      "video": "https://espnmedia-cdn.akamaized.net/espn/media/16x9/wsc/2026/1102/b1f65b07-9a35-4fc1-8239-99b7938efa1d/b1f65b07-9a35-4fc1-8239-99b7938efa1d.mp4"
-    },
-    {
-      "url": "https://x.com/NFL/status/2117070258662154620",
-      "player": "Makai Lemon",
-      "meta": "WR \u00b7 PHI",
-      "date": "2026-11-02",
-      "author": "NFL",
-      "text": "Tanner McKee floats it to Makai Lemon for the first down!\n\nPHIvsWAS on NBC/Peacock\nStream on @NFLPlus",
-      "verified": true,
-      "faves": 586,
-      "secs": 11,
-      "game_id": "401873035",
-      "game_time": "Q1 9:40",
-      "play_key": "401873035:401873035554",
-      "played_at": "2026-11-02T01:42:40Z",
-      "poster": "https://pbs.twimg.com/amplify_video_thumb/2117070037181960192/img/Dwl-2McAQ5Unzg-1.jpg",
-      "published": "2026-11-02T01:44:17Z",
-      "video": "https://video.twimg.com/amplify_video/2117070037181960192/vid/avc1/1920x1080/JC7j9tJ0uVQ0F7ls.mp4",
-      "author_name": "NFL",
-      "avatar": "https://pbs.twimg.com/profile_images/1619895559334273028/PHKS_mjX_normal.jpg",
-      "author_verified": true
-    },
-    {
       "url": "https://www.espn.com/video/clip/_/id/50427469/cardinals-turn-downs-seal-seahawks-win",
       "player": "Josh Downs",
       "meta": "WR \u00b7 IND",
@@ -293,21 +253,6 @@
       "poster": "https://espnmedia-cdn.akamaized.net/espn/media/common/2026/1108/28b2e2663a1f434cbe09522975aa3c7a1016/28b2e2663a1f434cbe09522975aa3c7a1016.jpg",
       "published": "2026-11-08T21:44:57Z",
       "video": "https://espnmedia-cdn.akamaized.net/espn/media/16x9/wsc/2026/1108/28b2e266-3a1f-434c-be09-522975aa3c7a/28b2e266-3a1f-434c-be09-522975aa3c7a.mp4"
-    },
-    {
-      "url": "https://www.espn.com/video/clip/_/id/50355259/chig-okonkwo-lands-bounds-another-unbelievable-one-handed-grab",
-      "player": "Chig Okonkwo",
-      "meta": "TE \u00b7 WAS",
-      "date": "2026-11-02",
-      "author": "ESPN",
-      "text": "Chig Okonkwo lands out of bounds on another unbelievable one-handed grab",
-      "verified": true,
-      "faves": 0,
-      "secs": 0,
-      "espn_game": "401873035",
-      "poster": "https://espnmedia-cdn.akamaized.net/espn/media/common/wsc/2026/1102/2b57d147-00c4-400a-b723-163f475c0128/2b57d147-00c4-400a-b723-163f475c0128.jpg",
-      "published": "2026-11-02T04:02:30Z",
-      "video": "https://espnmedia-cdn.akamaized.net/espn/media/16x9/wsc/2026/1102/2b57d147-00c4-400a-b723-163f475c0128/2b57d147-00c4-400a-b723-163f475c0128.mp4"
     }
   ]
 }

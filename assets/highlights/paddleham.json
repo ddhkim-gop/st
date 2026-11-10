@@ -1,6 +1,6 @@
 {
   "team": "paddleham",
-  "updated": "2026-11-09",
+  "updated": "2026-11-10",
   "note": "Curated: X has no public search API, so posts are collected by hand and matched to rosters by this script.",
   "tweets": [
     {
@@ -21,7 +21,7 @@
       "published": "2026-11-09T04:36:12Z",
       "video": "https://video.twimg.com/amplify_video/2119650158740746240/vid/avc1/1920x1080/0MDZHSsS4D9x7xrE.mp4",
       "author_name": "Chicago Bears",
-      "avatar": "https://pbs.twimg.com/profile_images/2095215291395665920/hTWEqaly_normal.jpg",
+      "avatar": "",
       "author_verified": true
     },
     {
@@ -42,7 +42,7 @@
       "published": "2026-11-09T01:44:20Z",
       "video": "https://video.twimg.com/amplify_video/2119606789150818304/vid/avc1/1920x1080/kjJNb-GZI0JQVqml.mp4",
       "author_name": "Chicago Bears",
-      "avatar": "https://pbs.twimg.com/profile_images/2095215291395665920/hTWEqaly_normal.jpg",
+      "avatar": "",
       "author_verified": true
     },
     {
@@ -104,27 +104,6 @@
       "poster": "https://pbs.twimg.com/amplify_video_thumb/2119569626895990784/img/5p359ZzRjhli63mP.jpg",
       "published": "2026-11-08T23:16:49Z",
       "video": "https://video.twimg.com/amplify_video/2119569626895990784/vid/avc1/1920x1080/OYkXeb_mwYrV6CaK.mp4",
-      "author_name": "NFL",
-      "avatar": "https://pbs.twimg.com/profile_images/1619895559334273028/PHKS_mjX_normal.jpg",
-      "author_verified": true
-    },
-    {
-      "url": "https://x.com/NFL/status/2119560652423307459",
-      "player": "C.J. Stroud",
-      "meta": "QB \u00b7 HOU",
-      "date": "2026-11-08",
-      "author": "NFL",
-      "text": "Stroud with a strike to Kayshon Boutte for the TD!\n\nHOUvsLAC on CBS/Paramount+\nStream on @NFLPlus",
-      "verified": true,
-      "faves": 359,
-      "secs": 14,
-      "game_id": "401873046",
-      "game_time": "Q2 0:31",
-      "play_key": "401873046:4018730462355",
-      "played_at": "2026-11-08T22:38:35Z",
-      "poster": "https://pbs.twimg.com/amplify_video_thumb/2119560424265801729/img/VlOrJUN5RdzD8mQR.jpg",
-      "published": "2026-11-08T22:40:13Z",
-      "video": "https://video.twimg.com/amplify_video/2119560424265801729/vid/avc1/1920x1080/LmP18xBzhboUeCWB.mp4",
       "author_name": "NFL",
       "avatar": "https://pbs.twimg.com/profile_images/1619895559334273028/PHKS_mjX_normal.jpg",
       "author_verified": true
@@ -351,25 +330,6 @@
       "author_name": "Seattle Seahawks",
       "avatar": "https://pbs.twimg.com/profile_images/2115588587932819456/oMk0E9Yr_normal.jpg",
       "author_verified": true
-    },
-    {
-      "url": "https://www.espn.com/video/clip/_/id/50354769/jayden-daniels-fires-dart-stefon-diggs-commanders-td",
-      "player": "Stefon Diggs",
-      "meta": "WR \u00b7 WAS",
-      "date": "2026-11-02",
-      "author": "ESPN",
-      "text": "Jayden Daniels fires a dart to Stefon Diggs for a Commanders TD",
-      "verified": true,
-      "faves": 0,
-      "secs": 0,
-      "espn_game": "401873035",
-      "game_id": "401873035",
-      "game_time": "Q2 4:56",
-      "play_key": "401873035:4018730351699",
-      "played_at": "2026-11-02T02:25:18Z",
-      "poster": "https://espnmedia-cdn.akamaized.net/espn/media/common/2026/1101/28fcc7077c9b4bb3bd9874ab713fc5ac1322/28fcc7077c9b4bb3bd9874ab713fc5ac1322.jpg",
-      "published": "2026-11-02T02:34:07Z",
-      "video": "https://espnmedia-cdn.akamaized.net/espn/media/16x9/wsc/2026/1102/28fcc707-7c9b-4bb3-bd98-74ab713fc5ac/28fcc707-7c9b-4bb3-bd98-74ab713fc5ac.mp4"
     }
   ]
 }
