@@ -348,6 +348,7 @@ https://www.espn.com/video/clip/_/id/50428420/luther-burden-iii-outruns-defense-
 https://www.espn.com/video/clip/_/id/50428908/caleb-williams-throws-third-int-half
 https://www.espn.com/video/clip/_/id/50429559/cairo-santos-walk-fg-lifts-bears-bucs-snf
 https://www.espn.com/video/clip/_/id/50438454/keleki-latu-hauls-first-nfl-td-dime-josh-allen
+https://www.espn.com/video/clip/_/id/50439289/james-cook-iii-cooks-dive-end-zone-bills-td
 https://www.youtube.com/shorts/-A6_wYR6KkA
 https://www.youtube.com/shorts/-F39Ct7vQOc
 https://www.youtube.com/shorts/-Prt969WqGo
@@ -419,7 +420,6 @@ https://www.youtube.com/shorts/OHXxBSvY7pI
 https://www.youtube.com/shorts/Op3GadudgCY
 https://www.youtube.com/shorts/Or5DgCHilFs
 https://www.youtube.com/shorts/PkfQBS4oFHs
-https://www.youtube.com/shorts/PkvPhPCaPo4
 https://www.youtube.com/shorts/QB09mFILQ0Y
 https://www.youtube.com/shorts/QC4kUiEN4tM
 https://www.youtube.com/shorts/QE1q1YaVohw
@@ -593,12 +593,14 @@ https://x.com/Buccaneers/status/2119648748431118821
 https://x.com/BuffaloBills/status/2106830827346706721
 https://x.com/BuffaloBills/status/2106834704028635476
 https://x.com/BuffaloBills/status/2119938562112012396
+https://x.com/BuffaloBills/status/2119984341048537488
+https://x.com/BuffaloBills/status/2120004975103242403
+https://x.com/BuffaloBills/status/2120013199231664304
 https://x.com/ChiSportsTracks/status/2095307339750404405
 https://x.com/ChicagoBears/status/2106801196447019476
 https://x.com/ChicagoBears/status/2106812813222011267
 https://x.com/ChicagoBears/status/2117454133448044738
 https://x.com/ChicagoBears/status/2117455480151007738
-https://x.com/ChicagoBears/status/2117464999551754469
 https://x.com/ChicagoBears/status/2119606987453317167
 https://x.com/ChicagoBears/status/2119650238877028825
 https://x.com/Chiefs/status/2106851118496006565
@@ -606,8 +608,6 @@ https://x.com/Chiefs/status/2119473339781783577
 https://x.com/Colts/status/2106756950566355249
 https://x.com/Colts/status/2106766647734292611
 https://x.com/Colts/status/2119496098494496855
-https://x.com/Commanders/status/2117108338693378265
-https://x.com/Commanders/status/2117109214531174856
 https://x.com/DreareaSports/status/2091624681573146837
 https://x.com/Eagles/status/2106808014783066164
 https://x.com/Eagles/status/2106814970218324450
@@ -748,9 +748,6 @@ https://x.com/NFL/status/2108391133898305792
 https://x.com/NFL/status/2108391656336552296
 https://x.com/NFL/status/2108396520860966930
 https://x.com/NFL/status/2108402594401906716
-https://x.com/NFL/status/2117108283437899921
-https://x.com/NFL/status/2117109272349982825
-https://x.com/NFL/status/2117116513018847716
 https://x.com/NFL/status/2117443019767267829
 https://x.com/NFL/status/2117455429139837073
 https://x.com/NFL/status/2117462399058141279
@@ -838,6 +835,9 @@ https://x.com/NFL/status/2119961160825065828
 https://x.com/NFL/status/2119985275384602814
 https://x.com/NFL/status/2119992250507948160
 https://x.com/NFL/status/2119993566676357475
+https://x.com/NFL/status/2120001488936448336
+https://x.com/NFL/status/2120004918610366839
+https://x.com/NFL/status/2120013861625724936
 https://x.com/NFLTDsVideos/status/2098243863588540602
 https://x.com/NFLTDsVideos/status/2099189736858419294
 https://x.com/NFLTDsVideos/status/2099201418368262610
