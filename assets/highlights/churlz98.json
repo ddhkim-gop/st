@@ -1,6 +1,6 @@
 {
   "team": "churlz98",
-  "updated": "2026-11-10",
+  "updated": "2026-11-11",
   "note": "Curated: X has no public search API, so posts are collected by hand and matched to rosters by this script.",
   "tweets": [
     {
@@ -227,7 +227,7 @@
     {
       "url": "https://www.espn.com/video/clip/_/id/50427469/cardinals-turn-downs-seal-seahawks-win",
       "player": "Josh Downs",
-      "meta": "WR \u00b7 IND",
+      "meta": "WR \u00b7 KC",
       "date": "2026-11-09",
       "author": "ESPN",
       "text": "Cardinals turn it over on downs to seal Seahawks' win",
@@ -259,7 +259,7 @@
     {
       "url": "https://www.espn.com/video/clip/_/id/50425242/caleb-downs-seals-cowboys-win-pivotal-int",
       "player": "Josh Downs",
-      "meta": "WR \u00b7 IND",
+      "meta": "WR \u00b7 KC",
       "date": "2026-11-08",
       "author": "ESPN",
       "text": "Caleb Downs seals Cowboys win with pivotal INT",

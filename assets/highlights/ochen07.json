@@ -1,6 +1,6 @@
 {
   "team": "ochen07",
-  "updated": "2026-11-10",
+  "updated": "2026-11-11",
   "note": "Curated: X has no public search API, so posts are collected by hand and matched to rosters by this script.",
   "tweets": [
     {
@@ -328,44 +328,6 @@
       "video": "https://espnmedia-cdn.akamaized.net/espn/media/16x9/wsc/2026/1106/3d249c72-1284-47d1-a4b1-8c6266fa8782/3d249c72-1284-47d1-a4b1-8c6266fa8782.mp4"
     },
     {
-      "url": "https://www.espn.com/video/clip/_/id/50364750/darnold-kupp-td-2-point-conversion-pull-seahawks-closer",
-      "player": "Cooper Kupp & Sam Darnold",
-      "meta": "WR \u00b7 SEA",
-      "date": "2026-11-03",
-      "author": "ESPN",
-      "text": "Darnold-Kupp TD, 2-point conversion pull Seahawks closer. Darnold-Kupp TD, 2-point conversion pull Seahawks closer ",
-      "verified": true,
-      "faves": 0,
-      "secs": 0,
-      "espn_game": "401873036",
-      "game_id": "401873036",
-      "game_time": "Q4 11:46",
-      "play_key": "401873036:4018730363231",
-      "played_at": "2026-11-03T03:41:17Z",
-      "poster": "https://espnmedia-cdn.akamaized.net/espn/media/common/2026/1102/581a3db43f8d4685b3f6079753b43f9c1381/581a3db43f8d4685b3f6079753b43f9c1381.jpg",
-      "published": "2026-11-03T03:51:35Z",
-      "video": "https://espnmedia-cdn.akamaized.net/espn/media/16x9/wsc/2026/1103/581a3db4-3f8d-4685-b3f6-079753b43f9c/581a3db4-3f8d-4685-b3f6-079753b43f9c.mp4"
-    },
-    {
-      "url": "https://www.espn.com/video/clip/_/id/50363885/sam-darnold-launches-beauty-wide-open-jsn-seahawks-td",
-      "player": "Sam Darnold",
-      "meta": "QB \u00b7 SEA",
-      "date": "2026-11-03",
-      "author": "ESPN",
-      "text": "Sam Darnold launches a beauty to a wide-open JSN for a Seahawks TD",
-      "verified": true,
-      "faves": 0,
-      "secs": 0,
-      "espn_game": "401873036",
-      "game_id": "401873036",
-      "game_time": "Q2 0:30",
-      "play_key": "401873036:4018730361939",
-      "played_at": "2026-11-03T02:35:59Z",
-      "poster": "https://espnmedia-cdn.akamaized.net/espn/media/common/wsc/2026/1103/b5ed609e-d5b2-4055-a9ce-a689b046ba71/b5ed609e-d5b2-4055-a9ce-a689b046ba71.jpg",
-      "published": "2026-11-03T02:52:24Z",
-      "video": "https://espnmedia-cdn.akamaized.net/espn/media/16x9/wsc/2026/1103/b5ed609e-d5b2-4055-a9ce-a689b046ba71/b5ed609e-d5b2-4055-a9ce-a689b046ba71.mp4"
-    },
-    {
       "url": "https://www.espn.com/video/clip/_/id/50425259/christian-mccaffrey-strikes-first-49ers",
       "player": "Christian McCaffrey",
       "meta": "RB \u00b7 SF",
@@ -379,40 +341,6 @@
       "poster": "https://espnmedia-cdn.akamaized.net/espn/media/common/2026/1108/9d9d0ff5794146c6982d14518818025d1012/9d9d0ff5794146c6982d14518818025d1012.jpg",
       "published": "2026-11-08T21:48:31Z",
       "video": "https://espnmedia-cdn.akamaized.net/espn/media/16x9/wsc/2026/1108/9d9d0ff5-7941-46c6-982d-14518818025d/9d9d0ff5-7941-46c6-982d-14518818025d.mp4"
-    },
-    {
-      "url": "https://x.com/NFL/status/2117443019767267829",
-      "player": "Rome Odunze",
-      "meta": "WR \u00b7 CHI",
-      "date": "2026-11-03",
-      "author": "NFL",
-      "text": "Odunze catches another big one. Caleb starting to cook.\n\nBears on the move to end the half.\n\nCHIvsSEA on ESPN\nStream on @NFLPlus",
-      "verified": false,
-      "faves": 831,
-      "secs": 6,
-      "poster": "https://pbs.twimg.com/amplify_video_thumb/2117442607588704256/img/eOTZjJQIxWtFPSb7.jpg",
-      "published": "2026-11-03T02:25:30Z",
-      "video": "https://video.twimg.com/amplify_video/2117442607588704256/vid/avc1/1920x1080/lYJq_J0ZghIqIVCk.mp4",
-      "author_name": "NFL",
-      "avatar": "https://pbs.twimg.com/profile_images/1619895559334273028/PHKS_mjX_normal.jpg",
-      "author_verified": true
-    },
-    {
-      "url": "https://x.com/NFL/status/2117462720207597939",
-      "player": "Sam Darnold",
-      "meta": "QB \u00b7 SEA",
-      "date": "2026-11-03",
-      "author": "NFL",
-      "text": "Darnold dime to Horton for two and this is a THREE POINT GAME.\n\nCHIvsSEA on ESPN\nStream on @NFLPlus",
-      "verified": false,
-      "faves": 565,
-      "secs": 11,
-      "poster": "https://pbs.twimg.com/amplify_video_thumb/2117462524786622465/img/NGmDUxA1hBLAssqv.jpg",
-      "published": "2026-11-03T03:43:47Z",
-      "video": "https://video.twimg.com/amplify_video/2117462524786622465/vid/avc1/1920x1080/ZHhHGPqijSiMv16v.mp4",
-      "author_name": "NFL",
-      "avatar": "https://pbs.twimg.com/profile_images/1619895559334273028/PHKS_mjX_normal.jpg",
-      "author_verified": true
     }
   ]
 }

@@ -1,6 +1,6 @@
 {
   "team": "edelgreco30",
-  "updated": "2026-11-10",
+  "updated": "2026-11-11",
   "note": "Curated: X has no public search API, so posts are collected by hand and matched to rosters by this script.",
   "tweets": [
     {
@@ -185,44 +185,6 @@
       "author_verified": true
     },
     {
-      "url": "https://www.espn.com/video/clip/_/id/50365027/dandre-swift-breaks-plane-3rd-td",
-      "player": "D'Andre Swift",
-      "meta": "RB \u00b7 CHI",
-      "date": "2026-11-03",
-      "author": "ESPN",
-      "text": "D'Andre Swift breaks the plane for his 3rd TD",
-      "verified": true,
-      "faves": 0,
-      "secs": 0,
-      "espn_game": "401873036",
-      "game_id": "401873036",
-      "game_time": "Q4 4:41",
-      "play_key": "401873036:4018730363824",
-      "played_at": "2026-11-03T04:07:08Z",
-      "poster": "https://espnmedia-cdn.akamaized.net/espn/media/common/2026/1102/098f4ef3008c4883aec15d49fd46f0e31405/098f4ef3008c4883aec15d49fd46f0e31405.jpg",
-      "published": "2026-11-03T04:17:21Z",
-      "video": "https://espnmedia-cdn.akamaized.net/espn/media/16x9/wsc/2026/1103/098f4ef3-008c-4883-aec1-5d49fd46f0e3/098f4ef3-008c-4883-aec1-5d49fd46f0e3.mp4"
-    },
-    {
-      "url": "https://www.espn.com/video/clip/_/id/50364968/dandre-swift-finds-corner-2nd-td-game",
-      "player": "D'Andre Swift",
-      "meta": "RB \u00b7 CHI",
-      "date": "2026-11-03",
-      "author": "ESPN",
-      "text": "D'Andre Swift finds the corner for his 2nd TD of the game",
-      "verified": true,
-      "faves": 0,
-      "secs": 0,
-      "espn_game": "401873036",
-      "game_id": "401873036",
-      "game_time": "Q4 8:28",
-      "play_key": "401873036:4018730363468",
-      "played_at": "2026-11-03T03:52:20Z",
-      "poster": "https://espnmedia-cdn.akamaized.net/espn/media/common/2026/1102/bbe99ef23a744e7abebef4124f3ff99e1402/bbe99ef23a744e7abebef4124f3ff99e1402.jpg",
-      "published": "2026-11-03T04:12:06Z",
-      "video": "https://espnmedia-cdn.akamaized.net/espn/media/16x9/wsc/2026/1103/bbe99ef2-3a74-4e7a-bebe-f4124f3ff99e/bbe99ef2-3a74-4e7a-bebe-f4124f3ff99e.mp4"
-    },
-    {
       "url": "https://www.youtube.com/shorts/_g95yeEd7C8",
       "player": "Kayshon Boutte",
       "meta": "WR \u00b7 HOU",
@@ -267,23 +229,6 @@
       "poster": "https://pbs.twimg.com/amplify_video_thumb/2119580198391693312/img/kUCFNGjk2L2vQVAu.jpg",
       "published": "2026-11-08T23:58:19Z",
       "video": "https://video.twimg.com/amplify_video/2119580198391693312/vid/avc1/1920x1080/fY03DjGC9zbQsFwE.mp4",
-      "author_name": "NFL",
-      "avatar": "https://pbs.twimg.com/profile_images/1619895559334273028/PHKS_mjX_normal.jpg",
-      "author_verified": true
-    },
-    {
-      "url": "https://x.com/NFL/status/2117455429139837073",
-      "player": "D'Andre Swift",
-      "meta": "RB \u00b7 CHI",
-      "date": "2026-11-03",
-      "author": "NFL",
-      "text": "Swift is IN and Chicago opens the scoring in the 2nd half.\n\nCHIvsSEA on ESPN\nStream on @NFLPlus",
-      "verified": false,
-      "faves": 638,
-      "secs": 12,
-      "poster": "https://pbs.twimg.com/amplify_video_thumb/2117455251758579712/img/WM06cPJuWRI3aUbc.jpg",
-      "published": "2026-11-03T03:14:49Z",
-      "video": "https://video.twimg.com/amplify_video/2117455251758579712/vid/avc1/1920x1080/qEHg48WdLdUx2QRh.mp4",
       "author_name": "NFL",
       "avatar": "https://pbs.twimg.com/profile_images/1619895559334273028/PHKS_mjX_normal.jpg",
       "author_verified": true

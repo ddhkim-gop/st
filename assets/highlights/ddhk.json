@@ -1,6 +1,6 @@
 {
   "team": "ddhk",
-  "updated": "2026-11-10",
+  "updated": "2026-11-11",
   "note": "Curated: X has no public search API, so posts are collected by hand and matched to rosters by this script.",
   "tweets": [
     {
@@ -341,6 +341,21 @@
       "poster": "https://espnmedia-cdn.akamaized.net/espn/media/common/wsc/2026/1108/09bec870-df1b-4d51-b32f-8caa83930b89/09bec870-df1b-4d51-b32f-8caa83930b89.jpg",
       "published": "2026-11-08T18:53:36Z",
       "video": "https://espnmedia-cdn.akamaized.net/espn/media/16x9/wsc/2026/1108/09bec870-df1b-4d51-b32f-8caa83930b89/09bec870-df1b-4d51-b32f-8caa83930b89.mp4"
+    },
+    {
+      "url": "https://www.espn.com/video/clip/_/id/50439406/josh-allen-bills-outlast-vikings-23-6-mnf",
+      "player": "Josh Allen",
+      "meta": "QB \u00b7 BUF",
+      "date": "2026-11-10",
+      "author": "ESPN",
+      "text": "Josh Allen, Bills outlast Vikings 23-6 on MNF",
+      "verified": true,
+      "faves": 0,
+      "secs": 0,
+      "espn_game": "401873051",
+      "poster": "https://espnmedia-cdn.akamaized.net/espn/media/common/2026/1110/5ce99b5aa87e4f47b74b320ecaf4f8e70/5ce99b5aa87e4f47b74b320ecaf4f8e70.jpg",
+      "published": "2026-11-10T04:28:39Z",
+      "video": "https://espnmedia-cdn.akamaized.net/espn/media/16x9/wsc/2026/1110/5ce99b5a-a87e-4f47-b74b-320ecaf4f8e7/5ce99b5a-a87e-4f47-b74b-320ecaf4f8e7.mp4"
     }
   ]
 }

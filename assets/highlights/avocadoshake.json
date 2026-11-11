@@ -1,6 +1,6 @@
 {
   "team": "avocadoshake",
-  "updated": "2026-11-10",
+  "updated": "2026-11-11",
   "note": "Curated: X has no public search API, so posts are collected by hand and matched to rosters by this script.",
   "tweets": [
     {
@@ -128,7 +128,7 @@
     {
       "url": "https://www.espn.com/video/clip/_/id/50425785/kirk-cousins-plows-end-zone-raiders",
       "player": "Kirk Cousins",
-      "meta": "QB \u00b7 LV",
+      "meta": "QB \u00b7 MIN",
       "date": "2026-11-08",
       "author": "ESPN",
       "text": "Live on FOX: Kirk Cousins plows into the end zone for Raiders. Live on FOX: Kirk Cousins plows into the end zone for Raiders ",
@@ -280,25 +280,6 @@
       "poster": "https://espnmedia-cdn.akamaized.net/espn/media/common/2026/1105/7b74a7e2ca70462cb41a37fcda4e6b4c1401/7b74a7e2ca70462cb41a37fcda4e6b4c1401.jpg",
       "published": "2026-11-06T02:37:15Z",
       "video": "https://espnmedia-cdn.akamaized.net/espn/media/16x9/wsc/2026/1106/7b74a7e2-ca70-462c-b41a-37fcda4e6b4c/7b74a7e2-ca70-462c-b41a-37fcda4e6b4c.mp4"
-    },
-    {
-      "url": "https://www.espn.com/video/clip/_/id/50362941/caleb-williams-fires-dart-luther-burden-iii-bears-td",
-      "player": "Luther Burden III",
-      "meta": "WR \u00b7 CHI",
-      "date": "2026-11-03",
-      "author": "ESPN",
-      "text": "Caleb Williams fires a dart to Luther Burden III for a Bears TD",
-      "verified": true,
-      "faves": 0,
-      "secs": 0,
-      "espn_game": "401873036",
-      "game_id": "401873036",
-      "game_time": "Q1 5:25",
-      "play_key": "401873036:401873036542",
-      "played_at": "2026-11-03T01:30:21Z",
-      "poster": "https://espnmedia-cdn.akamaized.net/espn/media/common/2026/1102/035a5e076b854830b733e7419e4faab41242/035a5e076b854830b733e7419e4faab41242.jpg",
-      "published": "2026-11-03T01:39:04Z",
-      "video": "https://espnmedia-cdn.akamaized.net/espn/media/16x9/wsc/2026/1103/035a5e07-6b85-4830-b733-e7419e4faab4/035a5e07-6b85-4830-b733-e7419e4faab4.mp4"
     },
     {
       "url": "https://www.espn.com/video/clip/_/id/50424271/caleb-douglas-drops-easy-first-catch-dolphins",
