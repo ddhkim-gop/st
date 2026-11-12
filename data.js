@@ -14009,7 +14009,7 @@ window.__STATIC_DATA__ = {
         {
           "name": "Harrison Mevis",
           "position": "K",
-          "team": null
+          "team": "BAL"
         }
       ],
       "faab": 0,
