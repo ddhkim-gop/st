@@ -1,6 +1,6 @@
 {
   "team": "churlz98",
-  "updated": "2026-11-11",
+  "updated": "2026-11-12",
   "note": "Curated: X has no public search API, so posts are collected by hand and matched to rosters by this script.",
   "tweets": [
     {
@@ -168,23 +168,25 @@
       "video": "https://espnmedia-cdn.akamaized.net/espn/media/16x9/wsc/2026/1108/b228c294-ee6b-4d23-85fd-432499bb06f5/b228c294-ee6b-4d23-85fd-432499bb06f5.mp4"
     },
     {
-      "url": "https://www.espn.com/video/clip/_/id/50422575/bo-nix-fires-td-pass-courtland-sutton",
+      "url": "https://x.com/Broncos/status/2119498204760645896",
       "player": "Bo Nix",
       "meta": "QB \u00b7 DEN",
       "date": "2026-11-08",
-      "author": "ESPN",
-      "text": "Bo Nix fires a TD pass to Courtland Sutton",
+      "author": "Broncos",
+      "text": "ALL RISE! \n\n\ud83d\udcfa: CBS",
       "verified": true,
-      "faves": 0,
-      "secs": 0,
-      "espn_game": "401873041",
+      "faves": 869,
+      "secs": 12,
       "game_id": "401873041",
       "game_time": "Q1 1:23",
       "play_key": "401873041:401873041850",
       "played_at": "2026-11-08T18:30:59Z",
-      "poster": "https://espnmedia-cdn.akamaized.net/espn/media/common/wsc/2026/1108/9360c8cb-32b8-42a0-a4fd-3391298256ee/9360c8cb-32b8-42a0-a4fd-3391298256ee.jpg",
-      "published": "2026-11-08T18:38:56Z",
-      "video": "https://espnmedia-cdn.akamaized.net/espn/media/16x9/wsc/2026/1108/9360c8cb-32b8-42a0-a4fd-3391298256ee/9360c8cb-32b8-42a0-a4fd-3391298256ee.mp4"
+      "poster": "https://pbs.twimg.com/amplify_video_thumb/2119498041656750080/img/MgTGPKjNl_gfPcsm.jpg",
+      "published": "2026-11-08T18:32:05Z",
+      "video": "https://video.twimg.com/amplify_video/2119498041656750080/vid/avc1/1920x1080/qJfy_dgejxK6J-y-.mp4",
+      "author_name": "Denver Broncos",
+      "avatar": "",
+      "author_verified": true
     },
     {
       "url": "https://www.espn.com/video/clip/_/id/50421099/bijan-robinson-goes-untouched-falcons-td",

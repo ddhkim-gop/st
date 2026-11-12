@@ -1,6 +1,6 @@
 {
   "team": "ddhk",
-  "updated": "2026-11-11",
+  "updated": "2026-11-12",
   "note": "Curated: X has no public search API, so posts are collected by hand and matched to rosters by this script.",
   "tweets": [
     {
@@ -105,25 +105,6 @@
       "video": "https://espnmedia-cdn.akamaized.net/espn/media/16x9/wsc/2026/1110/233afea7-a833-40ae-a846-f644b0708c08/233afea7-a833-40ae-a846-f644b0708c08.mp4"
     },
     {
-      "url": "https://www.espn.com/video/clip/_/id/50429559/cairo-santos-walk-fg-lifts-bears-bucs-snf",
-      "player": "Cairo Santos",
-      "meta": "K \u00b7 CHI",
-      "date": "2026-11-09",
-      "author": "ESPN",
-      "text": "Cairo Santos' walk-off FG lifts Bears over Bucs on SNF. Cairo Santos' walk-off FG lifts Bears over Bucs on SNF  ",
-      "verified": true,
-      "faves": 0,
-      "secs": 0,
-      "espn_game": "401873050",
-      "game_id": "401873050",
-      "game_time": "Q4 0:00",
-      "play_key": "401873050:4018730504405",
-      "played_at": "2026-11-09T04:38:28Z",
-      "poster": "https://espnmedia-cdn.akamaized.net/espn/media/common/2026/1108/46c9cd0b71e04e66a6741fa055620fe41429/46c9cd0b71e04e66a6741fa055620fe41429.jpg",
-      "published": "2026-11-09T04:47:22Z",
-      "video": "https://espnmedia-cdn.akamaized.net/espn/media/16x9/wsc/2026/1109/46c9cd0b-71e0-4e66-a674-1fa055620fe4/46c9cd0b-71e0-4e66-a674-1fa055620fe4.mp4"
-    },
-    {
       "url": "https://www.espn.com/video/clip/_/id/50425847/drake-maye-slings-rhamondre-stevenson-td",
       "player": "Rhamondre Stevenson",
       "meta": "RB \u00b7 NE",
@@ -203,6 +184,48 @@
       "video": "https://video.twimg.com/amplify_video/2119534733566574592/vid/avc1/1920x1080/oIly5yZUarqmvc12.mp4",
       "author_name": "NFL",
       "avatar": "https://pbs.twimg.com/profile_images/1619895559334273028/PHKS_mjX_normal.jpg",
+      "author_verified": true
+    },
+    {
+      "url": "https://x.com/NFL/status/2119531372582687172",
+      "player": "Pat Bryant",
+      "meta": "WR \u00b7 DEN",
+      "date": "2026-11-08",
+      "author": "NFL",
+      "text": "Bo Nix's 2nd TD pass of the game goes to Pat Bryant!\n\nDENvsCAR on CBS/Paramount+\nStream on @NFLPlus",
+      "verified": true,
+      "faves": 486,
+      "secs": 12,
+      "game_id": "401873041",
+      "game_time": "Q4 5:41",
+      "play_key": "401873041:4018730413940",
+      "played_at": "2026-11-08T20:42:23Z",
+      "poster": "https://pbs.twimg.com/amplify_video_thumb/2119531264982003712/img/i9Pq-9UYYjAc-eyp.jpg",
+      "published": "2026-11-08T20:43:52Z",
+      "video": "https://video.twimg.com/amplify_video/2119531264982003712/vid/avc1/1920x1080/9QV1jDuD1b07K8c8.mp4",
+      "author_name": "NFL",
+      "avatar": "https://pbs.twimg.com/profile_images/1619895559334273028/PHKS_mjX_normal.jpg",
+      "author_verified": true
+    },
+    {
+      "url": "https://x.com/Saints/status/2119527843910566029",
+      "player": "Jordyn Tyson",
+      "meta": "WR \u00b7 NO",
+      "date": "2026-11-08",
+      "author": "Saints",
+      "text": "Jordyn Tyson first down \u27a1\ufe0f\n\n\ud83d\udcfa: CBS",
+      "verified": true,
+      "faves": 335,
+      "secs": 4,
+      "game_id": "401873039",
+      "game_time": "Q4 8:42",
+      "play_key": "401873039:4018730393342",
+      "played_at": "2026-11-08T20:30:24Z",
+      "poster": "https://pbs.twimg.com/amplify_video_thumb/2119527625563467776/img/w3dbt5eHsbuEJRRF.jpg",
+      "published": "2026-11-08T20:29:51Z",
+      "video": "https://video.twimg.com/amplify_video/2119527625563467776/vid/avc1/1920x1080/-g9BP54I2IiotxI5.mp4",
+      "author_name": "New Orleans Saints",
+      "avatar": "https://pbs.twimg.com/profile_images/2056742674477035520/4azt0iTz_normal.jpg",
       "author_verified": true
     },
     {

@@ -1,6 +1,6 @@
 {
   "team": "rat444",
-  "updated": "2026-11-11",
+  "updated": "2026-11-12",
   "note": "Curated: X has no public search API, so posts are collected by hand and matched to rosters by this script.",
   "tweets": [
     {
@@ -21,7 +21,7 @@
       "published": "2026-11-09T03:41:54Z",
       "video": "https://video.twimg.com/amplify_video/2101691204832313344/vid/avc1/1080x1350/yRKswrH1BTwrSk5C.mp4",
       "author_name": "Tampa Bay Buccaneers",
-      "avatar": "https://pbs.twimg.com/profile_images/2037618478622887936/e0YeskTe_normal.png",
+      "avatar": "",
       "author_verified": true
     },
     {

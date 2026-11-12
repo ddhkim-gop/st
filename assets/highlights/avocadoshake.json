@@ -1,6 +1,6 @@
 {
   "team": "avocadoshake",
-  "updated": "2026-11-11",
+  "updated": "2026-11-12",
   "note": "Curated: X has no public search API, so posts are collected by hand and matched to rosters by this script.",
   "tweets": [
     {
@@ -21,7 +21,7 @@
       "published": "2026-11-09T04:30:17Z",
       "video": "https://video.twimg.com/amplify_video/2119648399578353664/vid/avc1/1920x1080/8YiJKSagavrldcJQ.mp4",
       "author_name": "Tampa Bay Buccaneers",
-      "avatar": "https://pbs.twimg.com/profile_images/2037618478622887936/e0YeskTe_normal.png",
+      "avatar": "",
       "author_verified": true
     },
     {
@@ -166,6 +166,27 @@
       "author_verified": true
     },
     {
+      "url": "https://x.com/Saints/status/2119535497974317462",
+      "player": "Audric Estime",
+      "meta": "RB \u00b7 NO",
+      "date": "2026-11-08",
+      "author": "Saints",
+      "text": "ESTIME YOU  \u0336D\u0336A\u0336W\u0336G\u0336 SAINT!!!\n\n\ud83d\udcfa: CBS",
+      "verified": true,
+      "faves": 437,
+      "secs": 19,
+      "game_id": "401873039",
+      "game_time": "Q4 0:58",
+      "play_key": "401873039:4018730394054",
+      "played_at": "2026-11-08T20:58:39Z",
+      "poster": "https://pbs.twimg.com/amplify_video_thumb/2119535286350741504/img/qAQRn5fqfMi44cTR.jpg",
+      "published": "2026-11-08T21:00:16Z",
+      "video": "https://video.twimg.com/amplify_video/2119535286350741504/vid/avc1/1920x1080/XU3muBHG6RbMjXjv.mp4",
+      "author_name": "New Orleans Saints",
+      "avatar": "https://pbs.twimg.com/profile_images/2056742674477035520/4azt0iTz_normal.jpg",
+      "author_verified": true
+    },
+    {
       "url": "https://www.espn.com/video/clip/_/id/50423455/jahmyr-gibbs-goes-untouched-lions-td",
       "player": "Jahmyr Gibbs",
       "meta": "RB \u00b7 DET",
@@ -244,25 +265,6 @@
       "author_verified": true
     },
     {
-      "url": "https://www.espn.com/video/clip/_/id/50422494/seth-mcgowan-scores-first-nfl-td",
-      "player": "Seth McGowan",
-      "meta": "RB \u00b7 IND",
-      "date": "2026-11-08",
-      "author": "ESPN",
-      "text": "Live on FOX: Seth McGowan scores his first NFL TD",
-      "verified": true,
-      "faves": 0,
-      "secs": 0,
-      "espn_game": "401873040",
-      "game_id": "401873040",
-      "game_time": "Q1 6:13",
-      "play_key": "401873040:401873040546",
-      "played_at": "2026-11-08T18:22:32Z",
-      "poster": "https://espnmedia-cdn.akamaized.net/espn/media/common/wsc/2026/1108/2d7c7753-0a16-47e2-ab5b-42122af9b5ef/2d7c7753-0a16-47e2-ab5b-42122af9b5ef.jpg",
-      "published": "2026-11-08T18:31:58Z",
-      "video": "https://espnmedia-cdn.akamaized.net/espn/media/16x9/wsc/2026/1108/2d7c7753-0a16-47e2-ab5b-42122af9b5ef/2d7c7753-0a16-47e2-ab5b-42122af9b5ef.mp4"
-    },
-    {
       "url": "https://www.espn.com/video/clip/_/id/50395412/trevor-lawrence-dimes-parker-washington-50-yard-td",
       "player": "Parker Washington",
       "meta": "WR \u00b7 JAX",
@@ -280,6 +282,21 @@
       "poster": "https://espnmedia-cdn.akamaized.net/espn/media/common/2026/1105/7b74a7e2ca70462cb41a37fcda4e6b4c1401/7b74a7e2ca70462cb41a37fcda4e6b4c1401.jpg",
       "published": "2026-11-06T02:37:15Z",
       "video": "https://espnmedia-cdn.akamaized.net/espn/media/16x9/wsc/2026/1106/7b74a7e2-ca70-462c-b41a-37fcda4e6b4c/7b74a7e2-ca70-462c-b41a-37fcda4e6b4c.mp4"
+    },
+    {
+      "url": "https://www.espn.com/video/clip/_/id/50452689/was-right-move-raiders-name-mendoza-qb1-cousins-trade",
+      "player": "Fernando Mendoza",
+      "meta": "QB \u00b7 LV",
+      "date": "2026-11-11",
+      "author": "ESPN",
+      "text": "Was it the right move for the Raiders to name Mendoza QB1 after Cousins trade?",
+      "verified": true,
+      "faves": 0,
+      "secs": 0,
+      "espn_game": "401873062",
+      "poster": "https://espnmedia-cdn.akamaized.net/espn/media/common/2026/1111/ss_20261111_091621528_3736635559/ss_20261111_091621528_3736635559.jpg",
+      "published": "2026-11-11T14:16:20Z",
+      "video": "https://espnmedia-cdn.akamaized.net/espn/media/16x9/2026/1111/ss_20261111_091621528_3736635/ss_20261111_091621528_3736635.mp4"
     },
     {
       "url": "https://www.espn.com/video/clip/_/id/50424271/caleb-douglas-drops-easy-first-catch-dolphins",
