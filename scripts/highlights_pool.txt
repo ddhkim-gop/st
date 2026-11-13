@@ -367,7 +367,6 @@ https://www.youtube.com/shorts/2CCM1b26Ixc
 https://www.youtube.com/shorts/2QvtJzOosng
 https://www.youtube.com/shorts/2yWk5Or6g8A
 https://www.youtube.com/shorts/3VCFtVG2CEo
-https://www.youtube.com/shorts/3rzj4bUKJxs
 https://www.youtube.com/shorts/4E0otX2KT2c
 https://www.youtube.com/shorts/4hmDSAWa56E
 https://www.youtube.com/shorts/5Wv3DSjJ4Xs
@@ -381,7 +380,6 @@ https://www.youtube.com/shorts/970XbXS2Cpg
 https://www.youtube.com/shorts/9vn573j7es4
 https://www.youtube.com/shorts/A0I9UNX3Xj8
 https://www.youtube.com/shorts/A_-hr6hsZeQ
-https://www.youtube.com/shorts/AbbjsXYL-WQ
 https://www.youtube.com/shorts/AfiNMtHuHqI
 https://www.youtube.com/shorts/AuXG593xZjw
 https://www.youtube.com/shorts/B7he1QOI5MU
@@ -392,6 +390,7 @@ https://www.youtube.com/shorts/C9lLKifjf0o
 https://www.youtube.com/shorts/CLdTX8tpmcw
 https://www.youtube.com/shorts/CLsGai-oYRY
 https://www.youtube.com/shorts/ClOknOCcjvU
+https://www.youtube.com/shorts/Cz5B0Stsvd4
 https://www.youtube.com/shorts/D13amsHNxlw
 https://www.youtube.com/shorts/DFLWeJRO7WI
 https://www.youtube.com/shorts/DTZIo_x42RQ
@@ -417,6 +416,7 @@ https://www.youtube.com/shorts/Lv1TaoMUmY4
 https://www.youtube.com/shorts/MBSKbRdfJyE
 https://www.youtube.com/shorts/McdqD9pIOGI
 https://www.youtube.com/shorts/MeJpLJn0Wm4
+https://www.youtube.com/shorts/NK8u3se_i5Q
 https://www.youtube.com/shorts/NZJNGQ3hmuU
 https://www.youtube.com/shorts/NiKchhnHVMI
 https://www.youtube.com/shorts/NkbBqEPpQCs
@@ -495,6 +495,7 @@ https://www.youtube.com/shorts/jl0E4f1vV5Y
 https://www.youtube.com/shorts/jni2l7B4IjQ
 https://www.youtube.com/shorts/kOpGf9e_AIE
 https://www.youtube.com/shorts/kVLAnoLJAtQ
+https://www.youtube.com/shorts/kswxVTD4HR8
 https://www.youtube.com/shorts/lZTGkib6kBc
 https://www.youtube.com/shorts/lgYgXQ-IxcE
 https://www.youtube.com/shorts/llw8Np8WTK8
@@ -530,7 +531,6 @@ https://www.youtube.com/shorts/sBpqq8sBD94
 https://www.youtube.com/shorts/tI0d1QAMh94
 https://www.youtube.com/shorts/tdNoTX11VzU
 https://www.youtube.com/shorts/tmX8nyYlZgQ
-https://www.youtube.com/shorts/uQkLS3gsO_M
 https://www.youtube.com/shorts/uh04PL8s7CM
 https://www.youtube.com/shorts/umn8bfFamfI
 https://www.youtube.com/shorts/umos5ANP2Zg
@@ -829,6 +829,8 @@ https://x.com/NFL/status/2119993566676357475
 https://x.com/NFL/status/2120001488936448336
 https://x.com/NFL/status/2120004918610366839
 https://x.com/NFL/status/2120013861625724936
+https://x.com/NFL/status/2121018663830777932
+https://x.com/NFL/status/2121050308025758182
 https://x.com/NFLTDsVideos/status/2098243863588540602
 https://x.com/NFLTDsVideos/status/2099189736858419294
 https://x.com/NFLTDsVideos/status/2099201418368262610

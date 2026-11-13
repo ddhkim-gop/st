@@ -3948,6 +3948,11 @@
   "published": "2026-11-01T16:24:03Z",
   "youtube": "Cw-yM4u-3xc"
  },
+ "https://www.youtube.com/shorts/Cz5B0Stsvd4": {
+  "poster": "https://i.ytimg.com/vi/Cz5B0Stsvd4/hqdefault.jpg",
+  "published": "2026-11-12T18:46:03Z",
+  "youtube": "Cz5B0Stsvd4"
+ },
  "https://www.youtube.com/shorts/D13amsHNxlw": {
   "poster": "https://i.ytimg.com/vi/D13amsHNxlw/hqdefault.jpg",
   "published": "2026-11-09T16:22:03Z",
@@ -4540,6 +4545,11 @@
   "poster": "https://i.ytimg.com/vi/N0f4AeP4teM/hqdefault.jpg",
   "published": "2026-11-01T17:43:52Z",
   "youtube": "N0f4AeP4teM"
+ },
+ "https://www.youtube.com/shorts/NK8u3se_i5Q": {
+  "poster": "https://i.ytimg.com/vi/NK8u3se_i5Q/hqdefault.jpg",
+  "published": "2026-11-12T18:00:04Z",
+  "youtube": "NK8u3se_i5Q"
  },
  "https://www.youtube.com/shorts/NPD4yst7X-8": {
   "poster": "https://i.ytimg.com/vi/NPD4yst7X-8/hqdefault.jpg",
@@ -5966,6 +5976,11 @@
   "poster": "https://i.ytimg.com/vi/kXiEugPvWJ4/hqdefault.jpg",
   "published": "2026-11-01T23:45:27Z",
   "youtube": "kXiEugPvWJ4"
+ },
+ "https://www.youtube.com/shorts/kswxVTD4HR8": {
+  "poster": "https://i.ytimg.com/vi/kswxVTD4HR8/hqdefault.jpg",
+  "published": "2026-11-12T19:44:12Z",
+  "youtube": "kswxVTD4HR8"
  },
  "https://www.youtube.com/shorts/l7Fbhiq31BE": {
   "game_id": "401872954",
@@ -11491,6 +11506,16 @@
   "poster": "https://pbs.twimg.com/amplify_video_thumb/2120013628174966784/img/zftSVrV0rqcshgkb.jpg",
   "published": "2026-11-10T04:41:07Z",
   "video": "https://video.twimg.com/amplify_video/2120013628174966784/vid/avc1/1080x1920/unTHChVq5qWy5HOQ.mp4"
+ },
+ "https://x.com/NFL/status/2121018663830777932": {
+  "poster": "https://pbs.twimg.com/amplify_video_thumb/2121018567412137984/img/K_k3RKqjDcdPnfII.jpg",
+  "published": "2026-11-12T23:13:50Z",
+  "video": "https://video.twimg.com/amplify_video/2121018567412137984/vid/avc1/1080x1920/pJTdaQlAG6YaTP8m.mp4"
+ },
+ "https://x.com/NFL/status/2121050308025758182": {
+  "poster": "https://pbs.twimg.com/amplify_video_thumb/2121050147547484160/img/NULs9_XhGI9tRAP8.jpg",
+  "published": "2026-11-13T01:19:35Z",
+  "video": "https://video.twimg.com/amplify_video/2121050147547484160/vid/avc1/1920x1080/lDT-D87muwWNEJZG.mp4"
  },
  "https://x.com/NFLBrasil/status/2093514185812431184": {
   "poster": "https://pbs.twimg.com/amplify_video_thumb/2093514163834269696/img/j7GWyppCmf8GOls3.jpg?name=orig",
