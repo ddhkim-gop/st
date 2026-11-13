@@ -6988,21 +6988,6 @@ window.__STATIC_DATA__ = {
           "search_rank": 135
         },
         {
-          "player_id": "11628",
-          "espn_id": null,
-          "name": "Marvin Harrison Jr.",
-          "position": "WR",
-          "team": "HOU",
-          "birth_date": "2002-08-11",
-          "college": "Ohio State",
-          "height": "75",
-          "weight": "220",
-          "years_exp": 2,
-          "status": "Active",
-          "injury_status": "Questionable",
-          "search_rank": 73
-        },
-        {
           "player_id": "11631",
           "espn_id": null,
           "name": "Brian Thomas Jr.",
@@ -7031,21 +7016,6 @@ window.__STATIC_DATA__ = {
           "status": "Active",
           "injury_status": null,
           "search_rank": 132
-        },
-        {
-          "player_id": "12487",
-          "espn_id": null,
-          "name": "Terrance Ferguson",
-          "position": "TE",
-          "team": "LAR",
-          "birth_date": "2003-03-07",
-          "college": "Oregon",
-          "height": "77",
-          "weight": "252",
-          "years_exp": 1,
-          "status": "Inactive",
-          "injury_status": "IR",
-          "search_rank": 141
         },
         {
           "player_id": "12492",
@@ -7183,6 +7153,21 @@ window.__STATIC_DATA__ = {
           "search_rank": 534
         },
         {
+          "player_id": "7042",
+          "espn_id": 3917232,
+          "name": "Tyler Bass",
+          "position": "K",
+          "team": "BUF",
+          "birth_date": "1997-02-14",
+          "college": "Georgia Southern",
+          "height": "70",
+          "weight": "183",
+          "years_exp": 6,
+          "status": "Active",
+          "injury_status": null,
+          "search_rank": 288
+        },
+        {
           "player_id": "7525",
           "espn_id": null,
           "name": "DeVonta Smith",
@@ -7239,7 +7224,7 @@ window.__STATIC_DATA__ = {
           "weight": "227",
           "years_exp": 5,
           "status": "Active",
-          "injury_status": "Doubtful",
+          "injury_status": "Questionable",
           "search_rank": 58
         },
         {
@@ -7323,6 +7308,21 @@ window.__STATIC_DATA__ = {
           "name": "Chicago Bears",
           "position": "DEF",
           "team": "CHI",
+          "birth_date": null,
+          "college": null,
+          "height": null,
+          "weight": null,
+          "years_exp": null,
+          "status": null,
+          "injury_status": null,
+          "search_rank": null
+        },
+        {
+          "player_id": "IND",
+          "espn_id": null,
+          "name": "Indianapolis Colts",
+          "position": "DEF",
+          "team": "IND",
           "birth_date": null,
           "college": null,
           "height": null,
@@ -7705,21 +7705,6 @@ window.__STATIC_DATA__ = {
       "roster_id": 3,
       "players": [
         {
-          "player_id": "10232",
-          "espn_id": null,
-          "name": "Michael Wilson",
-          "position": "WR",
-          "team": "ARI",
-          "birth_date": "2000-02-23",
-          "college": "Stanford",
-          "height": "74",
-          "weight": "213",
-          "years_exp": 3,
-          "status": "Inactive",
-          "injury_status": "IR",
-          "search_rank": 75
-        },
-        {
           "player_id": "10859",
           "espn_id": null,
           "name": "Sam LaPorta",
@@ -7866,7 +7851,7 @@ window.__STATIC_DATA__ = {
           "weight": "215",
           "years_exp": 9,
           "status": "Active",
-          "injury_status": "Questionable",
+          "injury_status": null,
           "search_rank": 119
         },
         {
@@ -8063,6 +8048,21 @@ window.__STATIC_DATA__ = {
           "status": null,
           "injury_status": null,
           "search_rank": null
+        },
+        {
+          "player_id": "NYG",
+          "espn_id": null,
+          "name": "New York Giants",
+          "position": "DEF",
+          "team": "NYG",
+          "birth_date": null,
+          "college": null,
+          "height": null,
+          "weight": null,
+          "years_exp": null,
+          "status": null,
+          "injury_status": null,
+          "search_rank": null
         }
       ]
     },
@@ -8157,7 +8157,7 @@ window.__STATIC_DATA__ = {
           "weight": "217",
           "years_exp": 10,
           "status": "Active",
-          "injury_status": "Questionable",
+          "injury_status": null,
           "search_rank": 62
         },
         {
@@ -8397,7 +8397,7 @@ window.__STATIC_DATA__ = {
           "weight": "191",
           "years_exp": 3,
           "status": "Active",
-          "injury_status": null,
+          "injury_status": "Questionable",
           "search_rank": 148
         },
         {
@@ -8658,7 +8658,7 @@ window.__STATIC_DATA__ = {
           "weight": "193",
           "years_exp": 5,
           "status": "Active",
-          "injury_status": null,
+          "injury_status": "Questionable",
           "search_rank": 203
         },
         {
@@ -9270,7 +9270,7 @@ window.__STATIC_DATA__ = {
           "weight": "253",
           "years_exp": 10,
           "status": "Active",
-          "injury_status": null,
+          "injury_status": "Questionable",
           "search_rank": 652
         },
         {
@@ -9330,7 +9330,7 @@ window.__STATIC_DATA__ = {
           "weight": "209",
           "years_exp": 7,
           "status": "Active",
-          "injury_status": null,
+          "injury_status": "Questionable",
           "search_rank": 63
         },
         {
@@ -9480,7 +9480,7 @@ window.__STATIC_DATA__ = {
           "weight": "216",
           "years_exp": 3,
           "status": "Active",
-          "injury_status": "Out",
+          "injury_status": "IR",
           "search_rank": 4
         },
         {
@@ -9640,6 +9640,21 @@ window.__STATIC_DATA__ = {
           "search_rank": 103
         },
         {
+          "player_id": "12718",
+          "espn_id": null,
+          "name": "Konata Mumpfield",
+          "position": "WR",
+          "team": "LAR",
+          "birth_date": "2002-10-24",
+          "college": "Pittsburgh",
+          "height": "73",
+          "weight": "188",
+          "years_exp": 1,
+          "status": "Active",
+          "injury_status": null,
+          "search_rank": 678
+        },
+        {
           "player_id": "13279",
           "espn_id": null,
           "name": "Carnell Tate",
@@ -9670,6 +9685,21 @@ window.__STATIC_DATA__ = {
           "search_rank": 89
         },
         {
+          "player_id": "1945",
+          "espn_id": 17372,
+          "name": "Chris Boswell",
+          "position": "K",
+          "team": "PIT",
+          "birth_date": "1991-03-16",
+          "college": "Rice",
+          "height": "74",
+          "weight": "185",
+          "years_exp": 12,
+          "status": "Active",
+          "injury_status": null,
+          "search_rank": 151
+        },
+        {
           "player_id": "3214",
           "espn_id": 3046439,
           "name": "Hunter Henry",
@@ -9683,36 +9713,6 @@ window.__STATIC_DATA__ = {
           "status": "Active",
           "injury_status": "Questionable",
           "search_rank": 92
-        },
-        {
-          "player_id": "5849",
-          "espn_id": 3917315,
-          "name": "Kyler Murray",
-          "position": "QB",
-          "team": "MIN",
-          "birth_date": "1997-08-07",
-          "college": "Oklahoma",
-          "height": "70",
-          "weight": "207",
-          "years_exp": 7,
-          "status": "Active",
-          "injury_status": "Doubtful",
-          "search_rank": 89
-        },
-        {
-          "player_id": "6650",
-          "espn_id": 3150744,
-          "name": "Chase McLaughlin",
-          "position": "K",
-          "team": "TB",
-          "birth_date": "1996-04-09",
-          "college": "Illinois",
-          "height": "72",
-          "weight": "190",
-          "years_exp": 7,
-          "status": "Active",
-          "injury_status": null,
-          "search_rank": 199
         },
         {
           "player_id": "6786",
@@ -9758,21 +9758,6 @@ window.__STATIC_DATA__ = {
           "status": "Active",
           "injury_status": null,
           "search_rank": 53
-        },
-        {
-          "player_id": "8154",
-          "espn_id": null,
-          "name": "Brian Robinson Jr.",
-          "position": "RB",
-          "team": "ATL",
-          "birth_date": "1999-03-22",
-          "college": "Alabama",
-          "height": "73",
-          "weight": "225",
-          "years_exp": 4,
-          "status": "Inactive",
-          "injury_status": "IR",
-          "search_rank": 80
         },
         {
           "player_id": "8183",
@@ -9850,11 +9835,26 @@ window.__STATIC_DATA__ = {
           "search_rank": 1
         },
         {
-          "player_id": "PHI",
+          "player_id": "96",
+          "espn_id": 8439,
+          "name": "Aaron Rodgers",
+          "position": "QB",
+          "team": "PIT",
+          "birth_date": "1983-12-02",
+          "college": "California",
+          "height": "74",
+          "weight": "223",
+          "years_exp": 21,
+          "status": "Active",
+          "injury_status": null,
+          "search_rank": 186
+        },
+        {
+          "player_id": "LAR",
           "espn_id": null,
-          "name": "Philadelphia Eagles",
+          "name": "Los Angeles Rams",
           "position": "DEF",
-          "team": "PHI",
+          "team": "LAR",
           "birth_date": null,
           "college": null,
           "height": null,
@@ -10094,6 +10094,202 @@ window.__STATIC_DATA__ = {
     }
   ],
   "transactions": [
+    {
+      "season": "2026",
+      "week": 10,
+      "created": "Nov 12, 2026 • 4:43 PM PT",
+      "transaction_id": "1426768421516759040",
+      "type": "free_agent",
+      "status": "complete",
+      "teams": [
+        "ddhk"
+      ],
+      "added": [
+        {
+          "name": "Indianapolis Colts",
+          "position": "DEF",
+          "team": "IND"
+        }
+      ],
+      "dropped": [
+        {
+          "name": "Marvin Harrison Jr.",
+          "position": "WR",
+          "team": "HOU"
+        }
+      ],
+      "faab": 0,
+      "waiver_bid": 0,
+      "notes": null
+    },
+    {
+      "season": "2026",
+      "week": 10,
+      "created": "Nov 12, 2026 • 4:32 PM PT",
+      "transaction_id": "1426765702433378304",
+      "type": "free_agent",
+      "status": "complete",
+      "teams": [
+        "ochen07"
+      ],
+      "added": [
+        {
+          "name": "New York Giants",
+          "position": "DEF",
+          "team": "NYG"
+        }
+      ],
+      "dropped": [
+        {
+          "name": "Michael Wilson",
+          "position": "WR",
+          "team": "ARI"
+        }
+      ],
+      "faab": 0,
+      "waiver_bid": 0,
+      "notes": null
+    },
+    {
+      "season": "2026",
+      "week": 10,
+      "created": "Nov 12, 2026 • 4:22 PM PT",
+      "transaction_id": "1426763247624663043",
+      "type": "free_agent",
+      "status": "complete",
+      "teams": [
+        "churlz98"
+      ],
+      "added": [
+        {
+          "name": "Los Angeles Rams",
+          "position": "DEF",
+          "team": "LAR"
+        }
+      ],
+      "dropped": [
+        {
+          "name": "Philadelphia Eagles",
+          "position": "DEF",
+          "team": "PHI"
+        }
+      ],
+      "faab": 0,
+      "waiver_bid": 0,
+      "notes": null
+    },
+    {
+      "season": "2026",
+      "week": 10,
+      "created": "Nov 12, 2026 • 4:22 PM PT",
+      "transaction_id": "1426763120688263168",
+      "type": "free_agent",
+      "status": "complete",
+      "teams": [
+        "churlz98"
+      ],
+      "added": [
+        {
+          "name": "Chris Boswell",
+          "position": "K",
+          "team": "PIT"
+        }
+      ],
+      "dropped": [
+        {
+          "name": "Chase McLaughlin",
+          "position": "K",
+          "team": "TB"
+        }
+      ],
+      "faab": 0,
+      "waiver_bid": 0,
+      "notes": null
+    },
+    {
+      "season": "2026",
+      "week": 10,
+      "created": "Nov 12, 2026 • 4:21 PM PT",
+      "transaction_id": "1426762986848014336",
+      "type": "free_agent",
+      "status": "complete",
+      "teams": [
+        "churlz98"
+      ],
+      "added": [
+        {
+          "name": "Konata Mumpfield",
+          "position": "WR",
+          "team": "LAR"
+        }
+      ],
+      "dropped": [
+        {
+          "name": "Brian Robinson Jr.",
+          "position": "RB",
+          "team": "ATL"
+        }
+      ],
+      "faab": 0,
+      "waiver_bid": 0,
+      "notes": null
+    },
+    {
+      "season": "2026",
+      "week": 10,
+      "created": "Nov 12, 2026 • 4:20 PM PT",
+      "transaction_id": "1426762521737465856",
+      "type": "free_agent",
+      "status": "complete",
+      "teams": [
+        "churlz98"
+      ],
+      "added": [
+        {
+          "name": "Aaron Rodgers",
+          "position": "QB",
+          "team": "PIT"
+        }
+      ],
+      "dropped": [
+        {
+          "name": "Kyler Murray",
+          "position": "QB",
+          "team": "MIN"
+        }
+      ],
+      "faab": 0,
+      "waiver_bid": 0,
+      "notes": null
+    },
+    {
+      "season": "2026",
+      "week": 10,
+      "created": "Nov 12, 2026 • 2:29 PM PT",
+      "transaction_id": "1426734776651358226",
+      "type": "free_agent",
+      "status": "complete",
+      "teams": [
+        "ddhk"
+      ],
+      "added": [
+        {
+          "name": "Tyler Bass",
+          "position": "K",
+          "team": "BUF"
+        }
+      ],
+      "dropped": [
+        {
+          "name": "Terrance Ferguson",
+          "position": "TE",
+          "team": "LAR"
+        }
+      ],
+      "faab": 0,
+      "waiver_bid": 0,
+      "notes": null
+    },
     {
       "season": "2026",
       "week": 10,
