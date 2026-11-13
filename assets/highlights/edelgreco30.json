@@ -4,6 +4,27 @@
   "note": "Curated: X has no public search API, so posts are collected by hand and matched to rosters by this script.",
   "tweets": [
     {
+      "url": "https://x.com/Commanders/status/2121068907981160455",
+      "player": "Jayden Daniels",
+      "meta": "QB \u00b7 WAS",
+      "date": "2026-11-13",
+      "author": "Commanders",
+      "text": "COME ONNNNN 82\n\n\ud83d\udcfa\u00a0#WASvsNYG @nflonprime",
+      "verified": true,
+      "faves": 532,
+      "secs": 18,
+      "game_id": "401873052",
+      "game_time": "Q2 0:05",
+      "play_key": "401873052:4018730522023",
+      "played_at": "2026-11-13T02:32:22Z",
+      "poster": "https://pbs.twimg.com/amplify_video_thumb/2121068776338685952/img/VfaOt01ZIOfyVMPi.jpg",
+      "published": "2026-11-13T02:33:29Z",
+      "video": "https://video.twimg.com/amplify_video/2121068776338685952/vid/avc1/1920x1080/PMH1nLQ9Io0P9bCH.mp4",
+      "author_name": "Washington Commanders",
+      "avatar": "https://pbs.twimg.com/profile_images/2043720907617632256/ceXYRByJ_normal.jpg",
+      "author_verified": true
+    },
+    {
       "url": "https://x.com/NFLonFOX/status/2119581026909397363",
       "player": "Trey McBride",
       "meta": "TE \u00b7 ARI",
