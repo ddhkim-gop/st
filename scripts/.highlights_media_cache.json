@@ -3341,6 +3341,11 @@
   "published": "2026-10-07T21:07:17Z",
   "youtube": "3ft0ceIu3e4"
  },
+ "https://www.youtube.com/shorts/3kGaZ1uk5Dk": {
+  "poster": "https://i.ytimg.com/vi/3kGaZ1uk5Dk/hqdefault.jpg",
+  "published": "2026-11-12T15:00:27Z",
+  "youtube": "3kGaZ1uk5Dk"
+ },
  "https://www.youtube.com/shorts/3kGrtRToJs0": {
   "poster": "https://i.ytimg.com/vi/3kGrtRToJs0/hqdefault.jpg",
   "published": "2026-09-23T20:38:53Z",
@@ -7819,6 +7824,15 @@
   "published": "2026-11-13T02:33:29Z",
   "video": "https://video.twimg.com/amplify_video/2121068776338685952/vid/avc1/1920x1080/PMH1nLQ9Io0P9bCH.mp4"
  },
+ "https://x.com/Commanders/status/2121077764753080589": {
+  "game_id": "401873052",
+  "game_time": "Q3 6:56",
+  "play_key": "401873052:4018730522575",
+  "played_at": "2026-11-13T03:06:51Z",
+  "poster": "https://pbs.twimg.com/amplify_video_thumb/2121077464071839747/img/hG0G3FaVyObKTmGG.jpg",
+  "published": "2026-11-13T03:08:41Z",
+  "video": "https://video.twimg.com/amplify_video/2121077464071839747/vid/avc1/1920x1080/MPZSXfZshhX4fDuM.mp4"
+ },
  "https://x.com/CommandersLead/status/2095582297110012226": {
   "poster": "https://pbs.twimg.com/amplify_video_thumb/2095582113433366528/img/hBAN3cgSmR2C0nCS.jpg?name=orig",
   "video": "https://video.twimg.com/amplify_video/2095582113433366528/vid/avc1/1290x724/pIUFUchdSRnG1iY_.mp4?tag=29"
@@ -8027,6 +8041,15 @@
   "poster": "https://pbs.twimg.com/amplify_video_thumb/2121064526200074240/img/f0bTfOBg1dcqdrwP.jpg",
   "published": "2026-11-13T02:17:12Z",
   "video": "https://video.twimg.com/amplify_video/2121064526200074240/vid/avc1/1920x1080/ML9WU0Bd-C7TCl01.mp4"
+ },
+ "https://x.com/Giants/status/2121075916939882687": {
+  "game_id": "401873052",
+  "game_time": "Q3 10:22",
+  "play_key": "401873052:4018730522378",
+  "played_at": "2026-11-13T02:58:57Z",
+  "poster": "https://pbs.twimg.com/amplify_video_thumb/2121075496574185472/img/kkzMOeN3HGBSnqcR.jpg",
+  "published": "2026-11-13T03:01:20Z",
+  "video": "https://video.twimg.com/amplify_video/2121075496574185472/vid/avc1/1920x1080/2DpzJs0PngI1-etB.mp4"
  },
  "https://x.com/GlennMariniWANE/status/2095690941180907962": {
   "poster": "https://pbs.twimg.com/amplify_video_thumb/2095690121387622401/img/a_sulFXxwsJLlZRi.jpg?name=orig",
@@ -11586,6 +11609,38 @@
   "poster": "https://pbs.twimg.com/amplify_video_thumb/2121064412580925440/img/tQ05T02eF9eazY8G.jpg",
   "published": "2026-11-13T02:16:51Z",
   "video": "https://video.twimg.com/amplify_video/2121064412580925440/vid/avc1/1920x1080/PupwtFT2q9eIMNv0.mp4"
+ },
+ "https://x.com/NFL/status/2121075772941348940": {
+  "game_id": "401873052",
+  "game_time": "Q3 10:22",
+  "play_key": "401873052:4018730522378",
+  "played_at": "2026-11-13T02:58:57Z",
+  "poster": "https://pbs.twimg.com/amplify_video_thumb/2121075630825750528/img/o6NCVMlJZ-bcyk4W.jpg",
+  "published": "2026-11-13T03:00:46Z",
+  "video": "https://video.twimg.com/amplify_video/2121075630825750528/vid/avc1/1920x1080/g7sHCDrD7pMqB6JQ.mp4"
+ },
+ "https://x.com/NFL/status/2121077675863461979": {
+  "game_id": "401873052",
+  "game_time": "Q3 6:56",
+  "play_key": "401873052:4018730522575",
+  "played_at": "2026-11-13T03:06:51Z",
+  "poster": "https://pbs.twimg.com/amplify_video_thumb/2121077506346524672/img/swA6JaVYCVZg4bl8.jpg",
+  "published": "2026-11-13T03:08:20Z",
+  "video": "https://video.twimg.com/amplify_video/2121077506346524672/vid/avc1/1920x1080/I0mSSPOSGJULjwat.mp4"
+ },
+ "https://x.com/NFL/status/2121078729128698006": {
+  "poster": "https://pbs.twimg.com/amplify_video_thumb/2121078620693422080/img/dAGDu-FGYxQqaGOw.jpg",
+  "published": "2026-11-13T03:12:31Z",
+  "video": "https://video.twimg.com/amplify_video/2121078620693422080/vid/avc1/1920x1080/8yI1FLn99Ye19edO.mp4"
+ },
+ "https://x.com/NFL/status/2121086110470480085": {
+  "game_id": "401873052",
+  "game_time": "Q4 8:13",
+  "play_key": "401873052:4018730523467",
+  "played_at": "2026-11-13T03:40:29Z",
+  "poster": "https://pbs.twimg.com/amplify_video_thumb/2121085906178416640/img/laT-CQ9tCn-IWuhI.jpg",
+  "published": "2026-11-13T03:41:51Z",
+  "video": "https://video.twimg.com/amplify_video/2121085906178416640/vid/avc1/1920x1080/bTJUNL0KGq5C4qXK.mp4"
  },
  "https://x.com/NFLBrasil/status/2093514185812431184": {
   "poster": "https://pbs.twimg.com/amplify_video_thumb/2093514163834269696/img/j7GWyppCmf8GOls3.jpg?name=orig",
