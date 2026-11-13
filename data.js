@@ -7045,7 +7045,7 @@ window.__STATIC_DATA__ = {
           "years_exp": 1,
           "status": "Active",
           "injury_status": null,
-          "search_rank": 88
+          "search_rank": 87
         },
         {
           "player_id": "13276",
@@ -7285,7 +7285,7 @@ window.__STATIC_DATA__ = {
           "years_exp": 4,
           "status": "Active",
           "injury_status": null,
-          "search_rank": 17
+          "search_rank": 19
         },
         {
           "player_id": "8155",
@@ -7501,7 +7501,7 @@ window.__STATIC_DATA__ = {
           "years_exp": 9,
           "status": "Active",
           "injury_status": null,
-          "search_rank": 40
+          "search_rank": 39
         },
         {
           "player_id": "4217",
@@ -7531,7 +7531,7 @@ window.__STATIC_DATA__ = {
           "years_exp": 8,
           "status": "Inactive",
           "injury_status": "IR",
-          "search_rank": 10
+          "search_rank": 11
         },
         {
           "player_id": "5844",
@@ -7594,6 +7594,21 @@ window.__STATIC_DATA__ = {
           "search_rank": 97
         },
         {
+          "player_id": "8122",
+          "espn_id": null,
+          "name": "Zonovan Knight",
+          "position": "RB",
+          "team": "ARI",
+          "birth_date": "2001-04-11",
+          "college": "NC State",
+          "height": "71",
+          "weight": "210",
+          "years_exp": 4,
+          "status": "Active",
+          "injury_status": "Questionable",
+          "search_rank": 669
+        },
+        {
           "player_id": "8126",
           "espn_id": null,
           "name": "Wan'Dale Robinson",
@@ -7636,7 +7651,7 @@ window.__STATIC_DATA__ = {
           "years_exp": 3,
           "status": "Active",
           "injury_status": null,
-          "search_rank": 5
+          "search_rank": 7
         },
         {
           "player_id": "9501",
@@ -7651,7 +7666,7 @@ window.__STATIC_DATA__ = {
           "years_exp": 3,
           "status": "Active",
           "injury_status": null,
-          "search_rank": 486
+          "search_rank": 485
         },
         {
           "player_id": "9758",
@@ -7666,7 +7681,7 @@ window.__STATIC_DATA__ = {
           "years_exp": 3,
           "status": "Active",
           "injury_status": null,
-          "search_rank": 101
+          "search_rank": 102
         },
         {
           "player_id": "9997",
@@ -7682,21 +7697,6 @@ window.__STATIC_DATA__ = {
           "status": "Active",
           "injury_status": null,
           "search_rank": 40
-        },
-        {
-          "player_id": "NE",
-          "espn_id": null,
-          "name": "New England Patriots",
-          "position": "DEF",
-          "team": "NE",
-          "birth_date": null,
-          "college": null,
-          "height": null,
-          "weight": null,
-          "years_exp": null,
-          "status": null,
-          "injury_status": null,
-          "search_rank": null
         }
       ]
     },
@@ -7882,7 +7882,7 @@ window.__STATIC_DATA__ = {
           "years_exp": 8,
           "status": "Active",
           "injury_status": "Out",
-          "search_rank": 92
+          "search_rank": 93
         },
         {
           "player_id": "4993",
@@ -7897,7 +7897,7 @@ window.__STATIC_DATA__ = {
           "years_exp": 8,
           "status": "Active",
           "injury_status": null,
-          "search_rank": 399
+          "search_rank": 397
         },
         {
           "player_id": "6770",
@@ -8098,7 +8098,7 @@ window.__STATIC_DATA__ = {
           "years_exp": 2,
           "status": "Active",
           "injury_status": null,
-          "search_rank": 22
+          "search_rank": 21
         },
         {
           "player_id": "12514",
@@ -8158,7 +8158,7 @@ window.__STATIC_DATA__ = {
           "years_exp": 10,
           "status": "Active",
           "injury_status": null,
-          "search_rank": 62
+          "search_rank": 61
         },
         {
           "player_id": "3451",
@@ -8464,7 +8464,7 @@ window.__STATIC_DATA__ = {
           "years_exp": 3,
           "status": "Active",
           "injury_status": null,
-          "search_rank": 89
+          "search_rank": 91
         },
         {
           "player_id": "11564",
@@ -8479,7 +8479,7 @@ window.__STATIC_DATA__ = {
           "years_exp": 2,
           "status": "Active",
           "injury_status": null,
-          "search_rank": 10
+          "search_rank": 9
         },
         {
           "player_id": "12518",
@@ -8524,7 +8524,7 @@ window.__STATIC_DATA__ = {
           "years_exp": 0,
           "status": "Active",
           "injury_status": null,
-          "search_rank": 162
+          "search_rank": 161
         },
         {
           "player_id": "1479",
@@ -8830,7 +8830,7 @@ window.__STATIC_DATA__ = {
           "years_exp": 14,
           "status": "Active",
           "injury_status": null,
-          "search_rank": 262
+          "search_rank": 263
         },
         {
           "player_id": "12185",
@@ -8875,7 +8875,7 @@ window.__STATIC_DATA__ = {
           "years_exp": 1,
           "status": "Active",
           "injury_status": null,
-          "search_rank": 449
+          "search_rank": 448
         },
         {
           "player_id": "12512",
@@ -8950,7 +8950,7 @@ window.__STATIC_DATA__ = {
           "years_exp": 0,
           "status": "Active",
           "injury_status": null,
-          "search_rank": 197
+          "search_rank": 199
         },
         {
           "player_id": "13301",
@@ -8980,7 +8980,7 @@ window.__STATIC_DATA__ = {
           "years_exp": 11,
           "status": "Active",
           "injury_status": null,
-          "search_rank": 356
+          "search_rank": 355
         },
         {
           "player_id": "3294",
@@ -9376,7 +9376,7 @@ window.__STATIC_DATA__ = {
           "years_exp": 6,
           "status": "Active",
           "injury_status": null,
-          "search_rank": 11
+          "search_rank": 12
         },
         {
           "player_id": "6804",
@@ -9391,7 +9391,7 @@ window.__STATIC_DATA__ = {
           "years_exp": 6,
           "status": "Active",
           "injury_status": null,
-          "search_rank": 66
+          "search_rank": 67
         },
         {
           "player_id": "7523",
@@ -9406,7 +9406,7 @@ window.__STATIC_DATA__ = {
           "years_exp": 5,
           "status": "Active",
           "injury_status": null,
-          "search_rank": 42
+          "search_rank": 41
         },
         {
           "player_id": "8137",
@@ -9466,7 +9466,7 @@ window.__STATIC_DATA__ = {
           "years_exp": 3,
           "status": "Active",
           "injury_status": null,
-          "search_rank": 130
+          "search_rank": 131
         },
         {
           "player_id": "9493",
@@ -9479,7 +9479,7 @@ window.__STATIC_DATA__ = {
           "height": "74",
           "weight": "216",
           "years_exp": 3,
-          "status": "Active",
+          "status": "Inactive",
           "injury_status": "IR",
           "search_rank": 4
         },
@@ -9547,7 +9547,7 @@ window.__STATIC_DATA__ = {
           "years_exp": 2,
           "status": "Active",
           "injury_status": null,
-          "search_rank": 45
+          "search_rank": 46
         },
         {
           "player_id": "12481",
@@ -9562,7 +9562,7 @@ window.__STATIC_DATA__ = {
           "years_exp": 1,
           "status": "Active",
           "injury_status": null,
-          "search_rank": 36
+          "search_rank": 37
         },
         {
           "player_id": "12489",
@@ -9637,7 +9637,7 @@ window.__STATIC_DATA__ = {
           "years_exp": 1,
           "status": "Active",
           "injury_status": null,
-          "search_rank": 103
+          "search_rank": 104
         },
         {
           "player_id": "12718",
@@ -9682,7 +9682,7 @@ window.__STATIC_DATA__ = {
           "years_exp": 0,
           "status": "Active",
           "injury_status": null,
-          "search_rank": 89
+          "search_rank": 91
         },
         {
           "player_id": "1945",
@@ -9772,7 +9772,7 @@ window.__STATIC_DATA__ = {
           "years_exp": 4,
           "status": "Active",
           "injury_status": null,
-          "search_rank": 56
+          "search_rank": 55
         },
         {
           "player_id": "8210",
@@ -9786,7 +9786,7 @@ window.__STATIC_DATA__ = {
           "weight": "238",
           "years_exp": 4,
           "status": "Active",
-          "injury_status": null,
+          "injury_status": "Questionable",
           "search_rank": 137
         },
         {
@@ -10094,6 +10094,34 @@ window.__STATIC_DATA__ = {
     }
   ],
   "transactions": [
+    {
+      "season": "2026",
+      "week": 10,
+      "created": "Nov 12, 2026 • 10:30 PM PT",
+      "transaction_id": "1426855731545518080",
+      "type": "free_agent",
+      "status": "complete",
+      "teams": [
+        "paddleham"
+      ],
+      "added": [
+        {
+          "name": "Zonovan Knight",
+          "position": "RB",
+          "team": "ARI"
+        }
+      ],
+      "dropped": [
+        {
+          "name": "New England Patriots",
+          "position": "DEF",
+          "team": "NE"
+        }
+      ],
+      "faab": 0,
+      "waiver_bid": 0,
+      "notes": null
+    },
     {
       "season": "2026",
       "week": 10,
