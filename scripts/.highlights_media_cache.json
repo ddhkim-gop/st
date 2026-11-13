@@ -3063,6 +3063,56 @@
   "published": "2026-11-11T14:16:20Z",
   "video": "https://espnmedia-cdn.akamaized.net/espn/media/16x9/2026/1111/ss_20261111_091621528_3736635/ss_20261111_091621528_3736635.mp4"
  },
+ "https://www.espn.com/video/clip/_/id/50467168/cam-skattebo-celebrates-giants-td-backflip": {
+  "espn_game": "401873052",
+  "game_id": "401873052",
+  "game_time": "Q2 2:35",
+  "play_key": "401873052:4018730521686",
+  "played_at": "2026-11-13T02:15:09Z",
+  "poster": "https://espnmedia-cdn.akamaized.net/espn/media/common/2026/1112/713da611db7e4e0f90cadd003012158f1406/713da611db7e4e0f90cadd003012158f1406.jpg",
+  "published": "2026-11-13T02:30:19Z",
+  "video": "https://espnmedia-cdn.akamaized.net/espn/media/16x9/wsc/2026/1113/713da611-db7e-4e0f-90ca-dd003012158f/713da611-db7e-4e0f-90ca-dd003012158f.mp4"
+ },
+ "https://www.espn.com/video/clip/_/id/50467644/giants-celebrate-skattebo-2nd-rushing-td-3-backflips": {
+  "espn_game": "401873052",
+  "game_id": "401873052",
+  "game_time": "Q3 10:22",
+  "play_key": "401873052:4018730522378",
+  "played_at": "2026-11-13T02:58:57Z",
+  "poster": "https://espnmedia-cdn.akamaized.net/espn/media/common/2026/1112/73ac4f48f3284635be1fd4bebea83b011412/73ac4f48f3284635be1fd4bebea83b011412.jpg",
+  "published": "2026-11-13T03:12:19Z",
+  "video": "https://espnmedia-cdn.akamaized.net/espn/media/16x9/wsc/2026/1113/73ac4f48-f328-4635-be1f-d4bebea83b01/73ac4f48-f328-4635-be1f-d4bebea83b01.mp4"
+ },
+ "https://www.espn.com/video/clip/_/id/50467771/antonio-williams-td-helps-commanders-reclaim-lead": {
+  "espn_game": "401873052",
+  "game_id": "401873052",
+  "game_time": "Q3 6:56",
+  "play_key": "401873052:4018730522575",
+  "played_at": "2026-11-13T03:06:51Z",
+  "poster": "https://espnmedia-cdn.akamaized.net/espn/media/common/wsc/2026/1113/7b2cda15-2325-4b3a-aa70-e898358da7db/7b2cda15-2325-4b3a-aa70-e898358da7db.jpg",
+  "published": "2026-11-13T03:20:17Z",
+  "video": "https://espnmedia-cdn.akamaized.net/espn/media/16x9/wsc/2026/1113/7b2cda15-2325-4b3a-aa70-e898358da7db/7b2cda15-2325-4b3a-aa70-e898358da7db.mp4"
+ },
+ "https://www.espn.com/video/clip/_/id/50468168/isaiah-likely-takes-66-yards-house-giants-td": {
+  "espn_game": "401873052",
+  "game_id": "401873052",
+  "game_time": "Q4 8:13",
+  "play_key": "401873052:4018730523467",
+  "played_at": "2026-11-13T03:40:29Z",
+  "poster": "https://espnmedia-cdn.akamaized.net/espn/media/common/2026/1112/eb4b161e7be84a369b601d4f85008af61410/eb4b161e7be84a369b601d4f85008af61410.jpg",
+  "published": "2026-11-13T03:52:28Z",
+  "video": "https://espnmedia-cdn.akamaized.net/espn/media/16x9/wsc/2026/1113/eb4b161e-7be8-4a36-9b60-1d4f85008af6/eb4b161e-7be8-4a36-9b60-1d4f85008af6.mp4"
+ },
+ "https://www.espn.com/video/clip/_/id/50468414/stefon-diggs-stuns-giants-late-go-ahead-td-commanders": {
+  "espn_game": "401873052",
+  "game_id": "401873052",
+  "game_time": "Q4 0:57",
+  "play_key": "401873052:4018730524259",
+  "played_at": "2026-11-13T04:11:00Z",
+  "poster": "https://espnmedia-cdn.akamaized.net/espn/media/common/wsc/2026/1113/439d55db-bebe-489b-b737-8e0094f4105e/439d55db-bebe-489b-b737-8e0094f4105e.jpg",
+  "published": "2026-11-13T04:21:40Z",
+  "video": "https://espnmedia-cdn.akamaized.net/espn/media/16x9/wsc/2026/1113/439d55db-bebe-489b-b737-8e0094f4105e/439d55db-bebe-489b-b737-8e0094f4105e.mp4"
+ },
  "https://www.youtube.com/shorts/-9mLHMkLMRw": {
   "poster": "https://i.ytimg.com/vi/-9mLHMkLMRw/hqdefault.jpg",
   "published": "2026-09-21T18:33:52Z",
@@ -7833,6 +7883,15 @@
   "published": "2026-11-13T03:08:41Z",
   "video": "https://video.twimg.com/amplify_video/2121077464071839747/vid/avc1/1920x1080/MPZSXfZshhX4fDuM.mp4"
  },
+ "https://x.com/Commanders/status/2121093883891503567": {
+  "game_id": "401873052",
+  "game_time": "Q4 0:57",
+  "play_key": "401873052:4018730524259",
+  "played_at": "2026-11-13T04:11:00Z",
+  "poster": "https://pbs.twimg.com/amplify_video_thumb/2121093673513361409/img/18s2SiQZfm2WdHcx.jpg",
+  "published": "2026-11-13T04:12:44Z",
+  "video": "https://video.twimg.com/amplify_video/2121093673513361409/vid/avc1/1920x1080/9nUHNd0QDsl6qwX1.mp4"
+ },
  "https://x.com/CommandersLead/status/2095582297110012226": {
   "poster": "https://pbs.twimg.com/amplify_video_thumb/2095582113433366528/img/hBAN3cgSmR2C0nCS.jpg?name=orig",
   "video": "https://video.twimg.com/amplify_video/2095582113433366528/vid/avc1/1290x724/pIUFUchdSRnG1iY_.mp4?tag=29"
@@ -8050,6 +8109,15 @@
   "poster": "https://pbs.twimg.com/amplify_video_thumb/2121075496574185472/img/kkzMOeN3HGBSnqcR.jpg",
   "published": "2026-11-13T03:01:20Z",
   "video": "https://video.twimg.com/amplify_video/2121075496574185472/vid/avc1/1920x1080/2DpzJs0PngI1-etB.mp4"
+ },
+ "https://x.com/Giants/status/2121086969350348923": {
+  "game_id": "401873052",
+  "game_time": "Q4 8:13",
+  "play_key": "401873052:4018730523467",
+  "played_at": "2026-11-13T03:40:29Z",
+  "poster": "https://pbs.twimg.com/amplify_video_thumb/2121085979050012673/img/RFe-4_PAONRLTDf5.jpg",
+  "published": "2026-11-13T03:45:16Z",
+  "video": "https://video.twimg.com/amplify_video/2121085979050012673/vid/avc1/1920x1080/V2jSYO6wiwJcfzor.mp4"
  },
  "https://x.com/GlennMariniWANE/status/2095690941180907962": {
   "poster": "https://pbs.twimg.com/amplify_video_thumb/2095690121387622401/img/a_sulFXxwsJLlZRi.jpg?name=orig",

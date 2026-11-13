@@ -4,6 +4,25 @@
   "note": "Curated: X has no public search API, so posts are collected by hand and matched to rosters by this script.",
   "tweets": [
     {
+      "url": "https://www.espn.com/video/clip/_/id/50468414/stefon-diggs-stuns-giants-late-go-ahead-td-commanders",
+      "player": "Stefon Diggs",
+      "meta": "WR \u00b7 WAS",
+      "date": "2026-11-13",
+      "author": "ESPN",
+      "text": "Stefon Diggs stuns Giants with late go-ahead TD for Commanders",
+      "verified": true,
+      "faves": 0,
+      "secs": 0,
+      "espn_game": "401873052",
+      "game_id": "401873052",
+      "game_time": "Q4 0:57",
+      "play_key": "401873052:4018730524259",
+      "played_at": "2026-11-13T04:11:00Z",
+      "poster": "https://espnmedia-cdn.akamaized.net/espn/media/common/wsc/2026/1113/439d55db-bebe-489b-b737-8e0094f4105e/439d55db-bebe-489b-b737-8e0094f4105e.jpg",
+      "published": "2026-11-13T04:21:40Z",
+      "video": "https://espnmedia-cdn.akamaized.net/espn/media/16x9/wsc/2026/1113/439d55db-bebe-489b-b737-8e0094f4105e/439d55db-bebe-489b-b737-8e0094f4105e.mp4"
+    },
+    {
       "url": "https://x.com/ChicagoBears/status/2119650238877028825",
       "player": "Caleb Williams",
       "meta": "QB \u00b7 CHI",
