@@ -6988,21 +6988,6 @@ window.__STATIC_DATA__ = {
           "search_rank": 135
         },
         {
-          "player_id": "11631",
-          "espn_id": null,
-          "name": "Brian Thomas Jr.",
-          "position": "WR",
-          "team": "JAX",
-          "birth_date": "2002-10-08",
-          "college": "LSU",
-          "height": "74",
-          "weight": "209",
-          "years_exp": 2,
-          "status": "Active",
-          "injury_status": null,
-          "search_rank": 75
-        },
-        {
           "player_id": "11646",
           "espn_id": null,
           "name": "Jalen Coker",
@@ -7093,6 +7078,21 @@ window.__STATIC_DATA__ = {
           "search_rank": 52
         },
         {
+          "player_id": "13337",
+          "espn_id": null,
+          "name": "Emmett Johnson",
+          "position": "RB",
+          "team": "KC",
+          "birth_date": "2003-10-10",
+          "college": "Nebraska",
+          "height": "71",
+          "weight": "200",
+          "years_exp": 0,
+          "status": "Active",
+          "injury_status": null,
+          "search_rank": 113
+        },
+        {
           "player_id": "13345",
           "espn_id": null,
           "name": "Jonah Coleman",
@@ -7138,21 +7138,6 @@ window.__STATIC_DATA__ = {
           "search_rank": 3
         },
         {
-          "player_id": "6039",
-          "espn_id": 3915411,
-          "name": "Ty Johnson",
-          "position": "RB",
-          "team": "BUF",
-          "birth_date": "1997-09-17",
-          "college": "Maryland",
-          "height": "70",
-          "weight": "210",
-          "years_exp": 7,
-          "status": "Active",
-          "injury_status": null,
-          "search_rank": 534
-        },
-        {
           "player_id": "7042",
           "espn_id": 3917232,
           "name": "Tyler Bass",
@@ -7193,7 +7178,7 @@ window.__STATIC_DATA__ = {
           "height": "70",
           "weight": "215",
           "years_exp": 5,
-          "status": "Inactive",
+          "status": "Active",
           "injury_status": "IR",
           "search_rank": 34
         },
@@ -7284,7 +7269,7 @@ window.__STATIC_DATA__ = {
           "weight": "211",
           "years_exp": 4,
           "status": "Active",
-          "injury_status": "Questionable",
+          "injury_status": "Out",
           "search_rank": 19
         },
         {
@@ -7301,6 +7286,21 @@ window.__STATIC_DATA__ = {
           "status": "Active",
           "injury_status": null,
           "search_rank": 27
+        },
+        {
+          "player_id": "9502",
+          "espn_id": null,
+          "name": "Tank Dell",
+          "position": "WR",
+          "team": "HOU",
+          "birth_date": "1999-10-29",
+          "college": "Houston",
+          "height": "70",
+          "weight": "165",
+          "years_exp": 3,
+          "status": "Active",
+          "injury_status": null,
+          "search_rank": 187
         },
         {
           "player_id": "CHI",
@@ -7575,7 +7575,7 @@ window.__STATIC_DATA__ = {
           "weight": "230",
           "years_exp": 7,
           "status": "Active",
-          "injury_status": "Questionable",
+          "injury_status": "Out",
           "search_rank": 42
         },
         {
@@ -7956,7 +7956,7 @@ window.__STATIC_DATA__ = {
           "weight": "258",
           "years_exp": 5,
           "status": "Active",
-          "injury_status": null,
+          "injury_status": "Questionable",
           "search_rank": 230
         },
         {
@@ -10094,6 +10094,62 @@ window.__STATIC_DATA__ = {
     }
   ],
   "transactions": [
+    {
+      "season": "2026",
+      "week": 10,
+      "created": "Nov 14, 2026 • 8:24 AM PT",
+      "transaction_id": "1427367724664774656",
+      "type": "free_agent",
+      "status": "complete",
+      "teams": [
+        "ddhk"
+      ],
+      "added": [
+        {
+          "name": "Tank Dell",
+          "position": "WR",
+          "team": "HOU"
+        }
+      ],
+      "dropped": [
+        {
+          "name": "Ty Johnson",
+          "position": "RB",
+          "team": "BUF"
+        }
+      ],
+      "faab": 0,
+      "waiver_bid": 0,
+      "notes": null
+    },
+    {
+      "season": "2026",
+      "week": 10,
+      "created": "Nov 14, 2026 • 8:23 AM PT",
+      "transaction_id": "1427367419080347648",
+      "type": "free_agent",
+      "status": "complete",
+      "teams": [
+        "ddhk"
+      ],
+      "added": [
+        {
+          "name": "Emmett Johnson",
+          "position": "RB",
+          "team": "KC"
+        }
+      ],
+      "dropped": [
+        {
+          "name": "Brian Thomas Jr.",
+          "position": "WR",
+          "team": "JAX"
+        }
+      ],
+      "faab": 0,
+      "waiver_bid": 0,
+      "notes": null
+    },
     {
       "season": "2026",
       "week": 10,
