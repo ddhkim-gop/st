@@ -1,6 +1,6 @@
 {
   "team": "paddleham",
-  "updated": "2026-11-13",
+  "updated": "2026-11-14",
   "note": "Curated: X has no public search API, so posts are collected by hand and matched to rosters by this script.",
   "tweets": [
     {
@@ -18,7 +18,7 @@
       "game_time": "Q4 0:57",
       "play_key": "401873052:4018730524259",
       "played_at": "2026-11-13T04:11:00Z",
-      "poster": "https://espnmedia-cdn.akamaized.net/espn/media/common/wsc/2026/1113/439d55db-bebe-489b-b737-8e0094f4105e/439d55db-bebe-489b-b737-8e0094f4105e.jpg",
+      "poster": "https://espnmedia-cdn.akamaized.net/espn/media/common/2026/1112/439d55dbbebe489bb7378e0094f4105e1416/439d55dbbebe489bb7378e0094f4105e1416.jpg",
       "published": "2026-11-13T04:21:40Z",
       "video": "https://espnmedia-cdn.akamaized.net/espn/media/16x9/wsc/2026/1113/439d55db-bebe-489b-b737-8e0094f4105e/439d55db-bebe-489b-b737-8e0094f4105e.mp4"
     },

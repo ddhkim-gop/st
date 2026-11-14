@@ -1,6 +1,6 @@
 {
   "team": "ochen07",
-  "updated": "2026-11-13",
+  "updated": "2026-11-14",
   "note": "Curated: X has no public search API, so posts are collected by hand and matched to rosters by this script.",
   "tweets": [
     {
@@ -307,25 +307,6 @@
       "poster": "https://espnmedia-cdn.akamaized.net/espn/media/common/wsc/2026/1108/e7a76f16-615d-4c7f-bce6-ccce47c3f642/e7a76f16-615d-4c7f-bce6-ccce47c3f642.jpg",
       "published": "2026-11-08T14:50:11Z",
       "video": "https://espnmedia-cdn.akamaized.net/espn/media/16x9/wsc/2026/1108/e7a76f16-615d-4c7f-bce6-ccce47c3f642/e7a76f16-615d-4c7f-bce6-ccce47c3f642.mp4"
-    },
-    {
-      "url": "https://www.espn.com/video/clip/_/id/50394637/bhayshul-tuten-punches-jags-opening-td",
-      "player": "Bhayshul Tuten",
-      "meta": "RB \u00b7 JAX",
-      "date": "2026-11-06",
-      "author": "ESPN",
-      "text": "Bhayshul Tuten punches in Jags' opening TD",
-      "verified": true,
-      "faves": 0,
-      "secs": 0,
-      "espn_game": "401873037",
-      "game_id": "401873037",
-      "game_time": "Q1 11:20",
-      "play_key": "401873037:401873037218",
-      "played_at": "2026-11-06T01:21:45Z",
-      "poster": "https://espnmedia-cdn.akamaized.net/espn/media/common/2026/1105/3d249c72128447d1a4b18c6266fa87821399/3d249c72128447d1a4b18c6266fa87821399.jpg",
-      "published": "2026-11-06T01:33:57Z",
-      "video": "https://espnmedia-cdn.akamaized.net/espn/media/16x9/wsc/2026/1106/3d249c72-1284-47d1-a4b1-8c6266fa8782/3d249c72-1284-47d1-a4b1-8c6266fa8782.mp4"
     },
     {
       "url": "https://www.espn.com/video/clip/_/id/50425259/christian-mccaffrey-strikes-first-49ers",

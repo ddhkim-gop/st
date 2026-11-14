@@ -1,6 +1,6 @@
 {
   "team": "edelgreco30",
-  "updated": "2026-11-13",
+  "updated": "2026-11-14",
   "note": "Curated: X has no public search API, so posts are collected by hand and matched to rosters by this script.",
   "tweets": [
     {
@@ -39,7 +39,7 @@
       "game_time": "Q3 6:56",
       "play_key": "401873052:4018730522575",
       "played_at": "2026-11-13T03:06:51Z",
-      "poster": "https://espnmedia-cdn.akamaized.net/espn/media/common/wsc/2026/1113/7b2cda15-2325-4b3a-aa70-e898358da7db/7b2cda15-2325-4b3a-aa70-e898358da7db.jpg",
+      "poster": "https://espnmedia-cdn.akamaized.net/espn/media/common/2026/1112/7b2cda1523254b3aaa70e898358da7db1419/7b2cda1523254b3aaa70e898358da7db1419.jpg",
       "published": "2026-11-13T03:20:17Z",
       "video": "https://espnmedia-cdn.akamaized.net/espn/media/16x9/wsc/2026/1113/7b2cda15-2325-4b3a-aa70-e898358da7db/7b2cda15-2325-4b3a-aa70-e898358da7db.mp4"
     },
@@ -204,27 +204,6 @@
       "poster": "https://espnmedia-cdn.akamaized.net/espn/media/common/wsc/2026/1108/04082e31-8c86-4f10-b464-e649c74cace4/04082e31-8c86-4f10-b464-e649c74cace4.jpg",
       "published": "2026-11-08T20:22:23Z",
       "video": "https://espnmedia-cdn.akamaized.net/espn/media/16x9/wsc/2026/1108/04082e31-8c86-4f10-b464-e649c74cace4/04082e31-8c86-4f10-b464-e649c74cace4.mp4"
-    },
-    {
-      "url": "https://x.com/Jaguars/status/2118530098454229383",
-      "player": "Brenton Strange",
-      "meta": "TE \u00b7 JAX",
-      "date": "2026-11-06",
-      "author": "Jaguars",
-      "text": "Trevor Lawrence with an absolute LASER of a throw to Strange!\n\n#JAXvsBAL",
-      "verified": true,
-      "faves": 182,
-      "secs": 8,
-      "game_id": "401873037",
-      "game_time": "Q2 0:58",
-      "play_key": "401873037:4018730371721",
-      "played_at": "2026-11-06T02:24:58Z",
-      "poster": "https://pbs.twimg.com/amplify_video_thumb/2088684091155591168/img/wt_BgvG5omwUGbMT.jpg",
-      "published": "2026-11-06T02:25:10Z",
-      "video": "https://video.twimg.com/amplify_video/2088684091155591168/vid/avc1/1080x1080/feQJ5bpeGs2D0nKv.mp4",
-      "author_name": "Jacksonville Jaguars",
-      "avatar": "https://pbs.twimg.com/profile_images/2117679003343396864/74pm70W2_normal.jpg",
-      "author_verified": true
     },
     {
       "url": "https://www.youtube.com/shorts/_g95yeEd7C8",
