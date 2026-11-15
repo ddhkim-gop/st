@@ -4,6 +4,27 @@
   "note": "Curated: X has no public search API, so posts are collected by hand and matched to rosters by this script.",
   "tweets": [
     {
+      "url": "https://x.com/Lions/status/2121994254507548942",
+      "player": "Jahmyr Gibbs",
+      "meta": "RB \u00b7 DET",
+      "date": "2026-11-15",
+      "author": "Lions",
+      "text": "That's a Jah touchdown!",
+      "verified": true,
+      "faves": 661,
+      "secs": 34,
+      "game_id": "401873053",
+      "game_time": "Q2 2:06",
+      "play_key": "401873053:4018730531842",
+      "played_at": "2026-11-15T15:47:59Z",
+      "poster": "https://pbs.twimg.com/amplify_video_thumb/2121993942933680128/img/tC3uzo13LfAqE2Oj.jpg",
+      "published": "2026-11-15T15:50:29Z",
+      "video": "https://video.twimg.com/amplify_video/2121993942933680128/vid/avc1/1920x1080/pVZunmJfsKQFsz-7.mp4",
+      "author_name": "Detroit Lions",
+      "avatar": "https://pbs.twimg.com/profile_images/2117366427938160640/bSarkWks_normal.jpg",
+      "author_verified": true
+    },
+    {
       "url": "https://www.espn.com/video/clip/_/id/50467771/antonio-williams-td-helps-commanders-reclaim-lead",
       "player": "Antonio Williams",
       "meta": "WR \u00b7 WAS",
