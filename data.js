@@ -7209,7 +7209,7 @@ window.__STATIC_DATA__ = {
           "weight": "227",
           "years_exp": 5,
           "status": "Active",
-          "injury_status": "Questionable",
+          "injury_status": null,
           "search_rank": 58
         },
         {
@@ -7882,7 +7882,7 @@ window.__STATIC_DATA__ = {
           "years_exp": 8,
           "status": "Active",
           "injury_status": "Out",
-          "search_rank": 93
+          "search_rank": 92
         },
         {
           "player_id": "4993",
@@ -7897,7 +7897,7 @@ window.__STATIC_DATA__ = {
           "years_exp": 8,
           "status": "Active",
           "injury_status": null,
-          "search_rank": 397
+          "search_rank": 400
         },
         {
           "player_id": "6770",
@@ -8158,7 +8158,7 @@ window.__STATIC_DATA__ = {
           "years_exp": 10,
           "status": "Active",
           "injury_status": null,
-          "search_rank": 61
+          "search_rank": 62
         },
         {
           "player_id": "3451",
@@ -8277,7 +8277,7 @@ window.__STATIC_DATA__ = {
           "weight": "202",
           "years_exp": 5,
           "status": "Active",
-          "injury_status": "Questionable",
+          "injury_status": null,
           "search_rank": 7
         },
         {
@@ -8584,7 +8584,7 @@ window.__STATIC_DATA__ = {
           "years_exp": 17,
           "status": "Active",
           "injury_status": null,
-          "search_rank": 66
+          "search_rank": 65
         },
         {
           "player_id": "5859",
@@ -8598,7 +8598,7 @@ window.__STATIC_DATA__ = {
           "weight": "226",
           "years_exp": 7,
           "status": "Active",
-          "injury_status": "Questionable",
+          "injury_status": null,
           "search_rank": 17
         },
         {
@@ -8773,21 +8773,6 @@ window.__STATIC_DATA__ = {
       "roster_id": 6,
       "players": [
         {
-          "player_id": "11579",
-          "espn_id": null,
-          "name": "Audric Estime",
-          "position": "RB",
-          "team": "NO",
-          "birth_date": "2003-09-06",
-          "college": "Notre Dame",
-          "height": "71",
-          "weight": "227",
-          "years_exp": 2,
-          "status": "Active",
-          "injury_status": null,
-          "search_rank": 190
-        },
-        {
           "player_id": "11584",
           "espn_id": null,
           "name": "Bucky Irving",
@@ -8875,7 +8860,7 @@ window.__STATIC_DATA__ = {
           "years_exp": 1,
           "status": "Active",
           "injury_status": null,
-          "search_rank": 448
+          "search_rank": 449
         },
         {
           "player_id": "12512",
@@ -8906,6 +8891,21 @@ window.__STATIC_DATA__ = {
           "status": "Active",
           "injury_status": "Questionable",
           "search_rank": 40
+        },
+        {
+          "player_id": "12540",
+          "espn_id": null,
+          "name": "Chimere Dike",
+          "position": "WR",
+          "team": "TEN",
+          "birth_date": "2001-12-14",
+          "college": "Florida",
+          "height": "73",
+          "weight": "196",
+          "years_exp": 1,
+          "status": "Active",
+          "injury_status": null,
+          "search_rank": 175
         },
         {
           "player_id": "13269",
@@ -8980,7 +8980,7 @@ window.__STATIC_DATA__ = {
           "years_exp": 11,
           "status": "Active",
           "injury_status": null,
-          "search_rank": 355
+          "search_rank": 356
         },
         {
           "player_id": "3294",
@@ -9058,6 +9058,21 @@ window.__STATIC_DATA__ = {
           "search_rank": 77
         },
         {
+          "player_id": "5995",
+          "espn_id": 4038441,
+          "name": "Justice Hill",
+          "position": "RB",
+          "team": "BAL",
+          "birth_date": "1997-11-14",
+          "college": "Oklahoma State",
+          "height": "70",
+          "weight": "195",
+          "years_exp": 7,
+          "status": "Active",
+          "injury_status": null,
+          "search_rank": 220
+        },
+        {
           "player_id": "9221",
           "espn_id": null,
           "name": "Jahmyr Gibbs",
@@ -9101,21 +9116,6 @@ window.__STATIC_DATA__ = {
           "status": "Active",
           "injury_status": "Questionable",
           "search_rank": 99
-        },
-        {
-          "player_id": "JAX",
-          "espn_id": null,
-          "name": "Jacksonville Jaguars",
-          "position": "DEF",
-          "team": "JAX",
-          "birth_date": null,
-          "college": null,
-          "height": null,
-          "weight": null,
-          "years_exp": null,
-          "status": null,
-          "injury_status": null,
-          "search_rank": null
         },
         {
           "player_id": "PIT",
@@ -9847,7 +9847,7 @@ window.__STATIC_DATA__ = {
           "years_exp": 21,
           "status": "Active",
           "injury_status": null,
-          "search_rank": 186
+          "search_rank": 187
         },
         {
           "player_id": "LAR",
@@ -10094,6 +10094,62 @@ window.__STATIC_DATA__ = {
     }
   ],
   "transactions": [
+    {
+      "season": "2026",
+      "week": 10,
+      "created": "Nov 15, 2026 • 12:58 AM PT",
+      "transaction_id": "1427617801425674240",
+      "type": "free_agent",
+      "status": "complete",
+      "teams": [
+        "avocadoshake"
+      ],
+      "added": [
+        {
+          "name": "Justice Hill",
+          "position": "RB",
+          "team": "BAL"
+        }
+      ],
+      "dropped": [
+        {
+          "name": "Jacksonville Jaguars",
+          "position": "DEF",
+          "team": "JAX"
+        }
+      ],
+      "faab": 0,
+      "waiver_bid": 0,
+      "notes": null
+    },
+    {
+      "season": "2026",
+      "week": 10,
+      "created": "Nov 15, 2026 • 12:57 AM PT",
+      "transaction_id": "1427617513612509184",
+      "type": "free_agent",
+      "status": "complete",
+      "teams": [
+        "avocadoshake"
+      ],
+      "added": [
+        {
+          "name": "Chimere Dike",
+          "position": "WR",
+          "team": "TEN"
+        }
+      ],
+      "dropped": [
+        {
+          "name": "Audric Estime",
+          "position": "RB",
+          "team": "NO"
+        }
+      ],
+      "faab": 0,
+      "waiver_bid": 0,
+      "notes": null
+    },
     {
       "season": "2026",
       "week": 10,
