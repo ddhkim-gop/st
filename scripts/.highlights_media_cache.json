@@ -4079,6 +4079,11 @@
   "published": "2026-09-24T20:32:52Z",
   "youtube": "9JftUN8Uj_M"
  },
+ "https://www.youtube.com/shorts/9Mgkk24wgaM": {
+  "poster": "https://i.ytimg.com/vi/9Mgkk24wgaM/hqdefault.jpg",
+  "published": "2026-11-15T22:03:39Z",
+  "youtube": "9Mgkk24wgaM"
+ },
  "https://www.youtube.com/shorts/9TwGUTnOkac": {
   "poster": "https://i.ytimg.com/vi/9TwGUTnOkac/hqdefault.jpg",
   "published": "2026-10-31T16:00:24Z",
@@ -4458,6 +4463,15 @@
   "published": "2026-11-01T20:02:19Z",
   "youtube": "EKCv9MLV-3k"
  },
+ "https://www.youtube.com/shorts/EUjHZIUrOJI": {
+  "game_id": "401873062",
+  "game_time": "Q1 7:41",
+  "play_key": "401873062:401873062354",
+  "played_at": "2026-11-15T21:17:25Z",
+  "poster": "https://i.ytimg.com/vi/EUjHZIUrOJI/hqdefault.jpg",
+  "published": "2026-11-15T21:44:40Z",
+  "youtube": "EUjHZIUrOJI"
+ },
  "https://www.youtube.com/shorts/EYTomUdkxYw": {
   "poster": "https://i.ytimg.com/vi/EYTomUdkxYw/hqdefault.jpg",
   "published": "2026-09-28T23:03:30Z",
@@ -4756,6 +4770,11 @@
   "published": "2026-09-27T19:35:09Z",
   "youtube": "IdI0ofIekAo"
  },
+ "https://www.youtube.com/shorts/IjQ6i-a3XmI": {
+  "poster": "https://i.ytimg.com/vi/IjQ6i-a3XmI/hqdefault.jpg",
+  "published": "2026-11-15T21:35:00Z",
+  "youtube": "IjQ6i-a3XmI"
+ },
  "https://www.youtube.com/shorts/Iuqeeg2fIKw": {
   "poster": "https://i.ytimg.com/vi/Iuqeeg2fIKw/hqdefault.jpg",
   "published": "2026-10-08T23:00:18Z",
@@ -4888,6 +4907,11 @@
   "published": "2026-09-29T00:53:26Z",
   "youtube": "KleJnlczs34"
  },
+ "https://www.youtube.com/shorts/Knn_RjHERWg": {
+  "poster": "https://i.ytimg.com/vi/Knn_RjHERWg/hqdefault.jpg",
+  "published": "2026-11-15T21:32:35Z",
+  "youtube": "Knn_RjHERWg"
+ },
  "https://www.youtube.com/shorts/KsZu1DXVEQk": {
   "game_id": "401873005",
   "game_time": "Q2 7:13",
@@ -4906,6 +4930,15 @@
   "poster": "https://i.ytimg.com/vi/L-ACgbBe8p8/hqdefault.jpg",
   "published": "2026-10-20T00:35:26Z",
   "youtube": "L-ACgbBe8p8"
+ },
+ "https://www.youtube.com/shorts/L-IXNyFKbbk": {
+  "game_id": "401873063",
+  "game_time": "Q1 6:56",
+  "play_key": "401873063:401873063558",
+  "played_at": "2026-11-15T21:43:21Z",
+  "poster": "https://i.ytimg.com/vi/L-IXNyFKbbk/hqdefault.jpg",
+  "published": "2026-11-15T22:00:20Z",
+  "youtube": "L-IXNyFKbbk"
  },
  "https://www.youtube.com/shorts/L1vN-3TiNyY": {
   "game_id": "401873031",
@@ -5150,6 +5183,11 @@
   "published": "2026-10-22T22:03:55Z",
   "youtube": "OzeG7A0QS2M"
  },
+ "https://www.youtube.com/shorts/P2IoXafEfG8": {
+  "poster": "https://i.ytimg.com/vi/P2IoXafEfG8/hqdefault.jpg",
+  "published": "2026-11-15T21:32:35Z",
+  "youtube": "P2IoXafEfG8"
+ },
  "https://www.youtube.com/shorts/P6ismZCTei8": {
   "poster": "https://i.ytimg.com/vi/P6ismZCTei8/hqdefault.jpg",
   "published": "2026-10-25T20:41:56Z",
@@ -5210,6 +5248,11 @@
   "poster": "https://i.ytimg.com/vi/PviDgjLtKlQ/hqdefault.jpg",
   "published": "2026-10-09T03:04:18Z",
   "youtube": "PviDgjLtKlQ"
+ },
+ "https://www.youtube.com/shorts/PyLWnSg-J1M": {
+  "poster": "https://i.ytimg.com/vi/PyLWnSg-J1M/hqdefault.jpg",
+  "published": "2026-11-15T19:58:45Z",
+  "youtube": "PyLWnSg-J1M"
  },
  "https://www.youtube.com/shorts/QB09mFILQ0Y": {
   "poster": "https://i.ytimg.com/vi/QB09mFILQ0Y/hqdefault.jpg",
@@ -5281,6 +5324,11 @@
   "poster": "https://i.ytimg.com/vi/R-njEU-1CMM/hqdefault.jpg",
   "published": "2026-09-29T01:45:55Z",
   "youtube": "R-njEU-1CMM"
+ },
+ "https://www.youtube.com/shorts/R1YpdQj2Cfc": {
+  "poster": "https://i.ytimg.com/vi/R1YpdQj2Cfc/hqdefault.jpg",
+  "published": "2026-11-15T21:35:10Z",
+  "youtube": "R1YpdQj2Cfc"
  },
  "https://www.youtube.com/shorts/R2mn0qhLbdo": {
   "poster": "https://i.ytimg.com/vi/R2mn0qhLbdo/hqdefault.jpg",
@@ -6281,6 +6329,15 @@
   "published": "2026-10-25T21:21:04Z",
   "youtube": "f4vUqCLCxCU"
  },
+ "https://www.youtube.com/shorts/fDKeJ6ytYqM": {
+  "game_id": "401873057",
+  "game_time": "Q4 8:21",
+  "play_key": "401873057:4018730573576",
+  "played_at": "2026-11-15T20:45:31Z",
+  "poster": "https://i.ytimg.com/vi/fDKeJ6ytYqM/hqdefault.jpg",
+  "published": "2026-11-15T20:49:52Z",
+  "youtube": "fDKeJ6ytYqM"
+ },
  "https://www.youtube.com/shorts/fWV7VOTJXyQ": {
   "poster": "https://i.ytimg.com/vi/fWV7VOTJXyQ/hqdefault.jpg",
   "published": "2026-10-04T20:37:23Z",
@@ -6903,6 +6960,11 @@
   "published": "2026-11-01T17:01:05Z",
   "youtube": "oYgb_T9Ft2Q"
  },
+ "https://www.youtube.com/shorts/oZ9H1nwmSAE": {
+  "poster": "https://i.ytimg.com/vi/oZ9H1nwmSAE/hqdefault.jpg",
+  "published": "2026-11-15T21:52:30Z",
+  "youtube": "oZ9H1nwmSAE"
+ },
  "https://www.youtube.com/shorts/o__a-i4j250": {
   "game_id": "401872961",
   "game_time": "Q2 1:54",
@@ -7083,6 +7145,15 @@
   "published": "2026-09-24T17:51:44Z",
   "youtube": "qgkT8h6JRR4"
  },
+ "https://www.youtube.com/shorts/qk5NaIMsxO4": {
+  "game_id": "401873063",
+  "game_time": "Q1 1:08",
+  "play_key": "401873063:401873063878",
+  "played_at": "2026-11-15T21:55:23Z",
+  "poster": "https://i.ytimg.com/vi/qk5NaIMsxO4/hqdefault.jpg",
+  "published": "2026-11-15T22:04:15Z",
+  "youtube": "qk5NaIMsxO4"
+ },
  "https://www.youtube.com/shorts/ql6XtZNxg3U": {
   "poster": "https://i.ytimg.com/vi/ql6XtZNxg3U/hqdefault.jpg",
   "published": "2026-09-25T20:57:05Z",
@@ -7179,6 +7250,11 @@
   "published": "2026-11-03T20:30:28Z",
   "youtube": "sbRDQXYjni4"
  },
+ "https://www.youtube.com/shorts/shvnIgpAUno": {
+  "poster": "https://i.ytimg.com/vi/shvnIgpAUno/hqdefault.jpg",
+  "published": "2026-11-15T21:46:59Z",
+  "youtube": "shvnIgpAUno"
+ },
  "https://www.youtube.com/shorts/siFb_E6wSeo": {
   "poster": "https://i.ytimg.com/vi/siFb_E6wSeo/hqdefault.jpg",
   "published": "2026-11-02T01:31:50Z",
@@ -7223,6 +7299,11 @@
   "poster": "https://i.ytimg.com/vi/u2uCEgppKJU/hqdefault.jpg",
   "published": "2026-11-15T18:32:25Z",
   "youtube": "u2uCEgppKJU"
+ },
+ "https://www.youtube.com/shorts/u39u-ETAtxo": {
+  "poster": "https://i.ytimg.com/vi/u39u-ETAtxo/hqdefault.jpg",
+  "published": "2026-11-15T21:39:52Z",
+  "youtube": "u39u-ETAtxo"
  },
  "https://www.youtube.com/shorts/u4g36lTBCEw": {
   "poster": "https://i.ytimg.com/vi/u4g36lTBCEw/hqdefault.jpg",
@@ -8426,6 +8507,29 @@
   "published": "2026-11-15T19:24:20Z",
   "video": "https://video.twimg.com/amplify_video/2122047900041568256/vid/avc1/1920x1080/LB4UADp80t6zJgOG.mp4"
  },
+ "https://x.com/Chiefs/status/2122064183625740513": {
+  "game_id": "401873058",
+  "game_time": "Q4 9:55",
+  "play_key": "401873058:4018730583392",
+  "played_at": "2026-11-15T20:28:14Z",
+  "poster": "https://pbs.twimg.com/amplify_video_thumb/2122063644917747712/img/ZU8UAXdhaN1zcIOZ.jpg",
+  "published": "2026-11-15T20:28:22Z",
+  "video": "https://video.twimg.com/amplify_video/2122063644917747712/vid/avc1/1920x1080/ofM5pw4K4PVPOL2c.mp4"
+ },
+ "https://x.com/Chiefs/status/2122070218818179509": {
+  "game_id": "401873058",
+  "game_time": "Q4 4:18",
+  "play_key": "401873058:4018730583957",
+  "played_at": "2026-11-15T20:50:05Z",
+  "poster": "https://pbs.twimg.com/amplify_video_thumb/2122069935748755458/img/tOaC5Bo3C2ka2umt.jpg",
+  "published": "2026-11-15T20:52:20Z",
+  "video": "https://video.twimg.com/amplify_video/2122069935748755458/vid/avc1/1920x1080/Tc1-sAcSwgZvXx5e.mp4"
+ },
+ "https://x.com/Chiefs/status/2122079508782010371": {
+  "poster": "https://pbs.twimg.com/amplify_video_thumb/2122078782949388288/img/3tf54p1BZnJpgVDl.jpg",
+  "published": "2026-11-15T21:29:15Z",
+  "video": "https://video.twimg.com/amplify_video/2122078782949388288/vid/avc1/864x1080/_gKCv2a49Qe60HrH.mp4"
+ },
  "https://x.com/CincyBengalsBR/status/2094192822639317042": {
   "poster": "https://pbs.twimg.com/amplify_video_thumb/2094185775919226880/img/Yf4bxFqaJ9jqVJb9.jpg?name=orig",
   "video": "https://video.twimg.com/amplify_video/2094185775919226880/vid/avc1/1080x1440/t02c-dHS8lSFyX63.mp4?tag=29"
@@ -9091,6 +9195,47 @@
   "poster": "https://pbs.twimg.com/amplify_video_thumb/2122038888730411008/img/RIEENONPU29ezDYz.jpg",
   "published": "2026-11-15T18:48:10Z",
   "video": "https://video.twimg.com/amplify_video/2122038888730411008/vid/avc1/4096x2048/FDHLWHx4zpRGvquI.mp4"
+ },
+ "https://x.com/Jaguars/status/2122059754960773548": {
+  "game_id": "401873057",
+  "game_time": "Q3 6:28",
+  "play_key": "401873057:4018730572710",
+  "played_at": "2026-11-15T20:09:54Z",
+  "poster": "https://pbs.twimg.com/amplify_video_thumb/2099159024260284418/img/OU3UPfOrjRUhunzW.jpg",
+  "published": "2026-11-15T20:10:46Z",
+  "video": "https://video.twimg.com/amplify_video/2099159024260284418/vid/avc1/1080x1080/m15wYSrsyun6X-ip.mp4"
+ },
+ "https://x.com/Jaguars/status/2122067266430722388": {
+  "game_id": "401873057",
+  "game_time": "Q4 9:44",
+  "play_key": "401873057:4018730573428",
+  "played_at": "2026-11-15T20:39:46Z",
+  "poster": "https://pbs.twimg.com/amplify_video_thumb/2088685573686927360/img/Kml3Vf3SQy345Vi6.jpg",
+  "published": "2026-11-15T20:40:37Z",
+  "video": "https://video.twimg.com/amplify_video/2088685573686927360/vid/avc1/1080x1080/wuuscVHrxNKUPQyQ.mp4"
+ },
+ "https://x.com/Jaguars/status/2122074267424604448": {
+  "game_id": "401873057",
+  "game_time": "Q4 1:10",
+  "play_key": "401873057:4018730574104",
+  "played_at": "2026-11-15T21:07:34Z",
+  "poster": "https://pbs.twimg.com/amplify_video_thumb/2099159024268713986/img/xKXPZBoOV53JCX_s.jpg",
+  "published": "2026-11-15T21:08:26Z",
+  "video": "https://video.twimg.com/amplify_video/2099159024268713986/vid/avc1/1080x1080/wWpmb1kTVHK7l-El.mp4"
+ },
+ "https://x.com/Jaguars/status/2122074966627676412": {
+  "game_id": "401873057",
+  "game_time": "Q4 1:10",
+  "play_key": "401873057:4018730574104",
+  "played_at": "2026-11-15T21:07:34Z",
+  "poster": "https://pbs.twimg.com/amplify_video_thumb/2122074333233422337/img/w6DVHp786IXT6NOn.jpg",
+  "published": "2026-11-15T21:11:12Z",
+  "video": "https://video.twimg.com/amplify_video/2122074333233422337/vid/avc1/1920x1080/NaNZmHhb_DETHMRG.mp4"
+ },
+ "https://x.com/Jaguars/status/2122084020938805691": {
+  "poster": "https://pbs.twimg.com/amplify_video_thumb/2122082939072614400/img/v_imDmx8brKZL35n.jpg",
+  "published": "2026-11-15T21:47:11Z",
+  "video": "https://video.twimg.com/amplify_video/2122082939072614400/vid/avc1/1920x1080/m9oVCIyHJ_ylWnbb.mp4"
  },
  "https://x.com/JamesCookMuse/status/2095517719374307408": {
   "poster": "https://pbs.twimg.com/amplify_video_thumb/1843002707139051520/img/WK7_x035YPNSDl7d.jpg?name=orig",
@@ -12875,6 +13020,20 @@
   "published": "2026-11-15T21:29:32Z",
   "video": "https://video.twimg.com/amplify_video/2122079362543755264/vid/avc1/1920x1080/MxGItOcMAqNm0B_D.mp4"
  },
+ "https://x.com/NFL/status/2122081406583185409": {
+  "poster": "https://pbs.twimg.com/amplify_video_thumb/2122081276173897728/img/Ecu_9oMlgWKLHg5h.jpg",
+  "published": "2026-11-15T21:36:48Z",
+  "video": "https://video.twimg.com/amplify_video/2122081276173897728/vid/avc1/1920x1080/zWoVkkzF5Iz-2cff.mp4"
+ },
+ "https://x.com/NFL/status/2122082993133285852": {
+  "game_id": "401873063",
+  "game_time": "Q1 6:56",
+  "play_key": "401873063:401873063558",
+  "played_at": "2026-11-15T21:43:21Z",
+  "poster": "https://pbs.twimg.com/amplify_video_thumb/2122082866498826240/img/vE1N3Rm3TiU_LTP2.jpg",
+  "published": "2026-11-15T21:43:06Z",
+  "video": "https://video.twimg.com/amplify_video/2122082866498826240/vid/avc1/1920x1080/6zsCe8v8i_3QuJgk.mp4"
+ },
  "https://x.com/NFLBrasil/status/2093514185812431184": {
   "poster": "https://pbs.twimg.com/amplify_video_thumb/2093514163834269696/img/j7GWyppCmf8GOls3.jpg?name=orig",
   "video": "https://video.twimg.com/amplify_video/2093514163834269696/vid/avc1/1280x720/y5dLJwg1_3YNaVlG.mp4?tag=16"
@@ -13872,6 +14031,15 @@
   "published": "2026-11-08T23:03:27Z",
   "video": "https://video.twimg.com/amplify_video/2119565917260570625/vid/avc1/1920x1080/6aBtu7_vYL1FveWL.mp4"
  },
+ "https://x.com/Raiders/status/2122077046902009976": {
+  "game_id": "401873062",
+  "game_time": "Q1 7:41",
+  "play_key": "401873062:401873062354",
+  "played_at": "2026-11-15T21:17:25Z",
+  "poster": "https://pbs.twimg.com/amplify_video_thumb/2122076774121324544/img/1iWbpQUi01W8NOSv.jpg",
+  "published": "2026-11-15T21:19:28Z",
+  "video": "https://video.twimg.com/amplify_video/2122076774121324544/vid/avc1/1920x1080/rzLJBHz4Scmb4qAy.mp4"
+ },
  "https://x.com/RaidersWAttitud/status/2091716126333866332": {
   "poster": "https://pbs.twimg.com/amplify_video_thumb/2091716105865744384/img/cVxCobgOrlZH4o7S.jpg?name=orig",
   "video": "https://video.twimg.com/amplify_video/2091716105865744384/vid/avc1/720x1020/PWbCPGTdzpNtZper.mp4?tag=29"
@@ -13983,6 +14151,15 @@
   "poster": "https://pbs.twimg.com/amplify_video_thumb/2119527022581956609/img/0YNQRkS3uoLs-NSd.jpg",
   "published": "2026-11-08T20:28:39Z",
   "video": "https://video.twimg.com/amplify_video/2119527022581956609/vid/avc1/1920x1080/3n0n5PMeP9uYMTgx.mp4"
+ },
+ "https://x.com/RamsNFL/status/2122091735102939352": {
+  "game_id": "401873061",
+  "game_time": "Q2 2:51",
+  "play_key": "401873061:4018730611698",
+  "played_at": "2026-11-15T22:14:31Z",
+  "poster": "https://pbs.twimg.com/amplify_video_thumb/2122091188660625408/img/JB-I3aQkgh-EIzwp.jpg",
+  "published": "2026-11-15T22:17:50Z",
+  "video": "https://video.twimg.com/amplify_video/2122091188660625408/vid/avc1/1920x1080/enOVv4bJd2g29akm.mp4"
  },
  "https://x.com/Ravens/status/2106793972064465325": {
   "game_id": "401872973",

@@ -65,7 +65,7 @@
   "verified": true
  },
  "Browns": {
-  "avatar": "https://pbs.twimg.com/profile_images/2120617438324699137/pjKuFU5g_normal.jpg",
+  "avatar": "",
   "name": "Cleveland Browns",
   "verified": true
  },
@@ -195,7 +195,7 @@
   "verified": true
  },
  "Jaguars": {
-  "avatar": "",
+  "avatar": "https://pbs.twimg.com/profile_images/2117679003343396864/74pm70W2_normal.jpg",
   "name": "Jacksonville Jaguars",
   "verified": true
  },
