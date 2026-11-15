@@ -4,6 +4,27 @@
   "note": "Curated: X has no public search API, so posts are collected by hand and matched to rosters by this script.",
   "tweets": [
     {
+      "url": "https://x.com/Lions/status/2121980038216134801",
+      "player": "Amon-Ra St. Brown & Jared Goff",
+      "meta": "QB \u00b7 DET",
+      "date": "2026-11-15",
+      "author": "Lions",
+      "text": "It's a Munich touchdown for Amon-Ra!",
+      "verified": true,
+      "faves": 776,
+      "secs": 51,
+      "game_id": "401873053",
+      "game_time": "Q1 6:13",
+      "play_key": "401873053:401873053518",
+      "played_at": "2026-11-15T14:50:57Z",
+      "poster": "https://pbs.twimg.com/amplify_video_thumb/2121979705783963648/img/vsv8JgXGfxg36qhI.jpg",
+      "published": "2026-11-15T14:54:00Z",
+      "video": "https://video.twimg.com/amplify_video/2121979705783963648/vid/avc1/1920x1080/IcXDaUPkGPoASyk4.mp4",
+      "author_name": "Detroit Lions",
+      "avatar": "https://pbs.twimg.com/profile_images/2117366427938160640/bSarkWks_normal.jpg",
+      "author_verified": true
+    },
+    {
       "url": "https://x.com/Commanders/status/2121093883891503567",
       "player": "Jayden Daniels",
       "meta": "QB \u00b7 WAS",

@@ -4220,6 +4220,11 @@
   "published": "2026-10-04T18:32:27Z",
   "youtube": "FvdjEnK4yjM"
  },
+ "https://www.youtube.com/shorts/G2tOYPJ6sXs": {
+  "poster": "https://i.ytimg.com/vi/G2tOYPJ6sXs/hqdefault.jpg",
+  "published": "2026-11-15T12:36:46Z",
+  "youtube": "G2tOYPJ6sXs"
+ },
  "https://www.youtube.com/shorts/G5npTXDXWu8": {
   "poster": "https://i.ytimg.com/vi/G5npTXDXWu8/hqdefault.jpg",
   "published": "2026-10-25T20:50:48Z",
@@ -8476,6 +8481,24 @@
   "published": "2026-10-25T22:21:42Z",
   "video": "https://video.twimg.com/amplify_video/2114482162770579456/vid/avc1/1920x1080/BMM7IAF47h4jR6vd.mp4"
  },
+ "https://x.com/Lions/status/2121980038216134801": {
+  "game_id": "401873053",
+  "game_time": "Q1 6:13",
+  "play_key": "401873053:401873053518",
+  "played_at": "2026-11-15T14:50:57Z",
+  "poster": "https://pbs.twimg.com/amplify_video_thumb/2121979705783963648/img/vsv8JgXGfxg36qhI.jpg",
+  "published": "2026-11-15T14:54:00Z",
+  "video": "https://video.twimg.com/amplify_video/2121979705783963648/vid/avc1/1920x1080/IcXDaUPkGPoASyk4.mp4"
+ },
+ "https://x.com/Lions/status/2121981369270059300": {
+  "game_id": "401873053",
+  "game_time": "Q1 6:13",
+  "play_key": "401873053:401873053518",
+  "played_at": "2026-11-15T14:50:57Z",
+  "poster": "https://pbs.twimg.com/amplify_video_thumb/2121981117867646976/img/ITWgZnkS2Wi7iQY2.jpg",
+  "published": "2026-11-15T14:59:17Z",
+  "video": "https://video.twimg.com/amplify_video/2121981117867646976/vid/avc1/720x1280/C4UR4xno-is261nX.mp4"
+ },
  "https://x.com/LombardiHimself/status/2089805810197201371": {
   "poster": "https://pbs.twimg.com/amplify_video_thumb/2089805579942584320/img/Ld9_5tBLY5AYjEbJ.jpg?name=orig",
   "video": "https://video.twimg.com/amplify_video/2089805579942584320/vid/avc1/3840x2160/TXOQKF4EQh1br82L.mp4?tag=29"
@@ -11772,6 +11795,11 @@
   "poster": "https://pbs.twimg.com/amplify_video_thumb/2121085906178416640/img/laT-CQ9tCn-IWuhI.jpg",
   "published": "2026-11-13T03:41:51Z",
   "video": "https://video.twimg.com/amplify_video/2121085906178416640/vid/avc1/1920x1080/bTJUNL0KGq5C4qXK.mp4"
+ },
+ "https://x.com/NFL/status/2121732407904682084": {
+  "poster": "https://pbs.twimg.com/amplify_video_thumb/2121705405365583873/img/QVsJ4xrCXhrS5_Oi.jpg",
+  "published": "2026-11-14T22:30:00Z",
+  "video": "https://video.twimg.com/amplify_video/2121705405365583873/vid/avc1/3840x2160/ZYgcOc6cXn69NZoP.mp4"
  },
  "https://x.com/NFLBrasil/status/2093514185812431184": {
   "poster": "https://pbs.twimg.com/amplify_video_thumb/2093514163834269696/img/j7GWyppCmf8GOls3.jpg?name=orig",
