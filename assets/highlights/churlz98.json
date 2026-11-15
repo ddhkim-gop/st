@@ -4,6 +4,27 @@
   "note": "Curated: X has no public search API, so posts are collected by hand and matched to rosters by this script.",
   "tweets": [
     {
+      "url": "https://x.com/NFL/status/2122047973597274429",
+      "player": "Josh Downs",
+      "meta": "WR \u00b7 KC",
+      "date": "2026-11-15",
+      "author": "NFL",
+      "text": "Mahomes steps up and drops a dime to Josh Downs for a TD!\n\nKCvsATL on CBS/Paramount+\nStream on @NFLPlus",
+      "verified": true,
+      "faves": 2720,
+      "secs": 11,
+      "game_id": "401873058",
+      "game_time": "Q2 0:18",
+      "play_key": "401873058:4018730582084",
+      "played_at": "2026-11-15T19:22:39Z",
+      "poster": "https://pbs.twimg.com/amplify_video_thumb/2122047807909769216/img/bfoiMB_vIINwWEsE.jpg",
+      "published": "2026-11-15T19:23:57Z",
+      "video": "https://video.twimg.com/amplify_video/2122047807909769216/vid/avc1/1920x1080/7qRs-LSmVCoLC3k5.mp4",
+      "author_name": "NFL",
+      "avatar": "https://pbs.twimg.com/profile_images/1619895559334273028/PHKS_mjX_normal.jpg",
+      "author_verified": true
+    },
+    {
       "url": "https://x.com/NFLonFOX/status/2122038689798795345",
       "player": "Xavier Hutchinson",
       "meta": "WR \u00b7 HOU",
@@ -25,6 +46,27 @@
       "author_verified": true
     },
     {
+      "url": "https://x.com/Jaguars/status/2122038968770322773",
+      "player": "Travis Hunter",
+      "meta": "DB \u00b7 JAX",
+      "date": "2026-11-15",
+      "author": "Jaguars",
+      "text": "I mean... come on lol\n\n@TravisHunterJr | #JAXvsTEN on FOX",
+      "verified": true,
+      "faves": 320,
+      "secs": 10,
+      "game_id": "401873057",
+      "game_time": "Q2 15:00",
+      "play_key": "401873057:4018730571002",
+      "played_at": "2026-11-15T18:41:20Z",
+      "poster": "https://pbs.twimg.com/amplify_video_thumb/2122038888730411008/img/RIEENONPU29ezDYz.jpg",
+      "published": "2026-11-15T18:48:10Z",
+      "video": "https://video.twimg.com/amplify_video/2122038888730411008/vid/avc1/4096x2048/FDHLWHx4zpRGvquI.mp4",
+      "author_name": "Jacksonville Jaguars",
+      "avatar": "",
+      "author_verified": true
+    },
+    {
       "url": "https://x.com/NFL/status/2122035448088604966",
       "player": "Josh Downs",
       "meta": "WR \u00b7 KC",
@@ -43,6 +85,27 @@
       "video": "https://video.twimg.com/amplify_video/2122035339921666048/vid/avc1/1920x1080/rmITnZGPPFfkBH29.mp4",
       "author_name": "NFL",
       "avatar": "https://pbs.twimg.com/profile_images/1619895559334273028/PHKS_mjX_normal.jpg",
+      "author_verified": true
+    },
+    {
+      "url": "https://x.com/Jaguars/status/2122035433618153531",
+      "player": "Travis Hunter",
+      "meta": "DB \u00b7 JAX",
+      "date": "2026-11-15",
+      "author": "Jaguars",
+      "text": "Two \ud83d\udd7a\n\nWay \ud83e\udd2a\n\nTrav \ud83d\ude0f\n\n@TravisHunterJr | #JAXvsTEN on FOX",
+      "verified": true,
+      "faves": 668,
+      "secs": 16,
+      "game_id": "401873057",
+      "game_time": "Q1 3:29",
+      "play_key": "401873057:401873057802",
+      "played_at": "2026-11-15T18:30:42Z",
+      "poster": "https://pbs.twimg.com/amplify_video_thumb/2122034752077406208/img/XcBjuSdLaBEne189.jpg",
+      "published": "2026-11-15T18:34:07Z",
+      "video": "https://video.twimg.com/amplify_video/2122034752077406208/vid/avc1/1920x1080/H6KtCm7uOdmtf0vA.mp4",
+      "author_name": "Jacksonville Jaguars",
+      "avatar": "",
       "author_verified": true
     },
     {
@@ -294,21 +357,6 @@
       "video": "https://espnmedia-cdn.akamaized.net/espn/media/16x9/wsc/2026/1108/25c2a2d6-8eae-4e8f-a857-4af72495d549/25c2a2d6-8eae-4e8f-a857-4af72495d549.mp4"
     },
     {
-      "url": "https://www.espn.com/video/clip/_/id/50427469/cardinals-turn-downs-seal-seahawks-win",
-      "player": "Josh Downs",
-      "meta": "WR \u00b7 KC",
-      "date": "2026-11-09",
-      "author": "ESPN",
-      "text": "Cardinals turn it over on downs to seal Seahawks' win",
-      "verified": true,
-      "faves": 0,
-      "secs": 0,
-      "espn_game": "401873048",
-      "poster": "https://espnmedia-cdn.akamaized.net/espn/media/common/wsc/2026/1109/fac47bea-f0ec-4c73-890c-bcb0bfbb089e/fac47bea-f0ec-4c73-890c-bcb0bfbb089e.jpg",
-      "published": "2026-11-09T00:32:02Z",
-      "video": "https://espnmedia-cdn.akamaized.net/espn/media/16x9/wsc/2026/1109/fac47bea-f0ec-4c73-890c-bcb0bfbb089e/fac47bea-f0ec-4c73-890c-bcb0bfbb089e.mp4"
-    },
-    {
       "url": "https://www.youtube.com/shorts/zRwi3eIh-jk",
       "player": "Bo Nix",
       "meta": "QB \u00b7 DEN",
@@ -324,21 +372,6 @@
       "author_name": "Denver Broncos",
       "avatar": "",
       "author_verified": true
-    },
-    {
-      "url": "https://www.espn.com/video/clip/_/id/50425242/caleb-downs-seals-cowboys-win-pivotal-int",
-      "player": "Josh Downs",
-      "meta": "WR \u00b7 KC",
-      "date": "2026-11-08",
-      "author": "ESPN",
-      "text": "Caleb Downs seals Cowboys win with pivotal INT",
-      "verified": true,
-      "faves": 0,
-      "secs": 0,
-      "espn_game": "401873040",
-      "poster": "https://espnmedia-cdn.akamaized.net/espn/media/common/2026/1108/28b2e2663a1f434cbe09522975aa3c7a1016/28b2e2663a1f434cbe09522975aa3c7a1016.jpg",
-      "published": "2026-11-08T21:44:57Z",
-      "video": "https://espnmedia-cdn.akamaized.net/espn/media/16x9/wsc/2026/1108/28b2e266-3a1f-434c-be09-522975aa3c7a/28b2e266-3a1f-434c-be09-522975aa3c7a.mp4"
     }
   ]
 }
