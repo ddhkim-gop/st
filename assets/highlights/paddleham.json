@@ -1,6 +1,6 @@
 {
   "team": "paddleham",
-  "updated": "2026-11-14",
+  "updated": "2026-11-15",
   "note": "Curated: X has no public search API, so posts are collected by hand and matched to rosters by this script.",
   "tweets": [
     {
@@ -210,27 +210,6 @@
       "author_verified": true
     },
     {
-      "url": "https://x.com/NFL/status/2119538994950140132",
-      "player": "C.J. Stroud",
-      "meta": "QB \u00b7 HOU",
-      "date": "2026-11-08",
-      "author": "NFL",
-      "text": "C.J. Stroud to Xavier Hutchinson for the first TD of the game!\n\nHOUvsLAC on CBS/Paramount+\nStream on @NFLPlus",
-      "verified": true,
-      "faves": 374,
-      "secs": 10,
-      "game_id": "401873046",
-      "game_time": "Q1 10:16",
-      "play_key": "401873046:401873046300",
-      "played_at": "2026-11-08T21:12:21Z",
-      "poster": "https://pbs.twimg.com/amplify_video_thumb/2119538797197094914/img/cmxuGSPri8Yq49Wg.jpg",
-      "published": "2026-11-08T21:14:10Z",
-      "video": "https://video.twimg.com/amplify_video/2119538797197094914/vid/avc1/1920x1080/GoHcvU16vmAOKjE6.mp4",
-      "author_name": "NFL",
-      "avatar": "https://pbs.twimg.com/profile_images/1619895559334273028/PHKS_mjX_normal.jpg",
-      "author_verified": true
-    },
-    {
       "url": "https://www.espn.com/video/clip/_/id/50424053/shedeur-sanders-goes-deep-kc-concepcion-64-yard-td",
       "player": "KC Concepcion Jr.",
       "meta": "WR \u00b7 CLE",
@@ -269,25 +248,6 @@
       "author_name": "NFL",
       "avatar": "https://pbs.twimg.com/profile_images/1619895559334273028/PHKS_mjX_normal.jpg",
       "author_verified": true
-    },
-    {
-      "url": "https://www.espn.com/video/clip/_/id/50422671/jake-ferguson-hauls-cowboys-td",
-      "player": "Jake Ferguson",
-      "meta": "TE \u00b7 DAL",
-      "date": "2026-11-08",
-      "author": "ESPN",
-      "text": "Jake Ferguson hauls in a Cowboys TD",
-      "verified": true,
-      "faves": 0,
-      "secs": 0,
-      "espn_game": "401873040",
-      "game_id": "401873040",
-      "game_time": "Q2 14:08",
-      "play_key": "401873040:4018730401041",
-      "played_at": "2026-11-08T18:43:10Z",
-      "poster": "https://espnmedia-cdn.akamaized.net/espn/media/common/2026/1108/5eaaa1cfa363446289b2e4f68d3f470c1010/5eaaa1cfa363446289b2e4f68d3f470c1010.jpg",
-      "published": "2026-11-08T18:50:51Z",
-      "video": "https://espnmedia-cdn.akamaized.net/espn/media/16x9/wsc/2026/1108/5eaaa1cf-a363-4462-89b2-e4f68d3f470c/5eaaa1cf-a363-4462-89b2-e4f68d3f470c.mp4"
     },
     {
       "url": "https://www.espn.com/video/clip/_/id/50422691/patrick-mahomes-finds-kenneth-walker-iii-chiefs-td",
