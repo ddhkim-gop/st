@@ -315,7 +315,7 @@
   "verified": true
  },
  "Seahawks": {
-  "avatar": "https://pbs.twimg.com/profile_images/2115588587932819456/oMk0E9Yr_normal.jpg",
+  "avatar": "",
   "name": "Seattle Seahawks",
   "verified": true
  },
@@ -355,7 +355,7 @@
   "verified": true
  },
  "dallascowboys": {
-  "avatar": "",
+  "avatar": "https://pbs.twimg.com/profile_images/2047411798953857024/QaW_Sgph_normal.jpg",
   "name": "Dallas Cowboys",
   "verified": true
  },
