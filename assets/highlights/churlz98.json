@@ -4,6 +4,25 @@
   "note": "Curated: X has no public search API, so posts are collected by hand and matched to rosters by this script.",
   "tweets": [
     {
+      "url": "https://www.espn.com/video/clip/_/id/50498368/pat-freiermuth-fights-goal-line-powerful-steelers-td",
+      "player": "Aaron Rodgers",
+      "meta": "QB \u00b7 PIT",
+      "date": "2026-11-16",
+      "author": "ESPN",
+      "text": "Pat Freiermuth fights across the goal line for a powerful Steelers TD",
+      "verified": true,
+      "faves": 0,
+      "secs": 0,
+      "espn_game": "401873064",
+      "game_id": "401873064",
+      "game_time": "Q4 7:19",
+      "play_key": "401873064:4018730643817",
+      "played_at": "2026-11-16T04:05:44Z",
+      "poster": "https://espnmedia-cdn.akamaized.net/espn/media/common/2026/1115/5fa6c31e398a4702b41950faad5d2f811436/5fa6c31e398a4702b41950faad5d2f811436.jpg",
+      "published": "2026-11-16T04:15:17Z",
+      "video": "https://espnmedia-cdn.akamaized.net/espn/media/16x9/wsc/2026/1116/5fa6c31e-398a-4702-b419-50faad5d2f81/5fa6c31e-398a-4702-b419-50faad5d2f81.mp4"
+    },
+    {
       "url": "https://x.com/dallascowboys/status/2122126984851382757",
       "player": "CeeDee Lamb",
       "meta": "WR \u00b7 DAL",
@@ -332,6 +351,21 @@
       "author_name": "Chicago Bears",
       "avatar": "",
       "author_verified": true
+    },
+    {
+      "url": "https://www.espn.com/video/clip/_/id/50491725/travis-hunter-comes-slick-int-jaguars",
+      "player": "Travis Hunter",
+      "meta": "DB \u00b7 JAX",
+      "date": "2026-11-15",
+      "author": "ESPN",
+      "text": "Travis Hunter comes up with slick INT for Jaguars.  Travis Hunter comes up with slick INT for Jaguars",
+      "verified": true,
+      "faves": 0,
+      "secs": 0,
+      "espn_game": "401873057",
+      "poster": "https://espnmedia-cdn.akamaized.net/espn/media/common/wsc/2026/1115/1897a22d-13d2-4361-bf01-cb86b52e3528/1897a22d-13d2-4361-bf01-cb86b52e3528.jpg",
+      "published": "2026-11-15T18:42:35Z",
+      "video": "https://espnmedia-cdn.akamaized.net/espn/media/16x9/wsc/2026/1115/1897a22d-13d2-4361-bf01-cb86b52e3528/1897a22d-13d2-4361-bf01-cb86b52e3528.mp4"
     }
   ]
 }
