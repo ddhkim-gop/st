@@ -3421,6 +3421,26 @@
   "published": "2026-11-15T22:40:51Z",
   "video": "https://espnmedia-cdn.akamaized.net/espn/media/16x9/wsc/2026/1115/7756ddc7-2740-4e2d-9895-93492b4a2a2e/7756ddc7-2740-4e2d-9895-93492b4a2a2e.mp4"
  },
+ "https://www.espn.com/video/clip/_/id/50495150/dak-prescott-george-pickens-link-their-2nd-td-connection-1st-half": {
+  "espn_game": "401873063",
+  "game_id": "401873063",
+  "game_time": "Q2 4:08",
+  "play_key": "401873063:4018730631746",
+  "played_at": "2026-11-15T22:28:34Z",
+  "poster": "https://espnmedia-cdn.akamaized.net/espn/media/common/2026/1115/cf54906811344d0c9927ea551bdf0e691085/cf54906811344d0c9927ea551bdf0e691085.jpg",
+  "published": "2026-11-15T22:45:29Z",
+  "video": "https://espnmedia-cdn.akamaized.net/espn/media/16x9/wsc/2026/1115/cf549068-1134-4d0c-9927-ea551bdf0e69/cf549068-1134-4d0c-9927-ea551bdf0e69.mp4"
+ },
+ "https://www.espn.com/video/clip/_/id/50495213/brock-purdy-scrambles-eventually-finds-cmc-thrilling-74-yard-td": {
+  "espn_game": "401873063",
+  "game_id": "401873063",
+  "game_time": "Q2 2:26",
+  "play_key": "401873063:4018730631873",
+  "played_at": "2026-11-15T22:34:51Z",
+  "poster": "https://espnmedia-cdn.akamaized.net/espn/media/common/2026/1115/885e202407f045b58183c09d7c1b164b1090/885e202407f045b58183c09d7c1b164b1090.jpg",
+  "published": "2026-11-15T22:52:51Z",
+  "video": "https://espnmedia-cdn.akamaized.net/espn/media/16x9/wsc/2026/1115/885e2024-07f0-45b5-8183-c09d7c1b164b/885e2024-07f0-45b5-8183-c09d7c1b164b.mp4"
+ },
  "https://www.espn.com/video/clip/_/id/50495227/jadarian-price-dashes-seahawks-td": {
   "espn_game": "401873062",
   "game_id": "401873062",
@@ -3441,6 +3461,16 @@
   "published": "2026-11-15T22:56:59Z",
   "video": "https://espnmedia-cdn.akamaized.net/espn/media/16x9/wsc/2026/1115/a1cff51b-0dec-4146-8ca8-0540a0de081f/a1cff51b-0dec-4146-8ca8-0540a0de081f.mp4"
  },
+ "https://www.espn.com/video/clip/_/id/50495784/kaelon-black-plows-end-zone-san-francisco": {
+  "espn_game": "401873063",
+  "game_id": "401873063",
+  "game_time": "Q3 12:10",
+  "play_key": "401873063:4018730632498",
+  "played_at": "2026-11-15T23:14:09Z",
+  "poster": "https://espnmedia-cdn.akamaized.net/espn/media/common/2026/1115/f49db9840d874144a1a678d2b17fc6db1117/f49db9840d874144a1a678d2b17fc6db1117.jpg",
+  "published": "2026-11-15T23:33:12Z",
+  "video": "https://espnmedia-cdn.akamaized.net/espn/media/16x9/wsc/2026/1115/f49db984-0d87-4144-a1a6-78d2b17fc6db/f49db984-0d87-4144-a1a6-78d2b17fc6db.mp4"
+ },
  "https://www.espn.com/video/clip/_/id/50495823/blake-corum-registers-td-sixth-straight-game-rams": {
   "espn_game": "401873061",
   "game_id": "401873061",
@@ -3460,6 +3490,26 @@
   "poster": "https://espnmedia-cdn.akamaized.net/espn/media/common/wsc/2026/1115/84b783a5-04f8-4a8f-a2ec-8bb7210045e8/84b783a5-04f8-4a8f-a2ec-8bb7210045e8.jpg",
   "published": "2026-11-15T23:48:14Z",
   "video": "https://espnmedia-cdn.akamaized.net/espn/media/16x9/wsc/2026/1115/84b783a5-04f8-4a8f-a2ec-8bb7210045e8/84b783a5-04f8-4a8f-a2ec-8bb7210045e8.mp4"
+ },
+ "https://www.espn.com/video/clip/_/id/50496045/deebo-samuel-sr-somersaults-end-zone-49ers-td": {
+  "espn_game": "401873063",
+  "game_id": "401873063",
+  "game_time": "Q1 6:56",
+  "play_key": "401873063:401873063558",
+  "played_at": "2026-11-15T21:43:21Z",
+  "poster": "https://espnmedia-cdn.akamaized.net/espn/media/common/2026/1115/2448013a3c03486482da2bc21e449f251182/2448013a3c03486482da2bc21e449f251182.jpg",
+  "published": "2026-11-15T23:50:52Z",
+  "video": "https://espnmedia-cdn.akamaized.net/espn/media/16x9/wsc/2026/1115/2448013a-3c03-4864-82da-2bc21e449f25/2448013a-3c03-4864-82da-2bc21e449f25.mp4"
+ },
+ "https://www.espn.com/video/clip/_/id/50496336/christian-mccaffrey-takes-house-again-49ers": {
+  "espn_game": "401873063",
+  "game_id": "401873063",
+  "game_time": "Q4 11:26",
+  "play_key": "401873063:4018730633376",
+  "played_at": "2026-11-15T23:51:23Z",
+  "poster": "https://espnmedia-cdn.akamaized.net/espn/media/common/wsc/2026/1116/7165068c-717a-43f1-81f1-e0085b7d3b36/7165068c-717a-43f1-81f1-e0085b7d3b36.jpg",
+  "published": "2026-11-16T00:11:14Z",
+  "video": "https://espnmedia-cdn.akamaized.net/espn/media/16x9/wsc/2026/1116/7165068c-717a-43f1-81f1-e0085b7d3b36/7165068c-717a-43f1-81f1-e0085b7d3b36.mp4"
  },
  "https://www.youtube.com/shorts/-9mLHMkLMRw": {
   "poster": "https://i.ytimg.com/vi/-9mLHMkLMRw/hqdefault.jpg",
@@ -7909,6 +7959,52 @@
   "poster": "https://pbs.twimg.com/amplify_video_thumb/2119572743901401088/img/yneb9Y0-S7UBv9tU.jpg",
   "published": "2026-11-08T23:30:54Z",
   "video": "https://video.twimg.com/amplify_video/2119572743901401088/vid/avc1/1920x1080/NdVFv0BXGcN1BVkE.mp4"
+ },
+ "https://x.com/49ers/status/2122106616002576603": {
+  "game_id": "401873063",
+  "game_time": "Q3 12:10",
+  "play_key": "401873063:4018730632498",
+  "played_at": "2026-11-15T23:14:09Z",
+  "poster": "https://pbs.twimg.com/amplify_video_thumb/2122106115555020801/img/I22mn4uL-S0io4OA.jpg",
+  "published": "2026-11-15T23:16:58Z",
+  "video": "https://video.twimg.com/amplify_video/2122106115555020801/vid/avc1/1920x1080/YomY3aAD-ZX3leB2.mp4"
+ },
+ "https://x.com/49ers/status/2122110215961108653": {
+  "game_id": "401873063",
+  "game_time": "Q3 6:59",
+  "play_key": "401873063:4018730632807",
+  "played_at": "2026-11-15T23:28:26Z",
+  "poster": "https://pbs.twimg.com/amplify_video_thumb/2122109762062184448/img/zvpeqgg6iTnYTzLR.jpg",
+  "published": "2026-11-15T23:31:17Z",
+  "video": "https://video.twimg.com/amplify_video/2122109762062184448/vid/avc1/1920x1080/QcyHvkHfr5gI5Xvh.mp4"
+ },
+ "https://x.com/49ers/status/2122116068617388240": {
+  "game_id": "401873063",
+  "game_time": "Q4 11:26",
+  "play_key": "401873063:4018730633376",
+  "played_at": "2026-11-15T23:51:23Z",
+  "poster": "https://pbs.twimg.com/amplify_video_thumb/2122115512641683456/img/MS6HU8m61Kdtaeks.jpg",
+  "published": "2026-11-15T23:54:32Z",
+  "video": "https://video.twimg.com/amplify_video/2122115512641683456/vid/avc1/1920x1080/WST3sn771Kc2hw5a.mp4"
+ },
+ "https://x.com/49ers/status/2122123384284954897": {
+  "game_id": "401873063",
+  "game_time": "Q4 3:23",
+  "play_key": "401873063:4018730634162",
+  "played_at": "2026-11-16T00:20:22Z",
+  "poster": "https://pbs.twimg.com/amplify_video_thumb/2122122792636141568/img/vbG0EhqOwiVSQ_V9.jpg",
+  "published": "2026-11-16T00:23:36Z",
+  "video": "https://video.twimg.com/amplify_video/2122122792636141568/vid/avc1/1920x1080/5omyZlO2-dzeiDpk.mp4"
+ },
+ "https://x.com/49ers/status/2122131086033735992": {
+  "poster": "https://pbs.twimg.com/amplify_video_thumb/2122131052181528576/img/dquXHHArummw1ShH.jpg",
+  "published": "2026-11-16T00:54:12Z",
+  "video": "https://video.twimg.com/amplify_video/2122131052181528576/vid/avc1/720x1280/g5Mf-Qq2g3rcrlog.mp4"
+ },
+ "https://x.com/49ers/status/2122133660883419168": {
+  "poster": "https://pbs.twimg.com/amplify_video_thumb/2122132592833286144/img/_5nLJhxkTfwCA4m4.jpg",
+  "published": "2026-11-16T01:04:26Z",
+  "video": "https://video.twimg.com/amplify_video/2122132592833286144/vid/avc1/1080x1920/4ySN9nnsdLLg0WwO.mp4"
  },
  "https://x.com/923TheFan/status/2092936216907751557": {
   "poster": "https://pbs.twimg.com/amplify_video_thumb/2092935894789455873/img/4aUsiitcyCFXfhXC.jpg?name=orig",

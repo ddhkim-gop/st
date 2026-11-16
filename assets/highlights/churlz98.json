@@ -4,6 +4,27 @@
   "note": "Curated: X has no public search API, so posts are collected by hand and matched to rosters by this script.",
   "tweets": [
     {
+      "url": "https://x.com/49ers/status/2122123384284954897",
+      "player": "Brock Purdy",
+      "meta": "QB \u00b7 SF",
+      "date": "2026-11-16",
+      "author": "49ers",
+      "text": "Don't leave CMC in the open field\n\n\ud83d\udcfa: FOX",
+      "verified": true,
+      "faves": 1422,
+      "secs": 15,
+      "game_id": "401873063",
+      "game_time": "Q4 3:23",
+      "play_key": "401873063:4018730634162",
+      "played_at": "2026-11-16T00:20:22Z",
+      "poster": "https://pbs.twimg.com/amplify_video_thumb/2122122792636141568/img/vbG0EhqOwiVSQ_V9.jpg",
+      "published": "2026-11-16T00:23:36Z",
+      "video": "https://video.twimg.com/amplify_video/2122122792636141568/vid/avc1/1920x1080/5omyZlO2-dzeiDpk.mp4",
+      "author_name": "San Francisco 49ers",
+      "avatar": "https://pbs.twimg.com/profile_images/2106827392912359424/VM4grny-_normal.jpg",
+      "author_verified": true
+    },
+    {
       "url": "https://x.com/NFL/status/2122113545580249133",
       "player": "Ashton Jeanty",
       "meta": "RB \u00b7 LV",
@@ -23,6 +44,25 @@
       "author_name": "NFL",
       "avatar": "https://pbs.twimg.com/profile_images/1619895559334273028/PHKS_mjX_normal.jpg",
       "author_verified": true
+    },
+    {
+      "url": "https://www.espn.com/video/clip/_/id/50495213/brock-purdy-scrambles-eventually-finds-cmc-thrilling-74-yard-td",
+      "player": "Brock Purdy",
+      "meta": "QB \u00b7 SF",
+      "date": "2026-11-15",
+      "author": "ESPN",
+      "text": "Brock Purdy scrambles, eventually finds CMC for thrilling 74-yard TD",
+      "verified": true,
+      "faves": 0,
+      "secs": 0,
+      "espn_game": "401873063",
+      "game_id": "401873063",
+      "game_time": "Q2 2:26",
+      "play_key": "401873063:4018730631873",
+      "played_at": "2026-11-15T22:34:51Z",
+      "poster": "https://espnmedia-cdn.akamaized.net/espn/media/common/2026/1115/885e202407f045b58183c09d7c1b164b1090/885e202407f045b58183c09d7c1b164b1090.jpg",
+      "published": "2026-11-15T22:52:51Z",
+      "video": "https://espnmedia-cdn.akamaized.net/espn/media/16x9/wsc/2026/1115/885e2024-07f0-45b5-8183-c09d7c1b164b/885e2024-07f0-45b5-8183-c09d7c1b164b.mp4"
     },
     {
       "url": "https://x.com/RamsNFL/status/2122091735102939352",
