@@ -4,6 +4,27 @@
   "note": "Curated: X has no public search API, so posts are collected by hand and matched to rosters by this script.",
   "tweets": [
     {
+      "url": "https://x.com/dallascowboys/status/2122126984851382757",
+      "player": "CeeDee Lamb",
+      "meta": "WR \u00b7 DAL",
+      "date": "2026-11-16",
+      "author": "dallascowboys",
+      "text": ".@_CeeDeeThree with a TD \ud83d\ude4c\n\n\ud83d\udcfa: #SFvsDAL on FOX\n\ud83d\udcf2: Stream on NFL+",
+      "verified": true,
+      "faves": 378,
+      "secs": 14,
+      "game_id": "401873063",
+      "game_time": "Q4 0:43",
+      "play_key": "401873063:4018730634619",
+      "played_at": "2026-11-16T00:36:03Z",
+      "poster": "https://pbs.twimg.com/amplify_video_thumb/2122126797588303873/img/WVeLk-qHO43s0iuV.jpg",
+      "published": "2026-11-16T00:37:55Z",
+      "video": "https://video.twimg.com/amplify_video/2122126797588303873/vid/avc1/1920x1080/9YMAnCKB84KOK_vZ.mp4",
+      "author_name": "Dallas Cowboys",
+      "avatar": "https://pbs.twimg.com/profile_images/2047411798953857024/QaW_Sgph_normal.jpg",
+      "author_verified": true
+    },
+    {
       "url": "https://x.com/49ers/status/2122123384284954897",
       "player": "Brock Purdy",
       "meta": "QB \u00b7 SF",
