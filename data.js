@@ -9113,7 +9113,7 @@ window.__STATIC_DATA__ = {
           "height": "71",
           "weight": "179",
           "years_exp": 3,
-          "status": "Active",
+          "status": "Inactive",
           "injury_status": "Out",
           "search_rank": 99
         },
