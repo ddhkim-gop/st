@@ -1,6 +1,6 @@
 {
   "team": "ddhk",
-  "updated": "2026-11-16",
+  "updated": "2026-11-17",
   "note": "Curated: X has no public search API, so posts are collected by hand and matched to rosters by this script.",
   "tweets": [
     {
@@ -320,6 +320,23 @@
       "published": "2026-11-10T02:43:48Z",
       "video": "https://video.twimg.com/amplify_video/2119984052413272064/vid/avc1/1920x1080/aJ6gUUjlfRI1IJDz.mp4",
       "author_name": "Buffalo Bills",
+      "avatar": "",
+      "author_verified": true
+    },
+    {
+      "url": "https://www.youtube.com/shorts/G93l1bu_KT4",
+      "player": "Isaiah Likely",
+      "meta": "TE \u00b7 NYG",
+      "date": "2026-11-16",
+      "author": "NYGiants",
+      "text": "\ud83c\udf99\ufe0f \"3rd & Likely again!\" #newyorkgiants #nfl #shorts #radiocall #isaiahlikely #highlights #football",
+      "verified": false,
+      "faves": 376,
+      "secs": 19,
+      "poster": "https://i.ytimg.com/vi/G93l1bu_KT4/hqdefault.jpg",
+      "published": "2026-11-16T16:53:15Z",
+      "youtube": "G93l1bu_KT4",
+      "author_name": "New York Giants",
       "avatar": "",
       "author_verified": true
     },
