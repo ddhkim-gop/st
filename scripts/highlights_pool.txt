@@ -410,6 +410,7 @@ https://www.espn.com/video/clip/_/id/50498257/aaron-rodgers-finds-dk-metcalf-muc
 https://www.espn.com/video/clip/_/id/50498368/pat-freiermuth-fights-goal-line-powerful-steelers-td
 https://www.espn.com/video/clip/_/id/50498452/burrow-throws-4-tds-bengals-blow-steelers
 https://www.espn.com/video/clip/_/id/50507150/omarion-hampton-plows-goal-line-chargers-td
+https://www.espn.com/video/clip/_/id/50507656/derrick-henry-2nd-rushing-td-pulls-ravens-closer
 https://www.youtube.com/shorts/-Prt969WqGo
 https://www.youtube.com/shorts/0Kc6nRU_KTk
 https://www.youtube.com/shorts/0jULrvtDSho
@@ -657,8 +658,6 @@ https://x.com/Buccaneers/status/2108376259143098606
 https://x.com/Buccaneers/status/2108376949077021061
 https://x.com/Buccaneers/status/2108380136743539171
 https://x.com/Buccaneers/status/2108380304763236824
-https://x.com/Buccaneers/status/2119648603333402944
-https://x.com/Buccaneers/status/2119648748431118821
 https://x.com/BuffaloBills/status/2106830827346706721
 https://x.com/BuffaloBills/status/2106834704028635476
 https://x.com/BuffaloBills/status/2119938562112012396
@@ -923,6 +922,7 @@ https://x.com/NFL/status/2122509899049640254
 https://x.com/NFL/status/2122511311317954867
 https://x.com/NFL/status/2122517850036617435
 https://x.com/NFL/status/2122531386083115275
+https://x.com/NFL/status/2122536203807584494
 https://x.com/NFLTDsVideos/status/2098243863588540602
 https://x.com/NFLTDsVideos/status/2099189736858419294
 https://x.com/NFLTDsVideos/status/2099201418368262610
@@ -1040,6 +1040,8 @@ https://x.com/Ravens/status/2106802392213660031
 https://x.com/Ravens/status/2106807352884097375
 https://x.com/Ravens/status/2106807766937444788
 https://x.com/Ravens/status/2122511512967258439
+https://x.com/Ravens/status/2122536025750749381
+https://x.com/Ravens/status/2122537772590260454
 https://x.com/RotoBaller/status/2095960020219310539
 https://x.com/RotoBaller/status/2096015618826801341
 https://x.com/RotoBaller/status/2096015904819613939

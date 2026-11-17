@@ -3633,6 +3633,16 @@
   "published": "2026-11-17T02:39:38Z",
   "video": "https://espnmedia-cdn.akamaized.net/espn/media/16x9/wsc/2026/1117/acdf85a9-dd05-44ea-8580-5dbdfb17d37b/acdf85a9-dd05-44ea-8580-5dbdfb17d37b.mp4"
  },
+ "https://www.espn.com/video/clip/_/id/50507656/derrick-henry-2nd-rushing-td-pulls-ravens-closer": {
+  "espn_game": "401873065",
+  "game_id": "401873065",
+  "game_time": "Q4 10:23",
+  "play_key": "401873065:4018730653461",
+  "played_at": "2026-11-17T03:48:50Z",
+  "poster": "https://espnmedia-cdn.akamaized.net/espn/media/common/wsc/2026/1117/4e412606-6b22-4382-bbef-9b456ee2bf66/4e412606-6b22-4382-bbef-9b456ee2bf66.jpg",
+  "published": "2026-11-17T03:56:52Z",
+  "video": "https://espnmedia-cdn.akamaized.net/espn/media/16x9/wsc/2026/1117/4e412606-6b22-4382-bbef-9b456ee2bf66/4e412606-6b22-4382-bbef-9b456ee2bf66.mp4"
+ },
  "https://www.youtube.com/shorts/-9mLHMkLMRw": {
   "poster": "https://i.ytimg.com/vi/-9mLHMkLMRw/hqdefault.jpg",
   "published": "2026-09-21T18:33:52Z",
@@ -13661,6 +13671,11 @@
   "published": "2026-11-17T03:24:51Z",
   "video": "https://video.twimg.com/amplify_video/2122531268244242432/vid/avc1/1920x1080/CRGY_irk3ZbcPVCM.mp4"
  },
+ "https://x.com/NFL/status/2122536203807584494": {
+  "poster": "https://pbs.twimg.com/amplify_video_thumb/2122535927860125696/img/m3lsT8kwEoIZqVju.jpg",
+  "published": "2026-11-17T03:44:00Z",
+  "video": "https://video.twimg.com/amplify_video/2122535927860125696/vid/avc1/1920x1080/NZJ7Tp_rYBB5sMZ6.mp4"
+ },
  "https://x.com/NFLBrasil/status/2093514185812431184": {
   "poster": "https://pbs.twimg.com/amplify_video_thumb/2093514163834269696/img/j7GWyppCmf8GOls3.jpg?name=orig",
   "video": "https://video.twimg.com/amplify_video/2093514163834269696/vid/avc1/1280x720/y5dLJwg1_3YNaVlG.mp4?tag=16"
@@ -14920,6 +14935,24 @@
   "poster": "https://pbs.twimg.com/amplify_video_thumb/2122511367328432128/img/-a7u0bbJFevRk6z8.jpg",
   "published": "2026-11-17T02:05:53Z",
   "video": "https://video.twimg.com/amplify_video/2122511367328432128/vid/avc1/1920x1080/-PAaJhYgC25AjI-D.mp4"
+ },
+ "https://x.com/Ravens/status/2122536025750749381": {
+  "game_id": "401873065",
+  "game_time": "Q4 12:59",
+  "play_key": "401873065:4018730653333",
+  "played_at": "2026-11-17T03:44:10Z",
+  "poster": "https://pbs.twimg.com/amplify_video_thumb/2122535910138851328/img/QzADIzEBDEmy3aI1.jpg",
+  "published": "2026-11-17T03:43:18Z",
+  "video": "https://video.twimg.com/amplify_video/2122535910138851328/vid/avc1/1920x1080/I39QMrnHRFoOhoNi.mp4"
+ },
+ "https://x.com/Ravens/status/2122537772590260454": {
+  "game_id": "401873065",
+  "game_time": "Q4 10:23",
+  "play_key": "401873065:4018730653461",
+  "played_at": "2026-11-17T03:48:50Z",
+  "poster": "https://pbs.twimg.com/amplify_video_thumb/2122537718487953408/img/sE2QQ-UMHZo-dJOK.jpg",
+  "published": "2026-11-17T03:50:14Z",
+  "video": "https://video.twimg.com/amplify_video/2122537718487953408/vid/avc1/1920x1080/FZfvS8u7fnYbBroK.mp4"
  },
  "https://x.com/RavensTalkPod/status/2091862525839282630": {
   "poster": "https://pbs.twimg.com/amplify_video_thumb/2091862384998793216/img/HVkBMkkHGTu6Ewv7.jpg?name=orig",
