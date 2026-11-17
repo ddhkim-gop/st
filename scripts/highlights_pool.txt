@@ -469,7 +469,6 @@ https://www.youtube.com/shorts/FqK2bLtHr98
 https://www.youtube.com/shorts/FvdjEnK4yjM
 https://www.youtube.com/shorts/G2tOYPJ6sXs
 https://www.youtube.com/shorts/G93l1bu_KT4
-https://www.youtube.com/shorts/GI2NLJ7gl2Y
 https://www.youtube.com/shorts/GgLZp4Uxavw
 https://www.youtube.com/shorts/GoEVZAlu0GU
 https://www.youtube.com/shorts/HT2FfqeHANk
@@ -661,8 +660,6 @@ https://x.com/Buccaneers/status/2108380304763236824
 https://x.com/BuffaloBills/status/2106830827346706721
 https://x.com/BuffaloBills/status/2106834704028635476
 https://x.com/BuffaloBills/status/2119938562112012396
-https://x.com/BuffaloBills/status/2119984341048537488
-https://x.com/BuffaloBills/status/2120004975103242403
 https://x.com/BuffaloBills/status/2120013199231664304
 https://x.com/BuffaloBills/status/2122057732488376770
 https://x.com/BuffaloBills/status/2122061373710422295
@@ -670,7 +667,6 @@ https://x.com/BuffaloBills/status/2122070575602352469
 https://x.com/ChiSportsTracks/status/2095307339750404405
 https://x.com/ChicagoBears/status/2106801196447019476
 https://x.com/ChicagoBears/status/2106812813222011267
-https://x.com/ChicagoBears/status/2119650238877028825
 https://x.com/Chiefs/status/2106851118496006565
 https://x.com/Chiefs/status/2122020144633327976
 https://x.com/Chiefs/status/2122035792558088327
@@ -834,7 +830,6 @@ https://x.com/NFL/status/2108391133898305792
 https://x.com/NFL/status/2108391656336552296
 https://x.com/NFL/status/2108396520860966930
 https://x.com/NFL/status/2108402594401906716
-https://x.com/NFL/status/2119650417973871049
 https://x.com/NFL/status/2119942503533338733
 https://x.com/NFL/status/2119960338498232547
 https://x.com/NFL/status/2119961160825065828
@@ -1009,6 +1004,9 @@ https://x.com/NFLonFOX/status/2122086662641791385
 https://x.com/NFLonFOX/status/2122090829154287899
 https://x.com/NFLonFOX/status/2122091586444239328
 https://x.com/NFLonFOX/status/2122162353345339445
+https://x.com/NFLonFOX/status/2122352986479632735
+https://x.com/NFLonFOX/status/2122419936819859456
+https://x.com/NFLonFOX/status/2122451778579161337
 https://x.com/Nate_Tice/status/2095691914121265331
 https://x.com/NotJustFootball/status/2095953794605645913
 https://x.com/OwenGregorian/status/2096200858102813005
