@@ -3639,9 +3639,21 @@
   "game_time": "Q4 10:23",
   "play_key": "401873065:4018730653461",
   "played_at": "2026-11-17T03:48:50Z",
-  "poster": "https://espnmedia-cdn.akamaized.net/espn/media/common/wsc/2026/1117/4e412606-6b22-4382-bbef-9b456ee2bf66/4e412606-6b22-4382-bbef-9b456ee2bf66.jpg",
+  "poster": "https://espnmedia-cdn.akamaized.net/espn/media/common/2026/1116/4e4126066b224382bbef9b456ee2bf661429/4e4126066b224382bbef9b456ee2bf661429.jpg",
   "published": "2026-11-17T03:56:52Z",
   "video": "https://espnmedia-cdn.akamaized.net/espn/media/16x9/wsc/2026/1117/4e412606-6b22-4382-bbef-9b456ee2bf66/4e412606-6b22-4382-bbef-9b456ee2bf66.mp4"
+ },
+ "https://www.espn.com/video/clip/_/id/50507817/justice-hill-breaks-free-big-ravens-1st-down": {
+  "espn_game": "401873065",
+  "poster": "https://espnmedia-cdn.akamaized.net/espn/media/common/2026/1116/ff5010be88994a578b9d7401f67df07f1424/ff5010be88994a578b9d7401f67df07f1424.jpg",
+  "published": "2026-11-17T04:36:43Z",
+  "video": "https://espnmedia-cdn.akamaized.net/espn/media/16x9/wsc/2026/1117/ff5010be-8899-4a57-8b9d-7401f67df07f/ff5010be-8899-4a57-8b9d-7401f67df07f.mp4"
+ },
+ "https://www.espn.com/video/clip/_/id/50507821/rashod-bateman-makes-amazing-grab-traffic": {
+  "espn_game": "401873065",
+  "poster": "https://espnmedia-cdn.akamaized.net/espn/media/common/2026/1116/5623b86dcf6e4033a964c89780e2a0571425/5623b86dcf6e4033a964c89780e2a0571425.jpg",
+  "published": "2026-11-17T04:37:29Z",
+  "video": "https://espnmedia-cdn.akamaized.net/espn/media/16x9/wsc/2026/1117/5623b86d-cf6e-4033-a964-c89780e2a057/5623b86d-cf6e-4033-a964-c89780e2a057.mp4"
  },
  "https://www.youtube.com/shorts/-9mLHMkLMRw": {
   "poster": "https://i.ytimg.com/vi/-9mLHMkLMRw/hqdefault.jpg",
@@ -3983,6 +3995,11 @@
   "published": "2026-10-25T18:06:11Z",
   "youtube": "46LOhrADqYc"
  },
+ "https://www.youtube.com/shorts/471Q_g0GJ8k": {
+  "poster": "https://i.ytimg.com/vi/471Q_g0GJ8k/hqdefault.jpg",
+  "published": "2026-11-17T17:38:22Z",
+  "youtube": "471Q_g0GJ8k"
+ },
  "https://www.youtube.com/shorts/47oizF9bIdU": {
   "poster": "https://i.ytimg.com/vi/47oizF9bIdU/hqdefault.jpg",
   "published": "2026-10-27T01:25:56Z",
@@ -4040,6 +4057,11 @@
   "poster": "https://i.ytimg.com/vi/4hmDSAWa56E/hqdefault.jpg",
   "published": "2026-11-08T19:53:26Z",
   "youtube": "4hmDSAWa56E"
+ },
+ "https://www.youtube.com/shorts/4jTjAk-N0OY": {
+  "poster": "https://i.ytimg.com/vi/4jTjAk-N0OY/hqdefault.jpg",
+  "published": "2026-11-17T19:00:29Z",
+  "youtube": "4jTjAk-N0OY"
  },
  "https://www.youtube.com/shorts/4tcsd6fljT4": {
   "poster": "https://i.ytimg.com/vi/4tcsd6fljT4/hqdefault.jpg",
@@ -4315,6 +4337,11 @@
   "poster": "https://i.ytimg.com/vi/8u7nzamh0uU/hqdefault.jpg",
   "published": "2026-09-29T20:50:36Z",
   "youtube": "8u7nzamh0uU"
+ },
+ "https://www.youtube.com/shorts/8y12eHI0brg": {
+  "poster": "https://i.ytimg.com/vi/8y12eHI0brg/hqdefault.jpg",
+  "published": "2026-11-17T17:00:35Z",
+  "youtube": "8y12eHI0brg"
  },
  "https://www.youtube.com/shorts/9-k2aXYRa8U": {
   "poster": "https://i.ytimg.com/vi/9-k2aXYRa8U/hqdefault.jpg",
@@ -4971,6 +4998,11 @@
   "published": "2026-10-25T22:37:35Z",
   "youtube": "GxpnQScVLJE"
  },
+ "https://www.youtube.com/shorts/H1GCsGuYqf4": {
+  "poster": "https://i.ytimg.com/vi/H1GCsGuYqf4/hqdefault.jpg",
+  "published": "2026-11-17T21:00:33Z",
+  "youtube": "H1GCsGuYqf4"
+ },
  "https://www.youtube.com/shorts/H5Cr98aSjzQ": {
   "game_id": "401873049",
   "game_time": "Q3 1:11",
@@ -5007,6 +5039,11 @@
   "poster": "https://i.ytimg.com/vi/HV4OPRkzBzA/hqdefault.jpg",
   "published": "2026-10-30T16:00:39Z",
   "youtube": "HV4OPRkzBzA"
+ },
+ "https://www.youtube.com/shorts/HWFcTdMKIm8": {
+  "poster": "https://i.ytimg.com/vi/HWFcTdMKIm8/hqdefault.jpg",
+  "published": "2026-11-17T21:30:22Z",
+  "youtube": "HWFcTdMKIm8"
  },
  "https://www.youtube.com/shorts/Ho7T9JgOTeg": {
   "poster": "https://i.ytimg.com/vi/Ho7T9JgOTeg/hqdefault.jpg",
@@ -5159,6 +5196,11 @@
   "poster": "https://i.ytimg.com/vi/JUO_0eR4LdI/hqdefault.jpg",
   "published": "2026-11-15T17:51:08Z",
   "youtube": "JUO_0eR4LdI"
+ },
+ "https://www.youtube.com/shorts/JeumY2QKpjw": {
+  "poster": "https://i.ytimg.com/vi/JeumY2QKpjw/hqdefault.jpg",
+  "published": "2026-11-18T00:55:56Z",
+  "youtube": "JeumY2QKpjw"
  },
  "https://www.youtube.com/shorts/JjbScqrSKY0": {
   "game_id": "401873025",
@@ -5458,6 +5500,11 @@
   "poster": "https://i.ytimg.com/vi/OF7EE8wQm_E/hqdefault.jpg",
   "published": "2026-10-04T21:01:28Z",
   "youtube": "OF7EE8wQm_E"
+ },
+ "https://www.youtube.com/shorts/OFFED34e-7M": {
+  "poster": "https://i.ytimg.com/vi/OFFED34e-7M/hqdefault.jpg",
+  "published": "2026-11-17T21:42:38Z",
+  "youtube": "OFFED34e-7M"
  },
  "https://www.youtube.com/shorts/OHXxBSvY7pI": {
   "poster": "https://i.ytimg.com/vi/OHXxBSvY7pI/hqdefault.jpg",
@@ -6375,6 +6422,11 @@
   "published": "2026-10-25T18:51:36Z",
   "youtube": "amvmMpf3qpg"
  },
+ "https://www.youtube.com/shorts/apPNGlazFKM": {
+  "poster": "https://i.ytimg.com/vi/apPNGlazFKM/hqdefault.jpg",
+  "published": "2026-11-17T19:00:15Z",
+  "youtube": "apPNGlazFKM"
+ },
  "https://www.youtube.com/shorts/asXR2t7MC8A": {
   "poster": "https://i.ytimg.com/vi/asXR2t7MC8A/hqdefault.jpg",
   "published": "2026-11-16T01:04:16Z",
@@ -6484,6 +6536,11 @@
   "poster": "https://i.ytimg.com/vi/ckz1XjbvBYk/hqdefault.jpg",
   "published": "2026-10-04T19:50:36Z",
   "youtube": "ckz1XjbvBYk"
+ },
+ "https://www.youtube.com/shorts/cqkMsEmOPpI": {
+  "poster": "https://i.ytimg.com/vi/cqkMsEmOPpI/hqdefault.jpg",
+  "published": "2026-11-17T22:35:30Z",
+  "youtube": "cqkMsEmOPpI"
  },
  "https://www.youtube.com/shorts/csmdgIJLu64": {
   "poster": "https://i.ytimg.com/vi/csmdgIJLu64/hqdefault.jpg",
@@ -7044,6 +7101,11 @@
   "poster": "https://i.ytimg.com/vi/kXiEugPvWJ4/hqdefault.jpg",
   "published": "2026-11-01T23:45:27Z",
   "youtube": "kXiEugPvWJ4"
+ },
+ "https://www.youtube.com/shorts/kXwEw95oCQ4": {
+  "poster": "https://i.ytimg.com/vi/kXwEw95oCQ4/hqdefault.jpg",
+  "published": "2026-11-17T18:24:12Z",
+  "youtube": "kXwEw95oCQ4"
  },
  "https://www.youtube.com/shorts/kZtqiE98saw": {
   "poster": "https://i.ytimg.com/vi/kZtqiE98saw/hqdefault.jpg",
@@ -7905,6 +7967,11 @@
   "poster": "https://i.ytimg.com/vi/xVcbYK9LT18/hqdefault.jpg",
   "published": "2026-10-25T15:58:41Z",
   "youtube": "xVcbYK9LT18"
+ },
+ "https://www.youtube.com/shorts/xVxa6HMdTt0": {
+  "poster": "https://i.ytimg.com/vi/xVxa6HMdTt0/hqdefault.jpg",
+  "published": "2026-11-17T21:00:37Z",
+  "youtube": "xVxa6HMdTt0"
  },
  "https://www.youtube.com/shorts/xafut2NyiaY": {
   "game_id": "401872964",

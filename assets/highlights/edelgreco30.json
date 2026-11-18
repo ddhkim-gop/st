@@ -1,6 +1,6 @@
 {
   "team": "edelgreco30",
-  "updated": "2026-11-17",
+  "updated": "2026-11-18",
   "note": "Curated: X has no public search API, so posts are collected by hand and matched to rosters by this script.",
   "tweets": [
     {
@@ -145,7 +145,7 @@
       "published": "2026-11-13T04:12:44Z",
       "video": "https://video.twimg.com/amplify_video/2121093673513361409/vid/avc1/1920x1080/9nUHNd0QDsl6qwX1.mp4",
       "author_name": "Washington Commanders",
-      "avatar": "https://pbs.twimg.com/profile_images/2043720907617632256/ceXYRByJ_normal.jpg",
+      "avatar": "",
       "author_verified": true
     },
     {
@@ -185,7 +185,7 @@
       "published": "2026-11-13T02:33:29Z",
       "video": "https://video.twimg.com/amplify_video/2121068776338685952/vid/avc1/1920x1080/PMH1nLQ9Io0P9bCH.mp4",
       "author_name": "Washington Commanders",
-      "avatar": "https://pbs.twimg.com/profile_images/2043720907617632256/ceXYRByJ_normal.jpg",
+      "avatar": "",
       "author_verified": true
     }
   ]

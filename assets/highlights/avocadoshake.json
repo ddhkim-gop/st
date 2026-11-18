@@ -1,6 +1,6 @@
 {
   "team": "avocadoshake",
-  "updated": "2026-11-17",
+  "updated": "2026-11-18",
   "note": "Curated: X has no public search API, so posts are collected by hand and matched to rosters by this script.",
   "tweets": [
     {
@@ -366,6 +366,21 @@
       "author_name": "NFL",
       "avatar": "https://pbs.twimg.com/profile_images/1619895559334273028/PHKS_mjX_normal.jpg",
       "author_verified": true
+    },
+    {
+      "url": "https://www.espn.com/video/clip/_/id/50507817/justice-hill-breaks-free-big-ravens-1st-down",
+      "player": "Justice Hill",
+      "meta": "RB \u00b7 BAL",
+      "date": "2026-11-17",
+      "author": "ESPN",
+      "text": "Justice Hill breaks free for a big-time Ravens 1st down",
+      "verified": true,
+      "faves": 0,
+      "secs": 0,
+      "espn_game": "401873065",
+      "poster": "https://espnmedia-cdn.akamaized.net/espn/media/common/2026/1116/ff5010be88994a578b9d7401f67df07f1424/ff5010be88994a578b9d7401f67df07f1424.jpg",
+      "published": "2026-11-17T04:36:43Z",
+      "video": "https://espnmedia-cdn.akamaized.net/espn/media/16x9/wsc/2026/1117/ff5010be-8899-4a57-8b9d-7401f67df07f/ff5010be-8899-4a57-8b9d-7401f67df07f.mp4"
     },
     {
       "url": "https://x.com/NFLonFOX/status/2122075868592025702",

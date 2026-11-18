@@ -1,6 +1,6 @@
 {
   "team": "rat444",
-  "updated": "2026-11-17",
+  "updated": "2026-11-18",
   "note": "Curated: X has no public search API, so posts are collected by hand and matched to rosters by this script.",
   "tweets": [
     {
@@ -18,7 +18,7 @@
       "game_time": "Q4 10:23",
       "play_key": "401873065:4018730653461",
       "played_at": "2026-11-17T03:48:50Z",
-      "poster": "https://espnmedia-cdn.akamaized.net/espn/media/common/wsc/2026/1117/4e412606-6b22-4382-bbef-9b456ee2bf66/4e412606-6b22-4382-bbef-9b456ee2bf66.jpg",
+      "poster": "https://espnmedia-cdn.akamaized.net/espn/media/common/2026/1116/4e4126066b224382bbef9b456ee2bf661429/4e4126066b224382bbef9b456ee2bf661429.jpg",
       "published": "2026-11-17T03:56:52Z",
       "video": "https://espnmedia-cdn.akamaized.net/espn/media/16x9/wsc/2026/1117/4e412606-6b22-4382-bbef-9b456ee2bf66/4e412606-6b22-4382-bbef-9b456ee2bf66.mp4"
     },
@@ -303,6 +303,21 @@
       "author_name": "NFL",
       "avatar": "https://pbs.twimg.com/profile_images/1619895559334273028/PHKS_mjX_normal.jpg",
       "author_verified": true
+    },
+    {
+      "url": "https://www.espn.com/video/clip/_/id/50507821/rashod-bateman-makes-amazing-grab-traffic",
+      "player": "Rashod Bateman",
+      "meta": "WR \u00b7 BAL",
+      "date": "2026-11-17",
+      "author": "ESPN",
+      "text": "Rashod Bateman makes an amazing grab in traffic. Rashod Bateman makes an amazing grab in traffic  ",
+      "verified": true,
+      "faves": 0,
+      "secs": 0,
+      "espn_game": "401873065",
+      "poster": "https://espnmedia-cdn.akamaized.net/espn/media/common/2026/1116/5623b86dcf6e4033a964c89780e2a0571425/5623b86dcf6e4033a964c89780e2a0571425.jpg",
+      "published": "2026-11-17T04:37:29Z",
+      "video": "https://espnmedia-cdn.akamaized.net/espn/media/16x9/wsc/2026/1117/5623b86d-cf6e-4033-a964-c89780e2a057/5623b86d-cf6e-4033-a964-c89780e2a057.mp4"
     }
   ]
 }

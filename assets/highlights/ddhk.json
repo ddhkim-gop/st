@@ -1,6 +1,6 @@
 {
   "team": "ddhk",
-  "updated": "2026-11-17",
+  "updated": "2026-11-18",
   "note": "Curated: X has no public search API, so posts are collected by hand and matched to rosters by this script.",
   "tweets": [
     {
@@ -280,44 +280,6 @@
       "poster": "https://espnmedia-cdn.akamaized.net/espn/media/common/2026/1112/eb4b161e7be84a369b601d4f85008af61410/eb4b161e7be84a369b601d4f85008af61410.jpg",
       "published": "2026-11-13T03:52:28Z",
       "video": "https://espnmedia-cdn.akamaized.net/espn/media/16x9/wsc/2026/1113/eb4b161e-7be8-4a36-9b60-1d4f85008af6/eb4b161e-7be8-4a36-9b60-1d4f85008af6.mp4"
-    },
-    {
-      "url": "https://www.espn.com/video/clip/_/id/50439289/james-cook-iii-cooks-dive-end-zone-bills-td",
-      "player": "James Cook III",
-      "meta": "RB \u00b7 BUF",
-      "date": "2026-11-10",
-      "author": "ESPN",
-      "text": "James Cook III cooks up a dive into the end zone for Bills TD. James Cook III cooks up a dive into the end zone for Bills TD  ",
-      "verified": true,
-      "faves": 0,
-      "secs": 0,
-      "espn_game": "401873051",
-      "game_id": "401873051",
-      "game_time": "Q4 6:17",
-      "play_key": "401873051:4018730513698",
-      "played_at": "2026-11-10T04:04:23Z",
-      "poster": "https://espnmedia-cdn.akamaized.net/espn/media/common/2026/1109/16f7045f16bf4794b80839f530afa3d91398/16f7045f16bf4794b80839f530afa3d91398.jpg",
-      "published": "2026-11-10T04:14:05Z",
-      "video": "https://espnmedia-cdn.akamaized.net/espn/media/16x9/wsc/2026/1110/16f7045f-16bf-4794-b808-39f530afa3d9/16f7045f-16bf-4794-b808-39f530afa3d9.mp4"
-    },
-    {
-      "url": "https://www.espn.com/video/clip/_/id/50438454/keleki-latu-hauls-first-nfl-td-dime-josh-allen",
-      "player": "Josh Allen",
-      "meta": "QB \u00b7 BUF",
-      "date": "2026-11-10",
-      "author": "ESPN",
-      "text": "Keleki Latu hauls in his first NFL TD on dime from Josh Allen",
-      "verified": true,
-      "faves": 0,
-      "secs": 0,
-      "espn_game": "401873051",
-      "game_id": "401873051",
-      "game_time": "Q2 0:44",
-      "play_key": "401873051:4018730512011",
-      "played_at": "2026-11-10T02:42:02Z",
-      "poster": "https://espnmedia-cdn.akamaized.net/espn/media/common/2026/1109/233afea7a83340aea846f644b0708c081318/233afea7a83340aea846f644b0708c081318.jpg",
-      "published": "2026-11-10T02:55:04Z",
-      "video": "https://espnmedia-cdn.akamaized.net/espn/media/16x9/wsc/2026/1110/233afea7-a833-40ae-a846-f644b0708c08/233afea7-a833-40ae-a846-f644b0708c08.mp4"
     },
     {
       "url": "https://www.youtube.com/shorts/G93l1bu_KT4",
