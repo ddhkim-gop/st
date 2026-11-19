@@ -1,6 +1,6 @@
 {
   "team": "paddleham",
-  "updated": "2026-11-18",
+  "updated": "2026-11-19",
   "note": "Curated: X has no public search API, so posts are collected by hand and matched to rosters by this script.",
   "tweets": [
     {
@@ -208,7 +208,7 @@
       "published": "2026-11-15T18:46:42Z",
       "video": "https://video.twimg.com/amplify_video/2122038274323578880/vid/avc1/1920x1080/vN0wNgYPfr1RkbOC.mp4",
       "author_name": "Houston Texans",
-      "avatar": "https://pbs.twimg.com/profile_images/2114711843369312256/McuBshxd_normal.jpg",
+      "avatar": "",
       "author_verified": true
     },
     {
