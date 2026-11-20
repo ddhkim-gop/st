@@ -3661,6 +3661,36 @@
   "published": "2026-11-18T13:59:09Z",
   "video": "https://espnmedia-cdn.akamaized.net/espn/media/16x9/2026/1118/ss_20261118_085910184_3747727/ss_20261118_085910184_3747727.mp4"
  },
+ "https://www.espn.com/video/clip/_/id/50536298/cj-stroud-fires-46-yard-dime-nico-collins-texans-td": {
+  "espn_game": "401873066",
+  "game_id": "401873066",
+  "game_time": "Q1 2:14",
+  "play_key": "401873066:401873066834",
+  "played_at": "2026-11-20T01:49:58Z",
+  "poster": "https://espnmedia-cdn.akamaized.net/espn/media/common/wsc/2026/1120/535362da-4bd8-4320-9c51-ff446272a7a0/535362da-4bd8-4320-9c51-ff446272a7a0.jpg",
+  "published": "2026-11-20T01:59:49Z",
+  "video": "https://espnmedia-cdn.akamaized.net/espn/media/16x9/wsc/2026/1120/535362da-4bd8-4320-9c51-ff446272a7a0/535362da-4bd8-4320-9c51-ff446272a7a0.mp4"
+ },
+ "https://www.espn.com/video/clip/_/id/50536522/kayshon-boutte-rises-make-awesome-grab-texans-td": {
+  "espn_game": "401873066",
+  "game_id": "401873066",
+  "game_time": "Q2 7:38",
+  "play_key": "401873066:4018730661357",
+  "played_at": "2026-11-20T02:09:14Z",
+  "poster": "https://espnmedia-cdn.akamaized.net/espn/media/common/wsc/2026/1120/566a5763-3469-43df-8c80-69e9ab89cd36/566a5763-3469-43df-8c80-69e9ab89cd36.jpg",
+  "published": "2026-11-20T02:19:56Z",
+  "video": "https://espnmedia-cdn.akamaized.net/espn/media/16x9/wsc/2026/1120/566a5763-3469-43df-8c80-69e9ab89cd36/566a5763-3469-43df-8c80-69e9ab89cd36.mp4"
+ },
+ "https://www.espn.com/video/clip/_/id/50537202/cj-stroud-finds-marlin-klein-3rd-passing-td": {
+  "espn_game": "401873066",
+  "game_id": "401873066",
+  "game_time": "Q3 4:19",
+  "play_key": "401873066:4018730662675",
+  "played_at": "2026-11-20T03:22:56Z",
+  "poster": "https://espnmedia-cdn.akamaized.net/espn/media/common/wsc/2026/1120/fddfb86a-75b8-404b-a3c0-b89329f7e12b/fddfb86a-75b8-404b-a3c0-b89329f7e12b.jpg",
+  "published": "2026-11-20T03:33:41Z",
+  "video": "https://espnmedia-cdn.akamaized.net/espn/media/16x9/wsc/2026/1120/fddfb86a-75b8-404b-a3c0-b89329f7e12b/fddfb86a-75b8-404b-a3c0-b89329f7e12b.mp4"
+ },
  "https://www.youtube.com/shorts/-9mLHMkLMRw": {
   "poster": "https://i.ytimg.com/vi/-9mLHMkLMRw/hqdefault.jpg",
   "published": "2026-09-21T18:33:52Z",
@@ -7905,6 +7935,15 @@
   "poster": "https://i.ytimg.com/vi/uIcQrkXsf2E/hqdefault.jpg",
   "published": "2026-11-15T22:24:58Z",
   "youtube": "uIcQrkXsf2E"
+ },
+ "https://www.youtube.com/shorts/uO3mAsnggpc": {
+  "game_id": "401873066",
+  "game_time": "Q3 4:19",
+  "play_key": "401873066:4018730662675",
+  "played_at": "2026-11-20T03:22:56Z",
+  "poster": "https://i.ytimg.com/vi/uO3mAsnggpc/hqdefault.jpg",
+  "published": "2026-11-20T03:28:58Z",
+  "youtube": "uO3mAsnggpc"
  },
  "https://www.youtube.com/shorts/uQkLS3gsO_M": {
   "poster": "https://i.ytimg.com/vi/uQkLS3gsO_M/hqdefault.jpg",
@@ -13986,6 +14025,24 @@
   "poster": "https://pbs.twimg.com/amplify_video_thumb/2123594799047737344/img/IPpWuqttwR1p4Iri.jpg",
   "published": "2026-11-20T01:51:38Z",
   "video": "https://video.twimg.com/amplify_video/2123594799047737344/vid/avc1/1920x1080/sl5QsDxK63HJ9CPa.mp4"
+ },
+ "https://x.com/NFL/status/2123599940811387062": {
+  "game_id": "401873066",
+  "game_time": "Q2 7:38",
+  "play_key": "401873066:4018730661357",
+  "played_at": "2026-11-20T02:09:14Z",
+  "poster": "https://pbs.twimg.com/amplify_video_thumb/2123599703359254528/img/VRz3d8PJF0-U7Lu_.jpg",
+  "published": "2026-11-20T02:10:55Z",
+  "video": "https://video.twimg.com/amplify_video/2123599703359254528/vid/avc1/1920x1080/TE7Lg2DL1hHJ8lcq.mp4"
+ },
+ "https://x.com/NFL/status/2123618818589429900": {
+  "game_id": "401873066",
+  "game_time": "Q3 4:19",
+  "play_key": "401873066:4018730662675",
+  "played_at": "2026-11-20T03:22:56Z",
+  "poster": "https://pbs.twimg.com/amplify_video_thumb/2123618208884371456/img/KngxW-1jswLTDI06.jpg",
+  "published": "2026-11-20T03:25:55Z",
+  "video": "https://video.twimg.com/amplify_video/2123618208884371456/vid/avc1/1920x1080/sXO6fksv-s9DCxih.mp4"
  },
  "https://x.com/NFLBrasil/status/2093514185812431184": {
   "poster": "https://pbs.twimg.com/amplify_video_thumb/2093514163834269696/img/j7GWyppCmf8GOls3.jpg?name=orig",
