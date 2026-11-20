@@ -441,7 +441,6 @@ https://www.youtube.com/shorts/8HxN-qobDrs
 https://www.youtube.com/shorts/8h5nj4uqzfI
 https://www.youtube.com/shorts/8y12eHI0brg
 https://www.youtube.com/shorts/9Mgkk24wgaM
-https://www.youtube.com/shorts/A0I9UNX3Xj8
 https://www.youtube.com/shorts/A87w47d0ZL0
 https://www.youtube.com/shorts/A_-hr6hsZeQ
 https://www.youtube.com/shorts/B4TtH-JspLg
@@ -453,10 +452,13 @@ https://www.youtube.com/shorts/C8ipQWaQqok
 https://www.youtube.com/shorts/CLdTX8tpmcw
 https://www.youtube.com/shorts/CLsGai-oYRY
 https://www.youtube.com/shorts/CQ6de6kSsgo
+https://www.youtube.com/shorts/Ck64lXIqBZk
+https://www.youtube.com/shorts/CuhxJ-lSooo
 https://www.youtube.com/shorts/Cz5B0Stsvd4
 https://www.youtube.com/shorts/DebK26u_ur8
 https://www.youtube.com/shorts/DyveDd1muUI
 https://www.youtube.com/shorts/E1wZWY3gpJU
+https://www.youtube.com/shorts/E9SA36l0XAw
 https://www.youtube.com/shorts/ENlELPC-bzI
 https://www.youtube.com/shorts/EUjHZIUrOJI
 https://www.youtube.com/shorts/EsbnIZgG1fk
@@ -471,7 +473,6 @@ https://www.youtube.com/shorts/G2tOYPJ6sXs
 https://www.youtube.com/shorts/G93l1bu_KT4
 https://www.youtube.com/shorts/GgLZp4Uxavw
 https://www.youtube.com/shorts/H1GCsGuYqf4
-https://www.youtube.com/shorts/HT2FfqeHANk
 https://www.youtube.com/shorts/HWFcTdMKIm8
 https://www.youtube.com/shorts/IG-d47I-4WQ
 https://www.youtube.com/shorts/IPX2q_kBS6c
@@ -485,7 +486,6 @@ https://www.youtube.com/shorts/JjhDcN19MpQ
 https://www.youtube.com/shorts/KGGHgIMzfC8
 https://www.youtube.com/shorts/KQeJROoUaS0
 https://www.youtube.com/shorts/Knn_RjHERWg
-https://www.youtube.com/shorts/KwoUVs7vGOQ
 https://www.youtube.com/shorts/L-IXNyFKbbk
 https://www.youtube.com/shorts/Me6EXEEodfE
 https://www.youtube.com/shorts/NK8u3se_i5Q
@@ -512,12 +512,10 @@ https://www.youtube.com/shorts/TJLMntIHi1Y
 https://www.youtube.com/shorts/UTWN858YWfw
 https://www.youtube.com/shorts/UdzJgyKFnPI
 https://www.youtube.com/shorts/Um-deoXMRwo
-https://www.youtube.com/shorts/UmfVGyGS3-k
 https://www.youtube.com/shorts/V2-AvBNV_Eg
 https://www.youtube.com/shorts/VBM3O49Cl5w
 https://www.youtube.com/shorts/VDIPVr_HkMI
 https://www.youtube.com/shorts/VHcNnHIo9Fo
-https://www.youtube.com/shorts/VWy9kebEZps
 https://www.youtube.com/shorts/W8gQQSo0yps
 https://www.youtube.com/shorts/WTHgELwUBmg
 https://www.youtube.com/shorts/Y3y1P-FHeH0
@@ -549,7 +547,6 @@ https://www.youtube.com/shorts/cNmI4rdspJ0
 https://www.youtube.com/shorts/ckz1XjbvBYk
 https://www.youtube.com/shorts/cqkMsEmOPpI
 https://www.youtube.com/shorts/d5pJV4RQp9I
-https://www.youtube.com/shorts/eMf-nIvM4Ao
 https://www.youtube.com/shorts/eONqUWPKNiU
 https://www.youtube.com/shorts/elHjI0TnNjQ
 https://www.youtube.com/shorts/emjILSWVrxA
@@ -569,6 +566,7 @@ https://www.youtube.com/shorts/j2W18AF8Kb4
 https://www.youtube.com/shorts/jesK-xSr7WE
 https://www.youtube.com/shorts/jsbOu0B5Sx8
 https://www.youtube.com/shorts/kOpGf9e_AIE
+https://www.youtube.com/shorts/kQNwJkS_ZHQ
 https://www.youtube.com/shorts/kXwEw95oCQ4
 https://www.youtube.com/shorts/kZtqiE98saw
 https://www.youtube.com/shorts/kswxVTD4HR8
@@ -591,17 +589,14 @@ https://www.youtube.com/shorts/p6Wg6s9kiUs
 https://www.youtube.com/shorts/p8Ix14UFFfI
 https://www.youtube.com/shorts/pUV0rxHKDqE
 https://www.youtube.com/shorts/pmvGlg_7_2w
-https://www.youtube.com/shorts/ppsYN2LHT9o
 https://www.youtube.com/shorts/prh-ln9Tg0E
 https://www.youtube.com/shorts/pzDyhwyroCM
 https://www.youtube.com/shorts/pzEqG_nkRY0
 https://www.youtube.com/shorts/qbGeiIjJhYI
 https://www.youtube.com/shorts/qd2tOmM48K8
 https://www.youtube.com/shorts/qk5NaIMsxO4
-https://www.youtube.com/shorts/qlwWA4LIfxM
 https://www.youtube.com/shorts/rZK2zYip9GY
 https://www.youtube.com/shorts/rpuLeGhwf34
-https://www.youtube.com/shorts/s-PUZdrfpQI
 https://www.youtube.com/shorts/sEyQOcwkWXU
 https://www.youtube.com/shorts/sVab8XDQERo
 https://www.youtube.com/shorts/shvnIgpAUno
@@ -620,9 +615,9 @@ https://www.youtube.com/shorts/xVxa6HMdTt0
 https://www.youtube.com/shorts/xafut2NyiaY
 https://www.youtube.com/shorts/xufe2KU-xvg
 https://www.youtube.com/shorts/yYylJ6NZZ3k
+https://www.youtube.com/shorts/ytR7lxsG-iY
 https://www.youtube.com/shorts/z-MTbpSL_pA
 https://www.youtube.com/shorts/z157Jd7s7_g
-https://www.youtube.com/shorts/zZtMWR3QICg
 https://www.youtube.com/shorts/zwORWFkvqJM
 https://x.com/49ers/status/2122106616002576603
 https://x.com/49ers/status/2122110215961108653
@@ -845,6 +840,7 @@ https://x.com/NFL/status/2121732407904682084
 https://x.com/NFL/status/2121979549520892158
 https://x.com/NFL/status/2122019677673320866
 https://x.com/NFL/status/2122025249025986606
+https://x.com/NFL/status/2122028879900713387
 https://x.com/NFL/status/2122029844250910899
 https://x.com/NFL/status/2122030182706082126
 https://x.com/NFL/status/2122030388100894930
@@ -922,6 +918,7 @@ https://x.com/NFL/status/2122531386083115275
 https://x.com/NFL/status/2122536203807584494
 https://x.com/NFL/status/2122542654269608136
 https://x.com/NFL/status/2122550638005612605
+https://x.com/NFL/status/2123576179512992165
 https://x.com/NFLTDsVideos/status/2098243863588540602
 https://x.com/NFLTDsVideos/status/2099189736858419294
 https://x.com/NFLTDsVideos/status/2099201418368262610

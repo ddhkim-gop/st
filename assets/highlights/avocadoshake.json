@@ -1,6 +1,6 @@
 {
   "team": "avocadoshake",
-  "updated": "2026-11-19",
+  "updated": "2026-11-20",
   "note": "Curated: X has no public search API, so posts are collected by hand and matched to rosters by this script.",
   "tweets": [
     {
@@ -82,7 +82,7 @@
       "published": "2026-11-16T00:37:55Z",
       "video": "https://video.twimg.com/amplify_video/2122126797588303873/vid/avc1/1920x1080/9YMAnCKB84KOK_vZ.mp4",
       "author_name": "Dallas Cowboys",
-      "avatar": "https://pbs.twimg.com/profile_images/2047411798953857024/QaW_Sgph_normal.jpg",
+      "avatar": "",
       "author_verified": true
     },
     {
@@ -103,7 +103,7 @@
       "published": "2026-11-16T00:17:08Z",
       "video": "https://video.twimg.com/amplify_video/2122121576879419392/vid/avc1/1920x1080/gyyfXR7KjLg5tEJg.mp4",
       "author_name": "Dallas Cowboys",
-      "avatar": "https://pbs.twimg.com/profile_images/2047411798953857024/QaW_Sgph_normal.jpg",
+      "avatar": "",
       "author_verified": true
     },
     {
@@ -124,7 +124,7 @@
       "published": "2026-11-16T00:01:41Z",
       "video": "https://video.twimg.com/amplify_video/2122117688650530817/vid/avc1/1920x1080/kxJy34nHlwalel2K.mp4",
       "author_name": "Dallas Cowboys",
-      "avatar": "https://pbs.twimg.com/profile_images/2047411798953857024/QaW_Sgph_normal.jpg",
+      "avatar": "",
       "author_verified": true
     },
     {
@@ -166,7 +166,7 @@
       "published": "2026-11-15T22:30:54Z",
       "video": "https://video.twimg.com/amplify_video/2122094842750566401/vid/avc1/1920x1080/dX1KS_kOt3sLXhiU.mp4",
       "author_name": "Dallas Cowboys",
-      "avatar": "https://pbs.twimg.com/profile_images/2047411798953857024/QaW_Sgph_normal.jpg",
+      "avatar": "",
       "author_verified": true
     },
     {
