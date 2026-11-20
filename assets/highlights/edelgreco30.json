@@ -4,6 +4,27 @@
   "note": "Curated: X has no public search API, so posts are collected by hand and matched to rosters by this script.",
   "tweets": [
     {
+      "url": "https://x.com/HoustonTexans/status/2123600052119556599",
+      "player": "Kayshon Boutte",
+      "meta": "WR \u00b7 HOU",
+      "date": "2026-11-20",
+      "author": "HoustonTexans",
+      "text": "BALLER SHOT CALLER \u203c\ufe0f\n\n\ud83d\udcfa: @NFLonPRIME",
+      "verified": true,
+      "faves": 427,
+      "secs": 14,
+      "game_id": "401873066",
+      "game_time": "Q2 7:38",
+      "play_key": "401873066:4018730661357",
+      "played_at": "2026-11-20T02:09:14Z",
+      "poster": "https://pbs.twimg.com/amplify_video_thumb/2123599671830495232/img/plFkiJ6NAvrg8AoH.jpg",
+      "published": "2026-11-20T02:11:21Z",
+      "video": "https://video.twimg.com/amplify_video/2123599671830495232/vid/avc1/1920x1080/r_-B6DtYx1iik3qH.mp4",
+      "author_name": "Houston Texans",
+      "avatar": "",
+      "author_verified": true
+    },
+    {
       "url": "https://x.com/Panthers/status/2122072099237867526",
       "player": "Chuba Hubbard",
       "meta": "RB \u00b7 CAR",
