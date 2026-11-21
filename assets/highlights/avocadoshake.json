@@ -1,6 +1,6 @@
 {
   "team": "avocadoshake",
-  "updated": "2026-11-20",
+  "updated": "2026-11-21",
   "note": "Curated: X has no public search API, so posts are collected by hand and matched to rosters by this script.",
   "tweets": [
     {
@@ -414,25 +414,6 @@
       "poster": "https://espnmedia-cdn.akamaized.net/espn/media/common/2026/1115/8edcfaf00c454679bba6588dec9be747755/8edcfaf00c454679bba6588dec9be747755.jpg",
       "published": "2026-11-15T15:56:39Z",
       "video": "https://espnmedia-cdn.akamaized.net/espn/media/16x9/wsc/2026/1115/8edcfaf0-0c45-4679-bba6-588dec9be747/8edcfaf0-0c45-4679-bba6-588dec9be747.mp4"
-    },
-    {
-      "url": "https://www.espn.com/video/clip/_/id/50467771/antonio-williams-td-helps-commanders-reclaim-lead",
-      "player": "Antonio Williams",
-      "meta": "WR \u00b7 WAS",
-      "date": "2026-11-13",
-      "author": "ESPN",
-      "text": "Antonio Williams' TD helps Commanders reclaim lead",
-      "verified": true,
-      "faves": 0,
-      "secs": 0,
-      "espn_game": "401873052",
-      "game_id": "401873052",
-      "game_time": "Q3 6:56",
-      "play_key": "401873052:4018730522575",
-      "played_at": "2026-11-13T03:06:51Z",
-      "poster": "https://espnmedia-cdn.akamaized.net/espn/media/common/2026/1112/7b2cda1523254b3aaa70e898358da7db1419/7b2cda1523254b3aaa70e898358da7db1419.jpg",
-      "published": "2026-11-13T03:20:17Z",
-      "video": "https://espnmedia-cdn.akamaized.net/espn/media/16x9/wsc/2026/1113/7b2cda15-2325-4b3a-aa70-e898358da7db/7b2cda15-2325-4b3a-aa70-e898358da7db.mp4"
     },
     {
       "url": "https://www.espn.com/video/clip/_/id/50520478/can-vikings-make-super-bowl-run-kirk-cousins",

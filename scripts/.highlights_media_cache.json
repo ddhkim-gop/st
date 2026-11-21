@@ -3661,6 +3661,16 @@
   "published": "2026-11-18T13:59:09Z",
   "video": "https://espnmedia-cdn.akamaized.net/espn/media/16x9/2026/1118/ss_20261118_085910184_3747727/ss_20261118_085910184_3747727.mp4"
  },
+ "https://www.espn.com/video/clip/_/id/50536298/cj-stroud-fires-42-yard-dime-nico-collins-texans-td": {
+  "espn_game": "401873066",
+  "game_id": "401873066",
+  "game_time": "Q1 2:14",
+  "play_key": "401873066:401873066834",
+  "played_at": "2026-11-20T01:49:58Z",
+  "poster": "https://espnmedia-cdn.akamaized.net/espn/media/common/2026/1119/535362da4bd843209c51ff446272a7a01390/535362da4bd843209c51ff446272a7a01390.jpg",
+  "published": "2026-11-20T01:59:49Z",
+  "video": "https://espnmedia-cdn.akamaized.net/espn/media/16x9/wsc/2026/1120/535362da-4bd8-4320-9c51-ff446272a7a0/535362da-4bd8-4320-9c51-ff446272a7a0.mp4"
+ },
  "https://www.espn.com/video/clip/_/id/50536298/cj-stroud-fires-46-yard-dime-nico-collins-texans-td": {
   "espn_game": "401873066",
   "game_id": "401873066",
@@ -3677,7 +3687,7 @@
   "game_time": "Q2 7:38",
   "play_key": "401873066:4018730661357",
   "played_at": "2026-11-20T02:09:14Z",
-  "poster": "https://espnmedia-cdn.akamaized.net/espn/media/common/wsc/2026/1120/566a5763-3469-43df-8c80-69e9ab89cd36/566a5763-3469-43df-8c80-69e9ab89cd36.jpg",
+  "poster": "https://espnmedia-cdn.akamaized.net/espn/media/common/2026/1119/566a5763346943df8c8069e9ab89cd361392/566a5763346943df8c8069e9ab89cd361392.jpg",
   "published": "2026-11-20T02:19:56Z",
   "video": "https://espnmedia-cdn.akamaized.net/espn/media/16x9/wsc/2026/1120/566a5763-3469-43df-8c80-69e9ab89cd36/566a5763-3469-43df-8c80-69e9ab89cd36.mp4"
  },
@@ -3687,7 +3697,7 @@
   "game_time": "Q3 4:19",
   "play_key": "401873066:4018730662675",
   "played_at": "2026-11-20T03:22:56Z",
-  "poster": "https://espnmedia-cdn.akamaized.net/espn/media/common/wsc/2026/1120/fddfb86a-75b8-404b-a3c0-b89329f7e12b/fddfb86a-75b8-404b-a3c0-b89329f7e12b.jpg",
+  "poster": "https://espnmedia-cdn.akamaized.net/espn/media/common/2026/1119/fddfb86a75b8404ba3c0b89329f7e12b1394/fddfb86a75b8404ba3c0b89329f7e12b1394.jpg",
   "published": "2026-11-20T03:33:41Z",
   "video": "https://espnmedia-cdn.akamaized.net/espn/media/16x9/wsc/2026/1120/fddfb86a-75b8-404b-a3c0-b89329f7e12b/fddfb86a-75b8-404b-a3c0-b89329f7e12b.mp4"
  },
@@ -3996,6 +4006,11 @@
   "poster": "https://i.ytimg.com/vi/31qfsTYhWxM/hqdefault.jpg",
   "published": "2026-10-23T02:25:41Z",
   "youtube": "31qfsTYhWxM"
+ },
+ "https://www.youtube.com/shorts/3B_hyvWaLD8": {
+  "poster": "https://i.ytimg.com/vi/3B_hyvWaLD8/hqdefault.jpg",
+  "published": "2026-11-20T19:30:01Z",
+  "youtube": "3B_hyvWaLD8"
  },
  "https://www.youtube.com/shorts/3VCFtVG2CEo": {
   "poster": "https://i.ytimg.com/vi/3VCFtVG2CEo/hqdefault.jpg",
@@ -6054,6 +6069,11 @@
   "published": "2026-11-07T21:02:22Z",
   "youtube": "UI0KcWmDV0A"
  },
+ "https://www.youtube.com/shorts/UOhtQhyAYyU": {
+  "poster": "https://i.ytimg.com/vi/UOhtQhyAYyU/hqdefault.jpg",
+  "published": "2026-11-20T20:00:32Z",
+  "youtube": "UOhtQhyAYyU"
+ },
  "https://www.youtube.com/shorts/UTWN858YWfw": {
   "game_id": "401872977",
   "game_time": "Q1 9:55",
@@ -6557,6 +6577,11 @@
   "poster": "https://i.ytimg.com/vi/bA-i0exkvwc/hqdefault.jpg",
   "published": "2026-11-15T20:40:52Z",
   "youtube": "bA-i0exkvwc"
+ },
+ "https://www.youtube.com/shorts/bIztlHIUf-M": {
+  "poster": "https://i.ytimg.com/vi/bIztlHIUf-M/hqdefault.jpg",
+  "published": "2026-11-20T19:10:41Z",
+  "youtube": "bIztlHIUf-M"
  },
  "https://www.youtube.com/shorts/bMG4jCOCDj8": {
   "poster": "https://i.ytimg.com/vi/bMG4jCOCDj8/hqdefault.jpg",
@@ -7845,6 +7870,11 @@
   "poster": "https://i.ytimg.com/vi/sEyQOcwkWXU/hqdefault.jpg",
   "published": "2026-11-14T18:00:24Z",
   "youtube": "sEyQOcwkWXU"
+ },
+ "https://www.youtube.com/shorts/sFaVxKy9yqI": {
+  "poster": "https://i.ytimg.com/vi/sFaVxKy9yqI/hqdefault.jpg",
+  "published": "2026-11-20T20:35:30Z",
+  "youtube": "sFaVxKy9yqI"
  },
  "https://www.youtube.com/shorts/sVab8XDQERo": {
   "poster": "https://i.ytimg.com/vi/sVab8XDQERo/hqdefault.jpg",

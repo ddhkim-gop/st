@@ -1,6 +1,6 @@
 {
   "team": "ddhk",
-  "updated": "2026-11-20",
+  "updated": "2026-11-21",
   "note": "Curated: X has no public search API, so posts are collected by hand and matched to rosters by this script.",
   "tweets": [
     {
@@ -282,25 +282,6 @@
       "poster": "https://espnmedia-cdn.akamaized.net/espn/media/common/wsc/2026/1115/8e68b4c9-8973-46d8-9138-37349bc4d364/8e68b4c9-8973-46d8-9138-37349bc4d364.jpg",
       "published": "2026-11-15T18:31:08Z",
       "video": "https://espnmedia-cdn.akamaized.net/espn/media/16x9/wsc/2026/1115/8e68b4c9-8973-46d8-9138-37349bc4d364/8e68b4c9-8973-46d8-9138-37349bc4d364.mp4"
-    },
-    {
-      "url": "https://www.espn.com/video/clip/_/id/50468168/isaiah-likely-takes-66-yards-house-giants-td",
-      "player": "Isaiah Likely",
-      "meta": "TE \u00b7 NYG",
-      "date": "2026-11-13",
-      "author": "ESPN",
-      "text": "Isaiah Likely takes it 66 yards to the house for a Giants TD",
-      "verified": true,
-      "faves": 0,
-      "secs": 0,
-      "espn_game": "401873052",
-      "game_id": "401873052",
-      "game_time": "Q4 8:13",
-      "play_key": "401873052:4018730523467",
-      "played_at": "2026-11-13T03:40:29Z",
-      "poster": "https://espnmedia-cdn.akamaized.net/espn/media/common/2026/1112/eb4b161e7be84a369b601d4f85008af61410/eb4b161e7be84a369b601d4f85008af61410.jpg",
-      "published": "2026-11-13T03:52:28Z",
-      "video": "https://espnmedia-cdn.akamaized.net/espn/media/16x9/wsc/2026/1113/eb4b161e-7be8-4a36-9b60-1d4f85008af6/eb4b161e-7be8-4a36-9b60-1d4f85008af6.mp4"
     },
     {
       "url": "https://www.youtube.com/shorts/G93l1bu_KT4",
