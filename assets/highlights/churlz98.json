@@ -4,6 +4,27 @@
   "note": "Curated: X has no public search API, so posts are collected by hand and matched to rosters by this script.",
   "tweets": [
     {
+      "url": "https://x.com/NFL/status/2124594545757446523",
+      "player": "Carnell Tate",
+      "meta": "WR \u00b7 TEN",
+      "date": "2026-11-22",
+      "author": "NFL",
+      "text": "Nobody touched Carnell Tate and he scores!\n\nTENvsDAL on FOX/FOX One\nStream on @NFLPlus",
+      "verified": true,
+      "faves": 1299,
+      "secs": 14,
+      "game_id": "401873073",
+      "game_time": "Q3 7:19",
+      "play_key": "401873073:4018730732814",
+      "played_at": "2026-11-22T20:00:49Z",
+      "poster": "https://pbs.twimg.com/amplify_video_thumb/2124594454048989184/img/QOaWMdbc1xwkMsNh.jpg",
+      "published": "2026-11-22T20:03:07Z",
+      "video": "https://video.twimg.com/amplify_video/2124594454048989184/vid/avc1/1920x1080/zVDqFZOKHWjLCGOx.mp4",
+      "author_name": "NFL",
+      "avatar": "https://pbs.twimg.com/profile_images/1619895559334273028/PHKS_mjX_normal.jpg",
+      "author_verified": true
+    },
+    {
       "url": "https://x.com/ChicagoBears/status/2124579260316758191",
       "player": "Colston Loveland",
       "meta": "TE \u00b7 CHI",

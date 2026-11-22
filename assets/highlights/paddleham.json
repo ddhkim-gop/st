@@ -4,6 +4,27 @@
   "note": "Curated: X has no public search API, so posts are collected by hand and matched to rosters by this script.",
   "tweets": [
     {
+      "url": "https://x.com/NFL/status/2124596657786360081",
+      "player": "Xavier Worthy & Patrick Mahomes",
+      "meta": "WR \u00b7 KC",
+      "date": "2026-11-22",
+      "author": "NFL",
+      "text": "Xavier Worthy cuts it down the sideline and into the end zone\n\nAZvsKC on CBS/Paramount+\nStream on @NFLPlus",
+      "verified": true,
+      "faves": 525,
+      "secs": 9,
+      "game_id": "401873067",
+      "game_time": "Q4 14:54",
+      "play_key": "401873067:4018730673002",
+      "played_at": "2026-11-22T20:10:13Z",
+      "poster": "https://pbs.twimg.com/amplify_video_thumb/2124596540807303168/img/atVl1S89U88Vdips.jpg",
+      "published": "2026-11-22T20:11:30Z",
+      "video": "https://video.twimg.com/amplify_video/2124596540807303168/vid/avc1/1920x1080/w4Qdk9JzH6FGWmc3.mp4",
+      "author_name": "NFL",
+      "avatar": "https://pbs.twimg.com/profile_images/1619895559334273028/PHKS_mjX_normal.jpg",
+      "author_verified": true
+    },
+    {
       "url": "https://x.com/NFL/status/2124580406095671664",
       "player": "Patrick Mahomes",
       "meta": "QB \u00b7 KC",
