@@ -9479,7 +9479,7 @@ window.__STATIC_DATA__ = {
           "height": "74",
           "weight": "216",
           "years_exp": 3,
-          "status": "Active",
+          "status": "Inactive",
           "injury_status": "IR",
           "search_rank": 4
         },
