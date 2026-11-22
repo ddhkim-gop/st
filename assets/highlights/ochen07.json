@@ -4,6 +4,27 @@
   "note": "Curated: X has no public search API, so posts are collected by hand and matched to rosters by this script.",
   "tweets": [
     {
+      "url": "https://x.com/Giants/status/2124634370216522054",
+      "player": "J.J. McCarthy",
+      "meta": "QB \u00b7 NYG",
+      "date": "2026-11-22",
+      "author": "Giants",
+      "text": "Malik wide open in the end zone \ud83d\ude2e\u200d\ud83d\udca8\n\n\ud83d\udcfa: CBS",
+      "verified": true,
+      "faves": 1173,
+      "secs": 24,
+      "game_id": "401873069",
+      "game_time": "Q2 6:04",
+      "play_key": "401873069:4018730691911",
+      "played_at": "2026-11-22T22:39:49Z",
+      "poster": "https://pbs.twimg.com/amplify_video_thumb/2124634146777563136/img/baudBi2vbTFbsZBQ.jpg",
+      "published": "2026-11-22T22:41:22Z",
+      "video": "https://video.twimg.com/amplify_video/2124634146777563136/vid/avc1/1920x1080/vLwrVnpTkX1wY6IQ.mp4",
+      "author_name": "New York Giants",
+      "avatar": "https://pbs.twimg.com/profile_images/1948024945973272577/q2A09qic_normal.jpg",
+      "author_verified": true
+    },
+    {
       "url": "https://x.com/NFL/status/2124595376435179945",
       "player": "Chris Olave",
       "meta": "WR \u00b7 NO",
@@ -322,23 +343,6 @@
       "poster": "https://espnmedia-cdn.akamaized.net/espn/media/common/2026/1115/13c1f133f5e34898b04a4f98d2cc53de992/13c1f133f5e34898b04a4f98d2cc53de992.jpg",
       "published": "2026-11-15T18:59:33Z",
       "video": "https://espnmedia-cdn.akamaized.net/espn/media/16x9/wsc/2026/1115/13c1f133-f5e3-4898-b04a-4f98d2cc53de/13c1f133-f5e3-4898-b04a-4f98d2cc53de.mp4"
-    },
-    {
-      "url": "https://x.com/NFL/status/2124604443866079486",
-      "player": "J.J. McCarthy",
-      "meta": "QB \u00b7 NYG",
-      "date": "2026-11-22",
-      "author": "NFL",
-      "text": "Pregame reps with J.J. McCarthy \ud83d\udcaa\n\nJAXvsNYG - 4:25pm ET on CBS/Paramount+\nStream on @NFLPlus",
-      "verified": false,
-      "faves": 144,
-      "secs": 13,
-      "poster": "https://pbs.twimg.com/amplify_video_thumb/2124603662320443392/img/tOnmuZpjn0mxNQ-a.jpg",
-      "published": "2026-11-22T20:42:27Z",
-      "video": "https://video.twimg.com/amplify_video/2124603662320443392/vid/avc1/1080x1920/7yEvaFSthu4JgVyQ.mp4",
-      "author_name": "NFL",
-      "avatar": "https://pbs.twimg.com/profile_images/1619895559334273028/PHKS_mjX_normal.jpg",
-      "author_verified": true
     },
     {
       "url": "https://x.com/NFL/status/2122154821419667929",

@@ -4,6 +4,27 @@
   "note": "Curated: X has no public search API, so posts are collected by hand and matched to rosters by this script.",
   "tweets": [
     {
+      "url": "https://x.com/nyjets/status/2124610925525438551",
+      "player": "Adonai Mitchell",
+      "meta": "WR \u00b7 NYJ",
+      "date": "2026-11-22",
+      "author": "nyjets",
+      "text": "Adonai Mitchell for 21 yards and in Chargers territory",
+      "verified": true,
+      "faves": 45,
+      "secs": 8,
+      "game_id": "401873074",
+      "game_time": "Q1 13:12",
+      "play_key": "401873074:401873074129",
+      "played_at": "2026-11-22T21:07:39Z",
+      "poster": "https://pbs.twimg.com/amplify_video_thumb/2124610847305805825/img/Xl-ghoXTQN-tYSAP.jpg",
+      "published": "2026-11-22T21:08:12Z",
+      "video": "https://video.twimg.com/amplify_video/2124610847305805825/vid/avc1/1080x1080/SfOaH_kryNlRuKra.mp4",
+      "author_name": "New York Jets",
+      "avatar": "https://pbs.twimg.com/profile_images/2114726710214103040/pVXiph6H_normal.jpg",
+      "author_verified": true
+    },
+    {
       "url": "https://x.com/NFL/status/2124596314533159036",
       "player": "George Pickens",
       "meta": "WR \u00b7 DAL",
@@ -242,7 +263,7 @@
       "published": "2026-11-15T20:40:37Z",
       "video": "https://video.twimg.com/amplify_video/2088685573686927360/vid/avc1/1080x1080/wuuscVHrxNKUPQyQ.mp4",
       "author_name": "Jacksonville Jaguars",
-      "avatar": "",
+      "avatar": "https://pbs.twimg.com/profile_images/2117679003343396864/74pm70W2_normal.jpg",
       "author_verified": true
     },
     {

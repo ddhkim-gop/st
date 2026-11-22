@@ -4,6 +4,27 @@
   "note": "Curated: X has no public search API, so posts are collected by hand and matched to rosters by this script.",
   "tweets": [
     {
+      "url": "https://x.com/Giants/status/2124634370216522054",
+      "player": "Malik Nabers",
+      "meta": "WR \u00b7 NYG",
+      "date": "2026-11-22",
+      "author": "Giants",
+      "text": "Malik wide open in the end zone \ud83d\ude2e\u200d\ud83d\udca8\n\n\ud83d\udcfa: CBS",
+      "verified": true,
+      "faves": 1173,
+      "secs": 24,
+      "game_id": "401873069",
+      "game_time": "Q2 6:04",
+      "play_key": "401873069:4018730691911",
+      "played_at": "2026-11-22T22:39:49Z",
+      "poster": "https://pbs.twimg.com/amplify_video_thumb/2124634146777563136/img/baudBi2vbTFbsZBQ.jpg",
+      "published": "2026-11-22T22:41:22Z",
+      "video": "https://video.twimg.com/amplify_video/2124634146777563136/vid/avc1/1920x1080/vLwrVnpTkX1wY6IQ.mp4",
+      "author_name": "New York Giants",
+      "avatar": "https://pbs.twimg.com/profile_images/1948024945973272577/q2A09qic_normal.jpg",
+      "author_verified": true
+    },
+    {
       "url": "https://www.espn.com/video/clip/_/id/50564442/patrick-mahomes-finds-xavier-worthy-chiefs-td",
       "player": "Xavier Worthy & Patrick Mahomes",
       "meta": "WR \u00b7 KC",
