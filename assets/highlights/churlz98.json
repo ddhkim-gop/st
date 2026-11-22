@@ -4,6 +4,27 @@
   "note": "Curated: X has no public search API, so posts are collected by hand and matched to rosters by this script.",
   "tweets": [
     {
+      "url": "https://www.youtube.com/shorts/_VM4Err1Qaw",
+      "player": "Bo Nix",
+      "meta": "QB \u00b7 DEN",
+      "date": "2026-11-22",
+      "author": "Broncos",
+      "text": "The TJ reference on this call \ud83e\udde1 #broncos #trautman #tomjackson #touchdown #nfl",
+      "verified": true,
+      "faves": 79,
+      "secs": 16,
+      "game_id": "401873075",
+      "game_time": "Q2 14:50",
+      "play_key": "401873075:401873075987",
+      "played_at": "2026-11-22T22:01:27Z",
+      "poster": "https://i.ytimg.com/vi/_VM4Err1Qaw/hqdefault.jpg",
+      "published": "2026-11-22T22:13:26Z",
+      "youtube": "_VM4Err1Qaw",
+      "author_name": "Denver Broncos",
+      "avatar": "",
+      "author_verified": true
+    },
+    {
       "url": "https://www.espn.com/video/clip/_/id/50565011/max-hurleman-catches-td-1st-nfl-game",
       "player": "Aaron Rodgers",
       "meta": "QB \u00b7 PIT",
