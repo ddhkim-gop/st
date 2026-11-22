@@ -4,6 +4,27 @@
   "note": "Curated: X has no public search API, so posts are collected by hand and matched to rosters by this script.",
   "tweets": [
     {
+      "url": "https://x.com/NFL/status/2124555057765253447",
+      "player": "Jared Goff",
+      "meta": "QB \u00b7 DET",
+      "date": "2026-11-22",
+      "author": "NFL",
+      "text": "Can Jared Goff and the @Lions make it six straight Ws? \ud83d\udc40\n\nTBvsDET -- 1pm ET on FOX/FOX One\nStream on @NFLPlus",
+      "verified": false,
+      "faves": 278,
+      "secs": 13,
+      "poster": "https://pbs.twimg.com/media/HXvve1abkAE3TC8.jpg",
+      "published": "2026-11-22T17:26:12Z",
+      "video": "https://video.twimg.com/amplify_video/2124554540309741568/vid/avc1/1080x1920/xplyVUBatENLWePF.mp4",
+      "played_at": "2026-11-22T18:39:31Z",
+      "game_time": "Q2 10:37",
+      "play_key": "401873072:401873072997",
+      "game_id": "401873072",
+      "author_name": "NFL",
+      "avatar": "https://pbs.twimg.com/profile_images/1619895559334273028/PHKS_mjX_normal.jpg",
+      "author_verified": true
+    },
+    {
       "url": "https://www.espn.com/video/clip/_/id/50536522/kayshon-boutte-rises-make-awesome-grab-texans-td",
       "player": "Kayshon Boutte",
       "meta": "WR \u00b7 HOU",

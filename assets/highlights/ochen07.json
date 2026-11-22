@@ -4,6 +4,27 @@
   "note": "Curated: X has no public search API, so posts are collected by hand and matched to rosters by this script.",
   "tweets": [
     {
+      "url": "https://x.com/NFL/status/2124566327348105661",
+      "player": "Travis Kelce",
+      "meta": "TE \u00b7 KC",
+      "date": "2026-11-22",
+      "author": "NFL",
+      "text": "Mahomes, Kelce, touchdown.\n\nTBvsDET on FOX/FOX One\nStream on @NFLPlus",
+      "verified": true,
+      "faves": 964,
+      "secs": 8,
+      "game_id": "401873067",
+      "game_time": "Q1 9:46",
+      "play_key": "401873067:401873067306",
+      "played_at": "2026-11-22T18:10:07Z",
+      "poster": "https://pbs.twimg.com/amplify_video_thumb/2124566216824041472/img/Mo-elBqdGP2dA5MY.jpg",
+      "published": "2026-11-22T18:10:59Z",
+      "video": "https://video.twimg.com/amplify_video/2124566216824041472/vid/avc1/1920x1080/9j_XCTc-KRlS-rnw.mp4",
+      "author_name": "NFL",
+      "avatar": "https://pbs.twimg.com/profile_images/1619895559334273028/PHKS_mjX_normal.jpg",
+      "author_verified": true
+    },
+    {
       "url": "https://www.espn.com/video/clip/_/id/50498368/pat-freiermuth-fights-goal-line-powerful-steelers-td",
       "player": "Pat Freiermuth",
       "meta": "TE \u00b7 PIT",
