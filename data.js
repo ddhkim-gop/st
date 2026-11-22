@@ -7303,11 +7303,11 @@ window.__STATIC_DATA__ = {
           "search_rank": 417
         },
         {
-          "player_id": "BUF",
+          "player_id": "CHI",
           "espn_id": null,
-          "name": "Buffalo Bills",
+          "name": "Chicago Bears",
           "position": "DEF",
-          "team": "BUF",
+          "team": "CHI",
           "birth_date": null,
           "college": null,
           "height": null,
@@ -7318,11 +7318,11 @@ window.__STATIC_DATA__ = {
           "search_rank": null
         },
         {
-          "player_id": "CHI",
+          "player_id": "KC",
           "espn_id": null,
-          "name": "Chicago Bears",
+          "name": "Kansas City Chiefs",
           "position": "DEF",
-          "team": "CHI",
+          "team": "KC",
           "birth_date": null,
           "college": null,
           "height": null,
@@ -7350,7 +7350,7 @@ window.__STATIC_DATA__ = {
           "weight": "246",
           "years_exp": 3,
           "status": "Active",
-          "injury_status": "Doubtful",
+          "injury_status": "Out",
           "search_rank": 81
         },
         {
@@ -8979,7 +8979,7 @@ window.__STATIC_DATA__ = {
           "weight": "238",
           "years_exp": 11,
           "status": "Active",
-          "injury_status": "Questionable",
+          "injury_status": null,
           "search_rank": 356
         },
         {
@@ -9681,7 +9681,7 @@ window.__STATIC_DATA__ = {
           "weight": "192",
           "years_exp": 0,
           "status": "Active",
-          "injury_status": "Questionable",
+          "injury_status": null,
           "search_rank": 61
         },
         {
@@ -10109,6 +10109,34 @@ window.__STATIC_DATA__ = {
     }
   ],
   "transactions": [
+    {
+      "season": "2026",
+      "week": 11,
+      "created": "Nov 22, 2026 • 9:11 AM PT",
+      "transaction_id": "1430278586119520256",
+      "type": "free_agent",
+      "status": "complete",
+      "teams": [
+        "ddhk"
+      ],
+      "added": [
+        {
+          "name": "Kansas City Chiefs",
+          "position": "DEF",
+          "team": "KC"
+        }
+      ],
+      "dropped": [
+        {
+          "name": "Buffalo Bills",
+          "position": "DEF",
+          "team": "BUF"
+        }
+      ],
+      "faab": 0,
+      "waiver_bid": 0,
+      "notes": null
+    },
     {
       "season": "2026",
       "week": 11,
@@ -12406,7 +12434,7 @@ window.__STATIC_DATA__ = {
         {
           "name": "Brandin Cooks",
           "position": "WR",
-          "team": "SF"
+          "team": null
         }
       ],
       "faab": 0,
@@ -12511,7 +12539,7 @@ window.__STATIC_DATA__ = {
         {
           "name": "Brandin Cooks",
           "position": "WR",
-          "team": "SF"
+          "team": null
         }
       ],
       "dropped": [
