@@ -4,6 +4,27 @@
   "note": "Curated: X has no public search API, so posts are collected by hand and matched to rosters by this script.",
   "tweets": [
     {
+      "url": "https://x.com/49ers/status/2124713256392552827",
+      "player": "Christian McCaffrey",
+      "meta": "RB \u00b7 SF",
+      "date": "2026-11-23",
+      "author": "49ers",
+      "text": "Welcome to the end zone fiesta CMC \ud83c\udf8a\n\n\ud83d\udcfa NBC",
+      "verified": true,
+      "faves": 529,
+      "secs": 13,
+      "game_id": "401873077",
+      "game_time": "Q4 13:26",
+      "play_key": "401873077:4018730773056",
+      "played_at": "2026-11-23T03:51:45Z",
+      "poster": "https://pbs.twimg.com/amplify_video_thumb/2124712710499938304/img/6SiiR3Dk0Bcz-aDD.jpg",
+      "published": "2026-11-23T03:54:50Z",
+      "video": "https://video.twimg.com/amplify_video/2124712710499938304/vid/avc1/1920x1080/MFdshRHbL5s4h4uy.mp4",
+      "author_name": "San Francisco 49ers",
+      "avatar": "https://pbs.twimg.com/profile_images/2123117816677359616/ZuWwe6nH_normal.jpg",
+      "author_verified": true
+    },
+    {
       "url": "https://x.com/Giants/status/2124634370216522054",
       "player": "J.J. McCarthy",
       "meta": "QB \u00b7 NYG",
@@ -51,7 +72,7 @@
       "meta": "RB \u00b7 NO",
       "date": "2026-11-22",
       "author": "ESPN",
-      "text": "Live on FOX: Tyler Shough puts Saints on the board with TD pass to Alvin Kamara. Live on FOX: Tyler Shough puts Saints on the board with TD pass to Alvin Kamara  ",
+      "text": "Tyler Shough puts Saints on the board with TD pass to Alvin Kamara. Tyler Shough puts Saints on the board with TD pass to Alvin Kamara  ",
       "verified": true,
       "faves": 0,
       "secs": 0,
@@ -202,7 +223,7 @@
       "published": "2026-11-16T00:23:36Z",
       "video": "https://video.twimg.com/amplify_video/2122122792636141568/vid/avc1/1920x1080/5omyZlO2-dzeiDpk.mp4",
       "author_name": "San Francisco 49ers",
-      "avatar": "",
+      "avatar": "https://pbs.twimg.com/profile_images/2123117816677359616/ZuWwe6nH_normal.jpg",
       "author_verified": true
     },
     {
