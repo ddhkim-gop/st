@@ -5,7 +5,7 @@
   "verified": true
  },
  "49ers": {
-  "avatar": "https://pbs.twimg.com/profile_images/2106827392912359424/VM4grny-_normal.jpg",
+  "avatar": "",
   "name": "San Francisco 49ers",
   "verified": true
  },
@@ -60,7 +60,7 @@
   "verified": false
  },
  "Broncos": {
-  "avatar": "",
+  "avatar": "https://pbs.twimg.com/profile_images/2112577385640116224/VdpaQL_v_normal.jpg",
   "name": "Denver Broncos",
   "verified": true
  },

@@ -4,6 +4,27 @@
   "note": "Curated: X has no public search API, so posts are collected by hand and matched to rosters by this script.",
   "tweets": [
     {
+      "url": "https://x.com/NFL/status/2124683634330181691",
+      "player": "Aaron Jones Sr.",
+      "meta": "RB \u00b7 MIN",
+      "date": "2026-11-23",
+      "author": "NFL",
+      "text": "Aaron Jones runs it in for 6\ufe0f\u20e3\n\nMINvsSF on NBC/Peacock\nStream on @NFLPlus",
+      "verified": true,
+      "faves": 584,
+      "secs": 16,
+      "game_id": "401873077",
+      "game_time": "Q1 1:13",
+      "play_key": "401873077:401873077850",
+      "played_at": "2026-11-23T01:55:28Z",
+      "poster": "https://pbs.twimg.com/amplify_video_thumb/2124683409960189952/img/njNwye7qmjPjjAYE.jpg",
+      "published": "2026-11-23T01:57:07Z",
+      "video": "https://video.twimg.com/amplify_video/2124683409960189952/vid/avc1/1920x1080/T2xnp7LlxwEyyMAi.mp4",
+      "author_name": "NFL",
+      "avatar": "https://pbs.twimg.com/profile_images/1619895559334273028/PHKS_mjX_normal.jpg",
+      "author_verified": true
+    },
+    {
       "url": "https://x.com/NFL/status/2124641137122304429",
       "player": "Justin Herbert",
       "meta": "QB \u00b7 LAC",

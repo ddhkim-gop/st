@@ -4,6 +4,27 @@
   "note": "Curated: X has no public search API, so posts are collected by hand and matched to rosters by this script.",
   "tweets": [
     {
+      "url": "https://x.com/Broncos/status/2124654919080943733",
+      "player": "Jonah Coleman",
+      "meta": "RB \u00b7 DEN",
+      "date": "2026-11-23",
+      "author": "Broncos",
+      "text": "\ud83c\udfa9\ud83c\udfa9\ud83c\udfa9\n\n@jonahcoleman8 | \ud83d\udcfa: CBS",
+      "verified": true,
+      "faves": 1151,
+      "secs": 15,
+      "game_id": "401873075",
+      "game_time": "Q4 9:21",
+      "play_key": "401873075:4018730753525",
+      "played_at": "2026-11-23T00:02:04Z",
+      "poster": "https://pbs.twimg.com/amplify_video_thumb/2124654836541255680/img/dT_C263nrbyfAKCi.jpg",
+      "published": "2026-11-23T00:03:01Z",
+      "video": "https://video.twimg.com/amplify_video/2124654836541255680/vid/avc1/1920x1080/61KLn8dVXMrA3ady.mp4",
+      "author_name": "Denver Broncos",
+      "avatar": "https://pbs.twimg.com/profile_images/2112577385640116224/VdpaQL_v_normal.jpg",
+      "author_verified": true
+    },
+    {
       "url": "https://x.com/NFL/status/2124650899914281083",
       "player": "Jonah Coleman",
       "meta": "RB \u00b7 DEN",
@@ -32,7 +53,7 @@
       "author": "nyjets",
       "text": "Braelon called game \n\n\ud83d\udcfa: #NYJvsLAC on FOX",
       "verified": true,
-      "faves": 249,
+      "faves": 435,
       "secs": 13,
       "game_id": "401873074",
       "game_time": "Q4 0:47",
@@ -63,7 +84,7 @@
       "published": "2026-11-22T22:15:54Z",
       "video": "https://video.twimg.com/amplify_video/2124627766675140608/vid/avc1/1920x1080/mCuklMmfJs2kKbQT.mp4",
       "author_name": "Denver Broncos",
-      "avatar": "",
+      "avatar": "https://pbs.twimg.com/profile_images/2112577385640116224/VdpaQL_v_normal.jpg",
       "author_verified": true
     },
     {

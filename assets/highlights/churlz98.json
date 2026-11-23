@@ -4,6 +4,48 @@
   "note": "Curated: X has no public search API, so posts are collected by hand and matched to rosters by this script.",
   "tweets": [
     {
+      "url": "https://www.youtube.com/shorts/3PW7gsmWtb0",
+      "player": "Brock Purdy",
+      "meta": "QB \u00b7 SF",
+      "date": "2026-11-23",
+      "author": "49ers",
+      "text": "THAT\u2019S DOS FOR KITTLE \u270c\ufe0f",
+      "verified": true,
+      "faves": 51,
+      "secs": 13,
+      "game_id": "401873077",
+      "game_time": "Q2 14:13",
+      "play_key": "401873077:4018730771033",
+      "played_at": "2026-11-23T02:05:46Z",
+      "poster": "https://i.ytimg.com/vi/3PW7gsmWtb0/hqdefault.jpg",
+      "published": "2026-11-23T02:18:39Z",
+      "youtube": "3PW7gsmWtb0",
+      "author_name": "San Francisco 49ers",
+      "avatar": "",
+      "author_verified": true
+    },
+    {
+      "url": "https://x.com/NFL/status/2124676959418581134",
+      "player": "Brock Purdy",
+      "meta": "QB \u00b7 SF",
+      "date": "2026-11-23",
+      "author": "NFL",
+      "text": "George Kittle scores the first TD of the game in Mexico \ud83d\udde3\ufe0f\n\nMINvsSF on NBC/Peacock\nStream on @NFLPlus",
+      "verified": true,
+      "faves": 1146,
+      "secs": 9,
+      "game_id": "401873077",
+      "game_time": "Q1 11:16",
+      "play_key": "401873077:401873077208",
+      "played_at": "2026-11-23T01:29:08Z",
+      "poster": "https://pbs.twimg.com/amplify_video_thumb/2124676752677167104/img/D1-5P7eN10b-qEKt.jpg",
+      "published": "2026-11-23T01:30:36Z",
+      "video": "https://video.twimg.com/amplify_video/2124676752677167104/vid/avc1/1920x1080/XymcHDFk1Fl7D2rH.mp4",
+      "author_name": "NFL",
+      "avatar": "https://pbs.twimg.com/profile_images/1619895559334273028/PHKS_mjX_normal.jpg",
+      "author_verified": true
+    },
+    {
       "url": "https://x.com/Raiders/status/2124634641806057528",
       "player": "Ashton Jeanty",
       "meta": "RB \u00b7 LV",
@@ -42,7 +84,7 @@
       "published": "2026-11-22T22:04:33Z",
       "video": "https://video.twimg.com/amplify_video/2124624507398918144/vid/avc1/1920x1080/_yCWqXXAvNwl6Cqy.mp4",
       "author_name": "Denver Broncos",
-      "avatar": "",
+      "avatar": "https://pbs.twimg.com/profile_images/2112577385640116224/VdpaQL_v_normal.jpg",
       "author_verified": true
     },
     {
@@ -242,7 +284,24 @@
       "published": "2026-11-16T00:23:36Z",
       "video": "https://video.twimg.com/amplify_video/2122122792636141568/vid/avc1/1920x1080/5omyZlO2-dzeiDpk.mp4",
       "author_name": "San Francisco 49ers",
-      "avatar": "https://pbs.twimg.com/profile_images/2106827392912359424/VM4grny-_normal.jpg",
+      "avatar": "",
+      "author_verified": true
+    },
+    {
+      "url": "https://x.com/NFL/status/2124685248558760173",
+      "player": "Brock Purdy",
+      "meta": "QB \u00b7 SF",
+      "date": "2026-11-23",
+      "author": "NFL",
+      "text": "What a throw by Brock Purdy!\n\nMINvsSF on NBC/Peacock\nStream on @NFLPlus",
+      "verified": false,
+      "faves": 2,
+      "secs": 11,
+      "poster": "https://pbs.twimg.com/amplify_video_thumb/2124684988725776384/img/plJw20MXbEYKSRIv.jpg",
+      "published": "2026-11-23T02:03:32Z",
+      "video": "https://video.twimg.com/amplify_video/2124684988725776384/vid/avc1/1920x1080/RuGhNswmG3yuwCEn.mp4",
+      "author_name": "NFL",
+      "avatar": "https://pbs.twimg.com/profile_images/1619895559334273028/PHKS_mjX_normal.jpg",
       "author_verified": true
     }
   ]
