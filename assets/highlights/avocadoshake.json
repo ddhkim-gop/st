@@ -4,6 +4,27 @@
   "note": "Curated: X has no public search API, so posts are collected by hand and matched to rosters by this script.",
   "tweets": [
     {
+      "url": "https://www.youtube.com/shorts/J0cAnqHv2U4",
+      "player": "Kirk Cousins",
+      "meta": "QB \u00b7 MIN",
+      "date": "2026-11-23",
+      "author": "Vikings",
+      "text": "Kirk Cousins runs out for warmups in Mexico City",
+      "verified": false,
+      "faves": 48,
+      "secs": 16,
+      "poster": "https://i.ytimg.com/vi/J0cAnqHv2U4/hqdefault.jpg",
+      "published": "2026-11-23T00:20:03Z",
+      "youtube": "J0cAnqHv2U4",
+      "played_at": "2026-11-23T02:34:33Z",
+      "game_time": "Q2 1:59",
+      "play_key": "401873077:4018730771735",
+      "game_id": "401873077",
+      "author_name": "Minnesota Vikings",
+      "avatar": "",
+      "author_verified": true
+    },
+    {
       "url": "https://www.espn.com/video/clip/_/id/50567555/mendoza-throws-3-tds-raiders-fall-broncos-denver",
       "player": "Fernando Mendoza",
       "meta": "QB \u00b7 LV",
@@ -286,23 +307,6 @@
       "poster": "https://espnmedia-cdn.akamaized.net/espn/media/common/2026/1115/702a4cf933a34cfa9fa1cd1d7eeed5e81435/702a4cf933a34cfa9fa1cd1d7eeed5e81435.jpg",
       "published": "2026-11-16T03:59:28Z",
       "video": "https://espnmedia-cdn.akamaized.net/espn/media/16x9/wsc/2026/1116/702a4cf9-33a3-4cfa-9fa1-cd1d7eeed5e8/702a4cf9-33a3-4cfa-9fa1-cd1d7eeed5e8.mp4"
-    },
-    {
-      "url": "https://www.youtube.com/shorts/J0cAnqHv2U4",
-      "player": "Kirk Cousins",
-      "meta": "QB \u00b7 MIN",
-      "date": "2026-11-23",
-      "author": "Vikings",
-      "text": "Kirk Cousins runs out for warmups in Mexico City",
-      "verified": false,
-      "faves": 48,
-      "secs": 16,
-      "poster": "https://i.ytimg.com/vi/J0cAnqHv2U4/hqdefault.jpg",
-      "published": "2026-11-23T00:20:03Z",
-      "youtube": "J0cAnqHv2U4",
-      "author_name": "Minnesota Vikings",
-      "avatar": "",
-      "author_verified": true
     },
     {
       "url": "https://x.com/NFL/status/2124648160652124538",
