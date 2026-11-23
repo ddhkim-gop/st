@@ -3993,6 +3993,16 @@
   "published": "2026-11-22T23:42:22Z",
   "video": "https://espnmedia-cdn.akamaized.net/espn/media/16x9/wsc/2026/1122/14556fb4-dbd0-4c60-afe2-7b39fb63588a/14556fb4-dbd0-4c60-afe2-7b39fb63588a.mp4"
  },
+ "https://www.espn.com/video/clip/_/id/50567125/ladd-mcconkey-hauls-dime-justin-hebert-chargers-td": {
+  "espn_game": "401873074",
+  "game_id": "401873074",
+  "game_time": "Q4 13:01",
+  "play_key": "401873074:4018730742870",
+  "played_at": "2026-11-22T23:07:31Z",
+  "poster": "https://espnmedia-cdn.akamaized.net/espn/media/common/wsc/2026/1122/fb936e58-3991-41c4-aa59-0cd86f16d8d7/fb936e58-3991-41c4-aa59-0cd86f16d8d7.jpg",
+  "published": "2026-11-22T23:58:45Z",
+  "video": "https://espnmedia-cdn.akamaized.net/espn/media/16x9/wsc/2026/1122/fb936e58-3991-41c4-aa59-0cd86f16d8d7/fb936e58-3991-41c4-aa59-0cd86f16d8d7.mp4"
+ },
  "https://www.espn.com/video/clip/_/id/50567337/should-parker-washington-incompletion-ruled-td": {
   "espn_game": "401873069",
   "game_id": "401873069",
@@ -5067,6 +5077,15 @@
   "poster": "https://i.ytimg.com/vi/C8ipQWaQqok/hqdefault.jpg",
   "published": "2026-10-01T23:15:00Z",
   "youtube": "C8ipQWaQqok"
+ },
+ "https://www.youtube.com/shorts/C9KuTNnZX7w": {
+  "game_id": "401873077",
+  "game_time": "Q4 13:26",
+  "play_key": "401873077:4018730773056",
+  "played_at": "2026-11-23T03:51:45Z",
+  "poster": "https://i.ytimg.com/vi/C9KuTNnZX7w/hqdefault.jpg",
+  "published": "2026-11-23T03:58:02Z",
+  "youtube": "C9KuTNnZX7w"
  },
  "https://www.youtube.com/shorts/C9lLKifjf0o": {
   "game_id": "401873046",
@@ -6167,6 +6186,15 @@
   "poster": "https://i.ytimg.com/vi/PnGsUyvoR6Y/hqdefault.jpg",
   "published": "2026-10-25T17:32:32Z",
   "youtube": "PnGsUyvoR6Y"
+ },
+ "https://www.youtube.com/shorts/Po6-p3cEwG4": {
+  "game_id": "401873077",
+  "game_time": "Q2 2:09",
+  "play_key": "401873077:4018730771660",
+  "played_at": "2026-11-23T02:31:08Z",
+  "poster": "https://i.ytimg.com/vi/Po6-p3cEwG4/hqdefault.jpg",
+  "published": "2026-11-23T02:38:36Z",
+  "youtube": "Po6-p3cEwG4"
  },
  "https://www.youtube.com/shorts/PpKp1i1iaqw": {
   "poster": "https://i.ytimg.com/vi/PpKp1i1iaqw/hqdefault.jpg",
@@ -8981,6 +9009,11 @@
   "poster": "https://i.ytimg.com/vi/zcN8ZO7rbL8/hqdefault.jpg",
   "published": "2026-11-03T01:22:56Z",
   "youtube": "zcN8ZO7rbL8"
+ },
+ "https://www.youtube.com/shorts/zsVzSQUPVQc": {
+  "poster": "https://i.ytimg.com/vi/zsVzSQUPVQc/hqdefault.jpg",
+  "published": "2026-11-23T05:40:50Z",
+  "youtube": "zsVzSQUPVQc"
  },
  "https://www.youtube.com/shorts/zwORWFkvqJM": {
   "game_id": "401872979",
