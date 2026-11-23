@@ -54,19 +54,14 @@ jobs:
 
   # Deploy in-run: a push made with GITHUB_TOKEN can't trigger deploy.yml, so
   # without this the refreshed data waited for the next push from the Mac.
-  deploy:
+  # Upload and deploy are separate jobs: deploy-pages raced its own artifact's
+  # visibility when both ran in one job (actions/deploy-pages#451).
+  upload:
     needs: refresh
     if: needs.refresh.outputs.changed == 'true'
     runs-on: ubuntu-latest
     permissions:
-      pages: write
-      id-token: write
-    concurrency:
-      group: pages
-      cancel-in-progress: false
-    environment:
-      name: github-pages
-      url: ${{ steps.deployment.outputs.page_url }}
+      contents: read
     steps:
       # ref: main, not the triggering SHA - that predates the refresh job's push.
       - uses: actions/checkout@v4
@@ -76,5 +71,34 @@ jobs:
       - uses: actions/upload-pages-artifact@v3
         with:
           path: '.'
+  deploy:
+    needs: upload
+    runs-on: ubuntu-latest
+    permissions:
+      pages: write
+      id-token: write
+      actions: read
+    concurrency:
+      group: pages
+      cancel-in-progress: false
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Wait for github-pages artifact
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          for i in $(seq 1 10); do
+            found=$(curl -sf -H "Authorization: Bearer $GH_TOKEN" -H "Accept: application/vnd.github+json" \
+              "$GITHUB_API_URL/repos/$GITHUB_REPOSITORY/actions/runs/$GITHUB_RUN_ID/artifacts?per_page=100" \
+              | jq '[.artifacts[] | select(.name == "github-pages" and .expired == false)] | length' || echo 0)
+            if [ "${found:-0}" -ge 1 ]; then
+              exit 0
+            fi
+            sleep 3
+          done
+          echo "::error::github-pages artifact not visible after 10 polls"
+          exit 1
       - uses: actions/deploy-pages@v4
         id: deployment
