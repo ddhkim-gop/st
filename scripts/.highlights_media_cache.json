@@ -4013,6 +4013,46 @@
   "published": "2026-11-23T00:43:10Z",
   "video": "https://espnmedia-cdn.akamaized.net/espn/media/16x9/wsc/2026/1123/974cccdc-04cd-4e6a-b27b-7698ea742463/974cccdc-04cd-4e6a-b27b-7698ea742463.mp4"
  },
+ "https://www.espn.com/video/clip/_/id/50568294/george-kittle-runs-multiple-defenders-49ers-td": {
+  "espn_game": "401873077",
+  "game_id": "401873077",
+  "game_time": "Q1 11:16",
+  "play_key": "401873077:401873077208",
+  "played_at": "2026-11-23T01:29:08Z",
+  "poster": "https://espnmedia-cdn.akamaized.net/espn/media/common/2026/1122/ef57242400924a4698e7df2fd587ee021246/ef57242400924a4698e7df2fd587ee021246.jpg",
+  "published": "2026-11-23T01:36:44Z",
+  "video": "https://espnmedia-cdn.akamaized.net/espn/media/16x9/wsc/2026/1123/ef572424-0092-4a46-98e7-df2fd587ee02/ef572424-0092-4a46-98e7-df2fd587ee02.mp4"
+ },
+ "https://www.espn.com/video/clip/_/id/50568617/aaron-jones-sr-bulldozes-end-zone-vikings-td": {
+  "espn_game": "401873077",
+  "game_id": "401873077",
+  "game_time": "Q1 1:13",
+  "play_key": "401873077:401873077850",
+  "played_at": "2026-11-23T01:55:28Z",
+  "poster": "https://espnmedia-cdn.akamaized.net/espn/media/common/2026/1122/0d6c3ded853e4654a496f7a3e4163ab71278/0d6c3ded853e4654a496f7a3e4163ab71278.jpg",
+  "published": "2026-11-23T02:04:39Z",
+  "video": "https://espnmedia-cdn.akamaized.net/espn/media/16x9/wsc/2026/1123/0d6c3ded-853e-4654-a496-f7a3e4163ab7/0d6c3ded-853e-4654-a496-f7a3e4163ab7.mp4"
+ },
+ "https://www.espn.com/video/clip/_/id/50568686/brock-purdy-finds-george-kittle-again-49ers-td": {
+  "espn_game": "401873077",
+  "game_id": "401873077",
+  "game_time": "Q2 14:13",
+  "play_key": "401873077:4018730771033",
+  "played_at": "2026-11-23T02:05:46Z",
+  "poster": "https://espnmedia-cdn.akamaized.net/espn/media/common/2026/1122/960ad464cbeb4c0eabd7c2127e64a1c71282/960ad464cbeb4c0eabd7c2127e64a1c71282.jpg",
+  "published": "2026-11-23T02:15:13Z",
+  "video": "https://espnmedia-cdn.akamaized.net/espn/media/16x9/wsc/2026/1123/960ad464-cbeb-4c0e-abd7-c2127e64a1c7/960ad464-cbeb-4c0e-abd7-c2127e64a1c7.mp4"
+ },
+ "https://www.espn.com/video/clip/_/id/50568943/purdy-dimes-evans-one-handed-49ers-td": {
+  "espn_game": "401873077",
+  "game_id": "401873077",
+  "game_time": "Q2 2:09",
+  "play_key": "401873077:4018730771660",
+  "played_at": "2026-11-23T02:31:08Z",
+  "poster": "https://espnmedia-cdn.akamaized.net/espn/media/common/2026/1122/d224b6694c5a4fe8b9ce5641e281455b1322/d224b6694c5a4fe8b9ce5641e281455b1322.jpg",
+  "published": "2026-11-23T02:44:23Z",
+  "video": "https://espnmedia-cdn.akamaized.net/espn/media/16x9/wsc/2026/1123/d224b669-4c5a-4fe8-b9ce-5641e281455b/d224b669-4c5a-4fe8-b9ce-5641e281455b.mp4"
+ },
  "https://www.youtube.com/shorts/-9mLHMkLMRw": {
   "poster": "https://i.ytimg.com/vi/-9mLHMkLMRw/hqdefault.jpg",
   "published": "2026-09-21T18:33:52Z",
@@ -6950,6 +6990,11 @@
   "poster": "https://i.ytimg.com/vi/a33ObyZ7bmU/hqdefault.jpg",
   "published": "2026-09-29T14:21:46Z",
   "youtube": "a33ObyZ7bmU"
+ },
+ "https://www.youtube.com/shorts/a74jeor4bV0": {
+  "poster": "https://i.ytimg.com/vi/a74jeor4bV0/hqdefault.jpg",
+  "published": "2026-11-23T03:06:02Z",
+  "youtube": "a74jeor4bV0"
  },
  "https://www.youtube.com/shorts/a8gFCGyg1y8": {
   "poster": "https://i.ytimg.com/vi/a8gFCGyg1y8/hqdefault.jpg",
