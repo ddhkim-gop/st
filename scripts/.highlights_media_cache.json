@@ -3963,6 +3963,26 @@
   "published": "2026-11-22T23:42:22Z",
   "video": "https://espnmedia-cdn.akamaized.net/espn/media/16x9/wsc/2026/1122/14556fb4-dbd0-4c60-afe2-7b39fb63588a/14556fb4-dbd0-4c60-afe2-7b39fb63588a.mp4"
  },
+ "https://www.espn.com/video/clip/_/id/50567337/should-parker-washington-incompletion-ruled-td": {
+  "espn_game": "401873069",
+  "game_id": "401873069",
+  "game_time": "Q4 6:39",
+  "play_key": "401873069:4018730694361",
+  "played_at": "2026-11-23T00:29:38Z",
+  "poster": "https://espnmedia-cdn.akamaized.net/espn/media/common/2026/1122/841a6f5558c94145bee0dd6538d535f51194/841a6f5558c94145bee0dd6538d535f51194.jpg",
+  "published": "2026-11-23T00:28:43Z",
+  "video": "https://espnmedia-cdn.akamaized.net/espn/media/16x9/wsc/2026/1123/841a6f55-58c9-4145-bee0-dd6538d535f5/841a6f55-58c9-4145-bee0-dd6538d535f5.mp4"
+ },
+ "https://www.espn.com/video/clip/_/id/50567555/mendoza-throws-3-tds-raiders-fall-broncos-denver": {
+  "espn_game": "401873075",
+  "game_id": "401873075",
+  "game_time": "Q4 1:52",
+  "play_key": "401873075:4018730754300",
+  "played_at": "2026-11-23T00:32:28Z",
+  "poster": "https://espnmedia-cdn.akamaized.net/espn/media/common/wsc/2026/1123/974cccdc-04cd-4e6a-b27b-7698ea742463/974cccdc-04cd-4e6a-b27b-7698ea742463.jpg",
+  "published": "2026-11-23T00:43:10Z",
+  "video": "https://espnmedia-cdn.akamaized.net/espn/media/16x9/wsc/2026/1123/974cccdc-04cd-4e6a-b27b-7698ea742463/974cccdc-04cd-4e6a-b27b-7698ea742463.mp4"
+ },
  "https://www.youtube.com/shorts/-9mLHMkLMRw": {
   "poster": "https://i.ytimg.com/vi/-9mLHMkLMRw/hqdefault.jpg",
   "published": "2026-09-21T18:33:52Z",
@@ -10645,6 +10665,15 @@
   "published": "2026-11-22T22:26:34Z",
   "video": "https://video.twimg.com/amplify_video/2088684091155591168/vid/avc1/1080x1080/feQJ5bpeGs2D0nKv.mp4"
  },
+ "https://x.com/Jaguars/status/2124661757121610111": {
+  "game_id": "401873069",
+  "game_time": "Q4 6:39",
+  "play_key": "401873069:4018730694361",
+  "played_at": "2026-11-23T00:29:38Z",
+  "poster": "https://pbs.twimg.com/amplify_video_thumb/2099159190128205825/img/4vhQdqXND-NCiGW4.jpg",
+  "published": "2026-11-23T00:30:11Z",
+  "video": "https://video.twimg.com/amplify_video/2099159190128205825/vid/avc1/1080x1080/4CPquzkd2CZuwsl-.mp4"
+ },
  "https://x.com/JamesCookMuse/status/2095517719374307408": {
   "poster": "https://pbs.twimg.com/amplify_video_thumb/1843002707139051520/img/WK7_x035YPNSDl7d.jpg?name=orig",
   "video": "https://video.twimg.com/amplify_video/1843002707139051520/vid/avc1/1920x1080/FriD7pvsCoKiiAh7.mp4?tag=16"
@@ -15081,6 +15110,21 @@
   "poster": "https://pbs.twimg.com/amplify_video_thumb/2124654870821261312/img/moRvG8gBRrv3cZYP.jpg",
   "published": "2026-11-23T00:03:46Z",
   "video": "https://video.twimg.com/amplify_video/2124654870821261312/vid/avc1/1920x1080/jQdmfqGrCCTL8-8G.mp4"
+ },
+ "https://x.com/NFL/status/2124664178220921101": {
+  "poster": "https://pbs.twimg.com/amplify_video_thumb/2124663798258896896/img/sPWgp6e7jI0pfo_j.jpg",
+  "published": "2026-11-23T00:39:49Z",
+  "video": "https://video.twimg.com/amplify_video/2124663798258896896/vid/avc1/2160x3840/pYG_GSAlhJHGq0YC.mp4"
+ },
+ "https://x.com/NFL/status/2124666684669829562": {
+  "poster": "https://pbs.twimg.com/amplify_video_thumb/2124666609730224128/img/pkhX0oiB2_PCF_2j.jpg",
+  "published": "2026-11-23T00:49:46Z",
+  "video": "https://video.twimg.com/amplify_video/2124666609730224128/vid/avc1/1920x1080/2rPTSDYg3S7MoUie.mp4"
+ },
+ "https://x.com/NFL/status/2124672232702275962": {
+  "poster": "https://pbs.twimg.com/media/HXxaAv9XIAAyRta.jpg",
+  "published": "2026-11-23T01:11:49Z",
+  "video": "https://video.twimg.com/amplify_video/2124671684217352192/vid/avc1/1080x1920/cIZD1DnrKhyBTfGI.mp4"
  },
  "https://x.com/NFLBrasil/status/2093514185812431184": {
   "poster": "https://pbs.twimg.com/amplify_video_thumb/2093514163834269696/img/j7GWyppCmf8GOls3.jpg?name=orig",

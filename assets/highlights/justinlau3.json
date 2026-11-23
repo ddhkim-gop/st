@@ -4,6 +4,25 @@
   "note": "Curated: X has no public search API, so posts are collected by hand and matched to rosters by this script.",
   "tweets": [
     {
+      "url": "https://www.espn.com/video/clip/_/id/50567337/should-parker-washington-incompletion-ruled-td",
+      "player": "Trevor Lawrence",
+      "meta": "QB \u00b7 JAX",
+      "date": "2026-11-23",
+      "author": "ESPN",
+      "text": "Should this Parker Washington incompletion have been ruled a TD?",
+      "verified": true,
+      "faves": 0,
+      "secs": 0,
+      "espn_game": "401873069",
+      "game_id": "401873069",
+      "game_time": "Q4 6:39",
+      "play_key": "401873069:4018730694361",
+      "played_at": "2026-11-23T00:29:38Z",
+      "poster": "https://espnmedia-cdn.akamaized.net/espn/media/common/2026/1122/841a6f5558c94145bee0dd6538d535f51194/841a6f5558c94145bee0dd6538d535f51194.jpg",
+      "published": "2026-11-23T00:28:43Z",
+      "video": "https://espnmedia-cdn.akamaized.net/espn/media/16x9/wsc/2026/1123/841a6f55-58c9-4145-bee0-dd6538d535f5/841a6f55-58c9-4145-bee0-dd6538d535f5.mp4"
+    },
+    {
       "url": "https://x.com/NFL/status/2124641137122304429",
       "player": "Ladd McConkey",
       "meta": "WR \u00b7 LAC",
