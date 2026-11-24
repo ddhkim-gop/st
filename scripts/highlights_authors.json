@@ -50,7 +50,7 @@
   "verified": true
  },
  "Bengals": {
-  "avatar": "",
+  "avatar": "https://pbs.twimg.com/profile_images/2122764937265115136/iZFLmFxi_normal.jpg",
   "name": "Cincinnati Bengals",
   "verified": true
  },
@@ -355,7 +355,7 @@
   "verified": true
  },
  "dallascowboys": {
-  "avatar": "https://pbs.twimg.com/profile_images/2047411798953857024/QaW_Sgph_normal.jpg",
+  "avatar": "",
   "name": "Dallas Cowboys",
   "verified": true
  },
@@ -375,7 +375,7 @@
   "verified": true
  },
  "nyjets": {
-  "avatar": "https://pbs.twimg.com/profile_images/2114726710214103040/pVXiph6H_normal.jpg",
+  "avatar": "",
   "name": "New York Jets",
   "verified": true
  },
@@ -385,7 +385,7 @@
   "verified": true
  },
  "steelers": {
-  "avatar": "https://pbs.twimg.com/profile_images/1982652036136030208/ptD9zAsL_normal.jpg",
+  "avatar": "",
   "name": "Pittsburgh Steelers",
   "verified": true
  }
