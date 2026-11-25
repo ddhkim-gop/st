@@ -1,6 +1,6 @@
 {
   "team": "justinlau3",
-  "updated": "2026-11-24",
+  "updated": "2026-11-25",
   "note": "Curated: X has no public search API, so posts are collected by hand and matched to rosters by this script.",
   "tweets": [
     {
@@ -194,23 +194,6 @@
       "poster": "https://espnmedia-cdn.akamaized.net/espn/media/common/wsc/2026/1122/14556fb4-dbd0-4c60-afe2-7b39fb63588a/14556fb4-dbd0-4c60-afe2-7b39fb63588a.jpg",
       "published": "2026-11-22T23:42:22Z",
       "video": "https://espnmedia-cdn.akamaized.net/espn/media/16x9/wsc/2026/1122/14556fb4-dbd0-4c60-afe2-7b39fb63588a/14556fb4-dbd0-4c60-afe2-7b39fb63588a.mp4"
-    },
-    {
-      "url": "https://www.youtube.com/shorts/cqkMsEmOPpI",
-      "player": "Harold Fannin Jr.",
-      "meta": "TE \u00b7 CLE",
-      "date": "2026-11-17",
-      "author": "Browns",
-      "text": "Another angry Fannin run",
-      "verified": false,
-      "faves": 290,
-      "secs": 76,
-      "poster": "https://i.ytimg.com/vi/cqkMsEmOPpI/hqdefault.jpg",
-      "published": "2026-11-17T22:35:30Z",
-      "youtube": "cqkMsEmOPpI",
-      "author_name": "Cleveland Browns",
-      "avatar": "",
-      "author_verified": true
     }
   ]
 }

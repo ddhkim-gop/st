@@ -1,6 +1,6 @@
 {
   "team": "paddleham",
-  "updated": "2026-11-24",
+  "updated": "2026-11-25",
   "note": "Curated: X has no public search API, so posts are collected by hand and matched to rosters by this script.",
   "tweets": [
     {
@@ -116,7 +116,7 @@
       "published": "2026-11-22T19:55:15Z",
       "video": "https://video.twimg.com/amplify_video/2124592395429859328/vid/avc1/1920x1080/exhuxbBDM7lBAZ0K.mp4",
       "author_name": "Chicago Bears",
-      "avatar": "https://pbs.twimg.com/profile_images/2095215291395665920/hTWEqaly_normal.jpg",
+      "avatar": "",
       "author_verified": true
     },
     {
@@ -156,7 +156,7 @@
       "published": "2026-11-22T19:02:23Z",
       "video": "https://video.twimg.com/amplify_video/2124579160848769024/vid/avc1/1920x1080/qvDgvLU1ausQpqgM.mp4",
       "author_name": "Chicago Bears",
-      "avatar": "https://pbs.twimg.com/profile_images/2095215291395665920/hTWEqaly_normal.jpg",
+      "avatar": "",
       "author_verified": true
     },
     {
@@ -177,7 +177,7 @@
       "published": "2026-11-22T18:50:41Z",
       "video": "https://video.twimg.com/amplify_video/2124576040764731392/vid/avc1/1920x1080/eQsSTHtIJ5n7W2SA.mp4",
       "author_name": "Chicago Bears",
-      "avatar": "https://pbs.twimg.com/profile_images/2095215291395665920/hTWEqaly_normal.jpg",
+      "avatar": "",
       "author_verified": true
     },
     {
@@ -265,25 +265,6 @@
       "author_verified": true
     },
     {
-      "url": "https://www.espn.com/video/clip/_/id/50507150/omarion-hampton-plows-goal-line-chargers-td",
-      "player": "Omarion Hampton",
-      "meta": "RB \u00b7 LAC",
-      "date": "2026-11-17",
-      "author": "ESPN",
-      "text": "Omarion Hampton plows across the goal line for a Chargers TD",
-      "verified": true,
-      "faves": 0,
-      "secs": 0,
-      "espn_game": "401873065",
-      "game_id": "401873065",
-      "game_time": "Q2 1:56",
-      "play_key": "401873065:4018730651805",
-      "played_at": "2026-11-17T02:29:27Z",
-      "poster": "https://espnmedia-cdn.akamaized.net/espn/media/common/2026/1116/acdf85a9dd0544ea85805dbdfb17d37b1306/acdf85a9dd0544ea85805dbdfb17d37b1306.jpg",
-      "published": "2026-11-17T02:39:38Z",
-      "video": "https://espnmedia-cdn.akamaized.net/espn/media/16x9/wsc/2026/1117/acdf85a9-dd05-44ea-8580-5dbdfb17d37b/acdf85a9-dd05-44ea-8580-5dbdfb17d37b.mp4"
-    },
-    {
       "url": "https://www.espn.com/video/clip/_/id/50578683/stefon-diggs-visibly-frustrated-commanders-sideline",
       "player": "Stefon Diggs",
       "meta": "WR \u00b7 WAS",
@@ -311,23 +292,6 @@
       "poster": "https://pbs.twimg.com/amplify_video_thumb/2123594799047737344/img/IPpWuqttwR1p4Iri.jpg",
       "published": "2026-11-20T01:51:38Z",
       "video": "https://video.twimg.com/amplify_video/2123594799047737344/vid/avc1/1920x1080/sl5QsDxK63HJ9CPa.mp4",
-      "author_name": "NFL",
-      "avatar": "https://pbs.twimg.com/profile_images/1619895559334273028/PHKS_mjX_normal.jpg",
-      "author_verified": true
-    },
-    {
-      "url": "https://x.com/NFL/status/2122509899049640254",
-      "player": "Zay Flowers",
-      "meta": "WR \u00b7 BAL",
-      "date": "2026-11-17",
-      "author": "NFL",
-      "text": "Zay Flowers with the sideline grab \ud83d\udd25\n\nLACvsBAL on ESPN\nStream on @NFLPlus",
-      "verified": false,
-      "faves": 485,
-      "secs": 13,
-      "poster": "https://pbs.twimg.com/amplify_video_thumb/2122509560602927104/img/vaVIakvvFBlM0m7p.jpg",
-      "published": "2026-11-17T01:59:28Z",
-      "video": "https://video.twimg.com/amplify_video/2122509560602927104/vid/avc1/1920x1080/peHhtRAf4LNGDop_.mp4",
       "author_name": "NFL",
       "avatar": "https://pbs.twimg.com/profile_images/1619895559334273028/PHKS_mjX_normal.jpg",
       "author_verified": true

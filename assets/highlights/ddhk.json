@@ -1,6 +1,6 @@
 {
   "team": "ddhk",
-  "updated": "2026-11-24",
+  "updated": "2026-11-25",
   "note": "Curated: X has no public search API, so posts are collected by hand and matched to rosters by this script.",
   "tweets": [
     {
@@ -204,7 +204,7 @@
       "published": "2026-11-22T19:07:13Z",
       "video": "https://video.twimg.com/amplify_video/2124580277766737920/vid/avc1/1920x1080/VjkmC_pRlwlKbGm_.mp4",
       "author_name": "Buffalo Bills",
-      "avatar": "https://pbs.twimg.com/profile_images/2122736573888307200/x_8TH138_normal.jpg",
+      "avatar": "",
       "author_verified": true
     },
     {
