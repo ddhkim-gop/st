@@ -6988,6 +6988,21 @@ window.__STATIC_DATA__ = {
           "search_rank": 135
         },
         {
+          "player_id": "11583",
+          "espn_id": null,
+          "name": "Jonathon Brooks",
+          "position": "RB",
+          "team": "CAR",
+          "birth_date": "2003-07-21",
+          "college": "Texas",
+          "height": "72",
+          "weight": "216",
+          "years_exp": 2,
+          "status": "Inactive",
+          "injury_status": "IR",
+          "search_rank": 88
+        },
+        {
           "player_id": "11646",
           "espn_id": null,
           "name": "Jalen Coker",
@@ -7138,6 +7153,21 @@ window.__STATIC_DATA__ = {
           "search_rank": 3
         },
         {
+          "player_id": "6865",
+          "espn_id": 4242557,
+          "name": "Colby Parkinson",
+          "position": "TE",
+          "team": "LAR",
+          "birth_date": "1999-01-08",
+          "college": "Stanford",
+          "height": "79",
+          "weight": "266",
+          "years_exp": 6,
+          "status": "Active",
+          "injury_status": null,
+          "search_rank": 136
+        },
+        {
           "player_id": "7042",
           "espn_id": 3917232,
           "name": "Tyler Bass",
@@ -7269,7 +7299,7 @@ window.__STATIC_DATA__ = {
           "weight": "211",
           "years_exp": 4,
           "status": "Active",
-          "injury_status": "Questionable",
+          "injury_status": "Out",
           "search_rank": 19
         },
         {
@@ -7288,11 +7318,11 @@ window.__STATIC_DATA__ = {
           "search_rank": 27
         },
         {
-          "player_id": "CHI",
+          "player_id": "NYJ",
           "espn_id": null,
-          "name": "Chicago Bears",
+          "name": "New York Jets",
           "position": "DEF",
-          "team": "CHI",
+          "team": "NYJ",
           "birth_date": null,
           "college": null,
           "height": null,
@@ -9062,7 +9092,7 @@ window.__STATIC_DATA__ = {
           "espn_id": 4360438,
           "name": "Brandon Aiyuk",
           "position": "WR",
-          "team": null,
+          "team": "WAS",
           "birth_date": "1998-03-17",
           "college": "Arizona State",
           "height": "72",
@@ -10081,6 +10111,78 @@ window.__STATIC_DATA__ = {
   "transactions": [
     {
       "season": "2026",
+      "week": 12,
+      "created": "Nov 25, 2026 • 12:22 AM PT",
+      "transaction_id": "1431232468215693312",
+      "type": "free_agent",
+      "status": "complete",
+      "teams": [
+        "ddhk"
+      ],
+      "added": [
+        {
+          "name": "Colby Parkinson",
+          "position": "TE",
+          "team": "LAR"
+        }
+      ],
+      "dropped": [],
+      "faab": 0,
+      "waiver_bid": 0,
+      "notes": null
+    },
+    {
+      "season": "2026",
+      "week": 12,
+      "created": "Nov 25, 2026 • 12:20 AM PT",
+      "transaction_id": "1431232007525900288",
+      "type": "free_agent",
+      "status": "complete",
+      "teams": [
+        "ddhk"
+      ],
+      "added": [
+        {
+          "name": "New York Jets",
+          "position": "DEF",
+          "team": "NYJ"
+        }
+      ],
+      "dropped": [
+        {
+          "name": "Chicago Bears",
+          "position": "DEF",
+          "team": "CHI"
+        }
+      ],
+      "faab": 0,
+      "waiver_bid": 0,
+      "notes": null
+    },
+    {
+      "season": "2026",
+      "week": 12,
+      "created": "Nov 25, 2026 • 12:19 AM PT",
+      "transaction_id": "1431231847756476416",
+      "type": "free_agent",
+      "status": "complete",
+      "teams": [
+        "ddhk"
+      ],
+      "added": [
+        {
+          "name": "Jonathon Brooks",
+          "position": "RB",
+          "team": "CAR"
+        }
+      ],
+      "dropped": [],
+      "faab": 0,
+      "waiver_bid": 0,
+      "notes": null
+    },
+    {
+      "season": "2026",
       "week": 11,
       "created": "Nov 24, 2026 • 8:38 AM PT",
       "transaction_id": "1430995052003364864",
@@ -10137,7 +10239,7 @@ window.__STATIC_DATA__ = {
         {
           "name": "Brandon Aiyuk",
           "position": "WR",
-          "team": null
+          "team": "WAS"
         }
       ],
       "dropped": [
