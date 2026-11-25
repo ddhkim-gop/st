@@ -7288,41 +7288,11 @@ window.__STATIC_DATA__ = {
           "search_rank": 27
         },
         {
-          "player_id": "9482",
-          "espn_id": null,
-          "name": "Michael Mayer",
-          "position": "TE",
-          "team": "LV",
-          "birth_date": "2001-07-06",
-          "college": "Notre Dame",
-          "height": "76",
-          "weight": "256",
-          "years_exp": 3,
-          "status": "Active",
-          "injury_status": null,
-          "search_rank": 417
-        },
-        {
           "player_id": "CHI",
           "espn_id": null,
           "name": "Chicago Bears",
           "position": "DEF",
           "team": "CHI",
-          "birth_date": null,
-          "college": null,
-          "height": null,
-          "weight": null,
-          "years_exp": null,
-          "status": null,
-          "injury_status": null,
-          "search_rank": null
-        },
-        {
-          "player_id": "KC",
-          "espn_id": null,
-          "name": "Kansas City Chiefs",
-          "position": "DEF",
-          "team": "KC",
           "birth_date": null,
           "college": null,
           "height": null,
@@ -8217,7 +8187,7 @@ window.__STATIC_DATA__ = {
           "weight": "212",
           "years_exp": 6,
           "status": "Active",
-          "injury_status": null,
+          "injury_status": "Out",
           "search_rank": 68
         },
         {
@@ -9255,7 +9225,7 @@ window.__STATIC_DATA__ = {
           "weight": "215",
           "years_exp": 0,
           "status": "Active",
-          "injury_status": null,
+          "injury_status": "Questionable",
           "search_rank": 153
         },
         {
@@ -10109,6 +10079,50 @@ window.__STATIC_DATA__ = {
     }
   ],
   "transactions": [
+    {
+      "season": "2026",
+      "week": 11,
+      "created": "Nov 24, 2026 • 8:38 AM PT",
+      "transaction_id": "1430995052003364864",
+      "type": "free_agent",
+      "status": "complete",
+      "teams": [
+        "ddhk"
+      ],
+      "added": [],
+      "dropped": [
+        {
+          "name": "Michael Mayer",
+          "position": "TE",
+          "team": "LV"
+        }
+      ],
+      "faab": 0,
+      "waiver_bid": 0,
+      "notes": null
+    },
+    {
+      "season": "2026",
+      "week": 11,
+      "created": "Nov 24, 2026 • 8:38 AM PT",
+      "transaction_id": "1430995032109764608",
+      "type": "free_agent",
+      "status": "complete",
+      "teams": [
+        "ddhk"
+      ],
+      "added": [],
+      "dropped": [
+        {
+          "name": "Kansas City Chiefs",
+          "position": "DEF",
+          "team": "KC"
+        }
+      ],
+      "faab": 0,
+      "waiver_bid": 0,
+      "notes": null
+    },
     {
       "season": "2026",
       "week": 11,
