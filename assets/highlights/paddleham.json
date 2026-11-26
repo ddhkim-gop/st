@@ -4,6 +4,27 @@
   "note": "Curated: X has no public search API, so posts are collected by hand and matched to rosters by this script.",
   "tweets": [
     {
+      "url": "https://x.com/ChicagoBears/status/2126057723577922014",
+      "player": "Caleb Williams",
+      "meta": "QB \u00b7 CHI",
+      "date": "2026-11-26",
+      "author": "ChicagoBears",
+      "text": "\ud83d\udde3\ufe0f ROOOOOOOME ODUUUUUNZE\n\n\ud83d\udcfa: CBS",
+      "verified": true,
+      "faves": 2197,
+      "secs": 14,
+      "game_id": "401873081",
+      "game_time": "Q4 7:20",
+      "play_key": "401873081:4018730813906",
+      "played_at": "2026-11-26T20:56:18Z",
+      "poster": "https://pbs.twimg.com/amplify_video_thumb/2126057682419269632/img/60wduy8vsdfb5ccx.jpg",
+      "published": "2026-11-26T20:57:16Z",
+      "video": "https://video.twimg.com/amplify_video/2126057682419269632/vid/avc1/1920x1080/XLLth4-UexpGBYUb.mp4",
+      "author_name": "Chicago Bears",
+      "avatar": "https://pbs.twimg.com/profile_images/2095215291395665920/hTWEqaly_normal.jpg",
+      "author_verified": true
+    },
+    {
       "url": "https://www.espn.com/video/clip/_/id/50579467/jayden-daniels-finds-stefon-diggs-much-needed-first-down",
       "player": "Stefon Diggs",
       "meta": "WR \u00b7 WAS",
