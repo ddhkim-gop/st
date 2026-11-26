@@ -4,6 +4,27 @@
   "note": "Curated: X has no public search API, so posts are collected by hand and matched to rosters by this script.",
   "tweets": [
     {
+      "url": "https://x.com/dallascowboys/status/2126080538184200403",
+      "player": "Dak Prescott",
+      "meta": "QB \u00b7 DAL",
+      "date": "2026-11-26",
+      "author": "dallascowboys",
+      "text": "\"just blink and he is gone\" \ud83d\ude08\n\n@KaVontaeTurpin takes it to the house\n\n\ud83d\udcfa: #PHIvsDAL on FOX\n\ud83d\udcf2: Stream on NFL+",
+      "verified": true,
+      "faves": 1048,
+      "secs": 46,
+      "game_id": "401873080",
+      "game_time": "Q1 0:36",
+      "play_key": "401873080:401873080943",
+      "played_at": "2026-11-26T22:24:46Z",
+      "poster": "https://pbs.twimg.com/amplify_video_thumb/2126080256054325248/img/xGqPhA0SbaGR8Cua.jpg",
+      "published": "2026-11-26T22:27:55Z",
+      "video": "https://video.twimg.com/amplify_video/2126080256054325248/vid/avc1/1920x1080/ADIHo0xelxZn_WvX.mp4",
+      "author_name": "Dallas Cowboys",
+      "avatar": "https://pbs.twimg.com/profile_images/2047411798953857024/QaW_Sgph_normal.jpg",
+      "author_verified": true
+    },
+    {
       "url": "https://x.com/NFL/status/2126056382353056182",
       "player": "Jahmyr Gibbs",
       "meta": "RB \u00b7 DET",
@@ -185,7 +206,7 @@
       "published": "2026-11-22T20:48:08Z",
       "video": "https://video.twimg.com/amplify_video/2124605578668367873/vid/avc1/1920x1080/gEXL7YkBiKVG-eqy.mp4",
       "author_name": "Dallas Cowboys",
-      "avatar": "",
+      "avatar": "https://pbs.twimg.com/profile_images/2047411798953857024/QaW_Sgph_normal.jpg",
       "author_verified": true
     },
     {
@@ -268,27 +289,6 @@
       "video": "https://video.twimg.com/amplify_video/2124581747660898304/vid/avc1/1920x1080/vWeIENNxs_p38BtR.mp4",
       "author_name": "NFL",
       "avatar": "https://pbs.twimg.com/profile_images/1619895559334273028/PHKS_mjX_normal.jpg",
-      "author_verified": true
-    },
-    {
-      "url": "https://www.youtube.com/shorts/h4D6mc1fozo",
-      "player": "Dak Prescott",
-      "meta": "QB \u00b7 DAL",
-      "date": "2026-11-22",
-      "author": "dallascowboys",
-      "text": "TD, CeeDee \ud83d\ude0f | \ud83d\udcfa: #TENvsDAL on FOX\ud83d\udcf2: Stream on NFL+\u00a0| #DallasCowboys #NFL #shorts",
-      "verified": true,
-      "faves": 103,
-      "secs": 16,
-      "game_id": "401873073",
-      "game_time": "Q2 12:59",
-      "play_key": "401873073:4018730731278",
-      "played_at": "2026-11-22T18:49:00Z",
-      "poster": "https://i.ytimg.com/vi/h4D6mc1fozo/hqdefault.jpg",
-      "published": "2026-11-22T19:01:11Z",
-      "youtube": "h4D6mc1fozo",
-      "author_name": "Dallas Cowboys",
-      "avatar": "",
       "author_verified": true
     },
     {

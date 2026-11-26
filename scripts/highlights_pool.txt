@@ -565,6 +565,7 @@ https://www.youtube.com/shorts/W8gQQSo0yps
 https://www.youtube.com/shorts/X2URlbtGu-8
 https://www.youtube.com/shorts/Xr4mmMQN7y0
 https://www.youtube.com/shorts/Y7sFLyQXYxE
+https://www.youtube.com/shorts/YdntnJAMAwU
 https://www.youtube.com/shorts/YqWe8cHPp2M
 https://www.youtube.com/shorts/YqsAbT6MQg4
 https://www.youtube.com/shorts/Z52V0m1_Bto
@@ -598,7 +599,6 @@ https://www.youtube.com/shorts/gdYv3u03MFw
 https://www.youtube.com/shorts/gwKbE4P33TY
 https://www.youtube.com/shorts/h2paOHx3W8I
 https://www.youtube.com/shorts/h4D6mc1fozo
-https://www.youtube.com/shorts/hcVbYhMmCFM
 https://www.youtube.com/shorts/heBfEmBqVJw
 https://www.youtube.com/shorts/hyW052Qa9xE
 https://www.youtube.com/shorts/j1_Drwc1fIA
@@ -635,8 +635,8 @@ https://www.youtube.com/shorts/sZ1hMjx-KOI
 https://www.youtube.com/shorts/siKgOMFXRkI
 https://www.youtube.com/shorts/t2aDDQJjozo
 https://www.youtube.com/shorts/tI0d1QAMh94
+https://www.youtube.com/shorts/tcu4Pkqcm0w
 https://www.youtube.com/shorts/tmX8nyYlZgQ
-https://www.youtube.com/shorts/u6poikA5bFM
 https://www.youtube.com/shorts/uO3mAsnggpc
 https://www.youtube.com/shorts/uSiRBN7TbEI
 https://www.youtube.com/shorts/uh04PL8s7CM
@@ -944,6 +944,14 @@ https://x.com/NFL/status/2126053305709412469
 https://x.com/NFL/status/2126056382353056182
 https://x.com/NFL/status/2126057354127102038
 https://x.com/NFL/status/2126058004823097529
+https://x.com/NFL/status/2126071075557769539
+https://x.com/NFL/status/2126072801060888592
+https://x.com/NFL/status/2126073321561436445
+https://x.com/NFL/status/2126079894539141157
+https://x.com/NFL/status/2126079990047621533
+https://x.com/NFL/status/2126084914538021010
+https://x.com/NFL/status/2126085405934227605
+https://x.com/NFL/status/2126087858217705760
 https://x.com/NFLTDsVideos/status/2098243863588540602
 https://x.com/NFLTDsVideos/status/2099189736858419294
 https://x.com/NFLTDsVideos/status/2099201418368262610
@@ -1103,6 +1111,9 @@ https://x.com/dallascowboys/status/2108352810047975912
 https://x.com/dallascowboys/status/2108391839120187559
 https://x.com/dallascowboys/status/2124582209659015510
 https://x.com/dallascowboys/status/2124605876833005569
+https://x.com/dallascowboys/status/2126072907394584825
+https://x.com/dallascowboys/status/2126073658762240163
+https://x.com/dallascowboys/status/2126080538184200403
 https://x.com/dawhitehousepod/status/2096011194247069748
 https://x.com/fantasyfocus/status/2095998338160108030
 https://x.com/gbellseattle/status/2095753484431933695

@@ -4,6 +4,27 @@
   "note": "Curated: X has no public search API, so posts are collected by hand and matched to rosters by this script.",
   "tweets": [
     {
+      "url": "https://x.com/dallascowboys/status/2126073658762240163",
+      "player": "Javonte Williams",
+      "meta": "RB \u00b7 DAL",
+      "date": "2026-11-26",
+      "author": "dallascowboys",
+      "text": "you already know @javontewill33 was going to find the end zone \ud83e\udd37\u200d\u2642\ufe0f\n\n\ud83d\udcfa: #PHIvsDAL on FOX\n\ud83d\udcf2: Stream on NFL+",
+      "verified": true,
+      "faves": 725,
+      "secs": 18,
+      "game_id": "401873080",
+      "game_time": "Q1 8:50",
+      "play_key": "401873080:401873080383",
+      "played_at": "2026-11-26T21:58:18Z",
+      "poster": "https://pbs.twimg.com/amplify_video_thumb/2126073270675873792/img/Wzhd-FCzpGTDvkcA.jpg",
+      "published": "2026-11-26T22:00:35Z",
+      "video": "https://video.twimg.com/amplify_video/2126073270675873792/vid/avc1/1920x1080/u586Shr9rymfmRqM.mp4",
+      "author_name": "Dallas Cowboys",
+      "avatar": "https://pbs.twimg.com/profile_images/2047411798953857024/QaW_Sgph_normal.jpg",
+      "author_verified": true
+    },
+    {
       "url": "https://www.espn.com/video/clip/_/id/50578630/joe-burrow-heaves-beauty-tee-higgins-bengals-td",
       "player": "Tee Higgins",
       "meta": "WR \u00b7 CIN",
