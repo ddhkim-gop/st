@@ -539,6 +539,7 @@ https://www.youtube.com/shorts/SbDh6fFiDzI
 https://www.youtube.com/shorts/T3tCfD_hR1I
 https://www.youtube.com/shorts/T6L-F0ugTqQ
 https://www.youtube.com/shorts/Tur1lJFTZq8
+https://www.youtube.com/shorts/U8O4folfD3I
 https://www.youtube.com/shorts/UOhtQhyAYyU
 https://www.youtube.com/shorts/UTWN858YWfw
 https://www.youtube.com/shorts/UdzJgyKFnPI
@@ -590,7 +591,6 @@ https://www.youtube.com/shorts/h4D6mc1fozo
 https://www.youtube.com/shorts/hcVbYhMmCFM
 https://www.youtube.com/shorts/heBfEmBqVJw
 https://www.youtube.com/shorts/hyW052Qa9xE
-https://www.youtube.com/shorts/iDitw8KLPy4
 https://www.youtube.com/shorts/j1_Drwc1fIA
 https://www.youtube.com/shorts/jZpykJZKj5s
 https://www.youtube.com/shorts/kOpGf9e_AIE
@@ -872,7 +872,6 @@ https://x.com/NFL/status/2124618333282812292
 https://x.com/NFL/status/2124622178494881907
 https://x.com/NFL/status/2124624094125772896
 https://x.com/NFL/status/2124628038226976955
-https://x.com/NFL/status/2124629415074406692
 https://x.com/NFL/status/2124630407136379356
 https://x.com/NFL/status/2124630856174379467
 https://x.com/NFL/status/2124633122570699247
@@ -909,6 +908,7 @@ https://x.com/NFL/status/2125081616204599547
 https://x.com/NFL/status/2125089402565312706
 https://x.com/NFL/status/2125718673180754056
 https://x.com/NFL/status/2125734252008399333
+https://x.com/NFL/status/2125768053426458874
 https://x.com/NFLTDsVideos/status/2098243863588540602
 https://x.com/NFLTDsVideos/status/2099189736858419294
 https://x.com/NFLTDsVideos/status/2099201418368262610
@@ -983,7 +983,8 @@ https://x.com/NFLonFOX/status/2123195458445336811
 https://x.com/NFLonFOX/status/2123511534655766972
 https://x.com/NFLonFOX/status/2123565798182502523
 https://x.com/NFLonFOX/status/2124567730430837009
-https://x.com/NFLonFOX/status/2124629659513991419
+https://x.com/NFLonFOX/status/2124625230878433359
+https://x.com/NFLonFOX/status/2124653030322979141
 https://x.com/NFLonFOX/status/2124687717951004749
 https://x.com/Nate_Tice/status/2095691914121265331
 https://x.com/NotJustFootball/status/2095953794605645913
@@ -1074,7 +1075,12 @@ https://x.com/newheightshow/status/2095920685457494043
 https://x.com/nyjets/status/2124610925525438551
 https://x.com/nyjets/status/2124618374315708533
 https://x.com/nyjets/status/2124618633305522589
+https://x.com/nyjets/status/2124624788966760810
+https://x.com/nyjets/status/2124625401188397383
+https://x.com/nyjets/status/2124643355636474224
+https://x.com/nyjets/status/2124643656019923353
 https://x.com/nyjets/status/2124650673174372605
+https://x.com/nyjets/status/2124664135321608407
 https://x.com/rannyxkmj/status/2097884866348216770
 https://x.com/steelers/status/2124560194608738790
 https://x.com/talktoemhavin/status/2092756082384941418

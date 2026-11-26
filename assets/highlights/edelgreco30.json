@@ -4,6 +4,27 @@
   "note": "Curated: X has no public search API, so posts are collected by hand and matched to rosters by this script.",
   "tweets": [
     {
+      "url": "https://x.com/NFL/status/2125768053426458874",
+      "player": "Christian Watson",
+      "meta": "WR \u00b7 GB",
+      "date": "2026-11-26",
+      "author": "NFL",
+      "text": "Christian Watson across the middle and... hurdle!\n\nGBvsLAR on Netflix",
+      "verified": false,
+      "faves": 376,
+      "secs": 11,
+      "poster": "https://pbs.twimg.com/amplify_video_thumb/2125767878028992512/img/ZXlhAUAIjs6CBD_k.jpg",
+      "published": "2026-11-26T01:46:13Z",
+      "video": "https://video.twimg.com/amplify_video/2125767878028992512/vid/avc1/1920x1080/tyOx2QkWqPKk7fX_.mp4",
+      "played_at": "2026-11-26T02:08:20Z",
+      "game_time": "Q2 8:06",
+      "play_key": "401873079:4018730791424",
+      "game_id": "401873079",
+      "author_name": "NFL",
+      "avatar": "https://pbs.twimg.com/profile_images/1619895559334273028/PHKS_mjX_normal.jpg",
+      "author_verified": true
+    },
+    {
       "url": "https://www.espn.com/video/clip/_/id/50579467/jayden-daniels-finds-stefon-diggs-much-needed-first-down",
       "player": "Jayden Daniels",
       "meta": "QB \u00b7 WAS",
