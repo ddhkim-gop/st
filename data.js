@@ -7254,7 +7254,7 @@ window.__STATIC_DATA__ = {
           "weight": "241",
           "years_exp": 4,
           "status": "Active",
-          "injury_status": null,
+          "injury_status": "Questionable",
           "search_rank": 105
         },
         {
@@ -7485,7 +7485,7 @@ window.__STATIC_DATA__ = {
           "weight": "191",
           "years_exp": 11,
           "status": "Active",
-          "injury_status": null,
+          "injury_status": "Questionable",
           "search_rank": 105
         },
         {
@@ -7560,7 +7560,7 @@ window.__STATIC_DATA__ = {
           "weight": "223",
           "years_exp": 7,
           "status": "Active",
-          "injury_status": "Questionable",
+          "injury_status": "Out",
           "search_rank": 20
         },
         {
@@ -7635,7 +7635,7 @@ window.__STATIC_DATA__ = {
           "weight": "197",
           "years_exp": 3,
           "status": "Active",
-          "injury_status": null,
+          "injury_status": "Questionable",
           "search_rank": 6
         },
         {
@@ -7680,7 +7680,7 @@ window.__STATIC_DATA__ = {
           "weight": "183",
           "years_exp": 3,
           "status": "Active",
-          "injury_status": null,
+          "injury_status": "Questionable",
           "search_rank": 40
         },
         {
@@ -8127,7 +8127,7 @@ window.__STATIC_DATA__ = {
           "weight": "220",
           "years_exp": 1,
           "status": "Active",
-          "injury_status": null,
+          "injury_status": "Questionable",
           "search_rank": 38
         },
         {
@@ -8142,7 +8142,7 @@ window.__STATIC_DATA__ = {
           "weight": "231",
           "years_exp": 12,
           "status": "Active",
-          "injury_status": null,
+          "injury_status": "Questionable",
           "search_rank": 60
         },
         {
@@ -8217,7 +8217,7 @@ window.__STATIC_DATA__ = {
           "weight": "212",
           "years_exp": 6,
           "status": "Active",
-          "injury_status": "Out",
+          "injury_status": "Sus",
           "search_rank": 68
         },
         {
@@ -8337,7 +8337,7 @@ window.__STATIC_DATA__ = {
           "weight": "215",
           "years_exp": 4,
           "status": "Active",
-          "injury_status": null,
+          "injury_status": "Questionable",
           "search_rank": 64
         },
         {
@@ -8527,6 +8527,21 @@ window.__STATIC_DATA__ = {
           "search_rank": 161
         },
         {
+          "player_id": "1373",
+          "espn_id": 15864,
+          "name": "Geno Smith",
+          "position": "QB",
+          "team": "NYJ",
+          "birth_date": "1990-10-10",
+          "college": "West Virginia",
+          "height": "74",
+          "weight": "221",
+          "years_exp": 13,
+          "status": "Active",
+          "injury_status": null,
+          "search_rank": 210
+        },
+        {
           "player_id": "1479",
           "espn_id": 15818,
           "name": "Keenan Allen",
@@ -8553,7 +8568,7 @@ window.__STATIC_DATA__ = {
           "weight": "252",
           "years_exp": 10,
           "status": "Active",
-          "injury_status": null,
+          "injury_status": "Questionable",
           "search_rank": 7
         },
         {
@@ -8600,21 +8615,6 @@ window.__STATIC_DATA__ = {
           "status": "Active",
           "injury_status": "Doubtful",
           "search_rank": 17
-        },
-        {
-          "player_id": "6797",
-          "espn_id": 4038941,
-          "name": "Justin Herbert",
-          "position": "QB",
-          "team": "LAC",
-          "birth_date": "1998-03-10",
-          "college": "Oregon",
-          "height": "78",
-          "weight": "236",
-          "years_exp": 6,
-          "status": "Active",
-          "injury_status": "Questionable",
-          "search_rank": 33
         },
         {
           "player_id": "6801",
@@ -8673,7 +8673,7 @@ window.__STATIC_DATA__ = {
           "weight": "193",
           "years_exp": 5,
           "status": "Active",
-          "injury_status": null,
+          "injury_status": "Questionable",
           "search_rank": 203
         },
         {
@@ -9069,7 +9069,7 @@ window.__STATIC_DATA__ = {
           "weight": "200",
           "years_exp": 7,
           "status": "Active",
-          "injury_status": null,
+          "injury_status": "Questionable",
           "search_rank": 77
         },
         {
@@ -9225,7 +9225,7 @@ window.__STATIC_DATA__ = {
           "weight": "241",
           "years_exp": 1,
           "status": "Active",
-          "injury_status": null,
+          "injury_status": "Questionable",
           "search_rank": 63
         },
         {
@@ -9786,7 +9786,7 @@ window.__STATIC_DATA__ = {
           "weight": "220",
           "years_exp": 4,
           "status": "Active",
-          "injury_status": null,
+          "injury_status": "Questionable",
           "search_rank": 56
         },
         {
@@ -10109,6 +10109,34 @@ window.__STATIC_DATA__ = {
     }
   ],
   "transactions": [
+    {
+      "season": "2026",
+      "week": 12,
+      "created": "Nov 25, 2026 • 5:43 PM PT",
+      "transaction_id": "1431494589570621440",
+      "type": "free_agent",
+      "status": "complete",
+      "teams": [
+        "rat444"
+      ],
+      "added": [
+        {
+          "name": "Geno Smith",
+          "position": "QB",
+          "team": "NYJ"
+        }
+      ],
+      "dropped": [
+        {
+          "name": "Justin Herbert",
+          "position": "QB",
+          "team": "LAC"
+        }
+      ],
+      "faab": 0,
+      "waiver_bid": 0,
+      "notes": null
+    },
     {
       "season": "2026",
       "week": 12,
@@ -12578,7 +12606,7 @@ window.__STATIC_DATA__ = {
         {
           "name": "Brandin Cooks",
           "position": "WR",
-          "team": null
+          "team": "SF"
         }
       ],
       "faab": 0,
@@ -12683,7 +12711,7 @@ window.__STATIC_DATA__ = {
         {
           "name": "Brandin Cooks",
           "position": "WR",
-          "team": null
+          "team": "SF"
         }
       ],
       "dropped": [
