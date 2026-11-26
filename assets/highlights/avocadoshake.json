@@ -4,6 +4,27 @@
   "note": "Curated: X has no public search API, so posts are collected by hand and matched to rosters by this script.",
   "tweets": [
     {
+      "url": "https://x.com/Lions/status/2126024260325875741",
+      "player": "Jahmyr Gibbs",
+      "meta": "RB \u00b7 DET",
+      "date": "2026-11-26",
+      "author": "Lions",
+      "text": "Happy ThanksGIBBSing",
+      "verified": true,
+      "faves": 1969,
+      "secs": 37,
+      "game_id": "401873081",
+      "game_time": "Q2 12:51",
+      "play_key": "401873081:4018730811086",
+      "played_at": "2026-11-26T18:42:45Z",
+      "poster": "https://pbs.twimg.com/amplify_video_thumb/2126024166436372480/img/7WgUM9GGlfCOuMgz.jpg",
+      "published": "2026-11-26T18:44:17Z",
+      "video": "https://video.twimg.com/amplify_video/2126024166436372480/vid/avc1/1920x1080/71rk_Dv760xqB5qN.mp4",
+      "author_name": "Detroit Lions",
+      "avatar": "https://pbs.twimg.com/profile_images/2124918223527170048/75olEatQ_normal.jpg",
+      "author_verified": true
+    },
+    {
       "url": "https://www.youtube.com/shorts/J0cAnqHv2U4",
       "player": "Kirk Cousins",
       "meta": "QB \u00b7 MIN",

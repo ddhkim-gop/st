@@ -4,6 +4,27 @@
   "note": "Curated: X has no public search API, so posts are collected by hand and matched to rosters by this script.",
   "tweets": [
     {
+      "url": "https://x.com/ChicagoBears/status/2126030127381336173",
+      "player": "Kyle Monangai",
+      "meta": "RB \u00b7 CHI",
+      "date": "2026-11-26",
+      "author": "ChicagoBears",
+      "text": "KYYYYYLE MONANGAIIIIII in the end zone again \ud83c\udfb6\n\n\ud83d\udcfa: CBS",
+      "verified": true,
+      "faves": 3819,
+      "secs": 17,
+      "game_id": "401873081",
+      "game_time": "Q2 4:07",
+      "play_key": "401873081:4018730811672",
+      "played_at": "2026-11-26T19:06:11Z",
+      "poster": "https://pbs.twimg.com/amplify_video_thumb/2126029941313527808/img/4iw5QuEVKWSU_tQI.jpg",
+      "published": "2026-11-26T19:07:36Z",
+      "video": "https://video.twimg.com/amplify_video/2126029941313527808/vid/avc1/1920x1080/7DGR7onWI47U5S55.mp4",
+      "author_name": "Chicago Bears",
+      "avatar": "",
+      "author_verified": true
+    },
+    {
       "url": "https://www.espn.com/video/clip/_/id/50600829/vicious-hit-christian-watson-gets-kamren-kinchens-ejected",
       "player": "Jordan Love",
       "meta": "QB \u00b7 GB",
