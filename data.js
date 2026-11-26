@@ -9606,7 +9606,7 @@ window.__STATIC_DATA__ = {
           "weight": "241",
           "years_exp": 1,
           "status": "Active",
-          "injury_status": null,
+          "injury_status": "Out",
           "search_rank": 36
         },
         {
@@ -9854,7 +9854,7 @@ window.__STATIC_DATA__ = {
           "espn_id": 8439,
           "name": "Aaron Rodgers",
           "position": "QB",
-          "team": "PIT",
+          "team": null,
           "birth_date": "1983-12-02",
           "college": "California",
           "height": "74",
@@ -10999,7 +10999,7 @@ window.__STATIC_DATA__ = {
         {
           "name": "Aaron Rodgers",
           "position": "QB",
-          "team": "PIT"
+          "team": null
         }
       ],
       "dropped": [
@@ -11302,7 +11302,7 @@ window.__STATIC_DATA__ = {
         {
           "name": "Aaron Rodgers",
           "position": "QB",
-          "team": "PIT"
+          "team": null
         }
       ],
       "faab": 0,
@@ -12901,7 +12901,7 @@ window.__STATIC_DATA__ = {
         {
           "name": "Aaron Rodgers",
           "position": "QB",
-          "team": "PIT"
+          "team": null
         }
       ],
       "dropped": [
@@ -13020,7 +13020,7 @@ window.__STATIC_DATA__ = {
         {
           "name": "Aaron Rodgers",
           "position": "QB",
-          "team": "PIT"
+          "team": null
         }
       ],
       "faab": 0,
@@ -13703,7 +13703,7 @@ window.__STATIC_DATA__ = {
         {
           "name": "Aaron Rodgers",
           "position": "QB",
-          "team": "PIT"
+          "team": null
         }
       ],
       "dropped": [
