@@ -4,6 +4,27 @@
   "note": "Curated: X has no public search API, so posts are collected by hand and matched to rosters by this script.",
   "tweets": [
     {
+      "url": "https://x.com/NFL/status/2125771707042402326",
+      "player": "Kyren Williams",
+      "meta": "RB \u00b7 LAR",
+      "date": "2026-11-26",
+      "author": "NFL",
+      "text": "Kyren Williams registers the first TD of the game \ud83d\udd25\n\nGBvsLAR on Netflix",
+      "verified": true,
+      "faves": 647,
+      "secs": 11,
+      "game_id": "401873079",
+      "game_time": "Q2 11:29",
+      "play_key": "401873079:4018730791209",
+      "played_at": "2026-11-26T01:59:21Z",
+      "poster": "https://pbs.twimg.com/amplify_video_thumb/2125771520165515264/img/ZRxcdbpcLrj0IIf6.jpg",
+      "published": "2026-11-26T02:00:44Z",
+      "video": "https://video.twimg.com/amplify_video/2125771520165515264/vid/avc1/1920x1080/ZYGuxNjLTt8Q4j_u.mp4",
+      "author_name": "NFL",
+      "avatar": "https://pbs.twimg.com/profile_images/1619895559334273028/PHKS_mjX_normal.jpg",
+      "author_verified": true
+    },
+    {
       "url": "https://x.com/NFL/status/2125079171684855841",
       "player": "Mike Gesicki & Joe Burrow",
       "meta": "TE \u00b7 CIN",
