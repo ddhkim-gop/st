@@ -1,6 +1,6 @@
 {
   "team": "ddhk",
-  "updated": "2026-11-25",
+  "updated": "2026-11-26",
   "note": "Curated: X has no public search API, so posts are collected by hand and matched to rosters by this script.",
   "tweets": [
     {
@@ -101,7 +101,7 @@
       "published": "2026-11-22T22:15:54Z",
       "video": "https://video.twimg.com/amplify_video/2124627766675140608/vid/avc1/1920x1080/mCuklMmfJs2kKbQT.mp4",
       "author_name": "Denver Broncos",
-      "avatar": "https://pbs.twimg.com/profile_images/2112577385640116224/VdpaQL_v_normal.jpg",
+      "avatar": "",
       "author_verified": true
     },
     {

@@ -1,6 +1,6 @@
 {
   "team": "avocadoshake",
-  "updated": "2026-11-25",
+  "updated": "2026-11-26",
   "note": "Curated: X has no public search API, so posts are collected by hand and matched to rosters by this script.",
   "tweets": [
     {
@@ -297,21 +297,6 @@
       "poster": "https://espnmedia-cdn.akamaized.net/espn/media/common/2026/1122/ad48625335584e4aa01dfffeda38b12f931/ad48625335584e4aa01dfffeda38b12f931.jpg",
       "published": "2026-11-22T20:28:25Z",
       "video": "https://espnmedia-cdn.akamaized.net/espn/media/16x9/wsc/2026/1122/ad486253-3558-4e4a-a01d-fffeda38b12f/ad486253-3558-4e4a-a01d-fffeda38b12f.mp4"
-    },
-    {
-      "url": "https://www.espn.com/video/clip/_/id/50520478/can-vikings-make-super-bowl-run-kirk-cousins",
-      "player": "Kirk Cousins",
-      "meta": "QB \u00b7 MIN",
-      "date": "2026-11-18",
-      "author": "ESPN",
-      "text": "Can the Vikings make a Super Bowl run with Kirk Cousins?",
-      "verified": true,
-      "faves": 0,
-      "secs": 0,
-      "espn_game": "401873077",
-      "poster": "https://espnmedia-cdn.akamaized.net/espn/media/common/2026/1118/ss_20261118_085910184_3747727542/ss_20261118_085910184_3747727542.jpg",
-      "published": "2026-11-18T13:59:09Z",
-      "video": "https://espnmedia-cdn.akamaized.net/espn/media/16x9/2026/1118/ss_20261118_085910184_3747727/ss_20261118_085910184_3747727.mp4"
     }
   ]
 }
