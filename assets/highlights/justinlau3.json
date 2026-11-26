@@ -4,6 +4,27 @@
   "note": "Curated: X has no public search API, so posts are collected by hand and matched to rosters by this script.",
   "tweets": [
     {
+      "url": "https://x.com/ChicagoBears/status/2126045547739910512",
+      "player": "Kyle Monangai",
+      "meta": "RB \u00b7 CHI",
+      "date": "2026-11-26",
+      "author": "ChicagoBears",
+      "text": "Thankful for @kylemonangai \ud83d\ude4c\n\n\ud83d\udcfa: CBS",
+      "verified": true,
+      "faves": 1469,
+      "secs": 14,
+      "game_id": "401873081",
+      "game_time": "Q3 10:40",
+      "play_key": "401873081:4018730812743",
+      "played_at": "2026-11-26T20:07:32Z",
+      "poster": "https://pbs.twimg.com/amplify_video_thumb/2126045413283094528/img/UikNi3JNYjmq_bHI.jpg",
+      "published": "2026-11-26T20:08:53Z",
+      "video": "https://video.twimg.com/amplify_video/2126045413283094528/vid/avc1/1920x1080/ultkabV9D1FeDo6y.mp4",
+      "author_name": "Chicago Bears",
+      "avatar": "https://pbs.twimg.com/profile_images/2095215291395665920/hTWEqaly_normal.jpg",
+      "author_verified": true
+    },
+    {
       "url": "https://x.com/ChicagoBears/status/2126030127381336173",
       "player": "Kyle Monangai",
       "meta": "RB \u00b7 CHI",
@@ -11,7 +32,7 @@
       "author": "ChicagoBears",
       "text": "KYYYYYLE MONANGAIIIIII in the end zone again \ud83c\udfb6\n\n\ud83d\udcfa: CBS",
       "verified": true,
-      "faves": 3819,
+      "faves": 3896,
       "secs": 17,
       "game_id": "401873081",
       "game_time": "Q2 4:07",
@@ -21,7 +42,7 @@
       "published": "2026-11-26T19:07:36Z",
       "video": "https://video.twimg.com/amplify_video/2126029941313527808/vid/avc1/1920x1080/7DGR7onWI47U5S55.mp4",
       "author_name": "Chicago Bears",
-      "avatar": "",
+      "avatar": "https://pbs.twimg.com/profile_images/2095215291395665920/hTWEqaly_normal.jpg",
       "author_verified": true
     },
     {
