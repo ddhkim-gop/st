@@ -4,6 +4,27 @@
   "note": "Curated: X has no public search API, so posts are collected by hand and matched to rosters by this script.",
   "tweets": [
     {
+      "url": "https://x.com/Lions/status/2126015217607786544",
+      "player": "Amon-Ra St. Brown",
+      "meta": "WR \u00b7 DET",
+      "date": "2026-11-26",
+      "author": "Lions",
+      "text": "Amon-Ra only needed one hand!",
+      "verified": true,
+      "faves": 819,
+      "secs": 26,
+      "game_id": "401873081",
+      "game_time": "Q1 12:49",
+      "play_key": "401873081:401873081190",
+      "played_at": "2026-11-26T18:07:06Z",
+      "poster": "https://pbs.twimg.com/amplify_video_thumb/2126015131846950912/img/EdiD1p-HQUQH47aM.jpg",
+      "published": "2026-11-26T18:08:21Z",
+      "video": "https://video.twimg.com/amplify_video/2126015131846950912/vid/avc1/1920x1080/NEeMfFTRiB5rXZFL.mp4",
+      "author_name": "Detroit Lions",
+      "avatar": "https://pbs.twimg.com/profile_images/2124918223527170048/75olEatQ_normal.jpg",
+      "author_verified": true
+    },
+    {
       "url": "https://www.espn.com/video/clip/_/id/50600829/vicious-hit-christian-watson-gets-kamren-kinchens-ejected",
       "player": "Christian Watson",
       "meta": "WR \u00b7 GB",
@@ -139,7 +160,7 @@
       "published": "2026-11-22T18:57:56Z",
       "video": "https://video.twimg.com/amplify_video/2124577978168315904/vid/avc1/1920x1080/eQku4QGYUKr4oqy6.mp4",
       "author_name": "Detroit Lions",
-      "avatar": "https://pbs.twimg.com/profile_images/2123059463183552512/trJ0qtt2_normal.jpg",
+      "avatar": "https://pbs.twimg.com/profile_images/2124918223527170048/75olEatQ_normal.jpg",
       "author_verified": true
     },
     {
