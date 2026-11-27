@@ -4,6 +4,27 @@
   "note": "Curated: X has no public search API, so posts are collected by hand and matched to rosters by this script.",
   "tweets": [
     {
+      "url": "https://x.com/steelers/status/2126437299948777498",
+      "player": "Rico Dowdle",
+      "meta": "RB \u00b7 PIT",
+      "date": "2026-11-27",
+      "author": "steelers",
+      "text": "RUN RICO RUN @ricodowdle",
+      "verified": true,
+      "faves": 255,
+      "secs": 11,
+      "game_id": "401873083",
+      "game_time": "Q3 3:31",
+      "play_key": "401873083:4018730832758",
+      "played_at": "2026-11-27T22:05:22Z",
+      "poster": "https://pbs.twimg.com/amplify_video_thumb/2126437218973528064/img/PzJriN9ndkvMsPDN.jpg",
+      "published": "2026-11-27T22:05:34Z",
+      "video": "https://video.twimg.com/amplify_video/2126437218973528064/vid/avc1/1920x1080/PDTLE7XkNep5P3Xd.mp4",
+      "author_name": "Pittsburgh Steelers",
+      "avatar": "https://pbs.twimg.com/profile_images/1982652036136030208/ptD9zAsL_normal.jpg",
+      "author_verified": true
+    },
+    {
       "url": "https://www.espn.com/video/clip/_/id/50605992/dandre-swift-finds-space-30-yard-bears-td",
       "player": "D'Andre Swift",
       "meta": "RB \u00b7 CHI",
