@@ -4,6 +4,25 @@
   "note": "Curated: X has no public search API, so posts are collected by hand and matched to rosters by this script.",
   "tweets": [
     {
+      "url": "https://www.espn.com/video/clip/_/id/50613822/dk-metcalf-makes-nice-td-snag",
+      "player": "DK Metcalf",
+      "meta": "WR \u00b7 PIT",
+      "date": "2026-11-27",
+      "author": "ESPN",
+      "text": "DK Metcalf makes nice TD snag",
+      "verified": true,
+      "faves": 0,
+      "secs": 0,
+      "espn_game": "401873083",
+      "game_id": "401873083",
+      "game_time": "Q1 1:40",
+      "play_key": "401873083:401873083773",
+      "played_at": "2026-11-27T20:33:54Z",
+      "poster": "https://espnmedia-cdn.akamaized.net/espn/media/common/2026/1127/6aa2ac3bc9bf43dbbd142bd73ab5ae581080/6aa2ac3bc9bf43dbbd142bd73ab5ae581080.jpg",
+      "published": "2026-11-27T20:41:22Z",
+      "video": "https://espnmedia-cdn.akamaized.net/espn/media/16x9/wsc/2026/1127/6aa2ac3b-c9bf-43db-bd14-2bd73ab5ae58/6aa2ac3b-c9bf-43db-bd14-2bd73ab5ae58.mp4"
+    },
+    {
       "url": "https://www.espn.com/video/clip/_/id/50607562/airborne-dak-prescott-reaches-pylon-contact-wild-td",
       "player": "Dak Prescott",
       "meta": "QB \u00b7 DAL",
