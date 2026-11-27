@@ -7033,21 +7033,6 @@ window.__STATIC_DATA__ = {
           "search_rank": 172
         },
         {
-          "player_id": "12522",
-          "espn_id": null,
-          "name": "Cam Ward",
-          "position": "QB",
-          "team": "TEN",
-          "birth_date": "2002-05-25",
-          "college": "Miami (FL)",
-          "height": "74",
-          "weight": "219",
-          "years_exp": 1,
-          "status": "Active",
-          "injury_status": null,
-          "search_rank": 116
-        },
-        {
           "player_id": "12533",
           "espn_id": null,
           "name": "Jacory Croskey-Merritt",
@@ -7071,7 +7056,7 @@ window.__STATIC_DATA__ = {
           "birth_date": "2004-08-12",
           "college": "Arizona State",
           "height": "74",
-          "weight": "203",
+          "weight": "200",
           "years_exp": 0,
           "status": "Active",
           "injury_status": null,
@@ -7121,6 +7106,21 @@ window.__STATIC_DATA__ = {
           "status": "Active",
           "injury_status": null,
           "search_rank": 118
+        },
+        {
+          "player_id": "4017",
+          "espn_id": 3122840,
+          "name": "Deshaun Watson",
+          "position": "QB",
+          "team": "CLE",
+          "birth_date": "1995-09-14",
+          "college": "Clemson",
+          "height": "75",
+          "weight": "223",
+          "years_exp": 9,
+          "status": "Active",
+          "injury_status": null,
+          "search_rank": 291
         },
         {
           "player_id": "4983",
@@ -7254,7 +7254,7 @@ window.__STATIC_DATA__ = {
           "weight": "241",
           "years_exp": 4,
           "status": "Active",
-          "injury_status": "Questionable",
+          "injury_status": null,
           "search_rank": 105
         },
         {
@@ -7425,7 +7425,7 @@ window.__STATIC_DATA__ = {
           "weight": "208",
           "years_exp": 1,
           "status": "Active",
-          "injury_status": "Questionable",
+          "injury_status": null,
           "search_rank": 105
         },
         {
@@ -7821,7 +7821,7 @@ window.__STATIC_DATA__ = {
           "weight": "209",
           "years_exp": 1,
           "status": "Active",
-          "injury_status": "Questionable",
+          "injury_status": "Out",
           "search_rank": 44
         },
         {
@@ -8247,7 +8247,7 @@ window.__STATIC_DATA__ = {
           "weight": "245",
           "years_exp": 6,
           "status": "Active",
-          "injury_status": "Questionable",
+          "injury_status": "Out",
           "search_rank": 103
         },
         {
@@ -8367,7 +8367,7 @@ window.__STATIC_DATA__ = {
           "weight": "203",
           "years_exp": 3,
           "status": "Active",
-          "injury_status": "Questionable",
+          "injury_status": "Out",
           "search_rank": 164
         },
         {
@@ -8568,7 +8568,7 @@ window.__STATIC_DATA__ = {
           "weight": "252",
           "years_exp": 10,
           "status": "Active",
-          "injury_status": "Questionable",
+          "injury_status": null,
           "search_rank": 7
         },
         {
@@ -8613,7 +8613,7 @@ window.__STATIC_DATA__ = {
           "weight": "226",
           "years_exp": 7,
           "status": "Active",
-          "injury_status": "Doubtful",
+          "injury_status": "Out",
           "search_rank": 17
         },
         {
@@ -8628,7 +8628,7 @@ window.__STATIC_DATA__ = {
           "weight": "220",
           "years_exp": 6,
           "status": "Active",
-          "injury_status": null,
+          "injury_status": "Questionable",
           "search_rank": 36
         },
         {
@@ -8816,6 +8816,21 @@ window.__STATIC_DATA__ = {
           "status": "Active",
           "injury_status": "Questionable",
           "search_rank": 19
+        },
+        {
+          "player_id": "11631",
+          "espn_id": null,
+          "name": "Brian Thomas Jr.",
+          "position": "WR",
+          "team": "JAX",
+          "birth_date": "2002-10-08",
+          "college": "LSU",
+          "height": "74",
+          "weight": "209",
+          "years_exp": 2,
+          "status": "Active",
+          "injury_status": null,
+          "search_rank": 75
         },
         {
           "player_id": "1166",
@@ -9013,21 +9028,6 @@ window.__STATIC_DATA__ = {
           "search_rank": 697
         },
         {
-          "player_id": "5012",
-          "espn_id": 3116365,
-          "name": "Mark Andrews",
-          "position": "TE",
-          "team": "BAL",
-          "birth_date": "1995-09-06",
-          "college": "Oklahoma",
-          "height": "77",
-          "weight": "250",
-          "years_exp": 8,
-          "status": "Active",
-          "injury_status": null,
-          "search_rank": 96
-        },
-        {
           "player_id": "5846",
           "espn_id": 4047650,
           "name": "DK Metcalf",
@@ -9069,7 +9069,7 @@ window.__STATIC_DATA__ = {
           "weight": "200",
           "years_exp": 7,
           "status": "Active",
-          "injury_status": "Questionable",
+          "injury_status": null,
           "search_rank": 77
         },
         {
@@ -9129,7 +9129,7 @@ window.__STATIC_DATA__ = {
           "weight": "204",
           "years_exp": 3,
           "status": "Active",
-          "injury_status": "Questionable",
+          "injury_status": "Out",
           "search_rank": 68
         },
         {
@@ -10109,6 +10109,62 @@ window.__STATIC_DATA__ = {
     }
   ],
   "transactions": [
+    {
+      "season": "2026",
+      "week": 12,
+      "created": "Nov 27, 2026 • 12:43 PM PT",
+      "transaction_id": "1432143922527768576",
+      "type": "free_agent",
+      "status": "complete",
+      "teams": [
+        "avocadoshake"
+      ],
+      "added": [
+        {
+          "name": "Brian Thomas Jr.",
+          "position": "WR",
+          "team": "JAX"
+        }
+      ],
+      "dropped": [
+        {
+          "name": "Mark Andrews",
+          "position": "TE",
+          "team": "BAL"
+        }
+      ],
+      "faab": 0,
+      "waiver_bid": 0,
+      "notes": null
+    },
+    {
+      "season": "2026",
+      "week": 12,
+      "created": "Nov 27, 2026 • 11:28 AM PT",
+      "transaction_id": "1432124999140900864",
+      "type": "free_agent",
+      "status": "complete",
+      "teams": [
+        "ddhk"
+      ],
+      "added": [
+        {
+          "name": "Deshaun Watson",
+          "position": "QB",
+          "team": "CLE"
+        }
+      ],
+      "dropped": [
+        {
+          "name": "Cam Ward",
+          "position": "QB",
+          "team": "TEN"
+        }
+      ],
+      "faab": 0,
+      "waiver_bid": 0,
+      "notes": null
+    },
     {
       "season": "2026",
       "week": 12,
