@@ -1,8 +1,29 @@
 {
   "team": "churlz98",
-  "updated": "2026-11-26",
+  "updated": "2026-11-27",
   "note": "Curated: X has no public search API, so posts are collected by hand and matched to rosters by this script.",
   "tweets": [
+    {
+      "url": "https://x.com/NFL/status/2126399985923105207",
+      "player": "Bo Nix",
+      "meta": "QB \u00b7 DEN",
+      "date": "2026-11-27",
+      "author": "NFL",
+      "text": "Pregame reps with Bo Nix \ud83d\udc4f\n\nDENvsPIT \u2013 3pm ET on Prime Video\nStream on @NFLPlus",
+      "verified": false,
+      "faves": 335,
+      "secs": 11,
+      "poster": "https://pbs.twimg.com/amplify_video_thumb/2126398341579968512/img/lGzujUM1gGeB8PX2.jpg",
+      "published": "2026-11-27T19:37:17Z",
+      "video": "https://video.twimg.com/amplify_video/2126398341579968512/vid/avc1/1080x1920/KsYAgOOY1y7JNpGC.mp4",
+      "played_at": "2026-11-27T20:22:33Z",
+      "game_time": "Q1 6:03",
+      "play_key": "401873083:401873083512",
+      "game_id": "401873083",
+      "author_name": "NFL",
+      "avatar": "https://pbs.twimg.com/profile_images/1619895559334273028/PHKS_mjX_normal.jpg",
+      "author_verified": true
+    },
     {
       "url": "https://x.com/NFL/status/2126085405934227605",
       "player": "Makai Lemon",
@@ -11,7 +32,7 @@
       "author": "NFL",
       "text": "Milton scrambles and finds Makai Lemon to convert on 3rd and long \ud83d\udd25\n\nPHIvsDAL on FOX/FOX One/Tubi\nStream on @NFLPlus",
       "verified": true,
-      "faves": 305,
+      "faves": 469,
       "secs": 10,
       "game_id": "401873080",
       "game_time": "Q2 9:44",
@@ -42,7 +63,7 @@
       "published": "2026-11-26T21:57:36Z",
       "video": "https://video.twimg.com/amplify_video/2126072703249461249/vid/avc1/1920x1080/DWb8PWUG8DgivXZO.mp4",
       "author_name": "Dallas Cowboys",
-      "avatar": "https://pbs.twimg.com/profile_images/2047411798953857024/QaW_Sgph_normal.jpg",
+      "avatar": "",
       "author_verified": true
     },
     {

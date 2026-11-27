@@ -1,6 +1,6 @@
 {
   "team": "justinlau3",
-  "updated": "2026-11-26",
+  "updated": "2026-11-27",
   "note": "Curated: X has no public search API, so posts are collected by hand and matched to rosters by this script.",
   "tweets": [
     {
@@ -11,7 +11,7 @@
       "author": "NFL",
       "text": "Big catch from George Pickens!\n\nPHIvsDAL on FOX/FOX One/Tubi\nStream on @NFLPlus",
       "verified": true,
-      "faves": 754,
+      "faves": 1002,
       "secs": 12,
       "game_id": "401873080",
       "game_time": "Q1 1:56",

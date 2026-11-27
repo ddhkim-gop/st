@@ -1,28 +1,26 @@
 {
   "team": "ochen07",
-  "updated": "2026-11-26",
+  "updated": "2026-11-27",
   "note": "Curated: X has no public search API, so posts are collected by hand and matched to rosters by this script.",
   "tweets": [
     {
-      "url": "https://x.com/ChicagoBears/status/2126057723577922014",
+      "url": "https://www.espn.com/video/clip/_/id/50606077/caleb-williams-finds-rome-odunze-40-yard-dart-bears-td",
       "player": "Rome Odunze",
       "meta": "WR \u00b7 CHI",
       "date": "2026-11-26",
-      "author": "ChicagoBears",
-      "text": "\ud83d\udde3\ufe0f ROOOOOOOME ODUUUUUNZE\n\n\ud83d\udcfa: CBS",
+      "author": "ESPN",
+      "text": "Caleb Williams finds Rome Odunze with a 40-yard dart for a Bears TD",
       "verified": true,
-      "faves": 3571,
-      "secs": 14,
+      "faves": 0,
+      "secs": 0,
+      "espn_game": "401873081",
       "game_id": "401873081",
       "game_time": "Q4 7:20",
       "play_key": "401873081:4018730813906",
       "played_at": "2026-11-26T20:56:18Z",
-      "poster": "https://pbs.twimg.com/amplify_video_thumb/2126057682419269632/img/60wduy8vsdfb5ccx.jpg",
-      "published": "2026-11-26T20:57:16Z",
-      "video": "https://video.twimg.com/amplify_video/2126057682419269632/vid/avc1/1920x1080/XLLth4-UexpGBYUb.mp4",
-      "author_name": "Chicago Bears",
-      "avatar": "https://pbs.twimg.com/profile_images/2095215291395665920/hTWEqaly_normal.jpg",
-      "author_verified": true
+      "poster": "https://espnmedia-cdn.akamaized.net/espn/media/common/2026/1126/d3b0632e7c1d43b68740f0835b3dd1a8972/d3b0632e7c1d43b68740f0835b3dd1a8972.jpg",
+      "published": "2026-11-26T21:05:09Z",
+      "video": "https://espnmedia-cdn.akamaized.net/espn/media/16x9/wsc/2026/1126/d3b0632e-7c1d-43b6-8740-f0835b3dd1a8/d3b0632e-7c1d-43b6-8740-f0835b3dd1a8.mp4"
     },
     {
       "url": "https://www.espn.com/video/clip/_/id/50605699/jared-goff-links-sam-laporta-lions-td",
@@ -120,7 +118,7 @@
       "published": "2026-11-24T03:16:01Z",
       "video": "https://video.twimg.com/amplify_video/2125065781750689792/vid/avc1/1920x1080/uayBIu_HcKJKEzgq.mp4",
       "author_name": "Cincinnati Bengals",
-      "avatar": "https://pbs.twimg.com/profile_images/2122764937265115136/iZFLmFxi_normal.jpg",
+      "avatar": "",
       "author_verified": true
     },
     {

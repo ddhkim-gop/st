@@ -1,8 +1,27 @@
 {
   "team": "edelgreco30",
-  "updated": "2026-11-26",
+  "updated": "2026-11-27",
   "note": "Curated: X has no public search API, so posts are collected by hand and matched to rosters by this script.",
   "tweets": [
+    {
+      "url": "https://www.espn.com/video/clip/_/id/50605992/dandre-swift-finds-space-30-yard-bears-td",
+      "player": "D'Andre Swift",
+      "meta": "RB \u00b7 CHI",
+      "date": "2026-11-26",
+      "author": "ESPN",
+      "text": "D'Andre Swift finds the space for a 30-yard Bears TD",
+      "verified": true,
+      "faves": 0,
+      "secs": 0,
+      "espn_game": "401873081",
+      "game_id": "401873081",
+      "game_time": "Q3 3:09",
+      "play_key": "401873081:4018730813255",
+      "played_at": "2026-11-26T20:26:24Z",
+      "poster": "https://espnmedia-cdn.akamaized.net/espn/media/common/2026/1126/0c3a0556b7c8453883d33cae4cbb063e999/0c3a0556b7c8453883d33cae4cbb063e999.jpg",
+      "published": "2026-11-26T20:38:57Z",
+      "video": "https://espnmedia-cdn.akamaized.net/espn/media/16x9/wsc/2026/1126/0c3a0556-b7c8-4538-83d3-3cae4cbb063e/0c3a0556-b7c8-4538-83d3-3cae4cbb063e.mp4"
+    },
     {
       "url": "https://www.espn.com/video/clip/_/id/50605699/jared-goff-links-sam-laporta-lions-td",
       "player": "Jared Goff",
