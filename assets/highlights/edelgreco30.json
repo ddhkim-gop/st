@@ -1,6 +1,6 @@
 {
   "team": "edelgreco30",
-  "updated": "2026-11-27",
+  "updated": "2026-11-28",
   "note": "Curated: X has no public search API, so posts are collected by hand and matched to rosters by this script.",
   "tweets": [
     {
@@ -299,25 +299,6 @@
       "poster": "https://espnmedia-cdn.akamaized.net/espn/media/common/wsc/2026/1122/aa2f3a28-1004-45a6-a2be-b183fa3b8287/aa2f3a28-1004-45a6-a2be-b183fa3b8287.jpg",
       "published": "2026-11-22T19:00:06Z",
       "video": "https://espnmedia-cdn.akamaized.net/espn/media/16x9/wsc/2026/1122/aa2f3a28-1004-45a6-a2be-b183fa3b8287/aa2f3a28-1004-45a6-a2be-b183fa3b8287.mp4"
-    },
-    {
-      "url": "https://www.espn.com/video/clip/_/id/50536522/kayshon-boutte-rises-make-awesome-grab-texans-td",
-      "player": "Kayshon Boutte",
-      "meta": "WR \u00b7 HOU",
-      "date": "2026-11-20",
-      "author": "ESPN",
-      "text": "Kayshon Boutte rises to make an awesome grab for a Texans TD",
-      "verified": true,
-      "faves": 0,
-      "secs": 0,
-      "espn_game": "401873066",
-      "game_id": "401873066",
-      "game_time": "Q2 7:38",
-      "play_key": "401873066:4018730661357",
-      "played_at": "2026-11-20T02:09:14Z",
-      "poster": "https://espnmedia-cdn.akamaized.net/espn/media/common/2026/1119/566a5763346943df8c8069e9ab89cd361392/566a5763346943df8c8069e9ab89cd361392.jpg",
-      "published": "2026-11-20T02:19:56Z",
-      "video": "https://espnmedia-cdn.akamaized.net/espn/media/16x9/wsc/2026/1120/566a5763-3469-43df-8c80-69e9ab89cd36/566a5763-3469-43df-8c80-69e9ab89cd36.mp4"
     },
     {
       "url": "https://www.espn.com/video/clip/_/id/50578683/stefon-diggs-visibly-frustrated-commanders-sideline",

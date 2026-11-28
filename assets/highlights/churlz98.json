@@ -1,6 +1,6 @@
 {
   "team": "churlz98",
-  "updated": "2026-11-27",
+  "updated": "2026-11-28",
   "note": "Curated: X has no public search API, so posts are collected by hand and matched to rosters by this script.",
   "tweets": [
     {
@@ -240,25 +240,6 @@
       "poster": "https://espnmedia-cdn.akamaized.net/espn/media/common/2026/1123/1b4bba9967ae4299975153cd60707891172/1b4bba9967ae4299975153cd60707891172.jpg",
       "published": "2026-11-22T18:56:58Z",
       "video": "https://espnmedia-cdn.akamaized.net/espn/media/16x9/wsc/2026/1122/1b4bba99-67ae-4299-9751-53cd60707891/1b4bba99-67ae-4299-9751-53cd60707891.mp4"
-    },
-    {
-      "url": "https://www.espn.com/video/clip/_/id/50536298/cj-stroud-fires-42-yard-dime-nico-collins-texans-td",
-      "player": "Nico Collins",
-      "meta": "WR \u00b7 HOU",
-      "date": "2026-11-20",
-      "author": "ESPN",
-      "text": "C.J. Stroud fires a 42-yard dime to Nico Collins for Texans TD",
-      "verified": true,
-      "faves": 0,
-      "secs": 0,
-      "espn_game": "401873066",
-      "game_id": "401873066",
-      "game_time": "Q1 2:14",
-      "play_key": "401873066:401873066834",
-      "played_at": "2026-11-20T01:49:58Z",
-      "poster": "https://espnmedia-cdn.akamaized.net/espn/media/common/2026/1119/535362da4bd843209c51ff446272a7a01390/535362da4bd843209c51ff446272a7a01390.jpg",
-      "published": "2026-11-20T01:59:49Z",
-      "video": "https://espnmedia-cdn.akamaized.net/espn/media/16x9/wsc/2026/1120/535362da-4bd8-4320-9c51-ff446272a7a0/535362da-4bd8-4320-9c51-ff446272a7a0.mp4"
     },
     {
       "url": "https://x.com/NFL/status/2126399985923105207",
