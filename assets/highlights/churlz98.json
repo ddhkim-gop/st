@@ -242,6 +242,21 @@
       "video": "https://espnmedia-cdn.akamaized.net/espn/media/16x9/wsc/2026/1122/1b4bba99-67ae-4299-9751-53cd60707891/1b4bba99-67ae-4299-9751-53cd60707891.mp4"
     },
     {
+      "url": "https://www.espn.com/video/clip/_/id/50616923/falcons-play-familiar-face-kirk-cousins",
+      "player": "Bijan Robinson",
+      "meta": "RB \u00b7 ATL",
+      "date": "2026-11-28",
+      "author": "ESPN",
+      "text": "Falcons to play familiar face in Kirk Cousins. Marc Raimondi details the relationship between Bijan Robinson and Kirk Cousins ahead of Sunday's showdown.",
+      "verified": true,
+      "faves": 0,
+      "secs": 0,
+      "espn_game": "401873084",
+      "poster": "https://espnmedia-cdn.akamaized.net/espn/media/common/2026/1127/dm_261127_falcons_ia/dm_261127_falcons_ia.jpg",
+      "published": "2026-11-28T01:21:43Z",
+      "video": "https://espnmedia-cdn.akamaized.net/espn/media/16x9/2026/1127/dm_261127_falcons_ia/dm_261127_falcons_ia.mp4"
+    },
+    {
       "url": "https://x.com/NFL/status/2126399985923105207",
       "player": "Bo Nix",
       "meta": "QB \u00b7 DEN",
@@ -284,7 +299,7 @@
       "faves": 0,
       "secs": 0,
       "espn_game": "401873083",
-      "poster": "https://espnmedia-cdn.akamaized.net/espn/media/common/wsc/2026/1127/0f588709-0686-411e-87b9-63a1ed8220b3/0f588709-0686-411e-87b9-63a1ed8220b3.jpg",
+      "poster": "https://espnmedia-cdn.akamaized.net/espn/media/common/2026/1127/0f5887090686411e87b963a1ed8220b31085/0f5887090686411e87b963a1ed8220b31085.jpg",
       "published": "2026-11-27T22:53:13Z",
       "video": "https://espnmedia-cdn.akamaized.net/espn/media/16x9/wsc/2026/1127/0f588709-0686-411e-87b9-63a1ed8220b3/0f588709-0686-411e-87b9-63a1ed8220b3.mp4"
     },

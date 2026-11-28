@@ -4415,9 +4415,15 @@
  },
  "https://www.espn.com/video/clip/_/id/50615531/bo-nix-turns-3rd-4th-21": {
   "espn_game": "401873083",
-  "poster": "https://espnmedia-cdn.akamaized.net/espn/media/common/wsc/2026/1127/0f588709-0686-411e-87b9-63a1ed8220b3/0f588709-0686-411e-87b9-63a1ed8220b3.jpg",
+  "poster": "https://espnmedia-cdn.akamaized.net/espn/media/common/2026/1127/0f5887090686411e87b963a1ed8220b31085/0f5887090686411e87b963a1ed8220b31085.jpg",
   "published": "2026-11-27T22:53:13Z",
   "video": "https://espnmedia-cdn.akamaized.net/espn/media/16x9/wsc/2026/1127/0f588709-0686-411e-87b9-63a1ed8220b3/0f588709-0686-411e-87b9-63a1ed8220b3.mp4"
+ },
+ "https://www.espn.com/video/clip/_/id/50616923/falcons-play-familiar-face-kirk-cousins": {
+  "espn_game": "401873084",
+  "poster": "https://espnmedia-cdn.akamaized.net/espn/media/common/2026/1127/dm_261127_falcons_ia/dm_261127_falcons_ia.jpg",
+  "published": "2026-11-28T01:21:43Z",
+  "video": "https://espnmedia-cdn.akamaized.net/espn/media/16x9/2026/1127/dm_261127_falcons_ia/dm_261127_falcons_ia.mp4"
  },
  "https://www.youtube.com/shorts/-9mLHMkLMRw": {
   "poster": "https://i.ytimg.com/vi/-9mLHMkLMRw/hqdefault.jpg",
@@ -5467,6 +5473,11 @@
   "poster": "https://i.ytimg.com/vi/BsTJij-d_6Q/hqdefault.jpg",
   "published": "2026-10-25T16:44:22Z",
   "youtube": "BsTJij-d_6Q"
+ },
+ "https://www.youtube.com/shorts/BwUGlT3ySqE": {
+  "poster": "https://i.ytimg.com/vi/BwUGlT3ySqE/hqdefault.jpg",
+  "published": "2026-11-28T00:00:26Z",
+  "youtube": "BwUGlT3ySqE"
  },
  "https://www.youtube.com/shorts/BycfnV-6Isg": {
   "poster": "https://i.ytimg.com/vi/BycfnV-6Isg/hqdefault.jpg",
