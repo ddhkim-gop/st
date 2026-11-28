@@ -7153,21 +7153,6 @@ window.__STATIC_DATA__ = {
           "search_rank": 4
         },
         {
-          "player_id": "6865",
-          "espn_id": 4242557,
-          "name": "Colby Parkinson",
-          "position": "TE",
-          "team": "LAR",
-          "birth_date": "1999-01-08",
-          "college": "Stanford",
-          "height": "79",
-          "weight": "266",
-          "years_exp": 6,
-          "status": "Active",
-          "injury_status": null,
-          "search_rank": 136
-        },
-        {
           "player_id": "7042",
           "espn_id": 3917232,
           "name": "Tyler Bass",
@@ -7316,6 +7301,21 @@ window.__STATIC_DATA__ = {
           "status": "Active",
           "injury_status": null,
           "search_rank": 27
+        },
+        {
+          "player_id": "9229",
+          "espn_id": null,
+          "name": "Anthony Richardson Sr.",
+          "position": "QB",
+          "team": "IND",
+          "birth_date": "2002-05-22",
+          "college": "Florida",
+          "height": "76",
+          "weight": "244",
+          "years_exp": 3,
+          "status": "Active",
+          "injury_status": null,
+          "search_rank": 473
         },
         {
           "player_id": "NYJ",
@@ -8127,7 +8127,7 @@ window.__STATIC_DATA__ = {
           "weight": "220",
           "years_exp": 1,
           "status": "Active",
-          "injury_status": "Questionable",
+          "injury_status": null,
           "search_rank": 38
         },
         {
@@ -8994,7 +8994,7 @@ window.__STATIC_DATA__ = {
           "weight": "238",
           "years_exp": 11,
           "status": "Active",
-          "injury_status": "Questionable",
+          "injury_status": null,
           "search_rank": 355
         },
         {
@@ -10109,6 +10109,34 @@ window.__STATIC_DATA__ = {
     }
   ],
   "transactions": [
+    {
+      "season": "2026",
+      "week": 12,
+      "created": "Nov 28, 2026 • 11:39 AM PT",
+      "transaction_id": "1432490050997731328",
+      "type": "free_agent",
+      "status": "complete",
+      "teams": [
+        "ddhk"
+      ],
+      "added": [
+        {
+          "name": "Anthony Richardson Sr.",
+          "position": "QB",
+          "team": "IND"
+        }
+      ],
+      "dropped": [
+        {
+          "name": "Colby Parkinson",
+          "position": "TE",
+          "team": "LAR"
+        }
+      ],
+      "faab": 0,
+      "waiver_bid": 0,
+      "notes": null
+    },
     {
       "season": "2026",
       "week": 12,
